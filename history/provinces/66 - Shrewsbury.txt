@@ -1,0 +1,22 @@
+# 66 - Shrewsbury
+
+# County Title
+title = c_shrewsbury
+
+# Settlements
+max_settlements = 4
+b_wenlock = castle
+#b_ludlow = castle
+#b_shrewsbury = city
+#b_clun = castle
+#b_bridgnorth = castle
+#b_oswestry = castle
+#b_whitchurch = castle
+#b_chirk = castle
+
+# Misc
+culture = welsh
+religion = celtic_pagan
+
+# History
+100.1.1 = { name = "Pengwern" }

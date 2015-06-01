@@ -1,0 +1,16 @@
+# 112 - Ile de France
+
+# County Title
+title = c_ile_de_france
+
+# Settlements
+max_settlements = 6
+b_melun = castle
+b_paris = city
+b_stdenis = temple
+b_meaux = castle
+#b_montfortlamaury = castle
+#b_compiegne = city
+
+culture = gothic
+religion = arian

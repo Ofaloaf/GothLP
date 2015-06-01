@@ -1,0 +1,247 @@
+provinciale = {
+	graphical_culture = westerngfx
+
+	gallic = {
+		graphical_culture = occitangfx
+		
+		color = { 0.8 0.8 0.3 }
+
+		male_names = {
+			Alexander_Alexander Alexis_Alexis Anastasis_Anastasius Athanasis_Athanasius Achilles 
+			Apollinaris Antonis_Antonius Aurelïen Aurelis_Aurelius Acius Agustius Amabilis Amator 
+			Avitus Austromoine Aegus Ambrosis_Ambrosius Arvandes Adrienes_Adrian
+			Benedixes_Benedict Benignus Baudilus Bartholomeus_Bartholomew Boecis_Boethius Bonetus
+			Cesaris Carles_Charles Caius Constantines_Consantine Caprasis Cassïen Cassis 
+			Castor Celsus Crispines Carbonel
+			Danielus_Daniel David_David Deusdedit Denysis_Dionysus Daurel Dalmacius
+			Eufemïen Eugenis_Eugene Eugendus Eucherius Euspicis Eustochis Eutropis Exuperis 
+			Egides_Aegidius Estefanes_Stephen
+			Ferreolus Fabien Froterius Felix
+			Georgis_George Gratus Gratïen Gatïen Germanes_Germanus Gregoris_Gregory Guito
+			Hubaldus Honoris_Honorius Honorates Horatis Hilaris Honestes
+			Innocentis Ignacis_Ignatius Isaias_Isaiah Irenaeus Illidis
+			Julïen_Julian Julis_Julius Jacobes_Jacob Joanes_John
+			Lucas_Luke Lucius_Lucius Leoncis_Leontius Leo_Leo Laurentis_Laurence Landericus Latuinus 
+			Lazarus_Lazarus Luperculus Lupes Laelianus Laurentiolis
+			Maximiien Michael_Michael Miles Matthaeus_Matthew Marcus_Marcus Maximes_Maximus Mamertinus 
+			Mamertus Mansuetus Mercurius Martines_Martin
+			Nicolaus_Nicholas Nicomaces Nazaris Namatis Nicasis
+			Orosis
+			Pelagis_Pelagius Petres_Peter Paule_Paul Polycarpes Pocinus Poncius_Pontius Palladis 
+			Petronis Patroclus Peregrinus Perpetuus Pantagaces Philippes_Philip
+			Remigis Romaeus Romanes_Roman Rusticus Rasifes Ravennis Roscillus Rufines
+			Sidonis Symmaches_Symmachus Syagris Saturninus Sanxis_Sancho Savinien Symphorianes 
+			Silvanus Silvester_Silvester Sebaste_Sebastian
+			Theodores_Theodore Theophiles Thomas_Thomas Trofimes Tiberis_Tiberius Tetricus Timotheus_Timothy 
+			Theodosis_Theodosius
+			Urbanes_Urban Ursinus_Ursus
+			Vixor_Victor Vixorinus Vincentius_Vincent Viventiolis Vitalis
+			Zacharias_Zachary Zefirines
+		}
+
+		female_names = {
+			Alexa Alexandra_Alexandra Angela Angelina Anastasia_Anastasia Anna_Anna Antonie_Antonia Araneole
+			Antonietta Apollonia Amata Agusta_Augusta Armentaria Auspicia
+			Buona_Bonne Britta Benedixa_Benedicta Bella Beatrix_Beatrice
+			Constanta_Constantia Constantina_Constantina Columba Claudia Candida Callista Crispina
+			Daniella Denysia_Dionysia Devota Donata Domitia Dominice
+			Eulalia Eugenia_Eugenia Eudocia_Eudocia Egidie
+			Fides Florencie Flavia Fausta
+			Galla Genovefa Gabriella Galeria
+			Honorina Hilaria
+			Justa Justinie_Justinina Julie_Julia Juliane_Juliana Julietta Jehanna_Joan
+			Laura Laeliana Lucrecie Leontia
+			Maria_Maria Marcia_Marcia Mariana Maura Marcella Martine Minervina Maximïena
+			Placidia Petra Petronilla_Petronilla Paula Pia Pauline_Paulina Pulceria_Pulcheria 
+			Petronia_Petronia Prisca Procopia
+			Quiterie Quinta
+			Renata Romane Rosmerta Rufina
+			Stephania_Stephania Sylvia Silvana Sirona Serena Sofia_Sophia Singledia
+			Theodora_Theodora Thomasina Therasia Theodosia_Theodosia
+			Ursula
+			Vixoria_Victoria Veronice_Veronica Valeria Viviana Valentina
+		}
+
+		from_dynasty_prefix = "de "
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+
+		disinherit_from_blinding = yes
+
+		modifier = default_culture_modifier
+	}
+	brithenig = {
+		graphical_culture = celticgfx
+		
+		color = { 0.45 0.75 0.6 }
+
+		male_names = {
+			Artorius_Artorius Aleisandr_Alexander Arthmail Artbeau Avitor Adda_Adam Arthwr_Arthur
+			Antoin_Anthony Awstin_August Alan_Alan Arthen_Artemius Argad_Arcadius Andreas_Andrew
+			Beliatus Bellicus Bodeni Butu Budic Barrivent Brohcmail Briamail Bodvoc Brivitas
+			Comitinus Clotual Cingualan Costenhin_Constantine Carol_Charles Cuuris Conetoc Cataman 
+			Cingen Cingal Caraethag Cristian_Christian Cynedd Cwrig_Cyriacus Cassius
+			Dumnovall Donal Dewidd_David Dubric Drystin Dunat
+			Enestinus Erbin_Urban Eirlan_Aurelianus Emreis_Ambrose Enabarr Elcu Erchyl_Hercules Elfoddew
+			Eudaf_Octavius
+			Gleuissicg Gion_John Guoillauc Guriat Gelhig Garfan Geory_George Girallt Garmon_German
+			Gwalwan Gwethiern_Vortigern Gwydion Gregor_Gregory Gereint_Gerontius Glywys_Claudius
+			Gioffri_Godfrey
+			Hewel
+			Iewan_John Idnert Ioruert Icorig Iago_Jacob Ieroni_Jerome Iosep_Joseph
+			Kenan_Conan
+			Lannildut Llewfelen Liuit Llawreint_Laurence Luc_Luke Lifris
+			Maglorius Map Motius Muconius Mawr Medrad Margiteut Maguohen Maccodechet Madag Maelcun Marc_Marcus
+			Mathew_Matthew Merthin_Martin Mewrig_Maurice Merddin Migangel_Michael Manuel_Manuel Morgan Magimos
+			Nectovelius Nigol_Nocholas Nennius
+			Owain_Owain
+			Pedr_Peter Pawl_Paul Padrig_Patrick Philip_Philip Pascen Pelagius_Pelagius
+			Quenataug Quenuendan
+			Rhyssin Rhoberth_Robert Riuallaun Riderch Res Rialobran Rhigardd
+			Senicianus Senorig Solinus Suagrius Stinian_Justinianus Serigi_Sergius Sandde_Sancho
+			Tomos_Thomas Tigern Totaval Trallon Turpill Tutbulc Tegid_Tacitus Timothew_Timothy Teilo
+			Tewdos_Theodosius
+			Urien_Urbgenius
+			Vrochan Virnin Vecrec Voteporig Vendumaglos Veracius
+			Ysteffan_Stephen Ystin_Justin Yuil_Julius
+		}
+		female_names = {
+			Avitoria Arienrhod Alis_Alice Anna_Anna Avellina Artoria
+			Buddega_Victoria Betrys_Beatrice Blodwen
+			Cuniovenda Caroleth Catren Cristen_Christina
+			Docillina Diseta Delyth
+			Elen_Helen Efa_Eve Elaine_Elaine
+			Ffridd_Faith
+			Gian_Jane Gianeth_Janet Greid Guinevere Gwen Gladus_Claudia Gurycon
+			Huctia Hancarate Hawise
+			Iseullt Iogos Isabel_Elisabeth
+			Lollia Lucilla
+			Mair_Mary Mallt_Matilda Maryared_Margaret
+			Nest Nyfain Narina
+			Ourdolat
+			Seniciana Sarra_Sarah Siwan_Joan Susanna_Susana Satiada Sibyl_Sibylla
+			Tancogeistla Tegida Tegan
+			Vrocata Verica Verctissa Viola_Yolanda
+			Yuilia_Julia
+		}
+		dukes_called_kings = yes
+
+		from_dynasty_prefix = "di "
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 55
+		mat_grf_name_chance = 10
+		father_name_chance = 20
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 15
+		mat_grm_name_chance = 45
+		mother_name_chance = 5
+
+		modifier = default_culture_modifier
+	}
+	jovian = {
+		graphical_culture = germangfx
+
+		color = { 0.8 0.7 0.1 }
+		
+		male_names = {
+			Abran_Abraham Adémar Aerbal_Archibald Aerel Aestoule_Aristotle Aestoubel_Aristotle
+			Aexander_Alexander Xander_Alexander Aimery_Aymeric Amaury_Amalric Aldur_Arthur Allan 
+			Ambroese_Ambrose Andoene_Anthony Andé André_Andrew Angelbert Archambaud_Archibald Arnoude_Arnold 
+			Noude_Arnold Aron_Aaron Arnoul_Arnulf Auber_Albert Auberde_Albert Aubreze_Alberic 
+			Auhuste_August Auste_August Aureile_Aurelius Aurel_Aurelius Austine_Augustine Austen_Augustine 
+			Auvondse_Alphonse Azan_Adam 
+			Barblowé_Bartolomeus Barroumé_Bartolomeus Bauben_Baldwin Broese_Ambrose Beondicte_Benedict
+			Beomen_Benjamin Beine_Benjamin Bérenger_Berengar Bernard_Bernard Bertrand_Bertrand 
+			Bernarde_Bernhard Beorran_Bernhard Benne_Bernhard
+			Cae Carrul_Charles Carle_Charles Casper Cauven Cleonde_Clement Clewinde_Clement Conder 
+			Contsadine_Constantine Corneile_Cornelius Crine Cirne Criole_Cyril Crud Crixane_Christian
+			Daefte_David Daede_David Daewan_Damian Daewane_Damian Deweider_Demetrius Beider_Demetrius 
+			Donade_Donatus Doeran_Dorian Doerane_Dorian Dowinge_Dominic
+			Eozarde_Edward Eiwel_Emil Ewile_Emil Eric 
+			Filippe_Philip Flippe_Philip Frangisce_Francis Frange_Francis Freodric_Frederick Foulques_Folke 
+			Gauthier_Walter Géraud_Gerard Gelduin Gilbert_Gilbert Grehoere_Gregory Greore_Gregory Guy_Guy 
+			Haedran_Adrian Haeder_Adrian Hendric_Henry Haeric_Henry Horadse Herbert Hugues_Hugh 
+			Ignace Iosef_Joseph Isac_Isaac Isoc_Isaac Istoere Iule_Julius Iulane_Julian Iutse_Justus
+			Josse_Joseph Josic_Joseph Jeoffroy_Godfrey Jeorge_George Johan_John Jandse_John Jondse_John 
+			Jona_Jonas Jone_Leo
+			Ladser_Lazarus Laureindse_Laurence Leixe_Alexis Lex_Alexis Leone_Leo Lothaire_Lothar Luga_Lucas
+			Lubic_Louis Luege_Lucius
+			Madé_Matthew Maere_Marius Marden_Martin Marren_Martin Mardine_Martin Marge_Marcus Marre_Marcus 
+			Margeole_Marcellus Margel_Marcellus Mauridse Miohel_Michael Miogel_Michael 
+			Nae Niogul_Nicholas Nioglmag_Nicomachus
+			Oevaere_Oliver Octaeve 
+			Padric_Patrick Paule_Paul Pfeire_Tiberius 
+			Rodric_Roderick Rolande_Roland Raymond_Raymond Raynaud_Reinhold Renaud_Reinhold Richard_Richard 
+			Robert_Robert Rolan_Roland Roverde_Robert Rourde_Robert Rouer_Robert Rudouve_Rudolf Ruodul_Rudolf 
+			Ruove_Rudolf Ruve 
+			Seonga Siome_Simon Siowun_Simon Siwon_Simon Siove_Silvius Sive_Silvius Siolmag_Symmachus
+			Siager_Syagrius Sidoine_Sidonius
+			Taecte_Tacitus Tibault_Theobald Tiébaut_Theobald Tiondé_Timothy Tide Toffer_Christopher Towa_Thomas
+			Traege Tsouder_Theodore Teozur_Theodore Tristian Tsevane_Stephen Tseoffan_Stephen Tseompfe_Stephen
+			Tseoffe_Stephen Tsanden_Constantine 
+			Uoric_Ulrich 
+			Vaere Vaendine_Valentine Valdine_Valentine Valden_Valentine Valeire_Valerius Bleire_Valerius 
+			Varine_Varinus Brine_Varinus 
+			Willeome_William
+		}
+		female_names = {
+			Ablaede_Adelaide Acta_Agatha Adena Dena Aenga Aera Aexandra_Alexandra Xandra_Alexandra 
+			Agathe_Agatha Agnès_Agnes Angeilga_Angelica Geilca_Angelica Anna Aubloena 
+			Beodric_Beatrice Béatrice_Beatrice Béatrix_Beatrice Belleassez Benoîte Bérengère Breinge 
+			Brida_Bridget Britta_Bridget Balbra Barra
+			Cadrina_Catherine Caerme Carla Carlina Casta Cila_Cecilia Heglia_Cecilia Clara_Clara 
+			Cleondina_Clementia Cliste Cloe Clumba Coenga Contsaendsa_Constance Crina_Karen Cara_Karen 
+			Caerna_Karen 
+			Dordé_Dorothy Dowinga Eimblana Eita_Edith Eirga Éléonore_Eleanor Eoblina 					
+			Ermengarde_Ermengarde Ermessinde_Ermesinda Esclarmonde_Esclarmunda Euphrosine_Euphrosyne Eva_Eva 
+			Ewila_Emily 
+			Fizé 
+			Gloera Graedsa Gisèle_Gisela Guillaumette 
+			Héloise_Eloise Helvis Hodierne
+			Ide_Ida Ida_Ida Ildégarde_Hildegard Haedrana Heona_Helen Lena_Helen Hindsa 
+			Irena_Irene Ispeola_Isabella 
+			Juela_Julia Uela_Julia 
+			Laedidsa Laura Leixa Lila Liospede_Elisabeth Luega 
+			Madioda_Matilda Mae Maera_Maria Maeranna Maevel Maevel Maglena_Madalena Marda_Martha Margeola 
+			Marreda_Margaret Manuela Malaena_Melanie Mahaut_Mahaut Margot Marguerite_Margaret Marie_Maria
+			Marthe_Martha Mascarose_Mascarosa Mathilde_Matilda Mélisande_Melisende Mélisende_Melisende 
+			Meoni_Melanie Moenga_Monica 
+			Nadaela_Natalie Nastaesa_Anastasia Nina Niogla_Nichola Nivé 
+			Olvia_Olivia
+			Padriga_Patricia Paulina Péronelle_Peronella Pernelle_Peronella Perinne Pernette 
+			Plaisance_Plaisance Prisca 
+			Rahel_Rachel Raele_Rachel 
+			Seobrina Sioma_Simone Siwona_Simone Siomé_Simone Siova Susanna_Susan 
+			Taedsana_Tatiana Dsana_Tatiana Tresa_Teresa Tuela 
+			Uectorea Uerrina Uevana_Viviana 
+			Vera Valence_Yolanda
+			Wanda Wiomina
+			Yolande_Yolanda
+		}
+		from_dynasty_prefix = "de "
+		male_patronym = "fih"
+		female_patronym = "fiju yh"
+		prefix = yes
+		
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+
+		modifier = default_culture_modifier
+	}
+}

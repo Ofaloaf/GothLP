@@ -1,0 +1,20 @@
+# 181 - Cordoba
+
+# County Title
+title = c_cordoba
+
+# Settlements
+max_settlements = 6
+b_alcolea = castle
+b_cordoba = temple
+b_lucena = city
+b_cabra = temple
+b_andujar = castle
+#b_martos = temple
+#b_belalcazar = castle
+#b_canetedelastorres = castle
+
+culture = hispani
+religion = nicene
+
+# History

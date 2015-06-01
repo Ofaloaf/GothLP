@@ -1,0 +1,18 @@
+1573001 = {
+	name="Teorenius"
+	dynasty=1589079 # Argantonio
+	culture="hispani"
+	religion="nicene"
+	martial=5
+	diplomacy=6
+	intrigue=7
+	stewardship=7
+	learning=6
+	trait="midas_touched"
+	729.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}

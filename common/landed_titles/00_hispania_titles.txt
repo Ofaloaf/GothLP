@@ -1,0 +1,2082 @@
+e_caralis = {
+	color={ 166 28 55 }
+	color2={ 255 255 20 }
+	
+	capital = 326 # Cagliari
+	
+	short_name = yes
+	
+	culture = hispani
+	religion = nicene
+	
+	has_top_de_jure_capital = yes
+	
+	purple_born_heirs = yes
+	
+}
+
+e_hispania = {
+	color = { 231 181 12 }
+	color2= { 255 255 255 }
+
+	capital = 173 # Tarraco / Tarragona
+
+	culture = hispani
+
+	k_sardinia = {
+		color = { 117 146 167 }
+		color2= { 255 255 255 }
+
+		capital = 326 # Cagliari
+
+		d_sardinia = {
+			color={ 217 159 255 }
+			color2={ 255 255 255 }
+			
+			capital = 326 # Cagliari
+			
+			c_corsica = {
+				color={ 226 248 251 }
+				color2={ 255 255 255 }
+				
+				b_ajaccio = {
+				}
+				b_bonifacio = {
+				}
+				b_bastia = {
+				}
+				b_portevecchio = {
+				}
+				b_filitosa = {
+				}
+				b_corte = {
+				}
+				b_sartene = {
+				}
+				b_aleria = {
+				}
+			}
+			c_arborea = {
+				color={ 170 182 225 }
+				color2={ 255 255 255 }
+				
+				b_oristano = {
+				}
+				b_ardara = {
+				}
+				b_sassari = {
+				}
+				b_portotorres = {
+				}
+				b_olbia = {
+				}
+				b_ottana = {
+				}
+				b_tharros = {
+				}
+				b_santaigia = {
+				}
+			}
+			c_cagliari = {
+				color={ 170 200 170 }
+				color2={ 255 255 255 }
+				
+				b_cagliari = {
+				}
+				b_ogliastra = {
+				}
+				b_assemini = {
+				}
+				b_sanluri = {
+				}
+				b_muravera = {
+				}
+				b_dolianova = {
+				}
+				b_carbonia = {
+				}
+				b_capoterra = {
+				}
+			}
+		}
+		d_ballearica = {
+			color = { 68 126 72 }
+			color2={ 255 255 255 }
+			
+			capital = 827 # Mallorca
+			
+			c_mallorca = {
+				color = { 255 249 3 }
+				color2={ 255 255 255 }
+				
+				# Maiorica
+				
+				b_alcudia = {
+					# Pollentia
+				}
+				b_palma = {
+				}
+				b_algaida = {
+					# Castellitx
+				}
+				b_felanitx = {
+					# Foenalicius
+				}
+				b_santaponsa = {
+					# Sancta Pontia
+				}
+				b_eivissa = {
+					# Ebusus
+				}
+				b_manacor = {
+				}
+				b_formentera = {
+					# Frumentarium
+				}
+			}
+			c_menorca = {
+				color = { 255 252 6 }
+				color2={ 255 255 255 }
+				
+				# Minorica
+				
+				b_ciutadella = {
+					# Civitatella
+				} 
+				b_mahon = {
+					# Magonis
+				}
+				b_alaior = {
+					# Eulaliacum # making shit up
+				}
+				b_santaagueda = {
+					# Agathacum # derived backwards from 'Saint Agatha'
+				}
+				b_esmercadal = {
+					# Mercatum
+				}
+				b_santlluis = {
+					# Ludovicum
+				}
+				b_ferreries = {
+					# Fraria
+				}
+				b_escastell = {
+					# Philippicum # dervied backwards from 'Castell de sant Filip'
+				}
+			}
+		}
+	}
+	k_tarraco = {
+		color = { 217 139 53 }
+		color2= { 255 255 255 }
+
+		capital = 173 # Tarraco / Tarragona
+
+		d_barcino = {
+			color = { 70 140 83 }
+			color2= { 255 255 255 }
+
+			capital = 204 # Barcelona
+			
+			c_barcelona = {
+				color = { 166 110 72 }
+				color2={ 255 255 255 }
+
+				# Barciluna
+
+				latine = "Barcino"
+				gallic = "Barcino"
+				hispani = "Barcino"
+				brithenig = "Barguin"
+				
+				b_berga = {
+					# Bergium
+
+					gothic = "Baurga"
+					#gothicromance = "Baurgio"
+				}
+				b_barcelona = {
+					# Barciluna
+
+					latine = "Barcino"
+					gallic = "Barcino"
+					hispani = "Barcino"
+					brithenig = "Barguin"
+				}
+				b_vic = {
+					# Ausa
+				}
+				b_manresa = {
+					# Minoresa
+				}
+				b_osona = {
+				}
+				b_igualada = {
+					# Aqualata
+				}
+				b_vallparadis = {
+					# Egara # Egosa /Terrassa
+
+					#gothicromance = Egosa
+				}
+				b_provencana = {
+					# Provintiana
+				}
+			}
+			c_urgell = {
+				color = { 196 110 60 }
+				color2={ 255 255 255 }
+
+				# Orgellis
+				
+				b_pallars = {
+					# Pallariensis
+				}
+				b_urgell = {
+					# Orgellis
+				}
+				b_suert = {
+					basque = "Zubi"
+				}
+				b_viella = {
+				}
+				b_puigcerda = {
+					# Libiae
+
+					roman = "Libica"
+				}
+				b_valledebohi = {
+					# Bovinum
+
+					gallic = "Butina"
+				}
+				b_elpuidesegur = {
+				}
+				b_tremp = {
+				}
+			}
+			c_rosello = {
+				color = { 210 140 50 }
+				color2={ 255 255 255 }
+
+				# Rosceliona
+
+				roman = "Ruscino"
+				latine = "Ruscino"
+				gallic = "Ruscino"
+				hispani = "Ruscino"
+				
+				b_cotlliure = {
+					# Caucoliberi
+				}
+				b_perpinya = {
+					# Perpinianum
+
+					latine = "Perpiniano"
+					hispani = "Perpiniano"
+					gallic = "Perpiniano"
+
+					#gothicroman = "Perpiniani"
+				}
+				b_elna = {
+					# Illiberis
+				}
+				b_cuixa = {
+				}
+				b_prada = {
+					# Prata
+				}
+				b_oltrera = {
+				}
+				b_canigo = {
+				}
+				b_ceret = {
+					# Sirisidum
+
+					#gothicromance = "Cereto"
+				}
+			}
+			c_empuries = {
+				color = { 150 70 20 }
+				color2={ 255 255 255 }
+
+				# Emporiae
+
+				greek = Emporion
+				
+				b_empuries = {
+					# Emporiae
+
+					greek = Emporion
+				}
+				b_labisbaldemporda = {
+					# Fontanetum
+				}
+				b_girona = {
+					# Gerunda
+				}
+				b_figueras = {
+					# Ficaris
+				}
+				b_cerdana = {
+					# Cerretania
+				}
+				b_besalu = {
+					# Bisuldunum
+				}
+				b_banyoles = {
+					# Balneum
+
+					#gothicromance = Balneolas
+				}
+				b_castelldaro = {
+				}
+			}
+			c_lleida = {
+				color = { 140 90 20 }
+				color2={ 255 255 255 }
+				
+				# Ilerda
+
+				hispani = "Iltrida"
+				
+				b_lleida = {
+					# Ilerda
+
+					hispani = "Iltrida"
+				}
+				b_cervera = {
+					# Cervariae
+
+					#gothicromance = "Cervarie"
+				}
+				b_solsona = {
+					# Setelsis
+
+					gothic = "Setelsona"
+					#gothicromance = "Setelsona"
+				}
+				b_agramunt = {
+				}
+				b_tarrega = {
+				}
+				b_balaguer = {
+					# Balagium
+				}
+				b_borgesblanques = {
+				}
+				b_verdu = {
+					# Virodunum
+				}
+			}
+		}
+		d_tarraconensis = {
+			color = { 122 135 224 }
+			color2= { 255 255 255 }
+
+			capital = 173 # Tarragona / Tarraco
+
+			c_tarragona = {
+				color = { 186 90 45 }
+				color2={ 255 255 255 }
+				
+				# Tarraco
+				
+				b_tarragona = {
+					# Tarraco
+				}
+				b_spantortosa = {
+					# Dertosa
+
+					gothic = "Dertusa"
+					#gothicromance = "Dertusa"
+				}
+				b_cambrils = {
+				}
+				b_reus = {
+					# Reddis
+				}
+				b_montblanc = {
+					# Barbaracum # shit I made up
+				}
+				b_vendrell = {
+					# Venrel
+				}
+				b_amposta = {
+					roman = "Ab Posta"
+				}
+				b_sancugat = {
+					# Octavianum
+				}
+			}			
+			c_castellon = {
+				color = { 255 242 2 }
+				color2={ 255 255 255 }
+
+				# Castalia
+				
+				b_castellon = {
+					# Castalia
+				}
+				b_alpuente = {
+					# Ildium # unrelated to Alpuente
+				}
+				b_nules = {
+					# Nullis
+				}
+				b_vinaros = {
+				}
+				b_morella = {
+					# Maurela
+
+					roman = "Castra Aelia"
+
+					#gothicromance = "Maurila"
+				}
+				b_vilarreal = {
+					# Regalis
+				}
+				b_burriana = {
+					# Burgus-Anna
+				}
+				b_alcalaten = {
+					# Etovissa # An Edetanian town, unrelated to Alcalaten as far as I know
+				}
+			}
+			c_valencia = {
+				color = { 255 244 4 }
+				color2={ 255 255 255 }
+
+				# Valentia
+			
+				#gothicromance = "Valencia"
+				
+				b_gandia = {
+				}
+				b_valencia = {
+					# Valentia
+				}
+				b_jativa = {
+					# Saetabis
+				}
+				b_cuartdepoblet = {
+					# Quartum
+				}
+				b_alberique = {
+					# Edeta # unrelated to Alberic
+				}
+				b_alacuas = {
+					# Segobrida # unrelated to Alacuas
+				}
+				b_torrent = {
+					# Turris # guessing
+				}
+				b_chiva = {
+					# Turia # unrelated to Chiva, also just the name of a river
+				}
+			}
+			c_denia = {
+				color = { 255 246 6 }
+				color2={ 255 255 255 }
+				
+				# Dianum
+
+				gothic = "Aurariola"
+				#gothicromance = "Auroriola"
+				
+				b_denia = {
+					# Dianum
+				}
+				b_alicante = {
+					# Lucentum
+				}
+				b_elche = {
+					# Illice
+
+					greek = "Helike"
+				}
+				b_villena = {
+					# Belliana
+
+					roman = "Ad Turres"
+				}
+				b_orihuela = {
+					# Aurariola
+				}
+				b_castalla = {
+					# Castra
+				}
+				b_albatera = {
+					# Apiarium # unrelated to Albatera
+				}
+				b_benissa = {
+					# Statuas
+
+					roman = "Ad Statuas" # unrelated to Benissa
+				}
+			}
+		}
+		d_caesaraugustanus = {
+			color = { 160 90 20 }
+			color2={ 255 255 255 }
+			
+			capital = 202 # Zaragoza
+			
+			c_albarracin = {
+				color = { 166 78 72 }
+				color2={ 255 255 255 }
+
+				# Ars
+
+				roman = "Lobetania"
+				latine = "Lobetania"
+				gallic = "Lobetania"
+				hispani = "Lobetania"
+				
+				b_albarracin = {
+					# Lobetum
+				}
+				b_teruel = {
+					# Terulium
+				}
+				b_hijar = {
+					# Ars
+				}
+				b_utrillas = {
+				}
+				b_calanda = {
+					# Colenda
+				}
+				b_montalban = {
+					# Albanacum
+				}
+				b_alcaniz = {
+					# Adalfunsacum # making shit up
+				}
+				b_calamocha = {
+					# Augustula # making shit up
+				}
+			}
+			c_alto_aragon = {
+				color = { 186 70 72 }
+				color2={ 255 255 255 }
+
+				# Osca
+
+				greek = "Ileoscan"
+				
+				b_jaca = {
+					# Iaca
+
+					hispani = "Iaka"
+				}
+				b_huesca = {
+					# Osca
+
+					greek = "Ileoscan"
+				}
+				b_barbastro = {
+					# Barbastrum
+
+					latine = "Barbastra"
+					gallic = "Barbastra"
+					hispani = "Barbastra"
+
+					gothic = "Bergiduna"
+					#gothicromance = "Bergiduna"
+				}
+				b_loarre = {
+					# Lobarra # guessing
+				}
+				b_ayerbe = {
+					# Aierb
+				}
+				b_almudevar = {
+					# Bortina
+				}
+				b_uncastillo = {
+					# Castellum # guessing
+				}
+				b_alquezar = {
+					# Barbitania
+				}
+			}
+			c_zaragoza = {
+				color = { 170 70 32 }
+				color2={ 255 255 255 }
+
+				# Caesaraugusta
+				
+				gothic = "Cesaracosta"
+				#gothicromance = "Cesaracosta"
+				
+				b_alagon = {
+					# Belaisca # actually Botorrita
+				}
+				b_zaragoza = {
+					# Caesaraugusta
+
+					gothic = "Cesaracosta"
+					#gothicromance = "Cesaracosta"
+				}
+				b_veruela = {
+					# Virula # guessing
+				}
+				b_caspe = {
+					# Caspiacum # guessing
+				}
+				b_borja = {
+					# Bursada
+				}
+				b_medianadearagon = {
+					# Castelacus # making up something derived from 'Los Castellazos'
+				}
+				b_ejea = {
+					# Segia
+				}
+				b_epila = {
+					# Segontia
+
+					greek = "Bysopolis"
+				}
+			}
+			c_calatayud = {
+				color = { 190 80 30 }
+				color2={ 255 255 255 }
+
+				# Bilbilis
+				
+				b_calatayud = {
+					# Bilbilis
+				}
+				b_piedra = {
+				}
+				b_alhamadearagon = {
+					# Bilbilitanorum
+
+					latine = "Bilbilitano"
+					gallic = "Bilbilitano"
+					hispani = "Bilbilitanoro"
+
+					basque = "Congedus"
+					aquitanian = "Congedus"
+				}
+				b_nuevalos = {
+				}
+				b_daroca = {
+					# Agiria
+
+					basque = "Darek"
+					aquitanian = "Darek"
+				}
+				b_munebrega = {
+					# Mundobriga
+				}
+				b_calmarza = {
+					# Calmartia
+				}
+				b_cimballa = {
+				}
+			}
+		}
+		d_cantabria = {
+			color = { 244 128 131 }
+			color2={ 255 255 255 }
+			
+			c_burgos = {
+				color = { 246 200 16 }
+				color2={ 255 255 255 }
+
+				# Pallantia
+
+				greek = "Pyrgos"
+				gothic = "Baurgs"
+				#gothicromance = "Baurgus"
+				
+				b_aguilardecampo = {
+					# Campodium
+				}
+				b_burgos = {
+					# Burgus
+
+					greek = "Pyrgos"
+					gothic = "Baurgs"
+					#gothicromance = "Baurgus"
+				}
+				b_palencia = {
+					# Pallantia
+				}
+				b_silos = {
+					# Dominicum # Santo Domingo de Silos
+				}
+				b_castrobarte = {
+					# Carbonaria # not actually Castrobarto
+				}
+				b_mirandadeebro = {
+					# Miranda
+				}
+				b_arandadeduero = {
+					# Revendeca # not Roman Aranda de Duero
+				}
+				b_carrion = {
+					# Lacobriga
+				}
+			}
+			c_valladolid = {
+				color = { 248 202 18 }
+				color2={ 255 255 255 }
+
+				# Vallisoletum
+				
+				b_valladolid = {
+					# Vallisoletum
+				}
+				b_tordesillas = {
+					# Turris Sillae
+				}
+				b_segovia = {
+					# Segobriga
+				}
+				b_medinadelcampo = {
+					# Sarabris # I think? I'm reading a Spanish article and don't actually know Spanish.
+				}
+				b_simancas = {
+					# Septimanca
+
+					gothic = "Simancas"
+					#gothicromance = "Simancas"
+				}
+				b_penafiel = {
+					# Pinnafidelis
+				}
+				b_iscar = {
+					# Ipsca
+				}
+				b_avila = {
+					# Abulo
+
+					gothic = "Awilo"
+					#gothicromance = "Auila"
+				}
+			}
+			c_soria = {
+				color = { 250 204 20 }
+				color2={ 255 255 255 }
+
+				# Daurius
+				
+				b_soria = {
+					# Oria
+				}
+				b_osma = {
+					# Osama
+
+					basque = "Uxama"
+					aquitanian = "Oxama"
+
+					gothic = "Ausama"
+					#gothicromance = "Ausama"
+				}
+				b_almazan = {
+					# Adnumantia
+				}
+				b_gormaz = {
+					# Vormatio
+
+					gothic = "Bormatiu"
+					#gothicromance = "Burmatio"
+				}
+				b_castromoro = {
+					# Mauricum # shit i made up
+				}
+				b_medinacelli = {
+					# Ocelis
+
+					basque = "Okela"
+					aquitanian = "Okela"
+
+					gallic = "Ocelodurum"
+					hispani = "Ocelodurum"
+				}
+				b_sanleonardodeyague = {
+					# Leonardicum
+				}
+				b_covaleda = {
+				}
+			}
+			c_asturias_de_santillana = {
+				color = { 232 205 25 }
+				color2={ 255 255 255 }
+
+				# Cantabria
+				
+				b_santander = {
+					# Sanctimetheri
+
+					roman = "Juliobrigensium"
+				}
+				b_santillanadelmar = {
+					# Sancta Juliana
+				}
+				b_laredo = {
+					# Glaretum
+				}
+				b_castrourdiales = {
+					# Flaviobriga
+				}
+				b_santona = {
+					# Sancta Onia
+				}
+				b_reinosa = {
+					# Renosa
+				}
+				b_suances = {
+					# Blendium
+				}
+				b_camargo = {
+					# Cabarcus
+				}
+			}
+		}
+		d_toletum = {
+			color = { 212 151 12 }
+			color2={ 255 255 255 }
+			
+			capital = 197 # Toledo
+			
+			c_toledo = {
+				color = { 245 204 15 }
+				color2={ 255 255 255 }
+				
+				# Carpetania
+				
+				b_madrid = {
+					# Matritum
+				}
+				b_toledo = {
+					# Toletum
+
+					gallic = "Tollitum"
+					hispani = "Tollitum"
+
+					gothic = "Tollitu"
+					#gothicromance = "Tolleto"
+
+					holy_site = arian
+				}
+				b_orgaz = {
+					# Orgas
+				}
+				b_tolemora = {
+				}
+				b_talavera = {
+					# Aebura
+
+					roman = "Caesarobriga"
+					latine = "Caesarobriva"
+					gallic = "Caesarobriva"
+					hispani = "Ebora"
+
+					gothic = "Elbora"
+					#gothicromance = "Elbora"
+				}
+				b_consuegra = {
+					# Consabura
+				}
+				b_fuensalida = {
+					# Fontesalire
+				}
+				b_illescas = {
+					# Egelesta
+
+					gothic = "Elesca"
+					#gothicromance = "Elescas"
+				}
+			}
+			c_molina = {
+				color = { 248 207 18 }
+				color2={ 255 255 255 }
+				
+				b_hinojosa = {
+				}
+				b_molina = {
+				}
+				b_elpedregal = {
+				}
+				b_pinilla = {
+				}
+				b_cabanillasdelcampo = {
+				}
+				b_elcasar = {
+				}
+				b_maranchon = {
+				}
+				b_olmeda = {
+				}
+			}
+			c_cuenca = {
+				color = { 251 210 21 }
+				color2={ 255 255 255 }
+				
+				bedouin_arabic = "Kunka"
+				maghreb_arabic = "Kunka"
+				levantine_arabic = "Kunka"
+				egyptian_arabic = "Kunka"
+				andalusian_arabic = "Kunka"
+				
+				b_siguenza = {
+				}
+				b_cuenca = {
+					bedouin_arabic = "Kunka"
+					maghreb_arabic = "Kunka"
+					levantine_arabic = "Kunka"
+					egyptian_arabic = "Kunka"
+					andalusian_arabic = "Kunka"
+				}
+				b_guadalajara = {
+				}
+				b_ucles = {
+				}
+				b_laspedroneras = {
+				}
+				b_villanuevadelajara = {
+				}
+				b_tarancon = {
+				}
+				b_sisante = {
+				}
+				b_motadelcuervo = {
+				}
+			}
+		}
+		d_carthaginiensis = {
+			color = { 32 73 77 }
+			color2= { 255 255 255 }
+
+			capital = 169 # Murcia
+			
+			c_murcia = {
+				color = { 246 227 16 }
+				color2={ 255 255 255 }
+				
+				bedouin_arabic = "Mursiya"
+				maghreb_arabic = "Mursiya"
+				levantine_arabic = "Mursiya"
+				egyptian_arabic = "Mursiya"
+				andalusian_arabic = "Mursiya"
+				
+				b_murcia = {
+					bedouin_arabic = "Mursiya"
+					maghreb_arabic = "Mursiya"
+					levantine_arabic = "Mursiya"
+					egyptian_arabic = "Mursiya"
+					andalusian_arabic = "Mursiya"
+				}
+				b_cartagena = {
+				}
+				b_lorca = {
+				}
+				b_alcantarilla = {
+				}
+				b_medinasiyasa = {
+				}
+				b_molinalaseca = {
+				}
+				b_yecla = {
+				}
+				b_nogalte = {
+				}
+			}
+			c_almansa = {
+				color = { 244 225 14 }
+				color2={ 255 255 255 }
+				
+				b_almansa = {
+				}
+				b_albacete = {
+				}
+				b_hellin = {
+				}
+				b_caudete = {
+				}
+				b_villarrobledo = {
+				}
+				b_alcaladeljucar = {
+				}
+				b_pozocanada = {
+				}
+				b_tobarra = {
+				}
+			}
+			c_la_mancha = {
+				color = { 250 220 20 }
+				color2={ 255 255 255 }
+				
+				b_alarcon = {
+				}
+				b_laroda = {
+				}
+				b_tarazona = {
+				}
+				b_quintanardelrey = {
+				}
+				b_lagineta = {
+				}
+				b_barrax = {
+				}
+				b_munera = {
+				}
+				b_jorquera = {
+				}
+			}
+		}
+	}
+	k_spanish_galicia = {
+		color={ 255 224 94 }
+		capital = 156 # Coruña
+		
+		culture = gallaecian
+
+		gallaecian = "Gallaecia"
+		hispani = "Gallaecia"
+		latine = "Gallaecia"
+		roman = "Gallaecia"
+		greek = "Gallaekia"
+		africanu = "Gallecia"
+		dalmatian = "Gallecia"
+		
+		catholic = 250 # Crusade target weight
+		muslim = 25 # Crusade target weight
+		
+		d_galicia = {
+			color = { 213 158 51 }
+			color2={ 255 255 255 }
+			
+			capital = 156 # Coruna
+
+			culture = gallaecian
+
+			gallaecian = "Gallaecia"
+			hispani = "Gallaecia"
+			latine = "Gallaecia"
+			roman = "Gallaecia"
+			greek = "Gallaekia"
+			africanu = "Gallecia"
+			dalmatian = "Gallecia"
+			
+			c_coruna = {
+				color = { 183 118 51 }
+				color2={ 255 255 255 }
+
+				# Crunia
+				
+				b_corunna = {
+					# Crunia
+				}
+				b_mondonedo = {
+					# Mindunietum
+				}
+				b_lugo = {
+					# Lucus
+				}
+				b_ferrol = {
+					# Ferreolus
+
+					gallaecian = "Adobrica"
+					hispani = "Adobrica"
+					latine = "Artabroro"
+					roman = "Artabrorum"
+				}
+				b_villalba = {
+				}
+				b_viveiro = {
+				}
+				b_burela = {
+				}
+				b_triacastela = {
+				}
+			}
+			c_santiago = {
+				color = { 243 158 51}
+				color2={ 255 255 255 }
+				
+				# Iria
+
+				b_santiago = {
+					# Iria
+
+					holy_site = catholic
+				}
+				b_vigo = {
+					# Vicus Spacorum
+				}
+				b_pontevedra = {
+					# Pontevetera
+				}
+				b_tuy = {
+					# Tude
+				}
+				b_ourense = {
+					# Auriense
+				}
+				b_verin = {
+				}
+				b_padron = {
+				}
+				b_vilagarcia = {
+				}
+			}
+		}
+		d_asturica = {
+			color = { 233 188 91 }
+			color2={ 255 255 255 }
+			
+			capital = 155 # Asturias
+			
+			c_asturias_de_oviedo = {
+				color = { 233 158 51 }
+				color2={ 255 255 255 }
+
+				# Asturia
+				
+				b_oviedo = {
+					# Ovetum
+				}
+				b_gijon = {
+					# Gigia
+
+					roman = "Gegionem"
+					greek = "Gegionem"
+				}
+				b_cangasdeonis = {
+				}
+				b_tineo = {
+				}
+				b_cangasdelnarcea = {
+				}
+				b_villaviciosa = {
+				}
+				b_luarca = {
+				}
+				b_norena = {
+				}
+			}
+			c_astorga = {
+				color = { 243 158 51 }
+				color2={ 255 255 255 }
+
+				# Asturica
+				
+				b_ponferrada = {
+					# Pons Ferrata
+				}
+				b_bembibre = {
+					# Interamnium
+				}
+				b_ribadelago = {
+				}
+				b_cacabelos = {
+				}
+				b_fabero = {
+				}
+				b_camponaraya = {
+				}
+				b_toreno = {
+				}
+				b_astorga = {
+					# Asturica
+				}
+			}
+		}
+		d_legio = {
+			color = { 253 158 51 }
+			color2={ 255 255 255 }
+			
+			capital = 190 # Leon
+			
+			c_leon = {
+				color = { 253 158 51 }
+				color2={ 255 255 255 }
+				
+				b_leon = {
+				}
+				b_valenciadecampos = {
+				}
+				b_villablino = {
+				}
+				b_sanpedrodeperix = {
+				}
+				b_saldana = {
+				}
+				b_sahagun = {
+				}
+				b_larobla = {
+				}
+				b_cistierna = {
+				}
+			}
+			c_zamora = {
+				color = { 253 138 51 }
+				color2={ 255 255 255 }
+				
+				gothic = "Semure"
+
+				b_zamora = {
+					gothic = "Semure"
+				}
+				b_benavente = {
+				}
+				b_fermoselle = {
+				}
+				b_toro = {
+				}
+				b_sanabria = {
+				}
+				b_corrales = {
+				}
+				b_fuentesauco = {
+				}
+				b_polvorosa = {
+				}
+			}
+		}
+		d_bracarensis = {
+			color = { 224 245 244 }
+			color2= { 255 255 255 }
+
+			capital = 158 # porto
+			
+			c_porto = {
+				color = { 191 247 243 }
+				color2={ 255 255 255 }
+
+				# Bracara
+				
+				b_braga = {
+					# Bracara
+				}
+				b_porto = {
+					# Portus Cale
+
+					hispani = "Calle"
+				}
+				b_guimaraes = {
+					# Vimaranes
+				}
+				b_vianadocastelo = {
+					# Viana
+				}
+				b_pontedelima = {
+					# Limia
+				}
+				b_barcelos = {
+				}
+				b_arcosdevaldevez = {
+					# Aquae Leae # not Arcos de Valdevez
+				}
+				b_moncao = {
+				}
+			}
+			c_braganza = {
+				color = { 149 235 242 }
+				color2={ 255 255 255 }
+
+				# Brigantia
+				
+				b_braganza = {
+					# Briganita
+				}
+				b_chaves = {
+					# Aquae Flaviae
+				}
+				b_vilareal = {
+					# Regalis
+				}
+				b_torredemoncorvo = {
+					# Deniatia # not Torre de Moncorvo
+				}
+				b_mogadouro = {
+					# Durius
+				}
+				b_castelomelhor = {
+					# Compluticum
+				}
+				b_castelorodrigo = {
+					# Roboretum # not Castelorodrigo
+				}
+				b_azinhoso = {
+				}
+			}
+		}
+	}
+	k_lusitania = {
+		color={ 57 160 101 }
+		color2={ 255 255 255 }
+		
+		capital = 160 # Lisboa
+		
+		catholic = 250 # Crusade target weight
+		muslim = 25
+		west_african_pagan_reformed = 25
+		
+		# Creation/usurpation trigger
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					ai = no
+					religion_group = christian
+				}
+			}
+		}
+		
+		d_porto = {
+			color = { 182 108 45 }
+			color2={ 255 255 255 }
+			
+
+		}
+		
+		d_scalabitanus = {
+			color = { 182 98 5 }
+			color2={ 255 255 255 }
+
+			latine = "Escalabitanus"
+			gallic = "Escalabitanus"
+			hispani = "Escalabitanus"
+			
+			capital = 160 #Lisboa
+			
+			c_lisboa = {
+				color = { 182 88 5 }
+				color2={ 255 255 255 }
+				
+				# Olisipo
+				
+				b_lisboa = {
+					# Olisipo
+
+					gothic = "Ulishbona"
+					suebi = "Ulishbona"
+					#gothicromance = "Ulishbona"
+				}
+				b_alcobaca = {
+					# Eburobrittium # actually Obidos
+				}
+				b_setubal = {
+					# Cetobriga
+				}
+				b_batalha = {
+					# Collippo # Leira
+				}
+				b_alenquer = {
+					# Arabriga
+				}
+				b_santarem = {
+					# Scalabis
+				}
+				b_atouguia = {
+					# Tubucci # Herdade do Carvalhal
+				}
+				b_tomar = {
+					# Sellium # Tomar
+				} 
+			}
+			c_evora = {
+				color = { 182 68 5 }
+				color2={ 255 255 255 }
+
+				# Ebora
+				
+				b_avis = {
+				} 
+				b_evora = {
+					# Ebora
+				} 
+				b_portalegre = {
+					# Abelterium # actually Alter do Chao
+				} 
+				b_marvao = {
+					# Amaia
+				} 
+				b_castelodevide = {
+					# Calamocum, from (Vicus) Camalocensis # actually Chocanal
+				} 
+				b_crato = {
+				} 
+				b_monforte = {
+					# Adseptemaras # actually Delgolados
+				} 
+				b_ouguela = {
+				}
+			}
+			c_alcacer_do_sal = {
+				color = { 182 105 5 }
+				color2={ 255 255 255 }
+
+				# Salacia
+				
+				b_alcacerdosal = {
+					# Salatia
+				}
+				b_alcacovas = {
+					# Malateca # Ribeira da Marateca
+				}
+				b_espinheiro = {
+					# Caeciliana # Cajados
+				}
+				b_montemoronovo = {
+					# Troia # not the other place
+				}
+				b_alvito = {
+					# Vitacum # guessing
+				}
+				b_santiagodocacem = {
+					# Mirobriga
+				}
+				b_sines = {
+					# Cinetos
+				}
+				b_grandola = {
+				}
+			}
+			c_castelo_branco = {
+				color = { 182 78 5 }
+				color2={ 255 255 255 }
+
+				# Herminius (Herminius Mons, Serra da Estrela)
+				
+				b_castelobranco = {
+					# Castraleuca
+				}
+				b_guarda = {
+					# Longobriga # Longroiva in Meda
+				}
+				b_covilha = {
+					# Cavaiuliana # 'Cava Juliana'
+
+					#gothicromance = "Cavajuliana"
+				}
+				b_acores = {
+					# Aravorum # not Acores
+				}
+				b_trancoso = {
+					# Caladunum # actually Vilar de Perdizes
+				}
+				b_sabugal = {
+					# Callabriga # actually Caabre
+				}
+				b_pinhel = {
+					# Cobelcorum
+				}
+				b_almeida = {
+					# Calabria # actually Castel Calabre
+				}
+			}
+			c_coimbra = {
+				color = { 182 88 25 }
+				color2={ 255 255 255 }
+				
+				# Conimbriga
+
+				roman = "Aeminium"
+				greek = "Aeminion"
+				
+				b_coimbra = {
+					# Conimbriga
+
+					roman = "Aeminium"
+					greek = "Aeminion"
+				}
+				b_viseu = {
+					# Viriacum # guessing
+				}
+				b_aveiro = {
+					# Alavarium
+				}
+				b_pedondo = {
+					# Langobriga # Redondo/Monte de S. Maria
+				}
+				b_cantanhede = {
+					# Cantonieti
+				}
+				b_condeixa = {
+					# Elbocoris # actually Bobadela
+				}
+				b_montereal = {
+					# Araocelum # actually Sao Cosmado
+				}
+				b_penela = {
+					# Talabriga # actuall Cabeco do Vouga
+				}
+			}
+		}
+		d_pacensis = {
+			color = { 6 150 198 }
+			color2={ 255 255 255 }
+
+			#occitan = "Pacense"
+			
+			capital = 185 # Mertola / Myrtilis / Pax Julia
+			
+			c_silves = {
+				color = { 14 194 254 }
+				color2={ 255 255 255 }
+
+				# Cilpes
+				
+				b_aljustrel = {
+				}
+				b_silves = {
+					# Cilpes
+				}
+				b_lagos = {
+					# Lacobriga
+				}
+				b_castroverde = {
+				}
+				b_odemira = {
+				}
+				b_ourique = {
+				}
+				b_monchique = {
+				}
+				b_almodovar = {
+				}
+			}
+			c_faro = {
+				color = { 6 117 198 }
+				color2={ 255 255 255 }
+				
+				# Ossonoba
+				
+				b_faro = {
+					# Ossonoba
+				}
+				b_loule = {
+				}
+				b_tavira = {
+					# Balsa
+				}
+				b_castromarim = {
+					# Baesuris
+				}
+				b_alcoutim = {
+					# Praesidium # probably located nearby, but not the same place
+				}
+				b_aljezur = {
+				}
+				b_saobrasdealportel = {
+				}
+				b_olhao = {
+				}
+			}
+			c_mertola = {
+				color = { 5 136 180 }
+				color2={ 255 255 255 }
+
+				# Myrtilis
+
+				roman = "Pax Julia"
+				greek = "Pax Julia"
+				latine = "Pax Julia"
+				gallic = "Pax Julia"
+				hispani = "Pax Julia"
+				
+				b_mertola = {
+					# Myrtilis
+				}
+				b_beja = {
+					# Paca
+
+					roman = "Pax Julia"
+					greek = "Pax Julia"
+					latine = "Pax Julia"
+					gallic = "Pax Julia"
+					hispani = "Pax Julia"
+				}
+				b_monsaraz = {
+				}
+				b_noudal = {
+				}
+				b_moura = {
+				}
+				b_portel = {
+				}
+				b_serpa = {
+				}
+				b_mourao = {
+				}
+			}
+		}
+		d_emeritanus = {
+			color = { 138 243 51 }
+			color2={ 255 255 255 }
+			
+			capital = 184 # Badajoz
+			
+			c_plasencia = {
+				color = { 228 230 23 }
+				color2={ 255 255 255 }
+				
+				b_hervas = {
+				}
+				b_plasencia = {
+				}
+				b_jaraiz = {
+				}
+				b_lazarza = {
+				}
+				b_montehermoso = {
+				}
+				b_ventadelmoral = {
+				}
+				b_jarandilla = {
+				}
+				b_talayuela = {
+				}
+			}
+			c_alcantara = {
+				color = { 230 232 25 }
+				color2={ 255 255 255 }
+				
+				b_alcantara = {
+				}
+				b_coria = {
+				}
+				b_moraleja = {
+				}
+				b_brozas = {
+				}
+				b_lamata = {
+				}
+				b_racharachel = {
+				}
+				b_lasnavasdelmadrono = {
+				}
+				b_ceclavin = {
+				}
+			}
+			c_caceres = {
+				color = { 232 234 27 }
+				color2={ 255 255 255 }
+
+				# Caesarina
+				
+				b_caceres = {
+					# Caesarina
+				}
+				b_guadalupe = {
+				}
+				b_trujillo = {
+					# Turgalium
+				}
+				b_alburquerque = {
+				}
+				b_alia = {
+				}
+				b_arroyodelalluz = {
+				}
+				b_logrosan = {
+				}
+				b_alcuescar = {
+				}
+			}
+			c_badajoz = {
+				color = { 234 236 29 }
+				color2={ 255 255 255 }
+				
+				b_jerezdeloscaballeros = {
+				}
+				b_badajoz = {
+				}
+				b_merida = {
+				}
+				b_zafra = {
+				}
+				b_almendralejo = {
+				}
+				b_villalbadelosbarros = {
+				}
+				b_guarena = {
+				}
+				b_fuentedelmaestre = {
+				}
+			}
+			c_salamanca = {
+				color = { 253 128 31 }
+				color2={ 255 255 255 }
+
+				# Salamantica
+				
+				b_salbejar = {
+				}
+				b_salamanca = {
+					# Salamantica
+				}
+				b_ciudadrodrigo = {
+				}
+				b_bracamonte = {
+				}
+				b_albadetormes = {
+				}
+				b_terradillos = {
+				}
+				b_carbajosadelasagrada = {
+				}
+				b_lumbrales = {
+				}
+			}
+		}
+	}
+	k_baetica = {
+		color = { 210 220 175 }
+		color2={ 255 255 255 }
+		
+		capital = 181 # Cordoba
+		
+		gothic = "Betica"
+		
+		catholic = 100 # Crusade target weight
+		muslim = 50 # Crusade target weight
+		west_african_pagan_reformed = 50
+		
+		d_cordubensis = {
+			color = { 11 96 202 }
+			color2={ 255 255 255 }
+			
+			capital = 181 # Cordoba
+			
+			c_cordoba = {
+				color = { 246 216 16 }
+				color2={ 255 255 255 }
+				
+				bedouin_arabic = "Qurtubah"
+				maghreb_arabic = "Qurtubah"
+				levantine_arabic = "Qurtubah"
+				egyptian_arabic = "Qurtubah"
+				andalusian_arabic = "Qurtubah"
+				
+				b_cordoba = {
+					holy_site = sunni
+					holy_site = aztec
+					holy_site = aztec_reformed
+					bedouin_arabic = "Qurtubah"
+					maghreb_arabic = "Qurtubah"
+					levantine_arabic = "Qurtubah"
+					egyptian_arabic = "Qurtubah"
+					andalusian_arabic = "Qurtubah"
+				}
+				b_alcolea = {
+				}
+				b_cabra = {
+				}
+				b_andujar = {
+				}
+				b_lucena = {
+				}
+				b_martos = {
+				}
+				b_belalcazar = {
+				}
+				b_canetedelastorres = {
+				}
+			}
+			c_calatrava = {
+				color = { 254 224 24 }
+				color2={ 255 255 255 }
+				
+				b_calatrava = {
+				}
+				b_villareal = {
+				}
+				b_caracuel = {
+				}
+				b_alcazardesanjuan = {
+				}
+				b_alarcos = {
+				}
+				b_medellin = {
+					# Metellinum
+				}
+				b_almadeo = {
+				}
+				b_almodovardelcampo = {
+				}
+			}
+			c_granada = {
+				color = { 245 242 15 }
+				color2={ 255 255 255 }
+				
+				b_jaen = {
+				}
+				b_granada = {
+				}
+				b_elvira = {
+				}
+				b_baeza = {
+				}
+				b_moclin = {
+				}
+				b_iznajar = {
+				}
+				b_guadix = {
+				}
+				b_huelma = {
+				}
+			}
+			c_almeria = {
+				color = { 248 245 18 }
+				color2={ 255 255 255 }
+				
+				b_pechina = {
+				}
+				b_almeria = {
+				}
+				b_baza = {
+				}
+				b_berja = {
+				}
+				b_motril = {
+				}
+				b_albox = {
+				}
+				b_purchena = {
+				}
+				b_vera = {
+				}
+			}
+		}
+		d_gaditanus = {
+			color = { 255 180 130 }
+			color2={ 255 255 255 }
+			
+			capital = 165 # Cadiz / Gades
+			
+			c_cadiz = {
+				color = { 236 204 29 }
+				color2={ 255 255 255 }
+				
+				b_jerez = {
+				}
+				b_cadiz = {
+				}
+				b_medinasidonia = {
+				}
+				b_arcos = {
+				}
+				b_sanjosedelvalle = {
+				}
+				b_sanlucadebarrameda = {
+				}
+				b_sanfernando = {
+				}
+				b_alcaladelosgazules = {
+				}
+			}
+			c_algeciras = {
+				color = { 240 208 33 }
+				color2={ 255 255 255 }
+				
+				b_gibraltar = {
+				}
+				b_algericas = {
+				}
+				b_ronda = {
+				}
+				b_sanroque = {
+				}
+				b_tarifa = {
+				}
+				b_estepona = {
+				}
+				b_jimenadelafrontera = {
+				}
+				b_casares = {
+				}
+			}
+			c_malaga = {
+				color = { 251 248 21 }
+				color2={ 255 255 255 }
+				
+				b_antequera = {
+				}
+				b_malaga = {
+				}
+				b_benalmadena = {
+				}
+				b_tamisa = {
+				}
+				b_coin = {
+				}
+				b_suel = {
+				}
+				b_cartajima = {
+				}
+				b_velezmalaga = {
+				}
+			}
+		}
+		d_hispalensis = {
+			color = { 121 39 30 }
+			color2={ 255 255 255 }
+			
+			capital = 182 # Sevilla
+			
+			c_sevilla = {
+				color = { 232 200 25 }
+				color2={ 255 255 255 }
+				
+				b_carmona = {
+				}
+				b_sevilla = {
+				}
+				b_ecija = {
+				}
+				b_sevimoron = {
+				}
+				b_alcaladeguadaira = {
+				}
+				b_doshermanas = {
+				}
+				b_laalgaba = {
+				}
+				b_utrera = {
+				}
+			}
+			c_aracena = {
+				color = { 244 212 37 }
+				color2={ 255 255 255 }
+				
+				b_aracena = {
+				}
+				b_italica = {
+				}
+				b_almonasterlareal = {
+				}
+				b_calanas = {
+				}
+				b_cortegana = {
+				}
+				b_facanias = {
+				}
+				b_alajar = {
+				}
+				b_galaroza = {
+				}
+			}
+			c_niebla = {
+				color = { 248 216 41 }
+				color2={ 255 255 255 }
+				
+				b_huelva = {
+				}
+				b_niebla = {
+				}
+				b_lepe = {
+				}
+				b_gibraleon = {
+				}
+				b_nerva = {
+				}
+				b_moguer = {
+				}
+				b_almonte = {
+				}
+				b_aljaraque = {
+				}
+			}
+		}
+	}
+	k_navarra = {
+		color = { 150 120 5 }
+		capital = 152 # Navarra
+		
+		culture = basque
+		
+		# Creation/usurpation trigger
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					ai = no
+					AND = {
+						culture = basque
+						religion_group = christian
+					}
+				}
+			}
+		}
+		
+		d_navarra = {
+			color = { 230 198 90 }
+			color2={ 255 255 255 }
+			
+			capital = 152 # Navarra
+			
+			c_viscaya = {
+				color = { 244 198 14 }
+				color2={ 255 255 255 }
+				
+				b_irun = {
+				}
+				b_sansebastian = {
+				}
+				b_eibar = {
+				}
+				b_onate = {
+				}
+				b_tolosa = {
+				}
+				b_bilbao = {
+				}
+				b_vitoria = {
+				}
+				b_guernica = {
+				}
+			}
+			
+			c_navarra = {
+				color = { 255 200 2 }
+				color2={ 255 255 255 }
+				
+				b_pamplona = {
+				}
+				b_leyre = {
+				}
+				b_tudela = {
+				} 
+				b_tafalla = {
+				}
+				b_olite = {
+				}
+				b_carcastillo = {
+				}
+				b_sanguesa = {
+				}
+				b_estella = {
+				}
+			}
+			c_najera = {
+				color = { 255 202 3 }
+				color2={ 255 255 255 }
+	
+				b_haro = {
+				}
+				b_logrone = {
+				}
+				b_calahorra = {
+				}
+				b_najera = {
+				}
+				b_arnedo = {
+				}
+				b_alfara = {
+				}
+				b_zizurmayor = {
+				}
+				b_santodomingodelacalzada = {
+				}
+			}
+		}
+	}
+}

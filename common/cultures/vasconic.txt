@@ -1,0 +1,121 @@
+vasconic = {
+	graphical_culture = westerngfx
+
+	basque = {
+		graphical_culture = occitangfx
+		
+		color = { 0.55 0.42 0.04 }
+
+		male_names = {
+			Alfontso_Alphonse Alvar_Oliver Antso_Sancho Aznar_Aznar 
+			Belasko_Vasco Bermudo_Vermudo Bernart_Bernard 
+			Diego_Diaco Donato_Donatus 
+			Egidio_Egidius
+			Eneko_Inigo Erramun_Raymond 
+			Fernando_Ferdinand Fortun 
+			Gartzia_Garcia Gilen_William Gontzal_Gonzalo 
+			Herramel 
+			Joan_John
+			Ladron Lope_Lupo Luis_Louis 
+			Martín_Martin Munio_Munio 
+			Nuño_Nuno 
+			Obeko_Obeko Ordoño_Ordono 
+			Pelaio_Pelagius Piarres_Peter
+			Ramiro_Ramiro Rodrigo_Roderick 
+			Vela_Vela 
+			Ximeno_Simon 
+			Zentulo_Centule
+		}
+		female_names = {
+			Aines_Agnes Aldontza_Aldonza Andregoto Antsa_Sancha 
+			Belaskita Berengaria_Berengaria Blanka_Blanche 
+			Eliza_Elisabeth Emili_Emily Estefania_Stephania 
+			Joana_Joan 
+			Konstantzia_Constance 
+			Maior_Mayor Maria_Maria Mentzia_Mencia Munia_Munia 
+			Nuña 
+			Oneka_Oneka Oria
+			Plazentzia_Plaisance 
+			Teresa_Teresa Toda_Toda 
+			Urraka_Urraca 
+			Ximena_Ximena
+		}
+		from_dynasty_prefix = "de "
+		
+		male_patronym = "ez"
+		female_patronym = "ez"
+		grammar_transform = spanish
+
+		pat_grf_name_chance = 80
+		mat_grf_name_chance = 5
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 55
+		mat_grm_name_chance = 15
+		mother_name_chance = 20
+
+		modifier = default_culture_modifier
+	}
+	aquitanian = {
+		graphical_culture = occitangfx
+		
+		color = { 0.4 0.33 0.15 }
+
+		male_names = {
+			Atxular Aizto Anzto_Sancho Aznar Aichina Artaha Andosto Aingeru_Angel Aita Amic Amusko Anaie Apalo Aper
+			Andres_Andrew Ato Aurubilitu Avadexe Acenarius Acubele Astoiluno Abisunhar Armentarius Apraze
+			Bituitus Berengario Bazkoare_Pascalis Baraxil_Basil Belagga Bartulon_Bartholomeus Bon
+			Cison Cardiel Charan
+			Dusanhar Didacos_Diago Dat Domigu_Dominic
+			Eblo Eusebio_Eusebius Emiri_Emilio Ennecus Esteuan_Stephen Egidius_Egidius
+			Felix Fertunius
+			Gilen_William Guarcia_Garcia Genial Gerexo Gasto Garbiso Guison Gogorio
+			Haitz Hascotar Honthar
+			Intxisuak Izane
+			Jurgi_George Julio_Julius Jacue_Jacob Jeino Juango_John
+			Lacubegi Lavrco Lope_Lupo Laquidino
+			Mairuak Martin_Martin Monnio Mantius Marco_Marcus Michelco_Michael
+			Nescato Nizeforo Niquolas_Nicholas
+			Onesius Ombexonis Ombecco Osocco_Lupus Ortinus Osorius
+			Ptianius Paulo_Paulus Petrisco_Peter Pelaio_Pelagius
+			Sembetten Sexto Sembetar Sembecco Samurco Serhuhor Santius_Sancho Sauastian_Sebastian Seme
+			Teyllo Tomas_Tomas
+			Velascus Vicenti_Vincent
+			Zigor Zorraquinus
+		}
+		female_names = {
+			Andere Anderese Anderazu Aiora Aines Aiza Alaba Ama Amabilia Andreantsa Arixen Auriola Auribita Asona
+			Belexeia Belascuza Baltca Borse Betissa
+			Constanza Catatlina
+			Domenca Domicussa Doltza Domicussa
+			Emazteona Ederetta Endregoto Ederra Eilo Elisabet_Elisabeth Enedina Estebenia_Stephania
+			Gisela Grayssico Gutia Gonstanca_Constance
+			Hautense
+			Iuxta_Justa
+			Jurdana Johana_Joan
+			Lexeia Laureia Leguntia Landerra Loba Lucadia
+			Maria_Maria Mencia Maitele Maiora_Mayor Marieta Marchesa Marisanceco Martina Munata
+			Oneca_Oneka Ortissa Otsanda
+			Petruxca
+			Sabada Sandora Sanctia
+			Tota Tsinara Teresa Totabita
+			Urdin Urrana Urrica Usoa
+			Yenega
+			Zianna Zezilia_Celia Zita Zuria
+		}
+
+		from_dynasty_prefix = "de "
+
+		grammar_transform = french
+
+		pat_grf_name_chance = 80
+		mat_grf_name_chance = 5
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 55
+		mat_grm_name_chance = 15
+		mother_name_chance = 20
+
+		modifier = default_culture_modifier
+	}
+}

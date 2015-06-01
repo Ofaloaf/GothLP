@@ -1,0 +1,133 @@
+semitic = {
+	graphical_culture = easterngfx
+
+	punic = {
+		graphical_culture = muslimgfx #punicgfx
+		
+		color = { 0.4 0.3 0.6 }
+
+		male_names = {
+			Abdashmon Abdenna Abdeshmun Abdimilki Abdmilkot Abdmelqart Abdosir Abdshed Abdshesm Abdusmun Abdzaphon Aderbaal Admagon Adonibaal Ahiram Ahimilk Ahotmilk Akbar Alideh_Alidus Amikeh_Amicus Annobaal Anobaal Antonineh_Anthony Aqhat Ashdabor Ashtartyaton Ashtzaph 
+			Awgusteh_Augustus Awrehli_Aurelius Ayliyaneh_Aelianus Azrubaal Baalfadi Baalhanno Baalshillek Baalyaton Baraket Binmilqart Bodashtart Bodeshmun Bodinelqart Bodmelqart Bodtanit Boqqi_Boccius Bostar Danel Diyodoreh_Diodorus 
+			Domineh_Dominus Donateh_Donatus Emil_Aemilius Eshmunamash Eshmunazar Eshmunkhilletz Eshmunshalokh Gayi_Caius Germanikus_Germanicus Germelqart Hamilket Hamon Hannibaal Hanno Haytili_Haetilius Hegrili_Egrilius 
+			Hiram Kanmi Khamelqart Khilletzbaal Khimilkât Kêkili_Caecilius Luqi_Lucius Magon Maharbaal Makrineh_Macrinus Maksineh_Maximus Mari_Marius Marqeh_Mark Marqi_Marcius Marseh_Marsus Melqartpilles Menahilim Merquri_Mercurius 
+			Methaqseh_Metaxus Milkherem Milkpilles Milkyaton Mithonbaal Peregrineh_Peregrinus Phawsteh_Faustus Phlawi_Flavius Pheliks_Felix Philosir Pimyaton Plawteh_Plautus Pompay_Pompeius Primeh_Primus Prophigeh_Profugus Qandideh_Candidus Qommodeh_Commodus 
+			Qwinteh_Quintus Regineh_Reginus Rib-Addi Ruphus_Rufus Sabineh_Sabinus Sakarbaal Serwi_Servius Sewereh_Severus Sexsteh_Sextus Shafat Tabnit Tanubda Tiberi_Tiberius Wespasiyaneh_Vespasian Yaroah Yehawwielon Yuli_Julius Yulyaneh_Julianus Yutpan Zimrida
+		}
+		female_names = {
+			Abdosir Abdtanit Agripina_Agrippina Amatashtart Amatbaal Amma Ammobaal Amotmilqart Antoniya_Antonia Arashtibaal Arisha Arishat Arishot Arshut Ashdanot Ashdonbaal Ashmonrabti Astarte Awgusta_Augusta Azibal Barkitbaal 
+			Batnoam Birkana Birkanda Bisha Bitnima Demna Domina Elissa Emeshmun Hannah Imashmon Imashtart Izabel_Elizabeth Lamiya_Lamia Mitunbaal Muttunbaal Pawly Pheliqula_Felicula Quarta Saphanbaal Septy Shiba Sisa Ummashtart Yasha Yuhliya_Julia Zibqet
+		}
+		
+		dynasty_title_names = yes
+		founder_named_dynasties = yes
+
+		male_patronym = "bin "
+		female_patronym = "bitt "
+		prefix = yes
+		
+		modifier = default_culture_modifier
+	}
+	hebrew = { 
+		graphical_culture = muslimgfx #arabicgfx
+		
+		color = { 0.5 0.35 0.5 }
+
+		male_names = {
+			Abris_Abrisius Adam_Adam Adi Adina_Adina Adir Agam Aharon_Aaron Akiba_Jacob Akiva_Jacob Almog Alon_Alon Amichai Amir_Amir Amit Amnon Amos Anat Ari Arieh Ariel Arik Aryeh Asa_Asa Asaf Asher_Asher
+			Avi Avidan Avihu Aviram Avishai Aviv Aviya Avner Avraham_Abraham Avram_Abram Ayal Barak_Barak Barukh_Baruch Binyamin_Benjamin Boaz Chaim
+			Chayim Chayyim Chesed Dan Daniyyel_Daniel David_David Dawid_David Dekel Dror Deror Dikla_Dikla Diklah_Dikla Dor Dori Doron Dov Efraim_Ephraim Ehud_Ehud Eiran Eitan_Ethan
+			Eli_Eli Eli'ezer_Eliezer Eliyyahu_Elijah Elior Elisha_Elisha Eliyahu_Elijah Eliyyahu_Elijah Elkanah Erez Eyal Eytan_Ethan Ezra Gal Gavriel_Gabriel Gid'on_Gideon
+			Gil Gilad_Gilead Gili Hadar Haim Hamon Hayim Hayyim Hebel_Abel Hed Hevel_Abel Hillel Hyam Idan Ilan Immanuel_Emmanuel Ira Itai Itamar Itzhak
+			Iyov Jaffe_Yaffa Keshet Kfir Lavi Lev Levi Li Lior Liron Maayan Mal'akhiy_Malachi Maor Matan Mattithyahu_Matthew Mattityahu_Matthew Meit Melech
+			Melek Menachem Menahem Menashe_Manasseh Meshulam Meshullam Mikha'el_Michael Mor Moran Mordecai Mordechai Moshe_Moses Nachum_Nahum Nadav_Nadab
+			Natan_Nathan Nir Nitzan Niv Noach_Noah Noam Noga Nogah Noy Ofek Ofer Ofir_Ophir Ofra_Ophrah Omer Omri Or Oren Ori Osher Ovadia_Obadiah Oved_Obed
+			Oz Paz Peleg Pinchas_Phinehas Raanan Ravid Raz Reuven_Reuben Roi Ron Ronen Rotem Sagi_Sagi Shachar Shahar Shai Shaked Shalev Shalom Shani Shay
+			Sheraga Shimon_Simon Shimshon_Samson Shlomo_Solomon Shmuel_Samuel Shraga Simcha Tal Tamir Tom Tomer Tovias_Tobias Tovia_Tobiah Tuvya_Tobiah Tzafrir_Zephyr
+			Tzion_Zion Tzvi_Tzvi Udi_Ehud Uri 'Uri'el_Uriel Uzi_Uzzi Uzzi_Uzzi Uzziel Yaakov_Jacob Yachin_Jachin Yafe_Yaffa Yaffe_Yaffa Yair_Jair Yakov_Jacob
+			Yaniv Yarden_Jordan Yaron_Aaron Yechezkel_Ezekiel Yehiel_Jehiel Yehoshua_Joshua Yehudah_Judah Yehudi_Jehudi Yishai_Jesse Yisra'el_Israel
+			Yissakhar_Issachar Yitzhak_Isaac Yoav_Joab Yochanan_John Yoel_Joel Yonah_Jonah Yonatan_Jonathan Yoni_Jonathan Yoram_Joram Yosef_Joseph Yuval_Jubal
+			Zeev_Zeev Zev_Zeev Ziv_Ziv Zohar_Zohar Zvi_Tzvi
+		}
+		female_names = {
+			Achinoam_Ahinoam Adara Adena_Adina Adi Adina_Adina Adva Agam Ahava Ahuva Aliya_Aliyah Aliyah_Aliyah Aliza Almog Alona_Alon Amira_Amir Amit Anat Ariel Atalia Atara Atarah Avia
+			Avigail Avishag Aviva Aviya Ayala Ayelet Ayla Bashe Basia Basya Batel Batsheva_Bathsheba Batya Batyah Beracha Bosmat Bracha Chanah_Hanah
+			Channah_Hannah Chava_Eve Chaya Chesed Dafna Dalia Dalit Dalya Danya Dara Dassah Devorah_Deborah Drorit Derorit Dikla_Dikla Diklah_Dikla Dor Dorit Dvorah_Deborah
+			Efrat Elah Eliana Eliora Elisheva_Elizabeth Elke Gal Galia Galit Geula Gilah Gili Hadar Hadas Hadassah Hagit Hed Herut Hila Idriya Ilana Ilanit Inbal
+			Inbar Irit Jaffe_Yaffa Kelila Keren Keshet Le'ah_Leah Li Liat Libi Lihi Lior Liora Liorit Liron Livna Livnat Maayan Malka Margalit_Margaret Margalita_Margaret
+			Marganita Marni Marnie Maya Maytal Meira Meirit Meital Menuha Merav Mica Michal Miriam_Mary Mor Moran Naamah Nahal Na'omiy_Naomi Nava Nessa Neta Nissa
+			Nitza Nitzan Noa_Noah Noam Noga Nogah Noy Noya Nurit Ofir_Ophir Ofra_Ophrah Or Ora Orah Ori Orit Orli Orly Orna Paz Rachel_Rachel Rani Ravid Raz Raziela
+			Reut_Ruth Rina Riva_Rebecca Rivka_Rebecca Ron Rona Roni Ronit Rotem Sagit Sapir Sarah_Sarah Sarit_Sarah Shachar Shahar Shaked Shalev Shamira Shani Shay
+			Shifra_Shiphrah Shir Shira Shiri Shlomit Shoshana_Susanna Shoshannah_Susanna Shulamit_Shulammite Shulamith_Shulammite Shulammit_Shulammite Shulammite_Shulammite
+			Sigal Sigalit Simcha Smadar Tahlia_Talya Tal_Tal Tali_Tal Talia_Talya Talya_Talya Tamar Tehila Tikva Tirtzah Tom Tova_Tova Tovah_Tova Toviah_Tobiah Tziporah_Zipporah
+			Tzipporah_Zipporah Tzivya Tzofiya Tzufit Varda_Vered Vardah_Vered Vered_Vered Yachna Yael_Jael Yaen Yafa_Yaffa Yafe_Yaffa Yaffa_Yaffa Yaffe_Yaffa Yakira
+			Yarden_Jordan Yardena_Jordan Yarona_Yoron Yehudit_Judith Yemima_Jemima Yocheved_Jochebed Yonina_Jonah Yonit_Jonah Yuval_Jubal Zahara_Zohar Zakiah Zipporah_Zipporah
+			Ziv_Ziv Ziva_Ziv Zivit_Ziv Zohar_Zohar
+		}
+
+		from_dynasty_prefix = "of "
+
+		male_patronym = "Ben-"
+		female_patronym = "Bat-"
+		prefix = yes
+
+		modifier = default_culture_modifier
+	}
+	assyrian = { 
+		graphical_culture = muslimgfx #arabicgfx
+		
+		color = { 0.65 0.55 0.80 }
+
+		male_names = {
+			Aba_Abba Abahu_Abahu Abaya_Abaya Abaye_Abaya Abayi_Abaya Abba_Abba Abdima 'Abdisho' Abgar Abimalek 
+			Abraham_Abraham Abris Abrisius_Abrisius Acacius Achan Achina Addai_Thaddeus Adlai Aggai Ahai_Ahha 
+			Ahadabui Ahha_Ahha "Akha d'abuh'" Akh-es-Samain Aqib-Alaha Asa_Asa Ashur_Asher Avahu Avda_Abahu 
+			Avdima_Avdima Avdimi_Avdima Avina Avira Azai
+			Babaeus_Babaeus Babai_Babaeus Babowai_Babaeus Babwahi_Babaeus Bar Bar-Abba Barba'shimin Bar-Nabha 
+			Bar-Talmai Bar-Timai Bar-Tolmai Bustan_Bustan 
+			Caiaphas Cephas_Peter Cephus_Peter Chadlai Chama Chanin_Chanin Chanina_Chanin Chaninai_Chanin 
+			Chinena_Chanin Chozai_Chozai Chuma Chunya_Chunya Clopas 
+			Dadisho' Denha Dikla_Dikla Diklah_Dikla Dimi Dinkha Dunanu 
+			Elisha'_Elisha Eliya Emmanuel_Emmanuel Enosh Ezekiel_Ezekiel 
+			Farbokht_Farbokht Foma Flavyanus
+			Giwargis_George Grwgari_Gregory 
+			Hanina_Chanin Hnanisho' Hozai_Chozai 
+			Idan Idra Ila Isaac_Isaac Isho' Isho'yahb Israel_Israel 
+			Kaiapha Karna Katsiu Kelaya 
+			Laszio_Lazarus Lazar_Lazarus Lazare_Lazarus Lazaro_Lazarus Lazaros_Lazarus Lazarus_Lazarus 
+			Lazarz_Lazarus Lazer_Lazarus Lebbaeus 
+			Maadai Macabee_Macabee Maccabee_Macabee Magna_Ma'na Makkikha Maluch Ma'na_Ma'na Marabokht_Farbokht 
+			Maremmeh Mari Mikha'il_Michael Moqli Muna 
+			Nahir_Nahir Nahor_Nahir Nahur_Nahir Narsai Nazuk Nechunya_Chunya Nehor_Nahir Nehorai Niv Nun Nur 
+			Oran_Nahir 
+			Pappa Paul_Paul Pethion Petros_Peter Petuel 
+			Qaligh Qayyoma 
+			Raca_Raka Rachim_Chanin Rahim_Chanin Raka_Raka Raz Raziel_Raphael Rubil 
+			Saad Saba_Saba Sabah_Saba Sabba'e_Saba Sabrisho'_Sabrisho' Sabr-Ishu_Sabrisho' Salu Samal Sami_Sami
+			Samiy_Sami Sagi_Sagi Sargis Sava_Saba Sawma Shafer Shahdost Shahlufa Shai Shalmai Shama Shamir 
+			Shammai Shemaiah Shem'on_Simon Sheraga_Sheraga Shila Shovai Shraga_Sheraga Sima Sliba-zkha Surin
+			Tabbai Taddai_Thaddeus Talia_Talia Taliah_Talia Talmai_Bartholomew Talya_Talia Tam_Thomas
+			Tam'as_Thomas Ta'mhas_Thomas Targhal Tauma Tavi_Tavi Tavish_Tavi Tevis_Tavis Th'amhais_Thomas 
+			Thoma_Thomas Timai_Timothy Tiv Toba Todos Tolmai_Bartholomew Tomarsa_Tomarsa Tamuza_Tomarsa 
+			Tulmay_Bartholomew 
+			Ukba 
+			Yahballaha Yanai Ya'qob_Jacob Yeshua_Joshua Yohannan_John Yosip_Joseph Yousef_Joseph 
+			Yunanis_John 
+			Zerika
+		}
+		female_names = {
+			Adva Alya Anena Anina Bustan_Bustan Chanina Chasina Chayuta_Chayuta China_Hina Chiyuta_Chayuta Dikla_Dikla Diklah_Dikla Diklit_Dikla Duvsha Hanina_Chanin Hasna Hayuta_Chayuta Hina_Hina Ketina Kitra
+			Magdala Mahalia_Mahalia Mahalie_Mahalia Marfa_Martha Mariam_Mary Marta_Martha Marte_Martha Martha_Martha Marthe_Martha Marti_Martha Martita_Martha Mehalia_Mahalia Meiriona_Meirona Meirona_Meirona Morta_Martha
+			Nahara_Nura Nura_Nura Raz Reuma Saba_Saba Sabah_Saba Samantha Sameah_Sami Samee_Sami Sameea_Sami Samiya_Sami Samiyah_Sami Samiyya_Sami Samya_Sami Sava_Saba Shapira Sima Tabatha_Tabitha Tabby_Tabitha Tabetha_Tabitha
+			Tabitha_Tabitha Tadea_Thaddea Talia_Talia Taliah_Talia Talya_Talia Talitha Tam_Thomasa Tamasin_Thomasa Tami_Thomasa Tammy_Thomasa Tamsin_Thomasa Tamsyn_Thomasa Tamzin_Thomasa Thaddea_Thaddea Thomasa_Thomasa Zeita_Zeta Zeta_Zeta
+		}
+
+		from_dynasty_prefix = "of "
+		
+		male_patronym = "Bar "
+		female_patronym = "Barta "
+		prefix = yes
+
+		modifier = default_culture_modifier
+	}
+}

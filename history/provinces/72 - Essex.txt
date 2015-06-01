@@ -1,0 +1,20 @@
+# 72 - Essex
+
+# County Title
+title = c_essex
+
+# Settlements
+max_settlements = 5
+b_colchester = castle
+
+b_maldon = city
+b_chelmsford = temple
+#b_kelvedon = castle
+#b_barking = castle
+#b_pleshey = castle
+#b_hedingham = castle
+#b_dunmow = castle
+
+# Misc
+culture = brithenig
+religion = hellenic_pagan

@@ -1,0 +1,8 @@
+402.1.1 = {
+	liege = "d_lugdunensis"
+	holder = 611003
+}
+
+761.1. = {
+	holder = 611004
+}

@@ -1,0 +1,19 @@
+# 32 - Middlesex
+
+# County Title
+title = c_middlesex
+
+# Settlements
+max_settlements = 6
+b_romford = castle
+b_london = temple
+b_brockley_hill = city
+b_staines = castle
+#b_fulham = castle
+#b_staines = castle
+#b_harrow = castle
+#b_chelsea = castle
+
+# Misc
+culture = brithenig
+religion = hellenic_pagan

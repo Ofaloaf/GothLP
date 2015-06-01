@@ -1,0 +1,161 @@
+611001 = {
+	name = "Ermanaricus"
+	dynasty = 405007
+	culture = gothic
+	religion = arian
+	325.1.1 = {
+		birth = yes
+	}
+	375.1.1 = {
+		death=yes
+	}
+}
+
+611002 = {
+	name = "Vithimiris"
+	dynasty = 405007
+	culture = gothic
+	religion = arian
+	father=611001
+	350.1.1 = {
+		birth = yes
+	}
+	376.1.1 = {
+		death=yes
+	}
+}
+
+611003 = {
+	name = "Witaireiks" # Vithericus
+	dynasty = 405007 # Amalius
+	martial = 11
+	diplomacy = 9
+	intrigue = 7
+	stewardship = 12
+	culture = gothic
+	religion = arian
+	father=611002
+	372.1.1 = {
+		birth = yes
+	}
+	432.1.1 = {
+		death = yes
+	}
+}
+
+611004 = {
+	name = "Thiudareiks"
+	dynasty = 405007
+	culture = gothic
+	religion = arian
+	740.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death=yes
+	}
+}
+
+611005 = {
+	name = "Theudis"
+	dynasty = 405002
+	martial = 10
+	diplomacy = 9
+	intrigue = 10
+	stewardship = 6
+	culture = gothic
+	religion = arian
+	trait = "ambitious"
+	trait = "brave"
+	737.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death=yes
+	}
+}
+
+611006 = {
+	name = "Albeis"
+	dynasty = 1940114
+	culture = gothic
+	religion = arian
+	719.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death=yes
+	}
+}
+
+611007 = {
+	name = "Paitrus"
+	dynasty = 405035
+	culture = gothic
+	religion = arian
+	trait = "deceitful"
+	738.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death=yes
+	}
+}
+
+611008 = {
+	name = "Alico"
+	dynasty = 405038 # Gastigodis
+	martial = 7
+	diplomacy = 6
+	intrigue = 6
+	stewardship = 6
+	culture = gothic
+	religion = arian
+	trait="gregarious"
+	709.1.1 = {
+		birth = yes
+	}
+	768.1.1 = {
+		death = yes
+	}
+}
+
+611009 = {
+	name = "Juleis"
+	dynasty = 405038 # Gastigodis
+	father = 611008
+	martial = 6
+	diplomacy = 7
+	intrigue = 6
+	stewardship = 6
+	learning=7
+	culture = gothic
+	religion = arian
+	trait="honest"
+	730.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+
+611010 = {
+	name = "Unigis"
+	dynasty = 405038 # Gastigodis
+	father = 611008
+	martial = 7
+	diplomacy = 6
+	intrigue = 6
+	stewardship = 6
+	learning=5
+	culture = gothic
+	religion = arian
+	trait="charitable"
+	734.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}

@@ -1,0 +1,215 @@
+443001 = {
+	name="Nibelunging"
+	culture = burgundian
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 8
+			texture_internal = 26
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+
+443002 = {
+	name = "Etzeling"
+	culture = burgundian
+}
+
+443003 = {
+	name = "Sigismunding"
+	culture = burgundian
+}
+
+443004 = {
+	name = "Gunnaring"
+	culture = burgundian
+}
+
+443005 = {
+	name = "Botelunging"
+	culture = burgundian
+}
+
+443006 = {
+	name = "Gernoting"
+	culture = burgundian
+}
+
+443007 = {
+	name = "Randvering"
+	culture = burgundian
+}
+
+443008 = {
+	name = "Erping"
+	culture = burgundian
+}
+
+443009 = {
+	name = "Sigurding"
+	culture = burgundian
+}
+
+443010 = {
+	name = "Giselhering"
+	culture = burgundian
+}
+
+443011 = {
+	name = "Rydborg"
+	culture = burgundian
+}
+
+443012 = {
+	name = "Espersen"
+	culture = burgundian
+}
+
+443013 = {
+	name = "Ibsen"
+	culture = burgundian
+}
+
+443014 = {
+	name = "Zahrt"
+	culture = burgundian
+}
+
+443015 = {
+	name = "Arboe"
+	culture = burgundian
+}
+
+443016 = {
+	name = "Bidstrup"
+	culture = burgundian
+}
+
+443017 = {
+	name = "Densam"
+	culture = burgundian
+}
+
+443018 = {
+	name = "Blang"
+	culture = burgundian
+}
+
+443019 = {
+	name = "Funch"
+	culture = burgundian
+}
+
+443020 = {
+	name = "Følsgaard"
+	culture = burgundian
+}
+
+443021 = {
+	name = "Glistrup"
+	culture = burgundian
+}
+
+443022 = {
+	name = "Hjorth"
+	culture = burgundian
+}
+
+443023 = {
+	name = "Høy"
+	culture = burgundian
+}
+
+443024 = {
+	name = "Juel"
+	culture = burgundian
+}
+
+443025 = {
+	name = "Jeberg"
+	culture = burgundian
+}
+
+443026 = {
+	name = "Koefoed"
+	culture = burgundian
+}
+
+443027 = {
+	name = "Koluda"
+	culture = burgundian
+}
+
+443028 = {
+	name = "Lerche"
+	culture = burgundian
+}
+
+443029 = {
+	name = "Schmiegelow"
+	culture = burgundian
+}
+
+443030 = {
+	name = "Schousboe"
+	culture = burgundian
+}
+
+443031 = {
+	name = "Wulff"
+	culture = burgundian
+}
+
+443032 = {
+	name = "Højgaard"
+	culture = burgundian
+}
+
+443033 = {
+	name = "Cort"
+	culture = burgundian
+}
+
+443034 = {
+	name = "Anker"
+	culture = burgundian
+}
+
+443035 = {
+	name = "Bondam"
+	culture = burgundian
+}
+
+443036 = {
+	name = "Grønbech"
+	culture = burgundian
+}
+
+443037 = {
+	name = "Panum"
+	culture = burgundian
+}
+
+443038 = {
+	name = "Ranslet"
+	culture = burgundian
+}
+
+443039 = {
+	name = "Vasegaard"
+	culture = burgundian
+}
+
+443040 = {
+	name = "Walløe"
+	culture = burgundian
+}
+
+443041 = {
+	name = "Stougaard"
+	culture = burgundian
+}

@@ -1,0 +1,529 @@
+1707001 = {
+	name = "Coelan" # of Coel Hen's family. 'Coelianus' -> 'Coelan', with -ianus to -an.
+	culture = brithenig
+}
+
+1707002 = {
+	name = "Berdicguent"
+	culture = brithenig
+}
+
+1707003 = {
+	name = "Glasobrin"
+	culture = brithenig
+}
+
+1707004 = {
+	name = "Nepus"
+	culture = brithenig
+}
+
+1707005 = {
+	name = "Trammelpila"
+	culture = brithenig
+}
+
+1707006 = {
+	name = "Boibont"
+	culture = brithenig
+}
+
+1707007 = {
+	name = "Comro"
+	culture = brithenig 
+}
+
+1707008 = {
+	name = "Iuguret"
+	culture = brithenig
+}
+
+1707009 = {
+	name = "Protictoris"
+	culture = brithenig
+}
+
+1707010 = {
+	name = "Griffydd"
+	culture = brithenig
+}
+
+1707011 = {
+	name = "Bendith"
+	culture = brithenig
+}
+
+1707012 = {
+	name = "Cybidd"
+	culture = brithenig
+}
+
+1707013 = {
+	name = "Dysbellur"
+	culture = brithenig
+}
+
+1707014 = {
+	name = "Clig"
+	culture = brithenig
+}
+
+1707015 = {
+	name = "Ffeirth"
+	culture = brithenig
+}
+
+1707016 = {
+	name = "Fferreir"
+	culture = brithenig
+}
+
+1707017 = {
+	name = "Ffuneir"
+	culture = brithenig
+}
+
+1707018 = {
+	name = "Glythun"
+	culture = brithenig
+}
+
+1707019 = {
+	name = "Glas"
+	culture = brithenig
+}
+
+1707020 = {
+	name = "Gwefer"
+	culture = brithenig
+}
+
+1707021 = {
+	name = "Gwenadur"
+	culture = brithenig
+}
+
+1707022 = {
+	name = "Llefan"
+	culture = brithenig
+}
+
+1707023 = {
+	name = "Llineir"
+	culture = brithenig
+}
+
+1707024 = {
+	name = "Llewein"
+	culture = brithenig
+}
+
+1707025 = {
+	name = "Llyddwig"
+	culture = brithenig
+}
+
+1707026 = {
+	name = "Magr"
+	culture = brithenig
+}
+
+1707027 = {
+	name = "Meddig"
+	culture = brithenig
+}
+
+1707028 = {
+	name = "Molineir"
+	culture = brithenig
+}
+
+1707029 = {
+	name = "Muin"
+	culture = brithenig
+}
+
+1707030 = {
+	name = "Pengras"
+	culture = brithenig
+}
+
+1707031 = {
+	name = "Penrhys"
+	culture = brithenig
+}
+
+1707032 = {
+	name = "Pereirin"
+	culture = brithenig
+}
+
+1707033 = {
+	name = "Prefder"
+	culture = brithenig
+}
+
+1707034 = {
+	name = "Rhedun"
+	culture = brithenig
+}
+
+1707035 = {
+	name = "Rhoch"
+	culture = brithenig
+}
+
+1707036 = {
+	name = "Rhui"
+	culture = brithenig
+}
+
+1707037 = {
+	name = "Serw"
+	culture = brithenig
+}
+
+1707038 = {
+	name = "Yniwr"
+	culture = brithenig
+}
+
+1707039 = {
+	name = "Ordofig" # Ordovices
+	culture = brithenig
+}
+
+1707040 = {
+	name = "Silwri" # Silures
+	culture = brithenig
+}
+
+1707041 = {
+	name = "Gabrantovig" # Gabrantovices
+	culture = brithenig
+}
+
+1707042 = {
+	name = "Cornovius"
+	culture = brithenig
+}
+
+1707043 = {
+	name = "Guotadin" # Votadini -> Goddodin, historically.
+	culture = brithenig
+}
+
+1707044 = {
+	name = "Tegdouerd"
+	culture = brithenig
+}
+
+1707045 = {
+	name = "de Durnovaris" # of Durnovaris
+	culture = brithenig
+}
+
+1707046 = {
+	name = "de Lindinis" # of Lindinis
+	culture = brithenig
+}
+
+1707047 = {
+	name = "Cantiag" # Cantiaci
+	culture = brithenig
+}
+
+1707048 = {
+	name = "de Tuesis"
+	culture = brithenig
+}
+
+1707049 = {
+	name = "de Bannatia"
+	culture = brithenig
+}
+
+1707050 = {
+	name = "de Tamia"
+	culture = brithenig
+}
+
+1707051 = {
+	name = "Noguant"
+	culture = brithenig
+}
+
+1707052 = {
+	name = "Mandubragan"
+	culture = brithenig
+}
+
+1707053 = {
+	name = "Addedmarol"
+	culture = brithenig
+}
+
+1707054 = {
+	name = "Imanguentan"
+	culture = brithenig
+}
+
+1707055 = {
+	name = "Casiguellan"
+	culture = brithenig
+}
+
+1707056 = {
+	name = "de Dincamol"
+	culture = brithenig
+}
+
+1707057 = {
+	name = "Tudorig"
+	culture = brithenig
+}
+
+1707058 = {
+	name = "Bychan"
+	culture = brithenig
+}
+
+1707059 = {
+	name = "de Gloui"
+	culture = brithenig
+}
+
+1707060 = {
+	name = "de Deva"
+	culture = brithenig
+}
+
+1707061 = {
+	name = "de Guenta"
+	culture = brithenig
+}
+
+1707062 = {
+	name = "de Lerion"
+	culture = brithenig
+}
+
+1707063 = {
+	name = "de Pengwern"
+	culture = brithenig
+}
+
+1707064 = {
+	name = "de Sarum"
+	culture = brithenig
+}
+
+1707065 = {
+	name = "Magmeil" # attempted to Britonize 'Maximilianus'
+	culture = brithenig
+}
+
+1707066 = {
+	name = "Artran" # attempted to Britonize 'Artorianus'
+	culture = brithenig
+}
+
+1707067 = {
+	name = "Custenhinan" # attempted to Britonize 'Constantinianus'
+	culture = brithenig
+}
+
+1707068 = {
+	name = "de Durocobriva"
+	culture = brithenig
+}
+
+1707069 = {
+	name = "de Guerlugio" # Verlucio->Guerlugio->Gwerlwg?
+	culture = brithenig
+}
+
+1707070 = {
+	name = "de Celemion"
+	culture = brithenig
+}
+
+1707071 = {
+	name = "de Cynwidion"
+	culture = brithenig
+}
+
+1707072 = {
+	name = "de Ceri"
+	culture = brithenig
+}
+
+1707073 = {
+	name = "de Baddan"
+	culture = brithenig
+}
+
+1707074 = {
+	name = "de Colun"
+	culture = brithenig
+}
+
+1707075 = {
+	name = "de Guendoleu"
+	culture = brithenig
+}
+
+1707076 = {
+	name = "Ebraucys"
+	culture = brithenig
+}
+
+1707077 = {
+	name = "Dewyrys"
+	culture = brithenig
+}
+
+1707078 = {
+	name = "de Vindomis"
+	culture = brithenig
+}
+
+1707079 = {
+	name = "de Loidis"
+	culture = brithenig
+}
+
+1707080 = {
+	name = "Bellig"
+	culture = brithenig
+}
+
+1707081 = {
+	name = "Senicianus"
+	culture = brithenig
+}
+
+1707082 = {
+	name = "Cunovendus"
+	culture = brithenig
+}
+
+1707083 = {
+	name = "Cunedecanes"
+	culture = brithenig
+}
+
+1707084 = {
+	name = "Catugnavus"
+	culture = brithenig
+}
+
+1707085 = {
+	name = "comitinus"
+	culture = brithenig
+}
+
+1707086 = {
+	name = "Motius"
+	culture = brithenig
+}
+
+1707087 = {
+	name = "Camulogeni"
+	culture = brithenig
+}
+
+1707088 = {
+	name = "Birginus"
+	culture = brithenig
+}
+
+1707089 = {
+	name = "Ateciu"
+	culture = brithenig
+}
+
+1707090 = {
+	name = "Blatero"
+	culture = brithenig
+}
+
+1707091 = {
+	name = "Amb"
+	culture = brithenig
+}
+
+1707092 = {
+	name = "Lovernianus"
+	culture = brithenig
+}
+
+1707093 = {
+	name = "Dubnovellaunos"
+	culture = brithenig
+}
+
+1707094 = {
+	name = "Lugotorix"
+	culture = brithenig
+}
+
+1707095 = {
+	name = "Eppilus"
+	culture = brithenig
+}
+
+1707096 = {
+	name = "Pertacus"
+	culture = brithenig
+}
+
+1707097 = {
+	name = "Divixtus"
+	culture = brithenig
+}
+
+1707098 = {
+	name = "Tamm"
+	culture = brithenig
+}
+
+1707099 = {
+	name = "Togidubnus"
+	culture = brithenig
+}
+
+1707100 = {
+	name = "Taximagulus"
+	culture = brithenig
+}
+
+1707101 = {
+	name = "Vodenios"
+	culture = brithenig
+}
+
+1707102 = {
+	name = "Dobunn"
+	culture = brithenig
+}
+
+1707103 = {
+	name = "Fuedlid"
+	culture = brithenig
+}
+
+1707104 = {
+	name = "Ffagan" # Faganus sive Fugatius
+	culture = brithenig
+}
+
+1707105 = {
+	name = "Dwywan" # Duvianus
+	culture = brithenig
+}
+
+1707106 = {
+	name = "Goeznovinus"
+	culture = brithenig
+}

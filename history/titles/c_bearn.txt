@@ -1,0 +1,23 @@
+620.1.1 = {
+	holder = 2222001 # Atxular Garvixi
+}
+
+650.1.1 = {
+	holder = 2222002 # Cison 'the Holy' Garvixi
+}
+
+687.1.1 = {
+	holder = 2222003 # Santius Garvixi
+}
+
+711.1.1 = {
+	holder = 2222004 # Andres Garvixi
+}
+
+744.1.1 = {
+	holder = 2222005 # Atxular Garvixi
+}
+
+754.1.1 = {
+	holder = 2222007 # Andres Garvixi
+}

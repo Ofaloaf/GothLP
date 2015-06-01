@@ -1,0 +1,20 @@
+# 227 - Lyon
+
+# County Title
+title = c_lyon
+
+# Settlements
+max_settlements = 5
+b_vithericopolis = castle
+b_lyon = temple
+b_pusignan = city
+b_brindas = castle
+
+#b_anse = city
+#b_chessy = castle
+#b_lacenas = temple
+#b_irigny = castle
+
+# Misc
+culture = gothic
+religion = arian

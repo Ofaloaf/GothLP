@@ -1,0 +1,20 @@
+# 808 - Benghazi
+
+# County Title
+title = c_benghazi
+
+# Settlements
+max_settlements = 5
+b_benghazi = castle
+b_barca = city
+b_oriana = temple
+b_tulmaytath = castle
+
+#b_ajdabiya = castle
+#b_tansulukh = castle
+#b_daryanah = castle
+#b_jardinah = castle
+
+# Misc
+culture = maghreb_arabic
+religion = nicene

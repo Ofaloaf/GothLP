@@ -1,0 +1,424 @@
+2468001 = {
+	name = "Airenosinis"
+	culture = aquitanian
+}
+
+2468002 = {
+	name = "Aspiat"
+	culture = aquitanian
+}
+
+2468003 = {
+	name = "Aturensis"
+	culture = aquitanian
+}
+
+2468004 = {
+	name = "Consorannis"
+	culture = aquitanian
+}
+
+2468005 = {
+	name = "Venarnis"
+	culture = aquitanian
+}
+
+2468006 = {
+	name = "Bercoratis"
+	culture = aquitanian
+}
+
+2468007 = {
+	name = "Bigerrionis"
+	culture = aquitanian
+}
+
+2468008 = {
+	name = "Camponal"
+	culture = aquitanian
+}
+
+2468009 = {
+	name = "Cocosatus"
+	culture = aquitanian
+}
+
+2468010 = {
+	name = "Consoral"
+	culture = aquitanian
+}
+
+2468011 = {
+	name = "Convenus"
+	culture = aquitanian
+}
+
+2468012 = {
+	name = "Datius"
+	culture = aquitanian
+}
+
+2468013 = {
+	name = "Elusatal"
+	culture = aquitanian
+}
+
+2468014 = {
+	name = "Auscal"
+	culture = aquitanian
+}
+
+2468015 = {
+	name = "Gatus"
+	culture = aquitanian
+}
+
+2468016 = {
+	name = "Elural"
+	culture = aquitanian
+}
+
+2468017 = {
+	name = "Lectoratus"
+	culture = aquitanian
+}
+
+2468018 = {
+	name = "Monesius"
+	culture = aquitanian
+}
+
+2468019 = {
+	name = "Onobrisatis"
+	culture = aquitanian
+}
+
+2468020 = {
+	name = "Lassal"
+	culture = aquitanian
+}
+
+2468021 = {
+	name = "Oscidatus"
+	culture = aquitanian
+}
+
+2468022 = {
+	name = "Suburatus"
+	culture = aquitanian
+}
+
+2468023 = {
+	name = "Sotiatus"
+	culture = aquitanian
+}
+
+2468024 = {
+	name = "Succassus"
+	culture = aquitanian
+}
+
+2468025 = {
+	name = "Tarbal"
+	culture = aquitanian
+}
+
+2468026 = {
+	name = "Umbranicus"
+	culture = aquitanian
+}
+
+2468027 = {
+	name = "Vasatal"
+	culture = aquitanian
+}
+
+2468028 = {
+	name = "Vellatus"
+	culture = aquitanian
+}
+
+2468029 = {
+	name = "Venamus"
+	culture = aquitanian
+}
+
+2468030 = {
+	name = "Zuberoanal"
+	culture = aquitanian
+}
+
+2468031 = {
+	name = "Antistius"
+	culture = aquitanian
+}
+
+2468032 = {
+	name = "Odanni"
+	culture = aquitanian
+}
+
+2468033 = {
+	name = "Belastar"
+	culture = aquitanian
+}
+
+2468034 = {
+	name = "Andolin"
+	culture = aquitanian
+}
+
+2468035 = {
+	name = "Latorlegui"
+	culture = aquitanian
+}
+
+2468036 = {
+	name = "Viquentize"
+	culture = aquitanian
+}
+
+2468037 = {
+	name = "Bitacoz"
+	culture = aquitanian
+}
+
+2468038 = {
+	name = "Ecte"
+	culture = aquitanian
+}
+
+2468039 = {
+	name = "Acenare"
+	culture = aquitanian
+}
+
+2468040 = {
+	name = "Hoco"
+	culture = aquitanian
+}
+
+2468041 = {
+	name = "Anaat"
+	culture = aquitanian
+}
+
+2468042 = {
+	name = "Aperrit"
+	culture = aquitanian
+}
+
+2468043 = {
+	name = "Echeverri"
+	culture = aquitanian
+}
+
+2468044 = {
+	name = "Dolquiti"
+	culture = aquitanian
+}
+
+2468045 = {
+	name = "Txomin"
+	culture = aquitanian
+}
+
+2468046 = {
+	name = "Garro"
+	culture = aquitanian
+}
+
+2468047 = {
+	name = "Goldaraz"
+	culture = aquitanian
+}
+
+2468048 = {
+	name = "Enecones"
+	culture = aquitanian
+}
+
+2468049 = {
+	name = "Etxatxu"
+	culture = aquitanian
+}
+
+2468050 = {
+	name = "Uassoco"
+	culture = aquitanian
+}
+
+2468051 = {
+	name = "Fortungones"
+	culture = aquitanian
+}
+
+2468052 = {
+	name = "Garbisxi"
+	culture = aquitanian
+}
+
+2468053 = {
+	name = "Zurie"
+	culture = aquitanian
+}
+
+2468054 = {
+	name = "Garseanis"
+	culture = aquitanian
+}
+
+2468055 = {
+	name = "Aitzol"
+	culture = aquitanian
+}
+
+2468056 = {
+	name = "Polit"
+	culture = aquitanian
+}
+
+2468057 = {
+	name = "Guenduliz"
+	culture = aquitanian
+}
+
+2468058 = {
+	name = "Sugabarra"
+	culture = aquitanian
+}
+
+2468059 = {
+	name = "Barrenco"
+	culture = aquitanian
+}
+
+2468060 = {
+	name = "Ulaquide"
+	culture = aquitanian
+}
+
+2468061 = {
+	name = "Enneci"
+	culture = aquitanian
+}
+
+2468062 = {
+	name = "Xoanexco"
+	culture = aquitanian
+}
+
+2468063 = {
+	name = "Munione"
+	culture = aquitanian
+}
+
+2468064 = {
+	name = "Goyena"
+	culture = aquitanian
+}
+
+2468065 = {
+	name = "Miliane"
+	culture = aquitanian
+}
+
+2468066 = {
+	name = "Nabar"
+	culture = aquitanian
+}
+
+2468067 = {
+	name = "Nequege"
+	culture = aquitanian
+}
+
+2468068 = {
+	name = "Tauar"
+	culture = aquitanian
+}
+
+2468069 = {
+	name = "Munneoni"
+	culture = aquitanian
+}
+
+2468070 = {
+	name = "Miotaco"
+	culture = aquitanian
+}
+
+2468071 = {
+	name = "Oggando"
+	culture = aquitanian
+}
+
+2468072 = {
+	name = "Garvixi"
+	culture = aquitanian
+}
+
+2468073 = {
+	name = "Gascueco"
+	culture = aquitanian
+}
+
+2468074 = {
+	name = "Sanccionis"
+	culture = aquitanian
+}
+
+2468075 = {
+	name = "Aruego"
+	culture = aquitanian
+}
+
+2468076 = {
+	name = "Cecondi"
+	culture = aquitanian
+}
+
+2468077 = {
+	name = "Iturrico"
+	culture = aquitanian
+}
+
+2468078 = {
+	name = "Vazterreco"
+	culture = aquitanian
+}
+
+2468079 = {
+	name = "Arauidio"
+	culture = aquitanian
+}
+
+2468080 = {
+	name = "Bicuondoco"
+	culture = aquitanian
+}
+
+2468081 = {
+	name = "Elarr"
+	culture = aquitanian
+}
+
+2468082 = {
+	name = "Sagar"
+	culture = aquitanian
+}
+
+2468083 = {
+	name = "Fruyto"
+	culture = aquitanian
+}
+
+2468084 = {
+	name = "Coscote"
+	culture = aquitanian
+}
+
+2468085 = {
+	name = "Musugorri"
+	culture = aquitanian
+}

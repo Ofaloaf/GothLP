@@ -1,0 +1,17 @@
+41600 = {
+	name="Babek"
+	dynasty=1042159
+	martial=4
+	diplomacy=6
+	intrigue=7
+	stewardship=6
+	culture="kurdish"
+	religion="zoroastrian"
+	trait="intricate_webweaver"
+	729.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}

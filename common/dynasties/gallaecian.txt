@@ -1,0 +1,284 @@
+1191001 = {
+	name = "de Villeca"
+	culture = gallaecian
+}
+
+1191002 = {
+	name = "Bodivescum"
+	culture = gallaecian
+}
+
+1191003 = {
+	name = "Aravu"
+	culture = gallaecian
+}
+
+1191004 = {
+	name = "Alongu"
+	culture = gallaecian
+}
+
+1191005 = {
+	name = "Pembeloru"
+	culture = gallaecian
+}
+
+1191006 = {
+	name = "Argalico"
+	culture = gallaecian
+}
+
+1191007 = {
+	name = "Arganao"
+	culture = gallaecian
+}
+
+1191008 = {
+	name = "Biracidecino"
+	culture = gallaecian
+}
+
+1191009 = {
+	name = "Cabedico"
+	culture = gallaecian
+}
+
+1191010 = {
+	name = "Caddeco"
+	culture = gallaecian
+}
+
+1191011 = {
+	name = "Corovascu"
+	culture = gallaecian
+}
+
+1191012 = {
+	name = "Doiderigu"
+	culture = gallaecian
+}
+
+1191013 = {
+	name = "Pentioco"
+	culture = gallaecian
+}
+
+1191014 = {
+	name = "Vernao"
+	culture = gallaecian
+}
+
+1191015 = {
+	name = "Vadinense"
+	culture = gallaecian
+}
+
+1191016 = {
+	name = "Orgenomescu"
+	culture = gallaecian
+}
+
+1191017 = {
+	name = "Salaeno"
+	culture = gallaecian
+}
+
+1191018 = {
+	name = "Avarigino"
+	culture = gallaecian
+}
+
+1191019 = {
+	name = "Concano"
+	culture = gallaecian
+}
+
+1191020 = {
+	name = "Tamaricu"
+	culture = gallaecian
+}
+
+1191021 = {
+	name = "Noegus"
+	culture = gallaecian
+}
+
+1191022 = {
+	name = "Plentuisio"
+	culture = gallaecian
+}
+
+1191023 = {
+	name = "Aracillense"
+	culture = gallaecian
+}
+
+1191024 = {
+	name = "Supertamarico"
+	culture = gallaecian
+}
+
+1191025 = {
+	name = "Caluro"
+	culture = gallaecian
+}
+
+1191026 = {
+	name = "Bletonesio"
+	culture = gallaecian
+}
+
+1191027 = {
+	name = "de Turgalio"
+	culture = gallaecian
+}
+
+1191028 = {
+	name = "de Tamusiensi"
+	culture = gallaecian
+}
+
+1191029 = {
+	name = "de Cottaeobriga"
+	culture = gallaecian
+}
+
+1191030 = {
+	name = "de Lancia"
+	culture = gallaecian
+}
+
+1191031 = {
+	name = "de Capara"
+	culture = gallaecian
+}
+
+1191032 = {
+	name = "Praestamarico"
+	culture = gallaecian
+}
+
+1191033 = {
+	name = "Cibarco"
+	culture = gallaecian
+}
+
+1191034 = {
+	name = "Coelerno"
+	culture = gallaecian
+}
+
+1191035 = {
+	name = "Grovio"
+	culture = gallaecian
+}
+
+1191036 = {
+	name = "Interamnico"
+	culture = gallaecian
+}
+
+1191037 = {
+	name = "Lapatianco"
+	culture = gallaecian
+}
+
+1191038 = {
+	name = "Lemavo"
+	culture = gallaecian
+}
+
+1191039 = {
+	name = "Limico"
+	culture = gallaecian
+}
+
+1191040 = {
+	name = "Luanquius"
+	culture = gallaecian
+}
+
+1191041 = {
+	name = "Naebisocus"
+	culture = gallaecian
+}
+
+1191042 = {
+	name = "Aebisoco"
+	culture = gallaecian
+}
+
+1191043 = {
+	name = "Namario"
+	culture = gallaecian
+}
+
+1191044 = {
+	name = "Narbaso"
+	culture = gallaecian
+}
+
+1191045 = {
+	name = "Nerio"
+	culture = gallaecian
+}
+
+1191046 = {
+	name = "Poemano"
+	culture = gallaecian
+}
+
+1191047 = {
+	name = "Quaquerno"
+	culture = gallaecian
+}
+
+1191048 = {
+	name = "Seurbo"
+	culture = gallaecian
+}
+
+1191049 = {
+	name = "Tamagano"
+	culture = gallaecian
+}
+
+1191050 = {
+	name = "Turodo"
+	culture = gallaecian
+}
+
+1191051 = {
+	name = "Bormanico"
+	culture = gallaecian
+}
+
+1191052 = {
+	name = "Pondal"
+	culture = gallaecian
+}
+
+1191053 = {
+	name = "Sarmiento"
+	culture = gallaecian
+}
+
+1191054 = {
+	name = "Murguia"
+	culture = gallaecian
+}
+
+1191055 = {
+	name = "Varela"
+	culture = gallaecian
+}
+
+1191056 = {
+	name = "Seoane"
+	culture = gallaecian
+}
+
+1191057 = {
+	name = "Risco"
+	culture = gallaecian
+}

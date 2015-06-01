@@ -1,0 +1,889 @@
+1814001 = {
+	name = "vo Minga" # von Munchen
+	culture = boarisch
+}
+
+1814002 = {
+	name = "vo Wittelsbach"
+	culture = boarisch
+}
+
+1814003 = {
+	name = "vo Niambeag" # von Nuremburg
+	culture = boarisch
+}
+
+1814004 = {
+	name = "vo Wiazbuag" # von Wurzburg
+	culture = boarisch
+}
+
+1814005 = {
+	name = "Huosi"
+	culture = boarisch
+}
+
+1814006 = {
+	name = "vo Strawing" # von Straubing
+	culture = boarisch
+}
+
+1814007 = {
+	name = "vo Landshuad" # von Landshut
+	culture = boarisch
+}
+
+1814008 = {
+	name = "de Suinvorde"
+	culture = boarisch
+}
+
+1814009 = {
+	name = "vo Omschberg" # von Abensberg
+	culture = boarisch
+}
+
+1814010 = {
+	name = "vo Adlzhausn" # von Adelzhausen
+	culture = boarisch
+}
+
+1814011 = {
+	name = "vo Pullach" # von Pullach (actually meant to represent the house of Auer von Pullach but whatever)
+	culture = boarisch
+}
+
+1814012 = {
+	name = "vo Baiabrunn" # von Baierbrunn
+	culture = boarisch
+}
+
+1814013 = {
+	name = "vo Buachahoa" # von Buchenhain
+	culture = boarisch
+}
+
+1814014 = {
+	name = "Westenthanner"
+	culture = boarisch
+}
+
+1814015 = {
+	name = "vo Baymundt" # von Baymundt
+	culture = boarisch
+}
+
+1814016 = {
+	name = "vo Closen" # von Closen
+	culture = boarisch
+}
+
+1814017 = {
+	name = "vo Aretin"
+	culture = boarisch
+}
+
+1814018 = {
+	name = "vo Hals"
+	culture = boarisch
+}
+
+1814019 = {
+	name = "vo Leuchtenberg"
+	culture = boarisch
+}
+
+1814020 = {
+	name = "vo Aidenboch"
+	cultue = boarisch
+}
+
+1814021 = {
+	name = "Eggersdorfer"
+	culture = boarisch
+}
+
+1814022 = {
+	name = "vo Dabertzhofen" # von Dabertzhofen
+	culture = boarisch
+}
+
+1814023 = {
+	name = "vo Dumperg" # von Dumperg
+	culture = boarisch
+}
+
+1814024 = {
+	name = "vo Edelweck zu Schonau" # house von Edelbeck (also called Edlweck)
+	culture = boarisch
+}
+
+1814025 = {
+	name = "vo Erlbeck zu Siningen" # von Erlbeck zu Siningen
+	culture = boarisch
+}
+
+1814026 = {
+	name = "vo Oawin" # von Bad Aibling
+	culture = boarisch
+}
+
+1814027 = {
+	name = "vo Freising" # von Freising
+	culture = boarisch
+}
+
+1814028 = {
+	name = "vo Fraengking" # von Franking sive von Fraengking
+	culture = boarisch
+}
+
+1814029 = {
+	name = "vo Freyburg" # von Freyburg
+	culture = boarisch
+}
+
+1814030 = {
+	name = "Freymann auf Randeck" # house of Freymann auf Randeck
+	culture = boarisch
+}
+
+1814031 = {
+	name = "vo Fuchsstein" # von Fuchsstein
+	culture = boarisch
+}
+
+1814032 = {
+	name = "vo Fronberg" # von Fronberg
+	culture = boarisch
+}
+
+1814033 = {
+	name = "vo Freyberg zu Aschau" # house of Freyberg of Aschau, different from the above
+	culture = boarisch
+}
+
+1814034 = {
+	name = "vo Fronheim zu Malching" # house of Fronheim zu Malching
+	culture = boarisch
+}
+
+1814035 = {
+	name = "vo Gabelkhoven" # von Gabelkhoven, Gäbelthofen
+	culture = boarisch
+}
+
+1814036 = {
+	name = "Agilulfinger" # Agilofinger, Agilofing
+	culture = boarisch
+}
+
+1814037 = {
+	name = "vo Gebeck" # von Gebeck, Geebecken
+	culture = boarisch
+}
+
+1814038 = {
+	name = "vo Gravenreuth" # von Gravenreuth
+	culture = boarisch
+}
+
+1814039 = {
+	name = "vo Göltling" # von Göltling
+	culture = boarisch
+}
+
+1814040 = {
+	name = "vo Haslang" # von Haslang
+	culture = boarisch
+}
+
+1814041 = {
+	name = "vo Hautzenberg" # von Hautzenberg
+	culture = boarisch
+}
+
+1814042 = {
+	name = "vo Hegnenberg" # Hägnenberg
+	culture = boarisch
+}
+
+1814043 = {
+	name = "vo Hermsdorf" # von Hermsdorf
+	culture = boarisch
+}
+
+1814044 = {
+	name = "Hilinger"
+	culture = boarisch
+}
+
+1814045 = {
+	name = "vo Hertzheim"
+	culture = boarisch
+}
+
+1814046 = {
+	name = "vo Hintzenhausen"
+	culture = boarisch
+}
+
+1814047 = {
+	name = "vo Hocholting" # von Hocholting
+	culture = boarisch
+}
+
+1814048 = {
+	name = "Hofer von Lobenstein" # house of Hofer von Lobenstein
+	culture = boarisch
+}
+
+1814049 = {
+	name = "vo Houaföls" # von Hohenfels
+	culture = boarisch
+}
+
+1814050 = {
+	name = "vo Dejpfurt" # Dietfurt an der Altmühl
+	culture = boarisch
+}
+
+1814051 = {
+	name = "vo Bacham" # Berching
+	culture = boarisch
+}
+
+1814052 = {
+	name = "vo Hundt zu Lautterbach" # von Hundt zu Lautterbach
+	culture = boarisch
+}
+
+1814053 = {
+	name = "vo Hütte zu Heuspach" # von Hütte zu Heuspach
+	culture = boarisch
+}
+
+1814054 = {
+	name = "vo Ingelsteter" # Ingelsteter
+	culture = boarisch
+}
+
+1814055 = {
+	name = "vo Jagensdorf" # house of Jagensdorf
+	culture = boarisch
+}
+
+1814056 = {
+	name = "Jung"
+	culture = boarisch
+}
+
+1814057 = {
+	name = "vo Johannsdorf" # house of Johannsdorf
+	culture = boarisch
+}
+
+1814058 = {
+	name = "Kapfmäner" # Kapfelmann
+	culture = boarisch
+}
+
+1814059 = {
+	name = "vo Kemnat" # von Kemnat
+	culture = boarisch
+}
+
+1814060 = {
+	name = "vo Kölderer zu Hohe" # house of Kölderer zu Hohe
+	culture = boarisch
+}
+
+1814061 = {
+	name = "vo Klammenstein" # von Klammenstein
+	culture = boarisch
+}
+
+1814062 = {
+	name = "vo Kranigsperg"
+	culture = boarisch
+}
+
+1814063 = {
+	name = "Krätztl"
+	culture = boarisch
+}
+
+1814064 = {
+	name = "vo Krottendorf" # von Krottendorf
+	culture = boarisch
+}
+
+1814065 = {
+	name = "vo Hoog" # von Haag (Haag, Austria)
+	culture = boarisch
+}
+
+1814066 = {
+	name = "vo Kürmreuth" # von Kürmreuth
+	culture = boarisch
+}
+
+1814067 = {
+	name = "Lamminger"
+	culture = boarisch
+}
+
+1814068 = {
+	name = "Markomanne"
+	culture = boarisch
+}
+
+1814069 = {
+	name = "Lautenschlager zu Wilmannsberg"
+	culture = boarisch
+}
+
+1814070 = {
+	name = "Leneys"
+	culture = boarisch
+}
+
+1814071 = {
+	name = "Lung vo Planeck"
+	culture = boarisch
+}
+
+1814072 = {
+	name = "Mangsreuter"
+	culture = boarisch
+}
+
+1814073 = {
+	name = "Manshofer"
+	culture = boarisch
+}
+
+1814074 = {
+	name = "Mendel vo Steinfels"
+	culture = boarisch
+}
+
+1814075 = {
+	name = "vo Mistelbach"
+	culture = boarisch
+}
+
+1814076 = {
+	name = "Mönch zu Rampaur"
+	culture = boarisch
+}
+
+1814077 = {
+	name = "Morolding zu Hornbach"
+	culture = boarisch
+}
+
+1814078 = {
+	name = "Murhaimer"
+	culture = boarisch
+}
+
+1814079 = {
+	name = "Quade"
+	culture = boarisch
+}
+
+1814080 = {
+	name = "vo Murach" # von Murach
+	culture = boarisch
+}
+
+1814081 = {
+	name = "vo Mugkenthal" # von Mugkenthal, Muggenthaler
+	culture = boarisch
+}
+
+1814082 = {
+	name = "vo Neubig"
+	culture = boarisch
+}
+
+1814083 = {
+	name = "vo Nusdorf" # Nussdorff
+	culture = boarisch
+}
+
+1814084 = {
+	name = "Offenheimer zu Seibersdorf"
+	culture = boarisch
+}
+
+1814085 = {
+	name = "vo Otelingen" # von Otelingen, Ettling, Öttling
+	culture = boarisch
+}
+
+1814086 = {
+	name = "Panichner" # Panichner von Walkersdorf und Gartenau
+	culture = boarisch
+}
+
+1814087 = {
+	name = "Paumgartner"
+	culture = boarisch
+}
+
+1814088 = {
+	name = "vo Poschba" # von Parsberg
+	culture = boarisch
+}
+
+1814089 = {
+	name = "vo Paulsdorf" # von Paulsdorf
+	culture = boarisch
+}
+
+1814090 = {
+	name = "Perger"
+	culture = boarisch
+}
+
+1814091 = {
+	name = "Perghauser" # House of Perghauser zu Weischs
+	culture = boarisch
+}
+
+1814092 = {
+	name = "Petzlinger"
+	culture = boarisch
+}
+
+1814093 = {
+	name = "Pfahler"
+	culture = boarisch
+}
+
+1814094 = {
+	name = "Ortner"
+	culture = boarisch
+}
+
+1814095 = {
+	name = "Pötinger"
+	culture = boarisch
+}
+
+1814096 = {
+	name = "Brandner"
+	culture = boarisch
+}
+
+1814097 = {
+	name = "Poysel"
+	culture = boarisch
+}
+
+1814098 = {
+	name = "Pronner"
+	culture = boarisch
+}
+
+1814099 = {
+	name = "Proy"
+	culture = boarisch
+}
+
+1814100 = {
+	name = "Putzner"
+	culture = boarisch
+}
+
+1814101 = {
+	name = "vo Pülnhofen"
+	culture = boarisch
+}
+
+1814102 = {
+	name = "Reichhart"
+	culture = bairish
+}
+
+1814103 = {
+	name = "Reindörfer"
+	culture = boarisch
+}
+
+1814104 = {
+	name = "Reinoldt"
+	culture = boarisch
+}
+
+1814105 = {
+	name = "Reitmohr"
+	culture = boarisch
+}
+
+1814106 = {
+	name = "Reigher"
+	culture = boarisch
+}
+
+1814107 = {
+	name = "vo Regeldorf" # von Regeldorf
+	culture = boarisch
+}
+
+1814108 = {
+	name = "vo Raitenbuch" # von Raitenbuch
+	culture = boarisch
+}
+
+1814109 = {
+	name = "Riederer" # Riederer von Paar
+	culture = boarisch
+}
+
+1814110 = {
+	name = "vo Rohr" # von Rohr
+	culture = boarisch
+}
+
+1814111 = {
+	name = "vo Rorbach" # von Rorbach
+	culture = boarisch
+}
+
+1814112 = {
+	name = "Rosenbusch" # Rosenbusch zu Notzing
+	culture = boarisch
+}
+
+1814113 = {
+	name = "de Allaris" # house of Sallern
+	culture = boarisch
+}
+
+1814114 = {
+	name = "vo Salrer" # house of Sallern, von Sallern
+	culture = boarisch
+}
+
+1814115 = {
+	name = "Saurzapf"
+	culture = boarisch
+}
+
+1814116 = {
+	name = "vo Sandizell"
+	culture = boarisch
+}
+
+1814117 = {
+	name = "vo Satzenhofen"
+	culture = boarisch
+}
+
+1814118 = {
+	name = "vo Shcaldorf"
+	culture = boarisch
+}
+
+1814119 = {
+	name = "Scheufel"
+	culture = boarisch
+}
+
+1814120 = {
+	name = "Schildl"
+	culture = boarisch
+}
+
+1814121 = {
+	name = "Schlaher" # Schlaher von der Nimkau
+	culture = boarisch
+}
+
+1814122 = {
+	name = "vo Schmihen"
+	culture = boarisch
+}
+
+1814123 = {
+	name = "Schölhammer"
+	culture = boarisch
+}
+
+1814124 = {
+	name = "vo Schönburg"
+	culture = boarisch
+}
+
+1814125 = {
+	name = "Schwebel"
+	culture = boarisch
+}
+
+1814126 = {
+	name = "Schweickhart"
+	culture = boarisch
+}
+
+1814127 = {
+	name = "Schweinböck"
+	culture = boarisch
+}
+
+1814128 = {
+	name = "vo Schwartzdorf"
+	culture = boarisch
+}
+
+1814129 = {
+	name = "Seemann" # House of Seemann von Mangern, Seemäner
+	culture = boarisch
+}
+
+1814130 = {
+	name = "Schwendt"
+	culture = boarisch
+}
+
+1814131 = {
+	name = "Senfft" # Senft von Bilsach, Senfft von Pilsach
+	culture = boarisch
+}
+
+1814132 = {
+	name = "Schrenck"
+	culture = boarisch
+}
+
+1814133 = {
+	name = "vo Seyfridsdorf"
+	culture = boarisch
+}
+
+1814134 = {
+	name = "Satiner" # Stainer von Rockendorf
+	culture = boarisch
+}
+
+1814135 = {
+	name = "Staringer"
+	culture = boarisch
+}
+
+1814136 = {
+	name = "vo Staudinger"
+	culture = boarisch
+}
+
+1814137 = {
+	name = "vo Startzhausen"
+	culture = boarisch
+}
+
+1814138 = {
+	name = "Staufer zu Thunau"
+	culture = boarisch
+}
+
+1814139 = {
+	name = "Steinlinger"
+	culture = boarisch
+}
+
+1814140 = {
+	name = "Steurer"
+	cultue = boarisch
+}
+
+1814141 = {
+	name = "Stern"
+	culture = boarisch
+}
+
+1814142 = {
+	name = "Strassl"
+	culture = boarisch
+}
+
+1814143 = {
+	name = "vo Tattenbach" # von Tattenbach, REinstein-Tattenbach
+	culture = boarisch
+}
+
+1814144 = {
+	name = "Thaimer"
+	culture = boarisch
+}
+
+1814145 = {
+	name = "vo Taching"
+	culture = boarisch
+}
+
+1814146 = {
+	name = "vo Thonn"
+	culture = boarisch
+}
+
+1814147 = {
+	name = "Thorer"
+	culture = boarisch
+}
+
+1814148 = {
+	name = "von Rudhart"
+	culture = boarisch
+}
+
+1814149 = {
+	name = "Lynen"
+	culture = boarisch
+}
+
+1814150 = {
+	name = "Mössbauer"
+	culture = boarisch
+}
+
+1814151 = {
+	name = "von Spruner"
+	culture = boarisch
+}
+
+1814152 = {
+	name = "Durner zu Thurn"
+	culture = boarisch
+}
+
+1814153 = {
+	name = "vo Tieffenbach"
+	culture = boarisch
+}
+
+1814154 = {
+	name = "vo Tobelheim"
+	culture = boarisch
+}
+
+1814155 = {
+	name = "Trauner"
+	culture = boarisch
+}
+
+1814156 = {
+	name = "vo Trennbach" # Trenbach
+	culture = boarisch
+}
+
+1814157 = {
+	name = "Türlinger"
+	culture = boarisch
+}
+
+1814158 = {
+	name = "Türrigel"
+	culture = boarisch
+}
+
+1814159 = {
+	name = "vo Trugenhofen"
+	culture = boarisch
+}
+
+1814160 = {
+	name = "Überäcker"
+	culture = boarisch
+}
+
+1814161 = {
+	name = "Ursenbek"
+	culture = boarisch
+}
+
+1814162 = {
+	name = "vo Uhrmühl"
+	culture = boarisch
+}
+
+1814163 = {
+	name = "vo Uttingen"
+	culture = boarisch
+}
+
+1814164 = {
+	name = "Vetter"
+	culture = boarisch
+}
+
+1814165 = {
+	name = "Visler"
+	culture = boarisch
+}
+
+1814166 = {
+	name = "Vilsegger"
+	culture = boarisch
+}
+
+1814167 = {
+	name = "Weber"
+	culture = boarisch
+}
+
+1814168 = {
+	name = "Weichsner"
+	culture = boarisch
+}
+
+1814169 = {
+	name = "Weiler"
+	culture = boarisch
+}
+
+1814170 = {
+	name = "Wensing"
+	culture = boarisch
+}
+
+1814171 = {
+	name = "Wenger"
+	culture = boarisch
+}
+
+1814172 = {
+	name = "vo Wembding" # Wemding
+	culture = boarisch
+}
+
+1814173 = {
+	name = "vo Wilwart"
+	culture = boarisch
+}
+
+1814174 = {
+	name = "vo Wisbeck"
+	culture = boarisch
+}
+
+1814175 = {
+	name = "vo Wolrab"
+	culture = boarisch
+}
+
+1814176 = {
+	name = "vo Wisenfeldt"
+	culture = boarisch
+}
+
+1814177 = {
+	name = "Zeller" 
+	culture = boarisch
+}
+
+1814178 = {
+	name = "Zenger"
+	culture = boarisch
+}

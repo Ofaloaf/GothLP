@@ -1,0 +1,259 @@
+135001 = {
+	name = "bar Kokhba"
+	culture = hebrew
+}
+
+135002 = {
+	name = "ben Joseph"
+	culture = hebrew
+}
+
+135003 = {
+	name = "Hashmona'im"
+	culture = hebrew
+}
+
+135004 = {
+	name = "Thassi"
+	culture = hebrew
+}
+
+135005 = {
+	name = "Maccabeus"
+	culture = hebrew
+}
+
+135006 = {
+	name = "Jannaeus"
+	culture = hebrew
+}
+
+135007 = {
+	name = "Gaon"
+	culture = hebrew
+}
+
+135008 = {
+	name = "ben Hofni"
+	culture = hebrew
+}
+
+135009 = {
+	name = "ben Nathan"
+	culture = hebrew
+}
+
+135010 = {
+	name = "ben Menasseh"
+	culture = hebrew
+}
+
+135011 = {
+	name = "ben Habibi"
+	culture = hebrew
+}
+
+135012 = {
+	name = "ben Boaz"
+	culture = hebrew
+}
+
+135013 = {
+	name = "ben Anan"
+	culture = hebrew
+}
+
+135014 = {
+	name = "Halevi"
+	culture = hebrew
+}
+
+135015 = {
+	name = "Peled"
+	culture = hebrew
+}
+
+135016 = {
+	name = "Kohen"
+	culture = hebrew
+}
+
+135017 = {
+	name = "Khait"
+	culture = hebrew
+}
+
+135018 = {
+	name = "Dayan"
+	culture = hebrew
+}
+
+135019 = {
+	name = "ben Chayim"
+	culture = hebrew
+}
+
+135020 = {
+	name = "Spinosus"
+	culture = hebrew
+}
+
+135021 = {
+	name = "ben Avuya"
+	culture = hebrew
+}
+
+135022 = {
+	name = "Aryeh"
+	culture = hebrew
+}
+
+135023 = {
+	name = "Ayllon"
+	culture = hebrew
+}
+
+135024 = {
+	name = "Uziel"
+	culture = hebrew
+}
+
+135025 = {
+	name = "Tzvi"
+	culture = hebrew
+}
+
+135026 = {
+	name = "Avidan"
+	culture = hebrew
+}
+
+135027 = {
+	name = "Abigdor"
+	culture = hebrew
+}
+
+135028 = {
+	name = "Aron"
+	culture = hebrew
+}
+
+135029 = {
+	name = "ha-Levi"
+	culture = hebrew
+}
+
+135030 = {
+	name = "Crescas"
+	culture = hebrew
+}
+
+135031 = {
+	name = "ha-Laban"
+	culture = hebrew
+}
+
+135032 = {
+	name = "Jonas"
+	culture = hebrew
+}
+
+135033 = {
+	name = "Jori"
+	culture = hebrew
+}
+
+135034 = {
+	name = "Lazarus"
+	culture = hebrew
+}
+
+135035 = {
+	name = "Ikriti"
+	culture = hebrew
+}
+
+135036 = {
+	name = "Paltiel"
+	culture = hebrew
+}
+
+135037 = {
+	name = "Luria"
+	culture = hebrew
+}
+
+135038 = {
+	name = "Tremellius"
+	culture = hebrew
+}
+
+135039 = {
+	name = "Molkho"
+	culture = hebrew
+}
+
+135040 = {
+	name = "Khalfon"
+	culture = hebrew
+}
+
+135041 = {
+	name = "Abenezra"
+	culture = hebrew
+}
+
+135042 = {
+	name = "Zacut"
+	culture = hebrew
+}
+
+135043 = {
+	name = "Gans"
+	culture = hebrew
+}
+
+135044 = {
+	name = "ben Gau"
+	culture = hebrew
+}
+
+135045 = {
+	name = "Avicebron"
+	culture = hebrew
+}
+
+135046 = {
+	name = "ben Naphtali"
+	culture = hebrew
+}
+
+135047 = {
+	name = "Levita"
+	culture = hebrew
+}
+
+135048 = {
+	name = "Bakhur"
+	culture = hebrew
+}
+
+135049 = {
+	name = "Kimhi"
+	culture = hebrew
+}
+
+135050 = {
+	name = "Albalag"
+	culture = hebrew
+}
+
+135051 = {
+	name = "Nahawandi"
+	culture = hebrew
+}
+
+135052 = {
+	name = "Khansari"
+	culture = hebrew
+}

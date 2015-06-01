@@ -1,0 +1,274 @@
+405001 = {
+	name = "Triarius"
+	culture = gothic
+}
+
+405002 = {
+	name = "Alareiksunus"
+	culture = gothic
+}
+
+405003 = {
+	name = "Thiudareiksunus"
+	culture = gothic
+}
+
+405004 = {
+	name = "Paitrusunus"
+	culture = gothic
+}
+
+405005 = {
+	name = "Greuthungius"
+	culture = gothic
+}
+
+405006 = {
+	name = "Balthus"
+	culture = gothic
+}
+
+405007 = {
+	name = "Amalius"
+	culture = gothic
+}
+
+405008 = {
+	name = "Egicasunus"
+	culture = gothic
+}
+
+405009 = {
+	name = "Thervingus"
+	culture = gothic
+}
+
+405010 = {
+	name = "Gefths"
+	culture = gothic
+}
+
+405011 = {
+	name = "Alavivus"
+	culture = gothic
+}
+
+405012 = {
+	name = "Aedotheus"
+	culture = gothic
+}
+
+405013 = {
+	name = "Cannabaudius"
+	culture = gothic
+}
+
+405014 = {
+	name = "Oiumfulk"
+	culture = gothic
+}
+
+405015 = {
+	name = "Apiscalingus"
+	culture = gothic
+}
+
+405016 = {
+	name = "Aurtja" # 'gardener'
+	culture = gothic
+}
+
+405017 = {
+	name = "Hails" # 'hale', 'healthy'
+	culture = gothic
+}
+
+405018 = {
+	name = "Haihs" # 'half-blind'
+	culture = gothic
+}
+
+405019 = {
+	name = "Unhunslags" # 'hard', 'implacable'
+	culture = gothic
+}
+
+405020 = {
+	name = "Hardus" # 'hard'
+	culture = gothic
+}
+
+405021 = {
+	name = "Harpo" # 'harp'
+	culture = gothic
+}
+
+405022 = {
+	name = "Asans" # 'harvest'
+	culture = gothic
+}
+
+405023 = {
+	name = "Falk" # 'hawk', 'falcon'
+	culture = gothic
+}
+
+405024 = {
+	name = "Hairto" # 'Heart'
+	culture = gothic
+}
+
+405025 = {
+	name = "Igils" # 'Hedgehog'
+	culture = gothic
+}
+
+405026 = {
+	name = "Kalbo" # 'heifer'
+	culture = gothic
+}
+
+405027 = {
+	name = "Brano" # 'heifer'
+	culture = gothic
+}
+
+405028 = {
+	name = "Thunds" # hero
+	culture = gothic
+}
+
+405029 = {
+	name = "Hariggs" # herring
+	culture = gothic
+}
+
+405030 = {
+	name = "Ufargudja" # high priest
+	culture = gothic
+}
+
+405031 = {
+	name = "Auhmisto" # hilltop
+	culture = gothic
+}
+
+405032 = {
+	name = "Asneis" # hired servant, hireling
+	culture = gothic
+}
+
+405033 = {
+	name = "Milith" # honey
+	culture = gothic
+}
+
+405034 = {
+	name = "Wens" # hope
+	culture = gothic
+}
+
+405035 = {
+	name = "Sweritha" # honor
+	culture = gothic
+}
+
+405036 = {
+	name = "Lubains" # also hope
+	culture = gothic
+}
+
+405036 = {
+	name = "Swers" # honored
+	culture = gothic
+}
+
+405037 = {
+	name = "Haurnja" # horn-blower
+	culture = gothic
+}
+
+405038 = {
+	name = "Gastigodis" # hospitable
+	culture = gothic
+}
+
+405039 = {
+	name = "Sergericsunus"
+	culture = gothic
+}
+
+405040 = {
+	name = "Mundericsunus"
+	culture = gothic
+}
+
+405041 = {
+	name = "Hethinsunus"
+	culture = gothic
+}
+
+405042 = {
+	name = "Ariaricsunus"
+	culture = gothic
+}
+
+405043 = {
+	name = "Eriulphingianus"
+	culture = gothic
+}
+
+405044 = {
+	name = "Soasunus"
+	culture = gothic
+}
+
+405045 = {
+	name = "Oppasunus"
+	culture = gothic
+}
+
+405046 = {
+	name = "Pitziasunus"
+	culture = gothic
+}
+
+405047 = {
+	name = "Theudisunus"
+	culture = gothic
+}
+
+405048 = {
+	name = "Hunilasunus"
+	culture = gothic
+}
+
+405049 = {
+	name = "Tuluinsunus"
+	culture = gothic
+}
+
+405050 = {
+	name = "Gildilasunus"
+	culture = gothic
+}
+
+405051 = {
+	name = "Quidilasunus"
+	culutre = gothic
+}
+
+405052 = {
+	name = "Sibiasunus"
+	culture = gothic
+}
+
+405053 = {
+	name = "Sisigisunus"
+	culture = gothic
+}
+
+405054 = {
+	name = "Edekosunus"
+	culutre = gothic
+}

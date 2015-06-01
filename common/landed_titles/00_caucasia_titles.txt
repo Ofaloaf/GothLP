@@ -1,0 +1,568 @@
+e_caucasia = {
+	color = { 162 93 31 }
+	color2= { 255 255 255 }
+
+	k_armenia = {
+		color={ 172 82 55 }
+		color2={ 255 255 255 }
+		
+		capital = 681 #	Ani
+		
+		culture = armenian
+		
+		orthodox = 300 # Crusade target weight
+		muslim = 100 # Crusade target weight
+		zoroastrian_group = 200 # Crusade target weight
+		
+		# Creation/usurpation trigger
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					ai = no
+					religion_group = christian
+				}
+			}
+		}
+	
+		d_armenia = {
+			color={ 154 77 36 }
+			color2={ 255 255 255 }
+			
+			capital = 682 # Vaspurakan
+			
+			c_vaspurakan = {
+				color={ 144 67 36 }
+				color2={ 255 255 255 }
+				
+				turkish = "Van"
+				kurdish = "Wan"
+				
+				b_haykaberd = {
+				}
+				b_van = {
+				}
+				b_surbkhach = {
+				}
+				b_vostan = {
+				}
+				b_varagavank = {
+				}
+				b_aghtamar = {
+				}
+				b_bakear = {
+				}
+				b_hadamakert = {
+				}
+			}
+			c_dwin = {
+				color={ 138 77 40 }
+				color2={ 255 255 255 }
+				
+				turkish = "Erivan"
+				
+				b_dvin = {
+				}
+				b_etchmiadzin = {
+				}
+				b_erebuni = {
+				}
+				b_alaverdi = {
+				}
+				b_khorvirap = {
+				}
+				b_matsnaberd = {
+				}
+				b_tumanyan = {
+				}
+			}
+			c_ani = {
+				color={ 168 87 50 }
+				color2={ 255 255 255 }
+				
+				turkish = "Kars"
+				
+				b_midjnaberd = {
+				}
+				b_ani = {
+				}
+				b_surpasdvadzadzin = {
+				}
+				b_karutsberd = {
+				}
+				b_karuts = {
+				}
+				b_artashat = {
+				}
+				b_oshakan  = {
+				}
+				b_zvartnots = {
+				}
+			}
+			c_lori = {
+				color={ 142 70 45 }
+				color2={ 255 255 255 }
+			
+				b_lori_berd = {}
+				b_dzegh = {}
+				b_dmanis = {}
+				b_agarak = {}
+				b_hovk = {}
+				b_sanahin = {}
+				b_erkan = {}
+			}
+		}
+		d_mesopotamia = {
+			color={ 155 88 20 }
+			color2={ 255 255 255 }
+			
+			capital = 702 # Mesopotamia
+			
+			c_karin = {
+				color={ 155 95 20 }
+				color2={ 255 255 255 }
+				
+				turkish = "Erzurum"
+				
+				b_daroynk = {
+				}
+				b_karin = {
+					turkish = "Erzurum"
+				}
+				b_owshank = {
+				}
+				b_mardin = {
+				} 
+				b_baghesh = {
+				}
+				b_pasen = {
+				}
+				b_tercan = {
+				}
+				b_kirklarkilisesi = {
+				}
+			}
+			c_mesopotamia = {
+				color={ 165 99 25 }
+				color2={ 255 255 255 }
+				
+				b_tzimisca = {
+				}
+				b_martyropolis = {
+				}
+				b_mayafaraqin = {
+				}
+				b_jermuk = {
+				}
+				b_arghana = {
+				}
+				b_hani = {
+				}
+				b_lice = {
+				}
+				b_tigranakert = {
+				}
+			}
+			c_taron = {
+				color={ 155 70 25 }
+				color2={ 255 255 255 }
+				
+				b_manzikert = {
+				}
+				b_mush = {
+				}
+				b_glak = {
+				}
+				b_ararati = {
+				}
+				b_artchesh = {
+				}
+				b_arakelots = {
+				}
+				b_akhlat = {
+				}
+				b_sason = {
+				}
+			}
+		}
+		d_edessa = {
+			color={ 182 110 45 }
+			color2={ 255 255 255 }
+			
+			capital = 699 # Edessa
+			
+			c_edessa = {
+				color={ 175 105 45 }
+				color2={ 255 255 255 }
+				
+				b_edessa = {
+				}
+				b_sruk = {
+				}
+				b_bile = {
+				}
+				b_tulupe = {
+				}
+				b_kaisun = {
+				}
+				b_samsat = {
+				}
+				b_harran = {
+				}
+				b_edesurfa = {
+				}
+			}
+			c_tell_bashir = {
+				color={ 175 125 35 }
+				color2={ 255 255 255 }
+				
+				b_turbessel = {
+				}
+				b_buzaa = {
+				}
+				b_manbij = {
+				}
+				b_nizip = {
+				}
+				b_zeugma = {
+				}
+				b_makedonopolis = {
+				}
+				b_birtha = {
+				}
+				b_jarabulus = {
+				}
+			}
+			c_aintab = {
+				color={ 195 125 55 }
+				color2={ 255 255 255 }
+				
+				b_aintab = {
+				}
+				b_marash = {
+				}
+				b_kyrrhos = {
+				}
+				b_ravendan = {
+				}
+				b_duluk = {
+				}
+				b_hromgla = {
+				}
+				b_raban = {
+				}
+				b_amanus = {
+				}
+			}
+		}
+		d_coloneia = {
+			color={ 195 125 55 }
+			color2={ 255 255 255 }
+			
+			capital = 706 # Koloneia
+			
+			c_koloneia = {
+				color={ 195 120 50 }
+				color2={ 255 255 255 }
+				
+				b_koloneia = {
+				}
+				b_anatolnikopolis = {
+				}
+				b_tephrice = {
+				}
+				b_mazaka = {
+				}
+				b_celtzene = {
+				}
+				b_gamakh = {
+				}
+				b_akn = {
+				}
+				b_gerjanis = {
+				}
+			}
+			c_melitene = {
+				color={ 175 110 40 }
+				color2={ 255 255 255 }
+				
+				b_melitene = {
+				}
+				b_arca = {
+				}
+				b_samosata = {
+				}
+				b_corduene = {
+				}
+				b_seneqerim = {
+				}
+				b_arguvan = {
+				}
+				b_kigi = {
+				}
+				b_yedisu = {
+				}
+			}
+		}
+	}
+	k_georgia = {
+		color={ 205 145 145 }
+		color2={ 255 255 255 }
+		
+		capital = 679 # Kartli
+		
+		culture = georgian
+		
+		orthodox = 200 # Crusade target weight
+		tengri_pagan_reformed = 50
+		zoroastrian_group = 50 # Crusade target weight
+		
+		d_kartli = {
+			color={ 234 119 119 }
+			color2={ 255 255 255 }
+			
+			capital = 679 # Kartli
+			
+			c_kartli = {
+				color={ 196 121 121 }
+				color2={ 255 255 255 }
+				
+				b_narikala = {
+				}
+				b_tbilisi = {
+				}
+				b_svetitskhoveli = {
+				}
+				b_djvari = {
+				}
+				b_mtskheta = {
+				}
+				b_sioni = {
+				}
+				b_gori = {
+				} 
+				b_bebristsikhe = {
+				}
+			}
+			c_tao = {
+				color={ 238 183 183 }
+				color2={ 255 255 255 }
+				
+				turkish = "Ahiska"
+				
+				b_panaskerti = {
+				}
+				b_artanuji = {
+				}
+				b_khakhuli = {
+				}
+				b_khertvisi = {
+				}
+				b_akhaltsikhe = {
+				}
+				b_oshki = {
+				}
+				b_vardzia = {
+				}
+				b_ughtik = {
+				}
+			}
+			c_guria = {
+				color={ 240 185 185 }
+				color2={ 255 255 255 }
+				
+				greek = "Lazike"
+				turkish = "Batum"
+				armenian = "Yeger"
+				
+				b_bukistsikhe = {
+				}
+				b_batum = {
+				}
+				b_udabno = {
+				}
+				b_gonio = {
+				}
+				b_ozurgeti = {
+				}
+				b_skhalta = {
+				}
+				b_tsikhisdziri = {
+				}
+				b_khula = {
+				}
+			}
+			c_kakheti = {
+				color={ 202 147 147 }
+				color2={ 255 255 255 }
+				
+				b_zedazaden = {
+				}
+				b_telavi = {
+				}
+				b_sighnaghi = {
+				}
+				b_dzveligalavani = {
+				}
+				b_bochorma = {
+				}
+				b_davidgareja = {
+				}
+				b_gremi = {
+				}
+				b_bodbe = {
+				}
+			}
+		}
+		d_derbent = {
+			color={ 203 76 76 }
+			color2={ 255 255 255 }
+			
+			capital = 674 # Derbent
+
+			armenian = "Aghbania"
+			georgian = "Aghbania"
+			alan = "Aghbania"
+			greek = "Albania"
+			
+			c_albania = {
+				color={ 253 176 176 }
+				color2={ 255 255 255 }
+				
+				armenian = "Aghvank"
+				georgian = "Albaneti"
+
+				b_chukhurkabala = {
+				armenian = "Kabalak"
+				georgian = "Kabala"
+				alan = "Kabala"
+				}
+				b_ganja = {
+				armenian = "Gandzak"
+				georgian = "Gandza"
+				alan = "Gandza"
+				}
+				b_shaki = {
+				armenian = "Shake"
+				georgian = "Shake"
+				alan = "Shake"
+				}
+				b_darussoltan = {
+				armenian = "Kaladasht"
+				georgian = "Kaladasht"
+				alan = "Kaladasht"
+				}
+				b_barda = {
+				armenian = "Partav"
+				georgian = "Bardavi"
+				alan = "Partavi"
+				}
+				b_emli = {
+				armenian = "Surp Yeghishe"
+				georgian = "Gish"
+				alan = "Kish"
+				}
+				b_gelersengorersen = {
+				armenian = "Kalaberd"
+				georgian = "Kalaberd"
+				alan = "Kalaberd"
+				}
+				b_kabala = {
+				armenian = "Vartashen"
+				georgian = "Vardashen"
+				alan = "Vartashen"
+				}
+			}
+			c_derbent = {
+				color={ 253 179 179 }
+				color2={ 255 255 255 }
+				
+				b_narinkala = {
+				}
+				b_derbent = {
+				}
+				b_juma = {
+				}
+				b_chikkulkan = {
+				}
+				b_kuli = {
+				}
+				b_tayus = {
+				}
+				b_humraj = {
+				}
+				b_datuna = {
+				}
+			}
+			c_semender = {
+				color={ 253 182 182 }
+				color2={ 255 255 255 }
+				
+				b_kumukh = {
+				}
+				b_semender = {
+				}
+				b_khattibaku = {
+				}
+				b_khannalkala = {
+				}
+				b_balanjar = {
+				}
+				b_urtseki = {
+				}
+				b_burgaikala = {
+				}
+				b_tarki = {
+				}
+			}
+		}
+		d_abkhazia = {
+			color={ 255 173 196 }
+			color2={ 255 255 255 }
+			
+			capital = 601 # Imeretia
+			
+			c_imeretia = {
+				color={ 246 152 152 }
+				color2={ 255 255 255 }
+				
+				b_geguti = {
+				}
+				b_kutaisi = {
+				}
+				b_bagrati = {
+				}
+				b_tsikhegoji = {
+				}
+				b_khoni = {
+				}
+				b_ghelati = {
+				}
+				b_lentekhi = {
+				}
+				b_motsameta = {
+				}
+			}
+			c_abkhazia = {
+				color={ 254 160 160 }
+				color2={ 255 255 255 }
+				
+				b_abaatha = {
+				}
+				b_tskhoumi = {
+				}
+				b_pitsunda = {
+				}
+				b_anakopia = {
+				}
+				b_gagra = {
+				}
+				b_egrisi = {
+				}
+				b_bzyb = {
+				}
+				b_zugdidi = {
+				}
+			}
+		}
+	}
+}

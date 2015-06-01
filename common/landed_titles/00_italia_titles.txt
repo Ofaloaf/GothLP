@@ -1,0 +1,2255 @@
+e_italy = {
+	color={ 125 171 84 }
+	color2={ 255 255 255 }
+	
+	capital = 333 # Rome
+
+	allow = {
+		hidden_tooltip = {
+			OR = {
+				ai = no
+				culture=latine
+			}
+		}
+		has_landed_title=k_italy
+		has_landed_title=k_romania
+		any_demesne_title = {
+			tier = king
+			NOT = { title = k_italy }
+			NOT = { title = k_romania }
+		}
+	}
+
+	k_sicily = {
+		color = { 100 100 100 }
+		color2= { 255 255 255 }
+	}
+
+	k_romania = {
+		color={ 176 187 215 }
+		color2={ 255 255 255 }
+		#capital = 235 # Lombardia
+		
+		capital = 234 # Pavia
+		
+		culture = italian
+		
+		# Creation/usurpation trigger
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					ai = no
+					religion_group = christian
+				}
+			}
+		}
+		
+		christian = 10000 # Crusade target weight
+		
+		d_latium = {
+			color={ 254 245 160 }
+			color2={ 255 255 255 }
+			
+			capital = 333 # Rome
+			
+			christian = 750 # Crusade target weight
+			
+			c_roma = {
+				color={ 242 233 156 }
+				color2={ 220 220 1 }
+				
+				christian = 1500 # Crusade target weight
+				
+				b_roma = {
+					pentarchy = yes
+					holy_site = catholic
+					holy_site = arian
+					holy_site = nicene
+					holy_site = aztec
+					holy_site = aztec_reformed
+					holy_site = hellenic_pagan
+					holy_site = pagan
+					used_for_dynasty_names = no
+				}
+				b_viterbo = {
+				}
+				b_tusculum = {
+				}
+				b_tivoli = {
+				}
+				b_ostia = {
+				}
+				b_sutri = {
+				}
+				b_aragni = {
+				}
+				b_terracina = {
+				}
+			}
+			
+			c_orvieto = {
+				color={ 228 253 238 }
+				color2={ 255 255 255 }
+				
+				b_orvieto = {
+				}
+				b_narni = {
+				}
+				b_alviano = {
+				}
+				b_montecastrilli = {
+				}
+				b_otricoli = {
+				}
+				b_amelia = {
+				}
+				b_baschi = {
+				}
+				b_ciconia = {
+				}
+			}
+			
+			c_orbetello = {
+				color={ 240 255 234 }
+				color2={ 255 255 255 }
+				
+				b_orbetello = {
+				}
+				b_grosseto = {
+				}
+				b_pitigliano = {
+				}
+				b_roselle = {
+				}
+				b_sorano = {
+				}
+				b_sovana = {
+				}
+				b_vetulonia = {
+				}
+				b_rusellae = {
+				}
+			}
+		}
+		d_verona = {
+			color={ 170 255 170 }
+			color2={ 255 255 255 }
+			
+			capital = 319 # Verona
+			
+			c_treviso = {
+				color={ 251 226 226 }
+				color2={ 255 255 255 }
+
+				# Tarvisium
+
+				dalmatian = "Trevixo"
+				
+				b_treviso = {
+					# Tarvisium
+
+					dalmatian = "Trevixo"
+				}
+				b_bassano = {
+					# Bassanum
+
+					dalmatian = "Basan"
+					suebi = "Bassan"
+					german = "Wassan"
+				}
+				b_oderzo = {
+					# Opitergium
+
+					dalmatian = "Oderso"
+				}
+				b_castelfranco = {
+					# Castela # making up a bit
+
+					dalmatian = "Castelo"
+				}
+				b_asola = {
+				}
+				b_citadella = {
+				}
+				b_ceneda = {
+					# Ceneta
+
+					roman = "Cenetae"
+				}
+				b_paese = {
+					# Paesium
+
+					dalmatian = "Paéxe"
+				}
+			}
+			c_verona = {
+				color={ 255 230 230 }
+				color2={ 255 255 255 }
+				
+				b_verona = {
+				}
+				b_vicenza = {
+					# Vincentia
+
+					german = "Wiesenthein"
+					suebi = "Cimbria"
+				}
+				b_sanmartino = {
+				}
+				b_schio = {
+					# Escletum
+				}
+				b_montecchio = {
+					# Munticulus
+				}
+				b_arzignano = {
+					# Arzignanum
+
+					latine = "Arzignano"
+					gallic = "Arzignano"
+					hispani = "Arzignano"
+					dalmatian = "Arzignan"
+
+					german = "Arzingen"
+					suebi = "Arzing"
+				}
+				b_lonigo = {
+					# Leunico
+				}
+				b_barbarano = {
+				}
+			}
+			c_padova = {
+				color={ 255 234 234 }
+				color2={ 255 255 255 }
+
+				# Patavium
+
+				dalmatian = "Padoa"
+				german = "Padua"
+				suebi = "Padua"
+				
+				b_padova = {
+					# Patavium
+
+					dalmatian = "Padoa"
+					german = "Padua"
+					suebi = "Padua"
+				}
+				b_este = {
+					# Ateste
+				}
+				b_polesine = {
+					# Pollicinum
+
+					dalmatian = "Poléxine"
+				}
+				b_montagnana = {
+					# Montaniana
+				}
+				b_adria = {
+					# Hadria
+				}
+				b_chioggia = {
+					# Clodia
+
+					dalmatian = "Cioxa"
+				}
+				b_rovigo = {
+					# Rodigium
+
+					roman = "Rhodigium"
+				}
+				b_vigonza = {
+					# Vigoncia
+
+					dalmatian = "Vigonsa"
+				}
+			}
+			c_mantua = {
+				color={ 255 238 238 }
+				color2={ 255 255 255 }
+				
+				b_mantua = {
+				}
+				b_serravalle = {
+					# Serravallis
+				}
+				b_castellucchio = {
+					# Castelluclum
+				}
+				b_gonzaga = {
+					# Gonzagae
+				}
+				b_marmirolo = {
+					# Marmirolum
+				}
+				b_curtatone = {
+					# Curtato
+				}
+				b_virgilio = {
+					# Andes
+				}
+				b_bagnolosanvito = {
+					# Balneolum
+				}
+			}
+		}		
+		d_insubria = {
+			color={ 166 108 146 }
+			color2={ 255 255 255 }
+
+			capital = 235 # Mediolanum
+
+			german = "Insubrien"
+			suebi = "Insubrien"
+			
+			c_brescia = {
+				color={ 249 235 224 }
+				color2={ 255 255 255 }
+
+				# Brixia
+
+				german = "Wälsch-Brixen"
+				
+				b_brescia = {
+					# Brixia
+
+					german = "Wälsch-Brixen"
+				}
+				b_bergamo = {
+					# Bergomum
+				}
+				b_peschiera = {
+					# Piscaria
+				}
+				b_treviglio = {
+					# Trivillium
+				}
+				b_salo = {
+					# Salodium
+				}
+				b_lumezzane = {
+					# Limesanum
+				}
+				b_montichiari = {
+					# Monteclarus
+				}
+				b_castiglione = {
+					# Castilio
+				}
+			}
+			c_lombardia = {
+				color={ 251 237 226 }
+				color2={ 255 255 255 }
+
+				# Mediolanum
+
+				german = "Mailand"
+				suebi = "Mailand"
+				
+				b_milano = {
+					# Mediolanum
+		
+					german = "Mailand"
+					suebi = "Mailand"
+				}
+				b_monza = {
+					# Modoetia
+
+					german = "Montsch"
+				}
+				b_como = {
+					# Comum
+				}
+				b_lodi = {
+					# Laus
+
+					german = "Lauden"
+				}
+				b_vigevano = {
+					# Viglebanum
+
+					german = "Vigen"
+				}
+				b_maggiore = {
+					# Verbannus
+
+					german = "Langen"
+				}
+				b_legnano = {
+					# Ledegnanum
+
+					german = "Ligni"
+				}
+				b_chiavenna = {
+					# Clavenna
+
+					german = "Cläven"
+					suebi = "Kleven"
+				}
+			}
+			c_trent = {
+				color={ 253 239 228 }
+				color2={ 255 255 255 }
+
+				# Tridentum
+	
+				german = "Trient"
+				
+				b_trento = {
+					# Tridentum
+	
+					german = "Trient"
+				}
+				b_brixen = {
+					# Brixino
+
+					german = "Brixen"
+				}
+				b_bozen = {
+					# Bauzanum
+
+					german = "Bozen"
+					suebi = "Botzen"
+				}
+				b_meran = {
+					# Meranum
+
+					german = "Meran"
+
+					gothic = "Mairania"
+					#gothicromance = "Mairania"
+				}
+				b_schlanders = {
+					# Silandrum
+
+					german = "Schlanders"
+				}
+				b_bruneck = {
+					# Branecium
+
+					greek = "Brunopolis"
+					german = "Bruneck"
+				} 
+				b_riva = {
+				}
+				b_rovereto = {
+					# Roboretum
+
+					german = "Rofreit"
+				}
+			}
+			c_pavia = {
+				color={ 255 243 232 }
+				color2={ 255 255 255 }
+
+				# Papia
+
+				roman = "Ticinum"
+				german = "Pawei"
+				suebi = "Pawei"
+				gothic = "Pawei"
+				
+				b_pavia = {
+					# Papia
+
+					roman = "Ticinum"
+					german = "Pawei"
+					suebi = "Pawei"
+					gothic = "Pawei"
+				}
+				b_bobbio = {
+					# Ebovium
+				}
+				b_piacenza = {
+					# Placentia
+
+					greek = "Plakentia"
+				}
+				b_voghera = {
+					# Viqueria
+
+					roman = "Iria"
+					latine = "Iriae"
+				}
+				b_alessandria = {
+					# Alexandria
+				}
+				b_casteggio = {
+					# Clastidium
+				}
+				b_colorno = {
+					# Colurnus
+				}
+				b_montebello = {
+					# Montebellus
+				}
+			}
+			c_cremona = {
+				color={ 255 245 234 }
+				color2={ 255 255 255 }
+
+				german = "Kremun"
+				suebi = "Kremun"
+				
+				b_cremona = {
+					german = "Kremun"
+					suebi = "Kremun"
+				}
+				b_crema = {
+					german = "Krem"
+					suebi = "Krem"
+				}
+				b_sospiro = {
+				}
+				b_vescovato = {
+				}
+				b_viadana = {
+					# Videliana
+				}
+				b_castelgoffredo = {
+					# Castrum
+				}
+				b_casalmaggiore = {
+					# Castramaiora
+				}
+				b_manerbio = {
+					# Manerbium
+				}
+			}
+		}
+		d_liguria = {
+			color={ 218 215 56 }
+			color2={ 255 255 255 }
+			
+			capital = 233 # Genoa
+			
+			c_genoa = {
+				color={ 253 247 228 }
+				color2={ 255 255 255 }
+				
+				b_genoa = {
+				}
+				b_rapallo = {
+				}
+				b_luna = {
+				}
+				b_ventimiglia = {
+				}
+				b_savona = {
+				}
+				b_chiavari = {
+				}
+				b_albenga = {
+				}
+				b_fosdinovo = {
+				}
+			}
+			c_piemonte = {
+				color={ 104 12 38 }
+				color2={ 255 255 255 }
+
+				# Pedemontium
+				
+				b_ivrea = {
+					# Eporedia
+				}
+				b_torino = {
+					# Taurinorum
+				}
+				b_settimo = {
+					# Septimum
+				}
+				b_auriate = {
+					# Auria # Valloriate, Vallis Auria Cuneensium
+				}
+				b_novara = {
+					# Novaria
+				}
+				b_ferrero = {
+				}
+				b_messarano = {
+				}
+				b_crevacuore = {
+					# Crevacorium
+				}
+			}
+			
+			c_saluzzo = {
+				color={ 155 46 76 }
+				color2={ 255 255 255 }
+
+				# Salutiae
+
+				frankish = "Saluces"
+				
+				b_saluzzo = {
+					# Salutiae
+
+					frankish = "Saluces"
+				}
+				b_pinerolo = {
+					frankish = "Pignerol"
+				} 
+				b_cuneo = {
+					# Cuneum
+
+					frankish = "Coni"
+				}
+				b_savigliano = {
+					# Savilianum
+
+					frankish = "Savillan"
+				}
+				b_busca = {
+					frankish = "Busque"
+				}
+				b_paesana = {
+					# Padusana
+				}
+				b_verzuolo = {
+					# Urseolum
+
+					frankish = "Verseul"
+				}
+				b_caraglio = {
+					# Caralium
+
+					frankish = "Carail"
+				}
+			}
+			
+			c_monferrato = {
+				color={ 250 244 225 }
+				color2={ 255 255 255 }
+
+				# Mons Ferratus
+
+				frankish = "Montferrat"
+				
+				b_monferrato = {
+					# Ferratus
+				}
+				b_casale = {
+				}
+				b_asti = {
+					# Hasta
+
+					roman = "Hasta Pompeia"
+					frankish = "Aste"
+				}
+				b_acqui = {
+					# Aquae
+				}
+				b_tortona = {
+					# Derthona
+
+					latine = "Dertona"
+					hispani = "Dertona"
+					africanu = "Dertona"
+
+					suebi = "Terdona"
+				}
+				b_biella = {
+					# Bugella
+				}
+				b_alba = {
+				}
+				b_canelli = {
+					# Canellae
+
+					frankish = "Canelles"
+				}
+			}
+		}	
+		d_aemilia = {
+			color={ 225 180 180 }
+			color2={ 255 255 255 }
+			
+			capital = 322 # Modena
+			
+			c_modena = {
+				color={ 251 250 226 }
+				color2={ 255 255 255 }
+
+				# Mutina
+
+				german = "Muden"
+				
+				b_modena = {
+					# Mutina
+
+					german = "Muden"
+				}
+				b_reggionellemila = {
+					# Regium
+				}
+				b_carpi = {
+					# Carpium
+				}
+				b_mirandola = {
+					# Mirandula
+				}
+				b_novellara = {
+					# Nubilaria
+				}
+				b_sabbioneta = {
+					# Sabloneta
+				}
+				b_sassuolo = {
+					# Saxulum
+				}
+				b_bomporto = {
+					# Boniportus
+				}
+			}
+			c_parma = {
+				color={ 255 254 230 }
+				color2={ 255 255 255 }
+				
+				b_parma = {
+				}
+				b_massa = {
+					# Tabernae Frigidae
+				}
+				b_guastalla = {
+				}
+				b_fornovo = {
+					# Forum Novum
+				}
+				b_fidenza = {
+					# Fidentia
+				}
+				b_fontanellato = {
+					# Fontanellatum
+				}
+				b_laspezia = {
+					# Spezam # 1256
+
+					roman = "Luna" # Luni, Italy
+				}
+				b_noceto = {
+					# Nucetum
+				}
+			}
+		}	
+		d_ravenna = {
+			color={ 244 180 130 }
+			color2={ 255 255 255 }
+			
+			capital = 351 # Ravenna
+			
+			c_bologna = {
+				color={ 244 180 130 }
+				color2={ 255 255 255 }
+				
+				b_faenza = {
+				}
+				b_bologna = {
+				}
+				b_forli = {
+				}
+				b_imola = {
+				}
+				b_bentivoglio = {
+				}
+				b_budno = {
+				}
+				b_castelguelfo = {
+				}
+				b_bagnacavallo = {
+				}
+			}
+			c_ferrara = {
+				color={ 244 180 130 }
+				color2={ 255 255 255 }
+				
+				b_ferrara = {
+				}
+				b_commacchio = {
+				}
+				b_tresigallo = {
+				}
+				b_occhiobello = {
+				}
+				b_copparo = {
+				}
+				b_codigoro = {
+				}
+				b_bondeno = {
+				}
+				b_voghiera = {
+				}
+			}
+			c_ravenna = {
+				color={ 244 180 130 }
+				color2={ 255 255 255 }
+				
+				b_ravenna = {
+				}
+				b_cesena = {
+				}
+				b_cervia = {
+				}
+				b_russi = {
+				}
+				b_alfonsine = {
+				}
+				b_cesenatico = {
+				}
+				b_gambettola = {
+				}
+				b_gatteo = {
+				}
+			}
+		}	
+		d_tuscia = {
+			color = { 114 154 143 }
+			color2={ 255 255 255 }
+			
+			capital = 328 # Firenze
+			
+			c_lucca = {
+				color = { 232 186 25 }
+				color2={ 255 255 255 }
+				
+				b_lucca = {
+				}
+				b_pistoia = {
+				}
+				b_cascina = {
+				}
+				b_altopascio = {
+				}
+				b_viareggio = {
+				}
+				b_seravezza = {
+				}
+				b_capannori = {
+				}
+				b_calcinaia = {
+				}
+			}
+			c_firenze = {
+				color = { 84 96 136 }
+				color2={ 255 255 255 }
+					
+				b_firenze = {
+				}
+				b_arezzo = {
+				}
+				b_prato = {
+				}
+				b_fiesole = {
+				}
+				b_montevarchi = {
+				}
+				b_certaldo = {
+				}
+				b_lucignano = {
+				}
+				b_sansepolcro = {
+				}
+			}
+			c_siena = {
+				color = { 212 176 30 }
+				color2={ 255 255 255 }
+					
+				b_siena = {
+				}
+				b_cortona = {
+				}
+				b_pienza = {
+				}
+				b_montepulciano = {
+				}
+				b_montalcino = {
+				}
+				b_sangimignano = {
+				}
+				b_colledievaldelsa = {
+				}
+				b_monteriggioni = {
+				}
+			}
+			c_pisa = {
+				color={ 232 251 226 }
+				color2={ 255 255 255 }
+				
+				b_pisa = {
+				}
+				b_livorno = {
+				}
+				b_canefro = {
+				}
+				b_volterra = {
+				}
+				b_vicopisano = {
+				}
+				b_sanminiato = {
+				}
+				b_portoferraio = {
+				}
+				b_giglio = {
+				}
+			}
+			c_piombino = {
+				color={ 236 255 230 }
+				color2={ 255 255 255 }
+				
+				b_piombino = {
+				}
+				b_suvereto = {
+				}
+				b_radicofani = {
+				}
+				b_populonia = {
+				}
+				b_campiglia = {
+				}
+				b_follonica = {
+				}
+				b_sanvincenzo = {
+				}
+			}
+		}	
+		d_picenum = {
+			color={ 230 227 180 }
+			color2={ 255 255 255 }
+			
+			capital = 350 # Ancona
+			
+			c_ancona = {
+				color={ 224 249 224 }
+				color2={ 255 255 255 }
+				
+				greek = "Ankon"
+				
+				b_ancona = {
+					greek = "Ankon"
+				}
+				b_pesaro = {
+				}
+				b_rimini = {
+				}
+				b_matelica = {
+				}
+				b_osimo = {
+				}
+				b_fermo = {
+				}
+				b_recanati = {
+				}
+				b_camerino = {
+				}
+			}
+			c_urbino = {
+				color={ 226 251 226 }
+				color2={ 255 255 255 }
+				
+				b_urbino = {
+				}
+				b_sanseverino = {
+				}
+				b_sanmarino = {
+				}
+				b_montefeltro = {
+				}
+				b_gubbio = {
+				}
+				b_fano = {
+				}
+				b_cittadicastello = {
+				}
+				b_fossombrone = {
+				}
+			}
+			c_spoleto = {
+				color={ 225 250 235 }
+				color2={ 255 255 255 }
+				
+				b_spoleto = {
+				}
+				b_perugia = {
+				}
+				b_assisi = {
+				}
+				b_nursia = {
+				}
+				b_todi = {
+				}
+				b_valva = {
+				}
+				b_terni = {
+				}
+				b_foligno = {
+				}
+			}
+		}		
+		d_quadia = {
+			color={ 34 30 174 }
+			color2={ 255 255 255 }
+
+			german = "Quadenland"
+			
+			capital = 358 # Aquileia
+			
+			c_istria = {
+				color={ 165 245 200 }
+				color2={ 255 255 255 }
+
+				roman = "Histria"
+				greek = "Histria"
+				
+				b_mitterburg = {
+					# Pisinium
+
+					croatian = "Pazin"
+					serbian = "Pazin"
+					italian = "Pisino"
+					greek = "Pisinion"
+				}
+				b_trieste = {
+					# Tergeste
+
+					greek = "Tergesti"
+					german = "Triest"
+					croatian = "Trst"
+					serbian = "Trst"
+				}
+				b_fiume = {
+					# Fluminis
+
+					roman = "Flumen"
+					greek = "Tarsatica"
+					german = "Pflaum"
+				}
+				b_lovrana = {
+				}
+				b_wolauska = {
+				}
+				b_karstberg = {
+				}
+				b_duino = {
+				}
+				b_pula = {
+				}
+			}
+			c_krain = {
+				color={ 145 225 190 }
+				color2={ 255 255 255 }
+
+				# Carniola
+				
+				b_gorz = {
+				}
+				b_krainburg = {
+				}
+				b_gurk = {
+				}
+				b_stain = {
+				}
+				b_guetenegg = {
+				}
+				b_auersperg = {
+				}
+				b_zerknitz = {
+				}
+				b_stveit = {
+				}
+			}
+			c_karnten = {
+				color={ 125 225 195 }
+				color2={ 255 255 255 }
+
+				# Carantia
+			
+				roman = "Emona"
+				greek = "Emona"
+				german = "Kärnten"
+				
+				b_villach = {
+					# Sanctium
+
+					german = "Villach"
+					dalmatian = "Vilac"
+				}
+				b_klagenfurt = {
+					# Chlagenvurth
+
+					german = "Klagenfurt"
+				}
+				b_ossiach = {
+				}
+				b_laibach = {
+					# Emona
+
+					german = "Laibach"
+				}
+				b_treffen = {
+				}
+				b_sann = {
+				}
+				b_pettau = {
+				}
+				b_wolfsberg = {
+				}
+			}
+			
+			c_aquileia = {
+				color={ 115 205 175 }
+				color2 = { 255 255 255 }
+
+				german = "Aglar"
+				dalmatian = "Aquileja"
+				
+				b_aquileia = {
+					german = "Aglar"
+					dalmatian = "Aquileja"
+				}
+				b_udine = {
+					german = "Weiden"
+					croatian = "Videm"
+					serbian = "Videm"
+				}
+				b_friuli = {
+					german = "Friaul"
+					dalmatian = "Friul"
+				}
+				b_motta = {
+				}
+				b_concordia = {
+				}
+				b_ciridale = {
+				}
+				b_portoguaro = {
+				}
+				b_sacile = {
+				}
+			}
+		}
+	}
+
+	k_italy = {
+		color = { 202 26 21 } # 182 80 73
+		color2={ 255 255 255 }
+		
+		capital = 334 # Neapolis
+		
+		culture = latine
+		
+		catholic = 500 # Crusade target weight
+		orthodox = 50
+		muslim = 10
+		
+		d_samnium = {
+			color = { 90 123 177 }
+			color2={ 255 255 255 }
+			
+			capital = 335 # Benevento
+			
+			catholic = 250 # Crusade target weight
+			
+			c_benevento = {
+				color = { 209 170 75 }
+				color2={ 255 255 255 }
+				
+				b_benevento = {
+				}
+				b_avellino = {
+				}
+				b_ascoli = {
+				}
+				b_montemarono = {
+				}
+				b_frigento = {
+				}
+				b_trevico = {
+				}
+				b_conza = {
+				}
+				b_sanangelo = {
+				}
+			}
+			c_foggia = {
+				color = { 209 170 75 }
+				color2={ 255 255 255 }
+				
+				b_foggia = {
+				}
+				b_siponto = {
+				}
+				b_lucera = {
+				}
+				b_troia = {
+				}
+				b_bovino = {
+				}
+				b_salapla = {
+				}
+				b_vieste = {
+				}
+				b_termoli = {
+				}
+			}
+			c_aprutium = {
+				color={ 205 210 205 }
+				color2={ 255 255 255 }
+				
+				greek = "Interamnion"
+				
+				b_avezzano = {
+				}
+				b_pescara = {
+				}
+				b_chieti = {
+				}
+				b_teramo = {
+				}
+				b_atri = {
+				}
+				b_aprutium_penne = {
+				}
+				b_paganica = {
+				}
+				b_aquila = {
+				}
+			}
+		}
+		d_campania = {
+			color = { 240 209 100 }
+			color2={ 255 255 255 }
+			
+			greek = "Neapolis"
+			
+			capital = 851 # Capua
+			
+			catholic = 250 # Crusade target weight
+			
+			c_capua = {
+				color = { 240 209 100 }
+				color2={ 255 255 255 }
+				
+				greek = "Gaeta"
+				
+				b_capua = {
+					greek = "Kapue"
+				}
+				b_aquino = {
+				}
+				b_teano = {
+				}
+				b_gaeta = {
+				}
+				b_montecassino = {
+				}
+				b_caserta = {
+				}
+				b_calvi = {
+				}
+				b_acerra = {
+				}
+			}
+			c_napoli = {
+				color = { 240 209 100 }
+				color2={ 255 255 255 }
+				
+				greek = "Neapolis"
+				
+				b_napoli = {
+					greek = "Neapolis"
+				}
+				b_aversa = {
+				}
+				b_cumae = {
+				}
+				b_pozzuoli = {
+				}
+				b_ischia = {
+				}
+				b_portici={
+				}
+				b_turris_octava={
+				}
+				b_afragola={
+				}
+			}
+		}
+		d_apulia = {
+			color={ 167 172 63 }
+			color2={ 255 255 255 }
+			
+			greek = "Longobardia"
+			
+			capital = 347 # Apulia
+			
+			catholic = 250 # Crusade target weight
+			
+			c_apulia = {
+				color={ 167 172 63 }
+				color2={ 255 255 255 }
+				
+				b_melfi = {
+				}
+				b_trani = {
+				}
+				b_cannae = {
+				}
+				b_salapia = {
+				}
+				b_barletta = {
+				}
+				b_minervo = {
+				}
+				b_lavello = {
+				}
+				b_lucano = {
+				}
+			}
+			c_bari = {
+				color={ 167 172 63 }
+				color2={ 255 255 255 }
+				
+				greek = "Barion"
+				
+				b_bari = {
+					greek = "Barion"
+				}
+				b_conversano = {
+				}
+				b_giovinazzo = {
+				}
+				b_andria = {
+				}
+				b_ruvo = {
+				}
+				b_molietta = {
+				}
+				b_bitonto = {
+				}
+				b_polignano = {
+				}
+			}
+			c_lecce = {
+				color={ 167 172 63 }
+				color2={ 255 255 255 }
+				
+				greek = "Brendesion"
+				
+				b_lecce = {
+				}
+				b_otranto = {
+					greek = "Hydrunton"
+				}
+				b_brindisi = {
+					greek = "Brendesion"
+				}
+				b_leuca = {
+				}
+				b_castro = {
+				}
+				b_ligento = {
+				}
+				b_andrano = {
+				}
+				b_oria = {
+				}
+			}
+		}
+		
+		d_lucania = {
+			color={ 245 194 199 }
+			color2={ 255 255 255 }
+			
+			greek = "Lukania"
+			
+			capital = 336 # Salerno
+			
+			catholic = 250 # Crusade target weight
+			
+			c_salerno = {
+				color={ 245 194 199 }
+				color2={ 255 255 255 }
+				
+				b_salerno = {
+				}
+				b_acenzera = {
+				}
+				b_eboli = {
+				}
+				b_nocera = {
+				}
+				b_acerno = {
+				}
+				b_lucania = {
+				}
+				b_agropoli = {
+				}
+				b_sarno = {
+				}
+			}
+			c_taranto = {
+				color={ 235 190 195 }
+				color2={ 255 255 255 }
+				
+				greek = "Lukania"
+				
+				b_taranto = {
+					greek = "Tarantas"
+				}
+				b_mottola = {
+				}
+				b_castellaneta = {
+				}
+				b_tursi = {
+				}
+				b_montepeloso = {
+				}
+				b_tricanico = {
+				}
+				b_gravina = {
+				}
+				b_cassano = {
+				}
+			}
+			
+			c_amalfi = {
+				color={ 120 200 225 }
+				color2 = { 255 255 255 }
+				
+				b_amalfi={
+				}
+				b_sorrento={
+				}
+				b_ravello={
+				}
+				b_tramonti={
+				}
+				b_positano={
+				}
+				b_castellamare = {
+				}
+				b_capri = {
+				}
+				b_minori = {
+				}
+			}
+		}
+		d_bruttium = {
+			color={ 170 142 70 }
+			color2={ 255 255 255 }
+			
+			capital = 338 # Reggio
+			
+			catholic = 250 # Crusade target weight
+			
+			c_consenza = {
+				color={ 170 142 70 }
+				color2={ 255 255 255 }
+				
+				greek = "Kroton"
+				
+				b_cosenza = {
+				}
+				b_rossano = {
+				}
+				b_umbriatico = {
+				}
+				b_strongoli = {
+				}
+				b_argentano = {
+				}
+				b_scalea = {
+				}
+				b_cerenzia = {
+				}
+				b_crotone = {
+				}
+			}
+			c_reggio = {
+				color={ 170 142 70 }
+				color2={ 255 255 255 }
+				
+				greek = "Rhegion"
+				
+				b_reggio = {
+					greek = "Rhegion"
+				}
+				b_mileto = {
+				}
+				b_nicotera = {
+				}
+				b_belcastro = {
+				}
+				b_bova = {
+				}
+				b_gerace = {
+				}
+				b_tropea = {
+				}
+				b_squillace = {
+				}
+			}
+		}
+		d_sicily = {
+			color={ 155 254 86 }
+			color2={ 255 255 255 }
+			
+			capital = 340 # Palermo
+			
+			c_palermo = {
+				color={ 155 254 86 }
+				color2={ 255 255 255 }
+				
+				maghreb_arabic = "Balharm"
+				levantine_arabic = "Balharm"
+				egyptian_arabic = "Balharm"
+				bedouin_arabic = "Balharm"
+				andalusian_arabic = "Balharm"
+				greek = "Panarmos"
+				
+				b_palermo = {
+					maghreb_arabic = "Balharm"
+					levantine_arabic = "Balharm"
+					egyptian_arabic = "Balharm"
+					bedouin_arabic = "Balharm"
+					andalusian_arabic = "Balharm"
+					greek = "Panarmos"
+				}
+				b_cefalu = {
+				}
+				b_monreale = {
+				}
+				b_gratteri = {
+				}
+				b_caltavuturo = {
+				}
+				b_petralia = {
+				}
+				b_misilmeri = {
+				}
+				b_mistretta = {
+				}
+			}
+			c_messina = {
+				color={ 155 254 86 }
+				color2={ 255 255 255 }
+				
+				greek = "Messene"
+				
+				b_messina = {
+					greek = "Messene"
+				}
+				b_lipari = {
+				}
+				b_taormina = {
+					greek = "Taourmenion"
+				}
+				b_sanmarcodalunzio = {
+				}
+				b_troinia = {
+				}
+				b_furnari = {
+				}
+				b_cataratti = {
+				}
+				b_torregrota = {
+				}
+			}
+			c_siracusa = {
+				color={ 155 254 86 }
+				color2={ 255 255 255 }
+				
+				greek = "Syrakousa"
+				
+				b_syracusa = {
+					greek = "Syrakousa"
+				}
+				b_catania = {
+				}
+				b_lentini = {
+				}
+				b_noto = {
+				}
+				b_caltagirone = {
+				}
+				b_paterno = {
+				}
+				b_centuripe = {
+				}
+				b_augusta = {
+				}
+			}
+			c_agrigento = {
+				color={ 155 254 86 }
+				color2={ 255 255 255 }
+				
+				greek = "Agrigenton"
+				andalusian_arabic = "Kerkent"
+				maghreb_arabic = "Kerkent"
+				bedouin_arabic = "Kerkent"
+				egyptian_arabic = "Kerkent"
+				levantine_arabic = "Kerkent"
+				
+				b_agricento = {
+					greek = "Agrigenton"
+					andalusian_arabic = "Kerkent"
+					maghreb_arabic = "Kerkent"
+					bedouin_arabic = "Kerkent"
+					egyptian_arabic = "Kerkent"
+					levantine_arabic = "Kerkent"
+				}
+				b_caltabellotta = {
+				}
+				b_butera = {
+				}
+				b_sanbiagioplatani = {
+				}
+				b_gela = {
+				}
+				b_licata = {
+				}
+				b_raffadali = {
+				}
+				b_montallegro = {
+				}
+			}
+			c_trapani = {
+				color={ 155 254 86 }
+				color2={ 255 255 255 }
+				
+				greek = "Drepanon"
+				andalusian_arabic = "Mazar"
+				maghreb_arabic = "Mazar"
+				bedouin_arabic = "Mazar"
+				egyptian_arabic = "Mazar"
+				levantine_arabic = "Mazar"
+				
+				b_trapani = {
+					greek = "Drepanon"
+				}
+				b_mazara = {
+					andalusian_arabic = "Mazar"
+					maghreb_arabic = "Mazar"
+					bedouin_arabic = "Mazar"
+					egyptian_arabic = "Mazar"
+					levantine_arabic = "Mazar"
+				}
+				b_erice = {
+				}
+				b_sanguiseppelato = {
+				}
+				b_castelvertrano = {
+				}
+				b_santaninfa = {
+				}
+				b_marsala = {
+				}
+				b_alcarno = {
+				}
+			}
+			c_malta = {
+				color={ 155 254 86 }
+				color2={ 255 255 255 }
+				
+				b_mdina = {
+					greek = Melitta
+					italian = "Citta Vecchia"
+				}
+				b_sliema = {
+				}
+				b_sanpawl = {
+					italian = "San Paolo"
+				}
+				b_gozo = {
+					greek = Ogygia
+					andalusian_arabic = "Ghawdesh"
+					maghreb_arabic = "Ghawdesh"
+					bedouin_arabic = "Ghawdesh"
+					egyptian_arabic = "Ghawdesh"
+					levantine_arabic = "Ghawdesh"
+				}
+				b_birzebbuga = {
+					italian = "Birzebbugia"
+				}
+				b_marsascala = {
+					greek = Pyrgos
+					andalusian_arabic = "Marsa Sqalli"
+					maghreb_arabic = "Marsa Sqalli"
+					bedouin_arabic = "Marsa Sqalli"
+					egyptian_arabic = "Marsa Sqalli"
+					levantine_arabic = "Marsa Sqalli"
+				}
+				b_mgarr = {
+					italian = "Mugiarro"
+				}
+				b_sangjilan = {
+				}
+			}
+		}
+	}
+	k_venice = {
+		color = { 54 167 156 }
+		capital = 356 # Venice
+		culture = italian
+		
+		dignity = 200 # Never want the Republic of Venice to change primary title
+		
+		allow = {
+			is_republic = yes
+		}
+		
+		d_venice = {
+			color = { 34 137 126 }
+			capital = 356 # Venice
+			
+			dignity = 10
+			
+			c_venezia = {
+				color = { 40 143 132 }
+				color2 = { 255 255 255 }
+				
+				b_venezia = {
+				}
+				b_rialto = {
+				}
+				b_pallestrina = {
+				}
+				b_lido = {
+				}
+				b_jesolo = {
+				}
+				b_murano = {
+				}
+				b_torcello = {
+				}
+				b_fusina = {
+				}
+			}
+		}
+	}
+	k_illyria = {
+		color = { 174 227 95 }
+		color2= { 255 255 255 }
+
+		d_domavia = {
+			color = { 240 167 130 }
+			color2= { 255 255 255 }
+
+			c_rama = {
+				color={ 197 118 118 }
+				color2={ 255 255 255 }
+
+				# Domavium
+
+				latine = "Domavio"
+				africanu = "Domaviu"
+	
+				b_rama = {
+					# Domavium
+
+					africanu = "Domaviu"
+				}
+				b_samobor = {
+					# Malvesa
+
+					roman = "Malvesia"
+					greek = "Malvesia"
+				}
+				b_usice = {
+				}
+				b_borac = {
+				}
+				b_srebrenica = {
+					# Argentaria
+				}
+				b_srebrnik = {
+				}
+				b_zenica = {
+				}
+				b_zvornik = {
+					# Drinum # Ad Drinum
+
+					latine = "Drino"
+					dalmatian = "Drino"
+					africanu = "Drinu"
+				}
+			}
+			c_usora = {
+				color={ 200 121 121 }
+				color2={ 255 255 255 }
+
+				# Vozora
+	
+				b_usora = {
+					# Vozora
+				}
+				b_banjaluka = {
+					# Adladios
+				} 
+				b_bihac = {
+					# Raetinium
+				}
+				b_jajce = {
+					# Apeva
+				}
+				b_bocac = {
+					# Sapua
+				}
+				b_kuljc = {
+				}
+				b_prijedor = {
+				}
+				b_blagaj = {
+				}
+			}
+		}
+		d_dalmatia = {
+			color={ 184 137 137 }
+			color2={ 255 255 255 }
+			
+			capital = 465 # Zadar
+	
+			c_split = {
+				color={ 186 139 139 }
+				color2={ 255 255 255 }
+				
+				# Spalatum
+
+				dalmatian = "Spalatro"
+				greek = "Spalathos"
+	
+				b_split = {
+					# Spalatum
+
+					dalmatian = "Spalatro"
+					greek = "Spalathos"
+				}
+				b_hvar = {
+					# Pharia
+
+					greek = "Pharos"
+				}
+				b_trogir = {
+					# Tragurium
+
+					dalmatian = "Tagur"
+					greek = "Tragyrion"
+				}
+				b_solin = {
+					# Salona
+				}
+				b_klis = {
+					# Clissa
+				}
+				b_makarska = {
+					# Muccurum
+				}
+				b_sinj = {
+					# Setovium
+
+					german = "Zein"
+				}
+				b_imotski = {
+					# Emotha
+				}
+			}
+			c_zadar = {
+				color={ 188 141 141 }
+				color2={ 255 255 255 }
+				
+				# Jadera
+
+				dalmatian = "Jadera"
+				greek = "Diadora"
+	
+				b_zadar = {
+					# Jadera
+
+					dalmatian = "Jadera"
+					greek = "Diadora"
+				}
+				b_nin = {
+					# Aenona
+
+					latine = "Enona"
+					gallic = "Enona"
+					hispani = "Enona"
+					africanu = "Enona"
+					dalmatian = "Enon"
+					brithenig = "Ynon"
+
+					#gothicromance = "Nona"
+				}
+				b_knin = {
+					# Tinum
+				}
+				b_sibenik = {
+					# Sebenicum
+				}
+				b_novigrad = {
+					# Burnum # actually old town in the vicinity of Knin
+				}
+				b_benkovac = {
+				}
+				b_obrovac = {
+				}
+				b_pag = {
+				}
+			}
+			c_zachlumia = {
+				color={ 166 57 57 }
+				color2={ 255 255 255 }
+	
+				b_mostar = {
+					# Castrapons # made up
+				}
+				b_duvno = {
+				}
+				b_livno = {
+				}
+				b_capljina = {
+				}
+				b_sirokibrijeg = {
+				}
+				b_ljubuski = {
+				}
+				b_drvar = {
+				}
+				b_neretva = {
+				}
+			}
+		}
+		d_liburnia = {
+			color={ 231 157 84 }
+			color2={ 255 255 255 }
+			
+			capital = 464 # Senj
+	
+			c_senj = {
+				color={ 243 157 71 }
+				color2={ 255 255 255 }
+
+				# Senia
+				
+				greek = "Attienities"
+				italian = "Segna"
+				german = "Zengg"
+				hungarian = "Zeng"
+	
+				b_senj = {
+					# Senia
+
+					greek = "Attienities"
+					italian = "Segna"
+					german = "Zengg"
+					hungarian = "Zeng"
+				}
+				b_kaseg = {
+				}
+				b_brinje = {
+				}
+				b_karlobag = {
+				}
+				b_perusic = {
+				} 
+				b_donjilapac = {
+				}
+				b_udbina = {
+				}
+				b_otocac = {
+				}
+			}
+			c_veglia = {
+				color={ 196 112 36 }
+				color2={ 255 255 255 }
+				
+				# Curicta
+
+				dalmatian = "Vikla"
+				greek = "Kyrikon"
+				german = "Vegl"
+	
+				b_veglia = {
+					# Curicta
+
+					greek = "Kyrikon"
+					dalmatian = "Vikla"
+					german = "Vegl"
+				}
+				b_krk = {
+					# Curicum
+				}
+				b_kraljevica = {
+				}
+				b_frankopan = {
+				}
+				b_bakar = {
+				}
+				b_crikvenica = {
+				}
+				b_cres = {
+					dalmatian = "Crepsa"
+				}
+				b_vrbovsko = {
+				}
+			}
+		}
+		d_savia = {
+			color={ 69 175 85 }
+			color2={ 255 255 255 }
+			
+			capital = 461 # Zagreb
+	
+			c_krizevci = {
+				color={ 60 151 73 }
+				color2={ 255 255 255 }
+
+				# Mursa
+	
+				b_krizevci = {
+					# Crisium
+
+					german = "Kreutz"
+				}
+				b_koprivnica = {
+					# Copriunisa
+
+					german = "Kopreinitz"
+				}
+				b_osijek = {
+					# Mursa
+
+					german = "Esseg"
+				}
+				b_vinkovci = {
+					# Cibalae
+
+					german = "Winkowitz"
+				}
+				b_vukovar = {
+					# Cornacum
+				}
+				b_durdevac = {
+					# Mursella
+				}
+				b_pozega = {
+					# Incerum
+				}
+				b_virovitica = {
+					# Verucia
+
+					german = "Wirowititz"
+				}
+			}
+			c_zagreb = {
+				color={ 118 201 131 }
+				color2={ 255 255 255 }
+
+				# Siscia
+	
+				b_zagreb = {
+					# Andautonia
+				}
+				b_sisak = {
+					# Segestica
+
+					latine = "Siscia"
+					gallic = "Siscia"
+					hispani = "Siscia"
+					dalmatian = "Siscia"
+					africanu = "Siscia"
+					german = "Sissek"
+				}
+				b_karlovac = {
+					# Adfines
+				}
+				b_cetin = {
+					# Cordone
+				}
+				b_zrin = {
+					# Varianis
+				}
+				b_dreznik = {
+					# Adpraetorium
+				}
+				b_stenicnjak = {
+				} 
+				b_ozalj = {
+					german = "Wosail"
+				}
+			}
+			c_varadzin = {
+				color={ 108 193 51 }
+				color2={ 255 255 255 }
+
+				# Varasdinum
+
+				german = "Warasdin"
+	
+				b_varazdin = {
+					# Varasdinum
+
+					german = "Warasdin"
+				}
+				b_cakovec = {
+					# Aquama
+				}
+				b_ludbreg = {
+					# Iovia
+
+					africanu = "Jovia"
+					brithenig = "Jovia"
+					dalmatian = "Jovia"
+					gallic = "Jovia"
+					hispani = "Jovia"
+				}
+				b_lepoglava = {
+					# Sonista
+				}
+				b_toplice = {
+					# Aquae Iasae
+
+					dalmatian = "Jasae"
+				}
+				b_krapina = {
+				}
+				b_donjastubica = {
+				}
+				b_oroslavje = {
+				}
+			}
+		}
+		d_sirmium = {
+			color = { 198 26 120 }
+			color2= { 255 255 255 }
+
+			c_hum = { 
+				color={ 181 43 119 }
+				color2={ 255 255 255 }
+				
+				greek = "Arsa"
+				
+				b_plav = {
+				}
+				b_pec = {
+				}
+				b_novipazar = {
+					greek = "Arsa"
+				}
+				b_stupovi = {
+				}
+				b_belacrkva = {
+				}
+				b_bradarevo = {
+				}
+				b_moraca = {
+				}
+				b_medun = {
+				}
+			}
+			c_belgrade = {
+				color={ 222 105 158 }
+				color2={ 255 255 255 }
+
+				greek = "Singidounon"
+				
+				b_belgrade = {
+					# Sigdinium
+
+					greek = "Singidounon"
+				}
+				b_zemun = {
+				}
+				b_smederevo = {
+				}
+				b_kragujevac = {
+				}
+				b_rudnik = {
+				}
+				b_branicevo = {
+				}
+				b_pozarevac = {
+				}
+				b_lipovic = {
+				}
+			}
+		}
+		d_dioclea = {
+			color={ 129 94 13 }
+			color2={ 255 255 255 }
+			
+			capital = 468 # Ragusa
+			
+			serbian = "Duklja"
+			croatian = "Duklja"
+			bulgarian = "Duklja"
+			
+			c_zeta = {
+				color={ 131 96 15 }
+				color2={ 255 255 255 }
+
+				dalmatian = "Cattaro"
+				
+				b_podgorica = {
+					greek = "Birziminium"
+				}
+				b_bar = {
+					italian = Antivari
+					greek = Antivarion
+				}
+				b_kotor = {
+					# Ascrivium
+
+					dalmatian = "Cattaro"
+					greek = Askrivion
+				}
+				b_skadar = {
+					italian = Scutari
+					greek = Skoutarion
+				}
+				b_ulcinj = {
+				}
+				b_budva = {
+				}
+				b_danj = {
+				}
+				b_drivast = {
+				}
+			}
+			c_ragusa = {
+				color={ 133 98 17 }
+				color2={ 255 255 255 }
+				
+				dalmatian = "Raugia"
+				greek = "Raugia"
+				croatian = "Dubrovnik"
+				serbian = "Dubrovnik"
+				
+				b_ragusa = {
+					dalmatian = "Raugia"
+					greek = "Raugia"
+					croatian = "Dubrovnik"
+					serbian = "Dubrovnik"
+				}
+				b_narona = {
+				}
+				b_cavtat = {
+					greek = "Epidauros"
+					italian = "Ragusavecchia"
+				}
+				b_zaton = {
+				} 
+				b_slano = {
+				}
+				b_mljet = {
+				}
+				b_kolocep = {
+				}
+				b_sipan = {
+				}
+			}
+		}
+	}
+}

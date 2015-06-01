@@ -1,0 +1,156 @@
+#WESTERN EUROPE
+
+technology = {
+	titles = {
+		d_angaria
+		d_bavaria
+		d_baden
+		d_flanders
+		d_gelre
+		d_helvetia
+		d_hessorum
+		d_holland
+		d_osterreich
+		d_ostfalia
+		d_rhaetia
+		d_ripuaria
+		d_swabia
+		d_tyrol
+		d_uburzis
+		d_westfalia
+	}
+
+	769 = {
+		military = 0.5
+		economy = 0.5
+		culture = 0.5
+	}
+		
+	1337 = {
+		military = 5.0
+		economy = 5.0
+		culture = 5.0
+	}
+}
+
+#BRITISH ISLES
+
+technology = {
+	titles = {
+		d_altclut
+		d_bernicia
+		d_cantia
+		d_coritania
+		d_deheubarth
+		d_dumnonia
+		d_eboracum
+		d_glouvia
+		d_guotodin
+		d_gwynedd
+		d_icenia
+		d_londinium
+		d_pagenses
+		d_recet
+		d_western_isles
+		d_albany
+		d_moray
+		d_ulster
+		d_connacht
+		d_meath
+		d_leinster
+		d_munster
+		d_the_isles
+	}
+
+	769 = {
+		military = 0.5
+		economy = 0.7
+		culture = 0.7
+	}
+		
+	1337 = {
+		military = 5.0
+		economy = 5.0
+		culture = 5.0
+	}
+}
+
+#GAUL
+
+technology = {
+	titles = {
+		d_alsatia
+		d_andecavia
+		d_aquitania
+		d_arvernia
+		d_aurelianum
+		d_avaricum
+		d_brittany
+		d_campanenses
+		d_divio
+		d_lugdunensis
+		d_mosa
+		d_mosella
+		d_narbonensis
+		d_normandy
+		d_provincia
+		d_sapaudia
+		d_sequanica
+		d_suessionia
+		d_theifalia
+		d_tolosa
+		d_toxandria
+		d_turonum
+		d_treveria
+		d_viennensis
+		d_wasconia
+	}
+	769 = {
+		military = 0.5
+		economy = 0.9
+		culture = 0.9
+	}
+		
+	1337 = {
+		military = 5.0
+		economy = 5.0
+		culture = 5.0
+	}
+}
+
+#NORTHERN IBERIA
+
+technology = {
+	titles = {
+		d_asturica
+		d_ballearica
+		d_barcino
+		d_bracarensis
+		d_caesaraugustanus
+		d_cantabria
+		d_carthaginiensis
+		d_cordubensis
+		d_emeritanus
+		d_gaditanus
+		d_galicia
+		d_hispalensis
+		d_legio
+		d_navarra
+		d_pacensis
+		d_scalabitanus
+		d_tarraconensis
+		d_toletum
+	}
+
+	769 = {
+		military = 0.7
+		economy = 0.9
+		culture = 0.9
+	}
+		
+	1337 = {
+		military = 5.0
+		economy = 5.0
+		culture = 5.0
+	}
+}

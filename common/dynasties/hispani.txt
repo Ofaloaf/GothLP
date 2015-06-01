@@ -1,0 +1,394 @@
+1589001 = {
+	name = "de Tarraco"
+	culture = hispani
+}
+
+1589002 = {
+	name = "de Tolittu"
+	culture = hispani
+}
+
+1589003 = {
+	name = "de Matritum"
+	culture = hispani
+}
+
+1589004 = {
+	name = "de Numanzia"
+	culture = hispani
+}
+
+1589005 = {
+	name = "de Gadis"
+	culture = hispani
+}
+
+1589006 = {
+	name = "de Leguio"
+	culture = hispani
+}
+
+1589007 = {
+	name = "Emeritensis"
+	culture = hispani
+}
+
+1589008 = {
+	name = "de Asturica"
+	culture = hispani
+}
+
+1589009 = {
+	name = "de Hispalis"
+	culture = hispani
+}
+
+1589010 = {
+	name = "de Valentia"
+	culture = hispani
+}
+
+1589011 = {
+	name = "Ulpiano"
+	culture = hispani
+}
+
+1589012 = {
+	name = "Traianito"
+	culture = hispani
+}
+
+1589013 = {
+	name = "Cesarito"
+	culture = hispano
+}
+
+1589014 = {
+	name = "Cartaginiense"
+	culture = hispani
+}
+
+1589015 = {
+	name = "de Barcinona"
+	culture = hispani
+}
+
+1589016 = {
+	name = "Elercavono"
+	culture = hispani
+}
+
+1589017 = {
+	name = "Turdetano"
+	culture = hispani
+}
+
+1589018 = {
+	name = "Ebricos"
+	culture = hispani
+}
+
+1589019 = {
+	name = "Lupulo"
+	culture = hispani
+}
+
+1589020 = {
+	name = "Annibulo"
+	culture = hispani
+}
+
+1589021 = {
+	name = "Amilcaro"
+	culture = hispani
+}
+
+1589022 = {
+	name = "Scutaros"
+	culture = hispani
+}
+
+1589023 = {
+	name = "Cantabros"
+	culture = hispani
+}
+
+1589024 = {
+	name = "Oscensis"
+	culture = hispani
+}
+
+1589025 = {
+	name = "de Segovia"
+	culture = hispani
+}
+
+1589026 = {
+	name = "de Corduba"
+	culture = hispani
+}
+
+1589027 = {
+	name = "de Malaca"
+	culture = hispani
+}
+
+1589028 = {
+	name = "Volpelo"
+	culture = hispani
+}
+
+1589029 = {
+	name = "Pacensis"
+	culture = hispani
+}
+
+1589030 = {
+	name = "Lepidoso"
+	culture = hispani
+}
+
+1589031 = {
+	name = "de Salamantica"
+	culture = hispani
+}
+
+1589032 = {
+	name = "Agustini"
+	culture = hispani
+}
+
+1589033 = {
+	name = "Astrugui"
+	culture = hispani
+}
+
+1589034 = {
+	name = "de Cantalupis"
+	culture = hispani
+}
+
+1589035 = {
+	name = Saltellis
+	culture = hispani
+}
+
+1589036 = {
+	name = "de Bisuldune"
+	culture = hispani
+}
+
+1589037 = {
+	name = "de Biterris"
+	culture = hispani
+}
+
+1589038 = {
+	name = "de Tudela"
+	culture = hispani
+}
+
+1589039 = {
+	name = "Coras"
+	culture = hispani
+}
+
+1589040 = {
+	name = "Bedoz"
+	culture = hispani
+}
+
+1589041 = {
+	name = "Baster"
+	culture = hispani
+}
+
+1589042 = {
+	name = "Bello"
+	culture = hispani
+}
+
+1589043 = {
+	name = "de Coll"
+	culture = hispani
+}
+
+1589044 = {
+	name = "Eres"
+	culture = hispani
+}
+
+1589045 = {
+	name = "de Fornells"
+	culture = hispani
+}
+
+1589046 = {
+	name = "Granella"
+	culture = hispani
+}
+
+1589047 = {
+	name = "de Margens"
+	culture = hispani
+}
+
+1589048 = {
+	name = "Martorell"
+	culture = hispani
+}
+
+1589049 = {
+	name = "Palomeres"
+	culture = hispani
+}
+
+1589050 = {
+	name = "de Puiggros"
+	culture = hispani
+}
+
+1589051 = {
+	name = "Salort"
+	culture = hispani
+}
+
+1589052 = {
+	name = "de Raxac"
+	culture = hispani
+}
+
+1589053 = {
+	name = "Zoelaeo"
+	culture = hispani
+}
+
+1589054 = {
+	name = "Baniense"
+	culture = hispani
+}
+
+1589055 = {
+	name = "de Barnacis"
+	culture = hispani
+}
+
+1589056 = {
+	name = "de Consabura"
+	culture = hispani
+}
+
+1589057 = {
+	name = "Alcense"
+	culture = hispani
+}
+
+1589058 = {
+	name = "de Metercosa"
+	culture = hispani
+}
+
+1589059 = {
+	name = "de Miaccum"
+	culture = hispani
+}
+
+1589060 = {
+	name = "de Thermida"
+	culture = hispani
+}
+
+1589061 = {
+	name = "de Complutum"
+	culture = hispani
+}
+
+1589062 = {
+	name = "de Laminium"
+	culture = hispani
+}
+
+1589063 = {
+	name = "de Dipo"
+	culture = hispani
+}
+
+1589064 = {
+	name = "de Libora"
+	culture = hispani
+}
+
+1589065 = {
+	name = "de Varada"
+	culture = hispani
+}
+
+1589066 = {
+	name = "de Titulcia"
+	culture = hispani
+}
+
+1589067 = {
+	name = "de Caracca"
+	culture = hispani
+}
+
+1589068 = {
+	name = "de Characa"
+	culture = hispani
+}
+
+1589069 = {
+	name = "de Rigusa"
+	culture = hispani
+}
+
+1589070 = {
+	name = "de Paterniana"
+	culture = hispani
+}
+
+1589071 = {
+	name = "de Alternia"
+	culture = hispani
+}
+
+1589072 = {
+	name = "Thurrus"
+	culture = hispani
+}
+
+1589073 = {
+	name = "de Sekaisa"
+	culture = hispani
+}
+
+1589074 = {
+	name = "de Contebacum"
+	culture = hispani
+}
+
+1589075 = {
+	name = "Numanto"
+	culture = hispani
+}
+
+1589076 = {
+	name = "de Uxama"
+	culture = hispani
+}
+
+1589077 = {
+	name = "Columella"
+	culture = hispani
+}
+
+1589078 = {
+	name = "Burdunelo"
+	culture = hispani
+}
+
+1589079 = {
+	name = "Argantonio"
+	culture = hispani
+}

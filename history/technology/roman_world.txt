@@ -1,0 +1,64 @@
+#ITALY
+
+technology = {
+	titles = {
+		d_aemilia
+		d_apulia
+		d_bruttium
+		d_campania
+		d_insubria
+		d_latium
+		d_liguria
+		d_lucania
+		d_picenum
+		d_quadia
+		d_ravenna
+		d_samnium
+		d_sardinia
+		d_sicily
+		d_tuscia
+		d_verona
+		d_venice
+	}
+	769 = {
+		military = 0.5
+		economy = 1.0
+		culture = 1.0
+	}
+		
+	1337 = {
+		military = 5.0
+		economy = 5.0
+		culture = 5.0
+	}
+}
+
+# The Civilized Limes
+technology = {
+	titles = {
+		# Africa
+		d_byzacena
+		d_cyrenaica
+		d_numidia
+		d_zeugitana
+
+		# Balkans
+		d_dalmatia
+		d_dioclea
+		d_domavia
+		d_liburnia
+		d_savia
+		d_sirmium
+	}
+	769 = {
+		military = 0.4
+		economy = 0.8
+		culture = 0.8
+	}
+		
+	1337 = {
+		military = 4.5
+		economy = 4.5
+		culture = 4.5
+	}
+}

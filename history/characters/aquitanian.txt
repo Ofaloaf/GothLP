@@ -1,0 +1,119 @@
+2222001 = {
+	name="Atxular"
+	dynasty=2468052 # Garvixi
+	culture="aquitanian"
+	religion="hellenic_pagan"
+	600.1.1={
+		birth=yes
+	}
+	650.1.1={
+		death=yes
+	}
+}
+
+2222002 = {
+	name="Cison"
+	dynasty=2468052 # Garvixi
+	culture="aquitanian"
+	religion="hellenic_pagan"
+	father=2222001
+	633.1.1={
+		birth=yes
+	}
+	649.1.1 = {
+		religion = nicene
+		give_nickname = nick_the_holy
+	}
+	687.1.1={
+		death=yes
+	}
+}
+
+2222003 = {
+	name="Santius"
+	dynasty=2468052 # Garvixi
+	culture="aquitanian"
+	religion="nicene"
+	father=2222002
+	655.1.1={
+		birth=yes
+	}
+	711.1.1={
+		death=yes
+	}
+}
+
+2222004 = {
+	name="Andres"
+	dynasty=2468052 # Garvixi
+	culture="aquitanian"
+	religion="nicene"
+	father=2222003
+	681.1.1={
+		birth=yes
+	}
+	744.1.1={
+		death=yes
+	}
+}
+
+2222005 = {
+	name="Atxular"
+	dynasty=2468052 # Garvixi
+	culture="aquitanian"
+	religion="nicene"
+	father=2222004
+	705.1.1={
+		birth=yes
+	}
+	754.1.1={
+		death=yes
+	}
+}
+
+2222006 = {
+	name="Nescato"
+	dynasty=2468052 # Garvixi
+	culture="aquitanian"
+	religion="nicene"
+	father=2222004
+	705.1.1={
+		birth=yes
+	}
+	727.1.1={
+		death=yes
+	}
+}
+
+2222007 = {
+	name="Andres"
+	dynasty=2468052 # Garvixi
+	culture="aquitanian"
+	religion="nicene"
+	father=2222005
+	723.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+2222008 = {
+	name="Juango"
+	dynasty=2468052 # Garvixi
+	diplomacy=7
+	martial=9
+	intrigue=7
+	stewardship=8
+	learning=6
+	culture="aquitanian"
+	religion="nicene"
+	father=2222007
+	742.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}

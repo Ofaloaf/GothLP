@@ -1,0 +1,1122 @@
+e_africa = {
+	color = { 30 51 35 }
+	color2= { 255 255 255 }
+
+	africanu = "Mazicania"
+	maghreb_arabic = "Tamazagha"
+
+	k_africa = {
+		color={ 141 84 75 }
+		color2={ 255 255 255 }
+		
+		capital = 817 # Tunis
+		
+		culture = africanu
+		
+		orthodox = 10 # Crusade target weight
+		muslim = 200 # Crusade target weight
+		west_african_pagan_reformed = 50
+		zoroastrian_group = 50 # Crusade target weight
+		
+		d_zeugitana = {
+			color={ 201 73 41 }
+			color2={ 255 255 255 }
+			
+			capital = 817 # Tunis
+		
+			c_tunis = {
+				color={ 154 55 31 }
+				color2={ 255 255 255 }
+
+				# Carthago
+			
+				b_tunis = {
+					# Thuni
+
+					maghreb_arabic = "Tunes"
+				}
+				b_ariana = {
+				}
+				b_sousse = {
+					# Adrametum
+
+					roman = "Hadrumetum"
+					greek = "Hadroumetos"
+					latine = "Hadrumetum"
+					gallic = "Hadrumetum"
+					hispani = "Hadrumetum"
+					africanu = "Adrumetus"
+					maghreb_arabic = "Susa"
+				}
+				b_cartaghe = {
+					# Carthago
+
+					#occitan = "Cartage"
+					africanu = "Cartàggini"
+
+					holy_site = arian
+					holy_site = nicene
+				}
+				b_zaghouan = {
+				}
+				b_benarous = {
+					# Decimum, as in the Battle of Ad Decimu,
+				}
+				b_kelibia = {
+					# Clupea
+				}
+				b_hammamet = {
+					# Pupput
+				}
+			}
+			c_medjerda = {
+				color={ 215 32 28 }
+				color2={ 255 255 255 }
+
+				# Bagrada
+			
+				b_medjerda = {
+					# Bagrada
+				}
+				b_lekef = {
+					# Sicca
+				}
+				b_siliana = {
+					# Zama # not modern-day Siliana
+
+					holy_site = west_african_pagan
+					holy_site = west_african_pagan_reformed			
+				}
+				b_kasserine = {
+					# Cillium
+
+					africanu = "Celliu"
+				}
+				b_qaafur = {
+					# Naraggara
+				}
+				b_sidimubarak = {
+					# Admedera # not modern-day Sidi Mubarak, best I can tell
+				}
+				b_dougga = {
+					# Thugga
+
+					greek = "Tokaï"
+
+					maghreb_arabic = "Tugga"
+				}
+				b_elkrib = {
+					# Lares # not modern-day El Krib
+				}
+			}
+			c_bizerte = {
+				color={ 216 125 103 }
+				color2={ 255 255 255 }
+
+				# Zarytus
+
+				roman = "Hipponitis"
+				greek = "Hipponitis"
+			
+				b_bizerte = {
+					# Zarytus
+
+					roman = "Diarrhytus"
+					africanu = "Zaritu"
+				}
+				b_tunbeja = {
+					# Vacca
+				}
+				b_jendouba = {
+					# Utica # not Jendouba
+				}
+				b_ghezala = {
+					# Tirna # not Ghezala
+				}
+				b_manziljamal = {
+					# Canopissoe # no idea what Manzil Jamal(?) even /is/
+				}
+				b_almatin = {
+					# Tusca # not Al Matin. Wikipedia says Al Matin is just a name of God???
+				}
+				b_tamra = {
+				}
+				b_netza = {
+				}
+			}
+		d_byzacena = {
+			color = { 67 101 112 }
+			color2= { 255 255 255 }
+
+			latine = "Byzancio"
+			brithenig = "Bysans"
+
+			c_kairwan = {
+				color={ 91 151 142 }
+				color2={ 255 255 255 }
+
+				# Capsa
+			
+				b_kairouan = {
+					# Iubaltiana
+				}
+				b_gafsa = {
+					# Capsa
+				}
+				b_tozeur = {
+					# Tisurus
+
+					greek = "Tisouros"
+					latine = "Tusuro"
+					gallic = "Tusure"
+					hispani = "Tusuro"
+					africanu = "Thusru"
+				}
+				b_sidibouzid = {
+					# Sufetula # actually Sbeitla
+				}
+				b_haffouz = {
+					# Aqua Regiae
+				}
+				b_chebika = {
+					# Adspeculam
+				}
+				b_meknassy = {
+					# Septimunicia # no idea where Septimunicia actually is
+				}
+				b_sidimansour = {
+					# Marazanae # Mezzouna
+				}
+			}
+			c_mahdia = {
+				color={ 139 174 186 }
+				color2={ 255 255 255 }
+
+				# Africa
+			
+				b_mahdia = {
+					# Africa
+
+					roman = "Aphrodisium"
+					greek = "Aphrodision"
+				}
+				b_monastir = {
+					# Ruspina
+				}
+				b_sfax = {
+					# Thaenae
+
+					latine = "Thenae"
+					africanu = "Tena"
+				}
+				b_msaken = {
+					# Leptis # Leptis Minor
+				}
+				b_agareb = {
+					# Macomades # not Agareb
+				}
+				b_neffatia = {
+					# Usilla # I have no idea where Neffatia even is
+				}
+				b_lalaouza = {
+					# Caputvada # what the shit even is 'Lalaouza'
+				}
+				b_lacroix = {
+					# Crucium # shit I made up
+				}
+			}
+			c_gabes = {
+				color={ 47 69 94 }
+				color2={ 255 255 255 }
+
+				# Tacapes
+			
+				b_gabes = {
+				}
+				b_kebili = {
+				}
+				b_medenine = {
+				}
+				b_tataouine = {
+				}
+				b_aljanain = {
+				}
+				b_haddej = {
+				}
+				b_steftimi = {
+				}
+				b_alqalah = {
+				}
+			}
+		}
+		d_tripolitania = {
+			color={ 25 105 90 }
+			color2={ 255 255 255 }
+			
+			capital = 811 # Tripolitania
+		
+			c_tripolitana = {
+				color={ 45 192 107 }
+				color2={ 255 255 255 }
+			
+				b_libtripoli = {
+				}
+				b_sabratah = {
+				}
+				b_nalut = {
+				}
+				b_baniwaled = {
+				}
+				b_gherlan = {
+				}
+				b_funduq = {
+				}
+				b_aljamil = {
+				}
+				b_mazuzah = {
+				}
+			}
+			c_djerba = {
+				color={ 49 196 111 }
+				color2={ 255 255 255 }
+
+				# Gerba
+			
+				b_houmtsouk = {
+				}
+				b_midoun = {
+				}
+				b_ajim = {
+				}
+				b_aghir = {
+				}
+				b_abarda = {
+				}
+				b_elmey = {
+				}
+				b_cedriane = {
+				}
+				b_taguermess = {
+				}
+			}
+			c_leptis_magna = {
+				color={ 53 200 115 }
+				color2={ 255 255 255 }
+			
+				b_leptismagna = {
+				}
+				b_misratah = {
+				}
+				b_alhasun = {
+				}
+				b_abunujaym = {
+				}
+				b_qirdah = {
+				}
+				b_alghiran = {
+				}
+				b_naimah = {
+				}
+				b_gioda = {
+				}
+			}
+			c_syrte = {
+				color={ 57 204 119 }
+				color2={ 255 255 255 }
+			
+				b_syrte = {
+				}
+				b_abuhadi = {
+				}
+				b_assultan = {
+				}
+				b_assidr = {
+				}
+				b_lanuf = {
+				}
+				b_bishr = {
+				}
+				b_qaryatbishr = {
+				}
+				b_nawfalliyah = {
+				}
+			}
+		}
+		d_cyrenaica = {
+			color={ 32 150 63 }
+			color2={ 255 255 255 }
+			
+			capital = 806 # Cyrenaica
+		
+			c_cyrenaica = {
+				color={ 34 152 65 }
+				color2={ 255 255 255 }
+			
+				b_cyrene = {
+				}
+				b_marsasusah = {
+				}
+				b_derna = {
+				}
+				b_altamimi = {
+				}
+				b_alqubbah = {
+				}
+				b_athrun = {
+				}
+				b_mukhayta = {
+				}
+				b_khadra = {
+				}
+			}
+			c_senoussi = {
+				color={ 36 154 67 }
+				color2={ 255 255 255 }
+			
+				b_kufra = {
+				}
+				b_jalu = {
+				}
+				b_jakharrah = {
+				}
+				b_gabr = {
+				}
+				b_attallab = {
+				}
+				b_attaj = {
+				}
+				b_buzayman = {
+				}
+				b_tazirbu = {
+				}
+			}
+			c_benghazi = {
+				color={ 38 156 69 }
+				color2={ 255 255 255 }
+			
+				b_benghazi = {
+				}
+				b_barca = {
+				}
+				b_oriana = {
+				}
+				b_tulmaytath = {
+				}
+				b_ajdabiya = {
+				}
+				b_daryanah = {
+				}
+				b_tansulukh = {
+				}
+				b_jardinah = {
+				}
+			}
+			c_tobruk = {
+				color={ 40 158 71 }
+				color2={ 255 255 255 }
+			
+				b_tobruk = {
+				}
+				b_bardia = {
+				}
+				b_sollum = {
+				}
+				b_alqardabah = {
+				}
+				b_acroma = {
+				}
+				b_kambut = {
+				}
+				b_zanzur = {
+				}
+				b_rukbah = {
+				}
+			}
+		}
+		d_numidia = {
+			color={ 164 247 131 }
+			color2={ 255 255 255 }
+			
+			capital = 825 # Beni Yanni
+		
+			c_constantine = {
+				color={ 45 251 102 }
+				color2={ 255 255 255 }
+			
+				b_constantine = {
+				}
+				b_guelma = {
+				}
+				b_tebessa = {
+				}
+				b_elkhroub = {
+				}
+				b_tadjenanet = {
+				}
+				b_oumelbouaghi = {
+				}
+				b_mechtakebira = {
+				}
+				b_guerrah = {
+				}
+			}
+			c_annaba = {
+				color={ 51 255 108 }
+				color2={ 255 255 255 }
+			
+				b_annabah = {
+				}
+				b_eltarf = {
+				}
+				b_soukahras = {
+				}
+				b_skikda = {
+				}
+				b_elbouni = {
+				}
+				b_boudjama = {
+				}
+				b_drean = {
+				}
+				b_meroudj = {
+				}
+			}
+		}
+	}
+	k_mauretania = {
+		color={ 191 110 62 }
+		color2={ 255 255 255 }
+		
+		capital = 843 # Marrakech
+		
+		culture = maghreb_arabic
+		
+		muslim = 100 # Crusade target weight
+		west_african_pagan_reformed = 100
+	
+		d_sitifis = {
+			color = { 223 186 72 }
+			color2= { 255 255 255 }
+
+			capital = 822 # Bejaija
+
+			old_frankish = Setifiana
+			burgundian  = Setifiana
+			gothic = Setifiana
+
+			c_bejaija = {
+				color={ 224 191 114 }
+				color2={ 255 255 255 }
+
+				# Saldae
+			
+				b_bejaija = {
+					# Saldae
+				}
+				b_setif = {
+					# Sitifis
+				}
+				b_mila = {
+					# Milevum
+
+					roman = "Mileum"
+					greek = "Mireon"
+				}
+				b_elbekara = {
+					# Choba # actually Ziama
+				}
+				b_jijel = {
+					# Igilgili
+				}
+				b_boudaoud = {
+					# Muslubium # Sidi Rehane
+				}
+				b_gantas = {
+					# Tubusuctu # El-Kseur
+				}
+				b_eldjabia = {
+					# Chullu # Collo
+				}
+			}
+			c_ouled_nail = {
+				color={ 174 138 30 }
+				color2={ 255 255 255 }
+
+				# Dimmidi
+			
+				b_tubirett = {
+					# Dimmidi
+				}
+				b_msila = {
+				}
+				b_sidiheg = {
+				}
+				b_roumana = {
+				}
+				b_ainzia = {
+				}
+				b_sidinhar = {
+				}
+				b_beneldir = {
+				}
+				b_bordjelcaid = {
+				}
+			}
+			c_biskra = {
+				color={ 237 175 46 }
+				color2={ 255 255 255 }
+
+				# Vescera
+
+				maghreb_arabic = "Tibeskert"
+			
+				b_biskra = {
+					# Vescera
+
+					maghreb_arabic = "Tibeskert"
+				}
+				b_batna = {
+					# Bagai # modern-day Tell Baghai
+
+					africanu = "Baghai"
+					maghreb_arabic = "Tell Baghai"
+				}
+				b_khenchela = {
+					# Mascula
+				}
+				b_sidiokba = {
+				}
+				b_nebka = {
+				}
+				b_bigou = {
+				}
+				b_branis = {
+				}
+				b_mekhadma = {
+				}
+			}
+		}
+		d_caesarea = {
+			color={ 119 155 221 }
+			color2={ 255 255 255 }
+			
+			capital = 831 # Al Djazir
+
+			c_atlas_mnt = {
+				color={ 102 142 217 }
+				color2={ 255 255 255 }
+			
+				b_tiaret = {
+				}
+				b_djelfa = {
+				}
+				b_bordj = {
+					holy_site = west_african_pagan
+					holy_site = west_african_pagan_reformed
+
+					holy_site = ibadi
+				}
+				b_elyourh = {
+				}
+				b_selmana = {
+				}
+				b_ainrich = {
+				}
+				b_ainzmila = {
+				}
+				b_hassibenmadjeb = {
+				}
+			}
+			c_lemdiyya = {
+				color={ 155 182 230 }
+				color2={ 255 255 255 }
+			
+				b_medea = {
+				}
+				b_relizane = {
+				}
+				b_aindefla = {
+				}
+				b_elrhenb = {
+				}
+				b_aintorki = {
+				}
+				b_blida = {
+				}
+				b_elhachem = {
+				}
+				b_sidimohammed = {
+				}
+			}
+			c_al_djazair = {
+				color={ 44 89 173 }
+				color2={ 255 255 255 }
+			
+				b_algiers = {
+				}
+				b_tipasa = {
+				}
+				b_chiffa = {
+				}
+				b_sidiakacha = {
+				}
+				b_rhedadoua = {
+				}
+				b_elachour = {
+				}
+				b_elRdair = {
+				}
+				b_tirourda = {
+				}
+			}
+			c_mzab = {
+				color={ 62 126 247 }
+				color2={ 255 255 255 }
+			
+				b_mzab = {
+				}
+				b_noumerat = {
+				}
+				b_sebseb = {
+				}
+				b_elalia = {
+				}
+				b_ouargla = {
+				}
+				b_zelfana = {
+				}
+				b_bermane = {
+				}
+				b_elbour = {
+				}
+			}
+			c_beni_yanni = {
+				color={ 123 155 193 }
+				color2={ 255 255 255 }
+			
+				b_bourmedes = {
+				}
+				b_tafoughalt = {
+				}
+				b_tigzirt = {
+				}
+				b_bujima = {
+				}
+				b_azeffoun = {
+				}
+				b_azazga = {
+				}
+				b_taoudouch = {
+				}
+				b_thiza = {
+				}
+			}
+			c_tell_atlas = {
+				color={ 87 102 164 }
+				color2={ 255 255 255 }
+			
+				b_tiziouzou = {
+				}
+				b_zaoula = {
+				}
+				b_akaoudj = {
+				}
+				b_mirabeau = {
+				}
+				b_nacina = {
+				}
+				b_draaelmizan = {
+				}
+				b_tagoughalt = {
+				}
+				b_mechreck = {
+				}
+			}
+		}
+		d_altava = {
+			color={ 125 118 87 }
+			color2={ 255 255 255 }
+			
+			capital = 834 # Tlemcen
+			
+			c_tlemcen = {
+				color={ 88 83 61 }
+				color2={ 255 255 255 }
+			
+				b_tlemcen = {
+				}
+				b_sidibelabbes = {
+				}
+				b_muaskar = {
+				}
+				b_bedrabine = {
+				}
+				b_tessala = {
+				}
+				b_letelagh = {
+				}
+				b_dhaya = {
+				}
+				b_elhaicaiba = {
+				}
+			}
+			c_orania = {
+				color={ 151 142 104 }
+				color2={ 255 255 255 }
+			
+				b_oran = {
+				}
+				b_mostaganem = {
+				}
+				b_aintemouchent = {
+				}
+				b_maghnia = {
+				}
+				b_benisaf = {
+				}
+				b_ainelberd = {
+				}
+				b_merselhadjad = {
+				}
+				b_gdyel = {
+				}
+			}
+			c_hanyan = {
+				color={ 141 131 71 }
+				color2={ 255 255 255 }
+			
+				b_hanyan = {
+				}
+				b_naama = {
+				}
+				b_saida = {
+				}
+				b_alkasdir = {
+				}
+				b_alancha = {
+				}
+				b_magoura = {
+				}
+				b_raselma = {
+				}
+				b_bougtob = {
+				}
+			}
+			c_snassen = {
+				color={ 163 157 135 }
+				color2={ 255 255 255 }
+			
+				b_oujda = {
+				}
+				b_jerada = {
+				}
+				b_saldia = {
+				}
+				b_ainbenimathar = {
+				}
+				b_debdou = {
+				}
+				b_tendrara = {
+				}
+				b_berkane = {
+				}
+				b_ahfir = {
+				}
+			}
+		}
+		d_volubilis = {
+			color = { 163 48 108 }
+			color2= { 255 255 255 }
+
+			capital = 840 # Volubilis
+
+			c_fes = {
+				color={ 115 34 77 }
+				color2={ 255 255 255 }
+
+				# Volubilis
+			
+				b_fes = {
+					# Volubilis
+				}
+				b_meknes = {
+					# Tocolosida # actually Bled Takourart
+
+					maghreb_arabic = "Takourart"
+				}
+				b_zerhoun = {
+				}
+				b_elhajeb = {
+				}
+				b_sefrou = {
+				}
+				b_missour = {
+				}
+				b_enjil = {
+				}
+				b_bouanane = {
+				}
+			}
+			c_marrakech = {
+				color={ 201 129 167 }
+				color2={ 255 255 255 }
+			
+				b_marrakech = {
+				}
+				b_sidirahhal = {
+					holy_site = aztec
+					holy_site = aztec_reformed
+					holy_site = west_african_pagan
+					holy_site = west_african_pagan_reformed
+				}
+				b_ouarzazate = {
+				}
+				b_elanakir = {
+				}
+				b_demnat = {
+				}
+				b_asni = {
+				}
+				b_thineghir = {
+				}
+				b_alnif = {
+				}
+			}
+			c_figuig = {
+				color={ 183 53 121 }
+				color2={ 255 255 255 }
+			
+				b_figuig = {
+				}
+				b_bouarfa = {
+				}
+				b_safsaf = {
+				}
+				b_benitajjit = {
+				}
+				b_ainechchair = {
+				}
+				b_ich = {
+				}
+				b_bechar = {
+				}
+				b_boudnib = {
+				}
+			}
+		}
+		d_tingitana = {
+			color={ 75 101 54 }
+			color2={ 255 255 255 }
+			
+			capital = 841 # Tangiers
+		
+			c_tangiers = {
+				color={ 90 122 65 }
+				color2={ 255 255 255 }
+			
+				b_tangiers = {
+				}
+				b_laraiche = {
+				}
+				b_mulaybuselham = {
+				}
+				b_alcazarquivir = {
+				}
+				b_asilah = {
+				}
+				b_ainbenamar = {
+				}
+				b_barrha = {
+				}
+				b_charkia = {
+				}
+			}
+			c_infa = {
+				color={ 52 71 37 }
+				color2={ 255 255 255 }
+			
+				b_infa = {
+				}
+				b_rabat = {
+				}
+				b_sale = {
+				}
+				b_tiflet = {
+				}
+				b_berrechid = {
+				}
+				b_azemmour = {
+				}
+				b_khouribga = {
+				}
+				b_oulmes = {
+				}
+			}
+			c_cebta = {
+				color={ 136 174 104 }
+				color2={ 255 255 255 }
+			
+				b_cueta = {
+				}
+				b_tetouan = {
+				}
+				b_Xauen = {
+				}
+				b_aulef = {
+				}
+				b_babtaza = {
+				}
+				b_targuist = {
+				}
+				b_mdiq = {
+				}
+				b_martil = {
+				}
+			}
+			c_el_rif = {
+				color={ 77 109 46 }
+				color2={ 255 255 255 }
+			
+				b_melilla = {
+				}
+				b_alhoceima = {
+				}
+				b_midar = {
+				}
+				b_ketama = {
+				}
+				b_nador = {
+				}
+				b_driouch = {
+				}
+				b_saka = {
+				}
+				b_geurcif = {
+				}
+			}
+			c_massat = {
+				color={ 82 146 39 }
+				color2={ 255 255 255 }
+			
+				b_essaouira = {
+				}
+				b_akermoud = {
+				}
+				b_safi = {
+				} 
+				b_haddraa = {
+				}
+				b_aitelaouni = {
+				}
+				b_qumelaioun = {
+				}
+				b_aguedal = {
+				}
+				b_agouidir = {
+				}
+			}
+		}
+		d_gaetulia = {
+			color={ 239 228 176 }
+			color2={ 255 255 255 }
+		
+			c_tharasset = {
+				color={ 47 154 36 }
+				color2={ 255 255 255 }
+			
+				b_tharasset = {
+				}
+				b_tartaya = {
+				}
+				b_tantan = {
+				}
+				b_akhfennir = {
+				}
+				b_chbika = {
+				}
+				b_tidergit = {
+				}
+				b_amot = {
+				}
+				b_tiglit = {
+				}
+			}
+			c_ifni = {
+				color={ 49 156 38 }
+				color2={ 255 255 255 }
+			
+				b_ifni = {
+				}
+				b_tiznit = {
+				}
+				b_ouaouteit = {
+				}
+				b_rgab = {
+				}
+				b_guelmim = {
+				}
+				b_belkassem = {
+				}
+				b_mihrleft = {
+				}
+				b_tizgui = {
+				}
+			}
+			c_anti-atlas = {
+				color={ 51 158 40 }
+				color2={ 255 255 255 }
+			
+				b_agadir = {
+				}
+				b_taroudaut = {
+				}
+				b_tata = {
+				}
+				b_biourga = {
+				}
+				b_kasbaeljoua = {
+				}
+				b_argana = {
+				}
+				b_illrh = {
+				}
+				b_alogoum = {
+				}
+			}
+			c_canarias = {
+				color={ 60 190 43 }
+				color2={ 255 255 255 }
+		
+				b_grancanaria = {
+				}
+				b_tenerife = {
+				}
+				b_lagomera = {
+				}
+				b_lanzarote = {
+				}
+				b_fuerteventura = {
+				}
+				b_lagraciosa = {
+				}
+				b_alegranza = {
+				}
+				b_lapalma = {
+				}
+			}
+			c_sijilmasa = {
+				color={ 72 214 60 }
+				color2={ 255 255 255 }
+			
+				b_sijilmasa = {}
+				b_merzouga = {}
+				b_tanamouste= {}
+				b_ertoud = {}
+				b_merzane = {}
+				b_hannabou = {}
+				b_tadaout = {}
+				b_tisserdmine = {}
+			}
+		}
+	}
+}

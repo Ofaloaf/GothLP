@@ -1,0 +1,20 @@
+# 233 - Genoa
+
+# County Title
+title = c_genoa
+
+# Settlements
+max_settlements = 6
+b_genoa = city
+b_luna = castle
+b_rapallo = temple
+b_savona = city
+
+#b_ventimiglia = castle
+#b_chiavari = castle
+#b_albenga = castle
+#b_fosdinovo = castle
+
+# Misc
+culture = latine
+religion = nicene

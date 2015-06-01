@@ -1,0 +1,21 @@
+# 739 - Sinope
+
+# County Title
+title = c_sinope
+
+# Settlements
+max_settlements = 4
+
+b_sinope = castle
+b_pompeiopolis = city
+b_germanicopolis = temple
+
+#b_aboniteichos = castle
+#b_themiscyra = castle
+#b_amastris = castle
+#b_talaura = castle
+#b_comana = castle
+
+# Misc
+culture = greek
+religion = nicene

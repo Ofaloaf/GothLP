@@ -1,0 +1,564 @@
+1940001 = {
+	name = "Arvernius"
+	culture = gallic
+}
+
+1940002 = {
+	name = "de Lutecia"
+	culture = gallic
+}
+
+1940003 = {
+	name = "Castrensis"
+	culture = gallic
+}
+
+1940005 = {
+	name = "Tetriciene"
+	culture = gallic
+}
+
+1940006 = {
+	name = "de Burdigale"
+	culture = gallic
+}
+
+1940007 = {
+	name = "de Condate"
+	culture = gallic
+}
+
+1940008 = {
+	name = "de Lemovicus"
+	culture = gallic
+}
+
+1940009 = {
+	name = "de Bisontio"
+	culture = gallic
+}
+
+1940010 = {
+	name = "de Lyduum"
+	culture = gallic
+}
+
+1940011 = {
+	name = "Rafinel"
+	cultue = gallic
+}
+
+1940012 = {
+	name = "Postumianus"
+	culture = gallic
+}
+
+1940013 = {
+	name = "Rutenoris"
+	culture = gallic
+}
+
+1940014 = {
+	name = "Senones"
+	culture = gallic
+}
+
+1940015 = {
+	name = "de Remis"
+	culture = gallic
+}
+
+1940016 = {
+	name = "de Namnetes"
+	culture = gallic
+}
+
+1940017 = {
+	name = "Grannules"
+	culture = gallic
+}
+
+1940018 = {
+	name = "Segomo"
+	culture = gallic
+}
+
+1940019 = {
+	name = "Cernunnules"
+	culture = gallic
+}
+
+1940020 = {
+	name = "Veraudunules"
+	culture = gallic
+}
+
+1940021 = {
+	name = "Camulules"
+	culture = gallic
+}
+
+1940022 = {
+	name = "Lenianes"
+	culture = gallic
+}
+
+1940023 = {
+	name = "Intarabices"
+	culture = gallic
+}
+
+1940024 = {
+	name = "Ancamniana"
+	culture = gallic
+}
+
+1940025 = {
+	name = "Lero"
+	culture = gallic
+}
+
+1940026 = {
+	name = "Lerinienes"
+	culture = gallic
+}
+
+1940027 = {
+	name = "Nemausiensis"
+	culture = gallic
+}
+
+1940028 = {
+	name = "Rudianis"
+	culture = gallic
+}
+
+1940029 = {
+	name = "Artais"
+	culture = gallic
+}
+
+1940030 = {
+	name = "Anextiomarules"
+	culture = gallic
+}
+
+1940031 = {
+	name = "Lugico"
+	culture = gallic
+}
+
+1940032 = {
+	name = "Gergove"
+	culture = gallic
+}
+
+1940033 = {
+	name = "Mogetis"
+	culture = gallic
+}
+
+1940034 = {
+	name = "Sequanico"
+	culture = gallic
+}
+
+1940035 = {
+	name = "Abelliolo"
+	culture = gallic
+}
+
+1940036 = {
+	name = "Parisis"
+	culture = gallic
+}
+
+1940037 = {
+	name = "Caletensis"
+	culture = gallic
+}
+
+1940038 = {
+	name = "de Divion"
+	culture = gallic
+}
+
+1940039 = {
+	name = "Anvallo"
+	culture = gallic
+}
+
+1940040 = {
+	name = "Vindonnino"
+	cultue = gallic
+}
+
+1940041 = {
+	name = "Mercutioles"
+	culture = gallic
+}
+
+1940042 = {
+	name = "Artio"
+	culture = gallic
+}
+
+1940043 = {
+	name = "de Vienna"
+	culture = gallic
+}
+
+1940044 = {
+	name = "Avenniensis"
+	culture = gallic
+}
+
+1940045 = {
+	name = "de Bitugis"
+	culture = gallic
+}
+
+1940046 = {
+	name = "Avaricensis"
+	culture = gallic
+}
+
+1940047 = {
+	name = "Aurelienensis"
+	culture = gallic
+}
+
+1940048 = {
+	name = "Vercingetoregulo"
+	culture = gallic
+}
+
+1940049 = {
+	name = "Alesiensis"
+	culture = gallic
+}
+
+1940050 = {
+	name = "Ambioregis"
+	culture = gallic
+}
+
+1940051 = {
+	name = "Celtillo"
+	culture = gallic
+}
+
+1940052 = {
+	name = "Bathanatien"
+	culture = gallic
+}
+
+1940053 = {
+	name = "Aulercis"
+	culture = gallic
+}
+
+1940054 = {
+	name = "Camulogenien"
+	culture = gallic
+}
+
+1940055 = {
+	name = "Commules"
+	culture = gallic
+}
+
+1940056 = {
+	name = "Vercassivellaunes"
+	culture = gallic
+}
+
+1940057 = {
+	name = "Sedullien"
+	culture = gallic
+}
+
+1940058 = {
+	name = "Tasgetien"
+	culture = gallic
+}
+
+1940059 = {
+	name = "Orgetoricien"
+	culture = gallic
+}
+
+1940060 = {
+	name = "Arelatensis"
+	culture = gallic
+}
+
+1940061 = {
+	name = "de Marsalia"
+	culture = gallic
+}
+
+1940062 = {
+	name = "de Tolosa"
+	culture = gallic
+}
+
+1940063 = {
+	name = "Orucii"
+	culture = gallic
+}
+
+1940064 = {
+	name = "Mironis"
+	culture = gallic
+}
+
+1940065 = {
+	name = "Pardines"
+	culture = gallic
+}
+
+1940066 = {
+	name = "de Peitieus"
+	culture = gallic
+}
+
+1940067 = {
+	name = "Ferrarius"
+	culture = gallic
+}
+
+1940068 = {
+	name = "Oller"
+	culture = gallic
+}
+
+1940069 = {
+	name = "de Roci"
+	culture = gallic
+}
+
+1940070 = {
+	name = "Bonifill"
+	culture = gallic
+}
+
+1940071 = {
+	name = "Vives"
+	culture = gallic
+}
+
+1940072 = {
+	name = "de Fabrica"
+	culture = gallic
+}
+
+1940073 = {
+	name = "Dominici"
+	culture=  gallican
+}
+
+1940074 = {
+	name = "Dondara"
+	culture = gallic
+}
+
+1940075 = {
+	name = "de Boclo"
+	culture = gallic
+}
+
+1940076 = {
+	name = "de Nimauses"
+	culture = gallic
+}
+
+1940077 = {
+	name = "de Crion"
+	culture = gallic
+}
+
+1940078 = {
+	name = "de Luces"
+	culture = gallic
+}
+
+1940079 = {
+	name = "Topina"
+	culture = gallic
+}
+
+1940080 = {
+	name = "de Cumenge"
+	culture = gallic
+}
+
+1940081 = {
+	name = "de Corneus"
+	culture = gallic
+}
+
+1940082 = {
+	name = "Barasc"
+	culture = gallic
+}
+
+1940083 = {
+	name = "Bonassa"
+	culture = gallic
+}
+
+1940084 = {
+	name = "Mirs"
+	culture = gallic
+}
+
+1940085 = {
+	name = "Arces"
+	culture = gallic
+}
+
+1940086 = {
+	name = "Bartas"
+	culture = gallic
+}
+
+1940087 = {
+	name = "de Vezis"
+	culture = gallic
+}
+
+1940088 = {
+	name = "Goloens"
+	culture = gallic
+}
+
+1940089 = {
+	name = "lo Laine" # le Saxon en francais hon hon hon
+	culture = gallic
+}
+
+1940090 = {
+	name = "de Lomanha"
+	culture = gallic
+}
+
+1940091 = {
+	name = "Belengers"
+	culture = gallic
+}
+
+1940092 = {
+	name = "de Peirigorc"
+	culture = gallic
+}
+
+1940093 = {
+	name = "de Vals"
+	culture = gallic
+}
+
+1940094 = {
+	name = "Unaudes"
+	culture = gallic
+}
+
+1940095 = {
+	name = "del Gua"
+	culture = gallic
+}
+
+1940096 = {
+	name = "del Pog"
+	culture = gallic
+}
+
+1940097 = {
+	name = "de Saischon" # Soissons
+	culture = gallic
+}
+
+1940098 = {
+	name = "de Niela"
+	culture = gallic
+}
+
+1940099 = {
+	name = "de Caussada"
+	culture = gallic
+}
+
+1940100 = {
+	name = "de Trias"
+	culture = gallic
+}
+
+1940101 = {
+	name = "lo Frizos"
+	culture = gallic
+}
+
+1940102 = {
+	name = "de Caro"
+	culture = gallic
+}
+
+1940103 = {
+	name = "del Pugal"
+	culture = gallic
+}
+
+1940104 = {
+	name = "Campnerx"
+	culture = gallic
+}
+
+1940105 = {
+	name = "de Pontos"
+	culture = gallic
+}
+
+1940106 = {
+	name = "Martis"
+	culture = gallic
+}
+
+1940107 = {
+	name = "Bovon"
+	culture = gallic
+}
+
+1940108 = {
+	name = "Bainac"
+	culture = gallic
+}
+
+1940109 = {
+	name = "Paraire"
+	culture = gallic
+}
+
+1940110 = {
+	name = "Jordas"
+	culture = gallic
+}
+
+1940111 = {
+	name = "de Campanha"
+	culture = gallic
+}
+
+1940112 = {
+	name = "Amaneus"
+	culture = gallic
+}
+
+1940113 = {
+	name = "Caudaro"
+	culture = gallic
+}
+
+1940114 = {
+	name = "Isaranus"
+	culture = gallic
+}

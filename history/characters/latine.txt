@@ -1,0 +1,325 @@
+476001 = {
+	name="Nicola"
+	dynasty=476069 # Laurentiano
+	culture="latine"
+	religion="nicene"
+	martial=7
+	diplomacy=6
+	intrigue=4
+	stewardship=6
+	learning=5
+	trait="content"
+	713.1.1={
+		birth=yes
+	}
+	733.1.1={
+		add_spouse=476002
+	}
+	780.1.1={
+		death=yes
+	}
+}
+
+476002 = {
+	name="Rosalia"
+	female = yes
+	culture="latine"
+	religion="nicene"
+	717.1.1={
+		birth=yes
+	}
+	780.1.1={
+		death=yes
+	}
+}
+
+476003 = {
+	name="Laurentiolo"
+	dynasty=476069 # Laurentiano
+	father=476001
+	mother=476002
+	culture="latine"
+	religion="nicene"
+	martial=8
+	diplomacy=5
+	intrigue=8
+	stewardship=5
+	learning=4
+	trait="envious"
+	trait="flamboyant_schemer"
+	735.1.1={
+		birth=yes
+	}
+	780.1.1={
+		death=yes
+	}
+}
+
+476004 = {
+	name="Nicola"
+	culture="latine"
+	religion="nicene"
+	martial=6
+	diplomacy=9
+	intrigue=6
+	stewardship=6
+	learning=10
+	trait="chaste"
+	trait="ambitious"
+	trait="mastermind_theologian"
+	800.1.1={
+		birth=yes
+	}
+	858.4.24={
+		name="Theodore"
+	}
+	868.1.1={
+		death=yes
+	}
+}
+
+476005 = {
+	name="Oreste"
+	dynasty=476069 # Laurentiano
+	father=476001
+	mother=476002
+	culture="latine"
+	religion="nicene"
+	736.1.1={
+		birth=yes
+	}
+	780.1.1={
+		death=yes
+	}
+}
+
+476006 = {
+	name="Dionysia"
+	female=yes
+	dynasty=476069 # Laurentiano
+	father=476001
+	mother=476002
+	culture="latine"
+	religion="nicene"
+	740.1.1={
+		birth=yes
+	}
+	780.1.1={
+		death=yes
+	}
+}
+
+476007 = {
+	name="Egidia"
+	female=yes
+	dynasty=476069 # Laurentiano
+	father=476001
+	mother=476002
+	culture="latine"
+	religion="nicene"
+	741.1.1={
+		birth=yes
+	}
+	780.1.1={
+		death=yes
+	}
+}
+
+476008 = {
+	name="Quinto"
+	dynasty=476069 # Laurentiano
+	father=476001
+	mother=476002
+	culture="latine"
+	religion="nicene"
+	744.1.1={
+		birth=yes
+	}
+	780.1.1={
+		death=yes
+	}
+}
+
+476009 = {
+	name="Regaliano"
+	dynasty=476015 # Senio
+	culture="latine"
+	religion="nicene"
+	martial=5
+	diplomacy=6
+	intrigue=5
+	stewardship=7
+	learning=5
+	trait="zealous"
+	731.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+476010 = {
+	name="Oreste"
+	dynasty=476070 # Malventio
+	culture="latine"
+	religion="nicene"
+	martial=5
+	diplomacy=6
+	intrigue=7
+	stewardship=6
+	learning=7
+	trait="proud"
+	trait="charitable"
+	trait="schemer"
+	trait="amateurish_plotter"
+	727.1.1={
+		birth=yes
+	}
+	752.1.1={
+		add_spouse=476011
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+476011 = {
+	name="Maria"
+	female = yes
+	culture="latine"
+	religion="nicene"
+	734.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+476012 = {
+	name="Juliana"
+	female=yes
+	dynasty=476070 # Malventio
+	father=476010
+	mother=476011
+	culture="latine"
+	religion="nicene"
+	753.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+476013 = {
+	name="Oreste"
+	dynasty=476070 # Malventio
+	father=476010
+	mother=476011
+	culture="latine"
+	religion="nicene"
+	755.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+476014 = {
+	name="Marco"
+	dynasty=476037 # Ambusto
+	culture="latine"
+	religion="nicene"
+	718.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+476015 = {
+	name="Zephyrino"
+	dynasty=476071 # Poponio
+	culture="latine"
+	religion="nicene"
+	721.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+476016 = {
+	name="Luca"
+	dynasty=476072 # Trasumenno
+	culture="latine"
+	religion="nicene"
+	728.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+476017 = {
+	name="Marculo"
+	dynasty=476071 # Poponio
+	father=476015
+	culture="latine"
+	religion="nicene"
+	739.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+476018 = {
+	name="Cosimo"
+	dynasty=476074 # Miniatino
+	culture="latine"
+	religion="nicene"
+	martial=4
+	diplomacy=6
+	intrigue=7
+	stewardship=7
+	learning=7
+	trait="ambitious"
+	trait=greedy
+	trait=gregarious
+	trait=patient
+	trait="midas_touched"
+	739.9.27={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+476019 = {
+	name="Antonio"
+	dynasty=476075 # Castrucium
+	culture="latine"
+	religion="nicene"
+	martial=7
+	diplomacy=5
+	intrigue=4
+	stewardship=5
+	learning=4
+	trait="ambitious"
+	trait="skilled_tactician"
+	738.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}

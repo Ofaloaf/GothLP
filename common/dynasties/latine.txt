@@ -1,0 +1,394 @@
+476001 = {
+	name = "Anicius"
+	culture = latine
+}
+
+476002 = {
+	name = "Senatore"
+	culture = latine
+}
+
+476003 = {
+	name = "Sidicino"
+	culture = latine
+}
+
+476004 = {
+	name = "Orunco"
+	culture = latine
+}
+
+476005 = {
+	name = "Opico"
+	culture = latine
+}
+
+476006 = {
+	name = "Castiniano"
+	culture = latine
+}
+
+476007 = {
+	name = "Acaciano"
+	culture = latine
+}
+
+476008 = {
+	name = "Fullo"
+	culture = latine
+}
+
+476009 = {
+	name = "Afero"
+	culture = latine
+}
+
+476010 = {
+	name = "Postumio"
+	culture = latine
+}
+
+476011 = {
+	name = "Accoleio"
+	culture = latine
+}
+
+476012 = {
+	name = "Lariscolo"
+	culture = latine
+}
+
+476013 = {
+	name = "Abascanto"
+	culture = latine
+}
+
+476014 = {
+	name = "de Perusia"
+	culture = latine
+}
+
+476015 = {
+	name = "Senio"
+	culture = latine
+}
+
+476016 = {
+	name = "Flaminio"
+	culture = latine
+}
+
+476017 = {
+	name = "Sentinense"
+	culture = latine
+}
+
+476018 = {
+	name = "Spoletiense"
+	culture = latine
+}
+
+476019 = {
+	name = "Asisiense"
+	culture = latine
+}
+
+476020 = {
+	name = "de Pisanus"
+	culture = latine
+}
+
+476021 = {
+	name = "Vincius"
+	culture = latine
+}
+
+476022 = {
+	name = "Corvino"
+	culture = latine
+}
+
+476023 = {
+	name = "de Cesena"
+	culture = latine
+}
+
+476024 = {
+	name = "Barberinus"
+	culture = latine
+}
+
+476025 = {
+	name = "Scaevola"
+	culture = latine
+}
+
+476026 = {
+	name = "Anafeso"
+	culture = latine
+}
+
+476027 = {
+	name = "Ipato"
+	culture = latine
+}
+
+476028 = {
+	name = "Gaulo"
+	culture = latine
+}
+
+476029 = {
+	name = "Pataviense"
+	culture = latine
+}
+
+476030 = {
+	name = "de Papia"
+	culture = latine
+}
+
+476031 = {
+	name = "Adiaciense"
+	culture = latine
+}
+
+476032 = {
+	name = "de Ficaria"
+	culture = latine
+}
+
+476033 = {
+	name = "de Gaieta"
+	culture = latine
+}
+
+476034 = {
+	name = "de Ravenna"
+	culture = latine
+}
+
+476035 = {
+	name = "Lingono"
+	culture = latine
+}
+
+476036 = {
+	name = "Bononiense"
+	culture = latine
+}
+
+476037 = {
+	name = "Ambusto"
+	culture = latine
+}
+
+476038 = {
+	name = "Bleso"
+	culture = latine
+}
+
+476039 = {
+	name = "Asellio"
+	culture = latine
+}
+
+476040 = {
+	name = "Buteo"
+	culture = latine
+}
+
+476041 = {
+	name = "Ceco"
+	culture = latine
+}
+
+476042 = {
+	name = "Cepio"
+	culture = latine
+}
+
+476043 = {
+	name = "Broccho"
+	culture = latine
+}
+
+476044 = {
+	name = "Cicurino"
+	culture = latine
+}
+
+476045 = {
+	name = "Ariminense"
+	culture = latine
+}
+
+476046 = {
+	name = "de Placentia"
+	culture = latine
+}
+
+476047 = {
+	name = "Bariense"
+	culture = latine
+}
+
+476048 = {
+	name = "Tresplume"
+	culture = latine
+}
+
+476049 = {
+	name = "Triario"
+	culture = latine
+}
+
+476050 = {
+	name = "Bucellario"
+	culture = latine
+}
+
+476051 = {
+	name = "Petronio"
+	culture = latine
+}
+
+476052 = {
+	name = "Volusiano"
+	culture = latine
+}
+
+476053 = {
+	name = "Arretiense"
+	culture = latine
+}
+
+476054 = {
+	name = "Mecenate"
+	culture = latine
+}
+
+476055 = {
+	name = "de Mutina"
+	culture = latine
+}
+
+476056 = {
+	name = "Cilinio"
+	culture = latine
+}
+
+476057 = {
+	name = "de Brundisium"
+	culture = latine
+}
+
+476058 = {
+	name = "Lepido"
+	culture = latine
+}
+
+476059 = {
+	name = "Murena"
+	culture = latine
+}
+
+476060 = {
+	name = "Fusco"
+	culture = latine
+}
+
+476061 = {
+	name = "Cipo"
+	culture = latine
+}
+
+476062 = {
+	name = "Melio"
+	culture = latine
+}
+
+476063 = {
+	name = "Viatore"
+	culture = latine
+}
+
+476064 = {
+	name = "Hostilio"
+	culture = latine
+}
+
+476065 = {
+	name = "Batiato"
+	culture = latine
+}
+
+476066 = {
+	name = "Tucca"
+	culture = latine
+}
+
+476067 = {
+	name = "Roscio"
+	culture = latine
+}
+
+476068 = {
+	name = "Salvidieno"
+	culture = latine
+}
+
+476069 = {
+	name = "Laurentiano"
+	culture = latine
+}
+
+476070 = {
+	name = "Maleventio"
+	culture = latine
+}
+
+476071 = {
+	name = "Poponio"
+	culture = latine
+}
+
+476072 = {
+	name = "Trasumenno"
+	culture = latine
+}
+
+476073 = {
+	name = "Medices"
+	culture = latine
+}
+
+476074 = {
+	name = "Miniatino"
+	culture = latine
+}
+
+476075 = {
+	name = "Castrucio"
+	culture = latine
+}
+
+476076 = {
+	name = "Musto"
+	culture = latine
+}
+
+476077 = {
+	name = "Sallusto"
+	culture = latine
+}
+
+476078 = {
+	name = "Appio"
+	culture = latine
+}
+
+476079 = {
+	name = "Coracine" # Martialis wrote some great stuff
+	culture = latine
+}

@@ -1,0 +1,3420 @@
+e_gallia = {
+	color = { 85 119 137 }
+	color2= { 255 255 20 }
+
+	capital = 227
+
+	k_gothia = {
+		color = { 79 128 114 } # 89 110 104
+		color2= { 255 255 255 }
+
+		capital = 227
+
+		culture = gothic
+
+		d_lugdunensis = {
+			color={ 82 120 48 }
+			color2={ 255 255 255 }
+
+			#occitan = "Lionense"
+			
+			capital = 227 # Lyon
+			
+			c_lyon = {
+				color={ 108 158 63 }
+				color2={ 255 255 255 }
+
+				# Lugdunum
+
+				#occitan = Lion
+				
+				b_brindas = {
+					# Briendaco
+				}
+				b_vithericopolis = {
+					# Vithericopolis
+					# Vidryoble????
+					# replaces b_stjeanbaptiste
+				}
+				b_lyon = {
+					# Lugdunum
+
+					gothic = "Lugduum"
+					#gothicromance = "Lyduun"
+					#occitan = "Lion"
+
+					german = "Leyden"
+
+					holy_site = arian
+				}
+				b_anse = {
+					# Ansa
+				}
+				b_chessy = {
+					# Chessia # making up shit
+				}
+				b_lacenas = {
+				}
+				b_pusignan = {
+					# Pusinius
+				}
+				b_irigny = {
+					# Iriacum # making up shit
+				}
+			}
+			c_forez = {
+				color={ 58 98 23 }
+				color2={ 255 255 255 }
+
+				# Forensis
+
+				#occitan = "Foresz"
+				
+				b_couzan = {
+				}
+				b_montbrison = {
+				}
+				b_thiers = {
+					# Thiermum
+				}
+				b_feurs = {
+					# Forum Segusiavorum
+				}
+				b_roanne = {
+					# Rodumna
+
+					#occitan = "Rouana"
+				}
+				b_charlieu = {
+					# Carus Locus
+					used_for_dynasty_name = no
+				}
+				b_chalmazel = {
+					# Calmismansum
+				}
+				b_stetienne = {
+					# St. Stephanus
+				}
+			}
+		}
+		d_sequanica = {
+			color={ 112 165 197 }
+			color2={ 255 255 255 }
+			
+			capital = 135 # Bourgogne
+			
+			c_besancon = {
+				color={ 71 135 173 }
+				color2={ 255 255 255 }
+
+				# Vesontio
+
+				german = "Bisanz"
+				
+				b_besancon = {
+					# Vesontio
+
+					german = "Bisanz"
+				}
+				b_belfort = {
+					# Bellumfortum
+
+					#occitan = "Béfô"
+				}
+				b_vesoul = {
+					# Vesulium
+				}
+				b_montbeliard = {
+					# Belgardis
+				}
+				b_beaucourt = {
+					# Bodocohortis
+				}
+				b_valdahon = {
+					# Auns
+				}
+				b_maiche = {
+					# Maches
+				}
+				b_morteau = {
+					# Mortua Aqua
+				}
+			}
+			c_chalons = {
+				color={ 187 213 227 }
+				color2={ 255 255 255 }
+
+				# Catalaunia
+				
+				b_brancion = {
+				}
+				b_chalon = {
+					# Catalaunum
+				}
+				b_tournus = {
+				}
+				b_louhans = {
+				}
+				b_chamilly = {
+				}
+				b_seurre = {
+				}
+				b_stjeandelosne = {
+				}
+				b_cuisery = {
+				}
+			}
+		}
+		d_divio = {
+			color={ 218 224 228 }
+			color2={ 255 255 255 }
+			capital = 136 # Dijon
+			
+			c_dijon = {
+				color={ 125 147 162 }
+				color2={ 255 255 255 }
+
+				# Divio
+				
+				b_semur = {
+				}
+				b_dijon = {
+					# Divio
+				}
+				b_autun = {
+					# Augustodunum
+
+					gothic = "Agustoduun"
+					#gothicromance = "Austduun"
+				}
+				b_vezelay = {
+					# Vezeliacus
+					latine = "Vercellatus"
+					gallic = "Uzellac"
+					hispani = "Vezeliacum"
+
+					gothic = "Videliacus"
+				}
+				b_avallon = {
+				}
+				b_citeaux = {
+				}
+				b_beaune = {
+				}
+				b_noyers = {
+				}
+			}
+			c_auxerre = {
+				color={ 194 205 211 }
+				color2={ 255 255 255 }
+
+				# Autessiodurum
+				
+				b_auxerre = {
+					# Autessiodurum
+				}
+				b_druyes = {
+				}
+				b_tonnerre = {
+				}
+				b_pontigny = {
+				}
+				b_cravant = {
+				}
+				b_crisenon = {
+				}
+				b_stsauveurenpuisaye = {
+				}
+				b_mailly = {
+				}
+			}
+			c_macon = {
+				color={ 232 236 238 }
+				color2={ 255 255 255 }
+				
+				# Matiscone
+
+				b_fuisse = {
+				}
+				b_macon = {
+					# Matisco
+				}
+				b_cluny = {
+				}
+				b_davaye = {
+				}
+				b_beaujeu = {
+				}
+				b_lugny = {
+				}
+				b_berze = {
+				}
+				b_villefranchesursaone = {
+				}
+			}
+			c_nevers = {
+				color={ 202 216 223 }
+				color2={ 255 255 255 }
+
+				# Nevernis
+
+				latine = "Nevirnum"
+				gallic = "Nevirnum"
+				hispani = "Nevirmum"
+				
+				b_courtenay = {
+				}
+				b_nevers = {
+					# Nevernis
+
+					latine = "Nevirnum"
+					gallic = "Nevirnum"
+					hispani = "Nevirnum"
+				}
+				b_lacharite = {
+				}
+				b_donzy = {
+				}
+				b_chateauchinon = {
+				}
+				b_vandenesse = {
+				}
+				b_clamecy = {
+				}
+				b_cosne = {
+				}
+			}
+			c_charolais = {
+				color={ 154 169 192 }
+				color2={ 255 255 255 }
+
+				# Quadrigellanus
+				
+				b_montstvincent = {
+				}
+				b_charolles = {
+					# Quadrigellae
+				}
+				b_paray = {
+				}
+				b_semurenbrionnais = {
+				}
+				b_toulonsurarroux = {
+				}
+				b_perrecy = {
+				}
+				b_digoine = {
+				}
+				b_joncy = {
+				}
+			}
+		}
+		d_campanenses = {
+			color={ 166 125 154 }
+			color2={ 255 255 255 }
+			
+			capital = 114 # Reims
+			
+			c_troyes = {
+				color={ 168 108 152 }
+				color2={ 255 255 255 }
+
+				# Tricassium
+
+				roman = "Augustobona"
+
+				#occitan = "Tròias"
+
+				gothic = "Treci"
+				#gothicromance = "Tricassia"
+				
+				b_brienne = {
+					# Breonna
+				}
+				b_troyes = {
+					# Trecassis
+
+					#occitan = "Tròias"
+
+					roman = "Augustobona"
+
+					gothic = "Treci"
+					#gothicromance = "Tricassis"
+				}
+				b_langres = {
+					# Lingonum
+
+					roman = "Andemantunum"
+					greek = "Andemantunnum"
+				}
+				b_chaumont = {
+				}
+				b_clairvaux = {
+				}
+				b_rosnay = {
+					# Rodenaium
+
+					gothic = Ronnaium
+					#gothicromance = Ronnayo
+				} 
+				b_chacenay = {
+				}
+			}
+			c_reims = {
+				color={ 185 153 175 }
+				color2={ 255 255 255 }
+
+				# Remia
+
+				roman = "Durocortorum"
+				greek = "Durocortorum"
+				latine = "Durocorturo"
+				gallic = "Remos"
+				brithenig = "Remos"
+
+				#occitan = "Rems"
+				
+				b_reims = {
+					# Rementium
+					roman = Durocortorum
+					greek = Durocortorum
+					gallic = Remos
+					brithenig = Remos
+
+					#occitan = "Rems"
+
+					gothic = Rhemus
+					#gothicromance = Rains
+				}
+				b_chateauthierry = {
+				}
+				b_provins = {
+					# Probivinum
+
+					#gothicromance = Probivinis
+				}
+				b_chalons = {
+				}
+				b_chatillon = {
+					# Castellionum
+				}
+				b_vertus = {
+				}
+				b_epernay = {
+					# Sparnacus
+
+					#gothicromance = Esparnac
+				}
+				b_roucy = {
+					# Rusci
+
+					#gothicromance = Ruci
+				}
+			}
+			c_sens = {
+				color={ 112 75 101 }
+				color2={ 255 255 255 }
+
+				# Senonia
+
+				roman = "Agedincum"
+				greek = "Agedincum"
+				
+				b_montargis = {
+					# Aridiacus
+				}
+				b_sens = {
+					# Senonum
+
+					roman = "Agedincum"
+					greek = "Agedincum"
+				}
+				b_nemours = {
+				}
+				b_chateaulandon = {
+				}
+				b_nogentsurseine = {
+				}
+				b_joigny = {
+					# Joviniacum
+				}
+				b_montereau = {
+				}
+				b_villeneuveleroi = {
+				}
+			}
+		}
+		d_mosa = {
+			color={ 180 224 200 }
+			color2={ 255 255 255 }
+			
+			capital = 127 #Lorraine
+
+			c_lorraine = {
+				color={ 111 196 149 }
+				color2={ 255 255 255 }
+
+				# Nanciacum
+
+				#occitan = "Nancí"
+			
+				b_nancy = {
+					# Nanceia
+
+					#occitan = "Nancí"
+				}
+				b_toul = {
+					# Tullium
+				}
+				b_sarrebourg = {
+					# Pontesarvix
+				}
+				b_epinal = {
+				}
+				b_luneville = {
+				}
+				b_charpeigne = {
+				}
+				b_mortagnedevosges = {
+				}
+				b_saintavoid = {
+				}
+			}
+			c_saintois = {
+				color={ 160 216 185 }
+				color2={ 255 255 255 }
+
+				# Suentesis
+
+				gothic = Suggentesis
+		
+				b_saintois = {
+					# Suentesis
+
+					gothic = Suggentesis
+				}
+				b_vaudemont = {
+					# Votanumons
+				}
+				b_brixey = {
+					# Briccius
+				}
+				b_sorcystmartin = {
+				}
+				b_ivios = {
+				}
+				b_ornois = {
+				}
+				b_saulnois = {
+				}
+				b_dompaire = {
+				}
+			}
+			c_bar = {
+				color={ 205 235 219 }
+				color2={ 255 255 255 }
+
+				# Caturiges
+
+					roman = Caturices
+				
+				b_barleduc = {
+					# Caturiges
+
+					roman = "Caturices"
+				}
+				b_vaucouleurs = {
+				}
+				b_saintmihel = {
+				}
+				b_commercy = {
+					# Commercium
+				}
+				b_joinville = {
+					# Jovinus
+				}
+				b_saintdizier = {
+				}
+			}
+		}
+		d_mosella = {
+			color = { 171 82 122 }
+			color2= { 255 255 255 }
+
+			c_pfalz = {
+				color={ 185 68 118 }
+				color2={ 255 255 255 }
+
+				# Wormatia
+			
+				b_kaiserslautern = {
+					# Rouphiniana
+				}
+				b_worms = {
+					# Wormatia
+
+					roman = "Borbetomagus"
+					latine = "Vormatia"
+					gallic = "Vormatia"
+					hispani = "Vormatia"
+					brithenig = "Guormacia"
+				}
+				b_hagenau = {
+					# Cruciniacum # actually Bad Kreuznach
+				}
+				b_stahleck = {
+					# Volsolvia # actually Oberwesel
+
+					german = "Oberwesel"
+				}
+				b_trifels = {
+					# Bingium # actually Bingen am Rhein
+
+					german = "Bingen"
+					gothic = "Bingen"
+					suebi = "Bingen"
+				}
+				b_speyer = {
+					# Spira
+				}
+				b_zweibrucken = {
+					# Buconica # actually Nierstein
+				}
+				b_saarbrucken = {
+					# Altaripa # actually Altrip
+
+					german = "Altrip"
+					gothic = "Altrip"
+					suebi = "Altrip"
+				}
+			}
+			c_metz = {	
+				color={ 118 56 84 }
+				color2={ 255 255 255 }
+
+				# Mettis
+			
+				b_metz = {
+					# Mettis
+
+					roman = "Divodurum"
+				}
+				b_thionville = {
+					# Theodonisvilla
+
+					german = "Diedenhofen"
+					gothic = "Dietenhoven"
+					suebi = "Dietenhoven"
+				}
+				b_saintjulien = {
+					# Contiomagus # actually Pachten, Germany
+				}
+				b_marslatour = {
+					# Castrum Martium # guessing
+				}
+				b_bouzonville = {
+					# Bosonisvilla
+				}
+				b_briey = {
+					# Bricium (attested form 1105)
+				}
+				b_joudreville = {
+					# Scarponna # actually Scarpone, France
+				}
+				b_audunleroman = {
+					# Aquaeducta
+
+					german = "Welsch-Oth"
+				}
+			}
+			c_verdun = {
+				color={ 200 79 121 }
+				color2={ 255 255 255 }
+
+				# Verodunum
+			
+				b_verdun = {
+					# Verodunum
+				}
+				b_grandpre = {
+					# Ibliodurum # actually Vionville
+				}
+				b_barlecomte = {
+					# Vungovicus # actually Voncq
+
+					latine = "Vungus"
+					gallic = "Vungus"
+					hispani = "Vungus"
+
+					#gothicromance = "Vuncum" # attested somewhere in the 11th-12th centuries
+
+					german = "Wuechum" # attested in the middle ages at some point?
+				}
+				b_longuyon = {
+					# Longagio # 634
+
+					#gothicromance = "Longione" # 973
+				}
+				b_doaumont = {
+					# Mosomagus # actually Mouzon
+				}
+				b_stenay = {
+					# Epoissum # actually Carignan
+
+					german = "Ipsch"
+				}
+				b_etain = {
+					# Castrum Vabrense # actually Chatillon-sous-les-Cotes
+				}
+			}
+		}
+		d_alsatia = { 
+			color={ 246 223 15 }
+			color2={ 255 255 255 }
+			
+			capital = 134 #Sundgau
+		
+			c_nordgau = {
+				color={ 225 204 10 }
+				color2={ 255 255 255 }
+
+				# Wasgovia
+
+				gothic = Naurtgawi
+			
+				b_egisheim = {
+					# Egino
+				}
+				b_strassburg = {
+				}
+				b_lauterburg = {
+				}
+				b_selz = {
+				}
+				b_erstein = {
+				}
+				b_molsheim = {
+				}
+				b_brumath = {
+				}
+				b_schlettstadt = {
+				}
+			}
+			c_sundgau = {
+				color={ 237 225 80 }
+				color2={ 255 255 255 }
+
+				# Vosegus
+
+				gothic = "Sunthgawi"
+			
+				b_ensisheim = {
+					# Enghisehaim
+				}
+				b_kolmar = {
+				}
+				b_murbach = {
+				}
+				b_mulhouse = {
+				}
+				b_landser = {
+				}
+				b_thann = {
+				}
+				b_altkirch = {
+				}
+				b_ferette = {
+				}
+			}
+		}
+	}
+
+	k_septimania = {
+		color = { 173 48 80 } #166 50 50 
+		color2= { 226 195 45 }
+
+		#culture = gallic
+
+		capital = 212
+
+		d_tolosa = {
+			color={ 105 170 122 }
+			color2={ 255 255 255 }
+			
+			capital = 214 # Toulouse
+
+			c_toulouse = {
+				color={ 83 147 99 }
+				color2={ 255 255 255 }
+
+				# Tolosanus
+
+				#occitan = "Tolosa"
+				old_frankish = "Tholose"
+				frankish = "Toulouse"
+				
+				b_castelnaudary = {
+					# Sostomagus
+				} 
+				b_toulouse = {
+					# Tolosa
+
+					old_frankish = "Tholose"
+					frankish = "Toulouse"
+				} 
+				b_lavaur = {
+				} 
+				b_montauban = {
+					# Monsalbanus
+				} 
+				b_lombez = {
+					# Lomberium
+
+					#occitan = "Lombèrs"
+				} 
+				b_hautpoul = {
+					# Altopullo
+				} 
+				b_montgiscard = {
+				} 
+				b_muret = {
+				} 
+			}
+			c_rouergue = {
+				color={ 105 170 122 }
+				color2={ 255 255 255 }
+
+				# Rutenia
+
+				#occitan = "Roergue"
+				
+				b_rodez = {
+					# Rutenorum
+
+					#occitan = "Rodés"
+				} 
+				b_millau = {
+					# Millavensis
+
+					#occitan = "Milhau"
+				} 
+				b_vabres = {
+				} 
+				b_najac = {
+				} 
+				b_villefranche = {
+				} 
+				b_caylus = {
+				} 
+				b_staffrique = {
+				} 
+				b_estaing = {
+				} 
+			}
+			c_foix = {
+				color={ 105 106 182 }
+				color2={ 255 255 255 }
+
+				# Fuxium
+
+				#occitan = Fois
+				
+				b_foix = {
+					# Fuxium
+
+					#occitan = Fois
+				} 
+				b_pamiers = {
+					# Appamiae
+
+					#occitan = "Pàmias"
+				} 
+				b_mirepoix = {
+					#occitan = "Mirapeis"
+				} 
+				b_montsegur = {
+					# Securus
+
+					#occitan = "Montsegur"
+				} 
+				b_stbertrand = {
+				}  
+				b_roquefeuil = {
+					# Rocafolium
+
+					#occitan = "Ròcafuèlh"
+				} 
+				b_stgaudens = {
+				}  
+				b_usson = {
+				} 
+			}
+		}
+		d_narbonensis = {
+			color = { 207 112 80 }
+			color2= { 255 255 255 }
+
+			#occitan = "Narbonense"
+
+			capital = 212 # Narbonne
+
+			c_montpellier = {
+				color={ 167 77 46 }
+				color2={ 255 255 255 }
+
+				# Cevenna
+
+				gallic = "Cebenna"
+
+				#occitan = "Cevenas"
+				
+				b_beaucaire = {
+					# Bellicardus
+
+					#occitan = "Bèucaire"
+				}
+				b_montpellier = {
+					#occitan = "Montpelhièr"
+				}
+				b_maguelone = {
+					# Magalona
+				}
+				b_nimes = {
+					# Nemausus
+
+					#occitan = "Nimes"
+				}
+				b_aiguesmortes = {
+					# Aquae Mortuae
+				}
+				b_bagnolssurceze = {
+					# Balneum
+				}
+				b_saintguilhemledesert = {
+				}
+				b_melgueil = {
+					# Melgorium
+
+					#occitan = "Mauguiò"
+				}
+			}
+			c_narbonne = {
+				color={ 225 123 62 }
+				color2={ 255 255 255 }
+
+				# Narbo
+
+				#occitan = "Narbona"
+				
+				b_albi = {
+					# Albiga
+
+					old_frankish = "Alby"
+					frankish = "Albi"
+				} 
+				b_narbonne = {
+					# Narbo
+
+					#occitan = "Narbona"
+				} 
+				b_agde = {
+					# Agatha
+
+					greek = "Agathe"
+
+					old_frankish = "Agade"
+					frankish = "Agde"
+				} 
+				b_beziers = {
+					# Baeterra
+
+					frankish = "Béziers"
+				} 
+				b_puisserguier = {
+					# Podium Sugarium
+
+					#gothicromance = Peuchserguier
+
+					frankish = "Puisserguier"
+				} 
+				b_stponsdethomieres = {
+				} 
+				b_castres = {
+				} 
+				b_queribus = {
+				} 
+			}
+			c_carcassonne = {
+				color={ 200 116 87 }
+				color2={ 255 255 255 }
+
+				# Carcasso
+				
+				b_saissac = {
+					# Saxiago
+
+					frankish = "Saissac"
+				} 
+				b_carcassonne = {
+					# Carcasso
+
+					frankish = "Carcassonne"
+				} 
+				b_alet = {
+				} 
+				b_termes = {
+				} 
+				b_lagrasse = {
+				} 
+				b_lastours = {
+				} 
+				b_cabaret = {
+				} 
+				b_minerve = {
+				}
+			}
+		}
+		d_provincia = {
+			color={ 93 160 163 }
+			color2={ 255 255 255 }
+			
+			capital = 221 # Provence
+			
+			c_provence = {
+				color={ 120 174 177 }
+				color2={ 255 255 255 }
+
+				# Provincia
+				
+				b_arles = {
+					# Arelate
+				}
+				b_aix = {
+					# Aquae Sextiae
+
+					holy_site = arian
+					holy_site = nicene
+				}
+				b_marseille = {
+					# Massilia
+
+					greek = "Massalia"
+				}
+				b_grimaud = {
+					# Athenopolis
+				}
+				b_frejus = {
+					# Foro Julii
+
+					roman = "Forum Julium"
+
+					#gothicromance = Frejurio
+				}
+				b_grasse = {
+					# Grassum
+				}
+				b_castellane = {
+					# Gargarius # St-Jean de Garguier
+				}
+				b_tarascon = {
+
+					#gothicromance = "Tharascone"
+				}
+			}
+			c_forcalquier = {
+				color={ 60 87 91 }
+				color2={ 255 255 255 }
+				
+				# Furnus Calcurius
+
+				b_forcalquier = {
+					# Furnus Calcurius
+				}
+				b_nyons = {
+					# Niomes
+
+					roman = "Noviomagus"
+					latine = "Noviomaco"
+				}
+				b_embrun = {
+					# Eburodunum
+				}
+				b_sisteron = {
+				}
+				b_briancon = {
+				}
+				b_vaison = {
+				}
+				b_gap = {
+				}
+				b_apt = {
+				}
+			}
+			c_venaissin = {
+				color={ 89 142 147 }
+				color2={ 255 255 255 }
+
+				# Venicinus
+				
+				b_orange = {
+					# Arausione
+
+					roman = "Arausio"
+					latine = "Arausio"
+				}
+				b_avignon = {
+					# Avennio
+
+					greek = "Auenion"
+				}
+				b_cavaillon = {
+					# Cavallo
+				}
+				b_venasque = {
+					# Vindasca
+				}
+				b_carpentras = {
+					# Carpentorate
+				}
+				b_chateauneufdupape = {
+				}
+				b_stpaul = {
+				}
+				b_mondragon = {
+				}
+			}
+			c_nice = {
+				color={ 164 200 202 }
+				color2={ 255 255 255 }
+
+				# Nicea
+
+				roman = "Nicaea"
+				greek = "Nikaea"
+				
+				b_nizza = {
+					# Nicea
+
+					roman = "Nicaea"
+					greek = "Nikaea"
+				}
+				b_monaco = {
+					# Monoeci
+
+					greek = "Monoikos"
+				}
+				b_mentone = {
+				}
+				b_antibes = {
+				}
+				b_sanremo = {
+				}
+				b_campogrosso = {
+				}
+				b_lantosque = {
+				}
+				b_contes = {
+				}
+			}
+		}
+		d_arvernia = {
+			color={ 231 165 29 }
+			color2={ 255 255 255 }
+			
+			capital = 217 # Auvergne
+			
+			c_auvergne = {
+				color={ 242 181 53 }
+				color2={ 255 255 255 }
+
+				# Arvernia
+				
+				b_tournoel = {
+					# Turnollia
+				}
+				b_clermont = {
+					# Arvernis
+
+					roman = "Augustonemetum"
+					latine = "Arvernum"
+
+					#gothicromance = "Arverna"
+				}
+				b_mozac = {
+					# Mussiacus
+
+					#gothicromance = "Mausaco"
+				}
+				b_murol = {
+				}
+				b_aurillac = {
+					# Aureliacum
+				}
+				b_carlat = {
+				}
+				b_brioude = {
+				}
+				b_domeyrat = {
+				}
+			}
+			c_gevaudan = {
+				color={ 198 138 28 }
+				color2={ 255 255 255 }
+
+				# Gabalitannus
+				
+				b_grezes = {
+					# Gredonense
+				}
+				b_mende = {
+					# Mimate
+
+					#gothicromance = "Mimata"
+				}
+				b_lepuy = {
+					# Ponots
+				}
+				b_apchier = {
+				}
+				b_marvejols = {
+				}
+				b_florac = {
+				}
+				b_stsauveur = {
+				}
+				b_tournel = {
+				}
+			}			
+		}
+		d_viennensis = {
+			color = { 107 65 46 }
+			color2= { 255 255 255 }
+
+			#occitan = "Viennense"
+
+			capital = 228 # dauphine viennois
+
+			c_dauphine_viennois = {
+				color={ 116 90 79 }
+				color2={ 255 255 255 }
+
+				# Viennensis
+				
+				b_montelimar = {
+				}
+				b_vienne = {
+					# Vienna
+				}
+				b_valence = {
+					# Valentia
+
+					gallic = "Valencia"
+					hispani = "Valencia"
+				}
+				b_grenoble = {
+					# Gratianopolis
+				}
+				b_chartreuse = {
+				}
+				b_albon = {
+				}
+				b_stantoine = {
+				}
+				b_valreas = {
+				}
+			}
+			c_viviers = {
+				color={ 179 108 77 }
+				color2={ 255 255 255 }
+
+				# Vivarium
+				
+				b_aubenas = {
+					# Albenate
+				}
+				b_tournon = {
+				}
+				b_viviers = {
+					# Vivarium
+				}
+				b_albalaromaine = {
+					# Alba
+
+					roman = "Alba Helviorum"
+				}
+				b_privas = {
+				}
+				b_lecheylard = {
+					# Castellarum
+
+					#gothicromance = "Chaylarium"
+				}
+				b_largentiere = {
+					# Segualeriæ
+				}
+				b_joyeuse = {
+				}
+			}
+		}
+	}
+
+	k_aquitania = {
+		color={ 150 80 170 }
+		color2={ 255 255 20 }
+		capital = 149 # Bordaeux
+
+		culture = aquitanian
+		
+		d_aquitania = {
+			color={ 54 10 243 }
+			color2={ 255 255 255 }
+			capital = 149 # Bordaeux
+
+			culture = aquitanian
+			
+			c_bordeaux = {
+				color={ 58 14 247 }
+				color2={ 255 255 255 }
+
+				# Burdigalensis
+
+				#occitan = "Bordèu"
+				
+				b_castillon = {
+					# Castellum
+				}
+				b_bordeaux = {
+					# Burdigala
+
+					#occitan = "Bordèu"
+				}
+				b_stemilion = {
+				}
+				b_blaye = {
+					# Blavia
+				}
+				b_bourg = {
+					# Burgus
+
+					gothic = "Baurgs"
+				}
+				b_lasauve = {
+				}
+				b_lareole = {
+				}
+				b_libourne = {
+					# Liborna
+				}
+			}
+			c_agen = {
+				color={ 62 18 251 }
+				color2={ 255 255 255 }
+
+				# Aginnum
+
+				greek = "Aginnon"
+				
+				b_agen = {
+					# Aginnum
+
+					greek = "Aginnon"
+				}
+				b_penne = {
+				}
+				b_cahors = {
+					# Cadurcum
+
+					roman = "Cadurcorum"
+				}
+				b_luzech = {
+					# Luteus
+				}
+				b_moissac = {
+					# Musciacum
+				}
+				b_figeac = {
+					# Figiacus
+				}
+				b_rocamadour = {
+					# Rocamaior
+				}
+				b_blanquefort = {
+					# Tegulae
+				}
+			}
+			c_perigord = {
+				color={ 66 22 255 }
+				color2={ 255 255 255 }
+
+				# Petrocoria
+
+				#gothicromance = "Peyragort"
+				
+				b_baneuil = {
+					# Bannoialo
+					#"...gaulois 'banno', signifiant 'corne', suivis du suffixe gaulois -ialo..."
+				}
+				b_perigueux = {
+					# Petrucoriorum
+				}
+				b_sarlat = {
+					# Sarlatum
+				}
+				b_biron = {
+				}
+				b_auberoche = {
+				}
+				b_bergerac = {
+					# Braiaracum
+
+					#gothicromance = "Bragaac"
+				}
+				b_chancelade = {
+					# Chancelada
+				}
+				b_bonaguil = {
+				}
+			}
+			c_angouleme = {
+				color={ 70 26 255 }
+				color2={ 255 255 255 }
+
+				# Ecolisima
+
+				roman = "Encolismensium"
+
+				#gothicromance = "Aquilisima"
+				
+				b_jarnac = {
+					# Agernaco
+
+					roman = "Agannagum"
+
+					#gothicromance = "Gerniaco"
+				}
+				b_angouleme = {
+					# Ecolisima
+
+					roman = "Eculisna"
+
+					#gothicromance = "Aquilisima"
+				}
+				b_bassac = {
+					# Baciacum
+
+					gothicromance = "Bacciaco"
+				}
+				b_larochefoucauld = {
+				}
+				b_cognac = {
+					# Conniacum
+
+					#gothicromance = "Compniaco"
+				}
+				b_richemont = {
+				}
+				b_fontdouce = {
+				}
+				b_latranchade = {
+				}
+			}
+		}
+		d_theifalia = {
+			color={ 24 95 226 }
+			color2={ 255 255 255 }
+			
+			capital = 141 # Poitiers
+			
+			c_lusignan = {
+				color={ 28 97 228 }
+				color2={ 255 255 255 }
+
+				# Licinius
+				
+				b_lusignan = {
+					# Licinius
+				}
+				b_charroux = {
+					# Quadrifurcus"
+				}
+				b_niort = {
+					# Novioritum
+
+					#gothicromance = "Noiordo"
+				}
+				b_melle = {
+					# Metellum
+				}
+				b_civray = {
+					# Severiacum
+
+					#gothicromance = "Sivria"
+				}
+				b_maillezais = {
+					# Malleacum
+				}
+				b_confolens = {
+					# Confolentis
+
+					#gothicromance = "Confluentu"
+				}
+				b_stmaixent = {
+					# Agapitiacum
+				}
+			}
+			c_saintonge = {
+				color={ 30 99 230 }
+				color2={ 255 255 255 }
+
+				# Santonicensis
+				
+				b_montguyon = {
+					# Guidonis
+				}
+				b_saintes = {
+					# Santonum
+
+					gallic = "Santonica"
+					hispani = "Santonica"
+
+					#gothicromance = "Sanctonas"
+				}
+				b_stjeandangely = {
+					# Angeliacum
+				}
+				b_villeneuve = {
+					# Villanova
+				}
+				b_tonnay = {
+					# Tauniacum
+
+					roman = "Talniacum"
+					latine = "Talniacum"
+					gallic = "Talniacum"
+					hispani = "Taniacum"
+
+					#gothicromance = "Tauniaco"
+				}
+				b_aulnay = {
+					# Auedonnaco
+				}
+				b_royan = {
+					# Roianum
+
+					#gothicromance = "Rugiano"
+				}
+				b_taillebourg = {
+					# Talliaco
+
+					gothic = "Talhabaurg"
+					#gothicromance = "Talleburgi"
+				}
+			}
+			c_poitiers = {
+				color={ 32 101 232 }
+				color2={ 255 255 255 }
+
+				# Pictavia
+				
+				b_chauvigny = {
+					# Calviniacum
+
+					#gothicromance = "Calviniaco"
+				}
+				b_poitiers = {
+					# Pictavis
+				}
+				b_stsavin = {
+					# Sabiniacum
+				}
+				b_moncontour = {
+					# Duasdives
+				}
+				b_mirebeau = {
+					# Mirabellum
+				}
+				b_parthenay = {
+					# Parthiniacum
+				}
+				b_loudun = {
+					# Losdunum
+
+					#gothicromance = "Lauzuun"
+				}
+				b_chatellerault = {
+					# Castrumairaldi
+				}
+			}
+			c_thouars = {
+				color={ 34 103 234 }
+				color2={ 255 255 255 }
+
+				# Toarum
+
+				#gothicromance = "Toareca"
+				
+				b_thouars = {
+					# Toarcis
+
+					#gothicromance = "Toareca"
+				}
+				b_larochelle = {
+					# Rupella
+
+					#gothicromance = "Rocella"
+				}
+				b_lucon = {
+					# Lucio
+				}
+				b_chatelaillon = {
+					# Carantonus
+				}
+				b_bressuire = {
+					# Berzoriacum
+				}
+				b_olonne = {
+					# Olona
+				}
+				b_mauleon = {
+				}
+				b_fontenay = {
+				}
+			}
+		}
+		d_wasconia = {
+			color={ 239 228 176 }
+			color2={ 255 255 255 }
+			
+			capital = 209 # Armagnac
+
+			culture = aquitanian
+			
+			c_bearn = {
+				color={ 221 198 85 }
+				color2={ 255 255 255 }
+
+				# Benarna
+				
+				b_pau = {
+					# Palum
+				}
+				b_morlaas = {
+					# Morlanis
+				} 
+				b_lescar = {
+					# Beneharnum
+				}
+				b_tarbes = {
+					# Turba
+
+					aquitanian = "Talvam"
+
+					#gothicromance = Turvia
+				}
+				b_mauleonlicharre = {
+					# Mauleo
+				}
+				b_orthez = {
+					# Ortesium
+
+					#gothicromance = Urthis
+				}
+				b_oloron = {
+					# Elarona
+
+					roman = "Lurunensium"
+					gallic = "Oloro"
+					hispani = "Oloro"
+					#gothicromance = "Oloro"
+
+					basque = "Iluro"
+					aquitanian = "Iluro"
+				}
+				b_montaner = {
+					# Montanerius
+				}
+			}
+			c_armagnac = {
+				color={ 154 182 242 }
+				color2={ 255 255 255 }
+
+				# Elusa
+				
+				b_castelnau = {
+					# Castranova
+				}
+				b_auch = {
+					# Auscis
+				}
+				b_condom = {
+					# Condominium
+
+					gallic = "Condomagus"
+				}
+				b_lectoure = {
+					# Lactora
+				}
+				b_lisle = {
+					# Lilla
+				}
+				b_eauze = {
+					# Elusa
+				}
+				b_mirande = {
+					# Miranda
+
+					roman = "Ad Mirandam"
+				}
+				b_laplume = {
+					# Penna
+				}
+			}
+			c_labourd = {
+				color={ 235 221 156 }
+				color2={ 255 255 255 }
+
+				# Tarbellia
+
+				basque = "Lapurdi"
+				aquitanian = "Aturri"
+				
+				b_sauveterre = {
+					# Amatiacum
+				}
+				b_bayonne = {
+					# Baiona
+				}
+				b_stsever = {
+					# Palestrion
+				}
+				b_dax = {
+					# Aquensium
+
+					roman = "Aquæ Tarbellicæ"
+
+					#gothicromance = "Acquenso"
+				}
+				b_aire = {
+					# Atura
+
+					basque = "Aturri"
+					aquitanian = "Aturri"
+				}
+				b_labastideclairence = {
+					# Bastida
+				}
+				b_sorde = {
+				}
+				b_hasparren = {
+				}
+			}
+			c_albret = {
+				color={ 247 240 210 }
+				color2={ 255 255 255 }
+
+				# Martianus
+				
+				b_labrit = {
+				}
+				b_tartas = {
+				}
+				b_bazas = {
+					# Basatica
+
+					roman = "Cossium"
+				}
+				b_roquefort = {
+				}
+				b_montdemarsan = {
+				}
+				b_gabarret = {
+				}
+				b_mimizan = {
+				}
+				b_latestedebuch = {
+				}
+			}
+		}
+		d_avaricum = {
+			color={ 214 220 86 }
+			color2={ 255 255 255 }
+			
+			capital = 139 # Bourges
+	
+			c_bourges = {
+				color={ 188 196 40 }
+				color2={ 255 255 255 }
+
+				# Bituriga
+
+				roman = "Avaricum"
+
+				gothic = "Avaricum"
+				
+				b_chateauroux = {
+				}
+				b_deols = {
+					# Dolus
+
+					gallic = "Dolensem"
+
+					#gothicromance = "Dolis"
+				}
+				b_bourges = {
+					# Biturigum
+
+					roman = "Avaricum"
+
+					gothic = "Avaricum"
+
+					#gothicromance = "Biturigis"
+				}
+				b_issoudun = {
+					# Uxeldunum
+
+					roman = "Uxellodunum"
+
+					#gothicromance = "Ixodun"
+				}
+				b_stsatur = {
+					# Saturniacum
+				}
+				b_sancerre = {
+					# Sacrum Caesaris
+
+					#gothicromance = "Cesaris"
+				}
+				b_mehun = {
+					# Pontiniacum
+				}
+				b_vierzon = {
+					# Virsionis
+				}
+			}
+			c_la_marche = {
+				color={ 150 125 25 }
+				color2={ 255 255 255 }
+
+				# Marca
+				
+				b_crozant = {
+					# Crosus
+				}
+				b_bellac = {
+					# Bellacum
+
+					#gothicromance = "Belaco"
+				}
+				b_gueret = {
+					# Vervactum
+
+					gallic = "Varactum"
+
+					gothic = "Waractus"
+					#gothicromance = "Guaractum"
+				}
+				b_aubusson = {
+					# Albuconis
+				}
+				b_boussac = {
+					# Bociacus
+
+					#gothicromance = "Bocac"
+				}
+				b_lasouterraine = {
+					# Subterranea
+				}
+				b_bourganeuf = {
+					# Burginova
+				}
+				b_jouillat = {
+					# Joviacum # just guessing, really
+				}
+			}
+			c_bourbon = {
+				color={ 120 148 140 }
+				color2={ 255 255 255 }
+
+				# Borvonia
+				
+				b_bourbon = {
+					# Borvo
+				}
+				b_moulins = {
+					# Molinae
+
+					#gothicromance = "Mulineia"
+				}
+				b_lancy = {
+					# Lanciacus
+				}
+				b_montlucon = {
+					# Monlucum
+
+					roman = "Monslucii"
+				}
+				b_vichy = {
+					# Vippiacum
+
+					#gothicromance = "Vichiacus"
+				}
+				b_murat = {
+				}
+				b_souvigny = {
+				}
+				b_montpensier = {
+					# Monspancherii
+				}
+			}
+			c_limousin = {
+				color={ 222 227 121 }
+				color2={ 255 255 255 }
+
+				# Lemovicia
+				
+				b_turenne = {
+					# Turenna
+				}
+				b_limoges = {
+					# Lemovicum
+
+					roman = "Augustoritum"
+				}
+				b_comborn = {
+					# Curretia
+				}
+				b_rochechouart = {
+					# Rocacavardus
+
+					#gothicromance = "Rocauart"
+				}
+				b_thiviers = {
+					# Trivio
+				}
+				b_stleonard = {
+					# Leoniacum
+				}
+				b_ventadour = {
+				}
+				b_chalus = {
+				}
+			}
+		}
+	}
+	k_armorica = {
+		color={ 165 49 16 }
+		color2={ 255 255 255 }
+		
+		capital = 105 # Vannes
+		
+		catholic = 300 # Crusade target weight
+		
+		d_normandy = {
+			color={ 131 138 116 }
+			color2={ 255 255 255 }
+			
+			capital = 105 # Vannes
+			
+			c_nantes = {
+				color={ 170 50 23 }
+				color2={ 255 255 255 }
+				
+				# Namnetia
+				
+				b_nantes = {
+					# Namnetum
+
+					roman = "Condevincum"
+					greek = "Kondeouinkon"
+
+					#gothicromance = "Nametis"
+				}
+				b_chateaubriant = {
+					# Beriacum
+
+					#gothicromance = "Bairiacus"
+				}
+				b_redon = {
+					# Roton
+
+					#gothicromance = "Rothono"
+				}
+				b_guerande = {
+					# Vindoranda
+
+					brithenig = "Uuenran"
+				}
+				b_clisson = {
+					# Clesiodunum
+
+					gallic = "Clicciacum"
+					hispani = "Clicciacum"
+
+					#gothicrmance = "Clicio"
+				}
+				b_donges = {
+					# Dongia
+				}
+				b_la_roche-bernard = {
+					# Rocabernardus
+				}
+				b_st_nazaire = {
+					# Nazariacum
+				}
+			}
+			c_vannes = {
+				color={ 140 30 13 }
+				color2={ 255 255 255 }
+
+				# Venetanus
+
+				roman = "Dariorigum"
+				greek = "Darioriton"
+
+				#gothicromance = "Veneda"
+				
+				b_vannes = {
+					# Venetis
+
+					roman = "Dariorigum"
+					greek = "Darioriton"
+					latine = "Venetum"
+					gallic = "Venetum"
+					hispani = "Venetum"
+
+					brithenig = "Guenet"
+					welsh = "Guened"
+
+					#gothicromance = "Veneda"
+				}
+				b_josselin = {
+					# Mareolus # some shit made up derived from the etymology of 'Morbihan'
+				}
+				b_st_gildas = {
+					# Suscinio
+				}
+				b_locmine = {
+					breton = "Logunec'h"
+
+					holy_site = celtic_pagan
+					holy_site = celtic_pagan_reformed
+				}
+				b_hennebont = {
+					# Pontevetus
+
+					brithenig = "Henbont"
+				}
+				b_pontivy = {
+					# Pontivia
+				}
+				b_auray = {
+					# Aularegia
+				}
+				b_ploermel = {
+					# Armagliacum
+				}
+			}
+			c_cornouaille = {
+				color={ 126 27 9 }
+				color2={ 255 255 255 }
+				
+				# Aquilonia
+
+				roman = "Corisopitum"
+				greek = "Korisopiton"
+				brithenig = "Cernouvia"
+				
+				b_quimper = {
+					# Aquilonia
+
+					roman = "Corisopitum"
+					greek = "Korisopiton"
+
+					#gothicromance = "Aquilo"
+				}
+				b_carhaix = {
+					# Vorgium
+
+					brithenig = "Cair Ahes"
+				}
+				b_quimperle = {
+					# Elegium
+				}
+				b_landevennec = {
+					# Landevenecum
+
+					brithenig = "Landevenneg"
+				}
+				b_corlay = {
+					# Cornanum
+				}
+				b_huelgoat = {
+					# Castrum Artus
+				}
+				b_langonnet = {
+					# Asceterium
+				}
+				b_lezergue = {
+					# Arkae
+				}
+			}
+			c_french_leon = {
+				color={ 166 67 14 }
+				color2={ 255 255 255 }
+
+				# Legionensis
+
+				roman = "Osismia"
+				
+				b_brest = {
+					# Brista
+				}
+				b_guingamp = {
+					# Albacampa
+				}
+				b_st_pol_de_leon = {
+					# Pauliacum
+
+					gallic = "Oppidum Pauli"
+				}
+				b_treguier = {
+					# Trigarensis
+				}
+				b_morlaix = {
+					# Mons Relaxus
+				}
+				b_roscoff = {
+					# Roscovia
+
+					brithenig = "Rosko"
+				}
+				b_plougonven = {
+					# Plebe Conveni
+				}
+				b_plourivo = {
+				}
+			}
+			c_penthievre = {
+				color={ 176 79 24 }
+				color2={ 255 255 255 }
+				
+				# Penntiluvia
+
+				roman = "Ambiliatia"
+				
+				b_verdelet = {
+					# Aletum
+				}
+				b_st_brieuc = {
+					# Briacum
+				}
+				b_monkontour = {
+					# Monconturium
+				}
+				b_peran = {
+					# Peraniacum
+				}
+				b_loudeac = {
+					# Lodiacensis
+				}
+				b_paimpol = {
+					# Regnica
+				}
+				b_chatelaudren = {
+					# Castelaodrenum
+				}
+				b_quintin = {
+				}
+			}
+			c_rennes = {
+				color={ 106 42 8 }
+				color2={ 255 255 255 }
+				
+				# Redonia
+				
+				b_rennes = {
+					# Redonum
+
+					roman = "Condate"
+
+					#gothicromance = "Redhonis"
+				}
+				b_fougeres = {
+					# Sipia
+				}
+				b_st_michel = {
+					# Michaeliacum
+				}
+				b_st_malo = {
+					# Macloviacum
+
+					#gothicromance = "Macloviensem"
+				}
+				b_dol = {
+					# Dola
+				}
+				b_dinan = {
+					# Dinnanum
+				}
+				b_st_meen = {
+					# Mevenniacum
+				}
+				b_porhoet = {
+					# Transsylvam
+				}
+			}
+		}
+		d_brittany = {
+			color={ 118 99 151 }
+			color2={ 255 255 255 }
+			
+			capital = 97 # Rouen
+			
+			c_evreux = {
+				color={ 105 111 94 }
+				color2={ 255 255 255 }
+
+				# Eburovicas
+
+				roman = "Aulercoria"
+				
+				b_evreux = {
+					# Eburovicas
+
+					roman = "Aulercorum"
+
+					#gothicromance = "Ebrocas"
+				}
+				b_falaise = {
+					# Falesia
+				}
+				b_lisieux = {
+					# Lexoviorum
+				}
+				b_alencon = {
+					# Alencio
+
+					#gothicromance = "Alencione"
+				}
+				b_argentan = {
+					# Argentomagus
+
+					roman = "Vagoritum"
+					#gothicromance = "Argentoni"
+				}
+				b_sees = {
+					# Sagiensis
+
+					#gothicromance = "Saiensis"
+				}
+				b_verneuil = {
+					# Vernagilum
+
+					gothic = "Vernolio"
+					#gothicromance = "Vernolio"
+				}
+				b_honfleur = {
+					# Hunafluvia
+				}
+			}
+			c_avranches = {
+				color={ 151 157 138 }
+				color2={ 255 255 255 }
+
+				# Moretania
+
+				roman = "Abrincatia"
+				latine = "Avrincatia"
+				hispani = "Avrincatia"
+				gallic = "Ingena"
+
+				gothic = "Constantiensis"
+				old_frankish = "Constantiensis"
+				#gothicromance = "Constantiensis"
+				
+				b_caen = {
+					# Cadomum
+
+					gothic = "Cadumo"
+					#gothicromance = "Cadumo"
+				}
+				b_coutances = {
+					# Constantia
+
+					gallic = "Cosedia"
+				}
+				b_bayeux = {
+					# Baiocassium
+
+					roman = "Augustodurum"
+
+					gothic = "Baiocas"
+					old_frankish = "Baiocas"
+					#gothicromance = "Baieus"
+				}
+				b_avranches = {
+					# Abrincas
+				}
+				b_mortain = {
+					# Mauritanum
+
+					latine = "Mauritonio"
+					gallic = "Mauritonio"
+					hispani = "Mauritonio"
+
+					gothic = "Moretuin"
+					#gothicromance = "Moretulo"
+				}
+				b_domfront = {
+					# Damfrontis
+				}
+				b_barfleur = {
+					# Barbatum
+				}
+				b_cherbourg = {
+					# Coriallo
+
+					gallic = "Corivallo"
+					hispani = "Corivallo"
+					brithenig = "Corigual"
+
+					gothic = "Carusbaurg"
+					#gothicromance = "Chierisbaurg"
+				}
+			}
+			c_vexin = {
+				color={ 185 189 176 }
+				color2={ 255 255 255 }
+
+				# Veliocassinus
+
+				#gothicromance = "Veuguessinus"
+				
+				b_larocheguyon = {
+					# Rocaguionis
+				}
+				b_mantes = {
+					# Medanta
+
+					roman = "Meduanta"
+
+					gothic = "Medunta"
+					#gothicromance = "Medunta"
+				}
+				b_pontoise = {
+					# Pontemiserae
+
+					roman = "Briva Isaræ"
+
+					gothic = "Puntesia"
+					#gothicromance = "Puntesia"
+				}
+				b_harcourt = {
+					# Herolcurtis
+				}
+				b_gisors = {
+					# Gesortum
+
+					gothic = "Gaisortis"
+					#gothicromance = "Gisortis"
+				}
+				b_andely = {
+					# Andelaum
+
+					#gothicromance = "Andiligo"
+				}
+				b_ivry = {
+					# Eburiacum
+				}
+				b_abbayedemortemer = {
+					# Uggade # actually Caudebec-les-Elbeuf
+				}
+			}
+			c_arques = { # actually Rouen
+				color={ 120 132 94 }
+				color2={ 255 255 255 }
+
+				# Rotomagus
+
+				brithenig = "Rodemag" # just making shit up
+
+				gothic = "Ruthom"
+				#gothicromance = "Rodumanus"
+				
+				b_fecamp = {
+					# Fiscannum
+
+					roman = "Ficicampus"
+					
+					gothic = "Fiscannus"
+					#gothicromance = "Feiscanno"
+				}
+				b_rouen = {
+					# Rotomagus
+
+					brithenig = "Rodemag" # just making shit up
+
+					old_saxon = "Rothom"
+					saxon = "Rothom"
+					old_frankish = "Rodom"
+
+					gothic = "Ruthom"
+					#gothicromance = "Rodumo"
+				}
+				b_lillebonne = {
+					# Juliobona
+				}
+				b_harfleur = {
+					# Caracotinum
+				}
+				b_arques = {
+					# Arcas
+				}
+				b_dieppe = {
+					# Dieppa
+				}
+				b_jumieges = {
+					# Gemeticum
+
+					gothic = "Gemedico"
+					#gothicromance = "Gemedico"
+				}
+				b_longueville = {
+					# Longiniacum
+				}
+			}
+			c_eu = {
+				color={ 203 211 188 }
+				color2={ 255 255 255 }
+
+				# Aucia
+
+				roman = "Auvae"
+				latine = "Aucum"
+				gallic = "Aucum"
+				hispani = "Aucum"
+				
+				b_eu = {
+					# Aucia
+
+					roman = "Auvae"
+					latine = "Aucum"
+					gallic = "Aucum"
+					hispani = "Aucum"
+
+					#gothicromance = "Auga"
+				}
+				b_mortemer = {
+					# Mortunum
+
+					latine = "Mortuum"
+					gallic = "Mortuum"
+					hispani = "Mortuum"
+
+					#gothicromance = "Mortun"
+				}
+				b_gournay = {
+					# Gorniacum # guessing
+				}
+				b_aumale = {
+					# Albamargila
+
+					gallic = "Glisomarga"
+
+					#gothicromance = "Albamarla"
+				}
+				b_forges = {
+				}
+				b_drincourt = {
+					# Drugocurtis
+				}
+				b_neufchatel-en-bray = {
+					# Novientum
+				}
+				b_serqueux = {
+					# Sarcophagiensis # guessing
+				}
+			}
+		}
+		d_andecavia = {
+			color={ 192 223 85 }
+			color2={ 255 255 255 }
+			
+			capital = 107 # Anjou
+			
+			c_anjou = {
+				color={ 159 194 37 }
+				color2={ 255 255 255 }
+
+				# Andegavia
+				
+				b_vihiers = {
+					# Vierium
+
+					gallic = "Vieracum"
+
+					gothic = "Vigherium"
+					#gothicromance = "Vigheris"
+				}
+				b_angers = {
+					# Andecavis
+
+					roman = "Juliomagus"
+					latine = "Andecavorum"
+					gallic = "Andecavorum"
+					hispani = "Andecavorum"
+		
+					gothic = "Andecava"
+					#gothicromance = "Andgieus"
+				}
+				b_fontevraud = {
+					# Fonsebraldi
+				}
+				b_saumur = {
+					# Salmurum
+
+					roman = "Salamurus"
+
+					#gothicromance = "Salmuria"
+				}
+				b_montsoreau = {
+					# Monssorelli
+				}
+				b_cholet = {
+					# Cauletum
+
+					#gothicromance = "Choleith"
+				}
+				b_treves = {
+					# Clementiniaeum
+
+					gallic = "Clementiniacum"
+
+					#gothicromance = "Trevis"
+				}
+				b_chateaugontier = {
+					# Basilicas # Bazouges
+				}
+			}
+			c_maine = {
+				color={ 197 231 78 }
+				color2={ 255 255 255 }
+
+				# Meduana
+				
+				b_le_mans = {
+					# Cenomanorum
+
+					roman = "Vindunum"
+
+					gothic = "Celmannico"
+					#gothicromance = "Clemanis"
+				}
+				b_beaumont = {
+					# Bellamons
+				}
+				b_evron = {
+					# Eburo
+				}
+				b_mayenne = {
+					# Meduana
+
+					gothic = "Medena"
+					#gothicromance = "Maesne"
+				}
+				b_laval = {
+					# Vala
+				}
+				b_sable = {
+					# Sabloilum
+				}
+				b_craon = {
+					# Crodeno
+				}
+				b_montenay = {
+					# Pertica # Perche
+				}
+			}
+		}
+		d_turonum = {
+			color = { 203 95 124 }
+			color2= { 255 255 255 }
+
+			capital = 140 # Tourraine
+
+			c_tourraine = {
+				color={ 214 50 91 }
+				color2={ 255 255 255 }
+
+				# Turonensis
+				
+				b_chinon = {
+					# Chinonium
+				}
+				b_tours = {
+					# Turonum
+
+					roman = "Caesarodunum"
+
+					brithenig = "Teurgn"
+				}
+				b_beaulieu = {
+					# Bellila # guessing
+				}
+				b_amboise = {
+					# Ambacia
+				}
+				b_loches = {
+					# Corniliacus
+				}
+				b_langeais = {
+					# Langanus # guessing
+				}
+				b_fierbois = {
+					# Ferus Bocus
+				}
+				b_montbazon = {
+					# Monsbazonus
+				}
+			}
+			c_blois = {
+				color={ 217 95 81 }
+				color2={ 255 255 255 }
+
+				# Blesae
+
+				#gothicromance = "Bleso"
+				
+				b_beaugency = {
+					# Balgentiacus
+				}
+				b_blois = {
+					# Blesae
+
+					#gothicromance = "Bleso"
+				}
+				b_staignan = {
+					# Anianiacus
+				}
+				b_chaumontsurloire = {
+					# Mons Calus
+				}
+				b_montrichard = {
+					# Ricardiacum
+				}
+				b_fougeressurbievre = {
+					# Fornax
+				}
+				b_romorantin = {
+				}
+				b_stgeorgesdubois = {
+					# Georgiacum
+				}
+			}
+			c_vendome = {
+				color={ 174 57 89 }
+				color2={ 255 255 255 }
+
+				# Vindocinensis
+				
+				b_lavardin = {
+					# Labricinum
+				}
+				b_vendome = {
+					# Vindocinum
+
+					#gothicromance = "Vindocino"
+				}
+				b_cloyes = {
+				}
+				b_freteval = {
+				}
+				b_chateaurenault = {
+					# Vastum # shit i made up
+				}
+				b_montoire = {
+					# Aureum Mons
+				}
+				b_montmirail = {
+					# Mons Mirabilis
+				}
+				b_stavit = {
+					# Avitacum
+				}
+			}
+		}
+		d_aurelianum = {
+			color={ 111 122 184 }
+			color2={ 255 255 255 }
+			
+			capital = 138 # Orleans
+			
+			c_orleans = {
+				color={ 126 124 226 }
+				color2={ 255 255 255 }
+
+				# Aurelianum
+
+				roman = "Cenabum"
+				#gothicromance = "Aureliani"
+				
+				b_gien = {
+					# Giemus
+
+					roman = "Vellonodunum"
+				}
+				b_orleans = {
+					# Aurelianum
+	
+					roman = "Cenabum"
+					#gothicromance = "Aureliani"
+				}
+				b_fleury = {
+					# Benedictacum
+				}
+				b_lepuiset = {
+					# Ebura # Latin of Eure
+				}
+				b_sully = {
+					# Soliacum
+				}
+				b_meung = {
+					# Magdunum
+
+					#gothicromance = "Magduun"
+				}
+				b_janville = {
+					# Villa Janus # making up shit
+				}
+				b_jargeau = {
+					# Jargolium
+				}
+			}
+			c_chartres = {
+				color={ 83 96 168 }
+				color2={ 255 255 255 }
+
+				# Carnutum
+
+				roman = "Autricum"
+				gallic = "Carnotum"
+				
+				b_chateaudun = {
+					# Castrodunum
+				}
+				b_chartres = {
+					# Carnutum
+
+					roman = "Autricum"
+					gallic = "Carnotum"
+				}
+				b_dreux = {
+					# Durocassis
+
+					gothic = Durocas
+					#gothicromance = "Drocas"
+				}
+				b_nogent = {
+					# Noviogentum
+				}
+				b_gallardon = {
+				}
+				b_epernon = {
+					# Sparniacum
+
+					gothic = "Sparro"
+					#gothicromance = "Esparnona"
+				}
+				b_bonneval = {
+				}
+				b_tiron = {
+				}
+			}
+			c_ile_de_france = {
+				color={ 151 159 204 }
+				color2={ 255 255 255 }
+
+				roman = "Lutetia"
+				greek = "Lutetia"
+				
+				b_paris = {
+					used_for_dynasty_names = no
+
+					roman = "Lutetia"
+					greek = "Lutetia"
+				}
+				b_melun = {
+					# Melodunum
+
+					#gothicromance = "Melihum"
+				}
+				b_stdenis = {
+					# Dionysiacum
+
+					holy_site = aztec
+					holy_site = aztec_reformed
+				}
+				b_meaux = {
+					# Meldis
+
+					roman = "Iantinum"
+				}
+				b_etampes = {
+					# Stampis
+
+					#gothicromance = "Estampas"
+				}
+				b_montfortlamaury = {
+					# Moriacum
+				}
+				b_senlis = {
+					# Silvanectum
+
+					roman = "Sulbanectium"
+
+					gothic = "Silvanectis"
+					#gothicromance = "Sinletis"
+				}
+				b_compiegne = {
+					# Compendium
+				}
+			}
+			d_rotomagus = {
+				color = { 100 100 100 }
+				color2= { 255 255 255 }
+
+				allow = {
+					always = no
+				}
+			}
+			d_armorica = {
+				color = { 111 111 111 }
+				color2= { 255 255 255 }
+			
+				allow = {
+					always = no
+				}
+			}
+		}
+	}
+	k_belgica = {
+		color = { 43 141 172 }
+		color2= { 255 255 255 }
+
+		d_suessionia = {
+			color={ 35 141 208 }
+			color2={ 255 255 255 }
+			
+			c_vermandois = {
+				color={ 41 147 214 }
+				color2={ 255 255 255 }
+
+				# Viromandensis
+				
+				b_coucy = {
+					# Coucia
+				}
+				b_stquentin = {
+					# Viromanduorum
+
+					gothic = Veromandis
+					#gothicromance = "Veromandis"
+				}
+				b_laon = {
+					# Laodunum
+
+					gothic = Leudunum
+					#gothicromance = "Lauon"
+				}
+				b_crepy = {
+					# Cripiacum
+				}
+				b_montaigu = {
+				}
+				b_rethel = {
+					# Reistete
+				}
+				b_guise = {
+					# Gusia
+				}
+				b_signy = {
+					# Signum # guessing
+				}
+			}
+			c_amiens = {
+				color={ 44 151 217 }
+				color2={ 255 255 255 }
+
+				# Suessionum
+				
+				b_peronne = {
+					# Perunna
+				}
+				b_amiens = {
+					# Ambianorum
+
+					roman = "Samarobriva"
+					gallic = "Samarobriu"
+				}
+				b_beauvais = {
+					# Bellovacum
+				}
+				b_soissons = {
+					# Suessionum
+				}
+				b_corbie = {
+					# Corbeia
+
+					#gothicromance = "Corbegia"
+				}
+				b_noyon = {
+					# Noviomagus
+				}
+				b_montdidier = {
+					# Mondisderium
+				}
+				b_breteuil = {
+				}
+			}
+		}
+		d_flanders = {
+			color={ 255 120 0 }
+			color2={ 255 255 255 }
+			
+			capital = 78
+			
+			roman = "Menapiorum"
+			
+			c_artois = {
+				color={ 234 110 90 }
+				color2={ 255 255 255 }
+
+				# Atrebatensis
+				
+				b_arras = {
+					# Atrebatum
+
+					roman = "Nemetacum"
+					gallic = "Nemetocenna"
+
+					#gothicromance = "Athrebate"
+
+					holy_site = celtic_pagan
+					holy_site = celtic_pagan_reformed
+				}
+				b_terwaan = {
+					# Tervanna
+
+					#gothicromance = "Teruane"
+				}
+				b_bethune = {
+					# Bitunia
+
+					#gothicromance = "Betuna"
+				}
+				b_lens = {
+					# Lenna Castrum
+
+					#gothicromance = "Lennacas"
+				}
+				b_lille = {
+					# Insula
+
+					#gothicromance = "Insulano"
+				}
+				b_bouvines = {
+					# Bovinas
+				}
+				b_beaumetz = {
+					# Bellomansum
+				}
+				b_bapaume = {
+					# Bapalma
+				}
+			}
+			c_boulogne = {
+				color={ 224 140 90 }
+				color2={ 255 255 255 }
+
+				# Boloniensis
+
+				latine = "Bononiensis"
+				hispani = "Bononiensis"
+				
+				b_boulogne = {
+					# Bolonia
+
+					roman = "Gesoriacum"
+					latine = "Bononia"
+					gallic = "Bolonia"
+					hispani = "Bononia"
+					brithenig = "Bolonia"
+				}
+				b_montreuil = {
+					# Monasterolium
+				}
+				b_saintpol = {
+					# Paulopolis # guessing
+				}
+				b_hesdin = {
+					# Hesdinum
+
+					old_frankish = "Hesdinfer"
+					old_saxon = "Hesdinfer"
+					saxon = "Hesdinfer"
+					gothic = "Hesdinfer"
+					german = "Heusden"
+				}
+				b_fauquembergues = {
+					# Falconia # making up shit
+
+					old_frankish = "Falcanberga"
+					gothic = "Falcobaurga"
+					german = "Valkenberg"
+				}
+				b_ternouis = {
+					# Terna
+				}
+				b_therouanne = {
+					# Morinum
+
+					#gothicromance = "Morinon"
+				}
+				b_ardres = {
+				}
+			}
+			c_guines = {
+				color={ 194 145 100 }
+				color2={ 255 255 255 }
+
+				# Ghisnae
+
+				brithenig = "Kaledon"
+				
+				b_guines = {
+					# Ghisnae
+				}
+				b_saintomer = {
+					# Sithiu
+				}
+				b_calais = {
+					# Kales
+
+					latine = "Calesio"
+					gallic = "Calesium"
+					hispani = "Calesium"
+					brithenig = "Kaledon"
+
+					#gothicromance = "Caleeis"
+				}
+				b_dunkerque = {
+					# Dunquerca
+
+					gothic = "Duinkerk"
+				}
+				b_bourbourg = {
+					# Burgusinbroco
+
+					gothic = "Broecbaurg"
+
+					#gothicromance = "Brocosburga"
+				}
+				b_marck = {
+					# Merca
+
+					gothic = "Merki"
+				}
+				b_gravelines = {
+					gothic = "Garoine"
+
+					#gothicromance = "Graveninga"
+				}
+				b_coulogne = {
+					# Colonia
+				}
+			}
+			c_yperen = {
+				color={ 194 115 40 }
+				color2={ 255 255 255 }
+
+				# Ypra
+				
+				b_ypres = {
+					# Ypra
+				}
+				b_rosebeke = {
+				}
+				b_cassel = {
+					# Menapiorum
+				}
+				b_roeselare = {
+					# Rollare
+				}
+				b_poperinge = {
+					# Pupurningahem
+				}
+				b_menen = {
+				}
+				b_diksmuide = {
+					# Dicasmutha
+				}
+				b_wervik = {
+					# Virovino
+
+					roman = "Viroviacum"
+					latine = "Viroviaco"
+					gallic = "Viroviacum"
+					hispani = "Viroviacum"
+				}
+			}
+			c_brugge = {
+				color={ 250 120 0 }
+				color2={ 255 255 255 }
+				
+				b_brugge = {
+				}
+				b_damme = {
+				}
+				b_sluys = {
+				}
+				b_oostende = {
+				}
+				b_male = {
+				}
+				b_nieuwpoort = {
+				}
+				b_torhout = {
+				}
+				b_aardenburg = {
+				}
+			}
+			c_gent = {
+				color={ 234 110 5 }
+				color2={ 255 255 255 }
+				
+				b_gent = {
+				}
+				b_doornik = {
+				}
+				b_oudenaarde = {
+				}
+				b_aalst = {
+				}
+				b_st_niklaas = {
+				}
+				b_dendermonde = {
+				}
+				b_kortrijk = {
+				}
+				b_geraardsbergen = {
+				}
+			}
+		}
+		d_toxandria = {
+			color={ 118 193 153 }
+			color2={ 255 255 255 }
+			
+			capital = 117 #Brabant
+		
+			c_brabant = {
+				color={ 200 100 65 }
+				color2={ 255 255 255 }
+			
+				b_leuven = {
+				}
+				b_mechelen = {
+				}
+				b_brussel = {
+				}
+				b_antwerpen = {
+				}
+				b_aarschot = {
+				}
+				b_grimbergen = {
+				}
+				b_herstal = {
+				}
+				b_lier = {
+				}
+			}
+			c_hainaut = {
+				color={ 210 120 40 }
+				color2={ 255 255 255 }
+			
+				b_valenciennes = {
+				}
+				b_cambrai = {
+				}
+				b_avesnes = {
+				}
+				b_mons = {
+				}
+				b_chievres = {
+				}
+				b_enghien = {
+				}
+				b_charleroi = {
+				}
+				b_ath = {
+				}
+			}
+			c_breda = {
+				color={ 234 145 54 }
+				color2={ 255 255 255 }
+			
+				b_breda = {
+				}
+				b_shertogenbosch = {
+				}
+				b_tilburg = {
+				}
+				b_willemstad = {
+				}
+				b_bergenopzoom = {
+				}
+				b_cuijck = {
+				}
+				b_ravenstein = {
+				}
+				b_horn = {
+				}
+			}
+		}
+		d_treveria = {
+			color={ 208 104 44 }
+			color2={ 255 255 255 }
+			
+			capital = 118 # Trier
+
+			c_trier = {
+				color={ 144 144 177 }
+				color2={ 255 255 255 }
+
+				# Treveria
+			
+				b_andernach = {
+					# Antunnacum
+				}
+				b_trier = {
+					# Treveris
+
+					roman = "Treverorum"
+				}
+				b_coblenz = {
+					# Confluentes
+				}
+				b_sponheim = {
+
+					gothic = "Spanhaim"
+				}
+				b_wittlich = {
+				}
+				b_gerolstein = {
+
+					gothic = "Gerolstain"
+				}
+				b_laach = {
+				}
+				b_bitburg = {
+					# Beda
+
+					german = "Bitburg"
+					gothic = "Bitulabaurg"
+					#gothicromance = "Bidbaurgi"
+				}
+			}
+			c_luxembourg = {
+				color={ 113 113 158 }
+				color2={ 255 255 255 }
+
+				gothic = Lucilinbaurg
+				#gothicromance = "Lucilinensis"
+			
+				b_luxembourg = {
+					gothic = Lucilinbaurg
+					#gothicromance = "Lucilnburgus"
+				}
+				b_bouillon = {
+					# Bublione
+
+					roman = "Bullionium"
+					latine = "Bullionium"
+					gallic = "Bulliacum"
+					hispani = "Bullionium"
+
+					german = "Beulen"
+					#gothicromance = "Beuliuna"
+				}
+				b_saintvith = {
+					# Vitacum
+				}
+				b_arlon = {
+					# Orolaunum
+				}
+				b_neufchateau = {
+					# Novacastra
+				}
+				b_longwy = {
+					# Longovicus
+
+					german = "Langich"
+				}
+				b_differdange = {
+					german = "Differdingen"
+				}
+				b_ettelbruck = {
+					# Ettelbriga
+
+					german = "Ettelbrück"
+				}
+			}
+			c_liege = {
+				color={ 120 120 165 }
+				color2={ 255 255 255 }
+
+				# Legia
+			
+				b_liege = {
+					# Legia
+
+					roman = "Leodium"
+					latine = "Leodio"
+					gallic = "Leodicum"
+					hispani = "Leodico"
+
+					old_frankish = "Ludeke"
+					gothic = "Ludic"
+					german = "Lüttich"
+				}
+				b_bastogne = {
+					german = "Bastenach"
+				}
+				b_namur = {
+				}
+				b_huy = {
+				}
+				b_laroche = {
+				}
+				b_cine = {
+				}
+				b_salm = {
+				}
+				b_stavelot = {
+				}
+			}
+			c_julich = {
+				color={ 100 100 141 }
+				color2={ 255 255 255 }
+			
+				b_julich = {
+				}
+				b_aachen = {
+				}
+				b_prum = {
+				}
+				b_geldern = {
+				}
+				b_roermond = {
+				}
+				b_duren = {
+				}
+				b_moers = {
+				}
+				b_monschau = {
+				}
+			}
+			c_loon = {
+				color={ 115 115 175 }
+				color2={ 255 255 255 }
+			
+				b_loon = {
+				}
+				b_maastricht = {
+				}
+				b_hasselt = {
+				}
+				b_valkenburg = {
+				}
+				b_heinsberg = {
+				}
+				b_hesbaie = {
+				}
+				b_wassenberg = {
+				}
+				b_tongeren = {
+				}
+			}
+		}
+		d_ripuaria = {
+			color={ 84 124 48 }
+			color2={ 255 255 255 }
+			
+			capital = 119 #Köln
+			
+			c_koln = {
+				color={ 114 167 65 }
+				color2={ 255 255 255 }
+			
+				b_koln = {
+					holy_site = catholic
+				}
+				b_berg = {
+				}
+				b_mark = {
+				}
+				b_bonn = {
+				}
+				b_dietz = {
+				}
+				b_saffenburg = {
+				}
+				b_hochstaden = {
+				}
+				b_brauweiler = {
+				}
+			}
+			c_kleve = {
+				color={ 173 176 113 }
+				color2={ 255 255 255 }
+		
+				b_kleve = {
+				}
+				b_goch = {
+				}
+				b_rees = {
+				}
+				b_anholt = {
+				}
+				b_Xanten = {
+				}
+				b_wesel = {
+				}
+				b_emmerich = {
+				}
+				b_isselburg = {
+				}
+			}
+			c_mainz = {
+				color={ 178 145 87 }
+				color2={ 255 255 255 }
+			
+				b_mainz = {
+				}
+				b_frankfurt = {
+				}
+				b_eppstein = {
+				}
+				b_ingelheim = {
+				}
+				b_mannheim = {
+				}
+				b_weilburg = {
+				}
+				b_dornburg = {
+				}
+				b_hanau = {
+				}
+			}
+		}
+	}
+}

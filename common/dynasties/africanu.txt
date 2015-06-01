@@ -1,0 +1,214 @@
+1337001 = {
+	name = "Bixiu"
+	culture = africanu
+}
+
+1337002 = {
+	name = "Balistreri"
+	culture = africanu
+}
+
+1337003 = {
+	name = "D'Aquinu"
+	culture = africanu
+}
+
+1337004 = {
+	name = "Viridiu" # Gratianus Viridius Theodosius 3
+	culture = africanu
+}
+
+1337005 = {
+	name = "Aangaliu"
+	culture = africanu
+}
+
+1337006 = {
+	name = "Cappai"
+	culture = africanu
+}
+
+1337007 = {
+	name = "Anedda"
+	culture = africanu
+}
+
+1337008 = {
+	name = "Satta"
+	culture = africanu
+}
+
+1337009 = {
+	name = "Cubeddu"
+	culture = africanu
+}
+
+1337010 = {
+	name = "Cabras"
+	culture = africanu
+}
+
+1337011 = {
+	name = "Melis"
+	culture = africanu
+}
+
+1337012 = {
+	name = "Paulis"
+	culture = africanu
+}
+
+1337013 = {
+	name = "Pes"
+	culture = africanu
+}
+
+1337014 = {
+	name = "Atzeni"
+	culture = africanu
+}
+
+1337015 = {
+	name = "Aru"
+	culture = africanu
+}
+
+1337016 = {
+	name = "Murgia"
+	culture = africanu
+}
+
+1337017 = {
+	name = "Fara"
+	culture = africanu
+}
+
+1337018 = {
+	name = "Bodei"
+	culture = africanu
+}
+
+1337019 = {
+	name = "Bandinu"
+	culture = africanu
+}
+
+1337020 = {
+	name = "D'Adrumetu"
+	culture = africanu
+}
+
+1337021 = {
+	name = "di Tucca"
+	culture = africanu
+}
+
+1337022 = {
+	name = "di Maxila"
+	culture = africanu
+}
+
+1337023 = {
+	name = "Siagulanu" # Siagulanus, of Siagul
+	culture = africanu
+}
+
+1337024 = {
+	name = "di Tuburbo"
+	culture = africanu
+}
+
+1337025 = {
+	name = "Siccanu" # Siccanus, of Sicca
+	culture = africanu
+}
+
+1337026 = {
+	name = "di Curubis"
+	culture = africanu
+}
+
+1337027 = {
+	name = "Zamanu" # Zamanus, of Zama
+	culture = africanu
+}
+
+1337028 = {
+	name = "Tafuranu" # Taphuranus, of Taphura
+	culture = africanu
+}
+
+1337029 = {
+	name = "Ghessa"
+	culture = africanu
+}
+
+1337030 = {
+	name = "Pinna"
+	culture = africanu
+}
+
+1337031 = {
+	name = "Broccu"
+	culture = africanu
+}
+
+1337032 = {
+	name = "Canalis"
+	culture = africanu
+}
+
+1337033 = {
+	name = "Poddighe"
+	culture = africanu
+}
+
+1337034 = {
+	name = "Secche"
+	culture = africanu
+}
+
+1337035 = {
+	name = "Lussu"
+	culture = africanu
+}
+
+1337036 = {
+	name = "Casula"
+	culture = africanu
+}
+
+1337037 = {
+	name = "Zauecu" # Zaueces
+	culture = africanu
+}
+
+1337038 = {
+	name = "Machliu" # Machyles
+	culture = africanu
+}
+
+1337039 = {
+	name = "Zaba"
+	culture = africanu
+}
+
+1337040 = {
+	name = "di Veresvi"
+	culture = africanu
+}
+
+1337041 = {
+	name = "di Silvani"
+	culture = africanu
+}
+
+1337042 = {
+	name = "Brachodanu"
+	culture = africanu
+}
+
+1337043 = {
+	name = "di Jovis"
+	culture = africanu
+}

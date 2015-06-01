@@ -1,0 +1,20 @@
+# 490 - Thessalonike
+
+# County Title
+title = c_thessalonike
+
+# Settlements
+max_settlements = 6
+b_thessaloniki = castle
+b_voden = city
+b_thesedessa = temple # Hellenic Holy Site
+
+#b_hlerin = castle
+#b_cemren = castle
+#b_veria = castle
+#b_elasson = castle
+b_servia = castle
+
+# Misc
+culture = greek
+religion = nicene

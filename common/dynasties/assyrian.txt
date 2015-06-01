@@ -1,0 +1,174 @@
+1552001 = {
+	name = "Ishoyahb"
+	culture = assyrian
+}
+
+1552002 = {
+	name = "Sulaqa"
+	culture = assyrian
+}
+
+1552003 = {
+	name = "Samosatensis"
+	culture = assyrian
+}
+
+1552004 = {
+	name = "bar-Daisan"
+	culture = assyrian
+}
+
+1552005 = {
+	name = "Iohannitius"
+	culture = assyrian
+}
+
+1552006 = {
+	name = "Antiochensis"
+	culture = assyrian
+}
+
+1552007 = {
+	name = "Shimunaia"
+	culture = assyrian
+}
+
+1552008 = {
+	name = "Atoraya"
+	culture = assyrian
+}
+
+1552009 = {
+	name = "Tarsah"
+	culture = assyrian
+}
+
+1552010 = {
+	name = "Kelemechi"
+	culture = assyrian
+}
+
+1552011 = {
+	name = "Akbulut"
+	culture = assyrian
+}
+
+1552012 = {
+	name = "Khnanisho"
+	culture = assyrian
+}
+
+1552013 = {
+	name = "Issayi"
+	culture = assyrian
+}
+
+1552014 = {
+	name = "Semaan"
+	culture = assyrian
+}
+
+1552015 = {
+	name = "Adjutus"
+	culture = assyrian
+}
+
+1552016 = {
+	name = "Milus"
+	culture = assyrian
+}
+
+1552017 = {
+	name = "Audo"
+	culture = assyrian
+}
+
+1552018 = {
+	name = "Azar"
+	culture = assyrian
+}
+
+1552019 = {
+	name = "Aloho"
+	culture = assyrian
+}
+
+1552020 = {
+	name = "Shukr"
+	culture = assyrian
+}
+
+1552021 = {
+	name = "Masih"
+	culture = assyrian
+}
+
+1552022 = {
+	name = "Zaia"
+	culture = assyrian
+}
+
+1552023 = {
+	name = "Putros"
+	culture = assyrian
+}
+
+1552024 = {
+	name = "Delly"
+	culture = assyrian
+}
+
+1552025 = {
+	name = "Mabugaya"
+	culture = assyrian
+}
+
+1552026 = {
+	name = "Boulus"
+	culture = assyrian
+}
+
+1552027 = {
+	name = "bar Penkaye"
+	culture = assyrian
+}
+
+1552028 = {
+	name = "Aphraates"
+	culture = assyrian
+}
+
+1552029 = {
+	name = "Lamsa"
+	culture = assyrian
+}
+
+1552030 = {
+	name = "Malke"
+	culture = assyrian
+}
+
+1552031 = {
+	name = "Aqrawi"
+	culture = assyrian
+}
+
+1552032 = {
+	name = "Behnam"
+	culture = assyrian
+}
+
+1552033 = {
+	name = "Shelhot"
+	culture = assyrian
+}
+
+1552034 = {
+	name = "Mingana"
+	culture = assyrian
+}
+
+1552035 = {
+	name = "Khofri"
+	culture = assyrian
+}

@@ -1,0 +1,53 @@
+kemetic = {
+	graphical_culture = muslimgfx
+
+	coptic = {
+		graphical_culture = muslimgfx #africangfx
+		
+		color = { 0.8 0.4 0.4 }
+
+		male_names = {
+			Aaron_Aaron Abanoub Abderahman_Abderrahman Abianos_Abijah Abisalom Ablarion Abraam_Abraham Apas
+			Agathon_Agathos Agathonikos_Agathonikos Agathos_Agathos Androus_Andrew Anthinos_Anthimos 
+			Arsenios_Arsenios Ashraf_Ashraf Athanasios_Athanasius 
+			Biktor_Victor Binyamin_Benjamin Bishoi_Bishara Boutros_Peter Bertouet
+			Danyal_Daniel Da’oud_David 
+			Ezra_Ezra Ennikeran Erhu
+			Gabri’el_Gabriel Georgios_George 
+			Habil_Abel Hanri_Henry Haroun_Aaron Hanouf
+			Ilyas_Elijah 
+			Jerjer_Gregory 
+			Krystafer_Christopher 
+			Lot_Lothar 
+			Matta_Matthew Mikail_Michael Mikhael_Michael Milad_Milad Mina_Menas Musa_Moses Mareten
+			Nofr Noub
+			Onouf Ourot Ounisht
+			Pamin Pikhit Pijoul Panous Pakhom
+			Rashad Rashi Rami Ruweis
+			Shenouti
+			Tadros_Theodore Touma_Thomas
+			Yared Youssef_Joseph 
+			Zaia_Isaiah
+		}
+		female_names = {
+			Afaf Amunet Asmin
+			Demiana 
+			Elpis_Hope Eratee Ese
+			Fana
+			Hannah_Anna Hawwa_Eve Heit Heoite
+			Ilizabith_Elizabeth 
+			Kasrin_Catherine Kristina_Christine Khreere Khnau
+			Mariam_Maria Marta_Martha Maysoon_Maysoon 
+			Nefret
+			Paisi Piama Piamun Potamina Pernoufe
+			Raune Ro-oune
+			Samia_Samira Sofia_Sofia Sawsan Stoi Shouree
+			Talida_Taliba Tawaret Takla Tanouti Taloushem
+			Uradaa
+			Virina_Veronica
+		}
+		from_dynasty_prefix = "of "
+
+		modifier = default_culture_modifier
+	}
+}
