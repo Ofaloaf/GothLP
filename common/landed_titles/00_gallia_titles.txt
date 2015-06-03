@@ -2798,15 +2798,15 @@ e_gallia = {
 		}
 	}
 	k_belgica = {
-		color = { 43 141 172 }
+		color = { 235 200 127 }
 		color2= { 255 255 255 }
 
 		d_suessionia = {
-			color={ 35 141 208 }
+			color={ 251 223 111 }
 			color2={ 255 255 255 }
 			
 			c_vermandois = {
-				color={ 41 147 214 }
+				color={ 253 196 10 }
 				color2={ 255 255 255 }
 
 				# Viromandensis
@@ -2842,7 +2842,7 @@ e_gallia = {
 				}
 			}
 			c_amiens = {
-				color={ 44 151 217 }
+				color={ 252 228 133 }
 				color2={ 255 255 255 }
 
 				# Suessionum
@@ -2878,7 +2878,7 @@ e_gallia = {
 			}
 		}
 		d_flanders = {
-			color={ 255 120 0 }
+			color={ 43 141 172 }
 			color2={ 255 255 255 }
 			
 			capital = 78
@@ -3371,27 +3371,6 @@ e_gallia = {
 				b_hochstaden = {
 				}
 				b_brauweiler = {
-				}
-			}
-			c_kleve = {
-				color={ 173 176 113 }
-				color2={ 255 255 255 }
-		
-				b_kleve = {
-				}
-				b_goch = {
-				}
-				b_rees = {
-				}
-				b_anholt = {
-				}
-				b_Xanten = {
-				}
-				b_wesel = {
-				}
-				b_emmerich = {
-				}
-				b_isselburg = {
 				}
 			}
 			c_mainz = {

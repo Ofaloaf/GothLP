@@ -1,0 +1,4 @@
+2015001 = {
+	name = "Maðverðr"
+	culuture = norse
+}

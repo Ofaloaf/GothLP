@@ -1,0 +1,6 @@
+500.1.1 = {
+	liege = "d_caesarugustanus"
+}
+746.1.1 = {
+	holder = 1573002 # Iose Burdunelo
+}

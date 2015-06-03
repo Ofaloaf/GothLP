@@ -316,7 +316,7 @@ latinius = {
 			Furtinius
 			Galiano Gaudenzo Genenetivo Gercorio_Gregory
 			Iacob_Jacob Iaquinti Iamnado Ilians Ioacino Iohannis_John Iohanninus Iunas_Jonas Infantinus 
-			Ioab Iosidio Iuvenes Iurisius
+			Ioab Iosidio Iuvenes Iurisius Iose_Joseph
 			Lalan Lampadius Leo_Leo Ligo Lillo Liverto Lopon Lucado Lucus_Luke Luzo Lutido Lusidio 
 			Magnus Malasco Mallaton Mallus Manuel_Manuel Marchus_Marcus Marecco Mariolus Moino Moyses_Moses 
 			Mertinus_Martin Marcello Maderno Mateus Maurecatellus Maurus Micael_Michael Montano Marius_Marius
@@ -357,7 +357,7 @@ latinius = {
 			Pacina Patruina Paterna Piniola Platta Presenza Proentia Provicia
 			Reverenza Romana
 			Sabatina Secnia Sarracina Sebanina Semperbona Serena Sicilia Solimia Speciosa Saisana
-			Tarasia Tarsina Todora
+			Tarasia Tarsina Todora_Theodora
 			Valeria Vana Velasquita Vigilia Virginia Vita
 			Yberia
 		}

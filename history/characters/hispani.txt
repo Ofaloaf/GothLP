@@ -16,3 +16,113 @@
 		death=yes
 	}
 }
+
+1573002 = {
+	name="Iose"
+	dynasty=1589078 # Burdunelo
+	culture="hispani"
+	religion="nicene"
+	martial=8
+	diplomacy=6
+	intrigue=8
+	stewardship=7
+	learning=5
+	trait="scarred"
+	trait="ambitious"
+	trait="deceitful"
+	trait="skilled_tactician"
+	719.1.1={
+		birth=yes
+	}
+	737.1.1={
+		add_spouse=1573003
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+1573003 = {
+	name="Lepora"
+	female=yes
+	culture="hispani"
+	religion="nicene"
+	720.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+1573004 = {
+	name="Rictus"
+	dynasty=1589078 # Burdunelo
+	father=1573002
+	mother=1573003
+	culture="hispani"
+	religion="nicene"
+	martial=8
+	diplomacy=5
+	intrigue=4
+	stewardship=5
+	learning=4
+	trait="slow"
+	trait="trusting"
+	trait="tough_soldier"
+	740.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+1573005 = {
+	name="Reverenza"
+	female=yes
+	dynasty=1589078 # Burdunelo
+	father=1573002
+	mother=1573003
+	culture="hispani"
+	religion="nicene"
+	martial=7
+	diplomacy=5
+	intrigue=7
+	stewardship=6
+	learning=6
+	trait="ugly"
+	trait="zealous"
+	trait="envious"
+	trait="brilliant_strategist"
+	741.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+1573006 = {
+	name="Ostabia"
+	female=yes
+	dynasty=1589078 # Burdunelo
+	father=1573002
+	mother=1573003
+	culture="hispani"
+	religion="nicene"
+	martial=4
+	diplomacy=5
+	intrigue=4
+	stewardship=8
+	learning=9
+	trait="shy"
+	trait="thrifty_clerk"
+	trait="scholar"
+	744.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}

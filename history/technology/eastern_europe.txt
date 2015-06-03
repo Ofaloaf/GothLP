@@ -3,7 +3,6 @@
 
 technology = {
 	titles = {
-		d_brandenburg
 		d_mazovia
 		d_greater_poland
 		d_silesia
@@ -12,7 +11,7 @@ technology = {
 		d_mecklemburg
 		d_pommerania
 		d_pomeralia
-		d_meissen
+		d_ostmarca
 		d_livonia
 		d_prussia
 		d_polotsk

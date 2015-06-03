@@ -6,7 +6,7 @@ technology = {
 		d_bavaria
 		d_baden
 		d_flanders
-		d_gelre
+		d_fryslan
 		d_helvetia
 		d_hessorum
 		d_holland
