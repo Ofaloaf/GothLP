@@ -526,7 +526,7 @@ e_italy = {
 			capital = 233 # Genoa
 			
 			c_genoa = {
-				color={ 253 247 228 }
+				color={ 226 223 193 }
 				color2={ 255 255 255 }
 				
 				b_genoa = {
@@ -547,7 +547,7 @@ e_italy = {
 				}
 			}
 			c_piemonte = {
-				color={ 104 12 38 }
+				color={ 165 162 31 }
 				color2={ 255 255 255 }
 
 				# Pedemontium
@@ -577,7 +577,7 @@ e_italy = {
 			}
 			
 			c_saluzzo = {
-				color={ 155 46 76 }
+				color={ 239 228 35 }
 				color2={ 255 255 255 }
 
 				# Salutiae
@@ -621,7 +621,7 @@ e_italy = {
 			}
 			
 			c_monferrato = {
-				color={ 250 244 225 }
+				color={ 218 193 56 }
 				color2={ 255 255 255 }
 
 				# Mons Ferratus

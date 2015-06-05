@@ -874,6 +874,8 @@ e_gallia = {
 					#occitan = "Bèucaire"
 				}
 				b_montpellier = {
+					# Monspestularius
+
 					#occitan = "Montpelhièr"
 				}
 				b_maguelone = {
@@ -1584,6 +1586,10 @@ e_gallia = {
 		d_wasconia = {
 			color={ 239 228 176 }
 			color2={ 255 255 255 }
+
+			old_frankish = "Guasconia"
+			basque = "Waskonia"
+			aquitanian = "Waskonia"
 			
 			capital = 209 # Armagnac
 
@@ -1594,19 +1600,32 @@ e_gallia = {
 				color2={ 255 255 255 }
 
 				# Benarna
+
+				basque = Bearno
+				aquitanian = Biarno
 				
 				b_pau = {
 					# Palum
+
+					basque = "Paue"
+					aquitanian = "Paue"
 				}
 				b_morlaas = {
 					# Morlanis
+
+					basque = "Morlaàs"
+					aquitanian = "Morlans" # actually Gascon
 				} 
 				b_lescar = {
 					# Beneharnum
+
+					basque = "Leskarre"
+					aquitanian = "Leskarre"
 				}
 				b_tarbes = {
 					# Turba
 
+					basque = "Tarbe"
 					aquitanian = "Talvam"
 
 					#gothicromance = Turvia
@@ -1616,6 +1635,9 @@ e_gallia = {
 				}
 				b_orthez = {
 					# Ortesium
+
+					basque = "Ortheze"
+					aquitanian = "Ortheze"
 
 					#gothicromance = Urthis
 				}
@@ -3117,7 +3139,7 @@ e_gallia = {
 			capital = 117 #Brabant
 		
 			c_brabant = {
-				color={ 200 100 65 }
+				color={ 113 188 148 }
 				color2={ 255 255 255 }
 			
 				b_leuven = {
@@ -3138,7 +3160,7 @@ e_gallia = {
 				}
 			}
 			c_hainaut = {
-				color={ 210 120 40 }
+				color={ 103 62 185 }
 				color2={ 255 255 255 }
 			
 				b_valenciennes = {
@@ -3187,7 +3209,7 @@ e_gallia = {
 			capital = 118 # Trier
 
 			c_trier = {
-				color={ 144 144 177 }
+				color={ 213 109 49 }
 				color2={ 255 255 255 }
 
 				# Treveria
@@ -3224,7 +3246,7 @@ e_gallia = {
 				}
 			}
 			c_luxembourg = {
-				color={ 113 113 158 }
+				color={ 53 140 73 }
 				color2={ 255 255 255 }
 
 				gothic = Lucilinbaurg
@@ -3269,7 +3291,7 @@ e_gallia = {
 				}
 			}
 			c_liege = {
-				color={ 120 120 165 }
+				color={ 149 186 37 }
 				color2={ 255 255 255 }
 
 				# Legia

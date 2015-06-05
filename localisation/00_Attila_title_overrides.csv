@@ -286,6 +286,7 @@ b_beja;Paca;;;;;;;;;;;;;x
 b_bejaija;Saldae;;;;;;;;;;;;;x
 b_belfort;Bellumfortum;;;;;;;;;;;;;x
 b_bellac;Bellacum;;;;;;;;;;;;;x
+b_bellinzona;Bilitio;;;;;;;;;;;;;x
 b_bembibre;Interamnium;;;;;;;;;;;;;x
 b_benarous;Decimum;;;;;;;;;;;;;x
 b_benevento;Beneventum;;;;;;;;;;;;;x
@@ -298,6 +299,7 @@ b_besalu;Bisuldunum;;;;;;;;;;;;;x
 b_besancon;Vesontio;;;;;;;;;;;;;x
 b_bethune;Bithunia;;;;;;;;;;;;;x
 b_beziers;Baeterra;;;;;;;;;;;;;x
+b_biasca;Aviasca;;;;;;;;;;;;;x
 b_bihac;Raetinium;;;;;;;;;;;;;x
 b_biskra;Vescera;;;;;;;;;;;;;x
 b_bitburg;Beda;;;;;;;;;;;;;x
@@ -324,6 +326,7 @@ b_bouzonville;Bosonisvilla;;;;;;;;;;;;;x
 b_bozen;Bauzanum;;;;;;;;;;;;;x
 b_braga;Bracara;;;;;;;;;;;;;x
 b_braganza;Brigantia;;;;;;;;;;;;;x
+b_bregenz;Brigantium;;;;;;;;;;;;;x
 b_breisach;Brisiacus;;;;;;;;;;;;;x
 b_brescia;Brixia;;;;;;;;;;;;;x
 b_bressuire;Berzoriacum;;;;;;;;;;;;;x
@@ -470,6 +473,7 @@ b_dieppe;Dieppa;;;;;;;;;;;;;x
 b_dijon;Divio;;;;;;;;;;;;;x
 b_diksmuide;Dicasmutha;;;;;;;;;;;;;x
 b_dinan;Dinnanum;;;;;;;;;;;;;x
+b_disentis;Desertina;;;;;;;;;;;;;x
 b_doaumont;Mosomagus;;;;;;;;;;;;;x
 b_dol;Dola;;;;;;;;;;;;;x
 b_domfront;Damfrontis;;;;;;;;;;;;;x
@@ -579,6 +583,7 @@ b_hautpoul;Altopullo;;;;;;;;;;;;;x
 b_hennebont;Pontevetus;;;;;;;;;;;;;x
 b_hesdin;Hesdinum;;;;;;;;;;;;;x
 b_hijar;Ars;;;;;;;;;;;;;x
+b_hirsau;Hirsaugia;;;;;;;;;;;;;x
 b_honfleur;Hunafluvia;;;;;;;;;;;;;x
 b_huelgoat;Castrum Artus;;;;;;;;;;;;;x
 b_huelva;Onuba;;;;;;;;;;;;;x
@@ -588,6 +593,7 @@ b_igualada;Aqualata;;;;;;;;;;;;;x
 b_ilchester;Lindinis;;;;;;;;;;;;;x
 b_illescas;Egelesta;;;;;;;;;;;;;x
 b_imotski;Emotha;;;;;;;;;;;;;x
+b_innsbruck;Oenipons;;;;;;;;;;;;;x
 b_ipswich;Combretovium;;;;;;;;;;;;;x
 b_irigny;Iriacum;;;;;;;;;;;;;x
 b_iscar;Ipsca;;;;;;;;;;;;;x
@@ -666,6 +672,7 @@ b_lescar;Beneharnum;;;;;;;;;;;;;x
 b_lezergue;Arkae;;;;;;;;;;;;;x
 b_libourne;Liborna;;;;;;;;;;;;;x
 b_liege;Legia;;;;;;;;;;;;;x
+b_lienz;Luenzina;;;;;;;;;;;;;x
 b_lille;Insula;;;;;;;;;;;;;x
 b_limoges;Lemovicum;;;;;;;;;;;;;x
 b_lincoln;Linnuis;;;;;;;;;;;;;x
@@ -678,6 +685,7 @@ b_litchfield;Letocetum;;;;;;;;;;;;;x
 b_lisieux;Lexoviorum;;;;;;;;;;;;;x
 b_lleida;Ilerda;;;;;;;;;;;;;x
 b_loarre;Lobarra;;;;;;;;;;;;;x
+b_locarno;Leocarni;;;;;;;;;;;;;x
 b_loches;Corniliacus;;;;;;;;;;;;;x
 b_lodi;Laus;;;;;;;;;;;;;x
 b_lombez;Lomberium;;;;;;;;;;;;;x
@@ -692,6 +700,7 @@ b_loudun;Losdunum;;;;;;;;;;;;;x
 b_lowestoft;Sitomagus;;;;;;;;;;;;;x
 b_lucon;Lucio;;;;;;;;;;;;;x
 b_ludbreg;Iovia;;;;;;;;;;;;;x
+b_lugano;Luanasco;;;;;;;;;;;;;x
 b_lugo;Lucus;;;;;;;;;;;;;x
 b_lumezzane;Limesanum;;;;;;;;;;;;;x
 b_lusignan;Licinius;;;;;;;;;;;;;x
@@ -741,6 +750,7 @@ b_melilla;Rusadir;;;;;;;;;;;;;x
 b_melle;Metullum;;;;;;;;;;;;;x
 b_melun;Melodunum;;;;;;;;;;;;;x
 b_mende;Mimate;;;;;;;;;;;;;x
+b_mendrisio;Mendrici;;;;;;;;;;;;;x
 b_meran;Meranum;;;;;;;;;;;;;x
 b_mersamatruh;Paraetonium;;;;;;;;;;;;;x
 b_mertola;Myrtilis;;;;;;;;;;;;;x
@@ -785,6 +795,7 @@ b_montichiari;Monteclarus;;;;;;;;;;;;;x
 b_montlucon;Monlucum;;;;;;;;;;;;;x
 b_montmirail;Mons Mirabilis;;;;;;;;;;;;;x
 b_montoire;Aureum Mons;;;;;;;;;;;;;x
+b_montpellier;Monspestularius;;;;;;;;;;;;;x
 b_montpensier;Monspancherii;;;;;;;;;;;;;x
 b_montreuil;Monasterolium;;;;;;;;;;;;;x
 b_montrichard;Ricardiacum;;;;;;;;;;;;;x
@@ -1022,6 +1033,7 @@ b_staines;Pontes;;;;;;;;;;;;;x
 b_stavit;Avitacum;;;;;;;;;;;;;x
 b_stdenis;Dionysiacum;;;;;;;;;;;;;x
 b_stenay;Epoissum;;;;;;;;;;;;;x
+b_sterzing;Vipitenum;;;;;;;;;;;;;x
 b_stetienne;Stephaniacus;;;;;;;;;;;;;x
 b_stgeorgesdubois;Georgiacum;;;;;;;;;;;;;x
 b_stjeandangely;Angeliacum;;;;;;;;;;;;;x
@@ -1153,6 +1165,7 @@ b_zaragoza;Caesaraugusta;;;;;;;;;;;;;x
 b_zrin;Varianis;;;;;;;;;;;;;x
 b_zvornik;Drinum;;;;;;;;;;;;;x
 b_zweibrucken;Buconica;;;;;;;;;;;;;x
+b_zwiefalten;Zwivaltum;;;;;;;;;;;;;x
 PROV21;Glouvia;;;;;;;;;;;;;x
 PROV22;Aelia;;;;;;;;;;;;;x
 PROV23;Sobiodunum;;;;;;;;;;;;;x
@@ -1349,6 +1362,7 @@ PROV345;Lupiae;;;;;;;;;;;;;x
 PROV346;Barium;;;;;;;;;;;;;x
 PROV355;Patavium;;;;;;;;;;;;;x
 PROV357;Tarvisium;;;;;;;;;;;;;x
+PROV359;Oenipons;;;;;;;;;;;;;x
 PROV445;Biatec;;;;;;;;;;;;;x
 PROV447;Batavis;;;;;;;;;;;;;x
 PROV449;Ostarrichi;;;;;;;;;;;;;x

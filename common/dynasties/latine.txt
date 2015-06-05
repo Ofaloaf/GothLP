@@ -392,3 +392,8 @@
 	name = "Coracine" # Martialis wrote some great stuff
 	culture = latine
 }
+
+476080 = {
+	name = "Donniano" # Donnus, Donnianus
+	culture = latine
+}

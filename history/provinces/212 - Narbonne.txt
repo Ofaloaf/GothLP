@@ -18,5 +18,5 @@ b_albi = temple
 
 #Misc
 religion = nicene
-culture = old_frankish
+culture = gallic
 

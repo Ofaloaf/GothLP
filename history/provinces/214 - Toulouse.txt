@@ -18,4 +18,4 @@ b_castelnaudary = castle
 
 #Misc
 religion = nicene
-culture = old_frankish
+culture = gallic

@@ -33,6 +33,9 @@ e_britannia = {
 			color = { 210 210 177 }
 			color2= { 255 255 255 }
 
+			saxon = "Cent"
+			old_saxon = "Cent"
+			old_frankish = "Cent"
 			roman = "Cantium"
 
 			capital = 73 # Kent
@@ -42,6 +45,10 @@ e_britannia = {
 				color2={ 255 255 255 }
 
 				# Astolat
+
+				saxon = "Suþrige"
+				old_saxon = "Suþrige"
+				old_frankish = "Suþrige"
 				
 				b_farnham = {
 				}
@@ -69,12 +76,21 @@ e_britannia = {
 
 				brithenig = "Ceint"
 				welsh = "Ceint"
+				saxon = "Cent"
+				old_saxon = "Cent"
+				old_frankish = "Cent"
 				
 				b_rochester = {
 					# Durobrivis
+
+					brithenig = "Dorobrevis"
 				}
 				b_dover = {
 					# Dubris
+
+					saxon = "Dofras"
+					old_saxon = "Dofras"
+					old_frankish = "Dofras"
 				}
 				b_canterbury = {
 					# Durobernia
@@ -86,6 +102,10 @@ e_britannia = {
 
 					brithenig = "Cair Ceint"
 					welsh = "Caergaint"
+
+					saxon = "Cantwareburh"
+					old_saxon = "Cantwareburg"
+					old_frankish = "Cantwareburg"
 
 					holy_site = catholic
 				}

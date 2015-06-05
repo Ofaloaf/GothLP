@@ -1,0 +1,6 @@
+		d_segusio = {
+			color={ 191 158 158 }
+			color2={ 255 255 255 }
+			
+			capital = 237 # Savoie
+		}

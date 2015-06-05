@@ -7,7 +7,6 @@ technology = {
 		d_bruttium
 		d_campania
 		d_insubria
-		d_latium
 		d_liguria
 		d_lucania
 		d_picenum

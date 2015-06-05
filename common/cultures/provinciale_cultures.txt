@@ -8,21 +8,21 @@ provinciale = {
 
 		male_names = {
 			Alexander_Alexander Alexis_Alexis Anastasis_Anastasius Athanasis_Athanasius Achilles 
-			Apollinaris Antonis_Antonius Aurelïen Aurelis_Aurelius Acius Agustius Amabilis Amator 
-			Avitus Austromoine Aegus Ambrosis_Ambrosius Arvandes Adrienes_Adrian
+			Apollinaris Antonis_Antonius Aurelïen Aurel_Aurelius Acius Agustius Amabilis Amator 
+			Avit Aegus Ambrosis_Ambrosius Arvandes Adrienes_Adrian
 			Benedixes_Benedict Benignus Baudilus Bartholomeus_Bartholomew Boecis_Boethius Bonetus
 			Cesaris Carles_Charles Caius Constantines_Consantine Caprasis Cassïen Cassis 
 			Castor Celsus Crispines Carbonel
 			Danielus_Daniel David_David Deusdedit Denysis_Dionysus Daurel Dalmacius
 			Eufemïen Eugenis_Eugene Eugendus Eucherius Euspicis Eustochis Eutropis Exuperis 
 			Egides_Aegidius Estefanes_Stephen
-			Ferreolus Fabien Froterius Felix
+			Ferreolus Fabïen Froterius Felix
 			Georgis_George Gratus Gratïen Gatïen Germanes_Germanus Gregoris_Gregory Guito
 			Hubaldus Honoris_Honorius Honorates Horatis Hilaris Honestes
 			Innocentis Ignacis_Ignatius Isaias_Isaiah Irenaeus Illidis
 			Julïen_Julian Julis_Julius Jacobes_Jacob Joanes_John
 			Lucas_Luke Lucius_Lucius Leoncis_Leontius Leo_Leo Laurentis_Laurence Landericus Latuinus 
-			Lazarus_Lazarus Luperculus Lupes Laelianus Laurentiolis
+			Lazarus_Lazarus Luperculus Lupes_Lupo Laelianus Laurentiolis
 			Maximiien Michael_Michael Miles Matthaeus_Matthew Marcus_Marcus Maximes_Maximus Mamertinus 
 			Mamertus Mansuetus Mercurius Martines_Martin
 			Nicolaus_Nicholas Nicomaces Nazaris Namatis Nicasis
@@ -30,12 +30,12 @@ provinciale = {
 			Pelagis_Pelagius Petres_Peter Paule_Paul Polycarpes Pocinus Poncius_Pontius Palladis 
 			Petronis Patroclus Peregrinus Perpetuus Pantagaces Philippes_Philip
 			Remigis Romaeus Romanes_Roman Rusticus Rasifes Ravennis Roscillus Rufines
-			Sidonis Symmaches_Symmachus Syagris Saturninus Sanxis_Sancho Savinien Symphorianes 
-			Silvanus Silvester_Silvester Sebaste_Sebastian
+			Sidonis Symmaches_Symmachus Syagris Saturninus Sanxe_Sancho Savinïen Symphorianes 
+			Silvanus Silvester_Silvester Sebaste_Sebastian Stremonis
 			Theodores_Theodore Theophiles Thomas_Thomas Trofimes Tiberis_Tiberius Tetricus Timotheus_Timothy 
 			Theodosis_Theodosius
 			Urbanes_Urban Ursinus_Ursus
-			Vixor_Victor Vixorinus Vincentius_Vincent Viventiolis Vitalis
+			Victor_Victor Victorines Vincentis_Vincent Viventiolis Vitalis
 			Zacharias_Zachary Zefirines
 		}
 

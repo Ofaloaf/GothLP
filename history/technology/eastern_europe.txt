@@ -9,8 +9,7 @@ technology = {
 		d_lesser_poland
 		d_kuyavia
 		d_mecklemburg
-		d_pommerania
-		d_pomeralia
+		d_gothiscandza
 		d_ostmarca
 		d_livonia
 		d_prussia

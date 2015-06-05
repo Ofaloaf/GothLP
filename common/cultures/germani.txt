@@ -171,7 +171,7 @@ central_germanic = {
 			Teudileova Texilli Tractuilli Trasavara Trasmira Trastivigia Vergina Viscaverga Visterlo Vistravara Vistrildi Zanina
 		}
 
-		from_dynasty_prefix = "von "
+		from_dynasty_prefix = "vo "
 
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 50

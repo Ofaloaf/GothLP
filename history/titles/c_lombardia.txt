@@ -1,0 +1,7 @@
+500.1.1 = {
+	liege = "d_insubria"
+}
+
+758.1.1 = {
+	holder = 476010 # Oreste Malventio
+}

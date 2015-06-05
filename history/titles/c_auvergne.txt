@@ -1,0 +1,11 @@
+500.1.1 = {
+	liege = "d_arvernia"
+}
+
+711.1.1 = {
+	holder = 1789017 # Sidonis Apollinaris
+}
+
+749.1.1 = {
+	holder = 1789016 # Victorines Apollinaris
+}

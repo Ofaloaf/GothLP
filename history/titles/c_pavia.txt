@@ -1,3 +1,7 @@
+500.1.1 = {
+	liege = "d_insubria"
+}
+
 748.1.1={
 	holder=476001 # Nicolo Laurentiano / Nicolaus Laurentianus
 }

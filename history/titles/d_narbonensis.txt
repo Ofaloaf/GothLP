@@ -1,0 +1,7 @@
+500.1.1 = {
+	liege = "k_septimania"
+}
+
+737.1.1 = {
+	holder = 1789001 # Maximiien Druentane
+}

@@ -1,0 +1,8 @@
+500.1.1 = {
+	liege = "k_septimania"
+}
+
+745.1.1 = {
+	holder = 1789009 # Vestalis Veraudunules
+}
+

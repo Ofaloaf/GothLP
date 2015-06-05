@@ -1,0 +1,221 @@
+145801 = {
+	name="Basileios"
+	dynasty=189
+	religion="nicene"
+	culture="greek"
+
+	720.1.1={
+		birth="720.1.1"
+	}
+	800.1.1={
+		death="800.1.1"
+	}
+}
+
+145865 = {
+	name="Basileios"
+	religion="nicene"
+	culture="greek"
+	trait="tough_soldier"
+
+	620.1.1={
+		birth="620.1.1"
+	}
+	666.1.1={
+		death="666.1.1"
+	}
+}
+
+145866 = {
+	name="Theophylaktos"
+	religion="nicene"
+	culture="greek"
+
+	622.1.1={
+		birth="622.1.1"
+	}
+	670.1.1={
+		death="670.1.1"
+	}
+}
+
+145867 = {
+	name="Kosmas"
+	religion="nicene"
+	culture="greek"
+
+	624.1.1={
+		birth="624.1.1"
+	}
+	673.1.1={
+		death="673.1.1"
+	}
+}
+
+145868 = {
+	name="Andreas"
+	religion="nicene"
+	culture="greek"
+
+	625.1.1={
+		birth="625.1.1"
+	}
+	677.1.1={
+		death="677.1.1"
+	}
+}
+
+145869 = {
+	name="Kaisarios"
+	religion="nicene"
+	culture="greek"
+
+	645.1.1={
+		birth="645.1.1"
+	}
+	684.1.1={
+		death="684.1.1"
+	}
+}
+
+145870 = {
+	name="Stephanos"
+	religion="nicene"
+	culture="greek"
+
+	647.1.1={
+		birth="647.1.1"
+	}
+	687.1.1={
+		death="687.1.1"
+	}
+}
+
+145871 = {
+	name="Bonellos"
+	religion="nicene"
+	culture="greek"
+
+	649.1.1={
+		birth="649.1.1"
+	}
+	696.1.1={
+		death="696.1.1"
+	}
+}
+
+145872 = {
+	name="Theodosios"
+	religion="nicene"
+	culture="greek"
+
+	667.1.1={
+		birth="667.1.1"
+	}
+	706.1.1={
+		death="706.1.1"
+	}
+}
+
+145873 = {
+	name="Kaisarios"
+	religion="nicene"
+	culture="greek"
+
+	660.1.1={
+		birth="660.1.1"
+	}
+	711.9.1={
+		death="711.9.1"
+	}
+}
+
+145874 = {
+	name="Ioannes"
+	religion="nicene"
+	culture="greek"
+
+	671.1.1={
+		birth="671.1.1"
+	}
+	719.1.1={
+		death="719.1.1"
+	}
+}
+
+145875 = {
+	name="Theodoros"
+	religion="nicene"
+	culture="greek"
+
+	680.1.1={
+		birth="680.1.1"
+	}
+	729.1.1={
+		death="729.1.1"
+	}
+}
+
+145876 = {
+	name="Georgios"
+	religion="nicene"
+	culture="greek"
+
+	692.1.1={
+		birth="692.1.1"
+	}
+	739.1.1={
+		death="739.1.1"
+	}
+}
+
+145877 = {
+	name="Gregorios"
+	dynasty=1022314
+	religion="nicene"
+	culture="greek"
+
+	700.1.1={
+		birth="700.1.1"
+	}
+	755.1.1={
+		death="755.1.1"
+	}
+}
+
+145878 = {
+	name="Stephanos"
+	dynasty=1022314
+	religion="nicene"
+	culture="greek"
+	father=145877
+	725.1.1={
+		birth="725.1.1"
+	}
+	730.1.1={
+		religion="iconoclast"
+	}
+	764.1.1={
+		religion="catholic"
+	}
+	766.1.1={
+		trait="monk"
+	}
+	799.1.1={
+		death="799.1.1"
+	}
+}
+
+145879 = {
+	name="Gregorios"
+	dynasty=1022314
+	religion="nicene"
+	culture="greek"
+	father=145878
+	745.1.1={
+		birth="745.1.1"
+	}
+	794.1.1={
+		death="794.1.1"
+	}
+}

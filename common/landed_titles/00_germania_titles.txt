@@ -509,7 +509,7 @@ e_germany = {
 			}
 		}
 		d_ostmarca = {
-			color = { 254 224 16 }
+			color = { 234 194 13 }
 			color2= { 255 255 255 }
 
 			capital = 312 #Meissen
@@ -597,6 +597,258 @@ e_germany = {
 				}
 			}
 		}
+		d_mecklemburg = {
+			color={ 162 160 110 }
+			color2={ 255 255 255 }
+			
+			capital = 260 #mecklemburg
+			
+			pommeranian = Obotritia
+
+			c_mecklemburg = {
+				color={ 207 207 207 }
+				color2={ 255 255 255 }
+
+				pommeranian = Weligrad
+				
+				b_mecklemburg = {
+					pommeranian = Weligrad
+				}
+				b_wismar = {
+					pommeranian = Vesimer
+				}
+				b_gevezin = {
+					pommeranian = Radgosc			
+				}
+				b_schwerin = {
+					pommeranian = Zuarina
+				}
+				b_lutzow = {
+				}
+				b_grevesmuhlen = {
+				}
+				b_parchim = {
+				}
+				b_hagenow = {
+				}
+			}
+			c_rostock = {
+				color={ 204 204 204 }
+				color2={ 255 255 255 }
+
+				pommeranian = Rastokú
+				
+				b_rostock = {
+					pommeranian = Rastokú
+				}
+				b_penzlin = {	
+					pommeranian = Pentzelin	
+				}
+				b_gustrow = {	
+					pommeranian = Guscerov				
+				}
+				b_malchin = {
+				}
+				b_damgarten = {
+				}
+				b_strelitz = {
+					pommeranian = Streltza
+				}
+				b_stargard = {
+				}
+				b_ahrensberg = {
+				}
+			}
+			c_werle = {
+				color={ 202 202 202 }
+				color2={ 255 255 255 }
+
+				pommeranian = Dymin
+				
+				b_waren = {
+				}
+				b_greifswald = {
+					pommeranian = Gripscogh
+				}
+				b_stralsund = {
+
+					pommeranian = Stralow
+				}
+				b_tribsees = {
+				}
+				b_demmin = {
+				}
+				b_treptow = {
+				}
+				b_friedland = {
+					pommeranian = Mirów
+				}
+				b_templin = {
+				}
+			}
+			c_rugen = {
+				color={ 201 201 201 }
+				color2={ 255 255 255 }
+
+				pommeranian = Rana
+				
+				b_charenza = {
+				}
+				b_arkona = {
+					holy_site = slavic_pagan
+					holy_site = slavic_pagan_reformed
+					holy_site = baltic_pagan
+					holy_site = baltic_pagan_reformed
+				}
+				b_rugard = {
+				}
+				b_putbus = {
+				}
+				b_barth = {
+				}
+				b_ralswiek = {
+				}
+				b_hiddensee = {
+				}
+				b_tribuzin = {
+				}
+			}
+		}
+		
+		d_gothiscandza = {
+			color={ 111 143 51 }
+			color2={ 255 255 255 }
+			
+			capital = 366 # Stettin
+		
+			c_wolgast = {
+				color={ 121 163 58 }
+				color2={ 255 255 255 }
+
+				pommeranian = Wologoszcz
+			
+				b_wolgast = {
+					pommeranian = Wologoszcz
+				}
+				b_usedom = {
+					pommeranian = Uznjöm
+				}
+				b_anklam = {	
+					pommeranian = Taglim			
+				}
+				b_ueckermunde = {
+				}
+				b_zinnowitz = {
+				}
+				b_zussow = {
+				}
+				b_kemnitz = {
+				}
+				b_eggesin = {
+				}
+			}
+			c_stettin = {
+				color={ 91 163 48 }
+				color2={ 255 255 255 }
+				
+				pommeranian = Szczecin
+			
+				b_soldin = {
+				}
+				b_stettin = {
+
+					pommeranian = Szczecin
+				}
+				b_wollin = {
+				} 
+				b_stestargard = {
+				}
+				b_kammin = {
+				}
+				b_kolbatz = {
+				}
+				b_cedene = {
+				}
+				b_pyritz = {
+				}
+			}		
+			c_danzig = {
+				color={ 115 139 70 }
+				color2={ 255 255 255 }
+				
+				pommeranian = "Gdansk"
+				polish = "Gdansk"
+				bohemian = "Gdansk"
+				russian = "Gdansk"
+				prussian = "Gdansk"
+				lithuanian = "Gdansk"
+				lettigallish = "Gdansk"
+				swedish = "Danzig"
+				norse = "Danzig"
+				norwegian = "Danzig"
+				danish = "Danzig"
+			
+				b_bytow = {
+				}
+				b_danzig = {
+					pommeranian = "Gdansk"
+					polish = "Gdansk"
+					bohemian = "Gdansk"
+					russian = "Gdansk"
+					prussian = "Gdansk"
+					lithuanian = "Gdansk"
+					lettigallish = "Gdansk"
+					swedish = "Danzig"
+					norse = "Danzig"
+					norwegian = "Danzig"
+					danish = "Danzig"
+				}
+				b_oliva = {
+				}
+				b_tuchel = {
+				}
+				b_schwetz = {
+				}
+				b_danlauenburg = {
+				}
+				b_mewe = {
+				}
+				b_schlochau = {
+				}
+			}
+			c_slupsk = {
+				color={ 6 155 25 }
+				color2={ 255 255 255 }
+				
+				german = "Stolp"
+				swedish = "Stolp"
+				norwegian = "Stolp"
+				danish = "Stolp"
+				norse = "Stolp"
+			
+				b_rugenwalde = {
+				}
+				b_slupsk = {
+					german = "Stolp"
+					swedish = "Stolp"
+					norwegian = "Stolp"
+					danish = "Stolp"
+					norse = "Stolp"
+				}
+				b_colberg = {
+				}
+				b_schlawe = {
+				}
+				b_tempelburg = {
+				}
+				b_dramburg = {
+				}
+				b_ustka = {
+				}
+				b_belgard = {
+				}
+			}
+		}
 	}
 
 	k_swabia = {
@@ -604,11 +856,9 @@ e_germany = {
 		color2= { 255 255 255 }
 
 		roman = "Suebia"
-		latine = "Svevia"
-		gallic = "Souabia"
-		hispani = "Suabia"
 
 		suebi = "Suebia"
+		german = "Schwaben"
 
 		culture = suebi
 
@@ -643,6 +893,7 @@ e_germany = {
 				brithenig = "Aquensis"
 				greek = "Aquensis"
 
+				boarisch = "Bodn"
 				gothic = "Aquensis"
 				#gothicromance = "Aquensis"
 			
@@ -655,6 +906,7 @@ e_germany = {
 					brithenig = "Aquae"
 					greek = "Aquae"
 
+					boarisch = "Bodn"
 					gothic = "Aquae"
 					#gothicromance = "Aquae"
 				}
@@ -734,6 +986,13 @@ e_germany = {
 		d_swabia = {
 			color={ 206 203 203 }
 			color2={ 255 255 255 }
+
+			roman = "Suebia"
+			latine = "Svevia"
+
+			suebi = "Suebia"
+			boarisch = "Suaben" # Schwobm
+			german = "Schwaben"
 			
 			capital = 249 #Schwaben
 			
@@ -742,15 +1001,19 @@ e_germany = {
 				color2={ 255 255 255 }
 			
 				b_tubingen = {
+					suebi = "Dibenga"
 				}
 				b_konstanz = {
 					# Constantia
 
+					suebi = "Choschtez" # Konschdanz
 					german = "Konstanz"
 				}
 				b_heiligenberg = {
+					suebi = "Holgebeäg"
 				}
 				b_uberlingen = {
+					suebi = "Iberlinge"
 				}
 				b_hohenberg = {
 				}
@@ -759,6 +1022,7 @@ e_germany = {
 				b_wangen = {
 				}
 				b_lindau = {
+					suebi = "Lindou"
 				}
 			}
 			c_ulm = {
@@ -789,18 +1053,29 @@ e_germany = {
 					suebi = "Hulma"
 				}
 				b_zwiefalten = {
+					# Zwivaltum
+
+					roman = "Zuivaltum"
+					latine = "Zuivalto"
+
+					german = "Zwiefalten"
+					suebi = "Zwiifalda"
 				}
 				b_teck = {
 				}
 				b_biberach = {
+					suebi = "Bibra"
 				}
 				b_memmingen = {
+					suebi = "Memmenge"
 				}
 				b_isny = {
 				}
 				b_goppingen = {
+					suebi = "Geppenge"
 				}
 				b_erbach = {
+					suebi = "Ärrbach"
 				}
 			}
 			c_furstenberg = {
@@ -810,16 +1085,22 @@ e_germany = {
 				b_furstenberg = {
 				}
 				b_villingen = {
+					suebi = "Villinge"
 				}
 				b_hirsau = {
+					# Hirsaugia
+
+					german = "Hirsau"
 				}
 				b_baar = {
+					boarisch = "Boor"
 				}
 				b_haslach = {
 				}
 				b_zollern = {
 				}
 				b_wolfach = {
+					suebi = "Wolfä"
 				}
 				b_donaueschingen = {
 				}
@@ -827,22 +1108,33 @@ e_germany = {
 			c_wurttemberg = {
 				color={ 111 162 128 }
 				color2={ 255 255 255 }
+
+				boarisch = "Wiattmbeag"
+				suebi = "Württeberg"
 			
 				b_stuttgart = {
+					suebi = "Schduagert"
+					boarisch = "Stuggart"
 				}
 				b_heilbronn = {
+					suebi = "Hailbrunn"
 				}
 				b_reutlingen = {
+					suebi = "Reitlenga"
 				}
 				b_waiblingen = {
+					suebi = "Woeblinge"
 				}
 				b_esslingen = {
+					suebi = "Esslenga"
 				}
 				b_gmund = {
+					suebi = "Gmend"
 				}
 				b_staufen = {
 				}
 				b_asperg = {
+					suebi = "Aschperg"
 				}
 			}
 		}
@@ -851,11 +1143,12 @@ e_germany = {
 			color2= { 255 255 255 }
 
 			german = "Savoyen"
+			suebi = "Savoye"
 			
 			capital = 237 # Savoie
 			
 			c_savoie = {
-				color={ 107 15 41 }
+				color={ 242 219 240 }
 				color2={ 255 255 255 }
 
 				# Sapaudia
@@ -863,6 +1156,9 @@ e_germany = {
 				roman = "Alpes Graies"
 				greek = "Alpes Graies"
 				latine = "Savaudia"
+
+				german = "Savoyen"
+				suebi = "Savoye"
 				
 				b_savosusa = {
 					# Segusio
@@ -903,7 +1199,7 @@ e_germany = {
 				}
 			}
 			c_valais = {
-				color={ 110 18 44 }
+				color={ 211 154 198 }
 				color2={ 255 255 255 }
 	
 				# Vallis
@@ -947,7 +1243,7 @@ e_germany = {
 				}
 			}
 			c_geneve = {
-				color={ 113 21 47 }
+				color={ 228 203 226 }
 				color2={ 255 255 255 }
 
 				german = "Genf"
@@ -977,7 +1273,7 @@ e_germany = {
 			color2= { 255 255 255 }
 
 			c_schwyz = {
-				color={ 167 28 66 }
+				color={ 169 112 92 }
 				color2={ 255 255 255 }
 				
 				b_schwyz = {
@@ -1003,7 +1299,7 @@ e_germany = {
 				}
 			}
 			c_neuchatel = {
-				color={ 163 24 62 }
+				color={ 124 98 86 }
 				color2={ 255 255 255 }
 
 				# Nuvenburch
@@ -1043,7 +1339,7 @@ e_germany = {
 				}
 			}
 			c_bern = {
-				color={ 165 26 64 }
+				color={ 209 196 190 }
 				color2={ 255 255 255 }
 				
 				roman = "Berna"
@@ -1080,7 +1376,7 @@ e_germany = {
 				}
 			}
 			c_aargau = {
-				color={ 169 30 68 }
+				color={ 150 90 80 }
 				color2={ 255 255 255 }
 
 				# Argovia
@@ -1134,23 +1430,51 @@ e_germany = {
 				# Grisonia
 
 				german = "Graubünden"
+				suebi = "Graubünda"
 				
 				b_bellinzona = {
+					# Bilitio
+
 					german = "Bellenz"
+					suebi = "Belänz"
+					boarisch = "Belänz"
 				}
 				b_disentis = {
+					# Desertina
+
+					german = "Disentis"
+					suebi = "Disentis"
+					boarisch = "Disentis"
 				}
 				b_locarno = {
+					# Leocarni
+					
+					german = "Loggarus"
+					suebi = "Loggarus"
+					boarisch = "Loggarus"
 				}
 				b_biasca = {
+					# Aviasca
+
+					suebi = "Abiasca"
+					german = "Abläsch"
+					boarisch = "Abläsch"
 				}
 				b_domo = {
 				}
 				b_lugano = {
+					# Luanasco
+
+					suebi = "Loowasch"
+					german = "Lauis"
+					boarisch = "Lowens"
 				}
 				b_musso = {
 				}
 				b_mendrisio = {
+					# Mendrici
+
+					german = "Mendris"
 				}
 			}
 			c_st_gallen = {
@@ -1331,20 +1655,35 @@ e_germany = {
 				color2={ 255 255 255 }
 			
 				b_haarlem = {
+					gothic = "Haarlohaim"
+					old_frankish = "Haarloheim"
+					frisian = "Haarlim"
 				}
 				b_amsterdam = {
+					old_frankish = "Aemstelredamme"
 				}
 				b_vlaardingen = {
+					frisian = "Flaardingen"
 				}
 				b_sgravenhage = {
+					# Haga
+
+					frisian = "Haach"
 				}
 				b_dordrecht = {
+					old_frankish = "Thuredriht"
+					frisian = "Doart"
 				}
 				b_gouda = {
 				}
 				b_leiden = {
+					frisian = "Leien"
 				}
 				b_muiden = {
+					# Amuda
+
+					dutch = "Muiden"
+					frisian = "Muiden"
 				}
 			}
 			c_westfriesland = {
@@ -1352,27 +1691,53 @@ e_germany = {
 				color2={ 255 255 255 }
 			
 				b_alkmaar = {
+					german = "Alkmar"
+					frisian = "Alkmar"
 				}
 				b_hoorn = {
+					# Hornus
+
+					dutch = "Hoorn"
+					frisian = "Hoarn"
+					german = "Hoorn"
 				}
 				b_medemblik = {
 				}
 				b_enkhuizen = {
+					frisian = "Inkhuzen"
 				}
 				b_heerhugowaard = {
+					old_saxon = "Hearhugowaard"
+					frisian = "Heregeweerd"
 				}
 				b_texel = {
+					frisian = "Tessel"
+					old_saxon = "Tessel"
 				}
 				b_egmond = {
 				}
 				b_schagen = {
+					frisian = "Skagen"
+					old_saxon = "Skagen"
 				}
 			}
 			c_zeeland = {
 				color={ 200 100 30 }
 				color2={ 255 255 255 }
+
+				roman = "Wallacra"
+				greek = "Wallacra"
+				latine = "Wallacra"
+				gallic = "Wallacra"
+				hispani = "Wallacra"
+				gallaecian = "Wallacra"
+				dalmatian = "Wallacra"
+				africanu = "Wallacra"
 			
 				b_middelburg = {
+					old_frankish = "Middelburch"
+					frisian = "Middelburch"
+					old_saxon = "Middelburch"
 				}
 				b_tholen = {
 					holy_site = norse_pagan
@@ -1922,20 +2287,43 @@ e_germany = {
 			c_tirol = {
 				color={ 221 56 28 }
 				color2={ 255 255 255 }
+
+				latine = "Tirolis"
+				gallic = "Tirolis"
+				hispani = "Tirolis"
+
+				german = "Tirol"
+				suebi = "Tirol"
+				boarisch = "Diaroi"
 			
 				b_bregenz = {
+					# Brigantium
+
+					german = "Bregenz"
+					suebi = "Breagaz"
+					boarisch = "Bregenz"
 				}
 				b_landeck = {
 				}
 				b_stanton = {
 				}
 				b_imst = {
+					boarisch = "Imscht"
 				}
 				b_sterzing = {
+					# Vipitenum
+
+					old_frankish = "Wibitina"
+					gothic = "Wibitina"
+					suebi = "Sterzengum"
+					boarisch = "Stearzing"
 				}
 				b_ried = {
 				}
 				b_dornbirn = {
+					old_frankish = "Torrinpuirron"
+					gothic = "Torrinpuirron"
+					suebi = "Doarobiro"
 				}
 				b_nenzing = {
 				}
@@ -1943,20 +2331,54 @@ e_germany = {
 			c_innsbruck = {
 				color={ 142 57 43 }
 				color2={ 255 255 255 }
+
+				# Oenipons
+
+				german = "Innsbruck"
+				boarisch = "Innschbruck"
+				suebi = "Innsbrugg"
 			
 				b_innsbruck = {
+					# Oenipons
+
+					german = "Innsbruck"
+					boarisch = "Innschbruck"
+					suebi = "Innsbrugg"
 				}
 				b_kufstein = {
+					boarisch = "Kufstoa"
 				}
 				b_stams = {
+					old_frankish = "Stammes"
+					gothic = "Stammes"
+					suebi = "Stammes"
 				}
 				b_lienz = {
+					# Luenzina
+
+					roman = "Aguntum"
+					greek = "Agunton"
+					latine = "Agunto"
+					hispani = "Agunto"
+					gallaecian = "Agunto"
+					gallic = "Aguntum"
+					dalmatian = "Aguntum"
+					africanu = "Aguntu"
+
+					german = "Lienz"
+					suebi = "Lienz"
+					boarisch = "Lianz"
 				}
 				b_schwaz = {
 				}
 				b_kitzbuhel = {
+					old_frankish = "Chizbuhel"
+					gothic = "Chizbuhel"
+					boarisch = "Kitzbichl"
 				}
 				b_jenbach = {
+					gothic = "Ymbach"
+					old_frankish = "Ymbach"
 				}
 				b_fugen = {
 				}

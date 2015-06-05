@@ -321,7 +321,7 @@ west_germanic = {
 		baron_titles_hidden = yes
 		count_titles_hidden = yes
 
-		from_dynasty_prefix = "von "
+		from_dynasty_prefix = "fan "
 
 		male_patronym = "sson"
 		female_patronym = "sdohtor"

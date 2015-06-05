@@ -1,0 +1,345 @@
+1789001 = {
+	name = "Maximiien"
+	dynasty = 1940115 # Druentane
+	martial = 6
+	diplomacy = 10
+	intrigue = 7
+	stewardship = 5
+	learning = 6
+	culture = gallic
+	religion = nicene
+	trait=cynical
+	trait=kind
+	trait=patient
+	trait=lustful
+	720.1.1 = {
+		birth = yes
+	}
+	738.1.1 = {
+		add_spouse = 1789002
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+
+1789002 = {
+	name = "Fides"
+	female=yes
+	martial = 6
+	diplomacy = 10
+	intrigue = 7
+	stewardship = 5
+	learning = 6
+	culture = gallic
+	religion = nicene
+	trait="deceitful"
+	trait="amateurish_plotter"
+	720.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+
+1789003 = {
+	name = "Singledia"
+	female=yes
+	dynasty = 1940115 # Druentane
+	father=1789001
+	mother=1789002
+	culture = gallic
+	religion = nicene
+	trait=fair
+	739.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+
+1789004 = {
+	name = "Aurelïen"
+	dynasty = 1940115 # Druentane
+	father=1789001
+	mother=1789002
+	martial = 5
+	diplomacy = 8
+	intrigue = 5
+	stewardship = 5
+	learning = 7
+	culture = gallic
+	religion = nicene
+	trait=charitable
+	trait=proud
+	trait=martial_cleric
+	742.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+
+1789005 = {
+	name = "Devota"
+	female=yes
+	dynasty = 1940115 # Druentane
+	father=1789001
+	mother=1789002
+	martial = 5
+	diplomacy = 5
+	intrigue = 5
+	stewardship = 8
+	learning = 8
+	culture = gallic
+	religion = nicene
+	trait=cynical
+	trait=scholar
+	743.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+
+1789006 = {
+	name = "Sofia"
+	female=yes
+	dynasty = 1940115 # Druentane
+	father=1789001
+	mother=1789002
+	martial = 6
+	diplomacy = 6
+	intrigue = 9
+	stewardship = 5
+	learning = 5
+	culture = gallic
+	religion = nicene
+	trait=envious
+	746.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+
+1789007 = {
+	name = "Crispines"
+	dynasty = 1940018 # Segomo
+	culture = gallic
+	religion = nicene
+	713.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+
+1789008 = {
+	name = "Iacune"
+	culture = gallic
+	religion = nicene
+	710.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+
+1789009 = {
+	name = "Vestalis"
+	dynasty = 1940020 # Veraudunules
+	culture = gallic
+	religion = nicene
+	730.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+
+1789010 = {
+	name = "Pantagaces"
+	dynasty = 1940117 # Graioceles
+	martial=5
+	diplomacy=10
+	intrigue=7
+	stewardship=6
+	learning=5
+	culture=gallic
+	religion=nicene
+	trait=greedy
+	trait=charismatic_negotiator
+	719.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+
+1789011 = {
+	name = "Maspicianus"
+	culture = gallic
+	religion = nicene
+	715.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+
+1789012 = {
+	name = "Mansuetus"
+	dynasty = 1940035 # Abelliolo
+	culture=gallic
+	religion=nicene
+	733.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+
+1789013 = {
+	name = "Joanes"
+	dynasty = 1940062 # de Tolosa
+	father=1789014 # Philippes de Tolosa
+	mother=1789015 # Dominice Apollinaris
+	martial=7
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	learning=7
+	culture=gallic
+	religion=nicene
+	trait=brilliant_strategist
+	trait=ambitious
+	trait=cruel
+	trait=trusting
+	trait=organizer
+	742.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+
+1789014 = {
+	name = "Philippes"
+	dynasty = 1940062 # de Tolosa
+	culture=gallic
+	religion=nicene
+	trait=skilled_tactician
+	718.1.1 = {
+		birth = yes
+	}
+	738.1.1 = {
+		add_spouse = 1789015
+	}
+	757.1.1 = {
+		death = yes
+	}
+}
+
+1789015 = {
+	name = "Dominice"
+	female=yes
+	dynasty = 1940118 # Apollinaris
+	father=1789017 # Sidonis Apollinaris
+	mother=1789018 # Rusticata
+	martial=6
+	diplomacy=7
+	intrigue=6
+	stewardship=6
+	learning=7
+	culture=gallic
+	religion=nicene
+	trait=strong
+	trait=honest
+	719.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+
+1789016 = {
+	name = "Victorines"
+	dynasty = 1940118 # Apollinaris
+	father=1789017 # Sidonis Apollinaris
+	mother=1789018 # Rusticata
+	martial=6
+	diplomacy=7
+	intrigue=6
+	stewardship=6
+	learning=7
+	culture=gallic
+	religion=nicene
+	trait=detatched_priest
+	trait=scholar
+	trait=inspiring_leader
+	717.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+
+1789017 = {
+	name = "Sidonis"
+	dynasty = 1940118 # Apollinaris
+	culture=gallic
+	religion=nicene
+	trait=poet
+	693.1.1 = {
+		birth = yes
+	}
+	710.1.1 = {
+		add_spouse = 1789018
+	}
+	749.1.1 = {
+		death = yes
+	}
+}
+
+1789018 = {
+	name = "Rusticata"
+	female=yes
+	culture=gallic
+	religion=nicene
+	694.1.1 = {
+		birth = yes
+	}
+	767.1.1 = {
+		death = yes
+	}
+}
+
+1789019 = {
+	name = "Celsus"
+	dynasty = 1940118 # Apollinaris
+	father=1789016 # Victorines Apollinaris
+	culture=gallic
+	religion=nicene
+	trait=quick
+	741.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}

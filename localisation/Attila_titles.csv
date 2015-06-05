@@ -184,6 +184,8 @@ d_cantabria;Cantabria;;;;;;;;;;;;;x
 d_cantabria_adj;Cantabrian;;;;;;;;;;;;;x
 d_cantia;Cantia;;;;;;;;;;;;;x
 d_cantia_adj;Cantian;;;;;;;;;;;;;x
+d_cappadocia;Cappadocia;;;;;;;;;;;;;x
+d_cappadocia_adj;Cappadocian;;;;;;;;;;;;;x
 d_carthaginiensis;Carthaginiensis;;;;;;;;;;;;;x
 d_carthaginiensis_adj;Carthaginiensian;;;;;;;;;;;;;x
 d_cordubensis;Cordubensis;;;;;;;;;;;;;x
@@ -210,6 +212,8 @@ d_gaetulia;Gaetulia;;;;;;;;;;;;;x
 d_gaetulia_adj;Gaetulian;;;;;;;;;;;;;x
 d_glouvia;Glouvia;;;;;;;;;;;;;x
 d_glouvia_adj;Glouvian;;;;;;;;;;;;;x
+d_gothiscandza;Gothiscandza;;;;;;;;;;;;;x
+d_gothiscandza_adj;Gothiscandza;;;;;;;;;;;;;x
 d_guotodin;Guotodin;;;;;;;;;;;;;x
 d_guotodin_adj;Guotodinian;;;;;;;;;;;;;x
 d_hellespontus;Hellespontus;;;;;;;;;;;;;x
@@ -262,6 +266,8 @@ d_paris;Paris;;;;;;;;;;;;;x
 d_paris_adj;Parisian;;;;;;;;;;;;;x
 d_picenum;Picenum;;;;;;;;;;;;;x
 d_picenum_adj;Pincenian;;;;;;;;;;;;;x
+d_polemoniacus;Polemoniacus;;;;;;;;;;;;;x
+d_polemoniacus_adj;Polemoniacan;;;;;;;;;;;;;x
 d_provincia;Provincia;;;;;;;;;;;;;x
 d_provincia_adj;Provincian;;;;;;;;;;;;;x
 d_quadia;Quadia;;;;;;;;;;;;;x
@@ -286,6 +292,8 @@ d_scalabitanus;Scalabitanus;;;;;;;;;;;;;x
 d_scalabitanus_adj;Scalabitanic;;;;;;;;;;;;;x
 d_scythia;Scythia;;;;;;;;;;;;;x
 d_scythia_adj;Scythian;;;;;;;;;;;;;x
+d_segusio;Segusio;;;;;;;;;;;;;x
+d_segusio_adj;Segusioan;;;;;;;;;;;;;x
 d_sequanica;Sequanica;;;;;;;;;;;;;x
 d_sequanica_adj;Sequanican;;;;;;;;;;;;;x
 d_sirmium;Sirmium;;;;;;;;;;;;;x

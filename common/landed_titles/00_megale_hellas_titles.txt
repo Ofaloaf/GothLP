@@ -17,7 +17,7 @@ e_megale_hellas = {
 		greek = "Thraike"
 
 		d_thrace = {
-			color={ 172 76 139 }
+			color={ 65 120 211 }
 			color2={ 255 255 20 }
 			
 			capital = 496 # Byzantion
@@ -27,7 +27,7 @@ e_megale_hellas = {
 			muslim = 100 # Crusade target weight
 			
 			c_kaliopolis = {
-				color={ 176 80 143 }
+				color={ 38 86 166 }
 				color2={ 255 255 20 }
 				
 				turkish = "Gelibolu"
@@ -52,7 +52,7 @@ e_megale_hellas = {
 				}
 			}
 			c_byzantion = {
-				color={ 180 84 147 }
+				color={ 84 134 216 }
 				color2={ 255 255 20 }
 				
 				orthodox = 500 # Crusade target weight
@@ -86,7 +86,7 @@ e_megale_hellas = {
 				}
 			}
 			c_thrake = {
-				color={ 184 88 151 }
+				color={ 52 82 224 }
 				color2={ 255 255 20 }
 				
 				b_verissa = {
@@ -1237,13 +1237,13 @@ e_megale_hellas = {
 			}
 		}
 		d_anatolia = {
-			color={ 174 23 122 }
+			color={ 95 105 86 }
 			color2={ 255 255 20 }
 			
 			capital = 759 # Ikonion
 			
 			c_dorylaion = {
-				color={ 176 25 124 }
+				color={ 124 139 114 }
 				color2={ 255 255 20 }
 				
 				turkish = "Kütahya"
@@ -1268,7 +1268,7 @@ e_megale_hellas = {
 				}
 			}
 			c_ikonion = {
-				color={ 178 27 126 }
+				color={ 91 116 75 }
 				color2={ 255 255 20 }
 				
 				turkish = "Konya"
@@ -1422,14 +1422,14 @@ e_megale_hellas = {
 		zoroastrian_group = 100 # Crusade target weight
 		
 	
-		d_charsianon = {
-			color={ 237 68 178 }
+		d_cappadocia = {
+			color={ 255 227 215 }
 			color2={ 255 255 20 }
 			
-			capital = 760 # Tyana
+			capital = 737 # Kaisereia
 			
 			c_kaisereia = {
-				color={ 240 71 181 }
+				color={ 239 191 156 }
 				color2={ 255 255 20 }
 				
 				turkish = Kayseri
@@ -1452,32 +1452,8 @@ e_megale_hellas = {
 				b_zoropassos = {
 				}
 			}
-			c_galatia = {
-				color={ 243 74 184 }
-				color2={ 255 255 20 }
-				
-				turkish = "Kirsehir"
-				
-				b_mikissos = {
-					turkish = "Kirsehir"
-				}
-				b_tavia = {
-				}
-				b_asponia = {
-				}
-				b_nyssa = {
-				}
-				b_carissa = {
-				}
-				b_kochisar = {
-				}
-				b_karacaviran = {
-				}
-				b_garsaura = {
-				}
-			}
 			c_tyana = {
-				color={ 246 77 187 }
+				color={ 240 222 208 }
 				color2={ 255 255 20 }
 				
 				turkish = Aksaray
@@ -1501,63 +1477,64 @@ e_megale_hellas = {
 				}
 			}
 		}
-		d_armeniacon = {
-			color={ 255 0 167 }
-			color2={ 255 255 20 }
-			
-			capital = 738 # Amisos
-			
-			c_amisos = {
-				color={ 255 2 169 }
+		d_galatia = {
+			color = { 88 68 200 }
+			color2= { 255 255 255 }
+
+			capital = 753 # Ankyra
+
+			c_ankyra = {
+				color={ 61 34 187 }
 				color2={ 255 255 20 }
 				
-				turkish = "Amasya"
+				turkish = Ankara
 				
-				b_amisos = {
+				b_ankyra = {
+					turkish = Ankara
 				}
-				b_amasia = {
-					turkish = "Amasya"
+				b_germa = {
 				}
-				b_thermodon = {
+				b_akroynon = {
 				}
-				b_eupatoria = {
+				b_gordium = {
 				}
-				b_zela = {
+				b_amorion = {
 				}
-				b_dazimon = {
+				b_gordoservon = {
 				}
-				b_neokaisarea = {
+				b_nakoleia = {
 				}
-				b_phadisane = {
+				b_haymana = {
 				}
 			}
-			c_sinope = {
-				color={ 255 4 171 }
+			c_galatia = {
+				color={ 155 150 205 }
 				color2={ 255 255 20 }
 				
-				b_sinope = {
+				turkish = "Kirsehir"
+				
+				b_mikissos = {
+					turkish = "Kirsehir"
 				}
-				b_pompeiopolis = {
+				b_tavia = {
 				}
-				b_germanicopolis = {
+				b_asponia = {
 				}
-				b_aboniteichos = {
+				b_nyssa = {
 				}
-				b_amastris = {
+				b_carissa = {
 				}
-				b_comana = {
+				b_kochisar = {
 				}
-				b_talaura = {
+				b_karacaviran = {
 				}
-				b_themiscyra = {
+				b_garsaura = {
 				}
 			}
 		}
 		d_paphlagonia = {
 			color={ 234 157 207 }
 			color2={ 255 255 20 }
-			
-			capital = 753 # Ankyra
 			
 			c_paphlagonia = {
 				color={ 231 74 177 }
@@ -1606,42 +1583,37 @@ e_megale_hellas = {
 				b_tium = {
 				}
 			}
-			c_ankyra = {
-				color={ 239 82 185 }
+			c_sinope = {
+				color={ 255 4 171 }
 				color2={ 255 255 20 }
 				
-				turkish = Ankara
-				
-				b_ankyra = {
-					turkish = Ankara
+				b_sinope = {
 				}
-				b_germa = {
+				b_pompeiopolis = {
 				}
-				b_akroynon = {
+				b_germanicopolis = {
 				}
-				b_gordium = {
+				b_aboniteichos = {
 				}
-				b_amorion = {
+				b_amastris = {
 				}
-				b_gordoservon = {
+				b_comana = {
 				}
-				b_nakoleia = {
+				b_talaura = {
 				}
-				b_haymana = {
+				b_themiscyra = {
 				}
 			}
 		}
 		
-		d_trebizond = {
-			color={ 135 50 100 }
+		d_polemoniacus = {
+			color={ 158 203 22 }
 			color2={ 255 255 255 }
 			
 			capital = 678 # Trepezous
 			
-			dignity = 7
-			
 			c_theodosiopolis = {
-				color={ 140 50 100 }
+				color={ 201 231 29 }
 				color2={ 255 255 255 }
 				
 				b_theodosiopolis = {
@@ -1662,7 +1634,7 @@ e_megale_hellas = {
 				}
 			}
 			c_trapezous = {
-				color={ 149 70 110 }
+				color={ 218 232 168 }
 				color2={ 255 255 255 }
 				
 				b_trapezous = {
@@ -1683,7 +1655,7 @@ e_megale_hellas = {
 				}
 			}
 			c_chaldea = {
-				color={ 159 50 90 }
+				color={ 132 169 18 }
 				color2={ 255 255 255 }
 				
 				b_kerasous = {
@@ -1704,6 +1676,30 @@ e_megale_hellas = {
 					turkish = "Sivas"
 				}
 				b_heracleopolis = {
+				}
+			}
+			c_amisos = {
+				color={ 86 132 23 }
+				color2={ 255 255 20 }
+				
+				turkish = "Amasya"
+				
+				b_amisos = {
+				}
+				b_amasia = {
+					turkish = "Amasya"
+				}
+				b_thermodon = {
+				}
+				b_eupatoria = {
+				}
+				b_zela = {
+				}
+				b_dazimon = {
+				}
+				b_neokaisarea = {
+				}
+				b_phadisane = {
 				}
 			}
 		}

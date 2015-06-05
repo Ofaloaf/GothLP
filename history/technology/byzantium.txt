@@ -17,8 +17,6 @@ technology = {
 		d_cibyrrhaeot
 		d_anatolia
 		d_thracesia
-		d_charsianon
-		d_armeniacon
 		d_paphlagonia
 		d_trebizond
 		d_armenia_minor
@@ -26,6 +24,9 @@ technology = {
 		d_mesopotamia
 		d_edessa
 		d_coloneia
+		d_galatia
+		d_polemoniacus
+		d_cappadocia
 		d_kartli
 		d_derbent
 		d_abkhazia
@@ -35,9 +36,9 @@ technology = {
 	}
 	
 	769 = {
-		military = 1.2
-		economy = 1.5
-		culture = 1.5
+		military = 0.5
+		economy = 1.0
+		culture = 1.0
 	}
 		
 	1337 = {
@@ -49,13 +50,14 @@ technology = {
 
 technology = {
 	titles = {
+		d_latium
 		d_thrace
 	}
 
 	769 = {
-		military = 1.2
-		economy = 1.5
-		culture = 1.5
+		military = 1.0
+		economy = 1.3
+		culture = 1.3
 		
 		TECH_FORTIFICATIONS_CONSTRUCTION = 3.0
 		TECH_CASTLE_CONSTRUCTION = 2.0
