@@ -992,6 +992,8 @@ e_italy = {
 			color2={ 255 255 255 }
 
 			german = "Quadenland"
+
+			culture = suebi
 			
 			capital = 358 # Aquileia
 			
@@ -2129,13 +2131,20 @@ e_italy = {
 				color={ 181 43 119 }
 				color2={ 255 255 255 }
 				
+				# Arsia
+
 				greek = "Arsa"
 				
 				b_plav = {
 				}
 				b_pec = {
+					# Pescium
+
+					dalmatian = "Forno"
 				}
 				b_novipazar = {
+					# Arsia
+
 					greek = "Arsa"
 				}
 				b_stupovi = {
@@ -2153,24 +2162,33 @@ e_italy = {
 				color={ 222 105 158 }
 				color2={ 255 255 255 }
 
+				# Singidunum
+
 				greek = "Singidounon"
 				
 				b_belgrade = {
-					# Sigdinium
+					# Singidunum
 
 					greek = "Singidounon"
 				}
 				b_zemun = {
+					# Mallevila
+
+					roman = "Taurunum"
+					greek = "Taurunon"
 				}
 				b_smederevo = {
+					# Vinceia
 				}
 				b_kragujevac = {
+					# Sirmium # Sremska Mitrovica
 				}
 				b_rudnik = {
 				}
 				b_branicevo = {
 				}
 				b_pozarevac = {
+					# Margus
 				}
 				b_lipovic = {
 				}

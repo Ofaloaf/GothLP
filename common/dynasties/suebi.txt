@@ -1,0 +1,39 @@
+713001 = {
+	name = "Gabining"
+	culture = suebi
+}
+
+713002 = {
+	name = "Switering"
+	culture = suebi
+}
+
+713003 = {
+	name = "Hadlaub"
+	culture = suebi
+}
+
+713004 = {
+	name = "Gotthelf"
+	culture = suebi
+}
+
+713005 = {
+	name = "Feger"
+	culture = suebi
+}
+
+713006 = {
+	name = "Notthafft"
+	culture = suebi
+}
+
+713007 = {
+	name = "vo Wolzogen"
+	culture = suebi
+}
+
+713008 = {
+	name = "vo Zimmern"
+	culture = seubi
+}

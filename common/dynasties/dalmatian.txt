@@ -202,3 +202,18 @@
 	name="Zuzori"
 	culture = dalmatian
 }
+
+5000052 = {
+	name = "Gliceriani"
+	culture = dalmatian
+}
+
+5000053 = {
+	name = "de Ladesta"
+	culture = dalmatian
+}
+
+5000054 = {
+	name = "de Chelmo"
+	culture = dalmatian
+}

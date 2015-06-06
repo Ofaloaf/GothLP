@@ -1,0 +1,7 @@
+500.1.1 = {
+	liege = "d_quadia"
+}
+
+763.1.1 = {
+	holder = 3131002 # Tiodor de Ladesta
+}

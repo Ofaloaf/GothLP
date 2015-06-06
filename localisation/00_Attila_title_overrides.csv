@@ -33,6 +33,7 @@ c_bar_adj;Caturigean;;;;;;;;;;;;;x
 c_barcelona_adj;Barcilunan;;;;;;;;;;;;;x
 c_bedford_adj;Verulamian;;;;;;;;;;;;;x
 c_bejaija_adj;Salditanan;;;;;;;;;;;;;x
+c_belgrade_adj;Singidunan;;;;;;;;;;;;;x
 c_besancon_adj;Vesontian;;;;;;;;;;;;;x
 c_biskra_adj;Vesceran;;;;;;;;;;;;;x
 c_bizerte_adj;Zarytan;;;;;;;;;;;;;x
@@ -74,6 +75,7 @@ c_french_leon_adj;Legionensian;;;;;;;;;;;;;x
 c_gevaudan_adj;Gabalitannic;;;;;;;;;;;;;x
 c_gloucester_adj;Glouvian;;;;;;;;;;;;;x
 c_guines_adj;Ghisnaean;;;;;;;;;;;;;x
+c_hum_adj;Arsian;;;;;;;;;;;;;x
 c_julich_adj;Juliacan;;;;;;;;;;;;;x
 c_kairouan_adj;Capsan;;;;;;;;;;;;;x
 c_kent_adj;Cantian;;;;;;;;;;;;;x
@@ -285,6 +287,7 @@ b_beauvais;Bellovacum;;;;;;;;;;;;;x
 b_beja;Paca;;;;;;;;;;;;;x
 b_bejaija;Saldae;;;;;;;;;;;;;x
 b_belfort;Bellumfortum;;;;;;;;;;;;;x
+b_belgrade;Singidunum;;;;;;;;;;;;;x
 b_bellac;Bellacum;;;;;;;;;;;;;x
 b_bellinzona;Bilitio;;;;;;;;;;;;;x
 b_bembibre;Interamnium;;;;;;;;;;;;;x
@@ -631,6 +634,7 @@ b_klis;Clissa;;;;;;;;;;;;;x
 b_knin;Tinum;;;;;;;;;;;;;x
 b_konstanz;Constantia;;;;;;;;;;;;;x
 b_koprivnica;Copriunisa;;;;;;;;;;;;;x
+b_kragujevac;Sirmium;;;;;;;;;;;;;x
 b_krems;Cremisa;;;;;;;;;;;;;x
 b_krizevci;Crisium;;;;;;;;;;;;;x
 b_krk;Curicum;;;;;;;;;;;;;x
@@ -836,6 +840,7 @@ b_norwich;Went;;;;;;;;;;;;;x
 b_novara;Novaria;;;;;;;;;;;;;x
 b_novellara;Nubilaria;;;;;;;;;;;;;x
 b_novigrad;Burnum;;;;;;;;;;;;;x
+b_povipazar;Arsia;;;;;;;;;;;;;x
 b_noyon;Noviomagus;;;;;;;;;;;;;x
 b_nules;Nullis;;;;;;;;;;;;;x
 b_nusaybin;Nisibin;;;;;;;;;;;;;x
@@ -866,6 +871,7 @@ b_parthenay;Parthiniacum;;;;;;;;;;;;;x
 b_passau;Batavis;;;;;;;;;;;;;x
 b_pau;Palum;;;;;;;;;;;;;x
 b_pavia;Papia;;;;;;;;;;;;;x
+b_pec;Pescium;;;;;;;;;;;;;x
 b_pedondo;Langobriga;;;;;;;;;;;;;x
 b_penafiel;Pinnafidelis;;;;;;;;;;;;;x
 b_penela;Talabriga;;;;;;;;;;;;;x
@@ -897,6 +903,7 @@ b_porhoet;Transsylvam;;;;;;;;;;;;;x
 b_portalegre;Abelterium;;;;;;;;;;;;;x
 b_portchester;Portus Adurni;;;;;;;;;;;;;x
 b_porto;Portus Cale;;;;;;;;;;;;;x
+b_pozarevac;Margus;;;;;;;;;;;;;x
 b_pozega;Incerum;;;;;;;;;;;;;x
 b_prada;Prata;;;;;;;;;;;;;x
 b_pressburg;Biatec;;;;;;;;;;;;;x
@@ -1006,6 +1013,7 @@ b_sisak;Segestica;;;;;;;;;;;;;x
 b_sisteron;Segustero;;;;;;;;;;;;;x
 b_skalitz;Zaculcza;;;;;;;;;;;;;x
 b_skipton;Isurium;;;;;;;;;;;;;x
+b_smederevo;Vinceia;;;;;;;;;;;;;x
 b_soissons;Suessionum;;;;;;;;;;;;;x
 b_solin;Salona;;;;;;;;;;;;;x
 b_solsona;Setelsis;;;;;;;;;;;;;x
@@ -1162,6 +1170,7 @@ b_zadar;Jadera;;;;;;;;;;;;;x
 b_zagreb;Andautonia;;;;;;;;;;;;;x
 b_zamora;Ocellodurum;;;;;;;;;;;;;x
 b_zaragoza;Caesaraugusta;;;;;;;;;;;;;x
+b_zemun;Mallevila;;;;;;;;;;;;;x
 b_zrin;Varianis;;;;;;;;;;;;;x
 b_zvornik;Drinum;;;;;;;;;;;;;x
 b_zweibrucken;Buconica;;;;;;;;;;;;;x
@@ -1379,7 +1388,9 @@ PROV463;Vozora;;;;;;;;;;;;;x
 PROV464;Senia;;;;;;;;;;;;;x
 PROV465;Jadera;;;;;;;;;;;;;x
 PROV467;Spalatum;;;;;;;;;;;;;x
+PROV503;Arsia;;;;;;;;;;;;;x
 PROV504;Domavium;;;;;;;;;;;;;x
+PROV505;Singidunum;;;;;;;;;;;;;x
 PROV522;Aquincum;;;;;;;;;;;;;x
 PROV684;Nisibis;;;;;;;;;;;;;x
 PROV693;Ctesiphon;;;;;;;;;;;;;x
