@@ -1,0 +1,6 @@
+500.1.1 = {
+	liege = "k_africa"
+}
+761.1.1 = {
+	holder = 4449001 # Gildon Pisciu
+}

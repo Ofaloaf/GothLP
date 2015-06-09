@@ -872,7 +872,7 @@ e_germany = {
 			latine = "Agri Decumates"
 			gallic = "Agri Decumates"
 			hispani = "Agri Decumates"
-			jovian = "Decumatia"
+			#jovian = "Decumatia"
 			brithenig = "Decumatia"
 			greek = "Decumatia"
 
@@ -889,11 +889,12 @@ e_germany = {
 				latine = "Aquensis"
 				gallic = "Aquensis"
 				hispani = "Aquensis"
-				jovian = "Aquensis"
+				#jovian = "Aquensis"
 				brithenig = "Aquensis"
 				greek = "Aquensis"
 
 				boarisch = "Bodn"
+				suebi = "Bade"
 				gothic = "Aquensis"
 				#gothicromance = "Aquensis"
 			
@@ -902,11 +903,12 @@ e_germany = {
 					latine = "Aquae"
 					gallic = "Aquae"
 					hispani = "Aquae"
-					jovian = "Aquae"
+					#jovian = "Aquae"
 					brithenig = "Aquae"
 					greek = "Aquae"
 
 					boarisch = "Bodn"
+					suebi = "Bade"
 					gothic = "Aquae"
 					#gothicromance = "Aquae"
 				}
@@ -928,10 +930,11 @@ e_germany = {
 					latine = "Caleua"
 					gallic = "Caleua"
 					hispani = "Caleua"
-					jovian = "Calewa"
+					#jovian = "Calewa"
 					brithenig = "Calewa"
 					greek = "Caleua"
 
+					suebi = "Calb"
 					gothic = "Calewa"
 					#gothicromance = "Caleua"
 				}
@@ -940,16 +943,18 @@ e_germany = {
 					latine = "Portus"
 					gallic = "Portus"
 					hispani = "Portus"
-					jovian = "Pondeima" # Jovian 'Ponde' - 'Pons'/Bridge + latinized 'heim'
+					#jovian = "Pondeima" # #jovian 'Ponde' - 'Pons'/Bridge + latinized 'heim'
 					brithenig = "Portus"
 					greek = "Portus"
 
+					suebi = "Pforze"
 					gothic = "Portuhaim" # 'Portus' + gothic 'Haim'
 					#gothicromance = "Pordaim"
 				}
 				b_durlach = {
 				}
 				b_rastatt = {
+					suebi = "Raschdi"
 				}
 				b_neuhausen = {
 				}
@@ -962,23 +967,29 @@ e_germany = {
 
 				german = "Breisgau"
 				gothic = "Breisgawi"
-				suebi = "Breisgawi"
+				suebi = "Briisgau"
 		
 				b_freiburg = {
+					suebi = "Friburg"
 				}
 				b_stblasien = {
 				}
 				b_offenburg = {
+					suebi = "Offäburg"
 				}
 				b_zahringen = {
+					suebi = "Zähringe"
 				}
 				b_lahr = {
+					suebi = "Lohr"
 				}
 				b_lohrrach = {
 				}
 				b_breisach = {
+					suebi = "Brisach"
 				}
 				b_rottweil = {
+					suebi = "Rautweil"
 				}
 			}
 		}
@@ -1018,8 +1029,10 @@ e_germany = {
 				b_hohenberg = {
 				}
 				b_friedrichshafen = {
+					suebi = "Fridrichshafe"
 				}
 				b_wangen = {
+					suebi = "Wãnge"
 				}
 				b_lindau = {
 					suebi = "Lindou"
@@ -1033,7 +1046,7 @@ e_germany = {
 				latine = "Guntia"
 				gallic = "Guntia"
 				hispani = "Guntia"
-				jovian = "Guntia"
+				#jovian = "Guntia"
 				brithenig = "Guntia"
 				greek = "Guntia"
 
@@ -1045,7 +1058,7 @@ e_germany = {
 					latine = "Guntia"
 					gallic = "Guntia"
 					hispani = "Guntia"
-					jovian = "Guntia"
+					#jovian = "Guntia"
 					brithenig = "Guntia"
 					greek = "Guntia"
 
@@ -1083,6 +1096,7 @@ e_germany = {
 				color2={ 255 255 255 }
 			
 				b_furstenberg = {
+					suebi = "Firschteberg"
 				}
 				b_villingen = {
 					suebi = "Villinge"
@@ -1272,32 +1286,6 @@ e_germany = {
 			color = { 153 122 108 }
 			color2= { 255 255 255 }
 
-			c_schwyz = {
-				color={ 169 112 92 }
-				color2={ 255 255 255 }
-				
-				b_schwyz = {
-					# Suittes
-					gothic = "Suuites"
-					suebi = "Suuites"
-
-					german = "Schwyz"
-				}
-				b_engelberg = {
-				}
-				b_zurich = {
-				}
-				b_zug = {
-				}
-				b_altdorf = {
-				}
-				b_stans = {
-				}
-				b_glarus = {
-				}
-				b_winterthur = {
-				}
-			}
 			c_neuchatel = {
 				color={ 124 98 86 }
 				color2={ 255 255 255 }
@@ -1423,6 +1411,50 @@ e_germany = {
 			color = { 99 134 164 }
 			color2= { 255 255 255 }
 
+			c_schwyz = {
+				color={ 169 112 92 }
+				color2={ 255 255 255 }
+
+				# Suittes
+				gothic = "Suuites"
+				suebi = "Suuites"
+
+				german = "Schwyz"
+				
+				b_schwyz = {
+					# Suittes
+					gothic = "Suuites"
+					suebi = "Suuites"
+
+					german = "Schwyz"
+				}
+				b_engelberg = {
+				}
+				b_zurich = {
+					# Turicum
+
+					suebi = "Züri"
+					boarisch = "Zirich"
+
+					gothic = "Turigum"
+					#gothicromance = "Ziurichi"
+				}
+				b_zug = {
+					# Tugium
+
+					suebi = "Zug"
+					boarisch = "Zug"
+					german = "Zug"
+				}
+				b_altdorf = {
+				}
+				b_stans = {
+				}
+				b_glarus = {
+				}
+				b_winterthur = {
+				}
+			}
 			c_grisons = {
 				color={ 255 241 230 }
 				color2={ 255 255 255 }
@@ -1480,14 +1512,30 @@ e_germany = {
 			c_st_gallen = {
 				color={ 85 80 85 }
 				color2={ 255 255 255 }
+
+				# Gallonis
+
+				suebi = "Sanggale"
 		
 				b_rheineck = {
+					# Rinegge
+
+					suebi = "Rhinegg"
+					german = "Rheineck"
 				}
 				b_stgallen = {
+					# Gallonis
+
+					suebi = "Sanggale"
 				}
 				b_appenzell = {
+					# Abbatiscella
+
+					german = "Appenzell"
+					suebi = "Appezäll"
 				}
 				b_frauenfeld = {
+					suebi = "Frauefäld"
 				}
 				b_altstatten = {
 				}
@@ -1501,22 +1549,49 @@ e_germany = {
 			c_chur = {
 				color={ 87 87 87 }
 				color2={ 255 255 255 }
+
+				# Curia
+
+				suebi = "Khûr"
+				boarisch = "Chur"
+				german = "Chur"
 			
 				b_chur = {
+					# Curia
+
+					suebi = "Khûr"
+					boarisch = "Chur"
+					german = "Chur"
 				}
 				b_churwalden = {
+					# Augeria
 				}
 				b_davos = {
+					# Tavaus
+
+					latine = "Tavate"
+					german = "Davos"
+					boarisch = "Davos"
+					suebi = "Davos"
 				}
 				b_maienfeld = {
+					# Lupinis
+
+					#gothicromance = "Lopine"
 				}
 				b_illanz = {
 				}
 				b_thusis = {
+					# Tosana
+
+					suebi = "Thusis"
+					boarisch = "Thusis"
+					german = "Thusis"
 				}
 				b_glurns = {
 				}
 				b_zuoz = {
+					# Zuzes
 				}
 			}
 		}

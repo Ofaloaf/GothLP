@@ -1,0 +1,7 @@
+500.1.1 = {
+	liege = "k_gothia"
+}
+
+763.1.1 = {
+	holder = 1789020 # Acius Lero
+}

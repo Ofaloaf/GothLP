@@ -219,6 +219,7 @@ b_angouleme;Ecolisima;;;;;;;;;;;;;x
 b_annabah;Hippo Regius;;;;;;;;;;;;;x
 b_anse;Ansa;;;;;;;;;;;;;x
 b_aosta;Augusta;;;;;;;;;;;;;x
+b_appenzell;Abbatiscella;;;;;;;;;;;;;x
 b_apt;Apta;;;;;;;;;;;;;x
 b_arandadeduero;Revendeca;;;;;;;;;;;;;x
 b_arcosdevaldevez;Aquae Leae;;;;;;;;;;;;;x
@@ -428,6 +429,8 @@ b_chinon;Chinonium;;;;;;;;;;;;;x
 b_chioggia;Clodia;;;;;;;;;;;;;x
 b_chiva;Turia;;;;;;;;;;;;;x
 b_cholet;Cauletum;;;;;;;;;;;;;x
+b_chur;Curia;;;;;;;;;;;;;x
+b_churwalden;Augeria;;;;;;;;;;;;;x
 b_ciamberi;Lemencum;;;;;;;;;;;;;x
 b_cilli;Celeia;;;;;;;;;;;;;x
 b_cirencester;Corinium;;;;;;;;;;;;;x
@@ -467,6 +470,7 @@ b_crozant;Crosus;;;;;;;;;;;;;x
 b_cuneo;Cuneum;;;;;;;;;;;;;x
 b_curtatone;Curtato;;;;;;;;;;;;;x
 b_daroca;Agiria;;;;;;;;;;;;;x
+b_davos;Tavaus;;;;;;;;;;;;;x
 b_dax;Aquensium;;;;;;;;;;;;;x
 b_denia;Dianum;;;;;;;;;;;;;x
 b_deols;Dolus;;;;;;;;;;;;;x
@@ -722,6 +726,7 @@ b_mahdia;Africa;;;;;;;;;;;;;x
 b_mahon;Magonis;;;;;;;;;;;;;x
 b_makarska;Maccurum;;;;;;;;;;;;;x
 b_maiche;Maches;;;;;;;;;;;;;x
+b_maienfeld;Lupinis;;;;;;;;;;;;;x
 b_maillezais;Malleacum;;;;;;;;;;;;;x
 b_maldon;Othona;;;;;;;;;;;;;x
 b_malmesbury;Bladon;;;;;;;;;;;;;x
@@ -925,6 +930,7 @@ b_reinosa;Renosa;;;;;;;;;;;;;x
 b_rennes;Redonum;;;;;;;;;;;;;x
 b_rethel;Reistete;;;;;;;;;;;;;x
 b_reus;Reddis;;;;;;;;;;;;;x
+b_rheineck;Rinegge;;;;;;;;;;;;;x
 b_richmond;Petuaria;;;;;;;;;;;;;x
 b_roanne;Rodumna;;;;;;;;;;;;;x
 b_rocamadour;Rocamaior;;;;;;;;;;;;;x
@@ -1043,6 +1049,7 @@ b_stdenis;Dionysiacum;;;;;;;;;;;;;x
 b_stenay;Epoissum;;;;;;;;;;;;;x
 b_sterzing;Vipitenum;;;;;;;;;;;;;x
 b_stetienne;Stephaniacus;;;;;;;;;;;;;x
+b_stgallen;Gallonis;;;;;;;;;;;;;x
 b_stgeorgesdubois;Georgiacum;;;;;;;;;;;;;x
 b_stjeandangely;Angeliacum;;;;;;;;;;;;;x
 b_stmaixent;Agapitiacum;;;;;;;;;;;;;x
@@ -1073,6 +1080,7 @@ b_thiers;Thiermum;;;;;;;;;;;;;x
 b_thionville;Theodonisvilla;;;;;;;;;;;;;x
 b_thiviers;Trivio;;;;;;;;;;;;;x
 b_thouars;Toarcis;;;;;;;;;;;;;x
+b_thusis;Tosana;;;;;;;;;;;;;x
 b_tigzirt;Iomnium;;;;;;;;;;;;;x
 b_tittmoning;Titamanninga;;;;;;;;;;;;;x
 b_toledo;Toletum;;;;;;;;;;;;;x
@@ -1172,6 +1180,9 @@ b_zamora;Ocellodurum;;;;;;;;;;;;;x
 b_zaragoza;Caesaraugusta;;;;;;;;;;;;;x
 b_zemun;Mallevila;;;;;;;;;;;;;x
 b_zrin;Varianis;;;;;;;;;;;;;x
+b_zug;Tugium;;;;;;;;;;;;;x
+b_zuoz;Zuzes;;;;;;;;;;;;;x
+b_zurich;Turicum;;;;;;;;;;;;;x
 b_zvornik;Drinum;;;;;;;;;;;;;x
 b_zweibrucken;Buconica;;;;;;;;;;;;;x
 b_zwiefalten;Zwivaltum;;;;;;;;;;;;;x
@@ -1344,6 +1355,8 @@ PROV241;Nuvenburch;;;;;;;;;;;;;x
 PROV242;Argovia;;;;;;;;;;;;;x
 PROV245;Suittes;;;;;;;;;;;;;x
 PROV246;Grisonia;;;;;;;;;;;;;x
+PROV247;Curia;;;;;;;;;;;;;x
+PROV248;Gallonis;;;;;;;;;;;;;x
 PROV250;Brisgavia;;;;;;;;;;;;;x
 PROV254;Uburzis;;;;;;;;;;;;;x
 PROV259;Wigmodia;;;;;;;;;;;;;x

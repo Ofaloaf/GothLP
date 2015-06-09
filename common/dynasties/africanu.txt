@@ -212,3 +212,13 @@
 	name = "di Jovis"
 	culture = africanu
 }
+
+1337044 = {
+	name = "Pisciu"
+	culture = africanu
+}
+
+1337045 = {
+	name = "Siriti"
+	culture = africanu
+}

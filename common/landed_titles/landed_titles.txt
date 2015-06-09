@@ -3187,7 +3187,7 @@ e_wendish_empire = {
 	}
 
 	k_poland = {
-		color={ 150 23 23 }
+		color={ 197 92 106 }
 		color2={ 200 0 0 }
 		
 		capital = 527 # Krakowskie
@@ -7504,7 +7504,7 @@ e_tartaria = {
 	}
 
 	k_taurica = {
-		color={ 188 91 154 }
+		color={ 61 8 81 }
 		color2={ 255 255 20 }
 		
 		capital = 560 # Cherson

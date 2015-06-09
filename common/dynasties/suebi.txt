@@ -29,11 +29,61 @@
 }
 
 713007 = {
-	name = "vo Wolzogen"
+	name = "vu Wolzogen"
 	culture = suebi
 }
 
 713008 = {
-	name = "vo Zimmern"
+	name = "vu Zimmern"
 	culture = seubi
+}
+
+713009 = {
+	name = "Gabretanus"
+	culture = suebi
+}
+
+713010 = {
+	name = "Mugilon"
+	culture = suebi
+}
+
+713011 = {
+	name = "Butone"
+	culture = suebi
+}
+
+713012 = {
+	name = "Marsigner"
+	culture = suebi
+}
+
+713013 = {
+	name = "vu Heunburg"
+	culture = suebi
+}
+
+713014 = {
+	name = "vu Mähre"
+	culture = suebi
+}
+
+713015 = {
+	name = "vu Sülchen-Backnang"
+	culture = suebi
+}
+
+713016 = {
+	name = "vu Wolfsölden"
+	culture = suebi
+}
+
+713017 = {
+	name = "vu Dibenga"
+	culture = suebi
+}
+
+713018 = {
+	name = "vu Egisheim"
+	culture = suebi
 }

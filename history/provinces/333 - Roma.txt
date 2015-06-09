@@ -5,13 +5,13 @@ title = c_roma
 
 # Settlements
 max_settlements = 7
-b_roma = temple
 b_tusculum = castle
-b_viterbo = city
+b_roma = temple
+b_ostia = city
 #b_terracina = castle
 b_tivoli = castle
 #b_aragni = castle
-#b_ostia = castle
+#b_viterbo = city
 #b_sutri = castle
 
 # Misc

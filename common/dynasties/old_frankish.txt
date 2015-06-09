@@ -1,0 +1,64 @@
+1999001 = {
+	name = "Ragnaring"
+	culture = old_frankish
+}
+
+1999002 = {
+	name = "Chararicing"
+	culture = old_frankish
+}
+
+1999003 = {
+	name = "Sigiberting"
+	culture = old_frankish
+}
+
+1999004 = {
+	name = "Chattus"
+	culture = old_frankish
+}
+
+1999005 = {
+	name=  "Chattuarius"
+	culture = old_frankish
+}
+
+1999006 = {
+	name = "Chasuarius"
+	culture = old_frankish
+}
+
+1999007 = {
+	name = "Cheruscus"
+	culture = old_frankish
+}
+
+1999008 = {
+	name = "Tencterus"
+	culture = old_frankish
+}
+
+1999009 = {
+	name = "Usipus"
+	culture = old_frankish
+}
+
+1999010 = {
+	name = "Bructerus"
+	culture = old_frankish
+}
+
+1999011 = {
+	name = "Camavus"
+	culture = old_frankish
+}
+
+1999012 = {
+	name = "Ghiselbertianus"
+	culture = old_frankish
+}
+
+1999013 = {
+	name = "Salius"
+	culture = old_frankish
+}
