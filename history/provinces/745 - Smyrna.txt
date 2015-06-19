@@ -18,7 +18,7 @@ b_klazomeanai = city
 
 # Misc
 culture = greek
-religion = nicene
+religion = orthodox
 terrain = hills
 
 

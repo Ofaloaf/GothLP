@@ -16,6 +16,6 @@ b_chounavia = temple
 #b_beat = castle
 
 # Misc
-culture = greek
-religion = nicene
+culture = traki
+religion = orthodox
 terrain = mountain

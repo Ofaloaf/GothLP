@@ -1,0 +1,154 @@
+5553001 = {
+	name = "Semaan"
+	culture = rumi_arabic
+}
+
+5553002 = {
+	name = "Chumor"
+	culture = rumi_arabic
+}
+
+5553003 = {
+	name = "Jabla"
+	culture = rumi_arabic
+}
+
+5553004 = {
+	name = "Shash"
+	culture = rumi_arabic
+}
+
+5553005 = {
+	name = "Issayi"
+	culture = rumi_arabic
+}
+
+5553006 = {
+	name = "Khofri"
+	culture = rumi_arabic
+}
+
+5553007 = {
+	name = "Ayyad"
+	culture = rumi_arabic
+}
+
+5553008 = {
+	name = "Ghattas"
+	culture = rumi_arabic
+}
+
+5553009 = {
+	name = "Sabbah"
+	culture = rumi_arabic
+}
+
+5553010 = {
+	name = "Chacour"
+	culture = rumi_arabic
+}
+
+5553011 = {
+	name = "Khalfunid"
+	culture = rumi_arabic
+}
+
+5553012 = {
+	name = "Mufarragid"
+	culture = rumi_arabic
+}
+
+5553013 = {
+	name = "Sawdanid"
+	culture = rumi_arabic
+}
+
+5553014 = {
+	name = "Shuaybid"
+	culture = rumi_arabic
+}
+
+5553015 = {
+	name = "Ballutid"
+	culture = rumi_arabic
+}
+
+5553016 = {
+	name = "al-Khurasani"
+	culture = rumi_arabic
+}
+
+5553017 = {
+	name = "Rabdi"
+	culture = rumi_arabic
+}
+
+5553018 = {
+	name = "al-Khandaq"
+	culture = rumi_arabic
+}
+
+5553019 = {
+	name = "Babdelid"
+	culture = rumi_arabic
+}
+
+5553020 = {
+	name = "Saetid"
+	culture = rumi_arabic
+}
+
+5553021 = {
+	name = "Apohapsid"
+	culture = rumi_arabic
+}
+
+5553022 = {
+	name = "Kouroupasid"
+	culture = rumi_arabic
+}
+
+5553023 = {
+	name = "al-Iqritishi"
+	culture = rumi_arabic
+}
+
+5553024 = {
+	name = "al-Ghaliz"
+	culture = rumi_arabic
+}
+
+5553025 = {
+	name = "al-Zarkun"
+	culture = rumi_arabic
+}
+
+5553026 = {
+	name = "Al-Kayyali"
+	culture = rumi_arabic
+}
+
+5553027 = {
+	name = "Al-Anqarahi"
+	culture = rumi_arabic
+}
+
+5553028 = {
+	name = "Al-Yunani"
+	culture = rumi_arabic
+}
+
+5553029 = {
+	name = "Al-Hawwash"
+	culture = rumi_arabic
+}
+
+5553030 = {
+	name = "Barakat"
+	culture = rumi_arabic
+}
+
+5553031 = {
+	name = "al-Dandachi"
+	culture = rumi_arabic
+}

@@ -19,7 +19,7 @@ b_kiparissia = temple
 
 # Misc
 culture = greek
-religion = nicene
+religion = orthodox
 terrain = hills
 
 

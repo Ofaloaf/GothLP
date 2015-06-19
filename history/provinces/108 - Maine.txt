@@ -16,5 +16,5 @@ b_laval = city
 
 # Misc
 culture = gallic
-religion = nicene
+religion = orthodox
 

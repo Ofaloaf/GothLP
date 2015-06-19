@@ -18,4 +18,4 @@ b_kula = city
 
 # Misc
 culture = romanian
-religion = nicene
+religion = orthodox

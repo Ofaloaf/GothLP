@@ -17,4 +17,4 @@ b_tulmaytath = castle
 
 # Misc
 culture = maghreb_arabic
-religion = nicene
+religion = orthodox

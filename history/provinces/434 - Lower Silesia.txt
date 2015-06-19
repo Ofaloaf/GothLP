@@ -1,0 +1,20 @@
+# 434 - Lower Silesia
+
+# County Title
+title = c_lower_silesia
+
+# Settlements
+max_settlements = 5
+b_glogow = tribal
+#b_krosno = city
+#b_legnica = temple
+
+#b_jawor = castle
+#b_lwowek = castle
+#b_swidnica = city
+#b_boleslawiec = castle
+#b_zagan = castle 
+
+# Misc
+culture = alan
+religion = tengri_pagan

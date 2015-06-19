@@ -17,4 +17,4 @@ b_sidiakacha = castle
 
 # Misc
 culture = africanu
-religion = nicene
+religion = orthodox

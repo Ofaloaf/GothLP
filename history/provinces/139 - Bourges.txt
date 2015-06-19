@@ -17,5 +17,5 @@ b_chateauroux = city
 
 #Misc
 culture = gallic
-religion = nicene
+religion = orthodox
 

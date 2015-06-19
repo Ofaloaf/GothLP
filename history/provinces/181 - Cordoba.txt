@@ -15,6 +15,6 @@ b_andujar = castle
 #b_canetedelastorres = castle
 
 culture = hispani
-religion = nicene
+religion = orthodox
 
 # History

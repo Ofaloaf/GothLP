@@ -17,5 +17,5 @@ b_nimes = city
 #b_beaucaire = castle
 
 #Misc
-religion = nicene
+religion = orthodox
 culture = gallic

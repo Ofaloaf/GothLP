@@ -16,4 +16,4 @@ b_disentis = temple
 
 # Misc
 culture = latine
-religion = nicene
+religion = catholic

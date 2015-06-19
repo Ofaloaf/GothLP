@@ -17,5 +17,5 @@ b_kilifarevski = temple
 #b_maglizh = castle
 
 # Misc
-culture = greek
-religion = nicene
+culture = traki
+religion = orthodox

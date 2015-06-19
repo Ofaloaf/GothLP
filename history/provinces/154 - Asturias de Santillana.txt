@@ -16,4 +16,4 @@ b_laredo = temple
 
 # Misc
 culture = gallaecian
-religion = nicene
+religion = orthodox

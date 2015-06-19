@@ -17,5 +17,5 @@ b_rila = temple
 #b_samundzhievo = castle
 
 # Misc
-culture = greek
-religion = nicene
+culture = traki
+religion = orthodox

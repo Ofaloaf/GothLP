@@ -17,6 +17,6 @@ b_albi = temple
 #b_agde = city
 
 #Misc
-religion = nicene
+religion = orthodox
 culture = gallic
 

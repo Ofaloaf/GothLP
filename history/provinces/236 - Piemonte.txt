@@ -17,4 +17,4 @@ b_settimo = temple
 
 # Misc
 culture = latine
-religion = nicene
+religion = catholic

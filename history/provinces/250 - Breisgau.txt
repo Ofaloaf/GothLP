@@ -17,7 +17,7 @@ b_stblasien = temple
 
 # Misc
 culture = suebi
-religion = nicene
+religion = catholic
 
 # History
 

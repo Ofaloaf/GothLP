@@ -16,7 +16,7 @@ b_eilat = castle
 #b_urim = castle
 
 # Misc
-culture = assyrian
-religion = nestorian
+culture = bedouin_arabic
+religion = sunni
 
 # History

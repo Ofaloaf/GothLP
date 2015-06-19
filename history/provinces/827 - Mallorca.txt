@@ -16,5 +16,5 @@ b_eivissa = city
 
 # Misc
 culture = hispani
-religion = nicene
+religion = orthodox
 terrain = mountain

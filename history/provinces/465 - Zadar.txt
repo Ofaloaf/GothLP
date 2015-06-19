@@ -17,5 +17,5 @@ b_knin = temple
 
 # Misc
 culture = dalmatian
-religion = nicene
+religion = catholic
 

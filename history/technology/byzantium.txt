@@ -18,7 +18,7 @@ technology = {
 		d_anatolia
 		d_thracesia
 		d_paphlagonia
-		d_trebizond
+		d_polemoniacus
 		d_armenia_minor
 		d_armenia
 		d_mesopotamia

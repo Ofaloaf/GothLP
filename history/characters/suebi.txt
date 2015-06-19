@@ -1,7 +1,7 @@
 1313001 = {
 	name="Odericus"
 	dynasty=713001 # Gabining
-	religion=nicene
+	religion=catholic
 	culture=suebi
 	diplomacy=7
 	martial=9
@@ -10,21 +10,17 @@
 	learning=5
 	trait=humble
 	733.1.1={
-
 		birth=yes
-
 	}
 	800.1.1={
 		death=yes
-
 	}
-
 }
 
 1313002 = {
 	name = "Hildemir"
 	dynasty=713005 # Feger
-	religion=nicene
+	religion=catholic
 	culture=suebi
 	diplomacy=7
 	martial=7
@@ -33,13 +29,10 @@
 	learning=6
 	trait=shy
 	733.1.1={
-
 		birth=yes
-
 	}
 	800.1.1={
 		death=yes
 
 	}
-
 }

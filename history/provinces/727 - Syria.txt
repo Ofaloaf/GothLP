@@ -17,5 +17,5 @@ b_adra = temple
 #b_baly = castle
 
 # Misc
-culture = assyrian
-religion = nestorian
+culture = levantine_arabic
+religion = sunni

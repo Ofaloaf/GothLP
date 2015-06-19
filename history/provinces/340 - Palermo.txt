@@ -17,4 +17,4 @@ b_gratteri = castle
 
 # Misc
 culture = greek
-religion = nicene
+religion = catholic

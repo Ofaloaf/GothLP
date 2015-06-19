@@ -16,4 +16,4 @@ b_guadix = city
 #b_huelma = castle
 
 culture = hispani
-religion = nicene
+religion = orthodox

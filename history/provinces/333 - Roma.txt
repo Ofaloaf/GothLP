@@ -5,8 +5,8 @@ title = c_roma
 
 # Settlements
 max_settlements = 7
-b_tusculum = castle
 b_roma = temple
+b_tusculum = castle
 b_ostia = city
 #b_terracina = castle
 b_tivoli = castle
@@ -16,4 +16,4 @@ b_tivoli = castle
 
 # Misc
 culture = latine
-religion = nicene
+religion = catholic

@@ -17,5 +17,5 @@ b_chancelade = temple
 #b_perigueux = city
 
 #Misc
-religion = nicene
+religion = orthodox
 culture = gallic

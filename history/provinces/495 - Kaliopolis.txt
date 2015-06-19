@@ -17,4 +17,4 @@ b_madyta = city
 
 # Misc
 culture = greek
-religion = nicene
+religion = orthodox

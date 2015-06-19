@@ -16,4 +16,4 @@ b_staines = castle
 
 # Misc
 culture = brithenig
-religion = hellenic_pagan
+religion = arian

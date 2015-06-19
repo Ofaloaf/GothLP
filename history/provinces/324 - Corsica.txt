@@ -16,5 +16,5 @@ b_bonifacio = temple
 
 # Misc
 culture = latine
-religion = nicene
+religion = orthodox
 terrain = mountain

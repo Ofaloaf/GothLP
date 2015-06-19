@@ -16,5 +16,5 @@ b_ossiach = temple
 #b_pettau = castle
 
 # Misc
-culture = dalmatian
-religion = nicene
+culture = carantanian
+religion = slavic_pagan

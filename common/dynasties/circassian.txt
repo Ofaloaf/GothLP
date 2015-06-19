@@ -1,0 +1,199 @@
+3336001 = {
+	name = "Natkho"
+	culture = circassian
+}
+
+3336002 = {
+	name = "Kyzbech"
+	culture = circassian
+}
+
+3336003 = {
+	name = "Kosho"
+	culture = circassian
+}
+
+3336004 = {
+	name = "Pshedatok"
+	culture = circassian
+}
+
+3336005 = {
+	name = "Shhalakhwa"
+	culture = circassian
+}
+
+3336006 = {
+	name = "Jan"
+	culture = circassian
+}
+
+3336007 = {
+	name = "T'harkakhwa"
+	culture = circassian
+}
+
+3336008 = {
+	name = "Kwiej"
+	culture = circassian
+}
+
+3336009 = {
+	name = "Hadagha"
+	culture = circassian
+}
+
+3336010 = {
+	name = "Meesha"
+	culture = circassian
+}
+
+3336011 = {
+	name = "Hatough"
+	culture = circassian
+}
+
+3336012 = {
+	name = "Naghoj"
+	culture = circassian
+}
+
+3336013 = {
+	name = "Tamokh"
+	culture = circassian
+}
+
+3336014 = {
+	name = "Khorma"
+	culture = circassian
+}
+
+3336015 = {
+	name = "Bghana"
+	culture = circassian
+}
+
+3336016 = {
+	name = "Shawash"
+	culture = circassian
+}
+
+3336017 = {
+	name = "Shoupash"
+	culture = circassian
+}
+
+3336018 = {
+	name = "Abrag"
+	culture = circassian
+}
+
+3336019 = {
+	name = "Sagas"
+	culture = circassian
+}
+
+3336020 = {
+	name = "Showgan"
+	culture = circassian
+}
+
+3336021 = {
+	name = "Choshha"
+	culture = circassian
+}
+
+3336022 = {
+	name = "Shamsi"
+	culture = circassian
+}
+
+3336023 = {
+	name = "Hakho"
+	culture = circassian
+}
+
+3336024 = {
+	name = "Hadish"
+	culture = circassian
+}
+
+3336025 = {
+	name = "Hazal"
+	culture = circassian
+}
+
+3336026 = {
+	name = "Gorkhezh"
+	culture = circassian
+}
+
+3336027 = {
+	name = "Thawcho"
+	culture = circassian
+}
+
+3336028 = {
+	name = "Napso"
+	culture = circassian
+}
+
+3336029 = {
+	name = "Nago"
+	culture = circassian
+}
+
+3336030 = {
+	name = "Labai"
+	culture = circassian
+}
+
+3336031 = {
+	name = "Lauz"
+	culture = circassian
+}
+
+3336032 = {
+	name = "Qatizh"
+	culture = circassian
+}
+
+3336033 = {
+	name = "Qal"
+	culture = circassian
+}
+
+3336034 = {
+	name = "Kobla"
+	culture = circassian
+}
+
+3336035 = {
+	name = "Zazi"
+	culture = circassian
+}
+
+3336036 = {
+	name = "Batwash"
+	culture = circassian
+}
+
+3336037 = {
+	name = "Blanghaps"
+	culture = circassian
+}
+
+3336038 = {
+	name = "Bzhehaqo"
+	culture = circassian
+}
+
+3336039 = {
+	name = "Ashmuz"
+	culture = circassian
+}
+
+3336040 = {
+	name = "Tlash"
+	culture = circassian
+}

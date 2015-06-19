@@ -1,7 +1,7 @@
 3131001 = {
 	name = "Marco"
 	dynasty=5000052 # Gliceriani
-	religion=nicene
+	religion=orthodox
 	culture=dalmatian
 	diplomacy=8
 	martial=4
@@ -13,21 +13,17 @@
 	trait=zealous
 	trait=detatched_priest
 	714.1.1={
-
 		birth=yes
-
 	}
 	800.1.1={
 		death=yes
-
 	}
-
 }
 
 3131002 = {
 	name = "Tiodor"
 	dynasty=5000053 # de Ladesta
-	religion=nicene
+	religion=orthodox
 	culture=dalmatian
 	diplomacy=6
 	martial=9
@@ -36,30 +32,43 @@
 	learning=5
 	trait=content
 	739.1.1={
-
 		birth=yes
-
 	}
 	800.1.1={
 		death=yes
-
 	}
-
 }
 
 3131003 = {
 	name = "Liaun"
 	dynasty = 5000054 # de Chelmo
-	religion=nicene
+	religion=orthodox
 	culture=dalmatian
 	724.1.1={
-
 		birth=yes
-
 	}
 	800.1.1={
 		death=yes
-
 	}
+}
 
+3131004 = {
+	name = "Vait"
+	dynasty=5000055 # Boaninus
+	religion=orthodox
+	culture=dalmatian
+	diplomacy=9
+	martial=5
+	stewardship=6
+	intrigue=6
+	learning=6
+	trait=proud
+	trait=gregarious
+	trait=charismatic_negotiator
+	736.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
 }

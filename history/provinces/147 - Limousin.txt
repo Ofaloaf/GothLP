@@ -16,5 +16,5 @@ b_comborn = castle
 #b_chalus = castle
 
 #Misc
-religion = nicene
+religion = orthodox
 culture = gallic

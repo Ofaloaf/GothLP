@@ -17,5 +17,5 @@ b_anchilios = temple
 #b_valchidol = castle
 
 # Misc
-culture = greek
-religion = nicene
+culture = traki
+religion = orthodox

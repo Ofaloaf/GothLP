@@ -17,4 +17,4 @@ b_interlaken = temple
 
 # Misc
 culture = suebi
-religion = nicene
+religion = catholic

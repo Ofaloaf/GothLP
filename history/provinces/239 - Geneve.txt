@@ -18,4 +18,4 @@ b_nyon = city
 
 # Misc
 culture = gallic
-religion = nicene
+religion = catholic

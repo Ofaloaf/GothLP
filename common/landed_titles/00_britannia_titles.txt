@@ -1795,7 +1795,7 @@ e_britannia = {
 		}
 	}
 	
-	k_scotland = {
+	k_caledonia = {
 		color={ 20 80 162 }
 		color2={ 255 255 255 }
 		
@@ -1805,11 +1805,7 @@ e_britannia = {
 		
 		catholic = 300 # Crusade target weight
 		norse_pagan_reformed = 200 # Crusade target weight
-		
-		norse = Skotland
-		swedish = Skottland
-		danish = Skotland
-		norwegian = Skottland
+
 		welsh = Alban
 		irish = Alba
 		breton = Alba

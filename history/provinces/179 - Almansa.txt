@@ -15,5 +15,5 @@ b_hellin = temple
 #b_caudete = castle
 
 culture = hispani
-religion = nicene
+religion = orthodox
 terrain = hills

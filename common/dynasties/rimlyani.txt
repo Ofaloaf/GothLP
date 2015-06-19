@@ -1,0 +1,284 @@
+1111001 = {
+	name = "Novakis"
+	culture = rimlyani
+}
+
+1111002 = {
+	name = "Rossos"
+	culture = rimlyani
+}
+
+1111003 = {
+	name = "Tsoutsimirus"
+	culture = rimlyani
+}
+
+1111004 = {
+	name = "Moutimirus"
+	culture = rimlyani
+}
+
+1111005 = {
+	name = "Phalimer"
+	culture = rimlyani
+}
+
+1111006 = {
+	name = "Ratimarus"
+	culture = rimlyani
+}
+
+1111007 = {
+	name = "Musocius"
+	culture = rimlyani
+}
+
+1111008 = {
+	name = "Mezamerus"
+	culture = rimlyani
+}
+
+1111009 = {
+	name = "Daurentius"
+	culture = rimlyani
+}
+
+1111010 = {
+	name = "Melingin"
+	culture = rimlyani
+}
+
+1111011 = {
+	name = "Nepot"
+	culture = rimlyani
+}
+
+1111012 = {
+	name = "Izaurijac"
+	culture = rimlyani
+}
+
+1111013 = {
+	name = "Rinotmet"
+	culture = rimlyani
+}
+
+1111014 = {
+	name = "Bardan"
+	culture = rimlyani
+}
+
+1111015 = {
+	name = "Manijak"
+	culture = rimlyani
+}
+
+1111016 = {
+	name = "Duka"
+	culture = rimlyani
+}
+
+1111017 = {
+	name = "Diogen"
+	culture = rimlyani
+}
+
+1111018 = {
+	name = "Komnen"
+	culture = rimlyani
+}
+
+1111019 = {
+	name = "Murzuful"
+	culture = rimlyani
+}
+
+1111020 = {
+	name = "Arotras"
+	culture = rimlyani
+}
+
+1111021 = {
+	name = "Krenyts"
+	culture = rimlyani
+}
+
+1111022 = {
+	name = "Spanes"
+	culture = rimlyani
+}
+
+1111023 = {
+	name = "Moscopolyets"
+	culture = rimlyani
+}
+
+1111024 = {
+	name = "Dopin" # 'Dopii'-- Greek, 'locals'
+	culture = rimlyani
+}
+
+1111025 = {
+	name = "Metohit"
+	culture = rimlyani
+}
+
+1111026 = {
+	name = "Proarhij"
+	culture = rimlyani
+}
+
+1111027 = {
+	name = "Kavasila"
+	culture = rimlyani
+}
+
+1111028 = {
+	name = "Kamatir"
+	culture = rimlyani
+}
+
+1111029 = {
+	name = "Homatijan"
+	culture = rimlyani
+}
+
+1111030 = {
+	name = "Ksilokaraf"
+	culture = rimlyani
+}
+
+1111031 = {
+	name = "Njegus"
+	culture = rimlyani
+}
+
+1111032 = {
+	name = "Kornecanin"
+	culture = rimlyani
+}
+
+1111033 = {
+	name = "Plamenac"
+	culture = rimlyani
+}
+
+1111034 = {
+	name = "Sakabenta"
+	culture = rimlyani
+}
+
+1111035 = {
+	name = "Brkic"
+	culture = rimlyani
+}
+
+1111036 = {
+	name = "Hilendarski"
+	culture = rimlyani
+}
+
+1111037 = {
+	name = "Vrachanski"
+	culture = rimlyani
+}
+
+1111038 = {
+	name = "Sholdas"
+	culture = rimlyani
+}
+
+1111039 = {
+	name = "Kavasila"
+	culture = rimlyani
+}
+
+1111040 = {
+	name = "Humnos"
+	culture = rimlyani
+}
+
+1111041 = {
+	name = "Palama"
+	culture = rimlyani
+}
+
+1111042 = {
+	name = "Mung"
+	culture = rimlyani
+}
+
+1111043 = {
+	name = "Honijat"
+	culture = rimlyani
+}
+
+1111044 = {
+	name = "Hrizoberg"
+	culture = rimlyani
+}
+
+1111045 = {
+	name = "Hlijaren"
+	culture = rimlyani
+}
+
+1111046 = {
+	name = "Kurkuas"
+	culture = rimlyani
+}
+
+1111047 = {
+	name = "Stip" # Styppes
+	culture = rimlyani
+}
+
+1111048 = {
+	name = "Agapet"
+	culture = rimlyani
+}
+
+1111049 = {
+	name = "Garida"
+	culture = rimlyani
+}
+
+1111050 = {
+	name = "Lihud"
+	culture = rimlyani
+}
+
+1111051 = {
+	name = "Ksifilin"
+	culture = rimlyani
+}
+
+1111052 = {
+	name = "Kerularij"
+	culture = rimlyani
+}
+
+1111053 = {
+	name = "Studit" # Studites
+	culture = rimlyani
+}
+
+1111054 = {
+	name = "Skamandren"
+	culture = rimlyani
+}
+
+1111055 = {
+	name = "Lekapen"
+	culture = rimlyani
+}
+
+1111056 = {
+	name = "Sinkel" # Syncellus
+	culture = rimlyani
+}
+
+1111057 = {
+	name = "Karadza" # Karatzas
+	culture = rimlyani
+}

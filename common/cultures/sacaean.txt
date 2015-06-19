@@ -1,0 +1,163 @@
+sacaean = {
+	graphical_culture = muslimgfx
+
+	alan = {
+		graphical_culture = turkishgfx
+		
+		color = { 0.7 0.5 0.7 }
+
+		male_names = {
+			Ælbeg Æmbalan Aghsartan Alatey Akhsar Anbal Anbazuk Aravat Arsen Askhkadar Ashot_Ashot Aslan Aspar Athom Balambar Balsag Barlah Bæqætar Basil_Basil Bazuk Beler Ber Biræg Boz-Uruz Buürgur Buriberdi
+			Burikhan Candak Chelakhsartag Davit_David Djadaron Durgulel Dzæræs Gætæg Georgy_George Girgon Gokhar Gubaz Guram_Guaram Hasqar Huddan Istor Itaz Iveri Kandak Kandz Kavtia Kaur
+			Khankhusy Khætag Konstantin_Constantine Kubal Kuddana Kul Kuluk Lak Levan_Leo Pulad Respendial Rosmag Safrak Sakhir Sangipan Saros Sathis Savkudz Soslan Suarn Syrdon Taymuraz_Teimuraz Taus Totraz Urdure Uruzma Uturku Yasynya Zaur
+		}
+		female_names = {
+			Adadza Alda Altun Ana_Anna Atsyrukhs Baia Bedisa Borena Btsenon Burudukan Duda Elene_Helen Eliso Gergana Gulchara Guranduht_Gorandukht Kera Keratsa Ketevan_Catherine Koser
+			Lamara Lashin Lela Mariami_Mariam Natia Nino Rusudan Sanatha Satinik_Satinik Shatana Shorena Shukhia Tamari_Tamar Tinatini Tsiala Vardo Vedokha Yeran
+		}	
+		
+		from_dynasty_prefix = "ve "
+		
+		male_patronym = "y fyrt"
+		female_patronym = "y chyzg"
+		prefix = no
+		
+		modifier = default_culture_modifier
+	}
+	feretolan = {
+		graphical_culture = easternslavicgfx
+		
+		color = { 0.6 0.6 0.75 }
+
+		male_names = {
+			Arta Aribur Addac Arsen Aton Aspidar Ardabur Ashkatar Arifarn Abiac Alatiy
+			Bartatua Burikhan
+			Candac
+			Drazko Demetre_Demitrius Durgulel Davit_David
+			Eunon
+			Gotric Grinus Goar
+			Ishpaka
+			Jadaron
+			Kashtariti Kruto Kuluk
+			Moga Marobog Mistivuis
+			Palak Pulad
+			Respindal
+			Scyla Skilur Samo Sangeban
+			Thrasco
+			Witzan Wago
+			Zorsin
+		}
+		female_names = {
+			Ashkhen Alde Adadsa Ana_Anna
+			Borena Baia
+			Elene_Helen Eliso
+			Lamara Lashin
+			Martha_Martha Maria_Maria Mariami_Mariam
+			Natia Nino
+			Rusudan
+			Satenik_Satinik Sanata Shorena
+			Tamar
+		}
+		from_dynasty_prefix = "ve "
+		
+		prefix = no
+		
+		disinherit_from_blinding = yes
+		
+		modifier = default_culture_modifier
+	}
+	sarmatian = {
+		graphical_culture = turkishgfx
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.85 0.7 0.87 }
+
+		male_names = {
+			Abaziôn Abdarak Abeak Aboag Abroz Adoês Akkas Amaiak Amôspad Andranak Aphtheimak Apsach Araouêg
+			Ardagdak Argouanag Aroas Aseoach Asan Asar Aspak Aspurg Auasis Aubadag Aurazak Aziag
+			Badak Badas Bagdoch Bagês Bastak Baiorasp Banas Baxag Bidak Bistês Bôrak Bôrnôn Bradak
+			Chanak Chard Chôdarz Chodek Chodios Chôdonak Chopharn Chouarsaz Chounar
+			Dadag Danarasmak Danarasmak Didumoxar Durgolel
+			Eisgoud Êlman Êrakas Eunon
+			Gadas Gadik Galat Gaos Gast Gokar Godigas Godos Gôsak Gosôn
+			Iôdas Insazag Irambust Irauad Irbis Irgan
+			Jafag Jauak Jazadag Jôdesmag
+			Kenexar Kamorsaz Karaxt Karsas Karzoaz Kasag Kasais Kattas Khuddan Kopharn Kossas Kouz
+			Madak Maisês Maniag Mardauos Masas Mastas Mazis Medosak Megis Mesak Mord Mordag
+			Nabaz Namgên Namok
+			Oarozbalak Okorzan Olgas Omrasmak Orsiomik Ossigas Ochodiak Ouaras Ourazak Ouastobal Ourbaz
+			Oxardoz Oustan
+			Parspanak Patias Pêrak Phazinam Phad Phaldaran Pharnag Phaldarn Pharnag Pharnês Pharsanz
+			Phidas Phoros Phourtas
+			Radamas Radamist Radamofort Radamps Radamsad Raodmêos Rapak Rassog Rathag Respendial Radamsad
+			Rescupor
+			Sadiman Saitapharn Sambida Sanag Sarak Sarat Saraxaz Sasas Sauagas Sauromat Seauag Senek Siauak
+			Siômak Sôchoubaz Sorchak Sozir Spak Spadak Spaldin Sparophot Synges
+			Thirthag Thulogan Tibês Tillês Tumibag
+			Xêgod Xobas
+			Zabag Zaband Zabarg Zosin
+		}
+		female_names = {
+			Ababa Aldi Amage Aritê
+			Borena Bisera Burdukhan Boyana
+			Dana
+			Gunêpag Gunêtasi Gergana
+			Iskra
+			Leimeiê Lala
+			Mada Maya Maiôsara
+			Nevena
+			Sarukê Storanê
+			Tamura Tirgataô Todorka
+			Yana Yoanan Yordanka
+		}
+		from_dynasty_prefix = "of "
+		founder_named_dynasties = yes
+
+		modifier = default_culture_modifier
+	}
+	jasi = { # Iasi, Jasz, Jassy
+		graphical_culture = turkishgfx
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.5 0.45 0.51 }
+
+		male_names = {
+			Arsen Abisal Aslanbek Atsamaz
+			Batraz Bakhva Besik
+			Dzambek Dzhambolat Dudar Davlat Daler
+			Gaito Gazdan Gurminig Guram
+			Hetag
+			Inal Issa Ibragim_Abraham
+			Khetagur Kuluk 
+			Lyudvig Leri
+			Muboraksho Merab
+			Nugzar
+			Pkharmat
+			Ruslan
+			Syrdon Satana Soslan
+			Tlepsh Taymuraz Tamerlan Tugan Torez
+			Vithimirt Vaso
+			Zaurbek Znaur
+		}
+		female_names = {
+			Adadza Alda Altun Ana_Anna Atsyrukhs
+			Baia Bedisa Borena Btsenon Burudukan 
+			Duda 
+			Elene_Helen Eliso 
+			Gergana Gulchara Guranduht_Gorandukht 
+			Kera Keratsa Ketevan_Catherine Koser
+			Lamara Lashin Lela Lira
+			Mariamy_Mariam
+			Natya Nino
+			Rusudan
+			Sanatha Satinik_Satinik Shatana Shorena Shukhia
+			Tamara_Tamar Tinatina Tsiala
+			Veronika_Veronica Vardo Vedokha
+			Yeran
+		}
+		from_dynasty_prefix = "of "
+		founder_named_dynasties = yes
+
+		modifier = default_culture_modifier
+	}
+}

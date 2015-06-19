@@ -17,5 +17,5 @@ b_agiosnikolaos = temple
 
 # Misc
 culture = greek
-religion = nicene
+religion = orthodox
 terrain = mountain

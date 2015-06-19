@@ -16,4 +16,4 @@ b_montecchio = castle
 
 # Misc
 culture = latine
-religion = nicene
+religion = catholic

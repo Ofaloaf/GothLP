@@ -4,18 +4,18 @@
 title = c_cagliari
 
 # Settlements
-max_settlements = 4
+max_settlements = 6
 
 b_cagliari = castle
 b_ogliastra = city
 b_assemini = temple
 #b_sanluri = castle
-#b_carbonia = castle
+b_carbonia = castle
 #b_muravera = castle
 #b_Dolianova = castle
 #b_capoterra = castle
 
 # Misc
 culture = latine
-religion = nicene
+religion = orthodox
 terrain = hills

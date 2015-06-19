@@ -1,0 +1,19 @@
+# 436 - Boleslav
+
+# County Title
+title = c_boleslav
+
+# Settlements
+max_settlements = 4
+b_glatz = tribal
+
+#b_jicin = city
+#b_nachod = castle
+#b_kamieniec = castle
+#b_trutnov = castle
+#b_jaromer = castle
+#b_turnov = castle
+
+# Misc
+culture = feretolan
+religion = tengri_pagan

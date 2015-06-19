@@ -15,4 +15,4 @@ b_scarborough = city
 
 # Misc
 culture = brithenig
-religion = celtic_pagan
+religion = arian

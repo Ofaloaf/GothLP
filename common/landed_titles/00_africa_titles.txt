@@ -55,7 +55,7 @@ e_africa = {
 					africanu = "Cartàggini"
 
 					holy_site = arian
-					holy_site = nicene
+					holy_site = orthodox
 				}
 				b_zaghouan = {
 				}

@@ -17,5 +17,5 @@ b_pinerolo = temple
 
 # Misc
 culture = latine
-religion = nicene
+religion = catholic
 

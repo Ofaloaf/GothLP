@@ -17,7 +17,7 @@ b_salt = city
 #b_al_balqa = castle
 
 # Misc
-culture = assyrian
-religion = nestorian
+culture = levantine_arabic
+religion = sunni
 
 # History

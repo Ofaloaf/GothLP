@@ -16,4 +16,4 @@ b_arcos = castle
 #b_alcaladelosgazules = castle
 
 culture = hispani
-religion = nicene
+religion = orthodox

@@ -16,4 +16,4 @@ b_assisi = temple
 
 # Misc
 culture = latine
-religion = nicene
+religion = catholic

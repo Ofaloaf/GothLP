@@ -21,7 +21,7 @@
 		birth=yes
 	}
 	649.1.1 = {
-		religion = nicene
+		religion = orthodox
 		give_nickname = nick_the_holy
 	}
 	687.1.1={
@@ -33,7 +33,7 @@
 	name="Santius"
 	dynasty=2468052 # Garvixi
 	culture="aquitanian"
-	religion="nicene"
+	religion="orthodox"
 	father=2222002
 	655.1.1={
 		birth=yes
@@ -47,7 +47,7 @@
 	name="Andres"
 	dynasty=2468052 # Garvixi
 	culture="aquitanian"
-	religion="nicene"
+	religion="orthodox"
 	father=2222003
 	681.1.1={
 		birth=yes
@@ -61,7 +61,7 @@
 	name="Atxular"
 	dynasty=2468052 # Garvixi
 	culture="aquitanian"
-	religion="nicene"
+	religion="orthodox"
 	father=2222004
 	705.1.1={
 		birth=yes
@@ -75,7 +75,7 @@
 	name="Nescato"
 	dynasty=2468052 # Garvixi
 	culture="aquitanian"
-	religion="nicene"
+	religion="orthodox"
 	father=2222004
 	705.1.1={
 		birth=yes
@@ -89,7 +89,7 @@
 	name="Andres"
 	dynasty=2468052 # Garvixi
 	culture="aquitanian"
-	religion="nicene"
+	religion="orthodox"
 	father=2222005
 	723.1.1={
 		birth=yes
@@ -108,7 +108,7 @@
 	stewardship=8
 	learning=6
 	culture="aquitanian"
-	religion="nicene"
+	religion="orthodox"
 	father=2222007
 	742.1.1={
 		birth=yes

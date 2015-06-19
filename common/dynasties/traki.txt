@@ -1,0 +1,229 @@
+1012001 = {
+	name = "Abantiy" # Abanates
+	culture = traki
+}
+
+1012002 = {
+	name = "Agatirsij" # Agathyrsi
+	culture = traki
+}
+
+1012003 = {
+	name = "Apsintvic" # Apsynthus
+	culture = traki
+}
+
+1012004 = {
+	name = "Bebikij"
+	culture = traki
+}
+
+1012005 = {
+	name = "Dardanij"
+	culture = traki
+}
+
+1012006 = {
+	name = "Dengerij"
+	culture = traki
+}
+
+1012007 = {
+	name = "Dolonkiy"
+	culture = traki
+}
+
+1012008 = {
+	name = "Ekhaleits"
+	culture = traki
+}
+
+1012009 = {
+	name = "Vajunits"
+	culture = traki
+}
+
+1012010 = {
+	name = "Perbundvic"
+	culture = traki
+}
+
+1012010 = {
+	name = "Rhynchinets"
+	culture = traki
+}
+
+1012012 = {
+	name = "Sagudatyets"
+	culture = traki
+}
+
+1012013 = {
+	name = "Dragobityets"
+	culture = traki
+}
+
+1012014 = {
+	name = "Strumanets"
+	culture = traki
+}
+
+1012015 = {
+	name = "Berzit"
+	culture = traki
+}
+
+1012016 = {
+	name = "Belegezits"
+	culture = traki
+}
+
+1012017 = {
+	name = "Ezeryts"
+	culture = traki
+}
+
+1012018 = {
+	name = "Danteletayets"
+	culture = traki
+}
+
+1012019 = {
+	name = "Dolonkits"
+	culture = traki
+}
+
+1012020 = {
+	name = "Kabilyets"
+	culture = traki
+}
+
+1012021 = {
+	name = "Kapadokiyts"
+	culture = traki
+}
+
+1012022 = {
+	name = "Koilaletij"
+	culture = traki
+}
+
+1012023 = {
+	name = "Lailaits"
+	culture = traki
+}
+
+1012024 = {
+	name = "Korpilits"
+	culture = traki
+}
+
+1012025 = {
+	name = "Cypsellus"
+	culture = traki
+}
+
+1012026 = {
+	name = "Maduatenits"
+	culture = traki
+}
+
+1012027 = {
+	name = "Melanditiy"
+	culture = traki
+}
+
+1012028 = {
+	name = "Migdoniy"
+	culture = traki
+}
+
+1012029 = {
+	name = "Nipseij"
+	culture = traki
+}
+
+1012030 = {
+	name = "Panisos"
+	culture = traki
+}
+
+1012031 = {
+	name = "Odrisij"
+	culture = traki
+}
+
+1012032 = {
+	name = "Obulenziy"
+	culture = traki
+}
+
+1012033 = {
+	name = "Paitij"
+	culture = traki
+}
+
+1012034 = {
+	name = "Paflagonij"
+	culture = traki
+}
+
+1012035 = {
+	name = "Sabis"
+	culture = traki
+}
+
+1012036 = {
+	name = "Saepaij"
+	culture = traki
+}
+
+1012037 = {
+	name = "Pirogerij"
+	culture = traki
+}
+
+1012038 = {
+	name = "Skirmiadij"
+	culture = traki
+}
+
+1012039 = {
+	name = "Tetrakhoritij"
+	culture = traki
+}
+
+1012040 = {
+	name = "Tilateij"
+	culture = traki
+}
+
+1012041 = {
+	name = "Tribalij"
+	culture = traki
+}
+
+1012042 = {
+	name = "Trauzerij"
+	culture = traki
+}
+
+1012043 = {
+	name = "Feakeitsij"
+	culture = traki
+}
+
+1012044 = {
+	name = "Fragondij"
+	culture = traki
+}
+
+1012045 = {
+	name = "Khipsaltij"
+	culture = traki
+}
+
+1012046 = {
+	name = "Poliorket"
+	culture = traki
+}

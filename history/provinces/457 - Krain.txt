@@ -19,4 +19,4 @@ b_gorz = castle
 
 # Misc
 culture = dalmatian
-religion = nicene
+religion = catholic

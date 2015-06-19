@@ -16,5 +16,5 @@ b_siguenza = temple
 #b_sisante
 
 culture = hispani
-religion = nicene
+religion = orthodox
 terrain = hills

@@ -18,5 +18,5 @@ b_kos = city
 
 # Misc
 culture = greek
-religion = nicene
+religion = ibadi
 terrain = mountain

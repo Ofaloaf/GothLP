@@ -16,4 +16,4 @@ b_tephrice = temple
 
 # Misc
 culture = armenian
-religion = nicene
+religion = orthodox

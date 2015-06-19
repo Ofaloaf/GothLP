@@ -19,4 +19,4 @@ b_bozen = city
 
 # Misc
 culture = latine
-religion = nicene
+religion = catholic

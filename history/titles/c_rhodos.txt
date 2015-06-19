@@ -1,0 +1,6 @@
+650.1.1 = {
+	liege = "d_aegean_islands"
+}
+766.1.1 = {
+	holder = 145900 # Boethios Karbonopsis
+}

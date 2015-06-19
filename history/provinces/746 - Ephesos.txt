@@ -18,4 +18,4 @@ b_lebedos = temple # Orthodox Holy Site
 
 # Misc
 culture = greek
-religion = nicene
+religion = orthodox

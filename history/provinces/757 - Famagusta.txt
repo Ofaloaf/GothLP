@@ -18,4 +18,4 @@ b_cithium = temple
 
 # Misc
 culture = greek
-religion = nicene
+religion = orthodox

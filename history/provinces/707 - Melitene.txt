@@ -16,5 +16,5 @@ b_samosata = city
 
 # Misc
 culture = armenian
-religion = nicene
+religion = orthodox
 terrain = mountain

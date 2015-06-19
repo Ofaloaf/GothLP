@@ -16,4 +16,4 @@ b_tafalla = castle
 
 # Misc
 culture = basque
-religion = nicene
+religion = orthodox

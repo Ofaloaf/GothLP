@@ -17,5 +17,5 @@ b_thermodon = temple
 
 # Misc
 culture = greek
-religion = nicene
+religion = orthodox
 terrain = mountain

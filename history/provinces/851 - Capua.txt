@@ -17,4 +17,4 @@ b_gaeta = city
 
 # Misc
 culture = latine
-religion = nicene
+religion = catholic

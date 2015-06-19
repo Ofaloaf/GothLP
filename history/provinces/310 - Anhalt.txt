@@ -1,0 +1,19 @@
+# 310 - Anhalt
+
+# County Title
+title = c_anhalt
+
+# Settlements
+max_settlements = 5
+b_zerbst = tribal
+
+#b_magdeburg = temple
+#b_mansfeld = castle
+#b_dessau = castle
+#b_arnstein = castle
+#b_querfurt = castle
+#b_bernburg  = city
+
+# Misc
+culture = pommeranian
+religion = slavic_pagan

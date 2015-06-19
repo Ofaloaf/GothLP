@@ -19,5 +19,5 @@ b_carpentras = city
 
 # Misc
 culture = gallic
-religion = nicene
+religion = orthodox
 

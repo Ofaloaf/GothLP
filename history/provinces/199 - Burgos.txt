@@ -15,5 +15,5 @@ b_castrobarte = castle
 #b_carrion = castle
 
 culture = gallaecian
-religion = nicene
+religion = orthodox
 terrain = hills

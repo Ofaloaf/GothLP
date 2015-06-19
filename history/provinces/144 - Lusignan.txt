@@ -16,5 +16,5 @@ b_niort = city
 #b_stmaixent = temple
 
 #Misc
-religion = nicene
+religion = orthodox
 culture = gallic

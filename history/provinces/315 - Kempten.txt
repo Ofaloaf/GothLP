@@ -16,8 +16,8 @@ b_donauworth = city
 #b_rain = castle
 
 # Misc
-culture = boarisch
-religion = nicene
+culture = carantanian
+religion = catholic
 
 # History
 

@@ -1,0 +1,20 @@
+# 526 - Cieszyn
+
+# County Title
+title = c_cieszyn
+
+# Settlements
+max_settlements = 4
+b_cieszyn = tribal
+#b_jabloskow = city
+#b_oswiecim = temple
+
+#b_skoczow = castle
+#b_goleszow = castle
+#b_ustron = castle
+#b_bielskobiala = castle
+#b_zebrydowice = castle
+
+# Misc
+culture = alan
+religion = tengri_pagan

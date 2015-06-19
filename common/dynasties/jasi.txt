@@ -1,0 +1,99 @@
+1872001 = {
+	name = "Kocojty"
+	culture = jasi
+}
+
+1872002 = {
+	name = "Gergity"
+	culture = jasi
+}
+
+1872003 = {
+	name = "Ashtigor"
+	culture = jasi
+}
+
+1872004 = {
+	name = "Babakhel"
+	culture = jasi
+}
+
+1872005 = {
+	name = "Rudagy"
+	culture = jasi
+}
+
+1872006 = {
+	name = "Khujandy"
+	culture = jasi
+}
+
+1872007 = {
+	name = "Dihqon"
+	culture = jasi
+}
+
+1872008 = {
+	name = "Aini"
+	culture = jasi
+}
+
+1872009 = {
+	name = "Juzjany"
+	culture = jasi
+}
+
+1872010 = {
+	name = "Sacqaw"
+	culture = jasi
+}
+
+1872011 = {
+	name = "Kalakany"
+	culture = jasi
+}
+
+1872012 = {
+	name = "Pedram"
+	culture = jasi
+}
+
+1872013 = {
+	name = "Hvatanay"
+	culture = jasi
+}
+
+1872014 = {
+	name = "Beeruny"
+	culture = jasi
+}
+
+1872015 = {
+	name = "Tokatkty"
+	culture = jasi
+}
+
+1872016 = {
+	name = "Taymazty"
+	culture = jasi
+}
+
+1872017 = {
+	name = "Hetagkaty"
+	culture = jasi
+}
+
+1872018 = {
+	name = "Abaity"
+	culture = jasi
+}
+
+1872019 = {
+	name = "Khulumbaity"
+	culture = jasi
+}
+
+1872020 = {
+	name = "Gassity"
+	culture = jasi
+}

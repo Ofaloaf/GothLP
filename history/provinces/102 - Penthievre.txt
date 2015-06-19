@@ -16,4 +16,4 @@ b_st_brieuc = city
 
 # Misc
 culture = gallic
-religion = nicene
+religion = orthodox

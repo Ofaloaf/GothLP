@@ -1,0 +1,145 @@
+slavic = {
+	graphical_culture = easterngfx
+
+	pommeranian = { # Wend
+		graphical_culture = westernslavicgfx
+		
+		color = { 0.4 0.6 0.4 }
+
+		male_names = {
+			Aleksander_Alexander Andrzej_Andrew Antoni_Antoninus Aron Barnim Bartosz_Bartolomeus Bedrich_Frederick Bezprzym Blazej_Blaise Bogislaw_Boguslaw Bohdan_Bogdan Bohumir Boleslaw_Boleslav Boriwoj_Borijov Bozydar_Theodat Branimir Branislav
+			Bretislav_Bretislaus Casimir Ctibor_Ctibor Dobieslaw Dobromil Drosuk Dytryk_Thierry Frantisek_Francis Gawel_Gallus Grzegorz_Gregory Havel_Gallus Jacenty_Hyacinth Jakub_Jacob Jakusz_Jacob Janusz_John Jaromar_Jaromir
+			Jaromil Jaromir_Jaromir Jaroslav_Jaroslav Jedrzej_Andrew Jindrich_Henry Jirí_George Jozef_Joseph Juliusz_Julian Kajetan Kamil_Camillus Karel_Charles Kasper Kazimierz Kliment_Clement Kolman_Koloman Kornel_Cornelius Kresimir Krzeslaw
+			Krzysztof_Christopher Lech Leszek Lubomir Lucjan_Lucius Ludvik_Louis Marek_Marcus Marian_Marius Martin_Martin Mateusz_Matthew Mieszko Mikolás_Nicholas Miloslaw Milosz_Milosz Miroslaw_Miroslav Mscislaw_Mstislav Msciwoj
+			Oldrich_Ulrich Ondrej_Andrew Otokar Patryk_Patrick Pawel_Paul Piotr_Peter Prendota Przemysl_Premysl Przybyslaw Radomil Radomir Radoslav Rostislav Ryszard_Richard Sambor Sobieslav_Sobeslaus Stanislaw_Stanislav
+			Strasz Swietopelk_Svatopluk Swietoslaw_Sviatoslav Szczepan_Stephen Szczesny Szymon Tadeusz_Theodore Tomasz_Thomas Udalrich Urjasz Vojtech_Albert Waclaw_Vaclav Walenty_Valentin Wratislaw_Vratislav Wawrzyniec_Laurence Wenceslaw_Vaclav
+			Wincenty_Vincent Wizlaw Wladyslaw_Vladislav Wlodek Wlodzimierz Wlodzislaw_Vladislav Wratislaw Zbigniew_Zbynek Zdenek Zdislav Zygmunt_Sigmund
+		}
+		female_names = {
+			Agnieszka_Agnes Alzbeta Andela Anna_Anna Berta Bohuslava Bozena Branislava Dagmar Danuta Dobravy Dobroniega Dorota_Dorothy Dragomira Edyta Ewa Geira Gertruda_Gertrude
+			Gracja Grazyna Halina Hanna Irena Izabela Jadwiga Jarka Jarmila Jolanta Judyta_Judith Kamila Katarina_Catherine Kenna Kornelia Krystyna_Christina Ksenia Lidia
+			Ludmila Magda_Magdalena Magdalena_Magdalena Malgorzata Marcelina Maria_Maria Markéta Martyna Mateja Matylda_Matilda Milena Miroslava Pechna Róza Radomila Radomira Radoslava
+			Raina Regelinda Rycheza Salomea Smiechna Stanislava Stefana_Stephania Svetlana Urszula Václava Vladislava Wera Wojslawa Zdenka Zofia Zwinislawa
+		}
+		
+		from_dynasty_prefix = "of "
+
+		modifier = default_culture_modifier
+	}
+	carantanian = {
+		graphical_culture = westernslavicgfx
+		
+		color = { 0.45 0.55 0.45 }
+
+		male_names = {
+			Andrija_Andrew
+			Boruth Bogo Borna Branimir Bernardin_Bernard Blaz_Blaise
+			Cacatius Cheitmar Cedada Chrtomir
+			Domislav Dragomir Dabus Drzislav Domagoj Dmitar
+			Etgar Emerik
+			Fergil Franc_Francis
+			Gorazd Grgur_Gregory
+			Hotimir Hrvoje
+			Iban_John
+			Juraj_George
+			Kresimir Kulin Kristo_Christopher
+			Ladislav Ljedvit Ljutomisl Lovro_Laurence
+			Modest_Modestus Mojmir Maligoj Mutimir Miroslav Mihajlo_Michael Matej_Matthew Moseguo
+			Nicolaus Ninoslav
+			Pribislav Prbina Petar_Peter Pavao_Paul
+			Rudbert_Robert Radigoj Radus Radovan Ratimir Ruodo_Rudiger
+			Semika Stojmir Svetopolk Svobodin Stanko Stjepan_Stephen Svatobor
+			Tomislav
+			Ulfo
+			Valuk Valtunk Vran Vitomir Vitan Vojnomir Viseslav Valhun Valentin_Valentine
+			Wezil Witogowo
+			Zdeslav Zvonimir
+		}
+		female_names = {
+			Angelina Anna_Anna
+			Borislava Branimira Braslava Bogomila
+			Drzislava
+			Gojslava
+			Hicela
+			Jadviga Jelena_Helen
+			Kresimira
+			Ljuba Ladislava
+			Mirica Mojca Miroslava Mislava Mutimira Marija_Maria
+			Ninoslava
+			Petrissa
+			Ratimira
+			Slava Svetislava
+			Tunca Tomislava
+			Viseslava Vladislava Vojnomira
+			Zverica Zvonimira Zdeslava Ziva
+		}
+		from_dynasty_prefix = "of "
+
+		modifier = default_culture_modifier
+	}
+	traki = {
+		graphical_culture = westernslavicgfx
+		
+		color = { 0.4 0.2 0.2 }
+
+		male_names = {
+			Ardagast Arsen_Arsen Aleksandru_Alexander Athansi_Athanasius Akamir Anton_Antonius Albin_Albinus
+			Antonin_Antoninus Avrelij_Aurelius Arkadij_Arcadius 
+			Anastazij_Anastasius Andronik_Andronicus
+			Bozh Blazh Bogdan_Bogdan Bogumil Bogumeru Boguslav Borislav Borisu_Boris Borivoi Bozhidar Bratomil
+			Bratoslav Bronislav Bazilisk_Basiliscus
+			Chedomir Chestibor Chestirad Chestislav Chatzon 
+			Dabrag Dmitrei_Demetrios Dalibor Desislav Dobrogast Dobromil Dragomeru Dragutin Drazhan Dobreta_Dobreta
+			Dervan Dorotej_Dorotheos Dositej Dionisij_Dionysius Daniel_Daniel
+			Emilijan_Emilio Eugenij_Eugenius Evstratij
+			Filip_Philip
+			Gaito Gazdan Georgei_George Gastislav Grigorii_Gregory Gaja Gavril_Gabriel
+			Honorij_Honorius Heraklij_Heraclius Hariton Hadrijan_Adrian
+			Idariz Ivan_John Izak_Isaac
+			Julijan_Julian Julij_Julius Justin_Justin Justinijan_Justinian
+			Kelagast Khetagur Kosta_Constantine Kelamir Kazimeru_Casimir Kresimeru Kyrilu_Cyril Klaudij_Claudius Kir
+			Konstantin_Constantine Konstans_Constans
+			Lyubomeru Leon_Leo
+			Mezamir Musok Miroban Merugast Mechislav Milivoj Milodrag Milogast Milosh Mirche Miroslav Mislav Mitrofan
+			Mstislav Macr Marko_Marcus Makrin_Macrinus Maksimin_Maximinus Marij_Marius Mihajl_Michael Manuel_Manuel
+			Nikola_Nicholas Ninoslav Nebovlos Nikefor Nektarij Nikodim Nil_Nilus Nikita
+			Pirogast Pavl_Paul Premislav Pridbor Porfirij_Porphyrius Pafnutij Pir
+			Radomil Radomir Radoslav Radovan Roman_Roman
+			Sangiban Samo Slavomir Svetopolk Sergej_Sergius Stefan_Stephen
+			Tihomir Tomislav Tiberij_Tiberius Teofil_Theophilus Teodul
+			Teodor_Theodore Teofilakt Toma_Thomas
+			Vasilii_Basileios Veceslav_Vaclav Velimeru Voitsekh Volodimeru_Vladimir Volodislavu_Vladislav Vratislavu
+			Vsevolod Valuk Valerijan_Valerian Viktor_Victor Valerij_Valerius
+			Vavila
+			Yaromil Yaromeru Yarognev Yaropolk
+			Zdislav Zbignev Zhelimeru Zvonimeru Zenon Zaharij_Zachary Zosim
+		}
+		female_names = {
+			Alda Aleksija_Alexia Andronikosa Anatstazija_Anastasia Anna_Anna Antonija_Antonia Agata_Agatha 
+			Angija_Anges Atanasija
+			Bogdana Bozhena Biljana Branislava Branimira Bojana Bozhidarka Biserka
+			Cvijeta
+			Desislava Dragoslava Dijana Daliborka Damjana Danijela Danica Davorka Darija Doroteja
+			Elena_Helen Eudokija_Eudocia Ekaterina_Catherine Elimija
+			Filipa
+			Goranka Gordijana
+			Irena_Irene Ivana_Joan Ilinka Isidora Iskra 
+			Jagoda Jasmina Jelisaveta_Elisabeth Julijana_Juliana
+			Kornelika Kristina_Christina
+			Lyudmila Lidija Ljiljana Ljubica
+			Militsa Miloslava Miroslava Manuela Marija_Maria Magdalena_Magdalene Marijana Marta_Martha Milanka
+			Nikolina Natalija_Natalia Natasha Nadezhda Nedeljka Nevena
+			Olga
+			Pelageja Petra
+			Radoslava Radomera Rahela_Rachel Ruzha_Rose
+			Stavitsa Stanislava Sara_Sarah Sladjana Smiljana Snjezhana Sofija_Sophia Suzana_Susan Svetlana
+			Theodora_Theodora Tomislava Theodorija Theodote Thekla Tatjana Tamara
+			Veronika_Veronica Valerija_Valeria Vasilija Vedrana Vesna
+			Yaroslava
+			Zoe_Zoe Zvezdana Zdravka Zheljka Zhivka
+		}
+		from_dynasty_prefix = "of "
+
+		modifier = default_culture_modifier
+	}
+}

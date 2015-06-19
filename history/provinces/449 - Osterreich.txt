@@ -16,5 +16,5 @@ b_melk = temple
 #b_steyr = castle
 
 # Misc
-culture = boarisch
-religion = nicene
+culture = carantanian
+religion = slavic_pagan

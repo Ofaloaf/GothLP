@@ -19,5 +19,5 @@ b_brioude = city
 #b_domeyrat = castle
 
 #Misc
-religion = nicene
+religion = orthodox
 culture = gallic

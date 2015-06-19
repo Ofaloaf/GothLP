@@ -18,4 +18,4 @@ b_preveza = temple
 
 # Misc
 culture = greek
-religion = nicene
+religion = orthodox

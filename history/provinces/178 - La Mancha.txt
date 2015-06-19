@@ -16,6 +16,6 @@ b_laroda = temple
 
 # Misc
 culture = hispani
-religion = nicene
+religion = orthodox
 
 # History

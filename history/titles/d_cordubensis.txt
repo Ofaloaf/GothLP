@@ -1,3 +1,8 @@
+500.1.1 = {
+	liege = "e_caralis"
+	vice_royalty = yes
+}
+
 765.1.1 = {
 	holder = 1573001 # Toerenius Argantonio
 }

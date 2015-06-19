@@ -1,0 +1,64 @@
+514001 = {
+	name = "Mares"
+	culture = sarmatian
+}
+
+514002 = {
+	name = "Syrmat"
+	culture = sarmatian
+}
+
+514003 = {
+	name = "Massaget"
+	culture = sarmatian
+}
+
+514004 = {
+	name = "Roxolan"
+	culture = sarmatian
+}
+
+514005 = {
+	name = "Batradz"
+	culture = sarmatian
+}
+
+514006 = {
+	name = "Lemigant"
+	culture = sarmatian
+}
+
+514007 = {
+	name = "Tyriget"
+	culture = sarmatian
+}
+
+514008 = {
+	name = "Aorsen"
+	culture = sarmatian
+}
+
+514009 = {
+	name = "Zeriuan"
+	culture = sarmatian
+}
+
+514010 = {
+	name = "Iaxamat"
+	culture = sarmatian
+}
+
+514011 = {
+	name = "Saius"
+	culture = sarmatian
+}
+
+514012 = {
+	name = "Metanast"
+	culture = sarmatian
+}
+
+514013 = {
+	name = "Ostoja"
+	culture = sarmatian
+}

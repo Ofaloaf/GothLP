@@ -135,10 +135,10 @@ christian = {
 	orthodox = {
 		graphical_culture = westerngfx
 
-		icon = 2
-		heresy_icon = 7
+		icon = 53
+		heresy_icon = 54
 		
-		color = { 0.7 0 0.5 }
+		color = { 0.7 0.5 0 }
 		
 		crusade_name = CRUSADE
 		scripture_name = THE_BIBLE
@@ -226,31 +226,12 @@ christian = {
 		religious_clothing_head = 2
 		religious_clothing_priest = 2
 	}
-	
-	bogomilist = {
-		graphical_culture = westerngfx
 
-		icon = 2
-		heresy_icon = 7
-		
-		color = { 0.7 0 0.2 }
-		parent = orthodox
-		
-		crusade_name = CRUSADE
-
-		can_retire_to_monastery = yes
-		female_temple_holders = yes
-		feminist = yes      # Nullifies the negative opinion modifier that vassals normally get if ruler is female or has female heir
-		
-		religious_clothing_head = 2
-		religious_clothing_priest = 2
-	}
-	
 	monothelite = {
 		graphical_culture = westerngfx
 
-		icon = 2
-		heresy_icon = 7
+		icon = 53
+		heresy_icon = 54
 		
 		color = { 0.5 0 0.3 }
 		parent = orthodox
@@ -273,42 +254,13 @@ christian = {
 	iconoclast = {
 		graphical_culture = westerngfx
 
-		icon = 2
-		heresy_icon = 7
+		icon = 53
+		heresy_icon = 54
 		
 		color = { 0.5 0.2 0.4 }
 		parent = orthodox
 		
 		crusade_name = CRUSADE
-
-		autocephaly = yes
-		can_excommunicate = yes
-		can_grant_divorce = yes
-		can_grant_invasion_cb = invasion
-		can_grant_claim = yes
-		can_call_crusade = no
-		can_retire_to_monastery = yes
-		priests_can_inherit = no
-		
-		religious_clothing_head = 2
-		religious_clothing_priest = 2
-	}
-	
-	paulician = {
-		graphical_culture = westerngfx
-
-		icon = 2
-		heresy_icon = 7
-		
-		color = { 0.5 0 0.3 }
-		
-		parent = orthodox
-		
-		crusade_name = CRUSADE
-		
-		evil_god_names = {
-			SATAN LUCIFER THE_DEVIL THE_DEMIURGE
-		}
 
 		autocephaly = yes
 		can_excommunicate = yes
@@ -391,14 +343,13 @@ christian = {
 		religious_clothing_priest = 2
 	}
 
-
 	arian = {
 		graphical_culture = westerngfx
 
 		icon = 1
 		heresy_icon = 6
 		
-		color = { 0.65 0.65 0.55 }
+		color = { 0.55 0.53 0.40 }
 		
 		crusade_name = CRUSADE
 		scripture_name = THE_BIBLE
@@ -464,39 +415,6 @@ christian = {
 		religious_clothing_head = 2
 		religious_clothing_priest = 3
 	}
-	nicene = {
-		graphical_culture = westerngfx
-
-		icon = 53
-		heresy_icon = 54
-		
-		color = { 0.85 0.75 0.65 }
-		
-		crusade_name = CRUSADE
-		scripture_name = THE_BIBLE
-		priest_title = PRIEST
-		
-		god_names = {
-			GOD_GOD GOD_THE_LORD GOD_JESUS GOD_THE_BLESSED_VIRGIN
-		}
-		
-		evil_god_names = {
-			SATAN LUCIFER THE_DEVIL
-		}
-		
-		autocephaly = yes
-		can_excommunicate = yes
-		can_grant_divorce = yes
-		can_grant_invasion_cb = invasion
-		can_grant_claim = yes
-		can_call_crusade = no
-		priests_can_inherit = no
-		
-		can_retire_to_monastery = yes
-		
-		religious_clothing_head = 0
-		religious_clothing_priest = 2
-	}
 	donatist = {
 		graphical_culture = westerngfx
 
@@ -504,7 +422,7 @@ christian = {
 		heresy_icon = 54
 		
 		color = { 0.95 0.8 0.9 }
-		parent = nicene
+		parent = orthodox
 		
 		crusade_name = CRUSADE
 
@@ -514,42 +432,6 @@ christian = {
 		religious_clothing_head = 0
 		religious_clothing_priest = 2
 	}
-	priscillian = {
-		graphical_culture = westerngfx
-
-		icon = 53
-		heresy_icon = 54
-		
-		color = { 0.8 0.66 0.85 }
-		parent = nicene
-		
-		crusade_name = CRUSADE
-
-		can_retire_to_monastery = yes
-		priests_can_inherit = no
-		
-		religious_clothing_head = 0
-		religious_clothing_priest = 1
-	}
-	valentinianist = {
-		graphical_culture = westerngfx
-
-		icon = 53
-		heresy_icon = 54
-		
-		color = { 0.65 0.6 0.73 }
-		parent = nicene
-		
-		crusade_name = CRUSADE
-
-		can_retire_to_monastery = yes
-		priests_can_inherit = no
-		female_temple_holders = yes
-		feminist = yes      # Nullifies the negative opinion modifier that vassals normally get if ruler is female or has female heir
-		
-		religious_clothing_head = 2
-		religious_clothing_priest = 2
-	}
 	antinomian = {
 		graphical_culture = westerngfx
 
@@ -557,7 +439,7 @@ christian = {
 		heresy_icon = 54
 		
 		color = { 0.65 0.6 0.73 }
-		parent = nicene
+		parent = orthodox
 		
 		crusade_name = CRUSADE
 

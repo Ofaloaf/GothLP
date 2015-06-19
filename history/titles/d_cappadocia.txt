@@ -1,0 +1,6 @@
+650.1.1 = {
+	liege = "k_asia"
+}
+764.1.1 = {
+	holder = 629002 # Abbas Chumor
+}

@@ -17,4 +17,4 @@ b_banjaluka = temple
 
 # Misc
 culture = dalmatian
-religion = nicene
+religion = orthodox

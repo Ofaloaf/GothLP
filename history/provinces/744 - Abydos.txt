@@ -18,5 +18,5 @@ b_lampsakos = temple # Hellenic Holy Site
 
 # Misc
 culture = greek
-religion = nicene
+religion = orthodox
 terrain = hills

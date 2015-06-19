@@ -1,0 +1,20 @@
+# 256 - Weimar
+
+# County Title
+title = c_weimar
+
+# Settlements
+max_settlements = 4
+b_weimar = tribal
+
+#b_gera = temple
+#b_walkenried = temple
+#b_nordhausen = city
+#b_memelsen = castle
+#b_apoldoa = castle
+#b_gotha = castle
+
+
+# Misc
+culture = pommeranian
+religion = slavic_pagan

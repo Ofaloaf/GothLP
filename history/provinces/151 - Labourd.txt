@@ -17,6 +17,6 @@ b_aire = temple
 #b_stsever = temple
 
 #Misc
-religion = nicene
+religion = orthodox
 culture = aquitanian
 terrain = hills

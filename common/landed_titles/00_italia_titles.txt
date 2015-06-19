@@ -64,7 +64,7 @@ e_italy = {
 					pentarchy = yes
 					holy_site = catholic
 					holy_site = arian
-					holy_site = nicene
+					holy_site = orthodox
 					holy_site = aztec
 					holy_site = aztec_reformed
 					holy_site = hellenic_pagan
@@ -1508,7 +1508,7 @@ e_italy = {
 				levantine_arabic = "Balharm"
 				egyptian_arabic = "Balharm"
 				bedouin_arabic = "Balharm"
-				andalusian_arabic = "Balharm"
+				rumi_arabic = "Balharm"
 				greek = "Panarmos"
 				
 				b_palermo = {
@@ -1516,7 +1516,7 @@ e_italy = {
 					levantine_arabic = "Balharm"
 					egyptian_arabic = "Balharm"
 					bedouin_arabic = "Balharm"
-					andalusian_arabic = "Balharm"
+					rumi_arabic = "Balharm"
 					greek = "Panarmos"
 				}
 				b_cefalu = {
@@ -1588,7 +1588,7 @@ e_italy = {
 				color2={ 255 255 255 }
 				
 				greek = "Agrigenton"
-				andalusian_arabic = "Kerkent"
+				rumi_arabic = "Kerkent"
 				maghreb_arabic = "Kerkent"
 				bedouin_arabic = "Kerkent"
 				egyptian_arabic = "Kerkent"
@@ -1596,7 +1596,7 @@ e_italy = {
 				
 				b_agricento = {
 					greek = "Agrigenton"
-					andalusian_arabic = "Kerkent"
+					rumi_arabic = "Kerkent"
 					maghreb_arabic = "Kerkent"
 					bedouin_arabic = "Kerkent"
 					egyptian_arabic = "Kerkent"
@@ -1622,7 +1622,7 @@ e_italy = {
 				color2={ 255 255 255 }
 				
 				greek = "Drepanon"
-				andalusian_arabic = "Mazar"
+				rumi_arabic = "Mazar"
 				maghreb_arabic = "Mazar"
 				bedouin_arabic = "Mazar"
 				egyptian_arabic = "Mazar"
@@ -1632,7 +1632,7 @@ e_italy = {
 					greek = "Drepanon"
 				}
 				b_mazara = {
-					andalusian_arabic = "Mazar"
+					rumi_arabic = "Mazar"
 					maghreb_arabic = "Mazar"
 					bedouin_arabic = "Mazar"
 					egyptian_arabic = "Mazar"
@@ -1666,7 +1666,7 @@ e_italy = {
 				}
 				b_gozo = {
 					greek = Ogygia
-					andalusian_arabic = "Ghawdesh"
+					rumi_arabic = "Ghawdesh"
 					maghreb_arabic = "Ghawdesh"
 					bedouin_arabic = "Ghawdesh"
 					egyptian_arabic = "Ghawdesh"
@@ -1677,7 +1677,7 @@ e_italy = {
 				}
 				b_marsascala = {
 					greek = Pyrgos
-					andalusian_arabic = "Marsa Sqalli"
+					rumi_arabic = "Marsa Sqalli"
 					maghreb_arabic = "Marsa Sqalli"
 					bedouin_arabic = "Marsa Sqalli"
 					egyptian_arabic = "Marsa Sqalli"

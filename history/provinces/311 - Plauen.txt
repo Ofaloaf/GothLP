@@ -16,5 +16,5 @@ b_merseburg = temple
 #b_naumburg = castle
 
 # Misc
-culture = old_saxon
-religion = norse_pagan
+culture = pommeranian
+religion = slavic_pagan

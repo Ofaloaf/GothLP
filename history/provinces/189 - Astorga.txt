@@ -16,4 +16,4 @@ b_astorga = temple
 
 # Misc
 culture = gallaecian
-religion = nicene
+religion = orthodox

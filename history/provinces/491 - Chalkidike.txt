@@ -17,5 +17,5 @@ b_mntathos = temple
 #b_drama = castle
 
 # Misc
-culture = greek
-religion = nicene
+culture = traki
+religion = orthodox

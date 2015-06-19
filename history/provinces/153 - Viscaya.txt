@@ -16,4 +16,4 @@ b_sansebastian = temple
 
 # Misc
 culture = basque
-religion = nicene
+religion = orthodox

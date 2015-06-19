@@ -18,5 +18,5 @@ b_ainbenamar = castle
 
 # Misc
 culture = hispani
-religion = nicene
+religion = orthodox
 

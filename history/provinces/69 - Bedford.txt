@@ -17,4 +17,4 @@ b_st_albans = temple
 
 # Misc
 culture = brithenig
-religion = hellenic_pagan
+religion = arian

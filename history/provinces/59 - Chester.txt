@@ -17,4 +17,4 @@ b_macclesfield = city
 
 # Misc
 culture = brithenig
-religion = hellenic_pagan
+religion = celtic_pagan

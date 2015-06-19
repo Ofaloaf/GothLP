@@ -16,5 +16,5 @@ b_alet = temple
 #b_minerve = castle
 
 #Misc
-religion = nicene
+religion = orthodox
 culture = gallic

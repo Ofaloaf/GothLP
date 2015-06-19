@@ -18,4 +18,4 @@ b_kampen = city
 
 # Misc
 culture = old_frankish
-religion = norse_pagan
+religion = arian

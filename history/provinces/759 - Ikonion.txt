@@ -17,5 +17,5 @@ b_lisdra = temple
 #b_sauatra = castle
 
 # Misc
-culture = greek
-religion = nicene
+culture = rumi_arabic
+religion = sunni

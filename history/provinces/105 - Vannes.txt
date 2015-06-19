@@ -16,7 +16,7 @@ b_hennebont = city
 
 # Misc
 culture = gallic
-religion = nicene
+religion = orthodox
 
 # History
 

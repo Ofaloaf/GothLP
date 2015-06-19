@@ -17,4 +17,4 @@ b_seyan = city
 
 # Misc
 culture = bedouin_arabic
-religion = miaphysite
+religion = sunni

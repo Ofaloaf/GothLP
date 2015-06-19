@@ -1,0 +1,21 @@
+# 461 - Fejer
+
+# County Title
+title = c_fejer
+
+# Settlements
+max_settlements = 4
+
+b_sarbogard = tribal
+
+#b_adony = temple
+#b_mor = city
+#b_val = castle
+#b_szekszard = castle
+#b_dombovar = castle
+#b_tamasi = castle
+#b_bonyhad = castle
+
+# Misc
+culture = jasi
+religion = tengri_pagan

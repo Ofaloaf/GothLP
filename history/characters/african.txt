@@ -2,7 +2,7 @@
 	name = "Gildon"
 	dynasty=1337044 # Pisciu
 	culture="africanu"
-	religion="nicene"
+	religion="orthodox"
 	martial=6
 	diplomacy=6
 	intrigue=8
@@ -24,7 +24,7 @@
 	name = "Isalca"
 	dynasty=1337045 # Siriti
 	culture="africanu"
-	religion="nicene"
+	religion="orthodox"
 	720.6.1={
 		birth=yes
 	}
@@ -47,6 +47,21 @@
 	trait="scholarly_theologian"
 	trait="charitable"
 	749.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+4449004 = {
+	name="Masties"
+	dynasty=1337046
+	culture=africanu
+	religion=donatist
+	trait=just
+	trait=brave
+	742.2.1={
 		birth=yes
 	}
 	800.1.1={

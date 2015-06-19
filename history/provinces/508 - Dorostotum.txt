@@ -16,5 +16,5 @@ b_shumen = temple
 #b_samuil = castle
 
 # Misc
-culture = romanian
-religion = nicene
+culture = traki
+religion = orthodox

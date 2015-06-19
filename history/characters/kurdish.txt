@@ -6,7 +6,7 @@
 	intrigue=7
 	stewardship=6
 	culture="kurdish"
-	religion="zoroastrian"
+	religion="sunni"
 	trait="intricate_webweaver"
 	729.1.1={
 		birth=yes

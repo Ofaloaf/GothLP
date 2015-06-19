@@ -1,0 +1,6 @@
+500.1.1 = {
+	liege = "d_domavia"
+}
+756.1.1 = {
+	holder = 3131004 # Vait Boaninus
+}

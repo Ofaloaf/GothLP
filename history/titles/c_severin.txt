@@ -1,0 +1,6 @@
+600.1.1 = {
+	liege = "e_byzantium"
+}
+735.1.1 = {
+	holder = 3332016 # Dobromil Kabilyets
+}

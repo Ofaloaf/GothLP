@@ -1,0 +1,22 @@
+## 513 - Birlad
+
+# County Title
+title = c_birlad
+
+# Settlements
+max_settlements = 4
+
+b_barlad = castle
+b_vaslui = city
+b_husi = temple # Slavic Pagan Holy site
+
+#b_galati = castle
+#b_tecuci = castle
+#b_braila = city
+#b_buzau = castle
+#b_ramnicusarat = castle
+
+# Misc
+
+culture = romanian
+religion = orthodox

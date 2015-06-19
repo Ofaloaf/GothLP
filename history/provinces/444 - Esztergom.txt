@@ -1,0 +1,20 @@
+# 444 - Esztergom
+
+# County Title
+title = c_esztergom
+
+# Settlements
+max_settlements = 5
+b_komarom = tribal
+
+#b_esztergom = temple
+#b_kakath = city
+#b_tatabanya = castle
+#b_nagyigmand = castle
+#b_nemesocsa = castle
+#b_ogylla = city
+#b_gyorszentmarton = temple
+
+# Misc
+culture = jasi
+religion = tengri_pagan

@@ -15,4 +15,4 @@ b_loule = temple
 #b_olhao = castle
 
 culture = hispani
-religion = nicene
+religion = orthodox

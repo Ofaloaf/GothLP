@@ -18,4 +18,4 @@ b_largentiere = city
 
 # Misc
 culture = gallic
-religion = nicene
+religion = orthodox

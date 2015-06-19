@@ -16,4 +16,4 @@ b_siena = city
 
 # Misc
 culture = latine
-religion = nicene
+religion = catholic

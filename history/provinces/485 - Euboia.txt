@@ -16,5 +16,5 @@ b_karystos = city
 
 # Misc
 culture = greek
-religion = nicene
+religion = orthodox
 terrain = hills

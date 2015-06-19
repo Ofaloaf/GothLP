@@ -2,7 +2,6 @@
 	name="Alsting"
 	dynasty=1059
 	religion=norse_pagan
-
 	culture=norse
 	diplomacy=9
 	martial=9
@@ -34,20 +33,12 @@
 6879 = {
 	name="Vigdis"
 	female=yes
-
 	religion=norse_pagan
-
 	culture=norse
 	749.1.1={
-
 		birth=yes
-
 	}
-
 	795.1.1={
-
 		death=yes
-
 	}
-
 }

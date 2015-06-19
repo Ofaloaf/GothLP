@@ -18,4 +18,4 @@ b_sefrou = temple
 
 # Misc
 culture = africanu
-religion = nicene
+religion = orthodox

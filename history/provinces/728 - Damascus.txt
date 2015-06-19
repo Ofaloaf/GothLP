@@ -17,6 +17,6 @@ b_damascus = temple
 #b_duma = castle
 
 # Misc
-culture = assyrian
-religion = nestorian
+culture = levantine_arabic
+religion = sunni
 

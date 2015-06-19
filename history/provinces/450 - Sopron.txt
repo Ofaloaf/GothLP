@@ -5,7 +5,7 @@ title = c_sopron
 
 # Settlements
 max_settlements = 4
-b_sopron = castle
+b_sopron = tribal
 b_csorna = city
 
 #b_gyor = temple
@@ -16,7 +16,7 @@ b_csorna = city
 #b_nagymarton = castle
 
 # Misc
-culture = boarisch
-religion = nicene
+culture = carantanian
+religion = slavic_pagan
 
 # History

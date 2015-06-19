@@ -16,7 +16,7 @@ b_norena = castle
 
 # Misc
 culture = gallaecian
-religion = nicene
+religion = orthodox
 
 # History
 

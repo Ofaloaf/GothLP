@@ -16,4 +16,4 @@ b_prato = temple
 
 # Misc
 culture = latine
-religion = nicene
+religion = catholic

@@ -1,0 +1,21 @@
+# 566 - Sugrov
+
+# County Title
+title = c_sugrov
+
+# Settlements
+max_settlements = 4
+b_sugrov = tribal
+
+#b_khursa = city
+#b_yauchy = temple
+
+#b_khazar = castle
+#b_khratayak = castle
+#b_oboyan = castle
+#b_tim = castle
+#b_fatezh = castle
+
+# Misc
+culture = sarmatian
+religion = tengri_pagan

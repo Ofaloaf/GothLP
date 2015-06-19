@@ -18,7 +18,7 @@ b_kelibia = city
 
 # Misc
 culture = africanu
-religion = nicene
+religion = orthodox
 
 # History
 

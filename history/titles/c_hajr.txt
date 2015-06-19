@@ -1,0 +1,4 @@
+760.1.1={
+	liege=d_nefoud
+	holder=188612 # Qutham Abbasid
+}

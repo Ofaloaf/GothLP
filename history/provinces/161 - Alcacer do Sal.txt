@@ -16,6 +16,6 @@ b_espinheiro = temple
 
 # Misc
 culture = hispani
-religion = nicene
+religion = orthodox
 
 

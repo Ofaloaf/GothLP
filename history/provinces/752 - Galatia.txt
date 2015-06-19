@@ -19,4 +19,4 @@ b_tavia = temple
 
 # Misc
 culture = greek
-religion = nicene
+religion = orthodox

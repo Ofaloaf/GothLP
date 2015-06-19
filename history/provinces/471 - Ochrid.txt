@@ -17,8 +17,8 @@ b_kastoria = city
 #b_krusevo = castle
 
 # Misc
-culture = greek
-religion = nicene
+culture = traki
+religion = orthodox
 
 
 

@@ -1,0 +1,119 @@
+8771001 = {
+	name = "Enaree"
+	culture = feretolan
+}
+
+8771002 = {
+	name = "Xurzerin" # Ossetian, 'The Sun'
+	culture = feretolan
+}
+
+8771003 = {
+	name = "Bireg" # Ossetian, 'Wolf'
+	culture = feretolan
+}
+
+8771004 = {
+	name = "Poza" # Pashto, 'Nose'
+	culture = feretolan
+}
+
+8771005 = {
+	name = "Sirx" # Ossetian, 'Red'
+	culture = feretolan
+}
+
+8771006 = {
+	name = "Hastlag" # Ossetian, "War" + "Man"
+	culture = feretolan
+}
+
+8771007 = {
+	name = "Togzad" # Ossetian, "Blood" + "Angel"
+	culture = feretolan
+}
+
+8771008 = {
+	name = "Fanikhyiz" # Ossetian, "grey"
+	culture = feretolan
+}
+
+8771009 = {
+	name = "Linoniy" # Linonen people, part of the Obotrites
+	culture = feretolan
+}
+
+8771010 = {
+	name = "Travnianiy" # Travnjane people of the Obotrites
+	culture = feretolan
+}
+
+8771011 = {
+	name = "Drevaniy" # Drevani people of the Obotrites
+	culture = feretolan
+}
+
+8771012 = {
+	name = "Wranefziy" # Warnabi people of the Obotrites
+	culture = feretolan
+}
+
+8771013 = {
+	name = "Wigiriy" # Wagrian people of the Obotrites
+	culture = feretolan
+}
+
+8771014 = {
+	name = "Milzeniy" # Milceni
+	culture = feretolan
+}
+
+8771015 = {
+	name = "Lyigiy" # Lugians
+	culture = feretolan
+}
+
+8771016 = {
+	name = "Zumiy" # Zumi
+	culture = feretolan
+}
+
+8771017 = {
+	name = "Mugilin" # Mugilones
+	culture = feretolan
+}
+
+8771018 = {
+	name = "Sibiniy" # Sibini
+	culture = feretolan
+}
+
+8771019 = {
+	name = "Butoniy" # Butones
+	culture = feretolan
+}
+
+8771020 = {
+	name = "Chariniy" # Charines
+	culture = feretolan
+}
+
+8771021 = {
+	name = "Velunzin" # Wolinians
+	culture = feretolan
+}
+
+8771022 = {
+	name = "Lutisiy" # Lutici
+	culture = feretolan
+}
+
+8771023 = {
+	name = "Pchelin"
+	culture = feretolan
+}
+
+8771024 = {
+	name = "Tsarazon"
+	culture = feretolan
+}

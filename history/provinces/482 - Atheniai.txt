@@ -18,4 +18,4 @@ b_piraeaus = temple # Orthodox Holy Site
 
 # Misc
 culture = greek
-religion = nicene
+religion = orthodox

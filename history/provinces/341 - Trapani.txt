@@ -17,5 +17,5 @@ b_mazara = city
 
 # Misc
 culture = latine
-religion = nicene
+religion = catholic
 

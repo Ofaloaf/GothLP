@@ -17,5 +17,5 @@ b_luzech = castle
 #b_penne = castle
 
 #Misc
-religion = nicene
+religion = orthodox
 culture = aquitanian

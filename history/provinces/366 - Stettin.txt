@@ -1,0 +1,20 @@
+# 366 - Stettin
+
+# County Title
+title = c_stettin
+
+# Settlements
+max_settlements = 4
+b_soldin = tribal
+
+#b_stestargard = castle
+#b_wollin = city
+#b_stettin = temple
+#b_kolbatz = castle
+#b_kammin = temple
+#b_cedene = city
+#b_pyritz = castle
+
+# Misc
+culture = feretolan
+religion = tengri_pagan

@@ -1,0 +1,263 @@
+3332001 = {
+	name="Kazimeru"
+	dynasty=1012003 # Apsintvic
+	culture=traki
+	religion=orthodox
+	diplomacy=7
+	martial=9
+	stewardship=7
+	intrigue=6
+	learning=5
+	father=3332009 # Dragomeru Apsintvic
+	trait=born_in_the_purple
+	749.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+3332002 = {
+	name="Dobreta"
+	dynasty=1111009 # Daurentius
+	culture=traki
+	religion=orthodox
+	580.1.1={
+		birth=yes
+	}
+	630.1.1={
+		death=yes
+	}
+}
+
+3332003 = {
+	name="Tiberij"
+	dynasty=1111009 # Daurentius
+	culture=traki
+	religion=orthodox
+	father=332002
+	602.1.1={
+		birth=yes
+	}
+	637.7.14 = {
+		culture = roman
+		give_nickname = nick_the_culture
+	}
+	638.1.1 = {
+		culture = traki
+	}
+	671.1.1={
+		death=yes
+	}
+}
+
+3332004 = {
+	name="Dmitrei"
+	dynasty=1111009 # Daurentius
+	culture=traki
+	religion=orthodox
+	father=332003
+	633.1.1={
+		birth=yes
+	}
+	686.1.1={
+		death=yes
+	}
+}
+
+3332005 = {
+	name="Kazimeru"
+	dynasty=1111009 # Daurentius
+	culture=traki
+	religion=orthodox
+	father=332004
+	633.1.1={
+		birth=yes
+	}
+	699.1.1={
+		death=yes
+	}
+}
+
+3332006 = {
+	name="Kazimeru"
+	dynasty=1111009 # Daurentius
+	culture=traki
+	religion=orthodox
+	father=332005
+	682.1.1={
+		birth=yes
+	}
+	704.1.1={
+		death=yes
+	}
+}
+
+3332007 = {
+	name = "Valuk"
+	dynasty=1012003 # Apsintvic
+	culture=traki
+	religion=orthodox
+	682.1.1={
+		birth=yes
+	}
+	704.1.1={
+		death=yes
+	}
+}
+
+3332008 = {
+	name = "Kyrilu"
+	dynasty=1012003 # Apsintvic
+	culture=traki
+	religion=orthodox
+	father=332007
+	704.1.1={
+		birth=yes
+	}
+	742.1.1={
+		death=yes
+	}
+}
+
+3332009 = {
+	name = "Dragomeru"
+	dynasty=1012003 # Apsintvic
+	culture=traki
+	religion=orthodox
+	father=332008
+	723.1.1={
+		birth=yes
+	}
+	763.1.1={
+		death=yes
+	}
+}
+
+3332010 = {
+	name="Teofilakt"
+	dynasty=1012001 # Abantiy
+	culture=traki
+	religion=orthodox
+	diplomacy=7
+	martial=9
+	stewardship=7
+	intrigue=6
+	learning=5
+	735.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+3332011 = {
+	name="Aleksandru"
+	dynasty=1012015 # Berzit
+	culture=traki
+	religion=orthodox
+	diplomacy=7
+	martial=11
+	stewardship=5
+	intrigue=5
+	learning=6
+	trait="skilled_tactician"
+	748.7.20={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+3332012 = {
+	name="Vsevolod"
+	dynasty=1012014 # Strumanets
+	culture=traki
+	religion=orthodox
+	diplomacy=5
+	martial=5
+	stewardship=5
+	intrigue=7
+	learning=6
+	720.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+3332013 = {
+	name="Dervan"
+	dynasty=1012031 # Odrisij
+	culture=traki
+	religion=orthodox
+	diplomacy=6
+	martial=6
+	stewardship=5
+	intrigue=6
+	learning=6
+	725.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+3332014 = {
+	name="Toma"
+	dynasty=1012035 # Sabis
+	culture=traki
+	religion=orthodox
+	diplomacy=6
+	martial=6
+	stewardship=6
+	intrigue=6
+	learning=6
+	739.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+3332015 = {
+	name="Musok"
+	dynasty=1012037 # Pirogerij
+	culture=traki
+	religion=orthodox
+	diplomacy=6
+	martial=6
+	stewardship=6
+	intrigue=6
+	learning=6
+	733.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+3332016 = {
+	name="Dobromil"
+	dynasty=1012020 # Kabilyets
+	culture=traki
+	religion=orthodox
+	diplomacy=6
+	martial=6
+	stewardship=6
+	intrigue=6
+	learning=6
+	719.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}

@@ -17,5 +17,5 @@ b_sliema = city
 
 # Misc
 culture = latine
-religion = nicene
+religion = catholic
 terrain = hills

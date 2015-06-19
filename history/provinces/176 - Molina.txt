@@ -15,5 +15,5 @@ b_cabanillasdelcampo = city
 #b_olmeda = castle
 
 culture = hispani
-religion = nicene
+religion = orthodox
 terrain = hills

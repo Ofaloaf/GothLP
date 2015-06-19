@@ -19,4 +19,4 @@ b_cibyra = temple
 
 # Misc
 culture = greek
-religion = nicene
+religion = ibadi

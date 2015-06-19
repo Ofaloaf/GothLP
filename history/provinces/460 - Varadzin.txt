@@ -5,8 +5,8 @@ title = c_varadzin
 
 # Settlements
 max_settlements = 4
-b_varazdin = castle
-b_cakovec = city
+b_varazdin = tribal
+#b_cakovec = city
 b_ludbreg = temple
 
 #b_lepoglava = castle
@@ -16,5 +16,5 @@ b_ludbreg = temple
 #b_oroslavje = castle
 
 # Misc
-culture = dalmatian
-religion = nicene
+culture = carantanian
+religion = slavic_pagan

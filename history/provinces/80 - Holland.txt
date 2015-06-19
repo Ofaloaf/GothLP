@@ -18,4 +18,4 @@ b_haarlem = temple
 
 # Misc
 culture = frisian
-religion = norse_pagan
+religion = arian

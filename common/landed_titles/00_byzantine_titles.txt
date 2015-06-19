@@ -1,8 +1,46 @@
-e_megale_hellas = {
-	color = { 227 217 182 }
-	color2= { 255 255 255 }
-
+e_byzantium = {
+	color={ 163 10 145 }
+	color2={ 255 255 20 }
+	
+	capital = 496 # Byzantion
+	
+	short_name = yes
+	
 	culture = greek
+	religion = orthodox
+	
+	has_top_de_jure_capital = yes
+	
+	purple_born_heirs = yes
+	
+	allow = {
+		e_roman_empire = {
+			has_holder = no
+		}
+	}
+	
+	k_cyprus = {
+		color = { 85 138 236 }
+		capital = 757 # Famagusta
+		allow = {
+			OR = {
+				religion = catholic
+				is_heresy_of = catholic
+			}
+		}
+	}
+	
+	k_trinacria = {
+		color={ 249 232 247 }
+	#	capital = 340 #	Palermo
+	
+		allow = {
+			OR = {
+				religion = catholic
+				is_heresy_of = catholic
+			}
+		}
+	}
 
 	k_thrace = {
 		color = { 192 231 208 }
@@ -30,10 +68,13 @@ e_megale_hellas = {
 				color={ 38 86 166 }
 				color2={ 255 255 20 }
 				
-				turkish = "Gelibolu"
+				traki = "Kalipolje"
+				rimlyani = "Kalipolje"
+				greek = "Kallipolis"
 				
 				b_gallipoli = {
-					turkish = "Gelibolu"
+					traki = "Kalipolje"
+					rimlyani = "Kalipolje"
 					greek = "Kallipolis"
 				}
 				b_heraclea = {
@@ -60,8 +101,13 @@ e_megale_hellas = {
 				muslim = 250 # Crusade target weight
 				
 				top_de_jure_capital = yes
+
+				traki = "Konstantinograd"
+				rimlyani = "Konstantinograd"
 				
 				b_constantinople = {
+					traki = "Konstantinograd"
+					rimlyani = "Konstantinograd"
 				}
 				b_hagiasophia = {
 					pentarchy = yes
@@ -88,6 +134,9 @@ e_megale_hellas = {
 			c_thrake = {
 				color={ 52 82 224 }
 				color2={ 255 255 20 }
+
+				traki = "Trakija"
+				rimlyani = "Trakija"
 				
 				b_verissa = {
 				}
@@ -117,14 +166,18 @@ e_megale_hellas = {
 				color={ 82 120 141 }
 				color2={ 255 255 20 }
 				
-				turkish = "Edirne"
+				traki = "Drinopolje"
+				rimlyani = "Drinopolje"
 				
 				b_adrianopolis = {
-					turkish = "Edirne"
+					traki = "Drinopolje"
+					rimlyani = "Drinopolje"
 				}
 				b_didymoteichon = {
 				}
 				b_traianopolis = {
+					traki = "Trajanopol"
+					rimlyani = "Trajanopol"
 				}
 				b_skalothe = {
 				}
@@ -140,10 +193,17 @@ e_megale_hellas = {
 			c_philippopolis = {
 				color={ 136 164 204 }
 				color2={ 255 255 20 }
+
+				traki = "Paldin"
+				rimlyani = "Plavdiv"
 				
 				b_philippopolis = {
+					traki = "Paldin"
+					rimlyani = "Plavdiv"
 				}
 				b_xantheia = {
+					traki = "Ksanti"
+					rimlyani = "Ksanti"
 				}
 				b_klokoknitsa = {
 				}
@@ -173,6 +233,8 @@ e_megale_hellas = {
 				
 				b_tyrnovo = {
 					greek = "Noba" # Roman Novae
+					traki = "Tarnovgrad"
+					rimlyani = "Tarnovgrad"
 				}
 				b_irinopolis = {
 				}
@@ -193,18 +255,7 @@ e_megale_hellas = {
 				color={ 158 43 201 }
 				color2={ 255 255 255 }
 				
-				bulgarian = "Sofia"
-				serbian = "Sofia"
-				croatian = "Sofia"
-				russian = "Sofia"
-				polish = "Sofia"
-				
 				b_serdica = {
-					bulgarian = "Sofia"
-					serbian = "Sofia"
-					croatian = "Sofia"
-					russian = "Sofia"
-					polish = "Sofia"
 				}
 				b_velbazhd = {
 				}
@@ -226,6 +277,8 @@ e_megale_hellas = {
 				color2={ 255 255 255 }
 				
 				b_nikopolis = {
+					traki = "Nikjup"
+					rimlyani = "Nikyup"
 				}
 				b_pleven = {
 				}
@@ -245,8 +298,15 @@ e_megale_hellas = {
 			c_dorostotum = {
 				color={ 162 47 205 }
 				color2={ 255 255 255 }
+
+				traki = "Drastar"
+				rimlyani = "Drastar"
+				greek = "Durostolon"
 				
 				b_dorosturum = {
+					traki = "Drastar"
+					rimlyani = "Drastar"
+					greek = "Durostolon"
 				}
 				b_rusi = {
 				}
@@ -273,8 +333,12 @@ e_megale_hellas = {
 			c_mesembria = {
 				color={ 207 92 250 }
 				color2={ 255 255 255 }
+
+				traki = "Nesebar"
 				
 				b_mesembria = {
+					traki = "Nesebar"
+					rimlyani = "Nesebar"
 				}
 				b_varna = {
 				}
@@ -296,9 +360,11 @@ e_megale_hellas = {
 				color2={ 255 255 255 }
 				
 				greek = "Krounoi"
+				romanian = "Carvarna"
 				
 				b_karvuna = {
 					greek = "Krounoi"
+					romanian = "Carvarna"
 				}
 				b_kaliakra = {
 					greek = "Akrai"
@@ -350,9 +416,15 @@ e_megale_hellas = {
 				color2={ 255 255 255 }
 				
 				greek = "Bononia"
+				traki = "Badin"
+				rimlyani = "Vidyne"
+				romanian = "Diiu"
 				
 				b_vidin = {
 					greek = "Bononia"
+					traki = "Badin"
+					rimlyani = "Vidyne"
+					romanian = "Diiu"
 				}
 				b_viseslav = {
 				}
@@ -373,12 +445,22 @@ e_megale_hellas = {
 				color={ 239 181 101 }
 				color2={ 255 255 255 }
 				
-				serbian = "Nish"
-				croatian = "Nish"
-				bulgarian = "Nish"
+				traki = "Niš"
+				rimlyani = "Niš"
+				greek = "Naissos"
+				roman = "Naissus"
+				latine = "Nissa"
+				dalmatian = "Nissa"
+				romanian = "Nish"
 				
 				b_nish = {
+					traki = "Niš"
+					rimlyani = "Niš"
 					greek = "Naissos"
+					roman = "Naissus"
+					latine = "Nissa"
+					dalmatian = "Nissa"
+					romanian = "Nish"
 				}
 				b_kumanovo = {
 				}
@@ -435,11 +517,15 @@ e_megale_hellas = {
 			c_chalkidike = {
 				color={ 192 22 133 }
 				color2={ 255 255 20 }
+
+				traki = "Halkidik"
+				rimlyani = "Halkidiki"
 				
 				b_serres = {
+					traki = "Ser"
+					rimlyani = "Ser"
 				}
 				b_mntathos = {
-					holy_site = orthodox
 				}
 				b_philippi = {
 				}
@@ -458,15 +544,32 @@ e_megale_hellas = {
 				color={ 195 25 136 }
 				color2={ 255 255 20 }
 				
-				turkish = "Salonika"
+				traki = "Solun"
+				rimlyani = "Solun"
+
+				roman = "Thessalonica"
+				latine = "Thessalonica"
+				gallic = "Thessalonica"
+				hispani = "Thessalonica"
+				dalmatian = "Thessalonica"
+				gallaecian = "Thessalonica"
 				
 				b_thessaloniki = {
-					turkish = "Salonika"
+					traki = "Solun"
+					rimlyani = "Soluna"
+
+					roman = "Thessalonica"
+					latine = "Thessalonica"
+					gallic = "Thessalonica"
+					hispani = "Thessalonica"
+					dalmatian = "Thessalonica"
+					gallaecian = "Thessalonica"
 				}
 				b_thesedessa = {
 					holy_site = hellenic_pagan
 				}
 				b_voden = {
+					traki = "Vodinu"
 				}
 				b_hlerin = {
 				}
@@ -483,10 +586,7 @@ e_megale_hellas = {
 				color={ 198 28 139 }
 				color2={ 255 255 20 }
 				
-				turkish = "Tesalya"
-				
 				b_larissa = {
-					turkish = "Yenisehir i-Fenari"
 				}
 				b_volos = {
 				}
@@ -555,8 +655,13 @@ e_megale_hellas = {
 			c_atheniai = {
 				color={ 215 75 167 }
 				color2={ 255 255 20 }
+
+				traki = "Atena"
+				rimlyani = "Atena"
 				
 				b_athens = {
+					traki = "Atena"
+					rimlyani = "Atena"
 				}
 				b_piraeaus = {
 					holy_site = hellenic_pagan
@@ -578,8 +683,7 @@ e_megale_hellas = {
 				color={ 151 59 119 }
 				color2={ 255 255 20 }
 				
-				italian = "Negroponte"
-				turkish = "Egriboz"
+				traki = "Eubeja"
 				
 				b_chalkis = {
 					italian = "Negroponte"
@@ -868,7 +972,7 @@ e_megale_hellas = {
 				maghreb_arabic = "Al-Hanim"
 				levantine_arabic = "Al-Hanim"
 				egyptian_arabic = "Al-Hanim"
-				andalusian_arabic = "Al-Hanim"
+				rumi_arabic = "Al-Hanim"
 				turkish = "Hanya"
 				
 				b_kandia = {
@@ -876,7 +980,7 @@ e_megale_hellas = {
 					maghreb_arabic = "Al-Hanim"
 					levantine_arabic = "Al-Hanim"
 					egyptian_arabic = "Al-Hanim"
-					andalusian_arabic = "Al-Hanim"
+					rumi_arabic = "Al-Hanim"
 					turkish = "Hanya"
 				}
 				b_rethymno = {
@@ -909,7 +1013,7 @@ e_megale_hellas = {
 					levantine_arabic = "Khandaq"
 					egyptian_arabic = "Khandaq"
 					bedouin_arabic = "Khandaq"
-					andalusian_arabic = "Khandaq"
+					rumi_arabic = "Khandaq"
 				}
 				b_agiosnikolaos = {
 				}
@@ -1196,7 +1300,6 @@ e_megale_hellas = {
 					turkish = "Ayasoluk"
 				}
 				b_lebedos = {
-					holy_site = orthodox
 				}
 				b_miletos = {
 				}
@@ -1488,9 +1591,17 @@ e_megale_hellas = {
 				color2={ 255 255 20 }
 				
 				turkish = Ankara
+				rumi_arabic = Anqarah
+				bedouin_arabic = Anqarah
+				levantine_arabic = Anqarah
+				egyptian_arabic = Anqarah
 				
 				b_ankyra = {
 					turkish = Ankara
+					rumi_arabic = Anqarah
+					bedouin_arabic = Anqarah
+					levantine_arabic = Anqarah
+					egyptian_arabic = Anqarah
 				}
 				b_germa = {
 				}

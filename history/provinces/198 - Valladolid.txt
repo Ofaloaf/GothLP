@@ -16,4 +16,4 @@ b_segovia = temple
 
 # Misc
 culture = gallaecian
-religion = nicene
+religion = orthodox

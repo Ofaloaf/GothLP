@@ -16,4 +16,4 @@ b_lampron = castle
 
 # Misc
 culture = greek
-religion = nicene
+religion = orthodox

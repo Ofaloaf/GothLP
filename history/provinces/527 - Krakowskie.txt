@@ -1,0 +1,20 @@
+# 527 - Krakowskie
+
+# County Title
+title = c_krakowskie
+
+# Settlements
+max_settlements = 6
+b_krakow = tribal
+#b_tarnow = city
+#b_jedrzejow = temple
+#b_brzesko = castle
+
+#b_kielce = city
+#b_chrzanow = castle
+#b_olkusz = castle
+#b_skawina = castle
+
+# Misc
+culture = alan
+religion = tengri_pagan

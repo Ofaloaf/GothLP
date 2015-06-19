@@ -5,8 +5,8 @@ title = c_nurnberg
 
 # Settlements
 max_settlements = 5
-b_nurnberg = castle
-b_furth = city
+b_nurnberg = tribal
+#b_furth = city
 b_ellwangen = temple
 
 #b_kulmbach = castle
@@ -16,5 +16,5 @@ b_ellwangen = temple
 #b_erlangen = castle
 
 # Misc
-culture = boarisch
-religion = norse_pagan
+culture = carantanian
+religion = slavic_pagan

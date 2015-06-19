@@ -16,4 +16,4 @@ b_casale = temple
 
 # Misc
 culture = latine
-religion = nicene
+religion = catholic

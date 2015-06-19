@@ -2,3 +2,6 @@
 {
 	pentarch = b_roma
 }
+500.1.1 = {
+	de_jure_liege = e_papal_hre
+}

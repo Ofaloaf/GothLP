@@ -16,5 +16,5 @@ b_stjeandangely = temple
 #b_taillebourg = castle
 
 #Misc
-religion = nicene
+religion = orthodox
 culture = gallic

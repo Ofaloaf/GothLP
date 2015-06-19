@@ -16,5 +16,5 @@ b_jarash = temple
 #b_elemtaih = castle
 
 # Misc
-culture = assyrian
-religion = nestorian
+culture = levantine_arabic
+religion = sunni

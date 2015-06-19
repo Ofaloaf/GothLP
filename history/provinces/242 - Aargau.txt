@@ -17,7 +17,7 @@ b_basel = temple
 
 # Misc
 culture = suebi
-religion = nicene
+religion = catholic
 
 # History
 

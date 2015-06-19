@@ -17,4 +17,4 @@ b_fiume = temple
 
 # Misc
 culture = dalmatian
-religion = nicene
+religion = catholic

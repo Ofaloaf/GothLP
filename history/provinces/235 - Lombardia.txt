@@ -15,5 +15,5 @@ b_lodi = castle
 #b_chiavenna = castle
 
 # Misc
-culture = latine
-religion = nicene
+culture = avar
+religion = catholic

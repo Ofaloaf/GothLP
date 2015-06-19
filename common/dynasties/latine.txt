@@ -397,3 +397,32 @@
 	name = "Donniano" # Donnus, Donnianus
 	culture = latine
 }
+
+476081 = {
+	name = "Praetutio"
+	culture = latine
+}
+
+476082 = {
+	name = "Bonapars"
+}
+
+476083 = {
+	name = "Occidentalis"
+	culture = roman
+}
+
+476084 = {
+	name = "Tiberianus"
+	culture = roman
+}
+
+476085 = {
+	name = "Thessalios"
+	culture = greek
+}
+
+476086 = {
+	name = "Athalarichos"
+	culture = greek
+}

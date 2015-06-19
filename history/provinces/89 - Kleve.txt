@@ -17,4 +17,4 @@ b_rees = temple
 
 # Misc
 culture = old_frankish
-religion = norse_pagan
+religion = arian

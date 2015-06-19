@@ -16,4 +16,4 @@ b_guimaraes = city
 
 # Misc
 culture = gallaecian
-religion = nicene
+religion = orthodox

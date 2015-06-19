@@ -1,0 +1,92 @@
+caucasian = {
+	graphical_culture = easterngfx
+
+	armenian = {
+		graphical_culture = byzantinegfx
+		
+		color = { 0.5 0.2 0.5 }
+
+		male_names = {
+			Abas Abirad Aboughamr Aboulgharib Aleksandr_Alexander Artashes Artashir_Ardeshir Artavazd Arsen Arshak Ashot_Ashot Athom Atrnerseh_Atrnerseh Avag Avedis Bagour_Bagour Bagrat Bedros_Peter Boghos_Paul Davit_David Eshkhan Gagik_Gagik Gevorg_George
+			Gosdantin_Constantine Grigor_Gregory Gurgen_Lupo Hagop Hamazasp Hethum Hovhannes_John Hovsep_Joseph Ishkhan_Ishkhan Ivane Kapriel_Gabriel Khachik Khosrov_Khosrau Levon_Leo Malkhas_Malkhas Mamigon Manuel_Manuel Margos_Marcus Melek Mihrdat_Mithridates Mikayel_Michael Mleh Mushegh Mushel Mzhezh
+			Nerseh_Narses Oshin Roupen_Reuben Sahag_Isaac Sarkis_Sergius Sevag Shahanshah_Shahanshah Smbat_Smbat Stepanos_Stephen Tachat Taniel_Daniel Tatoul Tigran Tornik_Tornik Tovmas_Thomas Thoros_Theodore Trdat Vache Vachagan Vagharshak Vahag Vahan Vahram Vakhtank Varazdat Vartan Vassak Vesd Vrtanes Zakare Zarmihr
+		}
+		female_names = {
+			Aghavni Alitz_Alice Almasd Anahid Anna_Anna Anoush Arda Arevig Arin Baydzar Berjanoush Berjouhi Datevig Dalita Eliz_Eloise Gadar Gorandoukht_Gorandukht Hasmig Houri Hranoush
+			Hripsimeh Keghanoush Keran Khorishah Kohar Latavri Leyli Lousin Mara Margarid_Margaret Maria_Maria Mariyam_Mariam Meghranoush Nane Nazani Ovsanna Pounig Razmouhi Rita Satenik_Satinik Seta Siran Sirvart
+			Srpouhi Shoushanig Takouhi Tamar_Tamar Vartanoush Vartouhi Vosgi Yeva Zabel_Elizabeth Zmroukhd
+		}
+		
+		from_dynasty_prefix = "ve "
+		
+		disinherit_from_blinding = yes
+		
+		modifier = default_culture_modifier
+	}
+	georgian = {
+		graphical_culture = byzantinegfx
+		
+		color = { 0.6 0.3 0.8 }
+
+		male_names = {
+			Adarnase_Atrnerseh Aghsartan Aleksandre_Alexander Andronik_Andronicus Anzori Archili Ashot_Ashot Bagrat Bakur_Bagour Davit_David Demetre_Demetrius Demna Djavakhi Erekle_Heracles Gabrieli_Gabriel Gagiki_Gagik Giorgi_George Grigoli_Gregory Guaram_Guaram Gubaz
+			Gurgen_Lupo Iese Ioane_John Ishkhanik_Ishkhan Iveri Jarji Kaikhosro_Keykhosrau Kakhi Koba Konstantine_Constantine Kvarkvare Kvirike Levan_Leo Luarsab Malkhazi_Malkhas Mamia Merab Mikheil_Michael Mukhran Nerse_Narses Nikoloz_Nicholas Okhropir Orbeli
+			Padla Samoeli_Samuel Shanshe_Shahanshah Shota Simon_Simon Stepanoz_Stephen Sumbat_Smbat Teimuraz_Teimuraz Tornike_Tornik Ushisha Vache Vakhtang_Vakhtank Zurab Zviad
+		}
+		female_names = {
+			Ana_Anna Baia Bedisa Borena Chiora Chito Dali Dedika Duda Dzabuli Elene_Helen Eliso Endzela Gogutsa Gulchara Guliko Gulisa Gulvardi Guranduht_Gorandukht Gvantsa Ia Judjuna
+			Kekela Ketevan_Catherine Lamara Lamzira Lela Mariami_Mariam Mathiko Mthvarisa Mzekhar Natia Nino Rusudan Sanatha Shorena Shukhia Suliko
+			Tamari_Tamar Taplo Tinatini Tsiala Vardo
+		}
+		
+		from_dynasty_prefix = "ve "
+		
+		male_patronym = "s dze"
+		female_patronym = "shvili"
+		prefix = no
+		
+		disinherit_from_blinding = yes
+
+		modifier = default_culture_modifier
+	}
+	circassian = {
+		graphical_culture = eastslavicgfx
+		
+		color = { 0.0 0.4 0.3 }
+
+		male_names = {
+			Anzor Adil Aslan Aslanbek Aidamir Alijiqwe Amish Andeimir Andeimirqan Anzawir Abatiy
+			Bibras Batirbiy Batiy Bedin Bediniqwe Beiqan Beird Belatse Bagh Bale
+			Dariqwe Debaghwe Degwzkhey Disheshu Diyde Dizkhin Dzedzu Dzeghashte Dzepsh
+			Foqwe
+			Gankate Gatawe Ghwaze
+			Hazret Hebale Hebashe Hebexw Hebiy Hebizh Hemashe Heshir Hetiq Hetsile Hetaliy Hetal Hezeishe
+			Idar Inal Inarmas
+			Jankhate Jatawe Jilaxsten Jirandiqwe 
+			Karzeg Kawis Ketsu Kitsu Kwrghwoqwe Kwsh Kwshbiy Kwshikw Kwshmez 
+			Lashe Lawirsen Lemashe Lhepsh Lhosten Lhostenash Lhostenbiy Limaxwe
+			Mamish Mamishe Mamsir Mamsriqwe Mariqwe Mash Mashe Maxwe Menshaq Meshiqwe Mile Miqe Misost Mize
+			Nal Nalbiy Nali Naptse Narikh Narik Nart Nartbiy Nartshawe Nartshu Nash Natrib Nawirbiy Nedighe
+			Pagwe Paq Paqe Pariyqe Pashe Psebide Pshibiy Pshimaxwe Pshimide Pshiqan Pshizebiy 
+			Qaniqwe Qanshawe Qanshobiy  Qeit Qilishbiy
+			Tuguzhuko Tobuldu Telman
+			Zamudin
+		}
+		female_names = {
+			Babine Babire Babishe Babitse Babliyne Bariyne Bitse Bzho
+			Doamna Dadiy Daduqan Dadusha Dane Daniyzet Daxe Daxeliyne Daxenaghwe Daxewes Dishe Diyne Dumesare
+			Ecaterina_Catherine
+			Gwashe Gwasheghagh Gwasheliyne Gwashemash'e Gwashenise Gwashepagwe Gwashexwzh Gweshene Gweshenexw
+			Hetsatsa 
+			Liya Lalixw Laliyne Laliytse Lane Lawitse Lixwe Liyne 
+			Nazdschan Nili Naghwe Nedaxe Negwresh Nexdaxe Niyne 
+			Pagwe Pizhine 
+			Rusudan
+			Sampsonia Sati Sawise Sete Seteney Susane_Susan
+			Teresia Tewzhan Tsatse Tsatsune 
+			Wes Wile Witse Wizhe 
+			Zaliyne Zhan Zhangwashe Zhanpagwe Zhanqwdas Zhanshir Zhanwes Zhanwise Zhanxwzh Zhanziyle Zheine
+		}
+		modifier = default_culture_modifier
+	}
+}

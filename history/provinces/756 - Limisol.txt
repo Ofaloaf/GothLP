@@ -19,4 +19,4 @@ b_arsinoe = temple
 
 # Misc
 culture = greek
-religion = nicene
+religion = orthodox

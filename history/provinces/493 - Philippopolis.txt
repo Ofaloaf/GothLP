@@ -18,5 +18,5 @@ b_xantheia = temple
 #b_mosynopolis = castle
 
 # Misc
-culture = greek
-religion = nicene
+culture = traki
+religion = orthodox

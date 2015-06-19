@@ -19,4 +19,4 @@ b_embrun = temple
 
 # Misc
 culture = gallic
-religion = nicene
+religion = orthodox

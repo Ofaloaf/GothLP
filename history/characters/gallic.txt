@@ -7,7 +7,7 @@
 	stewardship = 5
 	learning = 6
 	culture = gallic
-	religion = nicene
+	religion = orthodox
 	trait=cynical
 	trait=kind
 	trait=patient
@@ -32,7 +32,7 @@
 	stewardship = 5
 	learning = 6
 	culture = gallic
-	religion = nicene
+	religion = orthodox
 	trait="deceitful"
 	trait="amateurish_plotter"
 	720.1.1 = {
@@ -50,7 +50,7 @@
 	father=1789001
 	mother=1789002
 	culture = gallic
-	religion = nicene
+	religion = orthodox
 	trait=fair
 	739.1.1 = {
 		birth = yes
@@ -71,7 +71,7 @@
 	stewardship = 5
 	learning = 7
 	culture = gallic
-	religion = nicene
+	religion = orthodox
 	trait=charitable
 	trait=proud
 	trait=martial_cleric
@@ -95,7 +95,7 @@
 	stewardship = 8
 	learning = 8
 	culture = gallic
-	religion = nicene
+	religion = orthodox
 	trait=cynical
 	trait=scholar
 	743.1.1 = {
@@ -118,7 +118,7 @@
 	stewardship = 5
 	learning = 5
 	culture = gallic
-	religion = nicene
+	religion = orthodox
 	trait=envious
 	746.1.1 = {
 		birth = yes
@@ -132,7 +132,7 @@
 	name = "Crispines"
 	dynasty = 1940018 # Segomo
 	culture = gallic
-	religion = nicene
+	religion = orthodox
 	713.1.1 = {
 		birth = yes
 	}
@@ -144,7 +144,7 @@
 1789008 = {
 	name = "Iacune"
 	culture = gallic
-	religion = nicene
+	religion = orthodox
 	710.1.1 = {
 		birth = yes
 	}
@@ -157,7 +157,7 @@
 	name = "Vestalis"
 	dynasty = 1940020 # Veraudunules
 	culture = gallic
-	religion = nicene
+	religion = orthodox
 	730.1.1 = {
 		birth = yes
 	}
@@ -175,7 +175,7 @@
 	stewardship=6
 	learning=5
 	culture=gallic
-	religion=nicene
+	religion=orthodox
 	trait=greedy
 	trait=charismatic_negotiator
 	719.1.1 = {
@@ -189,7 +189,7 @@
 1789011 = {
 	name = "Maspicianus"
 	culture = gallic
-	religion = nicene
+	religion = orthodox
 	715.1.1 = {
 		birth = yes
 	}
@@ -202,7 +202,7 @@
 	name = "Mansuetus"
 	dynasty = 1940035 # Abelliolo
 	culture=gallic
-	religion=nicene
+	religion=orthodox
 	733.1.1 = {
 		birth = yes
 	}
@@ -222,7 +222,7 @@
 	stewardship=7
 	learning=7
 	culture=gallic
-	religion=nicene
+	religion=orthodox
 	trait=brilliant_strategist
 	trait=ambitious
 	trait=cruel
@@ -240,7 +240,7 @@
 	name = "Philippes"
 	dynasty = 1940062 # de Tolosa
 	culture=gallic
-	religion=nicene
+	religion=orthodox
 	trait=skilled_tactician
 	718.1.1 = {
 		birth = yes
@@ -265,7 +265,7 @@
 	stewardship=6
 	learning=7
 	culture=gallic
-	religion=nicene
+	religion=orthodox
 	trait=strong
 	trait=honest
 	719.1.1 = {
@@ -287,7 +287,7 @@
 	stewardship=6
 	learning=7
 	culture=gallic
-	religion=nicene
+	religion=orthodox
 	trait=detatched_priest
 	trait=scholar
 	trait=inspiring_leader
@@ -303,7 +303,7 @@
 	name = "Sidonis"
 	dynasty = 1940118 # Apollinaris
 	culture=gallic
-	religion=nicene
+	religion=orthodox
 	trait=poet
 	693.1.1 = {
 		birth = yes
@@ -320,7 +320,7 @@
 	name = "Rusticata"
 	female=yes
 	culture=gallic
-	religion=nicene
+	religion=orthodox
 	694.1.1 = {
 		birth = yes
 	}
@@ -334,7 +334,7 @@
 	dynasty = 1940118 # Apollinaris
 	father=1789016 # Victorines Apollinaris
 	culture=gallic
-	religion=nicene
+	religion=orthodox
 	trait=quick
 	741.1.1 = {
 		birth = yes
@@ -353,7 +353,7 @@
 	stewardship = 7
 	learning = 7
 	culture = gallic
-	religion = nicene
+	religion = orthodox
 	trait=zealous
 	719.1.1 = {
 		birth = yes

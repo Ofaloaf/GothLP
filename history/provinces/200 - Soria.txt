@@ -15,4 +15,4 @@ b_osma = temple
 #b_covaleda = castle
 
 culture = gallaecian
-religion = nicene
+religion = orthodox

@@ -2,7 +2,7 @@
 	name="Teorenius"
 	dynasty=1589079 # Argantonio
 	culture="hispani"
-	religion="nicene"
+	religion="orthodox"
 	martial=5
 	diplomacy=6
 	intrigue=7
@@ -21,7 +21,7 @@
 	name="Iose"
 	dynasty=1589078 # Burdunelo
 	culture="hispani"
-	religion="nicene"
+	religion="orthodox"
 	martial=8
 	diplomacy=6
 	intrigue=8
@@ -46,7 +46,7 @@
 	name="Lepora"
 	female=yes
 	culture="hispani"
-	religion="nicene"
+	religion="orthodox"
 	720.1.1={
 		birth=yes
 	}
@@ -61,7 +61,7 @@
 	father=1573002
 	mother=1573003
 	culture="hispani"
-	religion="nicene"
+	religion="orthodox"
 	martial=8
 	diplomacy=5
 	intrigue=4
@@ -85,7 +85,7 @@
 	father=1573002
 	mother=1573003
 	culture="hispani"
-	religion="nicene"
+	religion="orthodox"
 	martial=7
 	diplomacy=5
 	intrigue=7
@@ -110,7 +110,7 @@
 	father=1573002
 	mother=1573003
 	culture="hispani"
-	religion="nicene"
+	religion="orthodox"
 	martial=4
 	diplomacy=5
 	intrigue=4
@@ -120,6 +120,193 @@
 	trait="thrifty_clerk"
 	trait="scholar"
 	744.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+1573007 = {
+	name="Nigolago"
+	dynasty=1589030 # Lepidoso
+	culture="hispani"
+	religion="orthodox"
+	martial=8
+	diplomacy=6
+	intrigue=7
+	stewardship=7
+	learning=6
+	trait="born_in_the_purple"
+	trait="lisp"
+	trait="diligent"
+	trait="wroth"
+	trait="cynical"
+	trait="paranoid"
+	trait="martial_cleric"
+	716.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+1573008 = {
+	name="Vincemalus"
+	dynasty=1589063 # de Dipo
+	culture="hispani"
+	religion="orthodox"
+	martial=5
+	diplomacy=4
+	intrigue=8
+	stewardship=5
+	learning=5
+	trait="greedy"
+	trait="trusting"
+	trait="flamboyant_schemer"
+	734.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+1573009 = {
+	name="Reles"
+	dynasty=1589065 # de Varada
+	culture="hispani"
+	religion="orthodox"
+	martial=4
+	diplomacy=7
+	intrigue=7
+	stewardship=7
+	learning=6
+	trait="ambitious"
+	trait="gregarious"
+	trait="craven"
+	trait="grey_eminence"
+	730.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+1573010 = {
+	name="Belacco"
+	dynasty=1589050 # de Puiggros
+	culture="hispani"
+	religion="orthodox"
+	martial=5
+	diplomacy=5
+	intrigue=5
+	stewardship=5
+	learning=3
+	722.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+1573011 = {
+	name="Pelaius"
+	dynasty=1589019 # Lupulo
+	culture="hispani"
+	religion="orthodox"
+	martial=5
+	diplomacy=5
+	intrigue=5
+	stewardship=5
+	learning=5
+	741.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+1573012 = {
+	name="Piliolus"
+	dynasty=1589021 # Amilcaro
+	culture="hispani"
+	religion="orthodox"
+	martial=8
+	diplomacy=5
+	intrigue=5
+	stewardship=7
+	learning=5
+	trait="skilled_tactician"
+	728.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+1573013 = {
+	name="Adelfonso"
+	dynasty=1589103 # Quixotus
+	culture="hispani"
+	religion="orthodox"
+	martial=5
+	diplomacy=5
+	intrigue=5
+	stewardship=5
+	learning=5
+	trait="kind"
+	trait="charitable"
+	trait="brave"
+	trait="chaste"
+	trait="diligent"
+	trait="temperate"
+	trait="just"
+	trait="lunatic"
+	trait="scholar"
+	trait="misguided_warrior"
+	709.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+1573014 = {
+	name="Avolos"
+	dynasty=1589059 # de Miaccum
+	culture="hispani"
+	religion="orthodox"
+	martial=6
+	diplomacy=6
+	intrigue=6
+	stewardship=6
+	learning=6
+	737.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+1573015 = {
+	name="Osormeo"
+	dynasty=1589056 # de Barnacis
+	culture="hispani"
+	religion="orthodox"
+	martial=6
+	diplomacy=6
+	intrigue=6
+	stewardship=6
+	learning=6
+	735.1.1={
 		birth=yes
 	}
 	800.1.1={

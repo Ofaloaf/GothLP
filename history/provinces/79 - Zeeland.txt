@@ -18,4 +18,4 @@ b_tholen = temple # Norse Pagan Holy Site
 
 # Misc
 culture = frisian
-religion = norse_pagan
+religion = arian

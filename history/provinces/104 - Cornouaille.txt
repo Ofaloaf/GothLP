@@ -17,6 +17,6 @@ b_langonnet = temple
 
 # Misc
 culture = gallic
-religion = nicene
+religion = orthodox
 
 # History

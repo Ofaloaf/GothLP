@@ -1,7 +1,7 @@
 145801 = {
 	name="Basileios"
 	dynasty=189
-	religion="nicene"
+	religion="catholic"
 	culture="greek"
 
 	720.1.1={
@@ -12,9 +12,23 @@
 	}
 }
 
+145822 = {
+	name="Demetrios"
+	dynasty=1022278
+	religion="orthodox"
+	culture="greek"
+
+	741.1.1={
+		birth="741.1.1"
+	}
+	809.1.1={
+		death="809.1.1"
+	}
+}
+
 145865 = {
 	name="Basileios"
-	religion="nicene"
+	religion="catholic"
 	culture="greek"
 	trait="tough_soldier"
 
@@ -28,7 +42,7 @@
 
 145866 = {
 	name="Theophylaktos"
-	religion="nicene"
+	religion="catholic"
 	culture="greek"
 
 	622.1.1={
@@ -41,7 +55,7 @@
 
 145867 = {
 	name="Kosmas"
-	religion="nicene"
+	religion="catholic"
 	culture="greek"
 
 	624.1.1={
@@ -54,7 +68,7 @@
 
 145868 = {
 	name="Andreas"
-	religion="nicene"
+	religion="catholic"
 	culture="greek"
 
 	625.1.1={
@@ -67,7 +81,7 @@
 
 145869 = {
 	name="Kaisarios"
-	religion="nicene"
+	religion="catholic"
 	culture="greek"
 
 	645.1.1={
@@ -80,7 +94,7 @@
 
 145870 = {
 	name="Stephanos"
-	religion="nicene"
+	religion="catholic"
 	culture="greek"
 
 	647.1.1={
@@ -93,7 +107,7 @@
 
 145871 = {
 	name="Bonellos"
-	religion="nicene"
+	religion="catholic"
 	culture="greek"
 
 	649.1.1={
@@ -106,7 +120,7 @@
 
 145872 = {
 	name="Theodosios"
-	religion="nicene"
+	religion="catholic"
 	culture="greek"
 
 	667.1.1={
@@ -119,7 +133,7 @@
 
 145873 = {
 	name="Kaisarios"
-	religion="nicene"
+	religion="catholic"
 	culture="greek"
 
 	660.1.1={
@@ -132,7 +146,7 @@
 
 145874 = {
 	name="Ioannes"
-	religion="nicene"
+	religion="catholic"
 	culture="greek"
 
 	671.1.1={
@@ -145,7 +159,7 @@
 
 145875 = {
 	name="Theodoros"
-	religion="nicene"
+	religion="catholic"
 	culture="greek"
 
 	680.1.1={
@@ -158,7 +172,7 @@
 
 145876 = {
 	name="Georgios"
-	religion="nicene"
+	religion="catholic"
 	culture="greek"
 
 	692.1.1={
@@ -172,7 +186,7 @@
 145877 = {
 	name="Gregorios"
 	dynasty=1022314
-	religion="nicene"
+	religion="catholic"
 	culture="greek"
 
 	700.1.1={
@@ -186,7 +200,7 @@
 145878 = {
 	name="Stephanos"
 	dynasty=1022314
-	religion="nicene"
+	religion="catholic"
 	culture="greek"
 	father=145877
 	725.1.1={
@@ -209,7 +223,7 @@
 145879 = {
 	name="Gregorios"
 	dynasty=1022314
-	religion="nicene"
+	religion="catholic"
 	culture="greek"
 	father=145878
 	745.1.1={
@@ -217,5 +231,93 @@
 	}
 	794.1.1={
 		death="794.1.1"
+	}
+}
+
+145900 = {
+	name="Boethios"
+	dynasty=643 # Karbonopsis
+	culture="greek"
+	religion="ibadi"
+	745.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+145901 = {
+	name="Megistos"
+	dynasty=1453001
+	culture="greek"
+	religion="orthodox"
+	726.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+145902 = {
+	name = "Doxapatres"
+	dynasty = 1453002 # Boutsaras
+	martial=8
+	diplomacy=6
+	intrigue=6
+	stewardship=6
+	learning=5
+	culture=greek
+	religion=orthodox
+	trait="strong"
+	trait="scarred"
+	trait="zealous"
+	trait="tough_soldier"
+	730.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+
+145903 = {
+	name="Maria"
+	female=yes
+	dynasty=1453002 # Boutsaras
+	father=145902 # Doxapatres Boutsaras
+	martial=7
+	diplomacy=9
+	intrigue=7
+	stewardship=4
+	learning=5
+	culture=greek
+	religion=orthodox
+	trait="fair"
+	trait="zealous"
+	754.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+
+145904 = {
+	name = "Kallinikos"
+	dynasty = 1453003 # Indiketos
+	martial=6
+	diplomacy=6
+	intrigue=6
+	stewardship=6
+	learning=5
+	culture=greek
+	religion=orthodox
+	739.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
 	}
 }

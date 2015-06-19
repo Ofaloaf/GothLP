@@ -17,4 +17,4 @@ b_smederevo = temple
 
 # Misc
 culture = dalmatian
-religion = nicene
+religion = orthodox

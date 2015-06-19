@@ -16,4 +16,4 @@ b_viseu = temple
 
 # Misc
 culture = hispani
-religion = nicene
+religion = orthodox

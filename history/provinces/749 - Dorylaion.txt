@@ -17,5 +17,5 @@ b_kotiaion = temple
 #b_germia = castle
 
 # Misc
-culture = greek
-religion = nicene
+culture = rumi_arabic
+religion = sunni

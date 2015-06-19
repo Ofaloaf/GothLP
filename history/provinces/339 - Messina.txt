@@ -17,5 +17,5 @@ b_lipari = temple
 
 # Misc
 culture = greek
-religion = nicene
+religion = catholic
 terrain = hills

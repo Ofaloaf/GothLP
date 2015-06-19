@@ -16,6 +16,6 @@ b_mondonedo = temple
 
 # Misc
 culture = gallaecian
-religion = nicene
+religion = orthodox
 
 # History

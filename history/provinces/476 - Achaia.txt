@@ -18,5 +18,5 @@ b_pyrgos = temple
 
 # Misc
 culture = greek
-religion = nicene
+religion = orthodox
 terrain = mountain

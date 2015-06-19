@@ -154,8 +154,8 @@ provinciale = {
 		male_names = {
 			Abbelino Abellonio Abdias Abraham_Abraham Abrentius Acerrimus Adam_Adam Adamantius Adiuvando 
 			Atrianus_Adrian Advocatus Aecius Afriganus Agrestius Augustinu Albanus Almacius 
-			Anfelagio Amorolino Anderias Antenato Antonino_Antonius Arrianu Arsenius Artemius 
-			Atanasius Aurelianus Aurelius_Aurelius Avolino Avidio Avetinu Aurus Auriolus Avolos
+			Anfelagio Amorolino Anderias_Andrew Antenato Antonino_Antonius Arrianu Arsenius Artemius 
+			Atanasius_Athanasius Aurelianus Aurelius_Aurelius Avolino Avidio Avetinu Aurus Auriolus Avolos
 			Barva Bellaronius Belacco_Velasco Benedictus_Benedict Benignus Bennatus Besilio Bianus 
 			Blandu Bonellus Bonentius Bonimenzo Boninus Bitaco Blandino
 			Cadenio Caecius Calcedonio Calventius Cardello Celsius Centullus Cesarius Ciprinus Citronius 
@@ -171,9 +171,10 @@ provinciale = {
 			Galiano Gaudenzo Genenetivo Gercorio_Gregory
 			Iacob_Jacob Iaquinti Iamnado Ilians Ioacino Iohannis_John Iohanninus Iunas_Jonas Infantinus 
 			Ioab Iosidio Iuvenes Iurisius Iose_Joseph
-			Lalan Lampadius Leo_Leo Ligo Lillo Liverto Lopon Lucado Lucus_Luke Luzo Lutido Lusidio 
-			Magnus Malasco Mallaton Mallus Manuel_Manuel Marchus_Marcus Marecco Mariolus Moino Moyses_Moses 
-			Mertinus_Martin Marcello Maderno Mateus Maurecatellus Maurus Micael_Michael Montano Marius_Marius
+			Lalan Lampadius Leo_Leo Ligo Lillo Liverto Lopon_Lupo Lucado Lucus_Luke Luzo Lutido Lusidio 
+			Malasco Mallaton Mallus Manuel_Manuel Marchus_Marcus Marecco Mariolus Moino Moyses_Moses 
+			Mertinus_Martin Maderno Mateus Maurecatellus Maurus Micael_Michael Montano Marius_Marius
+			Magnus_Magnus Marcello_Marcellus
 			Nebucano Nigolago_Nicholas
 			Octavio Offrasius Orbanus_Urban Osevio_Eusebius Osormeo
 			Patrino Pascual Paterno Pantaleon Paulo_Paul Pelaius_Pelagius Penti Perello Piliolus 

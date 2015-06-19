@@ -20,5 +20,5 @@ b_grenoble = city
 
 # Misc
 culture = gallic
-religion = nicene
+religion = orthodox
 

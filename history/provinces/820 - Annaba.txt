@@ -17,4 +17,4 @@ b_skikda = city
 
 # Misc
 culture = africanu
-religion = nicene
+religion = orthodox

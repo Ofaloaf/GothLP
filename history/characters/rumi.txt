@@ -1,0 +1,148 @@
+629001 = {
+	name="Lawi"
+	dynasty=5553011 # Khalfunid
+	culture=rumi_arabic
+	religion=sunni
+	diplomacy=9
+	martial=10
+	stewardship=8
+	intrigue=7
+	learning=4
+	trait=just
+	trait=lustful
+	trait=brave
+	trait=hedonist
+	trait=fortune_builder
+	717.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+
+	}
+}
+
+629002 = {
+	name="Abbas"
+	dynasty=5553002 # Chumor
+	culture=rumi_arabic
+	religion=sunni
+	diplomacy=9
+	martial=6
+	stewardship=7
+	intrigue=7
+	learning=6
+	trait=kind
+	trait=sympathy_christendom
+	trait=craven
+	738.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+
+	}
+}
+
+629003 = {
+	name="Suhayb"
+	dynasty=5553005 # Issayi
+	culture=rumi_arabic
+	religion=sunni
+	diplomacy=7
+	martial=6
+	stewardship=6
+	intrigue=8
+	learning=5
+	trait=drunkard
+	trait=gluttonous
+	trait=proud
+	732.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+
+	}
+}
+
+629004 = {
+	name="Boutros"
+	dynasty=5553015 # Ballutid
+	culture=rumi_arabic
+	religion=sunni
+	diplomacy=7
+	martial=7
+	stewardship=6
+	intrigue=5
+	learning=6
+	trait=falconer
+	726.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+
+	}
+}
+
+629005 = {
+	name="Nassim"
+	dynasty=5553008 # Ghattas
+	culture=rumi_arabic
+	religion=sunni
+	diplomacy=6
+	martial=6
+	stewardship=6
+	intrigue=6
+	learning=6
+	trait=patient
+	740.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+
+	}
+}
+
+629006 = {
+	name="Khafaga"
+	dynasty=5553013 # Sawdanid
+	culture=rumi_arabic
+	religion=sunni
+	diplomacy=5
+	martial=5
+	stewardship=5
+	intrigue=5
+	learning=5
+	trait=envious
+	730.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+
+	}
+}
+
+629007 = {
+	name="Gabril"
+	dynasty=5553003 # Jabla
+	culture=rumi_arabic
+	religion=sunni
+	diplomacy=6
+	martial=5
+	stewardship=6
+	intrigue=5
+	learning=5
+	trait=sympathy_christendom
+	trait=charitable
+	722.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+
+	}
+}

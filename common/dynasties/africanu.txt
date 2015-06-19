@@ -222,3 +222,8 @@
 	name = "Siriti"
 	culture = africanu
 }
+
+1337046 = {
+	name = "Awras"
+	culture = mauri
+}

@@ -16,4 +16,4 @@ b_irenopolis = temple
 
 # Misc
 culture = greek
-religion = nicene
+religion = orthodox

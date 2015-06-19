@@ -16,5 +16,5 @@ b_sarno = castle
 
 # Misc
 culture = latine
-religion = nicene
+religion = hellenic_pagan
 terrain = hills

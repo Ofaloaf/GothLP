@@ -1,0 +1,20 @@
+# 443 - Nitra
+
+# County Title
+title = c_nitra
+
+# Settlements
+max_settlements = 4
+b_nyitra = tribal
+
+#b_stbenedek = temple
+#b_nagytapolcsany = city
+#b_nagysurany = castle
+#b_zabokreky = castle
+#b_preuigan = castle
+#b_postyen = castle
+#b_galgoc = castle
+
+# Misc
+culture = jasi
+religion = tengri_pagan

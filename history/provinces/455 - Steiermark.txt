@@ -16,8 +16,8 @@ b_lavant = temple
 #b_stubing = castle
 
 # Misc
-culture = boarisch
-religion = nicene
+culture = carantanian
+religion = slavic_pagan
 
 # History
 

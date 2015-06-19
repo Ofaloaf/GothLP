@@ -1,0 +1,23 @@
+# 543 - Oleshye
+
+# County Title
+title = c_oleshye
+
+# Settlements
+max_settlements = 6
+
+b_ochakiv = tribal
+
+#b_kocibey = castle
+#b_bohopol = temple
+
+
+#b_odessa = city
+#b_balta = castle
+#b_sokoly = castle
+#b_akkerman = castle
+#b_nikolayev = castle
+
+# Misc
+culture = sarmatian
+religion = tengri_pagan

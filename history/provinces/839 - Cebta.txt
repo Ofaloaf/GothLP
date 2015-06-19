@@ -18,4 +18,4 @@ b_Xauen = temple
 
 # Misc
 culture = hispani
-religion = nicene
+religion = orthodox

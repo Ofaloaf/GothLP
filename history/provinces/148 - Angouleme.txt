@@ -16,5 +16,5 @@ b_bassac = temple
 #b_fontdouce = temple
 
 #Misc
-religion = nicene
+religion = orthodox
 culture = gallic

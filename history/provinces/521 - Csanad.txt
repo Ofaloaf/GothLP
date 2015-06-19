@@ -1,0 +1,20 @@
+# 521 - Csanad
+
+# County Title
+title = c_csanad
+
+# Settlements
+max_settlements = 4
+
+b_csanad = tribal
+
+#b_szeged = temple
+#b_battonya = castle
+#b_csongrad = castle
+#b_mindszent = castle
+#b_szentes = castle
+#b_hodmezovasarhely = castle
+
+# Misc
+culture = jasi
+religion = tengri_pagan

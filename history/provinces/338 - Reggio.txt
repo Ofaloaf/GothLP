@@ -17,5 +17,5 @@ b_mileto = temple
 
 # Misc
 culture = greek
-religion = nicene
+religion = catholic
 terrain = hills

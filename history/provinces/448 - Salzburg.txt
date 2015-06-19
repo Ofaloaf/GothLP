@@ -16,7 +16,7 @@ b_waging = castle
 #b_gastein = castle
 
 # Misc
-culture = boarisch
-religion = nicene
+culture = carantanian
+religion = catholic
 
 # History

@@ -15,4 +15,4 @@ b_lagos = city
 #b_almodovar = castle
 
 culture = hispani
-religion = nicene
+religion = orthodox

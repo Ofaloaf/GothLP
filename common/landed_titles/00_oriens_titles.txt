@@ -66,14 +66,14 @@ e_oriens = {
 				maghreb_arabic = "Wadi Musa"
 				levantine_arabic = "Wadi Musa"
 				egyptian_arabic = "Wadi Musa"
-				andalusian_arabic = "Wadi Musa"
+				rumi_arabic = "Wadi Musa"
 			
 				b_monreal = {
 					bedouin_arabic = "Wadi Musa"
 					maghreb_arabic = "Wadi Musa"
 					levantine_arabic = "Wadi Musa"
 					egyptian_arabic = "Wadi Musa"
-					andalusian_arabic = "Wadi Musa"
+					rumi_arabic = "Wadi Musa"
 				}
 				b_hurmniz = {
 				}
@@ -98,7 +98,7 @@ e_oriens = {
 				maghreb_arabic = "Al-Karak"
 				levantine_arabic = "Al-Karak"
 				egyptian_arabic = "Al-Karak"
-				andalusian_arabic = "Al-Karak"
+				rumi_arabic = "Al-Karak"
 			
 				b_kirhaseset = {
 				}
@@ -107,7 +107,7 @@ e_oriens = {
 					maghreb_arabic = "Al-Karak"
 					levantine_arabic = "Al-Karak"
 					egyptian_arabic = "Al-Karak"
-					andalusian_arabic = "Al-Karak"
+					rumi_arabic = "Al-Karak"
 				}
 				b_tamar = {
 				}
@@ -179,14 +179,14 @@ e_oriens = {
 				maghreb_arabic = "Arsuf"
 				levantine_arabic = "Arsuf"
 				egyptian_arabic = "Arsuf"
-				andalusian_arabic = "Arsuf"
+				rumi_arabic = "Arsuf"
 			
 				b_jaffa = {
 					bedouin_arabic = "Arsuf"
 					maghreb_arabic = "Arsuf"
 					levantine_arabic = "Arsuf"
 					egyptian_arabic = "Arsuf"
-					andalusian_arabic = "Arsuf"
+					rumi_arabic = "Arsuf"
 				}
 				b_arsuf = {
 				}
@@ -211,14 +211,14 @@ e_oriens = {
 				maghreb_arabic = "Asqalan"
 				levantine_arabic = "Asqalan"
 				egyptian_arabic = "Asqalan"
-				andalusian_arabic = "Asqalan"
+				rumi_arabic = "Asqalan"
 			
 				b_ascalon = {
 					bedouin_arabic = "Asqalan"
 					maghreb_arabic = "Asqalan"
 					levantine_arabic = "Asqalan"
 					egyptian_arabic = "Asqalan"
-					andalusian_arabic = "Asqalan"
+					rumi_arabic = "Asqalan"
 				}
 				b_harbijah = {
 				}
@@ -383,14 +383,14 @@ e_oriens = {
 				maghreb_arabic = "Sur"
 				levantine_arabic = "Sur"
 				egyptian_arabic = "Sur"
-				andalusian_arabic = "Sur"
+				rumi_arabic = "Sur"
 			
 				b_tyrus = {
 					bedouin_arabic = "Sur"
 					maghreb_arabic = "Sur"
 					levantine_arabic = "Sur"
 					egyptian_arabic = "Sur"
-					andalusian_arabic = "Sur"
+					rumi_arabic = "Sur"
 				}
 				b_sarafand = {
 				}
@@ -588,7 +588,6 @@ e_oriens = {
 			
 				b_antiocheia = {
 					pentarchy = yes
-					holy_site = orthodox
 					holy_site = miaphysite
 					holy_site = monophysite
 					holy_site = nestorian
@@ -637,7 +636,7 @@ e_oriens = {
 				maghreb_arabic = "Iskandarun"
 				levantine_arabic = "Iskandarun"
 				egyptian_arabic = "Iskandarun"
-				andalusian_arabic = "Iskandarun"
+				rumi_arabic = "Iskandarun"
 				turkish = "Iskandarun"
 				armenian = "Hrosos"
 			
@@ -646,7 +645,7 @@ e_oriens = {
 					maghreb_arabic = "Iskandarun"
 					levantine_arabic = "Iskandarun"
 					egyptian_arabic = "Iskandarun"
-					andalusian_arabic = "Iskandarun"
+					rumi_arabic = "Iskandarun"
 					turkish = "Iskandarun"
 				}
 				b_rhosus = {

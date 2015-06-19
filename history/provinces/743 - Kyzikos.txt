@@ -17,5 +17,5 @@ b_militopolis = temple
 
 # Misc
 culture = greek
-religion = nicene
+religion = orthodox
 terrain = hills

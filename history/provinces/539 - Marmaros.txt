@@ -1,0 +1,19 @@
+# 539 - Marmaros
+
+# County Title
+title = c_marmaros
+
+# Settlements
+max_settlements = 4
+b_maramarossziget = tribal
+
+#b_nagybanya = temple
+#b_huszt = castle
+#b_aknasugatag = castle
+#b_tecso = castle
+#b_raho = castle
+#b_felsoviso = castle
+
+# Misc
+culture = jasi
+religion = tengri_pagan

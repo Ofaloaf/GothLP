@@ -16,4 +16,4 @@ b_lucon = temple
 #b_fontenay = castle
 
 culture = gallic
-religion = nicene
+religion = orthodox

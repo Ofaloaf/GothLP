@@ -15,4 +15,4 @@ b_monsaraz = temple
 #b_serpa = castle
 
 culture = hispani
-religion = nicene
+religion = orthodox

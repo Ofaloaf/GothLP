@@ -1,0 +1,7 @@
+650.1.1 = {
+	liege = "k_asia"
+}
+
+756.1.1 = {
+	holder = 629001 # Lawi Khalfunid
+}

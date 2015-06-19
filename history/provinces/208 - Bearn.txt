@@ -17,4 +17,4 @@ b_pau = city
 
 #Misc
 culture = aquitanian
-religion = nicene
+religion = orthodox

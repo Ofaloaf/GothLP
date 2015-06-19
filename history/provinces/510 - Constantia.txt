@@ -18,5 +18,5 @@ b_adamclisi = temple
 #b_mangalia = castle
 
 # Misc
-culture = greek
-religion = nicene
+culture = traki
+religion = orthodox

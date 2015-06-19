@@ -17,6 +17,6 @@ b_tabuk = temple
 
 # Misc
 culture = bedouin_arabic
-religion = nestorian
+religion = sunni
 
 # History

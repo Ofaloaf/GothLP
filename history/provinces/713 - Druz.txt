@@ -16,5 +16,5 @@ b_awas = temple
 #b_samj = castle
 
 # Misc
-culture = assyrian
-religion = nestorian
+culture = levantine_arabic
+religion = sunni

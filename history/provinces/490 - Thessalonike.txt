@@ -16,5 +16,5 @@ b_thesedessa = temple # Hellenic Holy Site
 b_servia = castle
 
 # Misc
-culture = greek
-religion = nicene
+culture = traki
+religion = orthodox

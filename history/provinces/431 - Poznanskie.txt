@@ -1,0 +1,20 @@
+# 431 - Poznanskie
+
+# County Title
+title = c_poznanskie
+
+# Settlements
+max_settlements = 5
+b_poznan = tribal
+#b_czarkow = city
+#b_obrzycko = temple
+
+#b_miedryrzecz = castle
+#b_drzen = castle
+#b_zbaszyn = castle
+#b_strarygrode = castle
+#b_srem = castle
+
+# Misc
+culture = alan
+religion = tengri_pagan

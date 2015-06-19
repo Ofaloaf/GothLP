@@ -1,0 +1,184 @@
+802001 = {
+	name = "Tuitanus"
+	culture = carantanian
+}
+
+802002 = {
+	name = "Kasaze"
+	culture = carantanian
+}
+
+802003 = {
+	name = "Volcic"
+	culture = carantanian
+}
+
+802004 = {
+	name = "Hervard"
+	culture = carantanian
+}
+
+802005 = {
+	name = "Fominus"
+	culture = carantanian
+}
+
+802006 = {
+	name = "Ruzzaevich"
+	culture = carantanian
+}
+
+802007 = {
+	name = "Belca"
+	culture = carantanian
+}
+
+802008 = {
+	name = "Sourowe"
+	culture = carantanian
+}
+
+802009 = {
+	name = "Prešeren"
+	culture = carantanian
+}
+
+802010 = {
+	name = "Tschop"
+	culture = carantanian
+}
+
+802011 = {
+	name = "Podjed"
+	culture = carantanian
+}
+
+802012 = {
+	name = "Pavlin"
+	culture = carantanian
+}
+
+802013 = {
+	name = "Zajec"
+	culture = carantanian
+}
+
+802014 = {
+	name = "Boto"
+	culture = carantanian
+}
+
+802015 = {
+	name = "Kozak"
+	culture = carantanian
+}
+
+802016 = {
+	name = "Leskošek"
+	culture = carantanian
+}
+
+802017 = {
+	name = "Zidanšek"
+	culture = carantanian
+}
+
+802018 = {
+	name = "Podgornik"
+	culture = carantanian
+}
+
+802019 = {
+	name = "Brecelj"
+	culture = carantanian
+}
+
+802020 = {
+	name = "Destovnik"
+	culture = carantanian
+}
+
+802021 = {
+	name = "Pahor"
+	culture = carantanian
+}
+
+802022 = {
+	name = "Lapajne"
+	culture = carantanian
+}
+
+802023 = {
+	name = "Zholnir"
+	culture = carantanian
+}
+
+802024 = {
+	name = "Osovnikar"
+	culture = carantanian
+}
+
+802025 = {
+	name = "Buch"
+	culture = carantanian
+}
+
+802026 = {
+	name = "Kejzhar"
+	culture = carantanian
+}
+
+802027 = {
+	name = "Zlatnar"
+	culture = carantanian
+}
+
+802028 = {
+	name = "Kozmus"
+	culture = caratanian
+}
+
+802029 = {
+	name = "Zupanc"
+	culture = carantanian
+}
+
+802030 = {
+	name = "Cheplak"
+	culture = carantanian
+}
+
+802031 = {
+	name = "Bikar"
+	culture = carantanian
+}
+
+802032 = {
+	name = "Murn"
+	culture = caratanian
+}
+
+802033 = {
+	name = "Puhar"
+	culture = carantanian
+}
+
+802034 = {
+	name = "Balantic"
+	culture = carantanian
+}
+
+802035 = {
+	name = "Trsar"
+	culture = caratanian
+}
+
+802036 = {
+	name = "Glavar"
+	culture = caratanian
+}
+
+802037 = {
+	name = "Kopitar"
+	culture = carantanian
+}

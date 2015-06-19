@@ -16,4 +16,4 @@ b_commacchio = temple
 
 # Misc
 culture = latine
-religion = nicene
+religion = catholic

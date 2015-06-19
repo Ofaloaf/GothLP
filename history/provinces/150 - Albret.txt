@@ -14,5 +14,5 @@ b_tartas = city
 #b_gabarret = city
 
 #Misc
-religion = nicene
+religion = orthodox
 culture = aquitanian

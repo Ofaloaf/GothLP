@@ -17,6 +17,6 @@ b_nish = temple
 #b_knjazevac = castle
 
 # Misc
-culture = romanian
-religion = nicene
+culture = traki
+religion = orthodox
 

@@ -18,4 +18,4 @@ b_baniwaled = city
 
 # Misc
 culture = africanu
-religion = nicene
+religion = orthodox

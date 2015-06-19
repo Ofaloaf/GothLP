@@ -16,5 +16,5 @@ b_didymoteichon = temple
 #b_ainos = castle
 
 # Misc
-culture = greek
-religion = nicene
+culture = traki
+religion = orthodox

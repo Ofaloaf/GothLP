@@ -2,8 +2,10 @@
 germani;Germani;;;;;;;;;;;;;x
 vasconic;Vasconic;;;;;;;;;;;;;x
 kemetic;Kemetic;;;;;;;;;;;;;x
+slavic;Slavic;;;;;;;;;;;;;x
 gothic;Gothic;;;;;;;;;;;;;x
-vulgar;Vulgar;;;;;;;;;;;;;x
+sacaean;Sacaean;;;;;;;;;;;;;x
+caucasian;Caucasian;;;;;;;;;;;;;x
 semitic;Semitic;;;;;;;;;;;;;x
 africanu;Africanu;;;;;;;;;;;;;x
 aquitanian;Aquitanian;;;;;;;;;;;;;x
@@ -19,6 +21,14 @@ dalmatian;Dalmatian;;;;;;;;;;;;;x
 burgundian;Burgundian;;;;;;;;;;;;;x
 boarisch;Boarisch;;;;;;;;;;;;;x
 gallaecian;Gallaecian;;;;;;;;;;;;;x
+jasi;Jasi;;;;;;;;;;;;;x
+sarmatian;Sarmatian;;;;;;;;;;;;;x
+feretolan;Feretolan;;;;;;;;;;;;;x
+carantanian;Carantanian;;;;;;;;;;;;;x
+circassian;Circassian;;;;;;;;;;;;;x
+rimlyani;Rimlyani;;;;;;;;;;;;;x
+traki;Traki;;;;;;;;;;;;;x
+rumi_arabic;Rumi;;;;;;;;;;;;;x
 duchy_of_latine;Ducatus;;;;;;;;;;;;;x
 duke_latine;Dux;;;;;;;;;;;;;x
 county_of_gothic;Pagus;;;;;;;;;;;;;x
@@ -92,6 +102,10 @@ e_megale_hellas;Megale Hellas;;;;;;;;;;;;;x
 e_megale_hellas_adj;Hellenic;;;;;;;;;;;;;x
 e_oriens;Oriens;;;;;;;;;;;;;x
 e_oriens_adj;Oriental;;;;;;;;;;;;;x
+e_papal_hre;Holy Roman Empire;;;;;;;;;;;;;x
+e_papal_hre_adj;Holy Roman;;;;;;;;;;;;;x
+e_scythia;Scythia;;;;;;;;;;;;;x
+e_scythia_adj;Scythian;;;;;;;;;;;;;x
 k_aquitania;Aquitania;;;;;;;;;;;;;x
 k_aquitania_adj;Aquitanian;;;;;;;;;;;;;x
 k_armorica;Armorica;;;;;;;;;;;;;x
@@ -102,10 +116,18 @@ k_baetica;Baetica;;;;;;;;;;;;;x
 k_baetica_adj;Baetican;;;;;;;;;;;;;x
 k_belgica;Belgica;;;;;;;;;;;;;x
 k_belgica_adj;Belgic;;;;;;;;;;;;;x
+k_caledonia;Caledonia;;;;;;;;;;;;;x
+k_caledonia_adj;Caledonian;;;;;;;;;;;;;x
 k_cambria;Cambria;;;;;;;;;;;;;x
 k_cambria_adj;Cambrian;;;;;;;;;;;;;x
+k_carantania;Carantania;;;;;;;;;;;;;x
+k_carantania_adj;Carantanian;;;;;;;;;;;;;x
+k_circassia;Circassia;;;;;;;;;;;;;x
+k_circassia_adj;Circassian;;;;;;;;;;;;;x
 k_cumbria;Cumbria;;;;;;;;;;;;;x
 k_cumbria_adj;Cumbrian;;;;;;;;;;;;;x
+k_francia;Francia;;;;;;;;;;;;;x
+k_francia_adj;Francian;;;;;;;;;;;;;x
 k_gothia;Gothia;;;;;;;;;;;;;x
 k_gothia_adj;Gothic;;;;;;;;;;;;;x
 k_illyria;Illyria;;;;;;;;;;;;;x
@@ -132,6 +154,8 @@ k_tarraco;Tarraco;;;;;;;;;;;;;x
 k_tarraco_adj;Tarraconan;;;;;;;;;;;;;x
 k_thrace;Thrace;;;;;;;;;;;;;x
 k_thrace_adj;Thracian;;;;;;;;;;;;;x
+k_venedia;Venedia;;;;;;;;;;;;;x
+k_venedia_adj;Venedian;;;;;;;;;;;;;x
 d_aemilia;Aemilia;;;;;;;;;;;;;x
 d_aemilia_adj;Aemilian;;;;;;;;;;;;;x
 d_alsatia;Alsatia;;;;;;;;;;;;;x

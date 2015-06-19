@@ -38,7 +38,7 @@
 	372.1.1 = {
 		birth = yes
 	}
-	432.1.1 = {
+	433.1.1 = {
 		death = yes
 	}
 }
@@ -156,6 +156,175 @@
 		birth = yes
 	}
 	800.1.1 = {
+		death = yes
+	}
+}
+
+611011 = {
+	name = "Widimir" # Widimir
+	father = 611003 # Witaireiks Amalis
+	dynasty = 405007 # Amalius
+	culture = gothic
+	religion = arian
+	391.1.1 = {
+		birth = yes
+	}
+	459.1.1 = {
+		death = yes
+	}
+}
+
+611012 = {
+	name = "Hunila"
+	father = 611011 # Widimir
+	dynasty = 405007 # Amalius
+	culture = turkish
+	religion = arian
+	451.1.1 = {
+		birth = yes
+		culture = gothic
+	}
+	495.1.1 = {
+		death = yes
+	}
+}
+
+611013 = {
+	name = "Agila"
+	father = 611012 # Hunila
+	dynasty = 405007 # Amalius
+	culture = gothic
+	religion = arian
+	474.1.1 = {
+		birth = yes
+	}
+	536.1.1 = {
+		death = yes
+	}
+}
+
+611014 = {
+	name = "Thiudareiks"
+	father = 611013 # Agila
+	dynasty = 405007 # Amalius
+	culture = gothic
+	religion = arian
+	500.1.1 = {
+		birth = yes
+	}
+	573.1.1 = {
+		death = yes
+	}
+}
+
+611015 = {
+	name = "Albeis"
+	father = 611014 # Thiudareiks
+	dynasty = 405007 # Amalius
+	culture = gothic
+	religion = arian
+	522.1.1 = {
+		birth = yes
+	}
+	570.1.1 = {
+		death = yes
+	}
+}
+
+611016 = {
+	name = "Gainas"
+	father = 611015 # Albeis
+	dynasty = 405007 # Amalius
+	culture = gothic
+	religion = arian
+	551.1.1 = {
+		birth = yes
+	}
+	606.1.1 = {
+		death = yes
+	}
+}
+
+611017 = {
+	name = "Agila"
+	father = 611016 # Gainas
+	dynasty = 405007 # Amalius
+	culture = gothic
+	religion = arian
+	585.1.1 = {
+		birth = yes
+	}
+	653.1.1 = {
+		death = yes
+	}
+}
+
+611018 = {
+	name = "Gudisal"
+	father = 611017 # Agila II
+	dynasty = 405007 # Amalius
+	culture = gothic
+	religion = arian
+	610.1.1 = {
+		birth = yes
+	}
+	673.1.1 = {
+		death = yes
+	}
+}
+
+611019 = {
+	name = "Gudafridus"
+	father = 611018 # Gudisal
+	dynasty = 405007 # Amalius
+	culture = gothic
+	religion = arian
+	638.1.1 = {
+		birth = yes
+	}
+	681.1.1 = {
+		death = yes
+	}
+}
+
+611020 = {
+	name = "Gudahardus"
+	father = 611019 # Gudafridus
+	dynasty = 405007 # Amalius
+	culture = gothic
+	religion = arian
+	660.1.1 = {
+		birth = yes
+	}
+	692.1.1 = {
+		death = yes
+	}
+}
+
+611021 = {
+	name = "Mundus"
+	father = 611020 # Gudahardus
+	dynasty = 405007 # Amalius
+	culture = gothic
+	religion = arian
+	679.1.1 = {
+		birth = yes
+	}
+	733.1.1 = {
+		death = yes
+	}
+}
+
+611022 = {
+	name = "Sigisvult"
+	father = 611021 # Mundus
+	dynasty = 405007 # Amalius
+	culture = gothic
+	religion = arian
+	708.1.1 = {
+		birth = yes
+	}
+	761.1.1 = {
 		death = yes
 	}
 }

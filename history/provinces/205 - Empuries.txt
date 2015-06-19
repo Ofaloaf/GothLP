@@ -16,7 +16,7 @@ b_cerdana = castle
 
 # Misc
 culture = hispani
-religion = nicene
+religion = orthodox
 
 # History
 

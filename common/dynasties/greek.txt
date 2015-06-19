@@ -1,0 +1,14 @@
+1453001 = {
+	name = "Solonianos"
+	culture = greek
+}
+
+1453002 = {
+	name = "Boutsaras"
+	culture = greek
+}
+
+1453003 = {
+	name = "Indiketos"
+	culture = greek
+}

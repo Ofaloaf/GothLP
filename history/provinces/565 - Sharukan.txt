@@ -1,0 +1,22 @@
+# 565 - Sharukan
+
+# County Title
+title = c_sharukan
+
+# Settlements
+max_settlements = 5
+b_kharka = tribal
+
+#b_challykala = temple
+#b_sumy = city
+
+#b_khorysdan = castle
+#b_izyum = castle
+#b_balakliia = castle
+#b_kupyansk = temple
+#b_lyubotin = castle
+
+# Misc
+culture = sarmatian
+religion = tengri_pagan
+terrain = steppe

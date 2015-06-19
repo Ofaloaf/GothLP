@@ -17,4 +17,4 @@ b_grimaud = castle
 
 # Misc
 culture = gallic
-religion = nicene
+religion = orthodox

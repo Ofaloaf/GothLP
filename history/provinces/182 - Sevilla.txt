@@ -17,4 +17,4 @@ b_sevimoron = city
 #b_laalgaba = castle
 
 culture = hispani
-religion = nicene
+religion = orthodox

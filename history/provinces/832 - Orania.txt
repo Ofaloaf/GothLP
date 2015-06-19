@@ -17,4 +17,4 @@ b_maghnia = castle
 
 # Misc
 culture = maghreb_arabic
-religion = nicene
+religion = orthodox

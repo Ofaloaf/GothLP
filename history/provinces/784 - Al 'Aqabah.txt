@@ -17,6 +17,6 @@ b_reeshah = city
 
 # Misc
 culture = bedouin_arabic
-religion = nestorian
+religion = sunni
 
 # History

@@ -17,5 +17,5 @@ b_pella = temple
 #b_gadera = temple
 
 # Misc
-culture = assyrian
-religion = nestorian
+culture = levantine_arabic
+religion = sunni

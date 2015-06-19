@@ -29,7 +29,7 @@
 }
 
 1589007 = {
-	name = "Emeritensis"
+	name = "Emeritense"
 	culture = hispani
 }
 
@@ -114,7 +114,7 @@
 }
 
 1589024 = {
-	name = "Oscensis"
+	name = "Oscense"
 	culture = hispani
 }
 
@@ -139,7 +139,7 @@
 }
 
 1589029 = {
-	name = "Pacensis"
+	name = "Pacense"
 	culture = hispani
 }
 
@@ -390,5 +390,75 @@
 
 1589079 = {
 	name = "Argantonio"
+	culture = hispani
+}
+
+1589080 = {
+	name = "Arias"
+	culture = hispani
+}
+
+1589091 = {
+	name = "Caluela"
+	culture = hispani
+}
+
+1589092 = {
+	name = "Fouso"
+	culture = hispani
+}
+
+1589093 = {
+	name = "Paniagua"
+	culture = hispani
+}
+
+1589094 = {
+	name = "Teson"
+	culture = hispani
+}
+
+1589095 = {
+	name = "Palmeyro"
+	culture = hispani
+}
+
+1589096 = {
+	name = "de Feques"
+	culture = hispani
+}
+
+1589097 = {
+	name = "Bersiano"
+	culture = hispani
+}
+
+1589098 = {
+	name = "Naueas"
+	culture = hispani
+}
+
+1589099 = {
+	name = "Cybraenes"
+	culture = hispani
+}
+
+1589100 = {
+	name = "Curral"
+	culture = hispani
+}
+
+1589101 = {
+	name = "Caruallo"
+	culture = hispani
+}
+
+1589102 = {
+	name = "Gargallo"
+	culture = hispani
+}
+
+1589103 = {
+	name = "Quixotus"
 	culture = hispani
 }

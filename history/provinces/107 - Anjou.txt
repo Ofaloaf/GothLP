@@ -17,5 +17,5 @@ b_fontevraud = temple
 #b_treves = temple
 
 culture = gallic
-religion = nicene
+religion = orthodox
 

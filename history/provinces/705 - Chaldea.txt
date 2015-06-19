@@ -16,4 +16,4 @@ b_camachus = temple
 
 # Misc
 culture = greek
-religion = nicene
+religion = orthodox

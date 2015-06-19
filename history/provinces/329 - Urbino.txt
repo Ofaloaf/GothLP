@@ -16,4 +16,4 @@ b_sanseverino = temple
 
 # Misc
 culture = latine
-religion = nicene
+religion = catholic

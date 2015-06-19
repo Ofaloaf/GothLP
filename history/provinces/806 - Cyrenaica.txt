@@ -18,4 +18,4 @@ b_altamimi = castle
 
 # Misc
 culture = greek
-religion = nicene
+religion = orthodox

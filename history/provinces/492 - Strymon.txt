@@ -17,5 +17,5 @@ b_strumica = temple
 #b_kratovo = castle
 
 # Misc
-culture = greek
-religion = nicene
+culture = traki
+religion = orthodox

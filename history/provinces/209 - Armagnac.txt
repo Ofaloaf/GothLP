@@ -17,5 +17,5 @@ b_eauze = temple
 #b_laplume = castle
 
 #Misc
-religion = nicene
+religion = orthodox
 culture = aquitanian

@@ -17,7 +17,7 @@ b_lido = city
 
 # Misc
 culture = latine
-religion = nicene
+religion = catholic
 
 # History
 

@@ -16,4 +16,4 @@ b_tuy = temple
 
 # Misc
 culture = gallaecian
-religion = nicene
+religion = orthodox

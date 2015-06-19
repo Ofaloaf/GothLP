@@ -16,5 +16,5 @@ b_blaye = city
 #b_libourne = city
 
 #Misc
-religion = nicene
+religion = orthodox
 culture = aquitanian

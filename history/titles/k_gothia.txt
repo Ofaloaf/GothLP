@@ -1,7 +1,51 @@
 402.1.1 = {
-	holder = 611003
+	holder = 611003 # Witaireiks / Vithericus
 }
 
-761.1. = {
+433.1.1 = {
+	holder = 611011 # Widimir
+}
+
+459.1.1 = {
+	holder = 611012 # Hunila
+}
+
+495.1.1 = {
+	holder = 611013 # Agila I
+}
+
+536.1.1 = {
+	holder = 611014 # Thiudareiks
+}
+
+573.1.1 = {
+	holder = 611016 # Gainas
+}
+
+606.1.1 ={
+	holder = 611017 # Agila II
+}
+
+653.1.1 = {
+	holder = 611018 # Gudisal
+}
+
+673.1.1 = {
+	holder = 611019 # Gudifridus
+}
+
+681.1.1 = {
+	holder = 611020 # Gudahardus
+}
+
+692.1.1 = {
+	holder = 611021 # Mundus
+}
+
+733.1.1 = {
+	holder = 611022 # Sigisvult
+}
+
+761.1.1 = {
 	holder = 611004
 }

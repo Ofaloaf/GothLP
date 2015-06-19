@@ -18,6 +18,6 @@ b_rossano = city
 
 # Misc
 culture = greek
-religion = nicene
+religion = hellenic_pagan
 terrain = hills
 

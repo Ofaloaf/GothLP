@@ -18,4 +18,4 @@ b_ravello=temple
 
 # Misc
 culture = greek
-religion = nicene
+religion = catholic

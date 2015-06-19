@@ -16,5 +16,5 @@ b_mahon = city
 
 # Misc
 culture = hispani
-religion = nicene
+religion = orthodox
 terrain = hills

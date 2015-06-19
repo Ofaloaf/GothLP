@@ -17,4 +17,4 @@ b_marvejols = city
 
 #Misc
 culture = gallic
-religion = nicene
+religion = orthodox

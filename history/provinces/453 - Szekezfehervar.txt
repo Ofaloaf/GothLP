@@ -5,7 +5,7 @@ title = c_szekezfehervar
 
 # Settlements
 max_settlements = 4
-b_szekezfehervar = castle
+b_szekezfehervar = tribal
 b_csurgo = temple
 
 #b_kaposvar = city
@@ -16,5 +16,5 @@ b_csurgo = temple
 #b_lengyeltoti = castle
 
 # Misc
-culture = dalmatian
-religion = nicene
+culture = carantanian
+religion = slavic_pagan

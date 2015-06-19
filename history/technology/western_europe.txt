@@ -5,6 +5,7 @@ technology = {
 		d_angaria
 		d_bavaria
 		d_baden
+		d_batavia
 		d_flanders
 		d_fryslan
 		d_helvetia

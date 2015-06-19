@@ -2,7 +2,7 @@
 	name="Nicola"
 	dynasty=476069 # Laurentiano
 	culture="latine"
-	religion="nicene"
+	religion="catholic"
 	martial=7
 	diplomacy=6
 	intrigue=4
@@ -24,7 +24,7 @@
 	name="Rosalia"
 	female = yes
 	culture="latine"
-	religion="nicene"
+	religion="catholic"
 	717.1.1={
 		birth=yes
 	}
@@ -39,7 +39,7 @@
 	father=476001
 	mother=476002
 	culture="latine"
-	religion="nicene"
+	religion="catholic"
 	martial=8
 	diplomacy=5
 	intrigue=8
@@ -57,8 +57,9 @@
 
 476004 = {
 	name="Nicola"
+	dynasty=476004 # Orunco
 	culture="latine"
-	religion="nicene"
+	religion="catholic"
 	martial=6
 	diplomacy=9
 	intrigue=6
@@ -67,13 +68,10 @@
 	trait="chaste"
 	trait="ambitious"
 	trait="mastermind_theologian"
-	800.1.1={
+	700.1.1={
 		birth=yes
 	}
-	858.4.24={
-		name="Theodore"
-	}
-	868.1.1={
+	770.1.1={
 		death=yes
 	}
 }
@@ -84,7 +82,7 @@
 	father=476001
 	mother=476002
 	culture="latine"
-	religion="nicene"
+	religion="catholic"
 	736.1.1={
 		birth=yes
 	}
@@ -100,7 +98,7 @@
 	father=476001
 	mother=476002
 	culture="latine"
-	religion="nicene"
+	religion="catholic"
 	740.1.1={
 		birth=yes
 	}
@@ -116,7 +114,7 @@
 	father=476001
 	mother=476002
 	culture="latine"
-	religion="nicene"
+	religion="catholic"
 	741.1.1={
 		birth=yes
 	}
@@ -131,7 +129,7 @@
 	father=476001
 	mother=476002
 	culture="latine"
-	religion="nicene"
+	religion="catholic"
 	744.1.1={
 		birth=yes
 	}
@@ -144,7 +142,7 @@
 	name="Regaliano"
 	dynasty=476015 # Senio
 	culture="latine"
-	religion="nicene"
+	religion="catholic"
 	martial=5
 	diplomacy=6
 	intrigue=5
@@ -163,7 +161,7 @@
 	name="Oreste"
 	dynasty=476070 # Malventio
 	culture="latine"
-	religion="nicene"
+	religion="catholic"
 	martial=5
 	diplomacy=6
 	intrigue=7
@@ -188,7 +186,7 @@
 	name="Maria"
 	female = yes
 	culture="latine"
-	religion="nicene"
+	religion="catholic"
 	734.1.1={
 		birth=yes
 	}
@@ -204,7 +202,7 @@
 	father=476010
 	mother=476011
 	culture="latine"
-	religion="nicene"
+	religion="catholic"
 	753.1.1={
 		birth=yes
 	}
@@ -219,7 +217,7 @@
 	father=476010
 	mother=476011
 	culture="latine"
-	religion="nicene"
+	religion="catholic"
 	755.1.1={
 		birth=yes
 	}
@@ -232,7 +230,7 @@
 	name="Marco"
 	dynasty=476037 # Ambusto
 	culture="latine"
-	religion="nicene"
+	religion="catholic"
 	718.1.1={
 		birth=yes
 	}
@@ -245,7 +243,7 @@
 	name="Zephyrino"
 	dynasty=476071 # Poponio
 	culture="latine"
-	religion="nicene"
+	religion="catholic"
 	721.1.1={
 		birth=yes
 	}
@@ -258,7 +256,7 @@
 	name="Luca"
 	dynasty=476072 # Trasumenno
 	culture="latine"
-	religion="nicene"
+	religion="catholic"
 	728.1.1={
 		birth=yes
 	}
@@ -272,7 +270,7 @@
 	dynasty=476071 # Poponio
 	father=476015
 	culture="latine"
-	religion="nicene"
+	religion="catholic"
 	739.1.1={
 		birth=yes
 	}
@@ -285,7 +283,7 @@
 	name="Cosimo"
 	dynasty=476074 # Miniatino
 	culture="latine"
-	religion="nicene"
+	religion="catholic"
 	martial=4
 	diplomacy=6
 	intrigue=7
@@ -308,7 +306,7 @@
 	name="Antonio"
 	dynasty=476075 # Castrucium
 	culture="latine"
-	religion="nicene"
+	religion="catholic"
 	martial=7
 	diplomacy=5
 	intrigue=4
@@ -328,7 +326,7 @@
 	name="Marco"
 	dynasty=476080 # Donniano
 	culture="latine"
-	religion="nicene"
+	religion="catholic"
 	martial=6
 	diplomacy=7
 	intrigue=8
@@ -344,3 +342,78 @@
 	}
 }
 
+476021 = {
+	name="Gaio"
+	culture="latine"
+	religion="catholic"
+	722.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+476022 = {
+	name="Gellius"
+	dynasty=476021 # Vincius
+	culture="latine"
+	religion="catholic"
+	martial=3
+	diplomacy=6
+	intrigue=8
+	stewardship=8
+	learning=6
+	trait="chaste"
+	trait="gluttonous"
+	trait="schemer"
+	trait="sympathy_pagans"
+	725.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+476023 = {
+	name="Maconio"
+	dynasty=476081 # Praetutio
+	culture="latine"
+	religion="catholic"
+	martial=7
+	diplomacy=6
+	intrigue=5
+	stewardship=6
+	learning=3
+	trait="humble"
+	trait="tough_soldiers"
+	734.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+476025 = {
+	name="Neapolio"
+	dynasty=476082 # Bonapars
+	culture="latine"
+	religion="catholic"
+	martial=10
+	diplomacy=6
+	intrigue=5
+	stewardship=5
+	learning=5
+	trait="ambitious"
+	trait="proud"
+	trait="inspiring_leader"
+	trait="brilliant_strategist"
+	729.8.15={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}

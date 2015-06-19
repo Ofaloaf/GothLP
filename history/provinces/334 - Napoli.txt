@@ -17,4 +17,4 @@ b_portici = castle
 
 # Misc
 culture = greek
-religion = nicene
+religion = catholic

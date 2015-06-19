@@ -16,4 +16,4 @@ b_almonte = city
 
 #Misc
 culture = hispani
-religion = nicene
+religion = orthodox

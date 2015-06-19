@@ -1,0 +1,20 @@
+# 462 - Pecs
+
+# County Title
+title = c_pecs
+
+# Settlements
+max_settlements = 5
+b_pecs = tribal
+
+#b_kalocsa = temple
+#b_mohacs = city
+#b_sasd = castle
+#b_pecsvarad = castle
+#b_siklos = castle
+#b_szentlorinc = city
+#b_darda = castle
+
+# Misc
+culture = jasi
+religion = tengri_pagan
