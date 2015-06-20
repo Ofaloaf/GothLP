@@ -90,8 +90,8 @@ latinius = {
 			Comentiolo
 			Decimo Decio Diocletiano Domitiano Domitio Druso Donato Dativo
 			Emiliano Emilio Etio Ennodio Enea Emmanuel_Manuel
-			Fabiano Fabio Fausto Felice Flaviano Floriano Faustino
-			Gaio Galerio Gallieno Gallo Germano_Germanus Gordiano Gracco Gratiano Gregorio_Gregory 
+			Fabiano Fabio Fausto Felice_Felix Flaviano Floriano Faustino
+			Gaio Galerio Gallieno Gallo_Gallus Germano_Germanus Gordiano Gracco Gratiano Gregorio_Gregory 
 			Georgio_George Gelasio
 			Hadriano_Adrian Hercule_Heracles Honorio Heraclio
 			Ingenuo

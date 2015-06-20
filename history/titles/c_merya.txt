@@ -1,0 +1,5 @@
+# Called "Mari" in-game
+750.1.1 = {
+	holder = 194162
+	liege = d_maris
+}

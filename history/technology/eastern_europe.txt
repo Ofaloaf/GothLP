@@ -37,7 +37,7 @@ technology = {
 		d_pereyaslavl
 		d_wallachia
 		d_moldau
-		d_pecs
+		d_pannonia
 		d_esztergom
 		d_nyitra
 		d_ungvar

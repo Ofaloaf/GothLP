@@ -15,5 +15,5 @@ b_peschiera = temple
 #b_castiglione = castle
 
 # Misc
-culture = latine
+culture = avar
 religion = catholic

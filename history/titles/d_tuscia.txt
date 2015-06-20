@@ -1,0 +1,7 @@
+100.1.1 = {
+	liege = "e_papal_hre"
+}
+
+760.1.1 = {
+	holder = 476028 # Gallieno Coracine
+}

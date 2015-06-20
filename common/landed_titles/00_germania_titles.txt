@@ -2488,7 +2488,7 @@ e_germany = {
 		}
 	}
 	k_bohemia = {
-        	color={ 176 110 32 }
+        	color={ 126 60 10 }
         	color2={ 255 255 255 }
         
        		capital = 437 # Praha

@@ -114,6 +114,7 @@ c_orleans_adj;Aurelianan;;;;;;;;;;;;;x
 c_ouled_nail_adj;Dimmidian;;;;;;;;;;;;;x
 c_oxford_adj;Aelian;;;;;;;;;;;;;x
 c_passau_adj;Batavian;;;;;;;;;;;;;x
+c_pecs_adj;Sopianaean;;;;;;;;;;;;;x
 c_penthievre_adj;Penntiluvian;;;;;;;;;;;;;x
 c_perigord_adj;Petrocorian;;;;;;;;;;;;;x
 c_pfalz_adj;Wormatian;;;;;;;;;;;;;x
@@ -877,6 +878,7 @@ b_passau;Batavis;;;;;;;;;;;;;x
 b_pau;Palum;;;;;;;;;;;;;x
 b_pavia;Papia;;;;;;;;;;;;;x
 b_pec;Pescium;;;;;;;;;;;;;x
+b_pecs;Sopianae;;;;;;;;;;;;;x
 b_pedondo;Langobriga;;;;;;;;;;;;;x
 b_penafiel;Pinnafidelis;;;;;;;;;;;;;x
 b_penela;Talabriga;;;;;;;;;;;;;x
@@ -1390,6 +1392,7 @@ PROV445;Biatec;;;;;;;;;;;;;x
 PROV447;Batavis;;;;;;;;;;;;;x
 PROV449;Ostarrichi;;;;;;;;;;;;;x
 PROV450;Scarbantia;;;;;;;;;;;;;x
+PROV452;Sopianae;;;;;;;;;;;;;x
 PROV453;Gorsium;;;;;;;;;;;;;x
 PROV454;Savaria;;;;;;;;;;;;;x
 PROV456;Carantia;;;;;;;;;;;;;x

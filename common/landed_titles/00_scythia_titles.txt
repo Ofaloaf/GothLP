@@ -44,7 +44,7 @@ e_scythia = {
 		baltic_pagan_reformed = 100 # Crusade target weight
 		
 		d_mazovia = {
-			color={ 125 46 36 }
+			color={ 195 149 155 }
 			color2={ 255 255 255 }
 			
 			capital = 529 # Plock
@@ -220,7 +220,7 @@ e_scythia = {
 			}
 		}
 		d_silesia = {
-			color={ 169 35 75 }
+			color={ 84 166 93 }
 			color2={ 255 255 255 }
 			
 			capital = 435 # Upper Silesia
@@ -728,7 +728,7 @@ e_scythia = {
 		}
 		
 		d_prussia = {
-			color={ 200 100 100 }
+			color={ 143 141 128 }
 			color2={ 255 255 255 }
 			
 			capital = 370 # Marienburg
@@ -1080,7 +1080,7 @@ e_scythia = {
 		}
 		
 		d_courland = { 
-			color={ 182 16 16 }
+			color={ 99 137 153 }
 			color2={ 255 255 255 }
 			
 			capital = 373 # Kurzeme

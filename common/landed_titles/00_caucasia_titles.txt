@@ -3,7 +3,7 @@ e_caucasia = {
 	color2= { 255 255 255 }
 
 	k_armenia = {
-		color={ 172 82 55 }
+		color={ 145 30 75 }
 		color2={ 255 255 255 }
 		
 		capital = 681 #	Ani
@@ -305,7 +305,7 @@ e_caucasia = {
 		}
 	}
 	k_georgia = {
-		color={ 205 145 145 }
+		color={ 190 35 37 }
 		color2={ 255 255 255 }
 		
 		capital = 679 # Kartli

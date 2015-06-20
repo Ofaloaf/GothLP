@@ -47,6 +47,24 @@ APOSTOLIC_VICAR;Apostolic Vicar;;;;;;;;;;;;;x
 COMES;Comes;;;;;;;;;;;;;x
 LEGATE;Legate;;;;;;;;;;;;;x
 LEGATE_FOA;Your Legatorialness;;;;;;;;;;;;;x
+vice_royalty_duke_traki;Governor;;;;;;;;;;;;;x
+vice_royalty_king_traki;Exarch;Exarque;Exarch;;Exarca;;;;;;;;;x
+vice_royalty_emperor_traki;Grand Exarch;Grand exarque;Groß-Exarch;;Gran Exarca;;;;;;;;;x
+vice_royalty_duchy_of_traki;Province of;Thème de;Thema von;;Tema de;;;;;;;;;x
+vice_royalty_kingdom_of_traki;Exarchate of;Exarchat de;Exarchat von;;Exarcado de;;;;;;;;;x
+vice_royalty_empire_of_traki;Grand Exarchate of;Grand exarchat de;Groß-Exarchat von;;Gran Exarcado de;;;;;;;;;x
+vice_royalty_duke_latinius;Governor;;;;;;;;;;;;;x
+vice_royalty_king_latinius;Vicarius;;;;;;;;;;;;;x
+vice_royalty_emperor_latinius;Grand Exarch;;;;;;;;;;;;;x
+vice_royalty_duchy_of_latinius;Province of;;;;;;;;;;;;;x
+vice_royalty_kingdom_of_latinius;Diocese of;;;;;;;;;;;;;x
+vice_royalty_empire_of_latinius;Grand Exarchate of;;;;;;;;;;;;;x
+vice_royalty_duke_provinciale;Governor;;;;;;;;;;;;;x
+vice_royalty_king_provinciale;Vicarius;;;;;;;;;;;;;x
+vice_royalty_emperor_provinciale;Grand Exarch;;;;;;;;;;;;;x
+vice_royalty_duchy_of_provinciale;Province of;;;;;;;;;;;;;x
+vice_royalty_kingdom_of_provinciale;Diocese of;;;;;;;;;;;;;x
+vice_royalty_empire_of_provinciale;Grand Exarchate of;;;;;;;;;;;;;x
 #
 d_arcani;Arcani;;;;;;;;;;;;;x
 d_arcani_adj;Arcanian;;;;;;;;;;;;;x
@@ -286,6 +304,8 @@ d_pacensis;Pacensis;;;;;;;;;;;;;x
 d_pacensis;Pacensian;;;;;;;;;;;;;x
 d_pagenses;Pagenses;;;;;;;;;;;;;x
 d_pagenses_adj;Pagensian;;;;;;;;;;;;;x
+d_pannonia;Pannonia;;;;;;;;;;;;;x
+d_pannonia_adj;Pannonian;;;;;;;;;;;;;x
 d_paris;Paris;;;;;;;;;;;;;x
 d_paris_adj;Parisian;;;;;;;;;;;;;x
 d_picenum;Picenum;;;;;;;;;;;;;x

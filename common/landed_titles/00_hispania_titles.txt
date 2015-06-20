@@ -59,12 +59,15 @@ e_hispania = {
 			c_arborea = {
 				color={ 170 182 225 }
 				color2={ 255 255 255 }
+
+				africanu = "Arbaree"
 				
 				b_oristano = {
 				}
 				b_ardara = {
 				}
 				b_sassari = {
+					africanu = "Tàtari"
 				}
 				b_portotorres = {
 				}
@@ -80,8 +83,11 @@ e_hispania = {
 			c_cagliari = {
 				color={ 170 200 170 }
 				color2={ 255 255 255 }
+
+				africanu = "Callaris"
 				
 				b_cagliari = {
+					africanu = "Callaris"
 				}
 				b_ogliastra = {
 				}

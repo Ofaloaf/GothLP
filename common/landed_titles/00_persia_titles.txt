@@ -1144,7 +1144,7 @@ e_persia = {
 	}
 	
 	k_khiva = {
-		color = { 79 138 51 }
+		color = { 210 175 60 }
 		color2={ 255 255 255 }
 		
 		capital	= 626 # Khiva

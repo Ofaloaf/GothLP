@@ -186,7 +186,7 @@ central_germanic = {
 			Dagamers_Dagomar Damianus_Damian Daniel_Daniel Dauminicus_Dominic Daweid_David Dumerit Duda
 			Esaeius_Isaias Ermanaricus_Ermanaric
 			Filippus_Philip Fragkiskus_Francis Frumagilds Fulkawins_Volkwin Fravittas Fruisclus
-			Gabriel_Gabriel Gaiorgeis Gaizhardus_Gerard Gallus_Gall Gudafridus_Godfried Gustaffs_Gustavus
+			Gabriel_Gabriel Gaiorgeis Gaizhardus_Gerard Gallus_Gallus Gudafridus_Godfried Gustaffs_Gustavus
 			Gidilas Gesila Gudisal Gainas Gardingus
 			Haimareic_Henry Helias_Elias Herodes Hunifridus_Humfrey Hunila
 			Iairaimias_Jeremy Iakobus_Jacob Iaurdaneis_Jordan Ibrahardus_Eberhard Iggilds Iohannes_John Ibba

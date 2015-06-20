@@ -2124,11 +2124,11 @@ e_italy = {
 			}
 		}
 		d_sirmium = {
-			color = { 198 26 120 }
+			color = { 206 181 45 }
 			color2= { 255 255 255 }
 
 			c_hum = { 
-				color={ 181 43 119 }
+				color={ 92 91 44 }
 				color2={ 255 255 255 }
 				
 				# Arsia
@@ -2159,7 +2159,7 @@ e_italy = {
 				}
 			}
 			c_belgrade = {
-				color={ 222 105 158 }
+				color={ 192 185 33 }
 				color2={ 255 255 255 }
 
 				# Singidunum

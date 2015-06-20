@@ -417,3 +417,58 @@
 		death=yes
 	}
 }
+
+476026 = {
+	name="Emmanuel"
+	culture="latine"
+	religion="catholic"
+	martial=5
+	diplomacy=6
+	intrigue=5
+	stewardship=5
+	learning=9
+	717.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+476027 = {
+	name="Corvinus"
+	culture="latine"
+	religion="catholic"
+	martial=5
+	diplomacy=6
+	intrigue=9
+	stewardship=5
+	learning=6
+	trait="elusive_shadow"
+	718.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+476028 = {
+	name="Gallieno"
+	dynasty=476079 # Coracine
+	culture="latine"
+	religion="catholic"
+	martial=5
+	diplomacy=6
+	intrigue=8
+	stewardship=6
+	learning=5
+	trait="lustful"
+	trait="envious"
+	739.1.1={
+		birth=yes
+	}
+	780.1.1={
+		death=yes
+	}
+}

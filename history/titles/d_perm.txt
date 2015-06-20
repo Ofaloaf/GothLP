@@ -1,0 +1,5 @@
+# d_perm
+768.1.1 = {
+	liege=k_volga_bulgaria
+	holder=188803
+}
