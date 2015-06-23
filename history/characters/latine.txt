@@ -472,3 +472,41 @@
 		death=yes
 	}
 }
+
+476029 = {
+	name="Cassiano"
+	dynasty=476002 # Senatore
+	culture="latine"
+	religion="catholic"
+	martial=4
+	diplomacy=7
+	intrigue=6
+	stewardship=7
+	learning=10
+	trait="scholar"
+	750.1.1={
+		birth=yes
+	}
+	850.1.1={
+		death=yes
+	}
+}
+
+476030 = {
+	name="Ingenuo"
+	dynasty=476026 # Anafeso
+	culture="latine"
+	religion="catholic"
+	martial=5
+	diplomacy=6
+	intrigue=9
+	stewardship=3
+	learning=5
+	trait="scholar"
+	741.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}

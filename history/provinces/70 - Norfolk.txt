@@ -16,5 +16,5 @@ b_lynn = city
 #b_chatteris = castle
 
 # Misc
-culture = brithenig
+culture = saxon
 religion = arian

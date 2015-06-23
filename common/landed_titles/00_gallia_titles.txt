@@ -994,7 +994,6 @@ e_gallia = {
 				b_aix = {
 					# Aquae Sextiae
 
-					holy_site = arian
 					holy_site = nicene
 				}
 				b_marseille = {

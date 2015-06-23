@@ -1,0 +1,52 @@
+360.1.1={
+	holder = 159807 #Macsen Wledig
+}
+380.1.1={
+	holder = 159809 #Owain Finddu
+}
+428.1.1={
+	holder = 159826 #Mor ap Owain
+}
+448.1.1={
+	holder = 159827 #Solor ap Mor
+}
+470.1.1={
+	holder = 159828 #Glywys ap Solor
+}
+498.1.1={
+	holder = 159823 #Caradog Freichfras
+}
+530.1.1={
+	holder = 159824 #Meurig
+}
+550.1.1={
+	holder = 159825
+}
+560.1.1={
+	holder = 159830
+}
+590.1.1={
+	holder = 159831
+}
+600.1.1={
+	holder = 159834
+}
+605.1.1={
+	holder = 159832
+}
+625.1.1={
+	holder = 159833
+}
+665.1.1={
+	holder = 159835
+}
+680.1.1={
+	holder = 159116
+}
+710.1.1={
+	holder = 159115
+}
+740.1.1={
+	holder = 159114
+}
+

@@ -169,7 +169,7 @@
 }
 
 1589035 = {
-	name = Saltellis
+	name = "Saltellis"
 	culture = hispani
 }
 
@@ -194,7 +194,7 @@
 }
 
 1589040 = {
-	name = "Bedoz"
+	name = "Bedos"
 	culture = hispani
 }
 
@@ -460,5 +460,10 @@
 
 1589103 = {
 	name = "Quixotus"
+	culture = hispani
+}
+
+1589104 = {
+	name = "Nobilior"
 	culture = hispani
 }

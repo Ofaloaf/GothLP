@@ -16,6 +16,6 @@ b_st_moluag = temple
 #b_kilmun = castle
 
 # Misc
-culture = irish
+culture = pictish
 religion = celtic_pagan
 terrain = hills

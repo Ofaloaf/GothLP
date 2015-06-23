@@ -16,5 +16,5 @@ b_bury = city
 #b_bungay = castle
 
 # Misc
-culture = brithenig
+culture = saxon
 religion = arian

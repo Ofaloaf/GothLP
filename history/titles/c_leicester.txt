@@ -1,0 +1,7 @@
+500.1.1 = {
+	liege = "d_coritania"
+}
+
+762.1.1 = {
+	holder = 7777013 # Lludd Coranneit
+}

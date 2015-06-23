@@ -1,0 +1,6 @@
+500.1.1 = {
+	liege = "k_navarra"
+}
+749.1.1 = {
+	holder = 4201001 # Jimeno Luanquis
+}

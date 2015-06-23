@@ -1,0 +1,6 @@
+500.1.1 = {
+	liege = "d_meath"
+}
+728.1.1={
+	holder=1000 # Cennetig Iserninus
+}

@@ -6,9 +6,9 @@ title = c_ikonion
 # Settlements
 max_settlements = 5
 
-b_ikonion = castle
+b_lisdra = castle
+b_ikonion = temple
 b_gaspadale = city
-b_lisdra = temple
 
 #b_isauria = castle
 #b_laranda = castle

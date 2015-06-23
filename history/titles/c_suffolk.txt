@@ -1,0 +1,6 @@
+500.1.1 = {
+	liege = "d_icenia"
+}
+760.1.1 = {
+	holder = 1066001 # Morcar Hengisting
+}

@@ -1377,6 +1377,7 @@ e_byzantium = {
 				turkish = "Konya"
 				
 				b_ikonion = {
+					holy_site = sunni
 					turkish = "Konya"
 				}
 				b_lisdra = {

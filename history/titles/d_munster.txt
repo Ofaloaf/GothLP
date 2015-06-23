@@ -1,0 +1,15 @@
+700.1.1 = {
+	liege = "k_ireland"
+}
+701.1.1={
+	holder=83624 #Cormac son of Ailill
+}
+713.1.1={
+	holder=83631 #Dub-dá-Crích son of Colmán
+}
+752.1.1={
+	holder=83640 #Indrechtach son of Flann
+}
+795.1.1={
+	holder=83655 #Tnúthgal son of Donngus
+}

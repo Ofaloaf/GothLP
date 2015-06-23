@@ -1,0 +1,37 @@
+430.1.1={
+	liege = "d_meath"
+	holder = 7255 #Niall of the Nine Hostages
+}
+450.1.1={
+	holder = 7254 #Conall Cremthainne son of Niall
+}
+480.1.1={
+	holder = 7256 #Fergus son of Conall Cremthainne Ua Neill
+}
+525.1.1={
+	holder = 7258 #Diarmet son of Fergus Ua Neill
+}
+565.1.1={
+	holder = 7260 #Colman Bec son of Diarmet Ua Neill
+}
+587.1.1={
+	holder = 7262 #Suibne son of Colman Bec Ua Neill
+}
+600.1.1={
+	holder = 7264 #Conall son of Suibne Ua Neill
+}
+635.1.1={
+	holder = 7266 #Airmetach son of Conall Ua Neill
+}
+637.1.1={
+	holder = 7268 #Diarmait son of Airmetach Ua Neill
+}
+689.1.1={
+	holder = 7270 #Murchard son of Diarmait Ua Neill
+}
+715.1.1={
+	holder = 7272 #Donmnall son of Murchard Ua Neill
+}
+728.1.1={
+	holder=1000 # Cennetig Iserninus
+}

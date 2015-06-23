@@ -805,7 +805,7 @@ e_scandinavia = {
 	}
 
 	k_sweden = {
-		color={ 55 112 170 }
+		color={ 8 82 165 }
 		color2={ 255 255 0 }
 		capital = 290 # Uppland
 		
@@ -1822,7 +1822,7 @@ e_scandinavia = {
 	}
 	
 	k_norway = {
-		color={ 170 170 210 }
+		color={ 117 165 188 }
 		color2={ 220 220 220 }
 		
 		culture = norwegian
@@ -2469,7 +2469,7 @@ e_scandinavia = {
 	}
 	
 	k_finland = {
-		color = { 130 73 20 }
+		color = { 182 134 100 }
 		color2={ 255 255 255 }
 		
 		capital = 382 # Finland

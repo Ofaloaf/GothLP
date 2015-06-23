@@ -1,0 +1,7 @@
+500.1.1 = {
+	liege = "k_loegria"
+}
+
+740.1.1 = {
+	holder = 7777009 # Icorig Boibont
+}

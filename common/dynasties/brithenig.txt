@@ -419,7 +419,7 @@
 }
 
 1707085 = {
-	name = "comitinus"
+	name = "Comitinus"
 	culture = brithenig
 }
 
@@ -525,5 +525,20 @@
 
 1707106 = {
 	name = "Goeznovinus"
+	culture = brithenig
+}
+
+1707107 = {
+	name = "Pendraco"
+	culture = brithenig
+}
+
+1707108 = {
+	name = "Coranneit"
+	culture = brithenig
+}
+
+1707109 = {
+	name = "Iserninus"
 	culture = brithenig
 }

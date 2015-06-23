@@ -5,8 +5,8 @@ title = c_ossory
 
 # Settlements
 max_settlements = 3
-b_gowran = tribal
-#b_kilkenny = city
+b_gowran = castle
+b_kilkenny = city
 b_clonmacnoise = temple
 
 #b_aghaboe = castle
@@ -17,4 +17,4 @@ b_clonmacnoise = temple
 
 # Misc
 culture = irish
-religion = celtic_pagan
+religion = orthodox

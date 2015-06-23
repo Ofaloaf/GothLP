@@ -1,0 +1,29 @@
+1066001 = {
+	name="Rothemling"
+	culture = old_saxon
+}
+
+1066002 = {
+	name = "Bajocassing"
+	culture = old_saxon
+}
+
+1066003 = {
+	name = "Sandling"
+	culture = saxon
+}
+
+1066004 = {
+	name="Wuffing"
+	culture = saxon
+}
+
+1066005 = {
+	name="Læt"
+	culture = saxon
+}
+
+1066007 = {
+	name = "Hengisting"
+	culture = saxon
+}

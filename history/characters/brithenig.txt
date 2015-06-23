@@ -1,0 +1,246 @@
+7777001 = {
+	name="Iewan"
+	dynasty=1707104 # Ffagan, Fugatius
+	culture="brithenig"
+	religion="arian"
+	721.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+7777002 = {
+	name="Kenan"
+	dynasty=1707007 # Comro
+	martial = 10
+	diplomacy = 7
+	intrigue = 5
+	stewardship = 6
+	learning = 4
+	culture="brithenig"
+	religion="arian"
+	trait="tough_soldier"
+	trait="brave"
+	trait="trusting"
+	726.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+7777003 = {
+	name="Eudo"
+	dynasty=1707106 # Goeznovinus
+	martial = 3
+	diplomacy = 6
+	intrigue = 5
+	stewardship = 5
+	learning = 8
+	culture="brithenig"
+	religion="arian"
+	trait="scholar"
+	713.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+7777004 = {
+	name = "Goueznou"
+	father=7777003
+	dynasty=1707106 # Goeznovinus
+	culture="brithenig"
+	religion="arian"
+	trait="scholar"
+	738.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+7777005 = {
+	name="Sibyl"
+	female=yes
+	dynasty=1707105 # Dwywan
+	martial=8
+	diplomacy=9
+	intrigue=7
+	stewardship=5
+	learning=4
+	culture="brithenig"
+	religion="arian"
+	trait="temperate"
+	trait="cynical"
+	trait="sympathy_pagans"
+	744.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+7777006 = {
+	name="Aristobulus"
+	culture="brithenig"
+	religion="arian"
+	trait="zealous"
+	trait="scholarly_theologian"
+	721.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+7777007 = {
+	name = "Pascen"
+	dynasty = 1707035 # Rhoch
+	martial=6
+	diplomacy=4
+	intrigue=5
+	stewardship=5
+	learning=4
+	culture="brithenig"
+	religion="arian"
+	trait="zealous"
+	trait="brave"
+	trait="misguided_warrior"
+	738.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+7777008 = {
+	name="Conetoc"
+	dynasty=1707044 # Tegouerd
+	culture="brithenig"
+	religion="celtic_pagan"
+	721.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+7777009 = {
+	name="Icorig"
+	dynasty=1707006 # Boibont
+	culture="brithenig"
+	religion="celtic_pagan"
+	713.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+7777010 = {
+	name="Iago"
+	dynasty=1707022 # Llefan
+	culture="brithenig"
+	religion="celtic_pagan"
+	trait=deceitful
+	740.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+7777011 = {
+	name="Maguohen"
+	dynasty=1707055 # Casiguellan
+	culture="brithenig"
+	religion="celtic_pagan"
+	trait=zealous
+	731.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+7777012 = {
+	name = "Tegid" # Tacitus
+	dynasty = 1707004 # Nepus
+	martial=7
+	diplomacy=5
+	intrigue=5
+	stewardship=7
+	learning=7
+	culture="brithenig"
+	religion="arian"
+	trait="shy"
+	trait="brave"
+	trait="tough_warrior"
+	720.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+7777013 = {
+	name="Lludd"
+	dynasty=1707108 # Coranneit
+	martial = 6
+	diplomacy = 8
+	intrigue = 8
+	stewardship = 6
+	learning = 5
+	culture="brithenig"
+	religion="celtic_pagan"
+	trait="lustful"
+	trait="charitable"
+	trait="kind"
+	743.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+7777014 = {
+	name="Erbin"
+	dynasty=1707107 # Pendraco
+	culture="brithenig"
+	religion="arian"
+	720.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+7777015 = {
+	name="Gorlois"
+	dynasty=1707042 # Cornovius
+	culture="brithenig"
+	religion="arian"
+	725.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}

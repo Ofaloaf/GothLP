@@ -16,5 +16,5 @@ b_macclesfield = city
 #b_nantwich = castle
 
 # Misc
-culture = brithenig
+culture = welsh
 religion = celtic_pagan

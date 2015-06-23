@@ -1,0 +1,7 @@
+500.1.1 = {
+	liege = "k_loegria"
+}
+
+760.1.1 = {
+	holder = 7777011 # Maguohen Casiguellan
+}

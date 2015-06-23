@@ -1,0 +1,7 @@
+100.1.1 = {
+	liege = "e_caralis"
+	vice_royalty = yes
+}
+755.1.1 = {
+	holder = 1573016 # Magnus Ulpiano
+}

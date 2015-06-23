@@ -1,0 +1,9 @@
+7776001 = {
+	name = Lydanwyn
+	culture = welsh
+}
+
+7776002 = {
+	name = "Beisrudd"
+	culture = welsh
+}

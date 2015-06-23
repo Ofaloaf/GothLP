@@ -4,8 +4,12 @@ maghreb_arabic;Berber;;;;;;;;;;;;;x
 welsh;Briton;;;;;;;;;;;;;x
 k_dacia;Dacia;;;;;;;;;;;;;x
 k_dacia_adj;Dacian;;;;;;;;;;;;;x
+k_spanish_galicia;Gallaecia;;;;;;;;;;;;;x
+k_spanish_galicia_adj;Gallaecian;;;;;;;;;;;;;x
 d_flanders;Flandria;;;;;;;;;;;;;x
 d_flanders_adj;Flandrian;;;;;;;;;;;;;x
+d_galicia;Gallaecia;;;;;;;;;;;;;x
+d_galicia_adj;Gallaecian;;;;;;;;;;;;;x
 d_tyrol;Teriolis;;;;;;;;;;;;;x
 d_tyrol_adj;Teriolian;;;;;;;;;;;;;x
 c_aargau_adj;Argovian;;;;;;;;;;;;;x
@@ -103,8 +107,10 @@ c_middlesex_adj;Londinian;;;;;;;;;;;;;x
 c_modena_adj;Mutinan;;;;;;;;;;;;;x
 c_montpellier_adj;Cevennan;;;;;;;;;;;;;x
 c_mosul_adj;Ninevean;;;;;;;;;;;;;x
+c_najera_adj;Tritian;;;;;;;;;;;;;x
 c_nantes_adj;Namnetian;;;;;;;;;;;;;x
 c_narbonne_adj;Narbonan;;;;;;;;;;;;;x
+c_navarra_adj;Pompaelonan;;;;;;;;;;;;;x
 c_nice_adj;Nicean;;;;;;;;;;;;;x
 c_nordhau_adj;Wasgovian;;;;;;;;;;;;;x
 c_norfolk_adj;Wentan;;;;;;;;;;;;;x
@@ -157,6 +163,7 @@ c_vendome_adj;Vindocinensian;;;;;;;;;;;;;x
 c_verdun_adj;Verodunan;;;;;;;;;;;;;x
 c_vermandois_adj;Viromandian;;;;;;;;;;;;;x
 c_vexin_adj;Veliocassinan;;;;;;;;;;;;;x
+c_viscaya_adj;Biscaian;;;;;;;;;;;;;x
 c_viviers_adj;Vivarian;;;;;;;;;;;;;x
 c_warwick_adj;Letocetic;;;;;;;;;;;;;x
 c_westmorland_adj;Itunan;;;;;;;;;;;;;x
@@ -227,6 +234,7 @@ b_arcosdevaldevez;Aquae Leae;;;;;;;;;;;;;x
 b_argentan;Argentomagus;;;;;;;;;;;;;x
 b_arles;Arelate;;;;;;;;;;;;;x
 b_arlon;Orolaunum;;;;;;;;;;;;;x
+b_arnedo;Arenetum;;;;;;;;;;;;;x
 b_arques;Arcas;;;;;;;;;;;;;x
 b_arras;Atrebatum;;;;;;;;;;;;;x
 b_arizgnano;Arzignanum;;;;;;;;;;;;;x
@@ -355,6 +363,7 @@ b_caen;Cadomum;;;;;;;;;;;;;x
 b_cagliari;Calaris;;;;;;;;;;;;;x
 b_cahors;Cadurcum;;;;;;;;;;;;;x
 b_cakovec;Aquama;;;;;;;;;;;;;x
+b_calahorra;Calagurris;;;;;;;;;;;;;x
 b_calais;Kales;;;;;;;;;;;;;x
 b_calamocha;Augustula;;;;;;;;;;;;;x
 b_calanda;Colenda;;;;;;;;;;;;;x
@@ -498,6 +507,7 @@ b_durdevac;Mursella;;;;;;;;;;;;;x
 b_durkheim;Thuringeheim;;;;;;;;;;;;;x
 b_eauze;Elusa;;;;;;;;;;;;;x
 b_egisheim;Egino;;;;;;;;;;;;;x
+b_eibar;Heybar;;;;;;;;;;;;;x
 b_eivissa;Ebusus;;;;;;;;;;;;;x
 b_ejea;Segia;;;;;;;;;;;;;x
 b_elbekara;Choba;;;;;;;;;;;;;x
@@ -586,6 +596,7 @@ b_hagenau;Cruciniacum;;;;;;;;;;;;;x
 b_hammamet;Pupput;;;;;;;;;;;;;x
 b_harcourt;Herolcurtis;;;;;;;;;;;;;x
 b_harfleur;Caracotinum;;;;;;;;;;;;;x
+b_haro;Bibilium;;;;;;;;;;;;;x
 b_hastings;Mutuatonis;;;;;;;;;;;;;x
 b_hautpoul;Altopullo;;;;;;;;;;;;;x
 b_hennebont;Pontevetus;;;;;;;;;;;;;x
@@ -604,6 +615,7 @@ b_imotski;Emotha;;;;;;;;;;;;;x
 b_innsbruck;Oenipons;;;;;;;;;;;;;x
 b_ipswich;Combretovium;;;;;;;;;;;;;x
 b_irigny;Iriacum;;;;;;;;;;;;;x
+b_irun;Oeasso;;;;;;;;;;;;;x
 b_iscar;Ipsca;;;;;;;;;;;;;x
 b_iskandariya;Alexandria;;;;;;;;;;;;;x
 b_issoudun;Uxeldunum;;;;;;;;;;;;;x
@@ -824,6 +836,7 @@ b_mozac;Mussiacus;;;;;;;;;;;;;x
 b_munebrega;Mundobriga;;;;;;;;;;;;;x
 b_munster;Mimigernaford;;;;;;;;;;;;;x
 b_msaken;Horrea Caelia;;;;;;;;;;;;;x
+b_najera;Tritium;;;;;;;;;;;;;x
 b_nancy;Nanceia;;;;;;;;;;;;;x
 b_nantes;Namnetum;;;;;;;;;;;;;x
 b_napoli;Neapolis;;;;;;;;;;;;;x
@@ -873,6 +886,7 @@ b_palencia;Pallantia;;;;;;;;;;;;;x
 b_palermo;Panormus;;;;;;;;;;;;;x
 b_pallars;Pallariensis;;;;;;;;;;;;;x
 b_pamiers;Appamiae;;;;;;;;;;;;;x
+b_pamplona;Pomplaeo;;;;;;;;;;;;;x
 b_parthenay;Parthiniacum;;;;;;;;;;;;;x
 b_passau;Batavis;;;;;;;;;;;;;x
 b_pau;Palum;;;;;;;;;;;;;x
@@ -1273,6 +1287,8 @@ PROV148;Ecolisima;;;;;;;;;;;;;x
 PROV149;Burdigalensis;;;;;;;;;;;;;x
 PROV150;Martianus;;;;;;;;;;;;;x
 PROV151;Tarbellia;;;;;;;;;;;;;x
+PROV152;Pompaelo;;;;;;;;;;;;;x
+PROV153;Biscaia;;;;;;;;;;;;;x
 PROV154;Cantabria;;;;;;;;;;;;;x
 PROV155;Asturia;;;;;;;;;;;;;x
 PROV156;Crunia;;;;;;;;;;;;;x
@@ -1317,6 +1333,7 @@ PROV197;Carpetania;;;;;;;;;;;;;x
 PROV198;Vallisoletum;;;;;;;;;;;;;x
 PROV199;Pallantia;;;;;;;;;;;;;x
 PROV200;Daurius;;;;;;;;;;;;;x
+PROV201;Tritium;;;;;;;;;;;;;x
 PROV202;Caesaraugusta;;;;;;;;;;;;;x
 PROV203;Ilerda;;;;;;;;;;;;;x
 PROV204;Barciluna;;;;;;;;;;;;;x

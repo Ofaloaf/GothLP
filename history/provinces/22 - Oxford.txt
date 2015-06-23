@@ -17,4 +17,4 @@ b_abingdon = temple
 
 # Misc
 culture = brithenig
-religion = arian
+religion = celtic_pagan

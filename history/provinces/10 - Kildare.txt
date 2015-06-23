@@ -5,8 +5,8 @@ title = c_kildare
 
 # Settlements
 max_settlements = 4
-b_knockaulin = tribal
-#b_kildare = city
+b_knockaulin = castle
+b_kildare = city
 b_st_brigit = temple
 
 #b_athlone = castle

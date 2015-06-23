@@ -1,0 +1,67 @@
+370.1.1=
+{
+holder=83607 #Conall Corc
+}
+420.1.1=
+{
+holder=83608 #Nad Froich son of Conall
+}
+450.1.1=
+{
+holder=83609 #Óengus son of Nad Froich
+}
+492.1.1=
+{
+holder=83611 #Feidelmid son of Óengus son of Nad Froich
+}
+533.1.1=
+{
+holder=83612 #Bressal son of Óengus son of Nad Froich
+}
+544.1.1=
+{
+holder=83617 #Crimthann son of Feidelmid
+}
+560.1.1=
+{
+holder=83618 #Áed Dub son of Crimthann
+}
+600.1.1=
+{
+holder=83619 #Fíngen son of Áed Dub
+}
+619.1.1=
+{
+holder=83620 #Faílbe Fland son of Áed Dub
+}
+639.1.1=
+{
+holder=83621 #Máenach son of Fíngen
+}
+662.1.1=
+{
+holder=83628 #Colgú son of Faílbe Fland
+}
+678.1.1=
+{
+holder=83626 #Tnúthgal son of Fogartach
+}
+700.1.1 = {
+	liege = "d_munster"
+}
+701.1.1=
+{
+holder=83624 #Cormac son of Ailill
+}
+713.1.1=
+{
+holder=83631 #Dub-dá-Crích son of Colmán
+}
+752.1.1=
+{
+holder=83640 #Indrechtach son of Flann
+}
+795.1.1=
+{
+holder=83655 #Tnúthgal son of Donngus
+}

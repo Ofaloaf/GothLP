@@ -1,0 +1,7 @@
+100.1.1 = {
+	liege = "k_loegria"
+}
+
+763.1.1 = {
+	holder = 7777005 # Sibyl Dwywan
+}

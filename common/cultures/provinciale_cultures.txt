@@ -100,7 +100,7 @@ provinciale = {
 			Lannildut Llewfelen Liuit Llawreint_Laurence Luc_Luke Lifris
 			Maglorius Map Motius Muconius Mawr Medrad Margiteut Maguohen Maccodechet Madag Maelcun Marc_Marcus
 			Mathew_Matthew Merthin_Martin Mewrig_Maurice Merddin Migangel_Michael Manuel_Manuel Morgan Magimos
-			Nectovelius Nigol_Nocholas Nennius
+			Nectovelius Nigol_Nicholas Nennius
 			Owain_Owain
 			Pedr_Peter Pawl_Paul Padrig_Patrick Philip_Philip Pascen Pelagius_Pelagius
 			Quenataug Quenuendan
@@ -154,7 +154,7 @@ provinciale = {
 		male_names = {
 			Abbelino Abellonio Abdias Abraham_Abraham Abrentius Acerrimus Adam_Adam Adamantius Adiuvando 
 			Atrianus_Adrian Advocatus Aecius Afriganus Agrestius Augustinu Albanus Almacius 
-			Anfelagio Amorolino Anderias_Andrew Antenato Antonino_Antonius Arrianu Arsenius Artemius 
+			Anfelagio Amorolino Anderias_Andrew Antenato Antonino_Antoninus Arrianu Arsenius Artemius 
 			Atanasius_Athanasius Aurelianus Aurelius_Aurelius Avolino Avidio Avetinu Aurus Auriolus Avolos
 			Barva Bellaronius Belacco_Velasco Benedictus_Benedict Benignus Bennatus Besilio Bianus 
 			Blandu Bonellus Bonentius Bonimenzo Boninus Bitaco Blandino
@@ -183,7 +183,7 @@ provinciale = {
 			Ramulus Reles Renovado Reparatus Revelius Romaeus
 			Salomon Salvator Salvadus Sampirus Samuhel Sancio_Sancho Santoius Santon Sarracinus Saturninus 
 			Savaano Sebastianos_Sebastian Scemoso Semeson Sempronio Servatus Servodeo Severo Sexto 
-			Silus Silvanus Silvester Simeon Symphonio Stevanus_Stephen
+			Silus Silvanus Silvester Simeon_Simon Symphonio Stevanus_Stephen
 			Tardenatus Teorenius Teretianus Tertulianus Timotheus Titus_Titus Tiyon Todosio Toranzus 
 			Toutellus Theodoro_Theodore Theoclezo Theofilo_Theophilus
 			Valentinus Valentius Varvarinus Velascus Venatori Verissimus Viator Vicentius_Vincent 

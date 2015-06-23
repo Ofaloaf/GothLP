@@ -193,7 +193,7 @@ e_britannia = {
 
 					roman = "Venta Belgarum"
 
-					brithenig = "Cair Guinntguic"
+					brithenig = "Ouectis Belgorum"
 					welsh = "Caerwynt"
 				}
 				b_carisbrooke = {
@@ -217,7 +217,11 @@ e_britannia = {
 			color = { 210 136 56 }
 			color2= { 255 255 255 }
 
-			capital = 70
+			capital = 72 # Essex/Camulodunum
+
+			saxon = "Anglia"
+			old_saxon = "Anglia"
+			norse = "Anglia"
 
 			c_norfolk = {
 				color={ 241 169 91 }
@@ -228,6 +232,10 @@ e_britannia = {
 				roman = "Icenia"
 				brithenig = "Caer Went"
 				welsh = "Caergwent"
+
+				saxon = "Norþfolc"
+				old_saxon = "Norþfolc"
+				norse = "Norþfolc"
 			
 				b_norwich = {
 					# Went
@@ -236,9 +244,17 @@ e_britannia = {
 					greek = "Venta Icenorum"
 					latine = "Venta"
 					brithenig = "Wenta"
+
+					saxon = "Norþwic"
+					old_saxon = "Norþwic"
+					norse = "Norþwic"
 				}
 				b_thetford = {
 					# Villafaustini # Scole, probably
+
+					saxon = "Theodford"
+					old_saxon = "Theodford"
+					norse = "Theodford"
 				}
 				b_buckenham = {
 					# Branocastra # Brancaster, Branodunum in Roman times
@@ -256,12 +272,21 @@ e_britannia = {
 
 					old_saxon = "Lean"
 					saxon = "Lean"
+					norse = "Lean"
 				}
 				b_yarmouth = {
 					# Gariannonum
+
+					saxon = "Yernemuth"
+					old_saxon = "Gernemwa"
+					norse = "Gernemwa"
 				}
 				b_elmham = {
 					# Ulmo # Latin translation of 'Elm'
+
+					saxon = "Aelmham"
+					old_saxon = "Aelmham"
+					norse = "Aelmham"
 				}
 				b_castle_rising = {
 					# Ortus # Latin translation of 'Sunrise' or 'rising'
@@ -274,12 +299,24 @@ e_britannia = {
 				color2={ 255 255 255 }
 
 				# Combretovium / Tuddenham
+
+				saxon = "Suþfolc"
+				old_saxon = "Suþfolc"
+				norse = "Suþfolc"
 			
 				b_ipswich = {
 					# Combretovium
+
+					saxon = "Gipeswic"
+					old_saxon = "Gipeswic"
+					norse = "Gipeswic"
 				}
 				b_ely = {
 					# Elia
+
+					saxon = "Elig"
+					old_saxon = "Elig"
+					norse = "Elig"
 				}
 				b_bury = {
 					# Adansam # Ad Ansam, Higham, Suffolk
@@ -303,8 +340,12 @@ e_britannia = {
 
 				# Camulodunum
 
-				brithenig = "Cair Colun"
+				#brithenig = "Cair Colun"
 				welsh = "Caercolun"
+
+				saxon = "Eastseaxe"
+				old_saxon = "Eastseaxe"
+				norse = "Eastseaxe"
 				
 				b_maldon = {
 					# Othona # actually Bradwell-on-Sea
@@ -388,6 +429,7 @@ e_britannia = {
 
 					holy_site = aztec
 					holy_site = aztec_reformed
+					holy_site = arian
 
 					brithenig = "Lundein"
 					welsh = "Llundain"
@@ -442,6 +484,9 @@ e_britannia = {
 		d_coritania = {
 			color = { 157 163 230 }
 			color2= { 255 255 255 }
+
+			brithenig = "Corion"
+			welsh = "Corion"
 
 			c_leicester = {
 				color={ 150 170 220 }
@@ -583,7 +628,7 @@ e_britannia = {
 
 				# Sorbiodunum
 
-				brithenig = "Sarum"
+				brithenig = "Sorbiodunon"
 			
 				b_wilton = {
 					# Cunetio # actually Mildenhall, Wiltshire
@@ -605,7 +650,7 @@ e_britannia = {
 				b_salisbury = {
 					# Sorviodunum
 
-					brithenig = "Cair Caratauc"
+					brithenig = "Sorbiodunon"
 					welsh = "Caer Gradawc"
 				}
 				b_devizes = {
@@ -688,6 +733,7 @@ e_britannia = {
 			color2={ 255 255 255 }
 
 			welsh = "Bryneich"
+			brithenig = "Berneich"
 			
 			capital = 52 # Northumberland
 			
@@ -912,19 +958,6 @@ e_britannia = {
 			swedish = "Jorvik"
 			norse = "Jorvik"
 			
-			pagan_coa = {
-				template = 0
-				layer = {
-					texture = 2
-					texture_internal = 12
-					emblem = 0
-					color = 0
-					color = 0
-					color = 0
-				}
-				religion = "norse_pagan"
-			}
-			
 			c_york = {
 				color={ 111 170 88 }
 				color2={ 255 255 255 }
@@ -932,8 +965,8 @@ e_britannia = {
 				# Ebrauc
 
 				roman = "Eboracum"
-				brithenig = "Ebrauc"
-				welsh = "Efrog"
+				brithenig = "Deifr"
+				welsh = "Deifr"
 
 				saxon = "Eoforwic"
 				old_saxon = "Eoforwic"
@@ -1555,16 +1588,28 @@ e_britannia = {
 				color={ 241 50 20 }
 				color2={ 255 255 255 }
 				
+				# Aroconium
+
 				welsh = Ergyng
+				brithenig = "Ercic"
 			
 				b_st_ethelberts = {
 				}
 				b_hereford = {
-					welsh = "Din Aricon"
 				}
 				b_leominster = {
+					welsh = "Llanllieni"
+					brithenig = "Llanllieni"
 				}
 				b_archenfield = {
+					# Ariconium
+
+					welsh = "Din Aricon"
+					brithenig = "Aricon"
+
+					saxon = "Ircingafeld"
+					old_saxon = "Ircingafeld"
+					norse = "Ircingafeld"
 				}
 				b_ewyas_harold = {
 				}
@@ -1751,6 +1796,8 @@ e_britannia = {
 				}
 				b_dorchester = {
 					# Durnovaria
+
+					brithenig = "Dourovaria"
 				}
 				b_sherborne = {
 				}
@@ -1771,7 +1818,7 @@ e_britannia = {
 					# Badonicus
 
 					roman = "Aquae Sulis"
-					brithenig = "Badon"
+					brithenig = "Acquesoules"
 					welsh = "Baddon"
 				}
 				b_wells = {
@@ -1809,7 +1856,7 @@ e_britannia = {
 		welsh = Alban
 		irish = Alba
 		breton = Alba
-		pictish = Pictland
+		pictish = Pictavia
 		
 		d_western_isles = {
 			color = { 6 42 127 }
@@ -2397,7 +2444,6 @@ e_britannia = {
 		irish = Éire
 		pictish = Iuerthon
 		welsh = Iwerddon
-		breton = Iwerzhon
 		
 		d_ulster = {
 			color={ 5 222 31 }

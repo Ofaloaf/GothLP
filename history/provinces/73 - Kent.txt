@@ -5,8 +5,8 @@ title = c_kent
 
 # Settlements
 max_settlements = 5
-b_dover = castle
 b_canterbury = temple
+b_dover = castle
 b_rochester = temple
 
 #b_faversham = castle

@@ -1337,13 +1337,6 @@ e_hispania = {
 			}
 		}
 		
-		d_porto = {
-			color = { 182 108 45 }
-			color2={ 255 255 255 }
-			
-
-		}
-		
 		d_scalabitanus = {
 			color = { 182 98 5 }
 			color2={ 255 255 255 }
@@ -1765,7 +1758,6 @@ e_hispania = {
 				rumi_arabic = "Qurtubah"
 				
 				b_cordoba = {
-					holy_site = sunni
 					holy_site = aztec
 					holy_site = aztec_reformed
 					bedouin_arabic = "Qurtubah"
@@ -1890,6 +1882,8 @@ e_hispania = {
 			c_algeciras = {
 				color = { 240 208 33 }
 				color2={ 255 255 255 }
+
+				# Mons Calpe
 				
 				b_gibraltar = {
 				}
@@ -1939,6 +1933,8 @@ e_hispania = {
 			c_sevilla = {
 				color = { 232 200 25 }
 				color2={ 255 255 255 }
+
+				# Hispalis
 				
 				b_carmona = {
 				}
@@ -1981,6 +1977,8 @@ e_hispania = {
 			c_niebla = {
 				color = { 248 216 41 }
 				color2={ 255 255 255 }
+
+				# Illipia
 				
 				b_huelva = {
 				}
@@ -2013,7 +2011,7 @@ e_hispania = {
 				OR = {
 					ai = no
 					AND = {
-						culture = basque
+						culture_group = vasconic
 						religion_group = christian
 					}
 				}
@@ -2029,12 +2027,22 @@ e_hispania = {
 			c_viscaya = {
 				color = { 244 198 14 }
 				color2={ 255 255 255 }
+
+				# Biscaia
+
+				basque = "Bizkaia"
+				aquitanian = "Bizkaia"
 				
 				b_irun = {
+					# Oeasso
+
+					basque = "Irun"
+					aquitanian = "Irun"
 				}
 				b_sansebastian = {
 				}
 				b_eibar = {
+					# Heybar
 				}
 				b_onate = {
 				}
@@ -2051,8 +2059,11 @@ e_hispania = {
 			c_navarra = {
 				color = { 255 200 2 }
 				color2={ 255 255 255 }
+
+				# Pompaelo
 				
 				b_pamplona = {
+					# Pompaelo
 				}
 				b_leyre = {
 				}
@@ -2072,16 +2083,22 @@ e_hispania = {
 			c_najera = {
 				color = { 255 202 3 }
 				color2={ 255 255 255 }
+
+				# Tritium
 	
 				b_haro = {
+					# Bibilium
 				}
 				b_logrone = {
 				}
 				b_calahorra = {
+					# Calagurris
 				}
 				b_najera = {
+					# Tritium
 				}
 				b_arnedo = {
+					# Arenetum
 				}
 				b_alfara = {
 				}

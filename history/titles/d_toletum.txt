@@ -1,0 +1,7 @@
+100.1.1 = {
+	liege = "e_caralis"
+	vice_royalty = yes
+}
+760.1.1 = {
+	holder = 1573017 # Marchus Nobilior
+}

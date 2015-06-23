@@ -1,0 +1,12 @@
+71900 = {
+	name="Egidio"
+	dynasty=778
+	religion="orthodox"
+	culture="basque"
+	726.1.1 = {
+		birth=yes
+	}
+	800.1.1 = {
+		death=yes
+	}
+}

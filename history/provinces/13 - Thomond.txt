@@ -5,8 +5,8 @@ title = c_thomond
 
 # Settlements
 max_settlements = 4
-b_bunratty = tribal
-#b_limerick = city
+b_bunratty = castle
+b_limerick = city
 b_killaloe = temple
 
 #b_emly = temple

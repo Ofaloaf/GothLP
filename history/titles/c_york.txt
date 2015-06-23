@@ -1,0 +1,7 @@
+500.1.1 = {
+	liege = "d_eboracum"
+}
+
+750.1.1 = {
+	holder = 7778004 # Ynyr Ebrauc
+}
