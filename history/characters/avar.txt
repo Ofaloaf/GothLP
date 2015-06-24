@@ -7,6 +7,9 @@
 	722.1.1 = {
 		birth = 722.1.1
 	}
+	767.1.1 = {
+		religion = catholic
+	}
 	776.1.1 = {
 		death = 776.1.1
 	}
@@ -207,6 +210,9 @@
 	711.1.1 = {
 		birth=yes
 	}
+	767.1.1 = {
+		religion = catholic
+	}
 	770.1.1 = {
 		death=yes
 	}
@@ -354,6 +360,9 @@
 	father=146146
 	728.1.1={
 		birth=yes
+	}
+	767.1.1 = {
+		religion = catholic
 	}
 	771.1.1={
 		death=yes

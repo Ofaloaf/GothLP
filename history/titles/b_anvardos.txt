@@ -1,0 +1,5 @@
+760.1.1={
+	holding_dynasty = 1453005 # Anvardos
+	liege="d_krete"
+	holder=145906 # Martinos Anvardos
+}

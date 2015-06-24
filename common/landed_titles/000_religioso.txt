@@ -1,7 +1,5 @@
-# SPECIAL TITLES
-
 k_papal_state = {
-	color={ 250 250 250 }
+	color={ 255 249 198 }
 	color2={ 220 220 0 }
 	
 	capital = 333 # Rome

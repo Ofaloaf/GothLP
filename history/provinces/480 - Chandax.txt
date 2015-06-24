@@ -4,9 +4,9 @@
 title = c_chandax
 
 # Settlements
-max_settlements = 4
-b_iraklio = castle
-b_lassithi = city
+max_settlements = 5
+b_iraklio = city
+b_lassithi = castle
 
 b_agiosnikolaos = temple
 #b_malia = castle

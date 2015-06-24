@@ -268,8 +268,6 @@ d_bagaudae = {
 	
 	culture = gallic
 
-	mercenary_type = breton_band_composition
-
 	mercenary = yes
 
 	title = "CAPTAIN"
@@ -313,6 +311,8 @@ d_aquitanic_company = {
 }
 
 d_legion_of_soissons = {
+	color = { 111 188 11 }
+	
 	capital = 95 # Amiens / Suessionum
 
 	culture = gallic

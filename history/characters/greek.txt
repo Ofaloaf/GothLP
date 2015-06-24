@@ -321,3 +321,94 @@
 		death = yes
 	}
 }
+
+145905 = {
+	name = "Symeon"
+	dynasty = 1453004 # Groggos
+	martial=6
+	diplomacy=6
+	intrigue=6
+	stewardship=6
+	learning=5
+	culture=greek
+	religion=orthodox
+	736.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+
+145906 = {
+	name = "Martinos"
+	dynasty = 1453005 # Anvardos
+	martial=6
+	diplomacy=6
+	intrigue=6
+	stewardship=7
+	learning=7
+	culture=greek
+	religion=orthodox
+	730.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+
+145907 = {
+	name = "Manuel"
+	dynasty = 1453006 # Theotokopoulos
+	martial=6
+	diplomacy=7
+	intrigue=7
+	stewardship=5
+	learning=6
+	trait="poet"
+	culture=greek
+	religion=orthodox
+	731.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+
+145908 = {
+	name = "Phokas"
+	dynasty = 1453007 # Kazantzakis
+	martial=6
+	diplomacy=6
+	intrigue=6
+	stewardship=6
+	learning=5
+	culture=greek
+	religion=orthodox
+	738.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+
+145909 = {
+	name = "Hektor"
+	dynasty = 1453008 # Moreatis
+	martial=6
+	diplomacy=7
+	intrigue=6
+	stewardship=8
+	learning=5
+	culture=greek
+	religion=orthodox
+	729.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}

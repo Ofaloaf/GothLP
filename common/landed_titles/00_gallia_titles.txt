@@ -993,8 +993,6 @@ e_gallia = {
 				}
 				b_aix = {
 					# Aquae Sextiae
-
-					holy_site = nicene
 				}
 				b_marseille = {
 					# Massilia
@@ -1403,7 +1401,7 @@ e_gallia = {
 				b_bassac = {
 					# Baciacum
 
-					gothicromance = "Bacciaco"
+					#gothicromance = "Bacciaco"
 				}
 				b_larochefoucauld = {
 				}
@@ -2800,21 +2798,21 @@ e_gallia = {
 					# Compendium
 				}
 			}
-			d_rotomagus = {
-				color = { 100 100 100 }
-				color2= { 255 255 255 }
+		}
+		d_rotomagus = {
+			color = { 100 100 100 }
+			color2= { 255 255 255 }
 
-				allow = {
-					always = no
-				}
+			allow = {
+				always = no
 			}
-			d_armorica = {
-				color = { 111 111 111 }
-				color2= { 255 255 255 }
-			
-				allow = {
-					always = no
-				}
+		}
+		d_armorica = {
+			color = { 111 111 111 }
+			color2= { 255 255 255 }
+		
+			allow = {
+				always = no
 			}
 		}
 	}

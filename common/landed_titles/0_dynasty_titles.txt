@@ -1,0 +1,26 @@
+### CRETE OH GOD ####
+
+b_groggos = {
+	culture = greek
+	religion = orthodox
+}
+
+b_anvardos = {
+	culture = greek
+	religion = orthodox
+}
+
+b_theotokopoulos = {
+	culture = greek
+	religion = orthodox
+}
+
+b_kazantzakis = {
+	culture = greek
+	religion = orthodox
+}
+
+b_moreatis = {
+	culture = greej
+	religion = orthodox
+}

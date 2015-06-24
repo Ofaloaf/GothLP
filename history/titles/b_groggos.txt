@@ -1,0 +1,5 @@
+760.1.1={
+	holding_dynasty = 1453004 # Groggos
+	liege="d_krete"
+	holder=145905 # Symeon Groggos
+}

@@ -12,3 +12,28 @@
 	name = "Indiketos"
 	culture = greek
 }
+
+1453004 = {
+	name = "Groggos"
+	culture = greek
+}
+
+1453005 = {
+	name = "Anvardos"
+	culture = greek
+}
+
+1453006 = {
+	name = "Theotokopoulos"
+	culture = greek
+}
+
+1453007 = {
+	name = "Kazantzakis"
+	culture = greek
+}
+
+1453008 = {
+	name = "Moreatis"
+	culture = greek
+}

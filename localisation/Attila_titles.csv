@@ -49,10 +49,10 @@ LEGATE;Legate;;;;;;;;;;;;;x
 LEGATE_FOA;Your Legatorialness;;;;;;;;;;;;;x
 vice_royalty_duke_traki;Governor;;;;;;;;;;;;;x
 vice_royalty_king_traki;Exarch;Exarque;Exarch;;Exarca;;;;;;;;;x
-vice_royalty_emperor_traki;Grand Exarch;Grand exarque;Gro√ü-Exarch;;Gran Exarca;;;;;;;;;x
-vice_royalty_duchy_of_traki;Province of;Th√®me de;Thema von;;Tema de;;;;;;;;;x
+vice_royalty_emperor_traki;Grand Exarch;Grand exarque;Groﬂ-Exarch;;Gran Exarca;;;;;;;;;x
+vice_royalty_duchy_of_traki;Province of;ThËme de;Thema von;;Tema de;;;;;;;;;x
 vice_royalty_kingdom_of_traki;Exarchate of;Exarchat de;Exarchat von;;Exarcado de;;;;;;;;;x
-vice_royalty_empire_of_traki;Grand Exarchate of;Grand exarchat de;Gro√ü-Exarchat von;;Gran Exarcado de;;;;;;;;;x
+vice_royalty_empire_of_traki;Grand Exarchate of;Grand exarchat de;Groﬂ-Exarchat von;;Gran Exarcado de;;;;;;;;;x
 vice_royalty_duke_latinius;Governor;;;;;;;;;;;;;x
 vice_royalty_king_latinius;Vicarius;;;;;;;;;;;;;x
 vice_royalty_emperor_latinius;Grand Exarch;;;;;;;;;;;;;x
@@ -146,6 +146,8 @@ k_cumbria;Cumbria;;;;;;;;;;;;;x
 k_cumbria_adj;Cumbrian;;;;;;;;;;;;;x
 k_francia;Francia;;;;;;;;;;;;;x
 k_francia_adj;Francian;;;;;;;;;;;;;x
+k_gotarike;Gˆtarike;;;;;;;;;;;;;x
+k_gotarike_adj;Geatish;;;;;;;;;;;;;x
 k_gothia;Gothia;;;;;;;;;;;;;x
 k_gothia_adj;Gothic;;;;;;;;;;;;;x
 k_illyria;Illyria;;;;;;;;;;;;;x
@@ -384,3 +386,8 @@ b_kelvedon;Canonium;;;;;;;;;;;;;x
 b_romford;Durolitum;;;;;;;;;;;;;x
 b_stonehenge;Stonehenge;;;;;;;;;;;;;x
 b_vithericopolis;Vithercopolis;;;;;;;;;;;;;x
+b_groggos;Groggos;;;;;;;;;;;;;x
+b_anvardos;Anvardos;;;;;;;;;;;;;x
+b_theotokopoulos;Theotokopoulos;;;;;;;;;;;;;x
+b_kazantzakis;Kazantzakis;;;;;;;;;;;;;x
+b_moreatis;Moreatis;;;;;;;;;;;;;x

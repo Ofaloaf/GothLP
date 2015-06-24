@@ -2,9 +2,6 @@ e_africa = {
 	color = { 30 51 35 }
 	color2= { 255 255 255 }
 
-	africanu = "Mazicania"
-	maghreb_arabic = "Tamazagha"
-
 	k_africa = {
 		color={ 141 84 75 }
 		color2={ 255 255 255 }
@@ -56,6 +53,7 @@ e_africa = {
 
 					holy_site = arian
 					holy_site = orthodox
+					holy_site = catholic
 				}
 				b_zaghouan = {
 				}
@@ -144,6 +142,7 @@ e_africa = {
 				b_netza = {
 				}
 			}
+		}
 		d_byzacena = {
 			color = { 67 101 112 }
 			color2= { 255 255 255 }
