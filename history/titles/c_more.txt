@@ -1,0 +1,5 @@
+769.1.1 = {
+	holder = 194051
+	liege = d_ostergotland
+}
+

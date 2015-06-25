@@ -16,11 +16,13 @@
 1453004 = {
 	name = "Groggos"
 	culture = greek
+	used_for_random = no
 }
 
 1453005 = {
 	name = "Anvardos"
 	culture = greek
+	used_for_random = no
 }
 
 1453006 = {
@@ -29,7 +31,7 @@
 }
 
 1453007 = {
-	name = "Kazantzakis"
+	name = "Zorbanos"
 	culture = greek
 }
 

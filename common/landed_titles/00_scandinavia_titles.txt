@@ -31,7 +31,7 @@ e_scandinavia = {
 		baltic_pagan_reformed = 50 # Crusade target weight
 		finnish_pagan_reformed = 50
 		
-		norse = Sviþjod
+		norse = Gautaþjod
 	
 		d_uppland = {
 			color={ 20 20 145 }
@@ -43,7 +43,7 @@ e_scandinavia = {
 			
 			capital = 290 # Uppland
 			
-			norse = Gautaþjod
+			norse = Sviþjod
 			
 			pagan_coa = {
 				template = 0
@@ -177,7 +177,7 @@ e_scandinavia = {
 			}
 		}
 		d_ostergotland = {
-			color={ 44 20 169 }
+			color={ 58 148 72 }
 			color2={ 255 255 255 }
 			
 			capital = 293 # Östergötland
@@ -187,7 +187,7 @@ e_scandinavia = {
 			norse = "Gautland"
 			
 			c_ostergotland = {
-				color={ 50 50 149 }
+				color={ 136 181 96 }
 				color2={ 255 255 255 }
 				
 				norwegian = "Østergøtland"
@@ -228,7 +228,7 @@ e_scandinavia = {
 				}
 			}
 			c_narke = {
-				color={ 68 58 255 }
+				color={ 96 183 81 }
 				color2={ 255 255 255 }
 				
 				norwegian = "Nerike"
@@ -257,7 +257,7 @@ e_scandinavia = {
 				}
 			}
 			c_tjust = {
-				color={ 75 60 190 }
+				color={ 47 119 57 }
 				color2={ 255 255 255 }
 				
 				b_vastervik = {
@@ -282,7 +282,7 @@ e_scandinavia = {
 				}
 			}
 			c_gotland = {
-				color={ 65 80 255 }
+				color={ 123 201 101 }
 				color2={ 255 255 255 }
 				
 				b_visby = {
@@ -304,7 +304,7 @@ e_scandinavia = {
 			}
 		}
 		d_vastergotland = {
-			color={ 46 30 205 }
+			color={ 51 117 92 }
 			color2={ 255 255 255 }
 			capital = 297 # Västergötland
 			
@@ -326,7 +326,7 @@ e_scandinavia = {
 			}
 			
 			c_vastergotland = {
-				color={ 60 55 255 }
+				color={ 72 164 130 }
 				color2={ 255 255 255 }
 				
 				norwegian = "Vestergøtland"
@@ -364,7 +364,7 @@ e_scandinavia = {
 				# b_alvsborg
 			}
 			c_dal = {
-				color={ 35 30 225 }
+				color={ 83 157 120 }
 				color2={ 255 255 255 }
 				
 				b_dalaborg = {
@@ -385,7 +385,7 @@ e_scandinavia = {
 				}
 			}
 			c_viken = {
-				color={ 25 175 255 }
+				color={ 124 201 177 }
 				color2={ 255 255 255 }
 				
 				norse = Alfheimr
@@ -413,7 +413,7 @@ e_scandinavia = {
 			}
 		}
 		d_norrland = {
-			color={ 50 50 160 }
+			color={ 80 207 179 }
 			color2={ 255 255 255 }
 			
 			capital = 285 # Hälsingland
@@ -422,7 +422,7 @@ e_scandinavia = {
 			lappish=Sápmi
 
 			c_lappland = {
-				color={ 60 60 130 }
+				color={ 168 232 218 }
 				color2={ 255 255 255 }
 				
 				finnish=Lappi
@@ -448,7 +448,7 @@ e_scandinavia = {
 				}
 			}
 			c_vasterbotten = {
-				color={ 25 43 167 }
+				color={ 53 196 164 }
 				color={ 70 70 156 }
 				color2={ 255 255 255 }
 				
@@ -480,7 +480,7 @@ e_scandinavia = {
 				}
 			}
 			c_angermanland = {
-				color={ 24 0 255 }
+				color={ 45 159 136 }
 				color2={ 255 255 255 }
 				
 				norse = Angermanland
@@ -513,7 +513,7 @@ e_scandinavia = {
 				}
 			}
 			c_medelpad = {
-				color={ 21 37 175 }
+				color={ 82 205 156 }
 				color2={ 255 255 255 }
 				
 				b_selanger = {
@@ -538,7 +538,7 @@ e_scandinavia = {
 				}
 			}
 			c_halsingland = {
-				color={ 5 55 155 }
+				color={ 54 171 104 }
 				color2={ 255 255 255 }
 				
 				norwegian = "Helsingland"
@@ -566,12 +566,12 @@ e_scandinavia = {
 			}
 		}
 		d_bergslagen = { 
-			color={ 60 60 200 }
+			color={ 186 196 172 }
 			color2={ 255 255 255 }
 			capital = 289 # Västmanland
 			
 			c_dalarna = {
-				color={ 20 20 230 }
+				color={ 154 169 133 }
 				color2={ 255 255 255 }
 				
 				norwegian = "Jernbæraland"
@@ -597,7 +597,7 @@ e_scandinavia = {
 				}
 			}
 			c_varmland = {
-				color={ 35 35 210 }
+				color={ 103 115 89 }
 				color2={ 255 255 255 }
 				
 				norwegian = "Vermland"
@@ -622,7 +622,7 @@ e_scandinavia = {
 				}
 			}
 			c_vastmanland = {
-				color={ 10 10 240 }
+				color={ 176 200 168 }
 				color2={ 255 255 255 }
 				
 				norwegian = "Vestmanland"
@@ -654,14 +654,14 @@ e_scandinavia = {
 			}
 		}
 		d_smaland = {
-			color={ 60 40 255 }
+			color={ 102 190 223 }
 			color2={ 255 255 255 }
 			capital = 931 # Möre
 			
 			norse = "Smáland"
 			
 			c_more = {
-				color={ 105 55 215 }
+				color={ 145 207 232 }
 				color2={ 255 255 255 }
 				
 				danish = Møre
@@ -684,7 +684,7 @@ e_scandinavia = {
 			}
 			
 			c_smaland = { # Now called Värend
-				color={ 95 30 215 }
+				color={ 145 207 232 }
 				color2={ 255 255 255 }
 				
 				b_piksborg = {
@@ -706,7 +706,7 @@ e_scandinavia = {
 				}
 			}
 			c_oland = {
-				color={ 75 60 255 }
+				color={ 136 227 232 }
 				color2={ 255 255 255 }
 				
 				norwegian = "Øland"

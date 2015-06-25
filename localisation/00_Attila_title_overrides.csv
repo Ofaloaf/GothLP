@@ -31,6 +31,7 @@ c_aswan_adj;Syenean;;;;;;;;;;;;;x
 c_auvergne_adj;Arvernian;;;;;;;;;;;;;x
 c_auxerre_adj;Autessioduran;;;;;;;;;;;;;x
 c_avranches_adj;Moretanian;;;;;;;;;;;;;x
+c_bacs_adj;Acumincan;;;;;;;;;;;;;x
 c_badajoz_adj;Emeritan;;;;;;;;;;;;;x
 c_baghdad_adj;Ctesiphonian;;;;;;;;;;;;;x
 c_bar_adj;Caturigean;;;;;;;;;;;;;x
@@ -39,6 +40,8 @@ c_bedford_adj;Verulamian;;;;;;;;;;;;;x
 c_bejaija_adj;Salditanan;;;;;;;;;;;;;x
 c_belgrade_adj;Singidunan;;;;;;;;;;;;;x
 c_besancon_adj;Vesontian;;;;;;;;;;;;;x
+c_bihar_adj;Porolissensian;;;;;;;;;;;;;x
+c_birlad_adj;Petrodavan;;;;;;;;;;;;;x
 c_biskra_adj;Vesceran;;;;;;;;;;;;;x
 c_bizerte_adj;Zarytan;;;;;;;;;;;;;x
 c_blois_adj;Blesan;;;;;;;;;;;;;x
@@ -60,6 +63,7 @@ c_chester_adj;Devan;;;;;;;;;;;;;x
 c_coimbra_adj;Conimbrigan;;;;;;;;;;;;;x
 c_cornouaille_adj;Aquilonian;;;;;;;;;;;;;x
 c_coruna_adj;Crunian;;;;;;;;;;;;;x
+c_csanad_adj;Partiscan;;;;;;;;;;;;;x
 c_cuenca_adj;Segontian;;;;;;;;;;;;;x
 c_cumberland_adj;Cumbrian;;;;;;;;;;;;;x
 c_dauphine_viennois_adj;Viennese;;;;;;;;;;;;;x
@@ -68,10 +72,13 @@ c_derby_adj;Derventian;;;;;;;;;;;;;x
 c_dijon_adj;Divionan;;;;;;;;;;;;;x
 c_dorset_adj;Durnovarian;;;;;;;;;;;;;x
 c_empuries_adj;Emporian;;;;;;;;;;;;;x
+c_esztergom_adj;Strigonian;;;;;;;;;;;;;x
 c_durham_adj;Concagnian;;;;;;;;;;;;;x
 c_eu_adj;Aucian;;;;;;;;;;;;;x
 c_evora_adj;Eboran;;;;;;;;;;;;;x
 c_evreux_adj;Eburovican;;;;;;;;;;;;;x
+c_feher_adj;Apulensian;;;;;;;;;;;;;x
+c_fejer_adj;Pelsoan;;;;;;;;;;;;;x
 c_fes_adj;Volubilisan;;;;;;;;;;;;;x
 c_foix_adj;Fucian;;;;;;;;;;;;;x
 c_forcalquier_adj;Cottian;;;;;;;;;;;;;x
@@ -79,6 +86,7 @@ c_french_leon_adj;Legionensian;;;;;;;;;;;;;x
 c_gevaudan_adj;Gabalitannic;;;;;;;;;;;;;x
 c_gloucester_adj;Glouvian;;;;;;;;;;;;;x
 c_guines_adj;Ghisnaean;;;;;;;;;;;;;x
+c_heves_adj;Tisian;;;;;;;;;;;;;x
 c_hum_adj;Arsian;;;;;;;;;;;;;x
 c_julich_adj;Juliacan;;;;;;;;;;;;;x
 c_kairouan_adj;Capsan;;;;;;;;;;;;;x
@@ -123,9 +131,11 @@ c_passau_adj;Batavian;;;;;;;;;;;;;x
 c_pecs_adj;Sopianaean;;;;;;;;;;;;;x
 c_penthievre_adj;Penntiluvian;;;;;;;;;;;;;x
 c_perigord_adj;Petrocorian;;;;;;;;;;;;;x
+c_pest_adj;Aquincan;;;;;;;;;;;;;x
 c_pfalz_adj;Wormatian;;;;;;;;;;;;;x
 c_porto_adj;Bracaran;;;;;;;;;;;;;x
 c_poitiers_adj;Pictavian;;;;;;;;;;;;;x
+c_pressburg_adj;Biatecan;;;;;;;;;;;;;x
 c_provence_adj;Provincian;;;;;;;;;;;;;x
 c_rama_adj;Domavian;;;;;;;;;;;;;x
 c_reims_adj;Remean;;;;;;;;;;;;;x
@@ -147,6 +157,8 @@ c_suittes_adj;Suittean;;;;;;;;;;;;;x
 c_sundgau_adj;Vosegan;;;;;;;;;;;;;x
 c_surrey_adj;Astolatine;;;;;;;;;;;;;x
 c_sussex_adj;Rheginian;;;;;;;;;;;;;x
+c_szekelyfold_adj;Marcodavan;;;;;;;;;;;;;x
+c_temes_adj;Argidavan;;;;;;;;;;;;;x
 c_tarragona_adj;Tarraconan;;;;;;;;;;;;;x
 c_thouars;Toarcan;;;;;;;;;;;;;x
 c_toledo_adj;Carpetanian;;;;;;;;;;;;;x
@@ -158,6 +170,7 @@ c_trent_adj;Tridentan;;;;;;;;;;;;;x
 c_troyes_adj;Tricassian;;;;;;;;;;;;;x
 c_valencia_adj;Valentian;;;;;;;;;;;;;x
 c_vannes_adj;Venetanic;;;;;;;;;;;;;x
+c_vas_adj;Savarian;;;;;;;;;;;;;x
 c_venaissin_adj;Venicinan;;;;;;;;;;;;;x
 c_vendome_adj;Vindocinensian;;;;;;;;;;;;;x
 c_verdun_adj;Verodunan;;;;;;;;;;;;;x
@@ -506,6 +519,7 @@ b_dunwich;Dunum;;;;;;;;;;;;;x
 b_durdevac;Mursella;;;;;;;;;;;;;x
 b_durkheim;Thuringeheim;;;;;;;;;;;;;x
 b_eauze;Elusa;;;;;;;;;;;;;x
+b_eger;Agria;;;;;;;;;;;;;x
 b_egisheim;Egino;;;;;;;;;;;;;x
 b_eibar;Heybar;;;;;;;;;;;;;x
 b_eivissa;Ebusus;;;;;;;;;;;;;x
@@ -528,6 +542,7 @@ b_escastell;Philippicum;;;;;;;;;;;;;x
 b_esmercadal;Mercatum;;;;;;;;;;;;;x
 b_espinheiro;Caeciliana;;;;;;;;;;;;;x
 b_este;Ateste;;;;;;;;;;;;;x
+b_esztergom;Strigonium;;;;;;;;;;;;;x
 b_etain;Castrum Vabrense;;;;;;;;;;;;;x
 b_etampes;Stampis;;;;;;;;;;;;;x
 b_ettelbruck;Ettelbriga;;;;;;;;;;;;;x
@@ -591,6 +606,7 @@ b_guimaraes;Vimaranes;;;;;;;;;;;;;x
 b_guines;Ghisnae;;;;;;;;;;;;;x
 b_guingamp;Albacampa;;;;;;;;;;;;;x
 b_guise;Gusia;;;;;;;;;;;;;x
+b_gyor;Arrabona;;;;;;;;;;;;;x
 b_haffouz;Aqua Regiae;;;;;;;;;;;;;x
 b_hagenau;Cruciniacum;;;;;;;;;;;;;x
 b_hammamet;Pupput;;;;;;;;;;;;;x
@@ -649,6 +665,7 @@ b_khenchela;Mascula;;;;;;;;;;;;;x
 b_klagenfurt;Chlagenvurth;;;;;;;;;;;;;x
 b_klis;Clissa;;;;;;;;;;;;;x
 b_knin;Tinum;;;;;;;;;;;;;x
+b_komarom;Brigetio;;;;;;;;;;;;;x
 b_konstanz;Constantia;;;;;;;;;;;;;x
 b_koprivnica;Copriunisa;;;;;;;;;;;;;x
 b_kragujevac;Sirmium;;;;;;;;;;;;;x
@@ -1079,6 +1096,7 @@ b_suances;Blendium;;;;;;;;;;;;;x
 b_sully;Soliacum;;;;;;;;;;;;;x
 b_syracusa;Syracusæ;;;;;;;;;;;;;x
 b_szekezfehervar;Gorsium;;;;;;;;;;;;;x
+b_szeged;Partiscum;;;;;;;;;;;;;x
 b_szombathely;Savaria;;;;;;;;;;;;;x
 b_taillebourg;Talliaco;;;;;;;;;;;;;x
 b_talavera;Aebura;;;;;;;;;;;;;x
@@ -1405,10 +1423,12 @@ PROV346;Barium;;;;;;;;;;;;;x
 PROV355;Patavium;;;;;;;;;;;;;x
 PROV357;Tarvisium;;;;;;;;;;;;;x
 PROV359;Oenipons;;;;;;;;;;;;;x
+PROV444;Strigonium;;;;;;;;;;;;;x
 PROV445;Biatec;;;;;;;;;;;;;x
 PROV447;Batavis;;;;;;;;;;;;;x
 PROV449;Ostarrichi;;;;;;;;;;;;;x
 PROV450;Scarbantia;;;;;;;;;;;;;x
+PROV451;Pelso;;;;;;;;;;;;;x
 PROV452;Sopianae;;;;;;;;;;;;;x
 PROV453;Gorsium;;;;;;;;;;;;;x
 PROV454;Savaria;;;;;;;;;;;;;x
@@ -1425,7 +1445,15 @@ PROV467;Spalatum;;;;;;;;;;;;;x
 PROV503;Arsia;;;;;;;;;;;;;x
 PROV504;Domavium;;;;;;;;;;;;;x
 PROV505;Singidunum;;;;;;;;;;;;;x
+PROV513;Petrodava;;;;;;;;;;;;;x
+PROV517;Argidava;;;;;;;;;;;;;x
+PROV518;Acumincum;;;;;;;;;;;;;x
+PROV519;Apulensis;;;;;;;;;;;;;x
+PROV520;Porolissensis;;;;;;;;;;;;;x
+PROV521;Partiscum;;;;;;;;;;;;;x
 PROV522;Aquincum;;;;;;;;;;;;;x
+PROV523;Tisia;;;;;;;;;;;;;x
+PROV540;Marcodava;;;;;;;;;;;;;x
 PROV684;Nisibis;;;;;;;;;;;;;x
 PROV693;Ctesiphon;;;;;;;;;;;;;x
 PROV697;Nineveh;;;;;;;;;;;;;x

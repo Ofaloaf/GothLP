@@ -59,12 +59,17 @@ k_orthodox = {
 	
 	# Regnal names
 	male_names = {
-		Alexios Alexandros Anastasios Anthimos Athanasios Antonios Basileios Gabriel Dionysios Dositheos 
-		Eustathios Eustratios Euthymios Gabriel Gennadios Georgios Gerasimos Germanos Gregorios Ieremias 
-		Ignatios Ioakeim Ioannes Ioseph Isidoros Kallinikos Kallistos Konstantinos Kosmas Kyrillos Leon 
-		Leontios Loukas Makarios Manuel Markos Matthaios Maximos Meletios Methodios Metrophanes Michael 
-		Neophytos Nephon Nikephoros Niketas Nikolaos Pavlos Petros Photios Polykarpos Sergios Stephanos 
-		Sophronios Theodoros Theodosios Theodotos Theophylaktos Thomas Timotheos
+		Alexius Alexnander Anastasius Anacletus Antonius Andronicus Arcadius
+		Constantinus Cyriacus Cosmas
+		Eugenius Euthymius
+		Gregorius Gennadius Georgius Germanus
+		Iohannes Ignatius Innocentius
+		Maximus Macedonius Michael Methodius
+		Nicholas Nichomachus
+		Petrus Polycarpus Paulus Photius Phocas
+		Rufinus Romanus
+		Sisinnius Stephanus Sergius
+		Thomas Timotheus Theodorus Theodotus Theocletus Theophilus Theodosius
 	}
 }
 

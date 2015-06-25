@@ -15,12 +15,12 @@ b_theotokopoulos = {
 	religion = orthodox
 }
 
-b_kazantzakis = {
+b_zorbanos = {
 	culture = greek
 	religion = orthodox
 }
 
 b_moreatis = {
-	culture = greej
+	culture = greek
 	religion = orthodox
 }

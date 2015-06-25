@@ -14,7 +14,7 @@ e_britannia = {
 		hidden_tooltip = {
 			OR = {
 				ai = no
-				culture = english
+				culture = brithenig
 				culture = saxon
 				culture = norman
 				culture_group = celtic
@@ -553,7 +553,8 @@ e_britannia = {
 				b_dudley = {
 				}
 			}
-			c_lincoln = { 188 191 235 }
+			c_lincoln = { 
+				color = {188 191 235 }
 				color2={ 255 255 255 }
 
 				# Linnuis

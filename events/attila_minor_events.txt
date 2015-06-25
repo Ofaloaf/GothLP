@@ -126,7 +126,6 @@ narrative_event = {
 			OR = {
 				culture = welsh
 				culture = brithenig
-				culture = breton
 			}
 		}
 	}
@@ -138,7 +137,6 @@ narrative_event = {
 				OR = {
 					culture = welsh
 					culture = brithenig
-					culture = breton
 				}
 			}
 		}

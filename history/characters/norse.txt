@@ -6041,7 +6041,7 @@
 	father = 194028
 	religion = norse_pagan
 	culture = norse
-	trait = quick
+	martial=5
 	trait = brave
 	trait = skilled_tactician
 	730.12.12 = {

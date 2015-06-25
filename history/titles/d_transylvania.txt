@@ -1,0 +1,7 @@
+500.1.1 = {
+	liege = "k_jazygia"
+}
+
+760.1.1 = {
+	holder = 999004 # Nugzar Juzjany
+}

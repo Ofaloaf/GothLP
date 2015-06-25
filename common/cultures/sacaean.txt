@@ -129,7 +129,7 @@ sacaean = {
 			Hetag
 			Inal Issa Ibragim_Abraham
 			Khetagur Kuluk 
-			Lyudvig Leri
+			Lyudvig_Louis Leri
 			Muboraksho Merab
 			Nugzar
 			Pkharmat

@@ -38,12 +38,12 @@ technology = {
 		d_wallachia
 		d_moldau
 		d_pannonia
-		d_esztergom
+		d_danubia
 		d_nyitra
 		d_ungvar
-		d_pest
+		d_aquincensis
 		d_transylvania
-		d_temes
+		d_tibiscus
 		d_samogitia
 		d_pskov
 		d_maris

@@ -1,0 +1,4 @@
+761.1.1 = {
+	holder = 194061
+	liege = d_ostergotland
+}

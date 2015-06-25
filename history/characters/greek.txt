@@ -379,7 +379,7 @@
 
 145908 = {
 	name = "Phokas"
-	dynasty = 1453007 # Kazantzakis
+	dynasty = 1453007 # Zorbanos
 	martial=6
 	diplomacy=6
 	intrigue=6

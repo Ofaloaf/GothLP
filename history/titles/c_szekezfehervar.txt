@@ -1,0 +1,6 @@
+500.1.1 = {
+	liege = "d_pannonia"
+}
+748.1.1 = {
+	holder = 2424001 # Dragomir Boto
+}

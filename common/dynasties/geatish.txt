@@ -1,0 +1,269 @@
+313001 = {
+	name = "Volsungar"
+	culture = geatish
+}
+
+313002 = {
+	name = "Siklingar"
+	culture = geatish
+}
+
+313003 = {
+	name = "Hrethelingar"
+	culture = geatish
+}
+
+313004 = {
+	name = "Skilfingar"
+	culture = geatish
+}
+
+313005 = {
+	name = "Wægmunding"
+	culture = geatish
+}
+
+313006 = {
+	name = "Berzelius"
+	culture = geatish
+}
+
+313007 = {
+	name = "Wallenberg"
+	culture = geatish
+}
+
+313008 = {
+	name = "Ljungstedt"
+	culture = geatish
+}
+
+313009 = {
+	name = "Hoffsten"
+	culture = geatish
+}
+
+313010 = {
+	name = "Hofs"
+	culture = geatish
+}
+
+313011 = {
+	name = "Kjellberg" # PewDiePie, Gothenburg
+	culture = geatish
+}
+
+313012 = {
+	name = "Rotgeri"
+	culture = geatish
+}
+
+313013 = {
+	name = "Kenicius"
+	culture = geatish
+}
+
+313014 = {
+	name = "Svenonis"
+	culture = geatish
+}
+
+313015 = {
+	name = "Gadolenus"
+	culture = geatish
+}
+
+313016 = {
+	name = "Hwass"
+	culture = geatish
+}
+
+313017 = {
+	name = "Hjort"
+	culture = geatish
+}
+
+313018 = {
+	name = "Magni"
+	culture = geatish
+}
+
+313019 = {
+	name = "Fristadius"
+	culture = geatish
+}
+
+313020 = {
+	name = "Baazius"
+	culture = geatish
+}
+
+313021 = {
+	name = "Kempe"
+	culture = geatish
+}
+
+313022 = {
+	name = "Omenius"
+	culture = geatish
+}
+
+313023 = {
+	name = "Rudbeck"
+	culture = geatish
+}
+
+313024 = {
+	name = "Swedberg"
+	culture = geatish
+}
+
+313025 = {
+	name = "Spegel"
+	culture = geatish
+}
+
+313026 = {
+	name = "Juslenius"
+	culture = geatish
+}
+
+313027 = {
+	name = "Falck"
+	culture = geatish
+}
+
+313028 = {
+	name = "Asplund"
+	culture = geatish
+}
+
+313029 = {
+	name = "Hammarskjöld"
+	culture = geatish
+}
+
+313030 = {
+	name = "Fältskog"
+	culture = geatish
+}
+
+313031 = {
+	name = "Paldanius"
+	culture = geatish
+}
+
+313032 = {
+	name = "Thunberg"
+	culture = geatish
+}
+
+313033 = {
+	name = "Ytterell"
+	culture = geatish
+}
+
+313034 = {
+	name = "Tedenby"
+	culture = geatish
+}
+
+313035 = {
+	name = "af Växjö"
+	culture = geatish
+}
+
+313036 = {
+	name = "af Hov"
+	culture = geatish
+}
+
+313037 = {
+	name = "af Lammhult"
+	culture = geatish
+}
+
+313038 = {
+	name = "af Rottne"
+	culture = geatish
+}
+
+313039 = {
+	name = "af Nöbbele"
+	culture = geatish
+}
+
+313040 = {
+	name = "af Ingelstad"
+	culture = geatish
+}
+
+313041 = {
+	name = "Åstrand"
+	culture = geatish
+}
+
+313042 = {
+	name = "Wolffelt"
+	culture = geatish
+}
+
+313043 = {
+	name = "af Övraby"
+	culture = geatish
+}
+
+313044 = {
+	name = "af Laxvik"
+	culture = geatish
+}
+
+313045 = {
+	name = "af Trönninge"
+	culture = geatish
+}
+
+313046 = {
+	name = "af Onsala"
+	culture = geatish
+}
+
+313047 = {
+	name = "af Släp"
+	culture = geatish
+}
+
+313048 = {
+	name = "Gyllenhök"
+	culture = geatish
+}
+
+313049 = {
+	name = "af Mullsjö"
+	culture = geatish
+}
+
+313050 = {
+	name = "af Vimmerby"
+	culture = geatish
+}
+
+313051 = {
+	name = "af Anderstorp"
+	culture = geatish
+}
+
+313052 = {
+	name = "af Refiglae" # Reftele, 1382 attestation
+	culture = geatish
+}
+
+313053 = {
+	name = "Eneström"
+	culture = geatish
+}
+
+313054 = {
+	name = "af Gnosjö"
+	culture = geatish
+}

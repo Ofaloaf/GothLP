@@ -29,6 +29,7 @@ circassian;Circassian;;;;;;;;;;;;;x
 rimlyani;Rimlyani;;;;;;;;;;;;;x
 traki;Traki;;;;;;;;;;;;;x
 rumi_arabic;Rumi;;;;;;;;;;;;;x
+geatish;Geatish;;;;;;;;;;;;;x
 duchy_of_latine;Ducatus;;;;;;;;;;;;;x
 duke_latine;Dux;;;;;;;;;;;;;x
 county_of_gothic;Pagus;;;;;;;;;;;;;x
@@ -152,6 +153,8 @@ k_gothia;Gothia;;;;;;;;;;;;;x
 k_gothia_adj;Gothic;;;;;;;;;;;;;x
 k_illyria;Illyria;;;;;;;;;;;;;x
 k_illyria_adj;Illlyrian;;;;;;;;;;;;;x
+k_jazygia;Jazygia;;;;;;;;;;;;;x
+k_jazygia_adj;Jazygian;;;;;;;;;;;;;x
 k_loegria;Loegria;;;;;;;;;;;;;x
 k_loegria_adj;Loegrian;;;;;;;;;;;;;x
 k_lusitania;Lusitania;;;;;;;;;;;;;x
@@ -188,6 +191,8 @@ d_andecavia;Andecavia;;;;;;;;;;;;;x
 d_andecavia_adj;Andecavi;;;;;;;;;;;;;x
 d_angaria;Angaria;;;;;;;;;;;;;x
 d_angaria_adj;Angarian;;;;;;;;;;;;;x
+d_aquincensis;Aquincensis;;;;;;;;;;;;;x
+d_aquincensis_adj;Aquincensian;;;;;;;;;;;;;x
 d_aquitania;Aquitania;;;;;;;;;;;;;x
 d_aquitania_adj;Aquitanian;;;;;;;;;;;;;x
 d_armorica;Armorica;;;;;;;;;;;;;x
@@ -236,6 +241,8 @@ d_cordubensis;Cordubensis;;;;;;;;;;;;;x
 d_cordubensis_adj;Cordubensian;;;;;;;;;;;;;x
 d_coritania;Coritania;;;;;;;;;;;;;x
 d_coritania_adj;Coritanian;;;;;;;;;;;;;x
+d_danubia;Danubia;;;;;;;;;;;;;x
+d_danubia_adj;Danubian;;;;;;;;;;;;;x
 d_dardania;Dardania;;;;;;;;;;;;;x
 d_dardania_adj;Dardanian;;;;;;;;;;;;;x
 d_divio;Divio;;;;;;;;;;;;;x
@@ -354,6 +361,8 @@ d_thebais;Thebais;;;;;;;;;;;;;x
 d_thebais_adj;Thebaisan;;;;;;;;;;;;;x
 d_theifalia;Theifalia;;;;;;;;;;;;;x
 d_theifalia_adj;Theifalian;;;;;;;;;;;;;x
+d_tibiscus;Tibiscus;;;;;;;;;;;;;x
+d_tibiscus_adj;Tibiscan;;;;;;;;;;;;;x
 d_tingitana;Tingitana;;;;;;;;;;;;;x
 d_tingitana_adj;Tingitanan;;;;;;;;;;;;;x
 d_toletum;Toletum;;;;;;;;;;;;;x

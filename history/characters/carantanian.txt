@@ -1,0 +1,21 @@
+2424001 = {
+	name = "Dragomir"
+	dynasty=802014 # Boto
+	culture=carantanian
+	religion=catholic
+	diplomacy=8
+	martial=4
+	stewardship=6
+	intrigue=7
+	learning=6
+	trait=wroth
+	trait=slothful
+	trait=chaste
+	trait=martial_cleric
+	719.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}

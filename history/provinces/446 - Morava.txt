@@ -19,5 +19,5 @@ b_trebic = temple
 #b_ivancice = castle
 
 # Misc
-culture = feretolan
-religion = tengri_pagan
+culture = carantanian
+religion = slavic_pagan
