@@ -1036,6 +1036,8 @@ e_byzantium = {
 		color = { 194 63 48 }
 		color2= { 255 255 255 }
 
+		capital = 759 # Ikonion
+
 		d_aegean_islands = {
 			color={ 24 50 123 }
 			color2={ 255 255 20 }
@@ -1645,11 +1647,11 @@ e_byzantium = {
 			}
 		}
 		d_paphlagonia = {
-			color={ 234 157 207 }
+			color={ 14 197 197 }
 			color2={ 255 255 20 }
 			
 			c_paphlagonia = {
-				color={ 231 74 177 }
+				color={ 10 129 129 }
 				color2={ 255 255 20 }
 				
 				turkish = "Kastamonu"
@@ -1672,7 +1674,7 @@ e_byzantium = {
 				}
 			}
 			c_herakleia = {
-				color={ 235 78 181 }
+				color={ 158 248 248 }
 				color2={ 255 255 20 }
 				
 				turkish = "Eregli"
@@ -1696,7 +1698,7 @@ e_byzantium = {
 				}
 			}
 			c_sinope = {
-				color={ 255 4 171 }
+				color={ 14 190 190 }
 				color2={ 255 255 20 }
 				
 				b_sinope = {

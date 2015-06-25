@@ -648,13 +648,13 @@ e_carpathia = {
 			}
 		}
 		d_aquincensis = {
-			color={ 150 51 51 }
+			color={ 4 162 174 }
 			color2={ 255 255 255 }
 			
 			capital = 522 # Pest / Aquincum
 			
 			c_heves = {
-				color={ 173 64 64 }
+				color={ 3 109 118 }
 				color2={ 255 255 255 }
 
 				# Tisia
@@ -678,7 +678,7 @@ e_carpathia = {
 				}
 			}
 			c_pest = {
-				color={ 176 67 67 }
+				color={ 33 211 243 }
 				color2={ 255 255 255 }
 
 				# Aquincum
@@ -704,7 +704,7 @@ e_carpathia = {
 				}
 			}
 			c_csanad = {
-				color={ 179 70 70 }
+				color={ 9 101 170 }
 				color2={ 255 255 255 }
 
 				# Partiscum

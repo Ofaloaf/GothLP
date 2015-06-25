@@ -305,10 +305,12 @@ e_germany = {
 				color={ 123 90 90 }
 				color2={ 255 255 255 }
 
-				pommeranian = Brennaburg
+				# Hevellia
+
+				pommeranian = Brennabor
 				
 				b_brandenburg = {
-					pommeranian = Brennaburg	
+					pommeranian = Brennabor
 				}
 				b_havelberg = {
 				}
@@ -1888,7 +1890,7 @@ e_germany = {
 				}
 			}
 		}
-		d_hessorum = {
+		d_hassia = {
 			color={ 114 171 184 }
 			color2={ 255 255 255 }
 			
@@ -2190,7 +2192,7 @@ e_germany = {
 				}
 			}
 		}
-		d_osterreich = { 
+		d_carantania = { 
 			color={ 220 220 220 }
 			color2={ 255 255 255 }
 			
@@ -2201,17 +2203,13 @@ e_germany = {
 				color2={ 255 255 255 }
 
 				# Batavis
-
-				boarisch = "Båssa"
 		
 				b_passau = {
 					# Batavis
 
 					german = "Passau"
-					boarisch = "Båssa"
 				}
 				b_ortenburg = {
-					boarisch = "Otnbaug"
 				}
 				b_schaumberg = {
 				}
@@ -2264,7 +2262,6 @@ e_germany = {
 
 				# Ostarrichi
 				german = "Österreich"
-				boarisch = "Östareich"
 
 				roman = "Vindobona"
 				greek = "Vindobona"
@@ -2274,10 +2271,12 @@ e_germany = {
 				dalmatian = "Vindobona"
 				africanu = "Vindobona"	
 				brithenig = "Vindobona"	
+
+				carantanian = "Dunaj"
+				traki = "Viden"
+				rimlyani = "Vindovina"
 			
 				b_wien = {
-					boarisch = "Wean"
-
 					roman = "Vindobona"
 					greek = "Vindobona"
 					latine = "Vindobona"
@@ -2286,15 +2285,21 @@ e_germany = {
 					dalmatian = "Vindobona"
 					africanu = "Vindobona"	
 					brithenig = "Vindobona"
+
+					carantanian = "Viden"
+					traki = "Viden"
+					rimlyani = "Vindovina"
 				}
 				b_linz = {
 					# Lentia
 
 					german = "Linz"
-					boarisch = "Linz"
+					carantanian = "Linec"
+					traki = "Linec"
+					rimlyani = "Linec"
 				}
 				b_melk = {
-					boarisch = "Mök"
+					# Medilica
 				}
 				b_stpolten = {
 					# Treisma # attested 799
@@ -2332,11 +2337,15 @@ e_germany = {
 				suebi = "Styria"
 
 				carantanian = "Stajerska"
+				traki = "Stajerska"
+				rimlyani = "Stajerska"
 				
 				b_eppenstein = {
 				}
 				b_graz = {
 					carantanian = "Gradec"
+					traki = "Gradec"
+					rimlyani = "Gradec"
 				}
 				b_lavant = {
 					# Lavantina
@@ -2347,7 +2356,6 @@ e_germany = {
 					# Celeia
 
 					german = "Cilli"
-					boarisch = "Cilli"
 				}
 				b_seckau = {
 				}
@@ -2508,6 +2516,8 @@ e_germany = {
         	d_bohemia = {
             		color={ 195 110 11 }
             		color2={ 255 255 255 }
+
+			gothic = "Baiuhaim"
             
             		capital = 437 # Praha
             

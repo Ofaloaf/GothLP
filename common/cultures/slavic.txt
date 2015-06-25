@@ -38,7 +38,7 @@ slavic = {
 			Domislav Dragomir Dabus Drzislav Domagoj Dmitar
 			Etgar Emerik
 			Fergil Franc_Francis
-			Gorazd Grgur_Gregory
+			Gorazd Gregur_Gregory
 			Hotimir Hrvoje
 			Iban_John
 			Juraj_George

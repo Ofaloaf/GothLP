@@ -6043,7 +6043,6 @@
 	culture = norse
 	martial=5
 	trait = brave
-	trait = skilled_tactician
 	730.12.12 = {
 		birth = yes
 	}
@@ -6062,6 +6061,8 @@
 	dynasty = 821 # Ulfing
 	religion = norse_pagan
 	culture = norse
+	martial = 7
+	trait=skilled_tactician
 	722.10.1 = {
 		birth="722.10.1"
 	}

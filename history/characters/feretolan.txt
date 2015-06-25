@@ -1,0 +1,32 @@
+8666001 = {
+	name="Ishpaka"
+	dynasty=8771006 # Hastlag
+	diplomacy=7
+	martial=6
+	intrigue=7
+	stewardship=6
+	learning=3
+	culture="feretolan"
+	religion="tengri_pagan"
+	trait="grey_eminence"
+	730.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+8666002 = {
+	name = "Durgulel"
+	dynasty = 8771002 # Xurzerin
+	culture="feretolan"
+	religion="tengri_pagan"
+	736.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+

@@ -235,6 +235,8 @@ d_cantia;Cantia;;;;;;;;;;;;;x
 d_cantia_adj;Cantian;;;;;;;;;;;;;x
 d_cappadocia;Cappadocia;;;;;;;;;;;;;x
 d_cappadocia_adj;Cappadocian;;;;;;;;;;;;;x
+d_carantania;Carantania;;;;;;;;;;;;;x
+d_carantania_adj;Carantanian;;;;;;;;;;;;;x
 d_carthaginiensis;Carthaginiensis;;;;;;;;;;;;;x
 d_carthaginiensis_adj;Carthaginiensian;;;;;;;;;;;;;x
 d_cordubensis;Cordubensis;;;;;;;;;;;;;x
@@ -267,12 +269,12 @@ d_gothiscandza;Gothiscandza;;;;;;;;;;;;;x
 d_gothiscandza_adj;Gothiscandza;;;;;;;;;;;;;x
 d_guotodin;Guotodin;;;;;;;;;;;;;x
 d_guotodin_adj;Guotodinian;;;;;;;;;;;;;x
+d_hassia;Hassia;;;;;;;;;;;;;x
+d_hassia_adj;Hessian;;;;;;;;;;;;;x
 d_hellespontus;Hellespontus;;;;;;;;;;;;;x
 d_hellespontus_adj;Hellespontic;;;;;;;;;;;;;x
 d_helvetia;Helvetia;;;;;;;;;;;;;x
 d_helvetia_adj;Helvetian;;;;;;;;;;;;;x
-d_hessorum;Hessorum;;;;;;;;;;;;;x
-d_hessorum_adj;Hessian;;;;;;;;;;;;;x
 d_hispalensis;Hispalensis;;;;;;;;;;;;;x
 d_hispalensis_adj;Hispalensian;;;;;;;;;;;;;x
 d_icenia;Icenia;;;;;;;;;;;;;x

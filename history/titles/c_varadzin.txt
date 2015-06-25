@@ -1,0 +1,7 @@
+500.1.1 = {
+	liege = "d_carantania"
+}
+
+760.1.1 = {
+	holder = 2424003 # Gregur Fominus
+}

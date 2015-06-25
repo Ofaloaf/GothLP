@@ -182,3 +182,7 @@
 	name = "Kopitar"
 	culture = carantanian
 }
+
+802038 = {
+	name = "Kirurid"
+}

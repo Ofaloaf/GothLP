@@ -1,0 +1,7 @@
+500.1.1 = {
+	liege = "d_polemoniacus"
+}
+
+760.1.1 = {
+	holder = 629010 # Mahoumed Babdelid
+}

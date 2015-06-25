@@ -768,6 +768,8 @@ e_scandinavia = {
 				color2={ 255 255 255 }
 				
 				english = Scania
+				pommeranian = "Skonia"
+				carantanian = "Skonija"
 			
 				b_lund = {
 				}
@@ -878,6 +880,8 @@ e_scandinavia = {
 			swedish = Själland
 			english = Zealand
 			norse = Sjælland
+			pommeranian = "Zemjemore"
+			carantanian = "Zemjemore"
 			
 			pagan_coa = {
 				template = 0
@@ -899,6 +903,8 @@ e_scandinavia = {
 				swedish = Själland
 				norse = Sjælland
 				english = Zealand
+				pommeranian = "Zemjemore"
+				carantanian = "Zemjemore"
 				
 				b_kobenhavn = {
 					swedish = Köpenhamn
@@ -931,6 +937,9 @@ e_scandinavia = {
 			c_fyn = {
 				color={ 216 55 55 }
 				color2={ 255 255 255 }
+
+				pommeranian = "Fionija"
+				carantanian = "Fionja"
 				
 				b_svendborg = {
 				}
@@ -957,6 +966,8 @@ e_scandinavia = {
 			capital = 267 # Jylland
 			
 			german = "Schleswig"
+			pommeranian = "Jutsko"
+			carantanian = "Jutsko"
 			
 			pagan_coa = {
 				template = 0
@@ -976,6 +987,8 @@ e_scandinavia = {
 				color2={ 255 255 255 }
 				
 				german = "Schleswig"
+				pommeranian = "Szlezwik"
+				carantanian = "Szlezwik"
 			
 				b_flensborg = {
 					german = "Flensburg"
@@ -983,6 +996,8 @@ e_scandinavia = {
 				b_ribe = {
 				}
 				b_slesvig = {
+					pommeranian = "Szlezwik"
+					carantanian = "Szlezwik"
 				}
 				b_sonderborg = {
 					swedish = "Sönderborg"
@@ -1009,6 +1024,8 @@ e_scandinavia = {
 				
 				german = "Jütland"
 				english = "Jutland"
+				pommeranian = "Jutsko"
+				carantanian = "Jutsko"
 			
 				b_aarhus = {
 					swedish = "Århus"

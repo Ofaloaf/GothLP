@@ -146,3 +146,48 @@
 
 	}
 }
+
+629008 = {
+	name="Hakam"
+	dynasty=5553025 # al-Zarkun
+	culture=rumi_arabic
+	religion=sunni
+	trait=greedy
+	735.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+
+	}
+}
+
+629009 = {
+	name="Yaqub"
+	dynasty=5553006 # Khofri
+	culture=rumi_arabic
+	religion=sunni
+	trait=cynical
+	716.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+
+	}
+}
+
+629010 = {
+	name="Mahoumed"
+	dynasty=5553019 # Babdelid
+	culture=rumi_arabic
+	religion=sunni
+	trait=chaste
+	743.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+
+	}
+}

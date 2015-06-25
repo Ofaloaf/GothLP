@@ -6,12 +6,12 @@ technology = {
 		d_bavaria
 		d_baden
 		d_batavia
+		d_carantania
 		d_flanders
 		d_fryslan
+		d_hassia
 		d_helvetia
-		d_hessorum
 		d_holland
-		d_osterreich
 		d_ostfalia
 		d_rhaetia
 		d_ripuaria

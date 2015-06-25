@@ -2,6 +2,7 @@
 central_germanic;Germani;;;;;;;;;;;;;x
 maghreb_arabic;Berber;;;;;;;;;;;;;x
 welsh;Briton;;;;;;;;;;;;;x
+pommeranian;Wendish;;;;;;;;;;;;;x
 k_dacia;Dacia;;;;;;;;;;;;;x
 k_dacia_adj;Dacian;;;;;;;;;;;;;x
 k_spanish_galicia;Gallaecia;;;;;;;;;;;;;x
@@ -49,6 +50,7 @@ c_bordeaux_adj;Burdigalan;;;;;;;;;;;;;x
 c_boulogne_adj;Bolonian;;;;;;;;;;;;;x
 c_bourbon_adj;Borvonian;;;;;;;;;;;;;x
 c_bourges_adj;Biturigan;;;;;;;;;;;;;x
+c_brandenburg_adj;Hevellian;;;;;;;;;;;;;x
 c_breisgau_adj;Brisgavian;;;;;;;;;;;;;x
 c_brescia_adj;Brixian;;;;;;;;;;;;;x
 c_caceres_adj;Caesarinan;;;;;;;;;;;;;x
@@ -786,6 +788,7 @@ b_meknassy;Septimunicia;;;;;;;;;;;;;x
 b_meknes;Tocolosida;;;;;;;;;;;;;x
 b_melgueil;Melgorium;;;;;;;;;;;;;x
 b_melilla;Rusadir;;;;;;;;;;;;;x
+b_melk;Medilica;;;;;;;;;;;;;x
 b_melle;Metullum;;;;;;;;;;;;;x
 b_melun;Melodunum;;;;;;;;;;;;;x
 b_mende;Mimate;;;;;;;;;;;;;x
@@ -1423,6 +1426,7 @@ PROV346;Barium;;;;;;;;;;;;;x
 PROV355;Patavium;;;;;;;;;;;;;x
 PROV357;Tarvisium;;;;;;;;;;;;;x
 PROV359;Oenipons;;;;;;;;;;;;;x
+PROV365;Hevellia;;;;;;;;;;;;;x
 PROV444;Strigonium;;;;;;;;;;;;;x
 PROV445;Biatec;;;;;;;;;;;;;x
 PROV447;Batavis;;;;;;;;;;;;;x

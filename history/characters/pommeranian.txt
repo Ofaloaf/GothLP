@@ -1,0 +1,48 @@
+100507 = {
+	name="Kirur"
+	dynasty=802038 # Kirurid
+	religion="norse_pagan"
+	culture="pommeranian"
+	diplomacy = 12
+	martial = 8
+	stewardship = 8
+	intrigue = 6
+	learning = 3
+	trait=gregarious
+	trait=ambitious
+	trait=just
+	trait=quick
+	trait=brilliant_strategist
+	trait=brave
+	739.1.1={
+		birth=yes
+	}
+	769.1.1={
+		wealth = 1000
+		effect = {
+			spawn_unit = {
+				province = 266 # Sjaelland
+				owner = ROOT
+				leader = ROOT
+				troops = {
+					light_infantry = { 507 507 }
+					heavy_infantry = { 50 50 }
+					archers = { 119 119 }
+				}
+				attrition = 1.0
+			}
+			spawn_fleet = {
+				province = closest # closest sea zone
+				owner = ROOT
+				cannot_inherit = yes # disbands on inheritance
+				troops =
+				{
+					galleys = { 40 40 }
+				}
+			}
+		}
+	}
+	800.1.2={
+		death=yes
+	}
+}

@@ -117,3 +117,33 @@
 	name = "Tsarazon"
 	culture = feretolan
 }
+
+8771025 = {
+	name = "Marahaviy"
+	culture = feretolan
+}
+
+8771026 = {
+	name = "Zirzipan"
+	culture = feretolan
+}
+
+8771027 = {
+	name = "Kesziniy"
+	culture = feretolan
+}
+
+8771028 = {
+	name = "Dolezaniy"
+	culture = feretolan
+}
+
+8771029 = {
+	name = "Redaron"
+	culture = feretolan
+}
+
+8771030 = {
+	name = "Retraniy"
+	culture = feretolan
+}
