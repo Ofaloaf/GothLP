@@ -1,0 +1,34 @@
+1972001 = {
+	name = "Oorayil"
+	culture = tamil
+}
+
+1972002 = {
+	name = "Marthoma"
+	culture = tamil
+}
+
+1972003 = {
+	name = "Mathai"
+	culture = tamil
+}
+
+1972004 = {
+	name = "Maruthoor"
+	culture = tamil
+}
+
+1972005 = {
+	name = "Malpan"
+	culture = tamil
+}
+
+1972006 = {
+	name = "Panamkuzhy"
+	culture = tamil
+}
+
+1972007 = {
+	name = "Pazheparambil"
+	culture = tamil
+}

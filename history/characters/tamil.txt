@@ -1,0 +1,25 @@
+175070 = {
+	name="Thoma"
+	dynasty=1972002 # Marthoma
+	religion="nestorian"
+	culture="tamil"
+	722.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+175071 = {
+	name="Kuriakose"
+	dynasty=1972003 # Mathai
+	religion="nestorian"
+	culture="tamil"
+	737.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}

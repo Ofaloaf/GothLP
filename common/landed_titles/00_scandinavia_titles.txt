@@ -39,8 +39,6 @@ e_scandinavia = {
 			
 			norse_pagan_reformed = 500 # Crusade target weight
 			
-			dignity = 8
-			
 			capital = 290 # Uppland
 			
 			norse = Sviþjod
@@ -185,6 +183,8 @@ e_scandinavia = {
 			norwegian = "Østergøtland"
 			danish = "Østergøtland"
 			norse = "Gautland"
+
+			culture = geatish
 			
 			c_ostergotland = {
 				color={ 136 181 96 }
@@ -754,6 +754,7 @@ e_scandinavia = {
 		danish = Danmark
 		swedish = Danmark
 		norwegian = Danmark
+		pommeranian = "Zememerania"
 		
 		d_skane = {
 			color={ 210 2 2 }

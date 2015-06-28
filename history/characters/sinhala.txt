@@ -1,0 +1,140 @@
+189000 = {
+	name="Manavanna" #
+	dynasty=1043001
+	religion="buddhist"
+	culture="sinhala"
+	trait=kshatriya
+	trait=theravada_buddhist
+	650.1.1={
+		birth="650.1.1"
+	}
+	726.1.1={
+		death="726.1.1"
+	}
+}
+
+189001 = {
+	name="Aggabodhi" #V
+	dynasty=1043001
+	religion="buddhist"
+	culture="sinhala"
+	father=189000
+	trait=kshatriya
+	trait=theravada_buddhist
+	670.1.1={
+		birth="670.1.1"
+	}
+	732.1.1={
+		death="732.1.1"
+	}
+}
+
+189002 = {
+	name="Kassapa" #III
+	dynasty=1043001
+	religion="buddhist"
+	culture="sinhala"
+	father=189000
+	trait=kshatriya
+	trait=theravada_buddhist
+	675.1.1={
+		birth="675.1.1"
+	}
+	738.1.1={
+		death="738.1.1"
+	}
+}
+
+189003 = {
+	name="Mahinda" #I
+	dynasty=1043001
+	religion="buddhist"
+	culture="sinhala"
+	father=189000
+	trait=kshatriya
+	trait=theravada_buddhist
+	680.1.1={
+		birth="680.1.1"
+	}
+	741.1.1={
+		death="741.1.1"
+	}
+}
+
+189004 = {
+	name="Aggabodhi" #VII
+	dynasty=1043001
+	religion="buddhist"
+	culture="sinhala"
+	father=189003
+	trait=kshatriya
+	trait=theravada_buddhist
+	710.1.1={
+		birth="710.1.1"
+	}
+	787.1.1={
+		death="787.1.1"
+	}
+}
+
+189005 = {
+	name="Aggabodhi" #VI
+	dynasty=1043001
+	religion="buddhist"
+	culture="sinhala"
+	father=189002
+	trait=kshatriya
+	trait=theravada_buddhist
+	705.1.1={
+		birth="705.1.1"
+	}
+	781.1.1={
+		death="781.1.1"
+	}
+}
+
+189006 = {
+	name="Mahinda" #II
+	dynasty=1043001
+	religion="buddhist"
+	culture="sinhala"
+	father=189005
+	trait=kshatriya
+	trait=theravada_buddhist
+	730.1.1={
+		birth="730.1.1"
+	}
+	807.1.1={
+		death="807.1.1"
+	}
+}
+
+189007 = {
+	name="Dappula" #II
+	dynasty=1043001
+	religion="buddhist"
+	culture="sinhala"
+	father=189006
+	trait=kshatriya
+	trait=theravada_buddhist
+	750.1.1={
+		birth="750.1.1"
+	}
+	812.1.1={
+		death="812.1.1"
+	}
+}
+
+189008 = {
+	name="Mihidala"
+	dynasty=1043001 # Lambakanna
+	religion="nestorian"
+	culture="sinhala"
+	740.1.1={
+		birth="740.1.1"
+	}
+	800.1.1={
+		death="800.1.1"
+	}
+}
+

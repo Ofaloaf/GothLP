@@ -37,6 +37,21 @@ e_papal_hre = {
 
 	}
 
+	k_st_thomas = {
+		color = { 246 231 36 }
+		color2= { 255 255 255 }
+
+		capital = 1114 # Mahoyadapuram
+
+		religion = nestorian
+
+		dynasty_title_names = no
+
+		allow = {
+			religion_group = christian
+		}
+	}
+
 		d_segusio = {
 
 			color={ 191 158 158 }

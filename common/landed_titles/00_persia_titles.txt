@@ -2,7 +2,7 @@ e_persia = {
 	color={ 237 234 90 }
 	color2={ 255 255 255 }
 	
-	capital = 646 #	Esfahan
+	capital	= 693 # Baghdad
 	
 	culture = persian
 	
@@ -20,7 +20,7 @@ e_persia = {
 	short_name = yes
 
 	k_persia = {
-		color={ 151 224 24 }
+		color={ 62 129 20 }
 		color2={ 255 255 255 }
 		
 		capital = 646 #	Esfahan
@@ -1498,7 +1498,7 @@ e_persia = {
 	}
 	
 	k_mesopotamia = {
-		color={ 55 128 67 }
+		color={ 153 138 161 }
 		color2={ 255 255 255 }
 		
 		capital	= 693 # Baghdad
@@ -1783,13 +1783,15 @@ e_persia = {
 				}
 			}
 		}
-		d_baghdad = {
-			color={ 6 100 2 }
+		d_asoristan = {
+			color={ 226 91 10 }
 			color2={ 255 255 255 }
 			
 			capital = 693 # Baghdad
 			
 			zun_pagan_reformed = 200 # Crusade target weight
+
+			assyrian = "Athura"
 			
 			c_karbala = {
 				color={ 16 110 12 }
@@ -2028,6 +2030,9 @@ e_persia = {
 		d_jazira = {
 			color={ 95 180 35 }
 			color2={ 255 255 255 }
+
+			kurdish = "Cizire"
+			assyrian = "Gozarto"
 			
 			capital = 700 # Bira
 			
@@ -2058,11 +2063,16 @@ e_persia = {
 
 				# Gazerto
 
+				kurdish = "Cizire"
 				bedouin_arabic = "Al Jazira"
+				levantine_arabic = "Al Jazira"
+				egyptian_arabic = "Al Jazira"
+				rumi_arabic = "Al Jazira"
 				
 				b_hasakah = {
 				}
 				b_dayrik = {
+					kurdish = "Derika"
 				}
 				b_qamishhlo = {
 				}

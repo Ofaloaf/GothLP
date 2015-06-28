@@ -32,8 +32,8 @@ e_germany = {
 		}
 	}	
 
-	k_pomerania = {
-		color={ 145 130 40 }
+	k_venedia = {
+		color={ 211 194 97 }
 
 		culture = pommeranian
 

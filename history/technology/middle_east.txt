@@ -22,7 +22,7 @@ technology = {
 		d_syria
 		d_tigris
 		d_basra
-		d_baghdad
+		d_asoristan
 		d_mosul
 		d_jazira
 		d_fars

@@ -6,7 +6,7 @@ namespace = ATTILA
 # in Brittany
 narrative_event = {
 	id = ATTILA.001
-	desc = EVTDESC_ATTILA_001
+	desc =Â EVTDESC_ATTILA_001
 	title = EVTTITLE_ATTILA_001
 	picture = GFX_evt_book_carolingian_script
 
@@ -72,7 +72,7 @@ narrative_event = {
 # in Normandy
 narrative_event = {
 	id = ATTILA.002
-	desc = EVTDESC_ATTILA_002
+	desc =Â EVTDESC_ATTILA_002
 	title = EVTTITLE_ATTILA_002
 	picture = GFX_evt_book_carolingian_script
 
