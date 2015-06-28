@@ -1,4 +1,4 @@
-latinius = {
+latinic = {
 	graphical_culture = easterngfx
 
 	roman = {
@@ -291,5 +291,74 @@ latinius = {
 		pat_grm_name_chance = 20
 		mat_grm_name_chance = 40
 		mother_name_chance = 10
+	}
+	italian = {
+		graphical_culture = southerngfx
+		second_graphical_culture = occitangfx # Fallback type
+		
+		color = { 0.95 0.9 0.7 }
+
+		male_names = {
+			Alp_Alp Anzi Alzec Arslanio_Arslan Arogis Antonin_Antoninus Antoni_Antonius Atenolfo Avit_Avitus
+			Ambroeus_Ambrose Àngel_Angel Àtila_Attila Ascani August_August Aureli_Aurelius Anthemi_Anthemius
+			Adrian_Adrian Aba Andrea_Andrew Antenor Alzec
+			Baian_Bayan Bars Buoso Bonvesin Benedétt_Benedict Baitza Balambero_Balamabar Bagatoro
+			Cubrato Cepa Curtio Cisa Cano Carlo_Charles Claudi_Claudius Costantin_Constantine Cesare_Caesar
+			Costanz_Constantius Costant_Constans
+			Didio Davud_David Demir Daniele_Daniel Dionigi_Dionysius Diotifeci
+			Ernaco Egidio Emili_Emilio Emilian Ellaco Escacco
+			Folco_Folke Filipp_Philip Flavi_Flavius
+			Guar Giusepp_Joseph Giuan_John Galeàs Gaitan Gregori_Gregory Giulian_Julian Giovian_Jovian
+			Giuli_Julius Germano Gabriele_Gabriel
+			Iabgvo Iavantei Isbul
+			Lissander_Alexander Leonard_Leonard Lancino Luca_Luke Lorenzo_Laurence
+			Marco_Marcus Meneghin_Dominic March_Marcus Massimin_Maximinus Maggiorian_Majorian Martino_Martin
+			Magotino Marsilio
+			Ostro Ottavian Onòri_Honorius Ottavio Oreste Orland
+			Pagano Pavalo_Paul Pietro_Peter Peder_Peter Patrizio_Patrick Prospero
+			Quintill
+			Rassate Rugila Rosso Raffaele_Raphael Ròmol_Romulus
+			Savin Sondoce Simone_Simon Sante_Sancho Sever_Severus Settimi_Septimius Stefano_Stephanus Samo
+			Tarchano Tabgacce Tommas_Thomas Tito_Titus Traian_Trajan Tacit_Tacitus Tiradino Tingisino Tusnico
+			Tardan
+			Ugo_Hugh Unila Ugeni_Eugene
+			Viteliano Valerian Valent_Valens Valentino_Valentine
+			Zacharia_Zachary
+		}
+		female_names = {
+			Acgula Asli Aiten Ana_Anna Agnesa_Agnes Antonia_Antonia Amalia_Amelia Ambrosiua Argentina Augusta
+			Anastasia_Anastasia Albina Ausonia
+			Bianca_Blanche Bona_Bonne 
+			Caliamale Cristina_Christine Caterina_Catherine Cecilia_Cecilia Constanza_Constance Cornelia
+			Clara_Clara Claudia Candida Caracosa
+			Dora
+			Esin Enrichetta_Henrietta Eudossia Eugenia Elena_Helen
+			Fausta_Fausta Felicia Felicita Fortunata Flaminia
+			Gulei Gunes Giuseppa Giacinta Ginevra Giovanna Giuditta Giulia_Juliana 
+			Ippolita Isabella_Elisabeth
+			Giuseppa
+			Larcca Luccha Lisabetta_Elisabeth Laura_Laura Lavinia Leonide Letizia Lidia Livia Lucia_Lucia
+			Lucinetta Lucrezia 
+			Mala Maturcca Magherita_Margaret Maria_Maria Maddalena_Magdalena Marcella 
+			Olimpia
+			Pecsen Polissena Paola_Paula Patrizia_Patricia
+			Samur Sarica Sati Sofia_Sophia Stefania_Stephania
+			Teresa Tiziana Tomasina
+			Usunbica Umei
+			Visigarda Valentina Virginia Vittoria_Victoria
+		}
+
+		from_dynasty_prefix = "di "
+
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
 	}
 }

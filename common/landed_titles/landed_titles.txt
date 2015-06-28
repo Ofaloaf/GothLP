@@ -3817,8 +3817,8 @@ e_tartaria = {
 		
 		tengri_pagan_reformed = 200
 
-		d_alania = {
-			color={ 155 110 48 }
+		d_iryston = {
+			color={ 110 155 48 }
 			color2={ 255 255 255 }
 			
 			capital = 603 # Alania

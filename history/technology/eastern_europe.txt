@@ -4,9 +4,9 @@
 technology = {
 	titles = {
 		d_mazovia
-		d_greater_poland
+		d_alania
 		d_silesia
-		d_lesser_poland
+		d_wislania
 		d_kuyavia
 		d_mecklemburg
 		d_gothiscandza

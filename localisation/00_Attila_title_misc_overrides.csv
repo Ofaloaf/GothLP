@@ -46,6 +46,7 @@ c_birlad_adj;Petrodavan;;;;;;;;;;;;;x
 c_biskra_adj;Vesceran;;;;;;;;;;;;;x
 c_bizerte_adj;Zarytan;;;;;;;;;;;;;x
 c_blois_adj;Blesan;;;;;;;;;;;;;x
+c_boleslav_adj;Bumsian;;;;;;;;;;;;;x
 c_bordeaux_adj;Burdigalan;;;;;;;;;;;;;x
 c_boulogne_adj;Bolonian;;;;;;;;;;;;;x
 c_bourbon_adj;Borvonian;;;;;;;;;;;;;x
@@ -69,9 +70,10 @@ c_csanad_adj;Partiscan;;;;;;;;;;;;;x
 c_cuenca_adj;Segontian;;;;;;;;;;;;;x
 c_cumberland_adj;Cumbrian;;;;;;;;;;;;;x
 c_dauphine_viennois_adj;Viennese;;;;;;;;;;;;;x
-c_denia;Dianan;;;;;;;;;;;;;x
+c_denia_adj;Dianan;;;;;;;;;;;;;x
 c_derby_adj;Derventian;;;;;;;;;;;;;x
 c_dijon_adj;Divionan;;;;;;;;;;;;;x
+c_domazlice_adj;Brodentian;;;;;;;;;;;;;x
 c_dorset_adj;Durnovarian;;;;;;;;;;;;;x
 c_empuries_adj;Emporian;;;;;;;;;;;;;x
 c_esztergom_adj;Strigonian;;;;;;;;;;;;;x
@@ -88,6 +90,7 @@ c_french_leon_adj;Legionensian;;;;;;;;;;;;;x
 c_gevaudan_adj;Gabalitannic;;;;;;;;;;;;;x
 c_gloucester_adj;Glouvian;;;;;;;;;;;;;x
 c_guines_adj;Ghisnaean;;;;;;;;;;;;;x
+c_hamburg_adj;Sturmarian;;;;;;;;;;;;;x
 c_heves_adj;Tisian;;;;;;;;;;;;;x
 c_hum_adj;Arsian;;;;;;;;;;;;;x
 c_julich_adj;Juliacan;;;;;;;;;;;;;x
@@ -102,6 +105,7 @@ c_leicester_adj;Lerian;;;;;;;;;;;;;x
 c_leon_adj;Legioan;;;;;;;;;;;;;x
 c_limousin_adj;Lemovician;;;;;;;;;;;;;x
 c_lincoln_adj;Lindian;;;;;;;;;;;;;x
+c_litomerice_adj;Soudetan;;;;;;;;;;;;;x
 c_lleida_adj;Ilerdan;;;;;;;;;;;;;x
 c_lombardia_adj;Mediolanian;;;;;;;;;;;;;x
 c_lorraine_adj;Nanciacan;;;;;;;;;;;;;x
@@ -135,8 +139,10 @@ c_penthievre_adj;Penntiluvian;;;;;;;;;;;;;x
 c_perigord_adj;Petrocorian;;;;;;;;;;;;;x
 c_pest_adj;Aquincan;;;;;;;;;;;;;x
 c_pfalz_adj;Wormatian;;;;;;;;;;;;;x
+c_plzen_adj;Marobudian;;;;;;;;;;;;;x
 c_porto_adj;Bracaran;;;;;;;;;;;;;x
 c_poitiers_adj;Pictavian;;;;;;;;;;;;;x
+c_praha_adj;Casurgian;;;;;;;;;;;;;x
 c_pressburg_adj;Biatecan;;;;;;;;;;;;;x
 c_provence_adj;Provincian;;;;;;;;;;;;;x
 c_rama_adj;Domavian;;;;;;;;;;;;;x
@@ -166,6 +172,7 @@ c_thouars;Toarcan;;;;;;;;;;;;;x
 c_toledo_adj;Carpetanian;;;;;;;;;;;;;x
 c_toulouse_adj;Tolosan;;;;;;;;;;;;;x
 c_tourraine_adj;Turonensian;;;;;;;;;;;;;x
+c_trencin_adj;Laugarician;;;;;;;;;;;;;x
 c_trier_adj;Treverian;;;;;;;;;;;;;x
 c_tunis_adj;Carthaginian;;;;;;;;;;;;;x
 c_trent_adj;Tridentan;;;;;;;;;;;;;x
@@ -588,6 +595,7 @@ b_gijon;Gigia;;;;;;;;;;;;;x
 b_girona;Gerunda;;;;;;;;;;;;;x
 b_gisors;Gesortum;;;;;;;;;;;;;x
 b_glastonbury;Ineswitrin;;;;;;;;;;;;;x
+b_glatz;Glacio;;;;;;;;;;;;;x
 b_gloucester;Glevum;;;;;;;;;;;;;x
 b_gonzaga;Gonzagae;;;;;;;;;;;;;x
 b_gormaz;Vormatio;;;;;;;;;;;;;x
@@ -931,6 +939,7 @@ b_pinerolo;Pinarolium;;;;;;;;;;;;;x
 b_pinhel;Cobelcorum;;;;;;;;;;;;;x
 b_ploermel;Armagliacum;;;;;;;;;;;;;x
 b_plougonven;Plebe Conveni;;;;;;;;;;;;;x
+b_plzen;Marobud;;;;;;;;;;;;;x
 b_poitiers;Pictavis;;;;;;;;;;;;;x
 b_polesine;Pollicinum;;;;;;;;;;;;;x
 b_pombia;Plumbia;;;;;;;;;;;;;x
@@ -947,6 +956,7 @@ b_porto;Portus Cale;;;;;;;;;;;;;x
 b_pozarevac;Margus;;;;;;;;;;;;;x
 b_pozega;Incerum;;;;;;;;;;;;;x
 b_prada;Prata;;;;;;;;;;;;;x
+b_praha;Casurgis;;;;;;;;;;;;;x
 b_pressburg;Biatec;;;;;;;;;;;;;x
 b_provencana;Provintiana;;;;;;;;;;;;;x
 b_provins;Probivinum;;;;;;;;;;;;;x
@@ -1139,6 +1149,7 @@ b_tunis;Thuni;;;;;;;;;;;;;x
 b_trancoso;Caladunum;;;;;;;;;;;;;x
 b_trapani;Drepanum;;;;;;;;;;;;;x
 b_treguier;Trigarensis;;;;;;;;;;;;;x
+b_trencsen;Laugaricio;;;;;;;;;;;;;x
 b_trento;Tridentum;;;;;;;;;;;;;x
 b_treves;Clementiniaeum;;;;;;;;;;;;;x
 b_treviglio;Trivillium;;;;;;;;;;;;;x
@@ -1426,7 +1437,13 @@ PROV346;Barium;;;;;;;;;;;;;x
 PROV355;Patavium;;;;;;;;;;;;;x
 PROV357;Tarvisium;;;;;;;;;;;;;x
 PROV359;Oenipons;;;;;;;;;;;;;x
+PROV362;Brodentia;;;;;;;;;;;;;x
+PROV363;Soudeta;;;;;;;;;;;;;x
 PROV365;Hevellia;;;;;;;;;;;;;x
+PROV436;Bumsia;;;;;;;;;;;;;x
+PROV437;Casurgis;;;;;;;;;;;;;x
+PROV439;Marobud;;;;;;;;;;;;;x
+PROV442;Laugaricio;;;;;;;;;;;;;x
 PROV444;Strigonium;;;;;;;;;;;;;x
 PROV445;Biatec;;;;;;;;;;;;;x
 PROV447;Batavis;;;;;;;;;;;;;x

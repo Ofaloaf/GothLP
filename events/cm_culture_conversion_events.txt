@@ -1,0 +1,295 @@
+
+###########################################
+#                                         #
+# Charlemagne culture conversion events   #
+#                                         #
+# ID CM.1-CM.499                          #
+#                                         #
+###########################################
+
+# Written by Tobias Bodlund
+
+namespace = CM
+
+###########################################
+# Province conversions                    #
+###########################################
+
+# Pictish province converts to Scottish
+province_event = {
+	id = CM.1
+	desc = EVTDESC_CM_1
+	picture = GFX_evt_stone_church
+
+	trigger = {
+		culture = pictish
+		owner = {
+			NOT = {	culture = pictish }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1200
+	}
+
+	option = {
+		name = EVTOPTA_CM_1
+		culture = scottish
+	}
+}
+
+# Lombard province converts to Italian
+province_event = {
+	id = CM.2
+	desc = EVTDESC_CM_2
+	picture = GFX_evt_stone_church
+
+	trigger = {
+		culture = avar
+		county = {
+			OR = {
+				empire = { title = e_italy }
+				empire = { title = e_papal_hre }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 2400
+		modifier = {
+			factor = 0.3
+			owner = {
+				culture_group = latinic
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTA_CM_2
+		culture = italian
+	}
+}
+
+# Old Saxon or Old Frankish or Frisian province converts to Dutch
+province_event = {
+	id = CM.3
+	desc = EVTDESC_CM_3
+	picture = GFX_evt_tribal_lands
+
+	trigger = {
+		county = { kingdom = { title = k_francia } }
+		OR = {
+			culture = old_frankish
+			culture = frisian
+			culture = old_saxon
+		}
+		owner = {
+			NOT = { culture = ROOT }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 3600
+		modifier = {
+			factor = 0.5
+			owner = {
+				culture = dutch
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTA_CM_3
+		culture = dutch
+	}
+}
+
+# Old Saxon province converts to German
+province_event = {
+	id = CM.4
+	desc = EVTDESC_CM_4
+	picture = GFX_evt_tribal_lands
+
+	trigger = {
+		culture = old_saxon
+		NOT = { kingdom = { title = k_frisia } }
+		owner = {
+			culture_group = central_germanic
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 3600
+		modifier = {
+			factor = 0.5
+			owner = {
+				culture = german
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTA_CM_4
+		culture = german
+	}
+}
+
+# Old Frankish province converts to GERMAN
+province_event = {
+	id = CM.5
+	desc = EVTDESC_CM_5
+	picture = GFX_evt_stone_church
+
+	trigger = {
+		year = 776
+		culture = old_frankish
+		NOT = { kingdom = { title = k_francia } }
+		owner = {
+			OR = {
+				culture_group = central_germanic
+				culture = old_frankish
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1200
+		modifier = {
+			factor = 0.5
+			owner = {
+				culture_group = central_germanic
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTA_CM_5
+		culture = german
+	}
+}
+
+# Gothic province converts to the Gothic Romance culture
+province_event = {
+	id = CM.6
+	desc = EVTDESC_CM_6
+	picture = GFX_evt_stone_church
+
+	trigger = {
+		year = 800
+		culture = gothic
+		county = {
+			empire = { title = e_gallia }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 3600
+		modifier = {
+			factor = 0.5
+			owner = {
+				culture = gothicromance
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTA_CM_6
+		culture = gothicromance
+	}
+}
+
+# Gothic province converts to German
+province_event = {
+	id = CM.7
+	desc = EVTDESC_CM_7
+	picture = GFX_evt_stone_church
+
+	trigger = {
+		year = 800
+		culture = gothic
+		county = {
+			empire = { title = e_germania }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 3600
+		modifier = {
+			factor = 0.5
+			owner = {
+				culture = german
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTA_CM_7
+		culture = german
+	}
+}
+
+# Suebi province converts to Italian
+province_event = {
+	id = CM.9
+	desc = EVTDESC_CM_9
+	picture = GFX_evt_stone_church
+
+	trigger = {
+		culture = suebi
+		OR = {
+			county = { empire = { title = e_italy } }
+			county = { empire = { title = e_papal_hre } }
+			owner = { culture = italian }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 3600
+		modifier = {
+			factor = 0.5
+			owner = {
+				culture = italian
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTA_CM_9
+		culture = italian
+	}
+}
+
+# East Slavic province becomes Russian
+province_event = {
+	id = CM.11
+	desc = EVTDESC_CM_11
+	picture = GFX_evt_tribal_lands
+
+	trigger = {
+		culture_group = east_slavic
+		NOT = { culture = russian }
+		owner = {
+			OR = {
+				culture = russian
+				AND = {
+					NOT = { culture_group = east_slavic }
+					NOT = { culture_group = finno_ugric }
+				}
+				NOT = { religion_group = pagan_group }
+				AND = {
+					religion_group = pagan_group
+					is_reformed_religion = yes
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1200
+	}
+
+	option = {
+		name = EVTOPTA_CM_11
+		culture = russian
+	}
+}

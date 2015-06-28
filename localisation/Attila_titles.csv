@@ -1,4 +1,6 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+latinic;Latinic;;;;;;;;;;;;;x
+provinciale;Provinciale;;;;;;;;;;;;;x
 germani;Germani;;;;;;;;;;;;;x
 vasconic;Vasconic;;;;;;;;;;;;;x
 kemetic;Kemetic;;;;;;;;;;;;;x
@@ -29,6 +31,7 @@ circassian;Circassian;;;;;;;;;;;;;x
 rimlyani;Rimlyani;;;;;;;;;;;;;x
 traki;Traki;;;;;;;;;;;;;x
 rumi_arabic;Rumi;;;;;;;;;;;;;x
+gothicromance;Valagot;;;;;;;;;;;;;x
 geatish;Geatish;;;;;;;;;;;;;x
 duchy_of_latine;Ducatus;;;;;;;;;;;;;x
 duke_latine;Dux;;;;;;;;;;;;;x
@@ -285,6 +288,8 @@ d_icenia;Icenia;;;;;;;;;;;;;x
 d_icenia_adj;Icenian;;;;;;;;;;;;;x
 d_insubria;Insubria;;;;;;;;;;;;;x
 d_insubria_adj;Insburian;;;;;;;;;;;;;x
+d_iryston;Iryston;;;;;;;;;;;;;x
+d_iryston_adj;Irystoni;;;;;;;;;;;;;x
 d_legio;Legio;;;;;;;;;;;;;x
 d_legio_adj;Legioan;;;;;;;;;;;;;x
 d_liburnia;Liburnia;;;;;;;;;;;;;x
@@ -393,6 +398,8 @@ d_wasconia;Wasconia;;;;;;;;;;;;;x
 d_wasconia_adj;Wasconian;;;;;;;;;;;;;x
 d_westfalia;Westfalia;;;;;;;;;;;;;x
 d_westfalia_adj;Westfalian;;;;;;;;;;;;;x
+d_wislania;Wislania;;;;;;;;;;;;;x
+d_wislania_adj;Wislanian;;;;;;;;;;;;;x
 d_zeugitana;Zeugitana;;;;;;;;;;;;;x
 d_zeugitana_adj;Zeugitanan;;;;;;;;;;;;;x
 b_brockley_hill;Sulloniacis;;;;;;;;;;;;;x

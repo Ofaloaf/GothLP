@@ -147,3 +147,18 @@
 	name = "Retraniy"
 	culture = feretolan
 }
+
+8771031 = {
+	name = "ve Yabilun"
+	culture = feretolan
+}
+
+8771032 = {
+	name = "Herkyniy"
+	culture = feretolan
+}
+
+8771033 = {
+	name = "ve Tava"
+	culture = feretolan
+}

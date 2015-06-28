@@ -1,0 +1,78 @@
+20664 = {
+	name="Buürgur"
+	# AKA: Buurgur
+	dynasty=100602
+	martial=6
+	diplomacy=4
+	intrigue=6
+	stewardship=8
+	religion="tengri_pagan"
+	culture="alan"
+	trait="chaste"
+	trait="ambitious"
+	trait="thrifty_clerk"
+	739.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+20665 = {
+	name="Burikhan"
+	#placeholder
+	dynasty=100605
+	martial=7
+	diplomacy=6
+	intrigue=4
+	stewardship=8
+	religion="tengri_pagan"
+	culture="alan"
+	trait="cynical"
+	trait="tough_soldier"
+	745.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+
+228060 = {
+	name="Suarn"
+	dynasty=100603
+	martial=6
+	diplomacy=7
+	intrigue=7
+	stewardship=5
+	religion="tengri_pagan"
+	culture="alan"
+	trait="humble"
+	trait="skilled_tactician"
+	728.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+228063 = {
+	name="Uturku"
+	dynasty=100604
+	martial=8
+	diplomacy=4
+	intrigue=4
+	stewardship=8
+	religion="tengri_pagan"
+	culture="alan"
+	trait="martial_cleric"
+	740.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}

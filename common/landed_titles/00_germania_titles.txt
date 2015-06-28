@@ -101,6 +101,15 @@ e_germany = {
 			c_weimar = {
 				color={ 183 183 183 }
 				color2={ 255 255 255 }
+
+				pommeranian = "Vimaria"
+				gothic = "Wimares"
+				old_frankish = "Wimari"
+				old_saxon = "Wimari"
+				frisian = "Wimari"
+				german = "Weimar"
+				suebi = "Weimar"
+				dutch = "Weimar"
 				
 				b_weimar = {
 				}
@@ -122,8 +131,19 @@ e_germany = {
 			c_luneburg = {
 				color={ 135 109 147 }
 				color2={ 255 255 255 }
+
+				pommeranian = "Glain"
+				carantanian = "Glain"
+				old_frankish = "Hluni"
+				old_saxon = "Hluni"
+				gothic = "Hluni"
 				
 				b_luneburg = {
+					pommeranian = "Glain"
+					carantanian = "Glain"
+					old_frankish = "Hluni"
+					old_saxon = "Hluni"
+					gothic = "Hluni"
 				}
 				b_bardowick = {
 				}
@@ -182,17 +202,27 @@ e_germany = {
 			c_hamburg = {
 				color={ 225 225 225 }
 				color2={ 255 255 255 }
+
+				# Sturmaria
 				
 				danish = "Hamborg"
 				swedish = "Hamborg"
 				norwegian = "Hamborg"
 				norse = "Hamborg"
+				old_frankish = "Hammaburg"
+				old_saxon = "Hammaburg"
+				gothic = "Hammabaurgs"
 			
 				b_hamburg = {
+					# Treva
+
 					danish = "Hamborg"
 					swedish = "Hamborg"
 					norwegian = "Hamborg"
 					norse = "Hamborg"
+					old_frankish = "Hammaburg"
+					old_saxon = "Hammaburg"
+					gothic = "Hammabaurgs"
 				}
 				b_altona = {
 				}
@@ -614,6 +644,8 @@ e_germany = {
 				norse = "Stolp"
 			
 				b_rugenwalde = {
+					pommeranian = "Dirlovo"
+					polish = "Darlowo"
 				}
 				b_slupsk = {
 					german = "Stolp"
@@ -659,7 +691,8 @@ e_germany = {
 			latine = "Agri Decumates"
 			gallic = "Agri Decumates"
 			hispani = "Agri Decumates"
-			#jovian = "Decumatia"
+			africanu = "DEcumatia"
+			dalmatian = "Decumatia"
 			brithenig = "Decumatia"
 			greek = "Decumatia"
 
@@ -672,15 +705,15 @@ e_germany = {
 				color={ 109 197 67 }
 				color2={ 255 255 255 }
 
+				africanu = "Aquensis"
+				dalmatian = "Aquensis"
 				roman = "Aquensis"
 				latine = "Aquensis"
 				gallic = "Aquensis"
 				hispani = "Aquensis"
-				#jovian = "Aquensis"
 				brithenig = "Aquensis"
 				greek = "Aquensis"
 
-				boarisch = "Bodn"
 				suebi = "Bade"
 				gothic = "Aquensis"
 				#gothicromance = "Aquensis"
@@ -2498,6 +2531,11 @@ e_germany = {
 	k_bohemia = {
         	color={ 126 60 10 }
         	color2={ 255 255 255 }
+
+		feretolan = "Boyustan"
+		alan = "Boyustan"
+		jasi = "Boyustan"
+		sarmatian = "Boyustan"
         
        		capital = 437 # Praha
         
@@ -2518,6 +2556,11 @@ e_germany = {
             		color2={ 255 255 255 }
 
 			gothic = "Baiuhaim"
+
+			feretolan = "Boyustan"
+			alan = "Boyustan"
+			jasi = "Boyustan"
+			sarmatian = "Boyustan"
             
             		capital = 437 # Praha
             
@@ -2525,7 +2568,7 @@ e_germany = {
                 		color={ 197 112 13 }
                 		color2={ 255 255 255 }
 
-				latine = "Meliodunum"
+				# Brodentia
 
 				german = "Taus"
 				old_saxon = "Taus"
@@ -2555,7 +2598,6 @@ e_germany = {
 
 				# Casurgis
 
-				boarisch = "Prag"
 				german = "Prag"
 				saxon = "Prag"
 				old_saxon = "Prag"
@@ -2564,7 +2606,6 @@ e_germany = {
                 		b_praha = {
 					# Casurgis
 
-					boarisch = "Prag"
 					german = "Prag"
 					saxon = "Prag"
 					old_saxon = "Prag"
@@ -2572,7 +2613,6 @@ e_germany = {
                 		}
                 		b_brevnov = {
 					german = "Breunau"
-					boarisch = "Breunau"
 					old_saxon = "Breunau"
                			}
                 		b_kuttenberg = {
@@ -2592,15 +2632,15 @@ e_germany = {
                 		color={ 201 116 17 }
                 		color2={ 255 255 255 }
 
+				# Bumsia
+
 				german = "Brandeis"
-				boarisch = "Brandeis"
 				old_saxon = "Brandeis"
                 
                 		b_glatz = {
 					# Glacio
 
 					german = "Glatz"
-					boarisch = "Glatz"
 					old_saxon = "Glatz"
                 		}
                 		b_nachod = {
@@ -2621,6 +2661,8 @@ e_germany = {
             		c_litomerice = {
               			color={ 203 118 19 }
               			color2={ 255 255 255 }
+
+				# Soudeta
               
               			german = "Leitmeritz"
               
@@ -2644,10 +2686,16 @@ e_germany = {
             		c_plzen = {
                 		color={ 205 120 21 }
                 		color2={ 255 255 255 }
+
+				# Marobud
+
+				roman = "Marobudum"
                 
                 		german = Pilsen
                 
                			b_plzen = {
+					# Marobud
+
                 			german = Pilsen
                 		}
                			b_stribo = {
@@ -2666,33 +2714,33 @@ e_germany = {
                 		}
             		}
         	}
-        d_moravia = {
-            color={ 157 101 35 }
-            color2={ 255 255 255 }
+		d_moravia = {
+            		color={ 157 101 35 }
+            		color2={ 255 255 255 }
             
-            capital = 440 # Olomouc
+            		capital = 440 # Olomouc
             
-            c_hradec = {
-                color={ 160 104 38 }
-                color2={ 255 255 255 }
+            		c_hradec = {
+                		color={ 160 104 38 }
+                		color2={ 255 255 255 }
                 
-                b_hradeckralove = {
-                }
-                b_pardubice = {
-                }
-                b_litomysl = {
-                }
-                b_zamberk = {
-                }
-                b_policka = {
-                }
-                b_jihlava = {
-                }
-                b_pelhrimov = {
-                }
-                b_chrudim = {
-                }
-            }
+                		b_hradeckralove = {
+                		}
+                		b_pardubice = {
+                		}
+                		b_litomysl = {
+                		}
+                		b_zamberk = {
+                		}
+                		b_policka = {
+                		}
+                		b_jihlava = {
+                		}
+                		b_pelhrimov = {
+                		}
+                		b_chrudim = {
+                		}
+			}
             c_olomouc = {
                 color={ 163 107 41 }
                 color2={ 255 255 255 }

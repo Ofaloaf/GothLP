@@ -478,8 +478,15 @@ e_carpathia = {
 			c_trencin = {
 				color={ 198 29 29 }
 				color2={ 255 255 255 }
+
+				# Laugaricio
+
+				greek = "Leukaristos"
 				
 				b_trencsen = {
+					# Laugaricio
+
+					greek = "Leukaristos"
 				}
 				b_zilina = {
 				}

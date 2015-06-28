@@ -30,3 +30,28 @@
 	}
 }
 
+8666003 = {
+	name = "Eunon"
+	dynasty = 8771031 # ve Yabilun
+	culture="feretolan"
+	religion="tengri_pagan"
+	739.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+8666004 = {
+	name = "Goar"
+	dynasty = 8771032 # Herkyniy
+	culture="feretolan"
+	religion="tengri_pagan"
+	730.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}

@@ -1,0 +1,984 @@
+5999001 = {
+	name = "Dizenghi"
+	culture = italian
+}
+
+5999002 = {
+	name = "Barlas"
+	culture = italian
+}
+
+5999003 = {
+	name = "Imbonaa"
+	culture = italian
+}
+
+5999004 = {
+	name = "Manzon"
+	culture = italian
+}
+
+5999005 = {
+	name = "Parin"
+	culture = italian
+}
+
+5999006 = {
+	name = "Foscolo"
+	culture = italian
+}
+
+5999007 = {
+	name = "da Barsegapé"
+	culture = italian
+}
+
+5999008 = {
+	name = "dei Urs"
+	culture = italian
+}
+
+5999009 = {
+	name = "de la Riva"
+	culture = italian
+}
+
+5999010 = {
+	name = "de Stabel"
+	culture = italian
+}
+
+5999011 = {
+	name = "De Lemene"
+	culture = italian
+}
+
+5999012 = {
+	name = "Riscionegh"
+	culture = italian
+}
+
+5999013 = {
+	name = "Donegana"
+	culture = italian
+}
+
+5999014 = {
+	name = "Rajberti"
+	culture = italian
+}
+
+5999015 = {
+	name = "Lomazz"
+	culture = italian
+}
+
+5999016 = {
+	name = "De Marchi"
+	culture = italian
+}
+
+5999017 = {
+	name = "Balestree"
+	culture = italian
+}
+
+5999018 = {
+	name = "Boromee"
+	culture = italian
+}
+
+5999019 = {
+	name = "Attendolo"
+	culture = italian
+}
+
+5999020 = {
+	name = "di Medegh"
+	culture = italian
+}
+
+5999021 = {
+	name = "Borghezio"
+	culture = italian
+}
+
+5999022 = {
+	name = "Zanardelli"
+	culture = italian
+}
+
+5999023 = {
+	name = "Casaleggio"
+	culture = italian
+}
+
+5999024 = {
+	name = "Ausenda"
+	culture = italian
+}
+
+5999025 = {
+	name = "Artunghi"
+	culture = italian
+}
+
+5999026 = {
+	name = "Badolato"
+	culture = italian
+}
+
+5999027 = {
+	name = "Biata"
+	culture = italian
+}
+
+5999028 = {
+	name = "Bibbia"
+	culture = italian
+}
+
+5999029 = {
+	name = "Bisolti"
+	culture = italian
+}
+
+5999030 = {
+	name = "Branca"
+	culture = italian
+}
+
+5999031 = {
+	name = "Bussola"
+	culture = italian
+}
+
+5999032 = {
+	name = "Canepari"
+	culture = italian
+}
+
+5999033 = {
+	name = "Cattaneo"
+	culture = italian
+}
+
+5999034 = {
+	name = "Cazzulani"
+	culture = italian
+}
+
+5999035 = {
+	name = "Locatelli"
+	culture = italian
+}
+
+5999036 = {
+	name = "Gusmeroli"
+	culture = italian
+}
+
+5999037 = {
+	name = "Malvestiti"
+	culture = italian
+}
+
+5999038 = {
+	name = "Mantovan"
+	culture = italian
+}
+
+5999039 = {
+	name = "Marcaletti"
+	culture = italian
+}
+
+5999040 = {
+	name = "da Orsenigo"
+	culture = italian
+}
+
+5999041 = {
+	name = "da Campione"
+	culture = italian
+}
+
+5999042 = {
+	name = "Quartapelle"
+	culture = italian
+}
+
+5999043 = {
+	name = "Salimbeni"
+	culture = italian
+}
+
+5999044 = {
+	name = "Sommaruga"
+	culture = italian
+}
+
+5999045 = {
+	name = "Sgalbazzi"
+	culture = italian
+}
+
+599946 = {
+	name = "Trivolz di Belgiojos"
+	culture = italian
+}
+
+5999047 = {
+	name = "Da Ponte"
+	culture = italian
+}
+
+5999048 = {
+	name = "Mojon"
+	culture = italian
+}
+
+5999049 = {
+	name = "Confalonieri"
+	culture = italian
+}
+
+5999050 = {
+	name = "Maroncelli"
+	culture = italian
+}
+
+5999051 = {
+	name = "De Rossi"
+	culture = italian
+}
+
+5999052 = {
+	name = "Jannacci"
+	culture = italian
+}
+
+5999053 = {
+	name = "Pamphilj"
+	culture = italian
+}
+
+5999054 = {
+	name = "Maidalchini"
+	culture = italian
+}
+
+5999055 = {
+	name = "Boiardo"
+	culture = italian
+}
+
+5999056 = {
+	name = "della Mirandola"
+	culture = italian
+}
+
+5999057 = {
+	name = "Onogunduro"
+	culture = italian
+}
+
+5999058 = {
+	name = "Chunnini"
+	culture = italian
+}
+
+5999059 = {
+	name = "Variano"
+	culture = italian
+}
+
+5999060 = {
+	name = "Varconites"
+	culture = italian
+}
+
+5999061 = {
+	name = "di Taugast"
+	culture = italian
+}
+
+5999062 = {
+	name = "Barselti"
+	culture = italian
+}
+
+5999063 = {
+	name = "Bumini"
+	culture = italian
+}
+
+5999064 = {
+	name = "Saraghuro"
+	culture = italian
+}
+
+5999065 = {
+	name = "Ughori"
+	culture = italian
+}
+
+5999066 = {
+	name = "Tartaglia"
+	culture = italian
+}
+
+5999067 = {
+	name = "Bentivoglio"
+	culture = italian
+}
+
+5999068 = {
+	name = "della Rovere"
+	culture = italian
+}
+
+5999069 = {
+	name = "Cybo"
+	culture = italian
+}
+
+5999070 = {
+	name = "Piccolomini"
+	culture = italian
+}
+
+5999071 = {
+	name = "De Amiconibus"
+	culture = italian
+}
+
+5999072 = {
+	name = "Busnate"
+	culture = italian
+}
+
+5999073 = {
+	name = "Bolganoribus"
+	culture = italian
+}
+
+5999074 = {
+	name = "Ovadia"
+	culture = italian
+}
+
+5999075 = {
+	name = "Lahini"
+	culture = italian
+}
+
+5999076 = {
+	name = "Castritius"
+	culture = italian
+}
+
+5999077 = {
+	name = "Baldizonibus"
+	culture = italian
+}
+
+5999078 = {
+	name = "Cribellis"
+	culture = italian
+}
+
+5999079 = {
+	name = "Cacharanis"
+	culture = italian
+}
+
+5999080 = {
+	name = "Confanoneris"
+	culture = italian
+}
+
+5999081 = {
+	name = "Carpanis"
+	culture = italian
+}
+
+5999082 = {
+	name = "Capponibus"
+	culture = italian
+}
+
+5999083 = {
+	name = "Cuminis"
+	culture = italian
+}
+
+5999084 = {
+	name = "Cottis"
+	culture = italian
+}
+
+5999085 = {
+	name = "Caimbasilicis"
+	culture = italian
+}
+
+5999086 = {
+	name = "Carugo"
+	culture = italian
+}
+
+5999087 = {
+	name = "Comitibus"
+	culture = italian
+}
+
+5999088 = {
+	name = "Cagatosicis"
+	culutre = italian
+}
+
+5999089 = {
+	name = "Dardonibus"
+	culture = italian
+}
+
+5999090 = {
+	name = "Gheringhellis"
+	culture = italian
+}
+
+5999091 = {
+	name = "Gattonibus"
+	culture = italian
+}
+
+5999092 = {
+	name = "Guascchis"
+	culture = italian
+}
+
+5999093 = {
+	name = "Homodeis"
+	culture = italian
+}
+
+5999094 = {
+	name = "Judicibus"
+	culture = italian
+}
+
+5999095 = {
+	name = "Imbresago"
+	culture = italian
+}
+
+5999096 = {
+	name = "La Majrola"
+	culture = italian
+}
+
+5999097 = {
+	name = "Mandello"
+	culture = italian
+}
+
+5999098 = {
+	name = "Menclottis"
+	culture = italian
+}
+
+5999099 = {
+	name = "Martignonibus"
+	culture = italian
+}
+
+5999100 = {
+	name = "Mirabiliis"
+	culture = italian
+}
+
+5999101 = {
+	name = "Marinonibus"
+	culture = italian
+}
+
+5999102 = {
+	name = "Mantegatiis"
+	culture = italian
+}
+
+5999103 = {
+	name = "Merosiis"
+	culture = italian
+}
+
+5999104 = {
+	name = "Nasiis"
+	culture = italian
+}
+
+5999105 = {
+	name = "Marnate"
+	culture = italian
+}
+
+5999106 = {
+	name = "Pusteria"
+	culture = italian
+}
+
+5999107 = {
+	name = "Perego"
+	culture = italian
+}
+
+5999108 = {
+	name = "Petrasncta"
+	culture = italian
+}
+
+5999109 = {
+	name = "Putheobonello"
+	culture = italian
+}
+
+5999110 = {
+	name = "Paravisino"
+	culture = italian
+}
+
+5999111 = {
+	name = "Johannoli"
+	culture = italian
+}
+
+5999112 = {
+	name = "Perdeperi"
+	culture = italian
+}
+
+5999113 = {
+	name = "Riboldis"
+	culture = italian
+}
+
+5999114 = {
+	name = "di Besana"
+	culture = italian
+}
+
+5999115 = {
+	name = "di Cisnuscolo"
+	culture = italian
+}
+
+5999116 = {
+	name = "Rusconibus"
+	culture = italian
+}
+
+5999117 = {
+	name = "Soresina"
+	culture = italian
+}
+
+5999118 = {
+	name = "Segazonibus"
+	culture = italian
+}
+
+5999119 = {
+	name = "Sessa"
+	culture = italian
+}
+
+5999120 = {
+	name = "Scaccabarottiis"
+	culture = italian
+}
+
+5999121 = {
+	name = "Sirturi"
+	culture = italian
+}
+
+5999122 = {
+	name = "Septara"
+	culture = italian
+}
+
+5999123 = {
+	name = "Solbiate"
+	culture = italian
+}
+
+5999124 = {
+	name = "Spangutis"
+	culture = italian
+}
+
+5999125 = {
+	name = "Taegio"
+	culture = italian
+}
+
+5999126 = {
+	name = "Terzagho"
+	culture = italian
+}
+
+5999127 = {
+	name = "Turate"
+	culture = italian
+}
+
+5999128 = {
+	name = "Trivultio"
+	culture = italian
+}
+
+5999129 = {
+	name = "Valvassoribus"
+	culture = italian
+}
+
+5999130 = {
+	name = "di Serio"
+	culture = italian
+}
+
+5999131 = {
+	name = "Vitudono"
+	culture = italian
+}
+
+5999132 = {
+	name = "Vigonzono"
+	culture = italian
+}
+
+5999133 = {
+	name = "Vilanis"
+	culture = italian
+}
+
+5999134 = {
+	name = "Zotis"
+	culture = italian
+}
+
+5999135 = {
+	name = "Zerbis"
+	culture = italian
+}
+
+5999136 = {
+	name = "d'Adda"
+	culture = italian
+}
+
+5999137 = {
+	name = "Anguissola"
+	culture = italian
+}
+
+5999138 = {
+	name = "Araciel"
+	culture = italian
+}
+
+5999139 = {
+	name = "Avogadro"
+	culture = italian
+}
+
+5999140 = {
+	name = "Barbavara"
+	culture = italian
+}
+
+5999141 = {
+	name = "di Beccaria"
+	culture = italian
+}
+
+5999142 = {
+	name = "Bernareggi"
+	culture = italian
+}
+
+5999143 = {
+	name = "Bescapé"
+	culture = italian
+}
+
+5999144 = {
+	name = "Besozzi"
+	culture = italian
+}
+
+5999145 = {
+	name = "Biumi"
+	culture = italian
+}
+
+5999146 = {
+	name = "di Bussero"
+	culture = italian
+}
+
+5999147 = {
+	name = "Cagnola"
+	culture = italian
+}
+
+5999148 = {
+	name = "Calderari"
+	culture = italian
+}
+
+5999149 = {
+	name = "Cambiaghi"
+	culture = italian
+}
+
+5999150 = {
+	name = "Canavese"
+	culture = italian
+}
+
+5999151 = {
+	name = "di Caponago"
+	culture = italian
+}
+
+5999152 = {
+	name = "di Castiglioni"
+	culture = italian
+}
+
+5999153 = {
+	name = "di Cittadini"
+	culture = italian
+}
+
+5999154 = {
+	name = "di Crevenna"
+	culture = italian
+}
+
+5999155 = {
+	name = "di Daverio"
+	culture = italian
+}
+
+5999156 = {
+	name = "Derni"
+	culture = italian
+}
+
+5999157 = {
+	name = "di Dugnani"
+	culture = italian
+}
+
+5999158 = {
+	name = "Durini"
+	culture = italian
+}
+
+5999159 = {
+	name = "Erba"
+	culture = italian
+}
+
+5999160 = {
+	name = "Odescalchi"
+	culture = italian
+}
+
+5999161 = {
+	name = "di Fedeli"
+	culture = italian
+}
+
+5999162 = {
+	name = "di Foppa"
+	culture = italian
+}
+
+5999163 = {
+	name = "Fossati"
+	culture = italian
+}
+
+5999164 = {
+	name = "Gallerani"
+	culture = italian
+}
+
+5999165 = {
+	name = "di Giovio"
+	culture = italian
+}
+
+5999166 = {
+	name = "di Girami"
+	culture = italian
+}
+
+5999167 = {
+	name = "Giulini"
+	culture = italian
+}
+
+5999168 = {
+	name = "Imbonati"
+	culture = italian
+}
+
+5999169 = {
+	name = "Isimbardi"
+	culture = italian
+}
+
+5999170 = {
+	name = "di Lampugnani"
+	culture = italian
+}
+
+5999171 = {
+	name = "di Landriani"
+	culture = italian
+}
+
+5999172 = {
+	name = "di Litta"
+	culture = italian
+}
+
+5999173 = {
+	name = "di Locatelli"
+	culture = italian
+}
+
+5999174 = {
+	name = "di Lomeni"
+	culture = italian
+}
+
+5999175 = {
+	name = "di Lonati"
+	culture = italian
+}
+
+5999176 = {
+	name = "di Lureni"
+	culture = italian
+}
+
+5999177 = {
+	name = "Cernuschi"
+	culture = italian
+}
+
+5999178 = {
+	name = "di Mazenta"
+	culture = italian
+}
+
+5999179 = {
+	name = "del Maino"
+	culture = italian
+}
+
+5999180 = {
+	name = "di Mandelli"
+	culture = italian
+}
+
+5999181 = {
+	name = "di Marzorati"
+	culture = italian
+}
+
+5999182 = {
+	name = "di Melzi d'Eryl"
+	culture = italian
+}
+
+5999183 = {
+	name = "de Melegnano"
+	culture = italian
+}
+
+5999184 = {
+	name = "di Meraviglia"
+	culture = italian
+}
+
+5999185 = {
+	name = "di Moriggia"
+	culture = italian
+}
+
+5999186 = {
+	name = "di Nava"
+	culture = italian
+}
+
+5999187 = {
+	name = "de Rosales"
+	culture = italian
+}
+
+5999188 = {
+	name = "Olivazzi"
+	culture = italian
+}
+
+5999189 = {
+	name = "dell'Orto"
+	culture = italian
+}
+
+5999190 = {
+	name = "Orombelli"
+	culture = italian
+}
+
+5999191 = {
+	name = "di Parravicini"
+	culture = italian
+}
+
+5999192 = {
+	name = "Bertoni"
+	culture = italian
+}
+
+5999193 = {
+	name = "Lancioni"
+	culture = italian
+}
+
+5999194 = {
+	name = "di Piantanida"
+	culture = italian
+}
+
+5999195 = {
+	name = "di Pietrasanta"
+	culture = italian
+}
+
+5999196 = {
+	name = "della Porta"
+	culture = italian
+}
+
+5999197 = {
+	name = "di Pozzo da Cerego"
+	culture = italian
+}

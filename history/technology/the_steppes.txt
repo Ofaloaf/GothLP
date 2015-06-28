@@ -12,7 +12,7 @@ technology = {
 		d_kimak
 		d_kirghiz
 		d_crimea
-		d_alania
+		d_iryston
 		d_azov
 		d_turkestan
 		d_zhetysu

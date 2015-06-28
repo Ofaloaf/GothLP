@@ -95,11 +95,13 @@ e_scythia = {
 			}
 		}
 
-		d_greater_poland = { 
-			color={ 140 13 13 }
+		d_alania = { 
+			color={ 155 110 48 }
 			color2={ 255 255 255 }
 			
 			capital = 429 # Gnieznenskie
+
+			culture = alan
 		
 			c_lubusz = {
 				color={ 135 30 30 }
@@ -372,7 +374,7 @@ e_scythia = {
 				}
 			}
 		}
-		d_lesser_poland = { 
+		d_wislania = { 
 			color={ 245 163 176 }
 			color2={ 255 255 255 }
 			

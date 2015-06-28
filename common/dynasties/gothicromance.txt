@@ -1,0 +1,864 @@
+963001 = {
+	name = "Alnovemtingi" # Alanoviiamuth, Jordanes' grandpa? Possibly just Amuth, but whatever
+	culture = gothicromance
+}
+
+963002 = {
+	name = "Amutingi"
+	culture = gothicromance
+}
+
+963003 = {
+	name = "Candacingi"
+	culture = gothicromance
+}
+
+963004 = {
+	name = "Rampa" # 'Rampa' is 'talon' in proper Gothic
+	culture = gothicromance
+}
+
+963005 = {
+	name = "Drautine" # 'Drauhtins' is 'warlord' or 'general' in proper Gothic
+	culture = gothicromance
+}
+
+963006 = {
+	name = "Fanci" # 'Fanthja' is 'footsoldier' in proper Gothic
+	culture = gothicromance
+}
+
+963007 = {
+	name = "Spadics" # 'Spadiggs' is 'swordsman' in proper Gothic
+	culture = gothicromance
+}
+
+963008 = {
+	name = "Cadraut" # 'Ga-drauhts' is 'warrior' or 'soldier' in proper Gothic
+	culture = gothicromance
+}
+
+963009 = {
+	name = "Gabic" # 'Gabigs' or 'Gabeigs' is 'wealthy' in proper Gothic
+	culture = gothicromance
+}
+
+963010 = {
+	name = "Aleicoune" # 'Alja-kuns' is 'weird' or 'alien' in proper Gothic
+	culture = gothicromance
+}
+
+963011 = {
+	name = "Cunce" # 'Kunths' is 'well-known' in proper Gothic
+	culture = gothicromance
+}
+
+963012 = {
+	name = "Vinices" # 'Winiths' is 'Wend' or 'Wendish' in proper Gothic
+	culture = gothicromance
+}
+
+963013 = {
+	name = "Oueitei" # 'hwaiteis' is 'wheat' in proper Gothic
+	culture = gothicromance
+}
+
+963014 = {
+	name = "Uiltes" # 'wiltheis' is 'wild' or 'fierce' in proper Gothic
+	culture = gothicromance
+}
+
+963015 = {
+	name = "Wintrus" # 'Wintrus' is 'winter' in proper Gothic
+	culture = gothicromance
+}
+
+963016 = {
+	name = "Frode" # 'froths' (gen. frodis) is 'wise' in proper Gothic
+	culture = gothicromance
+}
+
+963017 = {
+	name = "Oulphsune" # meant to be from 'Wulfsunus', combining 'Wulfs' and 'sunus', meaning 'wolf' and 'son' in Goth
+	culture = gothicromance
+}
+
+963018 = {
+	name = "Timrei" # 'timrja' means 'woodworker' in proper Gothic
+	culture = gothicromance
+}
+
+963019 = {
+	name = "Varimudi" # 'warja-moths' (gen. warja-modis) is 'wormwood' in proper Gothic, from which derives Bermudo
+	culture = gothicromance
+}
+
+963020 = {
+	name = "Gutblostre" # 'guth-blostreis' is 'worshipper' in proper Gothic
+	culture = gothicromance
+}
+
+963021 = {
+	name = "Boqrei" # 'bokareis' is 'scribe' in proper Gothic
+	culture = gothicromance
+}
+
+963022 = {
+	name = "Gilus" # 'gilws' is 'yellow' in proper Gothic
+	culture = gothicromance
+}
+
+963023 = {
+	name = "Micles" # 'mikils' is 'tall' or 'big' in proper Gothic
+	culture = gothicromance
+}
+
+963024 = {
+	name = "Modags" # 'Modags' is 'bad-tempered' in proper Gothic
+	culture = gothicromance
+}
+
+963025 = {
+	name = "Gundicingi"
+	culture = gothicromance
+}
+
+963026 = {
+	name = "Gailmareis" # Gelimerius, derived from Latin for 'of Gelimer'
+	culture = gothicromance
+}
+
+963027 = {
+	name = "Sareis" # Sarius, derived from Latin for 'of Sarus'
+	culture = gothicromance
+}
+
+963028 = {
+	name = "Safraceis" # Saphracius, derived from Latin for 'of Saphrax'
+	culture = gothicromance
+}
+
+963029 = {
+	name = "Alacaianeis" # 'Alathaeanius', or derived from Latin for 'of Alatheus'. Alatheusing? Alathing?
+	culture = gothicromance
+}
+
+963030 = {
+	name = "Laiggaiu" # 'legio'
+	culture = gothicromance
+}
+
+963031 = {
+	name = "Valrum" # 'Valaromanus' or something. It's redundant, whatever. I'm just basically making shit up.
+	culture = gothicromance
+}
+
+963032 = {
+	name = "Gricleis" # was originally going to be Gricling- the Greek-ling- but ehhh
+	culture = gothicromance
+}
+
+963033 = {
+	name = "Gaill" # 'Gallus', 'The Gaul'
+	culture = gothicromance
+}
+
+963034 = {
+	name = "Ybreis" # attempt to corrupt 'Iberius'
+	culture = gothicromance
+}
+
+963035 = {
+	name = "Betcroeis" # thoroughly trying to corrupt 'Petrocorius'. This assumes the Goths end up in Gaul somewhere.
+	culture = gothicromance
+}
+
+963036 = {
+	name = "Limaiseis" # trying to play around with 'limes' (lat), corrupted name for 'family from the frontier'. limius? litetanius?
+	culture = gothicromance
+}
+
+963037 = {
+	name = "Darbleis" # corruption of 'Tarbellius', from 'Tarbelli'. This assumes the Goths end up in Gaul somewhere.
+	culture = gothicromance
+}
+
+963038 = {
+	name = "Catrosignanei"	# corruption of 'Quatuorsignani', 'of the four banners'
+	culture = gothicromance
+}
+
+963039 = {
+	name = "Causidicus"
+	culture = gothicromance
+}
+
+963040 = {
+	name = "Vulturareis" # Vulturaria was a Visigothic fortress in the eastern Pyrenees.
+	culture = gothicromance
+}
+
+963041 = {
+	name = "Ablabis" # Ablabius. Apparently wrote a history of the Goths, now lost, that Cassiodorus and Jordanes both used as a refernece.
+	culture = gothicromance
+}
+
+963042 = {
+	name = "Ainanianeis" # 'Ananianus'. One 'Ananius', a bishop, helped Fl. Aetius defend Orleans from Attila in 451.
+	culture = gothicromance
+}
+
+963043 = {
+	name = "Airulingein" # 'Herulingian'
+	culture = gothicromance
+}
+
+963044 = {
+	name = "Melanclaenau" # Procopius says that the ancient Melanchlaeni may have been Goths of a sort.
+	culture = gothicromance
+}
+
+963045 = {
+	name = "Mascetis" # Rabanus Maurus claimed the Massagetae were a set of Getae, which in turn were sometimes thought to be Goths
+	culture = gothicromance
+}
+
+963046 = {
+	name = "Auiumeis" # 'Oiumius', 'Oium' being where Jordanes claimed the Goths once had a kingdom
+	culture = gothicromance
+}
+
+963047 = {
+	name = "Tanungeis"
+	culture = gothicromance
+}
+
+963048 = {
+	name = "Pilleates" # 'Pilleatus', pl. 'Pilleati', a priestly elite of the ancient Goths, according to Jordanes.
+	culture = gothicromance
+}
+
+963049 = {
+	name = "Cabillate" # 'Capillati', non-elite Goths of the same group as the Pilleati
+	culture = gothicromance
+}
+
+963050 = {
+	name = "Cumosices" # 'Comosicus', a Gotho-Dacian only attested by Jordanes
+	culture = gothicromance
+}
+
+963051 = {
+	name = "Sballes" # 'Spali', some Sarmatians which the Goths subjugated at some point I guess?
+	culture = gothicromance
+}
+
+963052 = {
+	name = "Naulbadau" # 'Naulobatus' was a Heruli leader of the 3rd century
+	culture = gothicromance
+}
+
+963053 = {
+	name = "Herodeis" # genitive of Herodes, Herod
+	culture = gothicromance
+}
+
+963054 = {
+	name = "Gelimiringi" # Gelimir-ing
+	culture = gothicromance
+}
+
+963055 = {
+	name = "Secuani"
+	culture = gothicromance
+}
+
+963056 = {
+	name = "Cabillaunense" # Cabillonensis
+	culture = gothicromance
+}
+
+963057 = {
+	name = "Linguneis" # Lingones, Lingonius
+	culture = gothicromance
+}
+
+963058 = {
+	name = "Mandbeis" # Mandubii, Mandubius
+	culture = gothicromance
+}
+
+963059 = {
+	name = "Leuge" # Leuci
+	culture = gothicromance
+}
+
+963060 = {
+	name = "de Vaurmacio"
+	culture = gothicromance
+}
+
+963061 = {
+	name = "de Cambes"
+	culture = gothicromance
+}
+
+963062 = {
+	name = "de Warcia"
+	culture = gothicromance
+}
+
+963063 = {
+	name = "Ambaur"
+	culture = gothicromance
+}
+
+963064 = {
+	name = "Seiscians" # Segusiani
+	culture = gothicromance
+}
+
+963065 = {
+	name = "de Dubis"
+	culture = gothicromance
+}
+
+963066 = {
+	name = "de Tilein" # Tilena
+	culture = gothicromance
+}
+
+963067 = {
+	name = "Veirbigin" # Pagus Verbiguns
+	culture = gothicromance
+}
+
+963068 = {
+	name = "Albrauge" # Allobroges
+	culture = gothicromance
+}
+
+963069 = {
+	name = "Vergreis"
+	culture = gothicromance
+}
+
+963070 = {
+	name = "Raurage" # Rauraci
+	culture = gothicromance
+}
+
+963071 = {
+	name = "de Decempagi"
+	culture = gothicromance
+}
+
+963072 = {
+	name = "Tigurine"
+	culture = gothicromance
+}
+
+963073 = {
+	name = "Brannuve"
+	culture = gothicromance
+}
+
+963074 = {
+	name = "Solli" # Sollius
+	culture = gothicromance
+}
+
+973075 = {
+	name = "Romieu"
+	culture = gothicromance
+}
+
+973076 = {
+	name = "Ayceli"
+	culture = gothicromance
+}
+
+973077 = {
+	name = "Aribert"
+	culture = gothicromance
+}
+
+973078 = {
+	name = "Bandeli"
+	culture = gothicromance
+}
+
+973079 = {
+	name = "Bolas"
+	culture = gothicromance
+}
+
+973080 = {
+	name = "Bournazels"
+	culture = gothicromance
+}
+
+973081 = {
+	name = "Bozesa"
+	culture = gothicromance
+}
+
+973082 = {
+	name = "Boysonnada"
+	culture = gothicromance
+}
+
+973083 = {
+	name = "Cabrespinas"
+	culture = gothicromance
+}
+
+973084 = {
+	name = "Calsutras"
+	culture = gothicromance
+}
+
+973085 = {
+	name = "Campanhac"
+	culture = gothicromance
+}
+
+973086 = {
+	name = "Capelier"
+	culture = gothicromance
+}
+
+973087 = {
+	name = "Camboulas"
+	culture = gothicromance
+}
+
+973088 = {
+	name = "Combas"
+	culture = gothicromance
+}
+
+973089 = {
+	name = "de Monmato"
+	culture = gothicromance
+}
+
+973090 = {
+	name = "de Namaria"
+	culture = gothicromance
+}
+
+973091 = {
+	name = "del Cros"
+	culture = gothicromance
+}
+
+973092 = {
+	name = "del Verdier"
+	culture = gothicromance
+}
+
+973093 = {
+	name = "Floretas"
+	culture = gothicromance
+}
+
+973094 = {
+	name = "Formis"
+	culture = gothicromance
+}
+
+973095 = {
+	name = "Fonfrega"
+	culture = gothicromance
+}
+
+973096 = {
+	name = "Fromenta"
+	culture = gothicromance
+}
+
+973097 = {
+	name = "Gabriac"
+	culture = gothicromance
+}
+
+973098 = {
+	name = "Galvahn"
+	culture = gothicromance
+}
+
+973099 = {
+	name = "Ginesta"
+	culture = gothicromance
+}
+
+973100 = {
+	name = "Guirlarda"
+	culture = gothicromance
+}
+
+973101 = {
+	name = "Grefolieyra"
+	culture = gothicromance
+}
+
+973102 = {
+	name = "Guisardo"
+	culture = gothicromance
+}
+
+973103 = {
+	name = "Jalenca"
+	culture = gothicromance
+}
+
+973104 = {
+	name = "Lagomia"
+	culture = gothicromance
+}
+
+973105 = {
+	name = "Mansaga"
+	culture = gothicromance
+}
+
+973106 = {
+	name = "Massabuou"
+	culture = gothicromance
+}
+
+973107 = {
+	name = "Mercieyra"
+	culture = gothicromance
+}
+
+973108 = {
+	name = "Randaynes"
+	culture = gothicromance
+}
+
+973109 = {
+	name = "Natas"
+	culture = gothicromance
+}
+
+973110 = {
+	name = "Palhargues"
+	culture = gothicromance
+}
+
+973111 = {
+	name = "Regandi"
+	culture = gothicromance
+}
+
+973112 = {
+	name = "Rossinhol"
+	culture = gothicromance
+}
+
+973113 = {
+	name = "Rostanh"
+	culture = gothicromance
+}
+
+973114 = {
+	name = "Salustre"
+	culture = gothicromance
+}
+
+973115 = {
+	name = "Segualar"
+	culture = gothicromance
+}
+
+973116 = {
+	name = "Seyrac"
+	culture = gothicromance
+}
+
+973117 = {
+	name = "Terissa"
+	culture = gothicromance
+}
+
+973118 = {
+	name = "Veziac"
+	culture = gothicromance
+}
+
+973119 = {
+	name = "Falgario"
+	culture = gothicromance
+}
+
+973120 = {
+	name = "Pictavini"
+	culture = gothicromance
+}
+
+973121 = {
+	name = "Clavellus"
+	culture = gothicromance
+}
+
+973122 = {
+	name = "de Fulhonibus"
+	culture = gothicromance
+}
+
+973123 = {
+	name = "Simeonis"
+	culture = gothicromance
+}
+
+973124 = {
+	name = "Torena"
+	culture = gothicromance
+}
+
+973125 = {
+	name = "de Guimballo"
+	culture = gothicromance
+}
+
+973126 = {
+	name = "de Moreriis"
+	culture = gothicromance
+}
+
+973127 = {
+	name = "de Scalquemchis"
+	culture = gothicromance
+}
+
+973128 = {
+	name = "del Abatut"
+	culture = gothicromance
+}
+
+973129 = {
+	name = "del Troc"
+	culture = gothicromance
+}
+
+973130 = {
+	name = "Cathena"
+	culture = gothicromance
+}
+
+973131 = {
+	name = "Payrolerius"
+	culture = gothicromance
+}
+
+973132 = {
+	name = "Barravus"
+	culture = gothicromance
+}
+
+973133 = {
+	name = "Barranus"
+	culture = gothicromance
+}
+
+973134 = {
+	name = "Tornerius"
+	culture = gothicromance
+}
+
+973135 = {
+	name = "de Roaxio"
+	culture = gothicromance
+}
+
+973136 = {
+	name = "de Lissaco"
+	culture = gothicromance
+}
+
+973137 = {
+	name = "de Calvaiaco"
+	culture = gothicromance
+}
+
+973138 = {
+	name = "de Scoalha"
+	culture = gothicromance
+}
+
+973139 = {
+	name = "de Prinhaco"
+	culture = gothicromance
+}
+
+973140 = {
+	name = "de Causideriis"
+	culture = gothicromance
+}
+
+973141 = {
+	name = "Bonasias"
+	culture = gothicromance
+}
+
+973142 = {
+	name = "Domerc"
+	culture = gothicromance
+}
+
+973144 = {
+	name = "Pinsonis"
+	culture = gothicromance
+}
+
+973145 = {
+	name = "de Puialibus"
+	culture = gothicromance
+}
+
+973146 = {
+	name = "Athonis"
+	culture = gothicromance
+}
+
+973147 = {
+	name = "Insedus"
+	culture = gothicromance
+}
+
+973148 = {
+	name = "Lorderius"
+	culture = gothicromance
+}
+
+973149 = {
+	name = "de Manheccico"
+	culture = gothicromance
+}
+
+973150 = {
+	name = "Menestralh"
+	culture = gothicromance
+}
+
+973151 = {
+	name = "Molinerius"
+	culture = gothicromance
+}
+
+973152 = {
+	name = "de Gotorio"
+	culture = gothicromance
+}
+
+973153 = {
+	name = "de Clinsenh"
+	culture = gothicromance
+}
+
+973154 = {
+	name = "de Mosenquis"
+	culture = gothicromance
+}
+
+973155 = {
+	name = "de Novelhariis"
+	culture = gothicromance
+}
+
+973156 = {
+	name = "de Quersi"
+	culture = gothicromance
+}
+
+973157 = {
+	name = "Denabbas"
+	culture = gothicromance
+}
+
+973158 = {
+	name = "Macellarius"
+	culture = gothicromance
+}
+
+973159 = {
+	name = "Maiordierum"
+	culture = gothicromance
+}
+
+973160 = {
+	name = "de Palatio"
+	culture = gothicromance
+}
+
+973161 = {
+	name = "de Peyrolle"
+	culture = gothicromance
+}
+
+973162 = {
+	name = "Massonerius"
+	culture = gothicromance
+}
+
+973163 = {
+	name = "de Stadenchis"
+	culture = gothicromance
+}
+
+973164 = {
+	name = "Alquerius"
+	culture = gothicromance
+}
+
+973165 = {
+	name = "Pagesius"
+	culture = gothicromance
+}
+
+973166 = {
+	name = "Baiulus"
+	culture = gothicromance
+}
+
+973167 = {
+	name = "Gralherius"
+	culture = gothicromance
+}
+
+973168 = {
+	name = "Landeria"
+	culture = gothicromance
+}
+
+973169 = {
+	name = "Pantellus"
+	culture = gothicromance
+}
+
+973170 = {
+	name = "de Turre"
+	culture = gothicromance
+}
+
+973171 = {
+	name = "Garic"
+	culture = gothicromance
+}
+
+973172 = {
+	name = "de Vesseriis"
+	culture = gothicromance
+}
+
+973173 = {
+	name = "Carabordas"
+	culture = gothicromance
+}
+
+9730174 = {
+	name = "Manelani"
+	culture = gothicromance
+}
