@@ -9,7 +9,7 @@ provinciale = {
 		male_names = {
 			Alexander_Alexander Alexis_Alexis Anastasis_Anastasius Athanasis_Athanasius Achilles 
 			Apollinaris Antonis_Antonius Aurelïen Aurel_Aurelius Acius Agustius Amabilis Amator 
-			Avit Aegus Ambrosis_Ambrosius Arvandes Adrienes_Adrian
+			Avit_Avitus Aegus Ambrosis_Ambrosius Arvandes Adrienes_Adrian
 			Benedixes_Benedict Benignus Baudilus Bartholomeus_Bartholomew Boecis_Boethius Bonetus
 			Cesaris Carles_Charles Caius Constantines_Consantine Caprasis Cassïen Cassis 
 			Castor Celsus Crispines Carbonel

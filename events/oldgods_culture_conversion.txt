@@ -147,9 +147,9 @@ province_event = {
 	
 	trigger = {
 		OR = {
-			culture = frankish
-			culture = breton
-			culture = occitan
+			culture = gallic
+			culture = aquitanian
+			culture = gothicromance
 		}
 		owner = {
 			culture = norse

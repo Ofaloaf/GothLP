@@ -362,3 +362,42 @@
 		death = yes
 	}
 }
+
+1789021 = {
+	name = "Syagris"
+	dynasty = 1940097 # de Saischon
+	martial = 8
+	diplomacy = 3
+	intrigue = 5
+	stewardship = 6
+	learning = 6
+	culture = gallic
+	religion = arian
+	trait=tough_soldier
+	trait=brave
+	728.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+
+1789022 = {
+	name = "Benedixes"
+	dynasty = 1940119 # de Treviris
+	martial = 6
+	diplomacy = 6
+	intrigue = 8
+	stewardship = 6
+	learning = 8
+	culture = gallic
+	religion = arian
+	trait=zealous
+	716.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}

@@ -1,0 +1,7 @@
+500.1.1 = {
+	liege = "d_suessionia"
+}
+
+765.1.1 = {
+	holder = 1789021 # Syagris de Saischon
+}

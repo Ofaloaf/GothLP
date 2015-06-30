@@ -10,3 +10,758 @@
 		death=yes
 	}
 }
+
+168670 = {
+	name="Clodion"
+	dynasty=542
+	religion="norse_pagan"
+	culture="old_frankish"
+	390.1.1 = {
+		birth=yes
+	}
+	
+	450.1.1 = {
+		death=yes
+	}
+}
+
+168671 = {
+	name="Mérovech"
+	dynasty=542
+	religion="norse_pagan"
+	culture="old_frankish"
+	father=168670
+	410.1.1 = {
+		birth=yes
+	}
+	
+	457.1.1 = {
+		death=yes
+	}
+}
+
+168672 = {
+	name="Childéric"
+	dynasty=542
+	religion="norse_pagan"
+	culture="old_frankish"
+	father=168671
+	430.1.1 = {
+		birth=yes
+	}
+	
+	481.1.1 = {
+		death=yes
+	}
+}
+
+168673 = {
+	name="Clovis"
+	dynasty=542
+	religion="norse_pagan"
+	culture="old_frankish"
+	add_trait="brave"
+	add_trait="zealous"
+	add_trait="deceitful"
+	add_trait="greedy"
+	add_trait="proud"
+	add_trait="brilliant_strategist"
+	father=168672
+	466.1.1 = {
+		birth=yes
+	}
+	494.1.1 = {
+		add_spouse=168749
+	}
+	499.1.1 = {
+		religion="arian"
+	}
+	511.11.27 = {
+		death=yes
+	}
+}
+
+168674 = {
+	name="Théoderic"
+	dynasty=542
+	religion="norse_pagan"
+	culture="old_frankish"
+	father=168673
+	485.1.1 = {
+		birth=yes
+	}
+	499.1.1 = {
+		religion="arian"
+	}
+	516.1.1 = {
+		add_spouse=168754
+	}
+	534.1.1 = {
+		death=yes
+	}
+}
+
+168675 = {
+	name="Théodebert"
+	dynasty=542
+	religion="arian"
+	culture="old_frankish"
+	father=168674
+	mother=168754
+	517.1.1 = {
+		birth=yes
+	}
+	
+	548.1.1 = {
+		death=yes
+	}
+}
+
+168676 = {
+	name="Théodebald"
+	dynasty=542
+	religion="arian"
+	culture="old_frankish"
+	father=168675
+	535.1.1 = {
+		birth=yes
+	}
+	
+	555.1.1 = {
+		death=yes
+	}
+}
+
+168677 = {
+	name="Bertoare"
+	female=yes
+	dynasty=542
+	religion="arian"
+	culture="old_frankish"
+	father=168675
+	530.1.1 = {
+		birth=yes
+	}
+	
+	552.1.1 = {
+		death=yes
+	}
+}
+
+168678 = {
+	name="Théodelinde"
+	female=yes
+	dynasty=542
+	religion="arian"
+	culture="old_frankish"
+	father=168676
+	554.1.1 = {
+		birth=yes
+	}
+	
+	627.1.1 = {
+		death=yes
+	}
+}
+
+168679 = {
+	name="Clodomir"
+	dynasty=542
+	religion="norse_pagan"
+	culture="old_frankish"
+	father=168673
+	mother=168749
+	495.1.1 = {
+		birth=yes
+	}
+	499.1.1 = {
+		religion="arian"
+	}
+	514.1.1 = {
+		add_spouse=168752
+	}
+	524.6.25 = {
+		death=yes
+	}
+}
+
+168680 = {
+	name="Childébert"
+	dynasty=542
+	religion="norse_pagan"
+	culture="old_frankish"
+	father=168673
+	mother=168749
+	497.1.1 = {
+		birth=yes
+	}
+	499.1.1 = {
+		religion="arian"
+	}
+	558.12.23 = {
+		death=yes
+	}
+}
+
+168681 = {
+	name="Clotaire"
+	dynasty=542
+	religion="norse_pagan"
+	culture="old_frankish"
+	father=168673
+	mother=168749
+	498.1.1 = {
+		birth=yes
+	}
+	499.1.1 = {
+		religion="arian"
+	}
+	525.1.1 = {
+		add_spouse=168752
+	}
+	561.11.29 = {
+		death=yes
+	}
+}
+
+168682 = {
+	name="Clothilde"
+	female=yes
+	dynasty=542
+	religion="arian"
+	culture="old_frankish"
+	father=168673
+	mother=168749
+	500.1.1 = {
+		birth=yes
+	}
+	
+	531.1.1 = {
+		death=yes
+	}
+}
+
+168683 = {
+	name="Chlodoald"
+	dynasty=542
+	religion="arian"
+	culture="old_frankish"
+	father=168679
+	522.1.1 = {
+		birth=yes
+	}
+	
+	560.1.1 = {
+		death=yes
+	}
+}
+
+168684 = {
+	name="Gonthier"
+	dynasty=542
+	religion="arian"
+	culture="old_frankish"
+	father=168681
+	519.1.1 = {
+		birth=yes
+	}
+	
+	561.1.1 = {
+		death=yes
+	}
+}
+
+168685 = {
+	name="Caribert"
+	dynasty=542
+	religion="arian"
+	culture="old_frankish"
+	father=168681
+	521.1.1 = {
+		birth=yes
+	}
+	
+	568.1.1 = {
+		death=yes
+	}
+}
+
+168686 = {
+	name="Gontran"
+	dynasty=542
+	religion="arian"
+	culture="old_frankish"
+	father=168681
+	525.1.1 = {
+		birth=yes
+	}
+	
+	592.3.28 = {
+		death=yes
+	}
+}
+
+168687 = {
+	name="Sigebert"
+	dynasty=542
+	religion="arian"
+	culture="old_frankish"
+	father=168681
+	535.1.1 = {
+		birth=yes
+	}
+	
+	575.1.1 = {
+		death=yes
+	}
+}
+
+168688 = {
+	name="Chlodosinde"
+	female=yes
+	dynasty=542
+	religion="arian"
+	culture="old_frankish"
+	father=168681
+	520.1.1 = {
+		birth=yes
+	}
+	
+	580.1.1 = {
+		death=yes
+	}
+}
+
+168689 = {
+	name="Chilpéric"
+	dynasty=542
+	religion="arian"
+	culture="old_frankish"
+	father=168681
+	525.1.1 = {
+		birth=yes
+	}
+	
+	584.9.27 = {
+		death=yes
+	}
+}
+
+168690 = {
+	name="Chramme"
+	dynasty=542
+	religion="arian"
+	culture="old_frankish"
+	father=168681
+	530.1.1 = {
+		birth=yes
+	}
+	
+	560.1.1 = {
+		death=yes
+	}
+}
+
+168691 = {
+	name="Childebert"
+	dynasty=542
+	religion="arian"
+	culture="old_frankish"
+	father=168687
+	570.3.2 = {
+		birth=yes
+	}
+	
+	595.3.28 = {
+		death=yes
+	}
+}
+
+
+
+
+
+168692 = {
+	name="Théodebert"
+	dynasty=542
+	religion="arian"
+	culture="old_frankish"
+	father=168691
+	587.1.1 = {
+		birth=yes
+	}
+	
+	612.1.1 = {
+		death=yes
+	}
+}
+
+
+
+
+
+168693 = {
+	name="Théoderic"
+	dynasty=542
+	religion="arian"
+	culture="old_frankish"
+	father=168691
+	588.1.1 = {
+		birth=yes
+	}
+	
+	613.1.1 = {
+		death=yes
+	}
+}
+
+
+
+168694 = {
+	name="Sigebert"
+	dynasty=542
+	religion="arian"
+	culture="old_frankish"
+	father=168693
+	604.1.1 = {
+		birth=yes
+	}
+	
+	613.7.1 = {
+		death=yes
+	}
+}
+
+
+
+168695 = {
+	name="Clotaire"
+	dynasty=542
+	religion="arian"
+	culture="old_frankish"
+	father=168689
+	584.1.1 = {
+		birth=yes
+	}
+	
+	629.10.18 = {
+		death=yes
+	}
+}
+
+
+
+168696 = {
+	name="Dagobert"
+	dynasty=542
+	religion="arian"
+	culture="old_frankish"
+	father=168695
+	606.1.1 = {
+		birth=yes
+	}
+	
+	639.11.1 = {
+		death=yes
+	}
+}
+
+
+
+168697 = {
+	name="Caribert"
+	dynasty=542
+	religion="arian"
+	culture="old_frankish"
+	father=168695
+	608.1.1 = {
+		birth=yes
+	}
+	
+	632.4.8 = {
+		death=yes
+	}
+}
+
+
+
+168698 = {
+	name="Chilpéric"
+	dynasty=542
+	religion="arian"
+	culture="old_frankish"
+	father=168697
+	628.1.1 = {
+		birth=yes
+	}
+	
+	632.5.1 = {
+		death=yes
+	}
+}
+
+
+
+168699 = {
+	name="Clovis"
+	dynasty=542
+	religion="arian"
+	culture="old_frankish"
+	father=168696
+	634.1.1 = {
+		birth=yes
+	}
+	
+	657.11.1 = {
+		death=yes
+	}
+}
+
+
+
+
+168700 = {
+	name="Sigebert"
+	dynasty=542
+	religion="arian"
+	culture="old_frankish"
+	father=168696
+	630.10.9 = {
+		birth=yes
+	}
+	
+	656.2.1 = {
+		death=yes
+	}
+}
+
+
+
+168701 = {
+	name="Clotaire"
+	dynasty=542
+	religion="arian"
+	culture="old_frankish"
+	father=168699
+	652.1.1 = {
+		birth=yes
+	}
+	
+	673.5.9 = {
+		death=yes
+	}
+}
+
+
+
+168702 = {
+	name="Childéric"
+	dynasty=542
+	religion="arian"
+	culture="old_frankish"
+	father=168699
+	653.1.1 = {
+		birth=yes
+	}
+	669.1.1 = {
+		add_spouse=168705
+	}
+	675.1.1 = {
+		death=yes
+	}
+}
+
+168703 = {
+	name="Théoderic"
+	dynasty=542
+	religion="arian"
+	culture="old_frankish"
+	father=168699
+	654.1.1 = {
+		birth=yes
+	}
+	670.1.1 = {
+		add_spouse=190418 #DODA (Chrothechildis/Rotilde), Daughter of ANSEGISEL
+	}
+	691.4.12 = {
+		death=yes
+	}
+}
+
+
+
+168704 = {
+	name="Dagobert"
+	dynasty=542
+	religion="arian"
+	culture="old_frankish"
+	father=168700
+	652.1.1 = {
+		birth=yes
+	}
+	
+	679.12.23 = {
+		death=yes
+	}
+}
+
+
+
+
+
+168705 = {
+	name="Bilhilde"
+	female=yes
+	dynasty=542
+	religion="arian"
+	culture="old_frankish"
+	father=168700
+	653.1.1 = {
+		birth=yes
+	}
+	
+	675.1.1 = {
+		death=yes
+	}
+}
+
+
+
+168706 = {
+	name="Chilpéric"
+	dynasty=542
+	religion="arian"
+	culture="old_frankish"
+	father=168702
+	mother=168705
+	670.1.1 = {
+		birth=yes
+	}
+	
+	721.2.13 = {
+		death=yes
+	}
+}
+
+168707 = {
+	name="Childéric"
+	dynasty=542
+	religion="arian"
+	culture="old_frankish"
+	add_trait="slow"
+	father=168706
+	714.1.1 = {
+		birth=yes
+	}
+	
+	800.1.1 = {
+		death=yes
+	}
+}
+
+168708 = {
+	name="Théoderic"
+	dynasty=542
+	religion="arian"
+	culture="old_frankish"
+	father=168707
+	750.1.1 = {
+		birth=yes
+	}
+	
+	800.1.1 = {
+		death=yes
+	}
+}
+
+
+
+
+168709 = {
+	name="Clovis"
+	dynasty=542
+	religion="arian"
+	culture="old_frankish"
+	father=168703
+	mother=190418 #DODA (Chrothechildis/Rotilde), Daughter of ANSEGISEL
+	681.1.1 = {
+		birth=yes
+	}
+	
+	695.1.1 = {
+		death=yes
+	}
+}
+
+
+
+
+168710 = {
+	name="Clotaire"
+	dynasty=542
+	religion="arian"
+	culture="old_frankish"
+	father=168703
+	mother=190418 #DODA (Chrothechildis/Rotilde), Daughter of ANSEGISEL
+	682.1.1 = {
+		birth=yes
+	}
+	
+	719.1.1 = {
+		death=yes
+	}
+}
+
+
+
+168711 = {
+	name="Childébert"
+	dynasty=542
+	religion="arian"
+	culture="old_frankish"
+	father=168703
+	mother=190418 #DODA (Chrothechildis/Rotilde), Daughter of ANSEGISEL
+	683.1.1 = {
+		birth=yes
+	}
+	
+	711.4.14 = {
+		death=yes
+	}
+}
+
+
+
+
+168712 = {
+	name="Dagobert"
+	dynasty=542
+	religion="arian"
+	culture="old_frankish"
+	father=168711
+	699.1.1 = {
+		birth=yes
+	}
+	
+	715.12.31 = {
+		death=yes
+	}
+}
+
+
+
+
+168713 = {
+	name="Théoderic"
+	dynasty=542
+	religion="arian"
+	culture="old_frankish"
+	father=168712
+	715.1.1 = {
+		birth=yes
+	}
+	
+	737.1.1 = {
+		death=yes
+	}
+}

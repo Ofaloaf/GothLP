@@ -228,6 +228,72 @@ province_event = {
 	}
 }
 
+character_event = {
+	id = CM.8
+	desc = "EVTDESC55002"
+	picture = GFX_evt_stone_church
+	
+	trigger = {
+		year = 950
+		culture = norman
+		any_demesne_province = {
+			empire = {
+				title = e_gallia
+			}
+			OR = {
+				culture = gallic
+				culture = gothicromance
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1200
+		modifier = {
+			factor = 0.75
+			learning = 7
+		}
+		modifier = {
+			factor = 0.75
+			learning = 9
+		}
+		modifier = {
+			factor = 0.75
+			learning = 11
+		}
+		modifier = {
+			factor = 0.75
+			learning = 13
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { learning = 5 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { learning = 3 }
+		}
+		modifier = {
+			factor = 2.0
+			NOT = { learning = 1 }
+		}
+	}
+
+	option = {
+		name = "EVTOPTA55002"
+		culture = gothicromance
+		random_demesne_province = {
+			limit = {
+				empire = {
+					title = e_gallia
+				}
+				culture = gothic
+			}
+			culture = gothicromance
+		}
+	}
+}
+
 # Suebi province converts to Italian
 province_event = {
 	id = CM.9

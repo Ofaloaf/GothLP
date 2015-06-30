@@ -270,5 +270,10 @@
 
 405054 = {
 	name = "Edekosunus"
-	culutre = gothic
+	culture = gothic
+}
+
+405055 = {
+	name = "af Turon"
+	culture = gothic
 }

@@ -328,3 +328,43 @@
 		death = yes
 	}
 }
+
+611023 = {
+	name = "Hunifridus"
+	dynasty = 405031
+	culture = gothic
+	religion = arian
+	719.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death=yes
+	}
+}
+
+611024 = {
+	name = "Gudisal"
+	dynasty = 405015 # Apiscalingus
+	culture = gothic
+	religion = arian
+	725.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death=yes
+	}
+}
+
+611025 = {
+	name = "Gaiorgeis"
+	dynasty = 405055 # af Turon
+	culture = gothic
+	religion = arian
+	trait=scholarly_theologian
+	716.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death=yes
+	}
+}

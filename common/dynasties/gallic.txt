@@ -582,3 +582,8 @@
 	name = "Apollinaris"
 	culture = gallic
 }
+
+1940119 = {
+	name = "de Treviris"
+	culture = gallic
+}

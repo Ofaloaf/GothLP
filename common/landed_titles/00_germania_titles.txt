@@ -44,6 +44,16 @@ e_germany = {
 		d_ostfalia = {
 			color={ 155 147 180 }
 			color2={ 255 255 255 }
+
+			pommeranian = "Golomacze"
+			carantanian = "Golomacze"
+			traki = "Glomacze"
+			rimlyani = "Glomacze"
+
+			alan = "Golominzia"
+			feretolan = "Golominzia"
+			jasi = "Golominzia"
+			sarmatian = "Golominzia"
 			
 			capital = 310 #Anhalt
 
@@ -330,6 +340,14 @@ e_germany = {
 			capital = 312 #Meissen
 
 			pommeranian = "Sorbia" # Brennaburg
+			carantanian = "Sorbia"
+			traki = "Sorbia"
+			rimlyani = "Sorbia"
+
+			alan = "Stodorania"
+			feretolan = "Stodorania"
+			jasi = "Stodorania"
+			sarmatian = "Stodorania"
 				
 			c_brandenburg = {
 				color={ 123 90 90 }
@@ -338,6 +356,11 @@ e_germany = {
 				# Hevellia
 
 				pommeranian = Brennabor
+
+				alan = "Havelyston"
+				feretolan = "Havelyston"
+				jasi = "Havelyston"
+				sarmatian = "Havelystan"
 				
 				b_brandenburg = {
 					pommeranian = Brennabor
@@ -363,7 +386,15 @@ e_germany = {
 				color={ 58 174 61 }
 				color2={ 255 255 255 }
 
-				pommeranian = Nisani
+				pommeranian = Misani
+				carantanian = "Missni"
+				traki = "Missni"
+				rimliani = "Misnia"
+
+				alan = "Misna"
+				feretolan = "Misna"
+				jasi = "Misna"
+				sarmatian = "Misna"
 				
 				b_dresden = {
 					pommeranian = Drezdany
@@ -1492,14 +1523,22 @@ e_germany = {
 
 				old_saxon = "Babenberch"
 				old_frankish = "Bambärch"
-				boarisch = "Babenberg"
+
+				carantanian = "Babenpurk"
+				pommeranian = "Babenpurk"
+				traki = "Babenpurk"
+				rimlyani = "Babenpurk"
 			
 				b_ansbach = {
 				}
 				b_bamberg = {
 					old_saxon = "Babenberch"
 					old_frankish = "Bambärch"
-					boarisch = "Babenberg"
+
+					carantanian = "Babenpurk"
+					pommeranian = "Babenpurk"
+					traki = "Babenpurk"
+					rimlyani = "Babenpurk"
 				}
 				b_babenberg = {
 				}
@@ -1520,6 +1559,8 @@ e_germany = {
 	k_francia = {
 		color={ 245 100 20 }
 		color2={ 220 220 20 }
+
+		old_frankish = "Frankia"
 		
 		culture = dutch
 		
@@ -1645,6 +1686,8 @@ e_germany = {
 				b_cadzand = {
 				}
 				b_vlissingen = {
+					old_frankish = "Flessinghe"
+					frisian = "Flissingen"
 				}
 				b_renesse = {
 				}
@@ -1673,12 +1716,22 @@ e_germany = {
 			c_ostfriesland = {
 				color={ 190 32 16 }
 				color2={ 255 255 255 }
+
+				old_saxon = "Oostfreesland"
+				dutch = "Oost-Friesland"
 			
 				b_emden = {
 				}
 				b_aurich = {
+					old_frankish = "Aurechove"
+					old_saxon = "Aurechove"
+					frisian = "Auwerk"
 				}
 				b_borkum = {
+					roman = "Burchana"
+					greek = "Burchana"
+
+					frisian = "Boarkum"
 				}
 				b_norden = {
 				}
@@ -1694,14 +1747,26 @@ e_germany = {
 			c_frisia = {
 				color={ 170 80 15 }
 				color2={ 255 255 255 }
+
+				old_saxon = "Freesland"
+				frisian = "Fryslân"
+				german = "Friesland"
+				dutch = "Friesland"
 			
 				b_groningen = {
+					old_frankish = "Groninga"
+					frisian = "Grins"
+					german = "Gröningen"
 				}
 				b_leeuwarden = {
+					old_frankish = "Lintarwrde"
+					frisian = "Ljouwert"
 				}
 				b_stavoren = {
+					frisian = "Starum"
 				}
 				b_bolsward = {
+					frisian = "Boalsert"
 				}
 				b_franeker = {
 				}
@@ -1710,6 +1775,8 @@ e_germany = {
 				b_assen = {
 				}
 				b_harlingen = {
+					old_saxon = "Harns"
+					frisian = "Harns"
 				}
 			}
 		}
@@ -1720,16 +1787,27 @@ e_germany = {
 			c_gelre = {
 				color={ 139 66 97 }
 				color2={ 255 255 255 }
+
+				german = "Geldern"
 			
 				b_nijmegen = {
+					frisian = "Nymwegen"
+					german = "Nimwegen"
 				}
 				b_zutphen = {
+					frisian = "Sutfen"
+					german = "Zütphen"
 				}
 				b_deventer = {
 				}
 				b_arnhem = {
+					old_frankish = "Arentheym"
+					gothic = "Arenthaim"
+					frisian = "Arnhim"
+					german = "Arnheim"
 				}
 				b_zwolle = {
+					frisian = "Swol"
 				}
 				b_kampen = {
 				}
@@ -1741,10 +1819,13 @@ e_germany = {
 			c_sticht = {
 				color={ 223 198 64 }
 				color2={ 255 255 255 }
+
+				frisian = "Utert"
 			
 				b_woerden = {
 				}
 				b_utrecht = {
+					frisian = "Utert"
 				}
 				b_dorestad = {
 				}
@@ -1860,8 +1941,11 @@ e_germany = {
 			c_oldenburg = {
 				color={ 147 130 118 }
 				color2={ 255 255 255 }
+
+				frisian = "Ooldenbuurich"
 				
 				b_oldenburg = {
+					frisian = "Ooldenbuurich"
 				}
 				b_cloppenburg = {
 				}
@@ -1881,8 +1965,11 @@ e_germany = {
 			c_osnabruck = {
 				color={ 213 213 213 }
 				color2={ 255 255 255 }
+
+				dutch = "Osenbrugge"
 				
 				b_osnabruck = {
+					dutch = "Osenbrugge"
 				}
 				b_lingen = {
 				}
@@ -1930,6 +2017,11 @@ e_germany = {
 			c_thuringen = {
 				color={ 66 126 157 }
 				color2={ 255 255 255 }
+
+				pommeranian = "Turynska"
+				carantanian = "Duryngska"
+				traki = "Tiringska"
+				rimlyani = "Tirinska"
 			
 				b_erfurt = {
 				}
@@ -2008,6 +2100,11 @@ e_germany = {
 		d_bavaria = {
 			color={ 20 188 131 }
 			color2={ 255 255 255 }
+
+			pommeranian = "Baiovarsko"
+			carantanian = "Baiuvarska"
+			traki = "Baiovarska"
+			rimlyani = "Baiovarija"
 			
 			capital = 360 #Oberbayern
 			

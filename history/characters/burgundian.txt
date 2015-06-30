@@ -1,0 +1,38 @@
+3338001 = {
+	name = "Gundobad"
+	dynasty = 443012 # Espersen
+	culture = burgundian
+	religion = arian
+	722.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+
+3338002 = {
+	name = "Ortwin"
+	dynasty = 443011 # Rydborg
+	culture = burgundian
+	religion = arian
+	731.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+
+3338003 = {
+	name = "Ebrimund"
+	dynasty = 443015 # Arboe
+	culture = burgundian
+	religion = arian
+	738.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}

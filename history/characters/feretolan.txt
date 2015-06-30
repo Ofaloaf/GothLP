@@ -55,3 +55,17 @@
 		death=yes
 	}
 }
+
+8666005 = {
+	name = "Skilur"
+	dynasty = 8771008
+	culture="feretolan"
+	religion="tengri_pagan"
+	728.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
