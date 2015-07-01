@@ -19,7 +19,7 @@ province_event = {
 	trigger = {
 		year = 950
 		culture = norse
-		kingdom = { title = k_sweden }
+		kingdom = { title = k_gotarike }
 		NOT = { year = 1150 }
 		OR = {
 			AND = {
@@ -41,7 +41,7 @@ province_event = {
 				owner = { culture = geatish }
 			}
 		}
-		culture = swedish
+		culture = geatish
 	}
 	option = {
 		name = EVTOPTB_TOG_2000

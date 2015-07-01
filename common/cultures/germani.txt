@@ -103,13 +103,13 @@ central_germanic = {
 		male_names = {
 			Adeqisio Adoric Agimadus Agriulfum Alamiro Algaster Anila Ansuar Argiovitus Ariamir Arosinda 
 			Audeca Albrecht_Albert Andreas_Andrew
-			Badamundus Baldemarius Balderedo Baltarius Baudemiro Becilla Berteiro Bonesindus Boniza 
+			Badamundus Baldemarius Baldered Baltarius Baudemir Becilla Bertir Bonesindus Boniza 
 			Benedikt_Benedict
 			Cagildo Cartemir Chararici Commundus Crodemir 
 			Dagaredus Daildus Damiro Docemir Donazarius Donegildus Dulcemirus 
 			Eboric Egenio_Eugene Eimiro Eirigu Eisindus Eldegotus Eldesindus Elperic Engomir Ensaldus 
 			Ermaric Evosind Erchangar Ernst
-			Fagildus Felmir Fralenko Framuldo Francolin Fredoaldus Froatingus Fromildus Frumeirus 
+			Fagildus Felmir Fralenko Framuld Francolin Fredoaldus Froatingus Fromildus Frumeirus 
 			Franziskus_Francis
 			Gardingus Gaudesind Gomedei Gomulfus Gresumarus Gudesteus Gumarius Gundivald Guntatus Gunterotis
 			Gabinus Georg_George

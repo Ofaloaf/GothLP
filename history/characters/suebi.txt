@@ -1,6 +1,6 @@
 1313001 = {
 	name="Odericus"
-	dynasty=713001 # Gabining
+	dynasty=713009 # Gabretanus
 	religion=catholic
 	culture=suebi
 	diplomacy=7
@@ -34,5 +34,44 @@
 	800.1.1={
 		death=yes
 
+	}
+}
+
+1313003 = {
+	name="Notarius"
+	dynasty=713002 # Switering
+	religion=catholic
+	culture=suebi
+	730.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+1313004 = {
+	name="Vangio"
+	dynasty=713010
+	religion=catholic
+	culture=suebi
+	722.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+1313005 = {
+	name = "Gabinus"
+	dynasty = 713001 # Gabining
+	religion=catholic
+	culture=suebi
+	741.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
 	}
 }

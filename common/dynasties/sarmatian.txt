@@ -62,3 +62,8 @@
 	name = "Ostoja"
 	culture = sarmatian
 }
+
+514014 = {
+	name = "Taifaliy"
+	culture = sarmatian
+}

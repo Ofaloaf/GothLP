@@ -1581,6 +1581,20 @@ e_russia = {
 			swedish = Könugård
 			norwegian = Kønugård
 			danish = Kønugård
+
+			turkish = Sambat
+			pecheneg = Sambat
+			cuman = Sambat
+			khazar = Sambat
+			bolghar = Sambat
+			avar = Sambat
+			karluk = Sambat
+			kirghiz = Sambat
+
+			alan = Sambat
+			feretolan = Sambat
+			jasi = Sambat
+			sarmatian = Sambat
 			
 			pagan_coa = {
 				template = 0
@@ -1624,12 +1638,40 @@ e_russia = {
 				swedish = Könugård
 				norwegian = Kønugård
 				danish = Kønugård
+
+				turkish = Sambat
+				pecheneg = Sambat
+				cuman = Sambat
+				khazar = Sambat
+				bolghar = Sambat
+				avar = Sambat
+				karluk = Sambat
+				kirghiz = Sambat
+
+				alan = Sambat
+				feretolan = Sambat
+				jasi = Sambat
+				sarmatian = Sambat
 	
 				b_kiev = {
 					norse = Könugarğr
 					swedish = Könugård
 					norwegian = Kønugård
 					danish = Kønugård
+
+					turkish = Sambat
+					pecheneg = Sambat
+					cuman = Sambat
+					khazar = Sambat
+					bolghar = Sambat
+					avar = Sambat
+					karluk = Sambat
+					kirghiz = Sambat
+
+					alan = Sambat
+					feretolan = Sambat
+					jasi = Sambat
+					sarmatian = Sambat
 				}
 				b_yuriev = {
 					holy_site = slavic_pagan
@@ -1700,6 +1742,11 @@ e_russia = {
 			c_peremyshl = {
 				color={ 254 255 218 }
 				color2={ 255 255 255 }
+
+				alan = "Lendiziy"
+				feretolan = "Lendiziy"
+				jasi = "Lendizi"
+				sarmatian = "Lendizi"
 	
 				b_peremyshl = {
 				}
@@ -1728,6 +1775,11 @@ e_russia = {
 			c_vladimir_volynsky = {
 				color={ 255 255 223 }
 				color2={ 255 255 255 }
+
+				alan = "Budyatichiy"
+				feretolan = "Budyatichiy"
+				jasi = "Budyatichiy"
+				sarmatian = "Budyatichiy"
 	
 				b_vladimirvolynsky = {
 				}
@@ -1749,8 +1801,21 @@ e_russia = {
 			c_beresty = {
 				color={ 255 255 225 }
 				color2={ 255 255 255 }
+
+				alan = "Beresta"
+				feretolan = "Beresta"
+				jasi = "Beresta"
+				sarmatian = "Beresta"
+
+				lithuanian = "Brasta"
 	
 				b_beresty = {
+					alan = "Beresta"
+					feretolan = "Beresta"
+					jasi = "Beresta"
+					sarmatian = "Beresta"
+
+					lithuanian = "Brasta"
 				}
 				b_bielsk = {
 				}

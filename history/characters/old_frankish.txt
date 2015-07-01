@@ -11,6 +11,32 @@
 	}
 }
 
+151002 = {
+	name=Dagomar
+	dynasty=1999008 # Tencterus
+	religion=arian
+	culture=old_frankish
+	721.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+151003 = {
+	name=Karl
+	dynasty=1999011
+	religion=arian
+	culture=old_frankish
+	739.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
 168670 = {
 	name="Clodion"
 	dynasty=542
@@ -588,8 +614,6 @@
 	}
 }
 
-
-
 168704 = {
 	name="Dagobert"
 	dynasty=542
@@ -604,10 +628,6 @@
 		death=yes
 	}
 }
-
-
-
-
 
 168705 = {
 	name="Bilhilde"
@@ -624,8 +644,6 @@
 		death=yes
 	}
 }
-
-
 
 168706 = {
 	name="Chilpéric"
@@ -674,9 +692,6 @@
 	}
 }
 
-
-
-
 168709 = {
 	name="Clovis"
 	dynasty=542
@@ -692,9 +707,6 @@
 		death=yes
 	}
 }
-
-
-
 
 168710 = {
 	name="Clotaire"
@@ -712,8 +724,6 @@
 	}
 }
 
-
-
 168711 = {
 	name="Childébert"
 	dynasty=542
@@ -730,9 +740,6 @@
 	}
 }
 
-
-
-
 168712 = {
 	name="Dagobert"
 	dynasty=542
@@ -747,9 +754,6 @@
 		death=yes
 	}
 }
-
-
-
 
 168713 = {
 	name="Théoderic"

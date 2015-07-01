@@ -420,6 +420,11 @@ e_germany = {
 				color2={ 255 255 255 }
 
 				pommeranian = Luzycka
+
+				alan = "Milcenyston"
+				feretolan = "Milcenyston"
+				jasi = "Milcenyston"
+				sarmatian = "Milcenistan"
 				
 				b_gorlitz = {
 					pommeranian = Zhorjelc
@@ -453,11 +458,21 @@ e_germany = {
 			
 			pommeranian = Obotritia
 
+			alan = "Abodriti"
+			feretolan = "Abodriti"
+			jasi = "Abodriti"
+			sarmatian = "Abodriti"
+
 			c_mecklemburg = {
 				color={ 207 207 207 }
 				color2={ 255 255 255 }
 
 				pommeranian = Weligrad
+
+				alan = "Abodriqaew"
+				feretolan = "Abodriqaew"
+				jasi = "Abodriqaew"
+				sarmatian = "Abodriqaew"
 				
 				b_mecklemburg = {
 					pommeranian = Weligrad
@@ -485,6 +500,11 @@ e_germany = {
 				color2={ 255 255 255 }
 
 				pommeranian = Rastokú
+
+				alan = "Varnova"
+				feretolan = "Varnova"
+				jasi = "Varnova"
+				sarmatian = "Varnova"
 				
 				b_rostock = {
 					pommeranian = Rastokú
@@ -512,6 +532,11 @@ e_germany = {
 				color2={ 255 255 255 }
 
 				pommeranian = Dymin
+
+				alan = "Timaeni"
+				feretolan = "Timaeni"
+				jasi = "Timaeni"
+				sarmatian = "Timaeni"
 				
 				b_waren = {
 				}
@@ -539,6 +564,11 @@ e_germany = {
 				color2={ 255 255 255 }
 
 				pommeranian = Rana
+
+				alan = "Rujaniy"
+				feretolan = "Rujaniy"
+				jasi = "Rujaniy"
+				sarmatian = "Rujaniy"
 				
 				b_charenza = {
 				}
@@ -574,6 +604,11 @@ e_germany = {
 				color2={ 255 255 255 }
 
 				pommeranian = Wologoszcz
+
+				alan = "Alogosti"
+				feretolan = "Alogosti"
+				jasi = "Alogosti"
+				sarmatian = "Alogosti"
 			
 				b_wolgast = {
 					pommeranian = Wologoszcz
@@ -722,7 +757,7 @@ e_germany = {
 			latine = "Agri Decumates"
 			gallic = "Agri Decumates"
 			hispani = "Agri Decumates"
-			africanu = "DEcumatia"
+			africanu = "Decumatia"
 			dalmatian = "Decumatia"
 			brithenig = "Decumatia"
 			greek = "Decumatia"
@@ -853,7 +888,6 @@ e_germany = {
 			latine = "Svevia"
 
 			suebi = "Suebia"
-			boarisch = "Suaben" # Schwobm
 			german = "Schwaben"
 			
 			capital = 249 #Schwaben
@@ -897,7 +931,7 @@ e_germany = {
 				latine = "Guntia"
 				gallic = "Guntia"
 				hispani = "Guntia"
-				#jovian = "Guntia"
+				africanu = "Guntia"
 				brithenig = "Guntia"
 				greek = "Guntia"
 
@@ -909,7 +943,7 @@ e_germany = {
 					latine = "Guntia"
 					gallic = "Guntia"
 					hispani = "Guntia"
-					#jovian = "Guntia"
+					africanu = "Guntia"
 					brithenig = "Guntia"
 					greek = "Guntia"
 
@@ -1863,8 +1897,11 @@ e_germany = {
 			}
 		}
 		d_angaria = {
+			color = { 64 91 157 }
+			color2= { 255 255 255 }
+
 			c_celle = {
-				color={ 116 92 39 }
+				color={ 84 111 177 }
 				color2={ 255 255 255 }
 
 				# Wigmodia

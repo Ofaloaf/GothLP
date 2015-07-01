@@ -52,6 +52,11 @@ e_scythia = {
 			c_plock = {
 				color={ 127 30 2 }
 				color2={ 255 255 255 }
+
+				alan = "Plokensiy"
+				feretolan = "Plokensiy"
+				jasi = "Plokensiy"
+				sarmatian = "Plokensiy"
 				
 				b_plock = {
 				}
@@ -112,6 +117,11 @@ e_scythia = {
 				norse = Lebus
 				norwegian = Lebus
 				danish = Lebus
+
+				alan = "Leubusiy"
+				feretolan = "Leubusiy"
+				jasi = "Leubusiy"
+				sarmatian = "Leubusiy"
 			
 				b_lubusz = {
 					german = Lebus
@@ -144,6 +154,11 @@ e_scythia = {
 				norse = Gnesen
 				norwegian = Gnesen
 				danish = Gnesen
+
+				alan = "Lekhitiy"
+				feretolan = "Lekhity"
+				jasi = "Lekhity"
+				sarmatian = "Lekhity"
 			
 				b_gniezno = {
 					german = Gnesen
@@ -176,6 +191,11 @@ e_scythia = {
 				norse = Posen
 				norwegian = Posen
 				danish = Posen
+
+				alan = "Poznaniqaew"
+				feretolan = "Posnaniqaew"
+				jasi = "Posnaniqaew"
+				sarmatian = "Posnaniqaew"
 			
 				b_poznan = {
 					german = Posen
@@ -202,6 +222,11 @@ e_scythia = {
 			c_kaliskie = {
 				color={ 155 6 20}
 				color2={ 255 255 255 }
+
+				alan = "Kalyston"
+				feretolan = "Kalyston"
+				jasi = "Kalyston"
+				sarmatian = "Kalystan"
 			
 				b_kalisz = {
 				}
@@ -313,14 +338,24 @@ e_scythia = {
 				color={ 218 37 15 }
 				color2={ 255 255 255 }
 				
-				german = Uppeln
+				german = Oppeln
 				swedish = Uppeln
 				norse = Uppeln
 				norwegian = Uppeln
 				danish = Uppeln
+
+				pommeranian = "Opolanska"
+				carantanian = "Opolinska"
+				traki = "Opolinska"
+				rimlyani = "Opolinija"
+
+				alan = "Opolaniy"
+				feretolan = "Opolaniy"
+				jasi = "Opolaniy"
+				sarmatian = "Opolaniy"
 			
 				b_opole = {
-					german = Uppeln
+					german = Oppeln
 					swedish = Uppeln
 					norse = Uppeln
 					norwegian = Uppeln
@@ -350,6 +385,11 @@ e_scythia = {
 				norse = Teschen
 				norwegian = Teschen
 				danish = Teschen
+
+				alan = "Oldza"
+				feretolan = "Oldza"
+				jasi = "Oldza"
+				sarmatian = "Oldza"
 			
 				b_cieszyn = {
 					german = Teschen
@@ -389,6 +429,11 @@ e_scythia = {
 				norse = Krakau
 				norwegian = Krakau
 				danish = Krakau
+
+				alan = "Krakyqæw"
+				feretolan = "Krakyqæw"
+				jasi = "Krakyqæw"
+				sarmatian = "Krakikhaew"
 			
 				b_krakow = {
 					german = Krakau
@@ -396,6 +441,11 @@ e_scythia = {
 					norse = Krakau
 					norwegian = Krakau
 					danish = Krakau
+
+					alan = "Krakyqæw"
+					feretolan = "Krakyqæw"
+					jasi = "Krakyqæw"
+					sarmatian = "Krakikhaew"
 				}
 				b_jedrzejow = {
 				}
@@ -421,6 +471,11 @@ e_scythia = {
 				norse = Sandez
 				norwegian = Sandez
 				danish = Sandez
+
+				alan = "Kamienica"
+				feretolan = "Kamienica"
+				jasi = "Kamienica"
+				sarmatian = "Kamienica"
 			
 				b_nowysacz = {
 					german = "Neu Sandez"
@@ -447,8 +502,17 @@ e_scythia = {
 			c_sandomierskie = {
 				color={ 147 16 2 }
 				color2={ 255 255 255 }
+
+				alan = "Sadzmeriqæw"
+				feretolan = "Sadzmeriqæw"
+				jasi = "Sadzmeriqæw"
+				sarmatian = "Sadzmeriqæw"
 			
 				b_sandomierz = {
+					alan = "Sadzmeriqæw"
+					feretolan = "Sadzmeriqæw"
+					jasi = "Sadzmeriqæw"
+					sarmatian = "Sadzmeriqæw"
 				}
 				b_koprzywnica = {
 				}
@@ -481,8 +545,15 @@ e_scythia = {
 				norse = Schieratz
 				norwegian = Schieratz
 				danish = Schieratz
+
+				alan = "Varta"
+				feretolan = "Varta"
+				jasi = "Varta"
+				sarmatian = "Varta"
 			
 				b_sieradz = {
+					# Syradia
+
 					german = Schieratz
 					swedish = Schieratz
 					norse = Schieratz
@@ -507,6 +578,11 @@ e_scythia = {
 			c_kujawy = {
 				color={ 210 50 10 }
 				color2={ 255 255 255 }
+
+				alan = "Kujaviy"
+				feretolan = "Kujaviy"
+				jasi = "Kujaviy"
+				sarmatian = "Kujaviy"
 			
 				b_inowroclaw = {
 				}

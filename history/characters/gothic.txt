@@ -368,3 +368,51 @@
 		death=yes
 	}
 }
+
+611026 = {
+	name = "Marivadus"
+	dynasty = 405056 # Angantiring
+	culture = gothic
+	religion = arian
+	715.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death=yes
+	}
+}
+
+611027 = {
+	name = "Fravittas"
+	dynasty = 405030 # Ufargudja
+	culture = gothic
+	religion = arian
+	diplomacy = 8
+	martial = 6
+	intrigue = 10
+	stewardship = 6
+	learning = 6
+	trait="zealous"
+	trait="deceitful"
+	trait="trusting"
+	trait="gregarious"
+	726.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death=yes
+	}
+}
+
+611028 = {
+	name = "Fulkawins"
+	dynasty = 405024 # Hairto
+	culture = gothic
+	religion = arian
+	734.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death=yes
+	}
+}

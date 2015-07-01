@@ -59,3 +59,41 @@
 		death=yes
 	}
 }
+
+1446002 = {
+	name = "Boriwoj"
+	dynasty = 1042800
+	religion = slavic_pagan
+	culture = pommeranian
+	733.1.1 = {
+		birth = yes
+	}
+	799.1.1 = {
+		death = yes
+	}
+}
+1446003 = {
+	name = "Bretislav"
+	dynasty = 1042800
+	religion = slavic_pagan
+	culture = pommeranian
+	father = 1446002
+	760.1.1 = {
+		birth = yes
+	}
+	822.1.1 = {
+		death = yes
+	}
+}
+1446004 = { # 194065
+	name = "Sobieslav"
+	dynasty = 1042801
+	religion = slavic_pagan
+	culture = pommeranian
+	733.1.1 = {
+		birth = yes
+	}
+	799.1.1 = {
+		death = yes
+	}
+}

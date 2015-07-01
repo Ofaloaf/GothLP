@@ -38,7 +38,7 @@ province_event = {
 	}
 }
 
-# Lombard province converts to Italian
+# Avar province converts to Italian
 province_event = {
 	id = CM.2
 	desc = EVTDESC_CM_2
@@ -235,7 +235,7 @@ character_event = {
 	
 	trigger = {
 		year = 950
-		culture = norman
+		culture = gothic
 		any_demesne_province = {
 			empire = {
 				title = e_gallia
@@ -322,6 +322,72 @@ province_event = {
 	option = {
 		name = EVTOPTA_CM_9
 		culture = italian
+	}
+}
+
+character_event = {
+	id = CM.10
+	desc = "EVTDESC55002"
+	picture = GFX_evt_stone_church
+	
+	trigger = {
+		year = 1000
+		culture = traki
+		any_demesne_province = {
+			empire = {
+				title = e_byzantium
+			}
+			culture = greek
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1200
+		modifier = {
+			factor = 0.75
+			learning = 7
+		}
+		modifier = {
+			factor = 0.75
+			learning = 9
+		}
+		modifier = {
+			factor = 0.75
+			learning = 11
+		}
+		modifier = {
+			factor = 0.75
+			learning = 13
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { learning = 5 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { learning = 3 }
+		}
+		modifier = {
+			factor = 2.0
+			NOT = { learning = 1 }
+		}
+	}
+
+	option = {
+		name = "EVTOPTA55002"
+		culture = rimlyani
+		random_demesne_province = {
+			limit = {
+				empire = {
+					title = e_byzantium
+				}
+				OR = {
+					culture = greek
+					culture = traki
+				}
+			}
+			culture = rimlyani
+		}
 	}
 }
 

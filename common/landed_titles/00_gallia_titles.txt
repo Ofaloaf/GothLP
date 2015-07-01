@@ -5,18 +5,20 @@ e_gallia = {
 	capital = 227
 
 	k_gothia = {
-		color = { 79 128 114 } # 89 110 104
+		color = { 59 108 94 } # 79 128 114
 		color2= { 255 255 255 }
 
 		capital = 227
 
 		culture = gothic
 
+		gothicromance = "Gautia"
+
 		d_lugdunensis = {
 			color={ 82 120 48 }
 			color2={ 255 255 255 }
 
-			gothicromance = "Lionesa"
+			gothicromance = "Liunesa"
 			
 			capital = 227 # Lyon
 			
@@ -26,7 +28,7 @@ e_gallia = {
 
 				# Lugdunum
 
-				gothicromance = Lion
+				gothicromance = Liun
 				
 				b_brindas = {
 					# Briendaco
@@ -40,7 +42,7 @@ e_gallia = {
 					# Lugdunum
 
 					gothic = "Lugduum"
-					gothicromance = "Lion"
+					gothicromance = "Liun"
 
 					german = "Leyden"
 
@@ -102,6 +104,9 @@ e_gallia = {
 			color2={ 255 255 255 }
 			
 			capital = 135 # Bourgogne
+
+			gothic = "Gothonia"
+			gothicromance = "Gautonia"
 			
 			c_besancon = {
 				color={ 71 135 173 }
@@ -168,6 +173,7 @@ e_gallia = {
 		d_divio = {
 			color={ 218 224 228 }
 			color2={ 255 255 255 }
+
 			capital = 136 # Dijon
 			
 			c_dijon = {
@@ -3413,8 +3419,12 @@ e_gallia = {
 			c_koln = {
 				color={ 114 167 65 }
 				color2={ 255 255 255 }
+
+				dutch = "Keulen"
 			
 				b_koln = {
+					dutch = "Keulen"
+
 					holy_site = catholic
 				}
 				b_berg = {

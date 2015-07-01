@@ -1,0 +1,31 @@
+207001 = {
+	name="Ouaras"
+	dynasty=514014 # Taifaliy
+	martial=8
+	diplomacy=5
+	intrigue=2
+	stewardship=4
+	religion="arian"
+	culture="sarmatian"
+	trait="humble"
+	trait="honest"
+	728.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+207002 = {
+	name="Bagdoch"
+	dynasty=514010 # Iaxamat
+	religion="tengri_pagan"
+	culture="sarmatian"
+	725.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
