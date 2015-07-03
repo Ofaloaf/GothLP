@@ -1,4 +1,5 @@
 760.1.1 = {
+	liege = "d_trondelag"
 	holder = 194013
 }
 

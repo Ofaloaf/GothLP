@@ -67,3 +67,43 @@
 	name = "Taifaliy"
 	culture = sarmatian
 }
+
+514015 = {
+	name = "Qola"
+	culture = sarmatian
+}
+
+514016 = {
+	name = "Raro"
+	culture = sarmatian
+}
+
+514017 = {
+	name = "Dzaw"
+	culture = sarmatian
+}
+
+514018 = {
+	name = "Edis"
+	culture = sarmatian
+}
+
+514019 = {
+	name = "Buzala"
+	culture = sarmatian
+}
+
+514020 = {
+	name = "Britat"
+	culture = sarmatian
+}
+
+514021 = {
+	name = "Kuaisa"
+	culture = sarmatian
+}
+
+514022 = {
+	name = "Naezidzin"
+	culture = sarmatian
+}

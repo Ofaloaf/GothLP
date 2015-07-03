@@ -345,6 +345,7 @@ b_blois;Blesae;;;;;;;;;;;;;x
 b_bobbio;Ebovium;;;;;;;;;;;;;x
 b_bocac;Sapua;;;;;;;;;;;;;x
 b_bomporto;Boniportus;;;;;;;;;;;;;x
+b_bonn;Bonna;;;;;;;;;;;;;x
 b_bordeaux;Burdigala;;;;;;;;;;;;;x
 b_borja;Bursada;;;;;;;;;;;;;x
 b_boudaoud;Muslubium;;;;;;;;;;;;;x
@@ -675,6 +676,7 @@ b_khenchela;Mascula;;;;;;;;;;;;;x
 b_klagenfurt;Chlagenvurth;;;;;;;;;;;;;x
 b_klis;Clissa;;;;;;;;;;;;;x
 b_knin;Tinum;;;;;;;;;;;;;x
+b_koln;Colonia;;;;;;;;;;;;;x
 b_komarom;Brigetio;;;;;;;;;;;;;x
 b_konstanz;Constantia;;;;;;;;;;;;;x
 b_koprivnica;Copriunisa;;;;;;;;;;;;;x
@@ -742,6 +744,7 @@ b_longueville;Longiniacum;;;;;;;;;;;;;x
 b_longuyon;Longagio;;;;;;;;;;;;;x
 b_longwy;Longovicus;;;;;;;;;;;;;x
 b_lonigo;Leunico;;;;;;;;;;;;;x
+b_loon;Lens;;;;;;;;;;;;;x
 b_lorsch;Lauressam;;;;;;;;;;;;;x
 b_loudeac;Lodiacensis;;;;;;;;;;;;;x
 b_loudun;Losdunum;;;;;;;;;;;;;x
@@ -757,6 +760,7 @@ b_luzern;Luciaria;;;;;;;;;;;;;x
 b_lympe;Lemanis;;;;;;;;;;;;;x
 b_lynn;Lacus;;;;;;;;;;;;;x
 b_lyon;Lugdunum;;;;;;;;;;;;;x
+b_maastricht;Triecto;;;;;;;;;;;;;x
 b_macon;Matisco;;;;;;;;;;;;;x
 b_madain;Ctesiphon;;;;;;;;;;;;;x
 b_madrid;Matritum;;;;;;;;;;;;;x
@@ -768,6 +772,7 @@ b_makarska;Maccurum;;;;;;;;;;;;;x
 b_maiche;Maches;;;;;;;;;;;;;x
 b_maienfeld;Lupinis;;;;;;;;;;;;;x
 b_maillezais;Malleacum;;;;;;;;;;;;;x
+b_mainz;Mogontiaco;;;;;;;;;;;;;x
 b_maldon;Othona;;;;;;;;;;;;;x
 b_malmesbury;Bladon;;;;;;;;;;;;;x
 b_manerbio;Manerbium;;;;;;;;;;;;;x
@@ -1135,6 +1140,7 @@ b_tittmoning;Titamanninga;;;;;;;;;;;;;x
 b_toledo;Toletum;;;;;;;;;;;;;x
 b_tomar;Sellium;;;;;;;;;;;;;x
 b_tonbridge;Tonnabriga;;;;;;;;;;;;;x
+b_tongeren;Tungrorum;;;;;;;;;;;;;x
 b_tonnay;Tauniacum;;;;;;;;;;;;;x
 b_toplice;Aquae Iasae;;;;;;;;;;;;;x
 b_tordesillas;Turris Sillae;;;;;;;;;;;;;x
@@ -1270,6 +1276,7 @@ PROV76;Ypra;;;;;;;;;;;;;x
 PROV77;Atrebatensis;;;;;;;;;;;;;x
 PROV88;Mimigernaford;;;;;;;;;;;;;x
 PROV90;Juliacum;;;;;;;;;;;;;x
+PROV91;Lens;;;;;;;;;;;;;x
 PROV95;Suessionum;;;;;;;;;;;;;x
 PROV96;Aucia;;;;;;;;;;;;;x
 PROV97;Rotomagus;;;;;;;;;;;;;x
@@ -1291,8 +1298,10 @@ PROV113;Viromandensis;;;;;;;;;;;;;x
 PROV114;Remia;;;;;;;;;;;;;x
 PROV116;Legia;;;;;;;;;;;;;x
 PROV118;Treveria;;;;;;;;;;;;;x
+PROV119;Colonia;;;;;;;;;;;;;x
 PROV120;Gutingi;;;;;;;;;;;;;x
 PROV121;Nassova;;;;;;;;;;;;;x
+PROV123;Mogontiacum;;;;;;;;;;;;;x
 PROV124;Wormatia;;;;;;;;;;;;;x
 PROV126;Wasgovia;;;;;;;;;;;;;x
 PROV127;Nanciacum;;;;;;;;;;;;;x
@@ -1444,6 +1453,8 @@ PROV365;Hevellia;;;;;;;;;;;;;x
 PROV436;Bumsia;;;;;;;;;;;;;x
 PROV437;Casurgis;;;;;;;;;;;;;x
 PROV439;Marobud;;;;;;;;;;;;;x
+PROV440;Juliomontium;;;;;;;;;;;;;x
+PROV441;Bruna;;;;;;;;;;;;;x
 PROV442;Laugaricio;;;;;;;;;;;;;x
 PROV444;Strigonium;;;;;;;;;;;;;x
 PROV445;Biatec;;;;;;;;;;;;;x

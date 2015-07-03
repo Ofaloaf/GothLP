@@ -364,8 +364,17 @@ e_germany = {
 				
 				b_brandenburg = {
 					pommeranian = Brennabor
+
+					alan = "Brenaqau"
+					feretolan = "Brenaqau"
+					jasi = "Brenaqau"
+					sarmatian = "Brenaqau"
 				}
 				b_havelberg = {
+					alan = "Havelæ"
+					feretolan = "Havelæ"
+					jasi = "Havelæ"
+					sarmatian = "Havelæ"
 				}
 				b_berlin = {
 				}
@@ -389,7 +398,7 @@ e_germany = {
 				pommeranian = Misani
 				carantanian = "Missni"
 				traki = "Missni"
-				rimliani = "Misnia"
+				rimlyani = "Misnia"
 
 				alan = "Misna"
 				feretolan = "Misna"
@@ -398,9 +407,19 @@ e_germany = {
 				
 				b_dresden = {
 					pommeranian = Drezdany
+
+					alan = "Drezdani"
+					feretolan = "Drezdani"
+					jasi = "Drezdani"
+					sarmatian = "Drezdani"
 				}
 				b_meissen = {
 					pommeranian = Misni
+
+					alan = "Misna"
+					feretolan = "Misna"
+					jasi = "Misna"
+					sarmatian = "Misna"
 				}
 				b_dohna = {
 				}
@@ -428,6 +447,11 @@ e_germany = {
 				
 				b_gorlitz = {
 					pommeranian = Zhorjelc
+				
+					alan = "Gorelic"
+					feretolan = "Gorelic"
+					jasi = "Gorelic"
+					sarmatian = "Gorelic"
 				}
 				b_bautzen = {
 					pommeranian = Budysin
@@ -476,6 +500,11 @@ e_germany = {
 				
 				b_mecklemburg = {
 					pommeranian = Weligrad
+
+					alan = "Nakonqau"
+					feretolan = "Nakonqau"
+					jasi = "Nakonqau"
+					sarmatian = "Nakonqau"
 				}
 				b_wismar = {
 					pommeranian = Vesimer
@@ -2851,14 +2880,28 @@ e_germany = {
 		d_moravia = {
             		color={ 157 101 35 }
             		color2={ 255 255 255 }
+
+			alan = "Moraustan"
+			feretolan = "Moraustan"
+			jasi = "Moraustan"
+			sarmatian = "Moraustan"
             
             		capital = 440 # Olomouc
             
             		c_hradec = {
                 		color={ 160 104 38 }
                 		color2={ 255 255 255 }
+
+				alan = "Khrad" # H->Kh, -ec dropped
+				feretolan = "Khrad"
+				jasi = "Khrad"
+				sarmatian = "Khrad"
                 
                 		b_hradeckralove = {
+					alan = "Khrad" # H->Kh, -ec dropped
+					feretolan = "Khrad"
+					jasi = "Khrad"
+					sarmatian = "Khrad"
                 		}
                 		b_pardubice = {
                 		}
@@ -2875,78 +2918,94 @@ e_germany = {
                 		b_chrudim = {
                 		}
 			}
-            c_olomouc = {
-                color={ 163 107 41 }
-                color2={ 255 255 255 }
+            		c_olomouc = {
+                		color={ 163 107 41 }
+                		color2={ 255 255 255 }
 
-		# Iuliomontium
+				# Iuliomontium
 
-		german = "Olmütz"
-		boarisch = "Olmütz"
-		old_saxon = "Olmütz"
+				german = "Olmütz"
+				old_saxon = "Olmütz"
+
+				alan = "Ioulykhokh"
+				feretolan = "Ioulykhokh"
+				jasi = "Ioulykhokh"
+				sarmatian = "Ioulykhokh"
                 
-                b_opava = {
-			# Oppavia
+                		b_opava = {
+					# Oppavia
 
-			german = "Troppau"
-			boarisch = "Tropp"
-                }
-                b_olomouc = {
-			# Iuliomontium
+					german = "Troppau"
 
-			german = "Olmütz"
-			boarisch = "Olmütz"
-			old_saxon = "Olmütz"
-                }
-                b_sternberk = {
-                }
-                b_ostrava = {
-			german = "Ostrau"
-			boarisch = "Ostrau"
-			old_saxon = "Ostrau"
-                }
-                b_zabreh = {
-			# Altacivitas
+					alan = "Obauiy"
+					feretolan = "Obauiy"
+					jasi = "Obauiy"
+					sarmatian = "Obauiy"
+                		}
+                		b_olomouc = {
+					# Iuliomontium
 
-			german = "Hohenstadt"
-			boarisch = "Hohenstadt"
-			old_saxon = "Hohenstadt"
-                }
-                b_moravskatrebova = {
-                }
-                b_zdar = {
-                }
-                b_unicov = {
-                }
-            }
-            c_brno = {
-                color={ 166 110 44 }
-                color2={ 255 255 255 }
+					german = "Olmütz"
+					old_saxon = "Olmütz"
 
-		# Bruna
+					alan = "Ioulykhokh"
+					feretolan = "Ioulykhokh"
+					jasi = "Ioulykhokh"
+					sarmatian = "Ioulykhokh"
+                		}
+                		b_sternberk = {
+                		}
+               			b_ostrava = {
+					german = "Ostrau"
+					old_saxon = "Ostrau"
+                		}
+               			b_zabreh = {
+					# Altacivitas
 
-		german = "Brünn"
-		boarisch = "Brünn"
-		old_saxon = "Brunn"
-		ashkenazi = "Brin"
-                
-                b_boskovice = {
-                }
-                b_prerov = {
-                }
-                b_velehrad = {
-                }
-                b_wisowitz = {
-                }
-                b_uherskebrod = {
-                }
-                b_uherskehradiste = {
-                }
-                b_kromeriz = {
-                }
-                b_zlin = {
-                }
-            }
-        }
-    }
+					german = "Hohenstadt"
+					old_saxon = "Hohenstadt"
+                		}
+                		b_moravskatrebova = {
+                		}
+                		b_zdar = {
+                		}
+                		b_unicov = {
+                		}
+            		}
+            		c_brno = {
+                		color={ 166 110 44 }
+                		color2={ 255 255 255 }
+
+				# Bruna
+
+				german = "Brünn"
+				old_saxon = "Brunn"
+				ashkenazi = "Brin"
+
+				alan = "Dayi" 		# Thaya/Dyje Rivver
+				feretolan = "Dayi"
+				jasi = "Dayi"
+				sarmatian = "Dayi"
+
+                		b_boskovice = {
+               			}
+                		b_prerov = {
+					german = "Prerau"
+					suebi = "Preraw"
+                		}
+               			b_velehrad = {
+                		}
+                		b_wisowitz = {
+                		}
+                		b_uherskebrod = {
+                		}
+                		b_uherskehradiste = {
+                		}
+                		b_kromeriz = {
+                		}
+                		b_zlin = {
+                		}
+            		}
+        	}
+    	}
 }

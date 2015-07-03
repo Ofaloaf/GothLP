@@ -2,3 +2,7 @@
 {
 	pentarch = b_roma
 }
+
+761.1.1 = {
+	holder = 611037 # Luthaweic Amalius
+}

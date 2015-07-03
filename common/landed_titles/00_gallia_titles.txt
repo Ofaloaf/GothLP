@@ -3391,10 +3391,23 @@ e_gallia = {
 			c_loon = {
 				color={ 115 115 175 }
 				color2={ 255 255 255 }
+
+				# Lens
+
+				dutch = "Loon"
+				german = "Loon"
 			
 				b_loon = {
+					# Lens
+
+					dutch = "Loon"
+					german = "Loon"
 				}
 				b_maastricht = {
+					# Triecto
+
+					dutch = "Maastricht"
+					german = "Maastricht"
 				}
 				b_hasselt = {
 				}
@@ -3407,6 +3420,10 @@ e_gallia = {
 				b_wassenberg = {
 				}
 				b_tongeren = {
+					# Tungrorum
+
+					dutch = "Tongeren"
+					german = "Tongern"
 				}
 			}
 		}
@@ -3420,10 +3437,16 @@ e_gallia = {
 				color={ 114 167 65 }
 				color2={ 255 255 255 }
 
+				# Colonia
+
 				dutch = "Keulen"
+				gothicromance = "Culunha"
 			
 				b_koln = {
+					# Colonia
+
 					dutch = "Keulen"
+					gothicromance = "Culunha"
 
 					holy_site = catholic
 				}
@@ -3432,6 +3455,7 @@ e_gallia = {
 				b_mark = {
 				}
 				b_bonn = {
+					# Bonna
 				}
 				b_dietz = {
 				}
@@ -3445,16 +3469,25 @@ e_gallia = {
 			c_mainz = {
 				color={ 178 145 87 }
 				color2={ 255 255 255 }
+
+				# Mogontiacum
+
+				gothicromance = "Maiança"
 			
 				b_mainz = {
+					# Mogontiaco
+
+					gothicromance = "Maiança"
 				}
 				b_frankfurt = {
 				}
 				b_eppstein = {
 				}
 				b_ingelheim = {
+					gothic = "Ingilinhaim" # attested 782
 				}
 				b_mannheim = {
+					gothic = "Mannohaim"
 				}
 				b_weilburg = {
 				}

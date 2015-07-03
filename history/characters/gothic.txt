@@ -45,9 +45,17 @@
 
 611004 = {
 	name = "Thiudareiks"
-	dynasty = 405007
+	dynasty = 405001 # Triarius
+	father=611022 # Sigivult Amalius
+	mother=611029 # Xristina Triarius
+	diplomacy = 8
+	martial = 7
+	intrigue = 7
+	stewardship = 10
+	learning = 5
 	culture = gothic
 	religion = arian
+	trait = bastard
 	740.1.1 = {
 		birth = yes
 	}
@@ -59,8 +67,8 @@
 611005 = {
 	name = "Theudis"
 	dynasty = 405002
-	martial = 10
 	diplomacy = 9
+	martial = 10
 	intrigue = 10
 	stewardship = 6
 	culture = gothic
@@ -414,5 +422,143 @@
 	}
 	800.1.1 = {
 		death=yes
+	}
+}
+
+611029 = {
+	name = "Xristina"
+	female=yes
+	dynasty = 405001 # Triarius
+	father=611030
+	culture = gothic
+	religion = arian
+	721.1.1 = {
+		birth = yes
+	}
+	766.1.1 = {
+		death = yes
+	}
+}
+
+611030 = {
+	name = "Triarius"
+	dynasty = 405001 # Triarius
+	culture = gothic
+	religion = arian
+	688.1.1 = {
+		birth = yes
+	}
+	755.1.1 = {
+		death = yes
+	}
+}
+
+611031 = {
+	name = "Xristianus"
+	dynasty = 405001 # Triarius
+	father=611030
+	culture = gothic
+	religion = arian
+	718.1.1 = {
+		birth = yes
+	}
+	736.1.1 = {
+		add_spouse = 611032
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+
+611032 = {
+	name = "Marja"
+	female=yes
+	culture = gothic
+	religion = arian
+	717.1.1 = {
+		birth = yes
+	}
+	766.1.1 = {
+		death = yes
+	}
+}
+
+611033 = {
+	name = "Iohanna"
+	female = yes
+	dynasty = 405001 # Triarius
+	father=611031
+	mother=611032
+	culture = gothic
+	religion = arian
+	738.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+
+611034 = {
+	name = "Thiudeis"
+	dynasty = 405001 # Triarius
+	father=611031
+	mother=611032
+	culture = gothic
+	religion = arian
+	740.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+
+611035 = {
+	name = "Frangkiska"
+	female = yes
+	dynasty = 405001 # Triarius
+	father=611031
+	mother=611032
+	culture = gothic
+	religion = arian
+	742.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+
+611036 = {
+	name = "Hildiwara"
+	female = yes
+	dynasty = 405001 # Triarius
+	father=611031
+	mother=611032
+	culture = gothic
+	religion = arian
+	743.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+
+611037 = {
+	name = "Luthaweic"
+	dynasty = 405007
+	culture = gothic
+	religion = arian
+	trait=legit_bastard
+	726.1.1 = {
+		birth = yes
+	}
+	761.1.1 = {
+		add_claim = k_gothia
+	}
+	800.1.1 = {
+		death = yes
 	}
 }

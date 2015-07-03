@@ -69,3 +69,15 @@
 	}
 }
 
+8666006 = {
+	name = "Drazko"
+	dynasty = 8771003 # Bireg
+	culture="feretolan"
+	religion="tengri_pagan"
+	734.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}

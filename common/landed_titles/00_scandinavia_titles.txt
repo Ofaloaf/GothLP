@@ -763,6 +763,8 @@ e_scandinavia = {
 			capital = 303 # Skåne
 			
 			english = Scania
+			pommeranian = "Skonia"
+			carantanian = "Skonija"
 			
 			c_skane = {
 				color={ 215 5 5 }
@@ -1529,7 +1531,7 @@ e_scandinavia = {
 			
 			swedish = "Tröndelag"
 			german = "Tröndelag"
-			norse = "Tröndelag"
+			norse = "Nidaros"
 			
 			pagan_coa = {
 				template = 0

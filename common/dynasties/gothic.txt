@@ -282,3 +282,33 @@
 	name = "Angantiring"
 	culture = gothic
 }
+
+405057 = {
+	name = "Respa"
+	culture = gothic
+}
+
+405058 = {
+	name = "Veducus"
+	culture = gothic
+}
+
+405059 = {
+	name = "Thuruar"
+	culture = gothic
+}
+
+405060 = {
+	name = "Taetel"
+	culture = gothic
+}
+
+405061 = {
+	name = "Gadaricus"
+	culture = gothic
+}
+
+405062 = {
+	name = "Zeutanus"
+	culture = gothic
+}

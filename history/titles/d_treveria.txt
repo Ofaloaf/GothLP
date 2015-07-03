@@ -1,3 +1,7 @@
+500.1.1 = {
+	liege = "k_belgica"
+}
+
 748.1.1 = {
 	holder = 1789022 # Benedixes de Treviris
 }
