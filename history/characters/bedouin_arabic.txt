@@ -12723,3 +12723,16 @@
 		death=yes
 	}
 }
+
+188767 = { 
+	name="Hasan" #
+	dynasty=685 # Dinnid
+	religion="sunni"
+	culture="bedouin_arabic"
+	730.1.1={
+		birth=yes
+	}
+	800.1.6={
+		death=yes
+	}
+}

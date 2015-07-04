@@ -71,6 +71,9 @@
 	700.1.1={
 		birth=yes
 	}
+	769.1.1 = {
+		effect = { set_character_flag = ought_to_be_pope }
+	}
 	770.1.1={
 		death=yes
 	}

@@ -1,4 +1,4 @@
-# Ofaloaf wuz here
+﻿# Ofaloaf wuz here
 
 namespace = ATTILA
 
@@ -139,6 +139,31 @@ narrative_event = {
 					culture = brithenig
 				}
 			}
+		}
+	}
+}
+
+narrative_event = {
+	id = ATTILA.003
+	title = EVTTITLE_CM_1000
+	desc = EVTDESC_CM_1000
+	picture = GFX_evt_rival_rulers
+	border = GFX_event_narrative_frame_war
+
+	trigger = {
+		has_character_flag = ought_to_be_pope
+		NOT = { has_character_flag = given_the_papacy }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTA_CM_1000
+		set_character_flag = given_the_papacy
+		k_papal_state = {
+			grant_title = ROOT
 		}
 	}
 }

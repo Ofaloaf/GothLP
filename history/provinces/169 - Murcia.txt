@@ -4,11 +4,11 @@
 title = c_murcia
 
 # Settlements
-max_settlements = 4
+max_settlements = 6
 b_murcia = castle
 b_cartagena = city
 b_lorca = temple
-#b_alcantarilla = castle
+b_alcantarilla = castle
 #b_medinasiyasa = castle
 #b_molinalaseca = city
 #b_nogalte = castle

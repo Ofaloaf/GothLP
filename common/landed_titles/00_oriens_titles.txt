@@ -257,8 +257,8 @@ e_oriens = {
 				}
 			}
 		}
-		d_jerusalem = {
-			color={ 202 202 190 }
+		d_palestina = {
+			color={ 216 196 50 }
 			color2={ 255 255 255 }
 			
 			capital = 774 # Jerusalem
@@ -1452,85 +1452,51 @@ e_oriens = {
 			}
 		}
 		d_thebais = {
-
 			color={ 41 188 120 }
-
 			color2={ 255 255 255 }
-
-
 			
-capital = 794 # Aswan
-
-
+			capital = 794 # Aswan
 		
-	c_aswan = {
-
+			c_aswan = {
 				color={ 43 190 122 }
-
 				color2={ 255 255 255 }
 
 				# Syene
 
 				coptic = "Sowan"
 				greek = "Syene"
-	
 			
-	b_aswan = {
+				b_aswan = {
 					# Syene
-
 					coptic = "Sowan"
 					greek = "Syene"
 				}
-
 				b_elefantina = {
-
 				}
-
 				b_shellal = {
-
 					# Telelis
 				}
-
 				b_bigeh = {
-
 					coptic = "Senem"
 				}
-
 				b_veset = {
-
 				}
-
 				b_philae = {
-
 					coptic = "Pilak"
 				}
-
 				b_kalabsha = {
-
 				}
-
 				b_edfu = {
-
 				}
-
 			}
-
 			c_buhairya = {
-
 				color={ 108 227 142 }
-
-				color2={ 255 255 255 }
-
-			
+				color2={ 255 255 255 }			
 	
 				b_buhairya = {
-
 				}
-
 				b_mut = {
-
 				}
-
 				b_qasrfarfra = {
 
 				}

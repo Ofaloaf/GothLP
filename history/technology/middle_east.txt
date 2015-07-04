@@ -13,7 +13,7 @@ technology = {
 		d_sinai
 		d_oultrejourdain
 		d_ascalon
-		d_jerusalem
+		d_palestina
 		d_galilee
 		d_aleppo
 		d_antioch
