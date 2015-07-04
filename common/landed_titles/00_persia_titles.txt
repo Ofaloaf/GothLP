@@ -1257,6 +1257,8 @@ e_persia = {
 				b_samarkand = {
 				}
 				b_khokand = {
+					holy_site = tengri_pagan
+					holy_site = tengri_pagan_reformed
 				}
 				b_urgut = {
 				}

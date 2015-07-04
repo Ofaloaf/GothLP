@@ -29,3 +29,42 @@
 		death=yes
 	}
 }
+
+207003 = {
+	name="Chanak"
+	dynasty=514021 # Kuaisa
+	religion="tengri_pagan"
+	culture="sarmatian"
+	735.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+207004 = {
+	name="Maniag"
+	dynasty=514020 # Britat
+	religion="tengri_pagan"
+	culture="sarmatian"
+	739.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+207005 = {
+	name="Radamsad"
+	dynasty=514023 # Khwalis
+	religion="tengri_pagan"
+	culture="sarmatian"
+	741.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}

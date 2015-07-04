@@ -107,3 +107,8 @@
 	name = "Naezidzin"
 	culture = sarmatian
 }
+
+514023 = {
+	name = "Khwalis"
+	culture = sarmatian
+}

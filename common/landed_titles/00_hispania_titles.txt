@@ -982,18 +982,25 @@ e_hispania = {
 					rumi_arabic = "Mursiya"
 				}
 				b_cartagena = {
+					# Carthago Nova
 				}
 				b_lorca = {
+					# Eliocroca
 				}
 				b_alcantarilla = {
+					# Thiar # actually Convento de S. Gines
 				}
 				b_medinasiyasa = {
+					# Ficariensis Locus
 				}
 				b_molinalaseca = {
+					# Ilorci # Lorqui
 				}
 				b_yecla = {
+					# Ico
 				}
 				b_nogalte = {
+					# Begastrum # Cehegin
 				}
 			}
 			c_almansa = {

@@ -1654,6 +1654,8 @@ e_germany = {
 			c_holland = {
 				color={ 235 85 30 }
 				color2={ 255 255 255 }
+
+				pommerianian = "Holtzemia"
 			
 				b_haarlem = {
 					gothic = "Haarlohaim"
@@ -1690,6 +1692,8 @@ e_germany = {
 			c_westfriesland = {
 				color={ 245 99 50 }
 				color2={ 255 255 255 }
+
+				pommeranian = "Epagorec" # Egmond
 			
 				b_alkmaar = {
 					german = "Alkmar"
@@ -1734,6 +1738,8 @@ e_germany = {
 				gallaecian = "Wallacra"
 				dalmatian = "Wallacra"
 				africanu = "Wallacra"
+
+				pommeranian = "Morskazemia"
 			
 				b_middelburg = {
 					old_frankish = "Middelburch"
@@ -1741,8 +1747,6 @@ e_germany = {
 					old_saxon = "Middelburch"
 				}
 				b_tholen = {
-					holy_site = norse_pagan
-					holy_site = norse_pagan_reformed
 				}
 				b_veere = {
 				}
@@ -1773,8 +1777,10 @@ e_germany = {
 			dalmatian = "Frisia"
 			africanu = "Frisia"
 			brithenig = "Friz"
+
+			pommeranian = "Frisko"
 			
-			culture = dutch
+			culture = frisian
 		
 			c_ostfriesland = {
 				color={ 190 32 16 }
@@ -1782,6 +1788,8 @@ e_germany = {
 
 				old_saxon = "Oostfreesland"
 				dutch = "Oost-Friesland"
+
+				pommeranian = "Vychodifriska"
 			
 				b_emden = {
 				}
@@ -1815,6 +1823,8 @@ e_germany = {
 				frisian = "Fryslân"
 				german = "Friesland"
 				dutch = "Friesland"
+
+				pommeranian = "Friska"
 			
 				b_groningen = {
 					old_frankish = "Groninga"
@@ -1852,6 +1862,8 @@ e_germany = {
 				color2={ 255 255 255 }
 
 				german = "Geldern"
+
+				pommeranian = "Gelera"
 			
 				b_nijmegen = {
 					frisian = "Nymwegen"
@@ -1884,6 +1896,8 @@ e_germany = {
 				color2={ 255 255 255 }
 
 				frisian = "Utert"
+
+				pommeranian = "Donjatrakt"
 			
 				b_woerden = {
 				}
@@ -1906,6 +1920,8 @@ e_germany = {
 			c_kleve = {
 				color={ 193 196 133 }
 				color2={ 255 255 255 }
+
+				pommeranian = "Clefa"
 		
 				b_kleve = {
 				}
@@ -1955,17 +1971,17 @@ e_germany = {
 			c_braunschweig = {
 				color={ 192 192 192 }
 				color2={ 255 255 255 }
+
+				pommeranian = "Ovakrabrod"
 				
 				b_braunschweig = {
+					pommeranian = "Ovakrabrod"
 				}
 				b_bielefeld = {
 				}
 				b_paderborn = {
 					old_frankish = "Paderbrunna"
 					old_saxon = "Patherga"
-
-					holy_site = norse_pagan
-					holy_site = norse_pagan_reformed
 				}
 				b_hildesheim = {
 				}
@@ -1981,8 +1997,11 @@ e_germany = {
 			c_bremen = {
 				color={ 216 216 216 }
 				color2={ 255 255 255 }
+
+				pommeranian = "Brema"
 				
 				b_bremen = {
+					pommeranian = "Brema"
 				}
 				b_hoya = {
 				}
@@ -2009,9 +2028,12 @@ e_germany = {
 				color2={ 255 255 255 }
 
 				frisian = "Ooldenbuurich"
+
+				pommeranian = "Aldenpurk"
 				
 				b_oldenburg = {
 					frisian = "Ooldenbuurich"
+					pommeranian = "Aldenpurk"
 				}
 				b_cloppenburg = {
 				}
@@ -2033,9 +2055,13 @@ e_germany = {
 				color2={ 255 255 255 }
 
 				dutch = "Osenbrugge"
+
+				pommeranian = "Oksnapurk"
 				
 				b_osnabruck = {
 					dutch = "Osenbrugge"
+
+					pommeranian = "Oksnapurk"
 				}
 				b_lingen = {
 				}
@@ -2057,8 +2083,14 @@ e_germany = {
 				color2={ 255 255 255 }
 
 				# Mimigernaford
+
+				pommeranian = "Abrod"
 				
 				b_munster = {
+					pommeranian = "Abrod"
+
+					holy_site = norse_pagan
+					holy_site = norse_pagan_reformed
 				}
 				b_dortmund = {
 				}

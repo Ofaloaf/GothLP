@@ -1346,4 +1346,805 @@ e_scythia = {
 			}
 		}
 	}
+	k_sarmatia = {
+		color={ 147 164 104 }
+		color2={ 255 255 255 }
+		
+		capital = 547 # Kiev
+		
+		culture = sarmatian
+		
+		slavic_pagan_reformed = 500 # Crusade target weight
+		baltic_pagan_reformed = 100 # Crusade target weight
+		tengri_pagan_reformed = 100
+		finnish_pagan_reformed = 100
+		
+		allow = {
+			hidden_tooltip = {
+				OR = {
+					ai = no
+					culture_group = north_germanic
+					culture_group = east_slavic 
+				}
+			}
+		}
+		
+		norse = Könugarðr
+		swedish = Könugård
+		norwegian = Kønugård
+		danish = Kønugård
+		
+		d_kiev = {
+			color={ 81 123 210 }
+			color2={ 255 255 255 }
+			
+			dignity = 10 # Counted as having 10 more counties than it does
+			capital = 547 # Kiev
+			
+			norse = Könugarðr
+			swedish = Könugård
+			norwegian = Kønugård
+			danish = Kønugård
+
+			turkish = Sambat
+			pecheneg = Sambat
+			cuman = Sambat
+			khazar = Sambat
+			bolghar = Sambat
+			avar = Sambat
+			karluk = Sambat
+			kirghiz = Sambat
+
+			alan = Sambat
+			feretolan = Sambat
+			jasi = Sambat
+			sarmatian = Sambat
+			
+			pagan_coa = {
+				template = 0
+				layer = {
+					texture = 2
+					texture_internal = 1
+					emblem = 0
+					color = 0
+					color = 0
+					color = 0
+				}
+				religion = "norse_pagan"
+			}
+	
+			c_korsun = {
+				color={ 102 102 22 }
+				color2={ 255 255 255 }
+	
+				b_korsun = {
+				}
+				b_kaniv = {
+				}
+				b_cherkassy = {
+				}
+				b_smila = {
+				}
+				b_zolotonosha = {
+				}
+				b_uman = {
+				}
+				b_zhuravky = {
+				}
+				b_mirov = {
+				}
+			}
+			c_kiev = {
+				color={ 106 106 26 }
+				color2={ 255 255 255 }
+				
+				norse = Könugarðr
+				swedish = Könugård
+				norwegian = Kønugård
+				danish = Kønugård
+
+				turkish = Sambat
+				pecheneg = Sambat
+				cuman = Sambat
+				khazar = Sambat
+				bolghar = Sambat
+				avar = Sambat
+				karluk = Sambat
+				kirghiz = Sambat
+
+				alan = Sambat
+				feretolan = Sambat
+				jasi = Sambat
+				sarmatian = Sambat
+	
+				b_kiev = {
+					norse = Könugarðr
+					swedish = Könugård
+					norwegian = Kønugård
+					danish = Kønugård
+
+					turkish = Sambat
+					pecheneg = Sambat
+					cuman = Sambat
+					khazar = Sambat
+					bolghar = Sambat
+					avar = Sambat
+					karluk = Sambat
+					kirghiz = Sambat
+
+					alan = Sambat
+					feretolan = Sambat
+					jasi = Sambat
+					sarmatian = Sambat
+				}
+				b_yuriev = {
+					holy_site = slavic_pagan
+					holy_site = slavic_pagan_reformed				
+				}
+				b_iskorosten = {
+				}
+				b_vyshhorod = {
+				}
+				b_ovruch = {
+				}
+				b_zhitomir = {
+				}
+				b_malyn = {
+				}
+				b_fastiv = {
+				}
+			}
+		}
+		d_galich = {
+			color={ 224 112 130 }
+			color2={ 255 255 255 }
+
+			alan = "Khalyzia"
+			feretolan = "Khalyzia"
+			jasi = "Khalyzia"
+			sarmatian = "Khalyzia"
+			
+			capital = 536 # Galich
+			
+			c_terebovl = {
+				color={ 104 104 24 }
+				color2={ 255 255 255 }
+	
+				b_terebovl = {
+				}
+				b_pochayivlavra = {
+				}
+				b_bratslav = {
+				}
+				b_kremenets = {
+				}
+				b_borschiv = {
+				}
+				b_vinnytsia = {
+				}
+				b_buchach = {
+				}
+				b_zalischyky = {
+				}
+			}
+			c_galich = {
+				color={ 254 255 215 }
+				color2={ 255 255 255 }
+
+				alan = "Khalyzia"
+				feretolan = "Khalyzia"
+				jasi = "Khalyzia"
+				sarmatian = "Khalyzia"
+	
+				b_galich = {
+				}
+				b_lvov = {
+				}
+				b_dubno = {
+				}
+				b_vasyliv = {
+				}
+				b_kolomyia = {
+				}
+				b_ternopil = {
+				}
+				b_buzhsk = {
+				}
+				b_brody = {
+				}
+			}
+			c_peremyshl = {
+				color={ 254 255 218 }
+				color2={ 255 255 255 }
+
+				alan = "Lendiziy"
+				feretolan = "Lendiziy"
+				jasi = "Lendizi"
+				sarmatian = "Lendizi"
+	
+				b_peremyshl = {
+				}
+				b_jaroslav = {
+				}
+				b_sanok = {
+				}
+				b_lubaczow = {
+				}
+				b_grodek = {
+				}
+				b_rzeszow = {
+				}
+				b_volkrosno = {
+				}
+				b_jaslo = {
+				}
+			}
+		}
+		d_volhynia = {
+			color={ 204 155 121 }
+			color2={ 255 255 255 }
+			
+			capital = 535 # Vladimir Volynsky
+	
+			c_vladimir_volynsky = {
+				color={ 255 255 223 }
+				color2={ 255 255 255 }
+
+				alan = "Budyatichiy"
+				feretolan = "Budyatichiy"
+				jasi = "Budyatichiy"
+				sarmatian = "Budyatichiy"
+	
+				b_vladimirvolynsky = {
+				}
+				b_kovel = {
+				}
+				b_kholm = {
+				}
+				b_ivanichy = {
+				}
+				b_hrubieszow = {
+				}
+				b_torchyn = {
+				}
+				b_cherven = {
+				}
+				b_luboml = {
+				}
+			}
+			c_beresty = {
+				color={ 255 255 225 }
+				color2={ 255 255 255 }
+
+				alan = "Beresta"
+				feretolan = "Beresta"
+				jasi = "Beresta"
+				sarmatian = "Beresta"
+
+				lithuanian = "Brasta"
+	
+				b_beresty = {
+					alan = "Beresta"
+					feretolan = "Beresta"
+					jasi = "Beresta"
+					sarmatian = "Beresta"
+
+					lithuanian = "Brasta"
+				}
+				b_bielsk = {
+				}
+				b_kobryn = {
+				} 
+				b_kamyanyets = {
+				}
+				b_mielnik = {
+				}
+				b_lublin = {
+				}
+				b_wlodawa = {
+				}
+				b_parczew = {
+				}
+			}
+		}
+		d_turov = {
+			color={ 132 160 94 }
+			color2={ 255 255 255 }
+
+			alan = "Driahva"
+			feretolan = "Driahva"
+			jasi = "Driahva"
+			sarmatian = "Driahva"
+			
+			capital = 552 # Turov
+			
+			ilmenian = "Dregovichia"
+			
+			c_turov = {
+				color={ 135 160 100 }
+				color2={ 255 255 255 }
+
+				alan = "Driahva"
+				feretolan = "Driahva"
+				jasi = "Driahva"
+				sarmatian = "Driahva"
+				
+				b_turov = {
+				}
+				b_dubrovitsya = {
+				}
+				b_mazyr = {
+				}
+				b_slutsk = {
+				}
+				b_zhytkavichy = {
+				}
+				b_bobruisk = {
+				}
+				b_petrykaw = {
+				}
+				b_yelsk = {
+				}
+			}
+			c_pinsk = {
+				color={ 120 155 80 }
+				color2={ 255 255 255 }
+
+				alan = "Pina"
+				feretolan = "Pina"
+				jasi = "Pina"
+				sarmatian = "Pina"
+				
+				b_pinsk = {
+					alan = "Pina"
+					feretolan = "Pina"
+					jasi = "Pina"
+					sarmatian = "Pina"
+				}
+				b_lutsk = {
+				}
+				b_porkhovo = {
+				}
+				b_biaroza = {
+				}
+				b_stepan = {
+				}
+				b_kosava = {
+				}
+				b_luninets = {
+				}
+				b_dabuchin = {
+				}
+			}
+		}
+		
+		d_vitebsk = {
+			color={ 75 125 6 }
+			color2={ 255 255 255 }
+			
+			capital = 417 # Vitebsk
+			
+			ilmenian = Kryvia
+			
+			c_minsk = {
+				color={ 60 105 2 }
+				color2={ 255 255 255 }
+				
+				b_minsk = {
+				}
+				b_maladzyechna = {
+				}
+				b_borisow = {
+				}
+				b_kletsk = {
+				}
+				b_berezino = {
+				}
+				b_nesvizh = {
+				}
+				b_valozhyn = {
+				}
+				b_kapyl = {
+				}
+			}
+			c_orsha = {
+				color={ 79 135 16 }
+				color2={ 255 255 255 }
+				
+				b_orsha = {
+				}
+				b_novolukomi = {
+				}
+				b_talachyn = {
+				}
+				b_sianno = {
+				}
+				b_shklou = {
+				} 
+				b_kopys = {
+				}
+				b_horki = {
+				}
+				b_larynouka = {
+				}
+			}
+			c_vitebsk = {
+				color={ 75 125 6 }
+				color2={ 255 255 255 }
+				
+				b_vitebsk = {
+				}
+				b_sakolniki = {
+				}
+				b_haradok = {
+				}
+				b_drazdy = {
+				}
+				b_ruba = {
+				}
+				b_liozno = {
+				}
+				b_stryzhava = {
+				}
+				b_baroniki = {
+				}
+			}
+		}
+		
+		d_smolensk = {
+			color={ 226 241 182 }
+			color2={ 255 255 255 }
+			
+			capital = 568 # Smolensk
+			
+			severian = "Radimichia"
+			ilmenian = "Radimichia"
+			
+			c_smolensk = {
+				color={ 229 244 185 }
+				color2={ 255 255 255 }
+				
+				swedish = "Smaleskja"
+				norse = "Smaleskja"
+				danish = "Smaleskja"
+				norwegian = "Smaleskja"
+					
+				b_smolensk = {
+					swedish = "Smaleskja"
+					norse = "Smaleskja"
+					danish = "Smaleskja"
+					norwegian = "Smaleskja"
+				}
+				b_velizh = {
+				}
+				b_demidov = {
+				}
+				b_krasnoi = {
+				}
+				b_przhevalskoye = {
+				}
+				b_rodnya = {
+				}
+				b_yartsevo = {
+				}
+			}
+			c_roslavl = {
+				color={ 239 242 185 }
+				color2={ 255 255 255 }
+					
+				b_roslavl = {
+				}
+				b_pochinok = {
+				}
+				b_chocimsk = {
+				}
+			}
+			c_mstislavl = {
+				color={ 232 247 188 }
+				color2={ 255 255 255 }
+					
+				b_mstitslavl = {
+				}
+				b_krychaw = {
+				}
+				b_mogilev = {
+				}
+				b_bychaw = {
+				}
+				b_chavusy = {
+				}
+				b_zhlobin = {
+				}
+				b_chachersk = {
+				}
+				b_rahacou = {
+				}
+			}
+		}
+		d_chernigov = {
+			color={ 150 235 91 }
+			color2={ 255 255 255 }
+			
+			capital = 554 # Chernigov
+			
+			severian = "Severia"
+			ilmenian = "Severia"
+			mordvin = "Severia"
+			
+			c_lyubech = {
+				color={ 238 253 194 }
+				color2={ 255 255 255 }
+	
+				b_lyubech = {
+				}
+				b_rechytsa = {
+				}
+				b_gomel = {
+				}
+				b_brahin = {
+				}
+				b_loyew = {
+				}
+				b_zlynka = {
+				}
+				b_klimovo = {
+				}
+				b_novozybkov = {
+				}
+			}
+			c_chernigov = {
+				color={ 242 255 197 }
+				color2={ 255 255 255 }
+	
+				b_chernigov = {
+				}
+				b_kozelets = {
+				}
+				b_nizhyn = {
+				}
+				b_borzna = {
+				}
+				b_horodnia = {
+				}
+				b_gorodets = {
+				}
+				b_sosnytsia = {
+				}
+				b_mglin = {
+				}
+			}
+		}
+		
+		d_novgorod-seversk = { # Called Bryansk in-game
+			color = { 120 155 40 }
+			color2={ 255 255 255 }
+
+			alan = "Siveria"
+			feretolan = "Siveria"
+			jasi = "Siveria"
+			sarmatian = "Siveria"
+			
+			capital = 567 # Novgorod Seversky
+	
+			c_novgorod_seversky = {
+				color = { 140 165 40 }
+				color2 = { 255 255 255 }
+
+				alan = "Siveria"
+				feretolan = "Siveria"
+				jasi = "Siveria"
+				sarmatian = "Siveria"
+	
+				b_novgorodseversky = {
+				}
+				b_starodub = {
+				}
+				b_glukhov = {
+				}
+				b_rysk = {
+				}
+				b_putivl = {
+				}
+				b_trubchevsk = {
+				}
+				b_sevsk = {
+				}
+				b_semenivka = {
+				}
+			}
+			c_bryansk = {
+				color = { 160 175 40 }
+				color2={ 255 255 255 }
+
+				alan = "Debr"
+				feretolan = "Debr"
+				jasi = "Debr"
+				sarmatian = "Debr"
+				
+				b_bryansk = {
+				}
+				b_pochep = {
+					holy_site = baltic_pagan
+					holy_site = baltic_pagan_reformed
+				}
+				b_orel = {
+				}
+				b_karachev = {
+				}
+				b_dyatkovo = {
+				}
+				b_klynov = {
+				}
+				b_belev = {
+				}
+				b_mtsensk = {
+				}
+			}
+		}
+		
+		d_ryazan = {
+			color={ 110 115 45 }
+			color2={ 255 255 255 }
+			
+			capital = 580 # Ryazan
+			
+			mordvin = Meshchera
+
+			c_pronsk = {
+				color={ 101 110 45 }
+				color2={ 255 255 255 }
+	
+				b_pronsk = {
+				}
+				b_yelets = {
+				}
+				b_tula = {
+				}
+				b_mikhaylov = {
+				}
+				b_skopin = {
+				}
+				b_ryazhsk = {
+				}
+				b_sergijewskoje = {
+				}
+				b_bogoroditsk = {
+				}
+			}	
+			c_murom = {
+				color={ 101 130 50 }
+				color2={ 255 255 255 }
+				
+				swedish = "Moramar"
+				norse = "Moramar"
+				danish = "Moramar"
+				norwegian = "Moramar"
+				
+				b_murom = {
+					swedish = "Moramar"
+					norse = "Moramar"
+					danish = "Moramar"
+					norwegian = "Moramar"
+				}
+				b_moramar = {
+				}
+				b_melenki = {
+				}
+				b_vyksa = {
+				}
+				b_kulebaki = {
+				}
+				b_vilya = {
+				}
+				b_mordovshchikovo = {
+				}
+				b_lipnya = {
+				}
+			}
+			c_ryazan = {
+				color={ 121 140 50 }
+				color2={ 255 255 255 }
+					
+				b_ryazan = {
+				}
+				b_solotcha = {
+					holy_site = finnish_pagan
+					holy_site = finnish_pagan_reformed
+				}
+				b_grodets = {
+				}
+				b_spassk = {
+				}
+				b_korablino = {
+				}
+				b_rybnino = {
+				}
+				b_sasovo = {
+				}
+				b_klepiki = {
+				}
+			}
+			c_kolomna = {
+				color={ 131 149 54 }
+				color2={ 255 255 255 }
+				
+				b_kolomna = {
+				}
+				b_glukhovichi = {
+				}
+				b_zaraysk = {
+				}
+				b_bronnitsy = {
+				}
+				b_ramenskoye = {
+				}
+				b_egorevsk = {
+				}
+				b_peski = {
+				}
+				b_cherkizovo = {
+				}
+			}
+		}
+		
+		d_pereyaslavl = {
+			color={ 232 200 115 }
+			color2={ 255 255 255 }
+
+			alan = "Var"
+			feretolan = "Var"
+			jasi = "Var"
+			sarmatian = "Danuapara"
+			
+			capital = 555 # Pereyaslavl
+		
+			c_pereyaslavl = {
+				color={ 235 205 118 }
+				color2={ 255 255 255 }
+
+				alan = "Var"
+				feretolan = "Var"
+				jasi = "Var"
+				sarmatian = "Danuapara"
+				
+				b_pereyaslavl = {
+				}
+				b_myrhorod = {
+				}
+				b_hadyach = {
+				}
+				b_chornukhy = {
+				}
+				b_hrebinka = {
+				}
+				b_lokhvytsia = {
+				}
+				b_boryspil = {
+				}
+				b_velykisorochyntsi = {
+				}
+			}
+			c_chortitza = {
+				color={ 234 194 88 }
+				color2={ 255 255 255 }
+			
+				b_ltava = {
+				}
+				b_chortitza = {
+				}
+				b_baszmacka = {
+				}
+				b_lubny = {
+				}
+				b_alexandrowsk = {
+				}
+				b_rasumowka = {
+				}
+				b_vosnesjensk = {
+				}
+				b_khorol = {
+				}
+			}
+		}
+	}
 }
