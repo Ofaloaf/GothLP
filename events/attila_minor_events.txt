@@ -143,6 +143,9 @@ narrative_event = {
 	}
 }
 
+#there's a weird CTD bug I can't figure out, involving the Papacy controlling the HRE at game start
+#the scenario thus technically starts with the HRE and Papacy as two separate things
+#but this event ties them together almost instantly, once the game starts
 narrative_event = {
 	id = ATTILA.003
 	title = EVTTITLE_CM_1000

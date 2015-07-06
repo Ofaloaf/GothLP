@@ -1,0 +1,484 @@
+targetted_decisions = {
+	abdicate_rule = {
+		filter = self
+		ai_target_filter = self
+		
+		potential = {
+			is_ruler = yes
+			has_regent = no
+			controls_religion = no
+			OR = {
+				NOT = { religion_group = pagan_group }
+				is_reformed_religion = yes
+			}
+			NOT = {
+				has_character_flag = considering_abdication
+				has_character_modifier = do_not_disturb
+			}
+		}
+		
+		allow = {
+			war = no
+			NOT = {
+				trait = ambitious
+				trait = proud
+				trait = lunatic
+				trait = possessed
+			}
+		}
+		
+		effect = {
+			set_character_flag = considering_abdication
+			character_event = { id = Plus.120 tooltip = consider_abdication }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { age = 50 }
+			}
+			modifier = {
+				factor = 0
+				NOT = { ruled_years = 10 }
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					NOT = { health = 3.1 }
+					trait = depressed
+					trait = stressed
+					trait = infirm
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					current_heir = {
+						war = no
+						is_adult = yes
+						dynasty = ROOT
+						NOT = {
+							trait = incapable
+							trait = lunatic
+							trait = possessed
+						}
+					}
+				}
+			}
+			modifier = {
+				factor = 0.1
+				always = yes
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					current_heir = {
+						reverse_opinion = { who = ROOT value = 25 }
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					trait = content
+					trait = humble
+				}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					trait = paranoid
+					trait = envious
+					trait = greedy
+				}
+			}
+		}
+	}
+
+	disinherit_child = {
+		filter = dynasty
+		ai_target_filter = dynasty
+		
+		from_potential = {
+			is_ruler = yes
+			is_playable = yes
+			has_regent = no
+			NOT = { has_character_flag = disinherited_child }
+		}
+		potential = {
+			is_child_of = FROM
+			any_heir_title = {
+				is_primary_holder_title = yes
+				holder = FROM
+			}
+		}
+		allow = {
+			FROM = {
+				war = no
+				custom_tooltip = {
+					text = HAS_ANOTHER_ELIGIBLE_HEIR
+					hidden_tooltip = {
+						any_dynasty_member = {
+							any_pretender_title = {
+								is_primary_holder_title = yes
+								holder = FROM
+							}
+							is_adult = yes
+							religion = FROM
+							culture = FROM
+							dynasty = FROM
+							OR = {
+								is_child_of = FROM
+								mother_even_if_dead = { is_child_of = FROM }
+								father_even_if_dead = { is_child_of = FROM }
+							}
+							NOT = {
+								character = ROOT
+								trait = incapable
+								trait = lunatic
+								trait = possessed
+							}
+						}
+					}
+				}
+				OR = {
+					AND = {
+						tier = COUNT
+						prestige = 500
+					}
+					AND = {
+						tier = DUKE
+						prestige = 1000
+					}
+					AND = {
+						tier = KING
+						prestige = 1500
+					}
+					AND = {
+						tier = EMPEROR
+						prestige = 2000
+					}
+				}
+			}
+		}
+		effect = {
+			FROM = {
+				set_character_flag = disinherited_child
+				if = {
+					limit = { tier = COUNT }
+					prestige = -250
+				}
+				if = {
+					limit = { tier = DUKE }
+					prestige = -500
+				}
+				if = {
+					limit = { tier = KING }
+					prestige = -750
+				}
+				if = {
+					limit = { tier = EMPEROR }
+					prestige = -1000
+				}
+				character_event = { id = Plus.1100 tooltip = consider_disinheritance }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.1
+				always = yes
+			}
+			modifier = {
+				factor = 0
+				reverse_opinion = { who = FROM value = 25 }
+				FROM = {
+					NOT = {
+						trait = cruel
+						trait = ambitious
+						trait = diligent
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					NOT = { dynasty = FROM }
+					NOT = { religion = FROM }
+					trait = incapable
+					trait = lunatic
+					trait = possessed
+					NOT = { reverse_opinion = { who = FROM value = -75 } }
+					AND = {
+						NOT = { num_of_children = 1 }
+						NOT = { fertility = 0.05 }
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				FROM = {
+					NOT = {
+						any_dynasty_member = {
+							any_pretender_title = {
+								is_primary_holder_title = yes
+								holder = FROM
+							}
+							is_adult = yes
+							religion = FROM
+							culture = FROM
+							dynasty = FROM
+							OR = {
+								is_child_of = FROM
+								mother_even_if_dead = { is_child_of = FROM }
+								father_even_if_dead = { is_child_of = FROM }
+							}
+							OR = {
+								is_ruler = no
+								same_realm = FROM
+								lower_tier_than = FROM
+							}
+							OR = {
+								num_of_children = 1
+								fertility = 0.05
+							}
+							reverse_opinion = { who = FROM value = 0 }
+							NOT = {
+								character = ROOT
+								trait = bastard
+								trait = incapable
+								trait = lunatic
+								trait = possessed
+							}
+						}
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				FROM = {
+					OR = {
+						trait = slothful
+						trait = content
+						trait = just
+					}
+				}
+			}
+		}
+	}
+
+	reconcile_child = {
+		filter = dynasty
+		ai_target_filter = dynasty
+		
+		from_potential = {
+			is_ruler = yes
+			is_playable = yes
+			has_regent = no
+			had_character_flag = { flag = disinherited_child days = 365 }
+		}
+		potential = {
+			is_child_of = FROM
+			trait = disinherited
+			same_realm = FROM
+			dynasty = FROM
+			religion = FROM
+			prisoner = no
+			reverse_opinion = { who = FROM value = 0 }
+			OR = {
+				num_of_children = 1
+				fertility = 0.05
+			}
+			NOT = {
+				trait = incapable
+				trait = lunatic
+				trait = possessed
+			}
+		}
+		allow = {
+			ROOT = {
+				trait = disinherited
+			}
+			FROM = {
+				war = no
+				OR = {
+					AND = {
+						tier = COUNT
+						prestige = 250
+					}
+					AND = {
+						tier = DUKE
+						prestige = 500
+					}
+					AND = {
+						tier = KING
+						prestige = 750
+					}
+					AND = {
+						tier = EMPEROR
+						prestige = 1000
+					}
+				}
+			}
+		}
+		effect = {
+			FROM = {
+				if = {
+					limit = { tier = COUNT }
+					prestige = -125
+				}
+				if = {
+					limit = { tier = DUKE }
+					prestige = -250
+				}
+				if = {
+					limit = { tier = KING }
+					prestige = -375
+				}
+				if = {
+					limit = { tier = EMPEROR }
+					prestige = -500
+				}
+				character_event = { id = Plus.1120 tooltip = consider_reconciliation }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.1
+				always = yes
+			}
+			modifier = {
+				factor = 0
+				FROM = {
+					current_heir = {
+						dynasty = FROM
+						reverse_opinion = { who = FROM value = 50 }
+					}
+				}
+			}
+		}
+	}
+}
+
+decisions = {
+
+	bring_children_to_court = {
+		is_high_prio = yes
+		potential = {
+			ai = no
+			any_child = {
+				is_adult = no
+				is_ruler = no
+				prisoner = no
+				NOT = {
+					trait = bastard
+					any_liege = { character = ROOT }
+				}
+			}
+		}
+		allow = {
+			any_child = {
+				is_adult = no
+				is_ruler = no
+				prisoner = no
+				NOT = { trait = bastard }
+				opinion = { who = ROOT value = 0 }
+				liege = {
+					lower_tier_than = ROOT
+					opinion = { who = ROOT value = 0 }
+				}
+			}
+		}
+		effect = {
+			any_child = {
+				limit = {
+					is_adult = no
+					is_ruler = no
+					prisoner = no
+					NOT = { trait = bastard }
+					opinion = { who = ROOT value = 0 }
+					liege = {
+						lower_tier_than = ROOT
+						opinion = { who = ROOT value = 0 }
+					}
+				}
+				custom_tooltip = {
+					text = CUSTOMTOOLTIP38
+					hidden_tooltip = { banish = ROOT }
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	fourth_crusade = {
+		potential = {
+			can_call_crusade = yes
+			has_called_crusade = no
+			is_heretic = no
+			ai = yes
+			OR = {
+				religion = catholic
+				religion = cathar
+				religion = fraticelli
+				religion = waldensian
+				religion = lollard
+			}
+			NOT = {
+				trait = loyalist
+				trait = rebel
+				has_character_modifier = crusade_timer
+				has_character_modifier = holy_truce_timer
+				has_global_flag = fourth_crusade_happened
+			}
+			has_global_flag = catholic_crusade_failed
+			496 = {
+				kingdom = {
+					any_independent_ruler = {
+						496 = {
+							owner = {
+								OR = {
+									character = PREVPREV
+									same_realm = PREVPREV
+								}
+							}
+						}
+						NOT = { has_character_modifier = holy_truce_timer }
+						prisoner = no
+						NOT = { religion = ROOT }
+						num_of_realm_counties = {
+							value = 6
+							title = PREV
+						}
+					}
+				}
+			}
+		}
+		allow = {
+			trait = bad_priest_christian
+			religion_authority = 0.4
+		}
+		effect = {
+			set_global_flag = fourth_crusade_ongoing
+			set_global_flag = fourth_crusade_happened
+			496 = {
+				kingdom = {
+					ROOT = {
+						war = {
+							casus_belli = crusade
+							target = PREVPREV
+							thirdparty_title = PREV
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
