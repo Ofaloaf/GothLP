@@ -1,31 +1,52 @@
-semitic = {
+israelite = {
 	graphical_culture = easterngfx
 
-	punic = {
-		graphical_culture = muslimgfx #punicgfx
+	ashkenazi = {
+		graphical_culture = byzantinegfx
 		
-		color = { 0.4 0.3 0.6 }
+		color = { 0.6 0.3 0.6 }
 
 		male_names = {
-			Abdashmon Abdenna Abdeshmun Abdimilki Abdmilkot Abdmelqart Abdosir Abdshed Abdshesm Abdusmun Abdzaphon Aderbaal Admagon Adonibaal Ahiram Ahimilk Ahotmilk Akbar Alideh_Alidus Amikeh_Amicus Annobaal Anobaal Antonineh_Anthony Aqhat Ashdabor Ashtartyaton Ashtzaph 
-			Awgusteh_Augustus Awrehli_Aurelius Ayliyaneh_Aelianus Azrubaal Baalfadi Baalhanno Baalshillek Baalyaton Baraket Binmilqart Bodashtart Bodeshmun Bodinelqart Bodmelqart Bodtanit Boqqi_Boccius Bostar Danel Diyodoreh_Diodorus 
-			Domineh_Dominus Donateh_Donatus Emil_Aemilius Eshmunamash Eshmunazar Eshmunkhilletz Eshmunshalokh Gayi_Caius Germanikus_Germanicus Germelqart Hamilket Hamon Hannibaal Hanno Haytili_Haetilius Hegrili_Egrilius 
-			Hiram Kanmi Khamelqart Khilletzbaal Khimilkât Kêkili_Caecilius Luqi_Lucius Magon Maharbaal Makrineh_Macrinus Maksineh_Maximus Mari_Marius Marqeh_Mark Marqi_Marcius Marseh_Marsus Melqartpilles Menahilim Merquri_Mercurius 
-			Methaqseh_Metaxus Milkherem Milkpilles Milkyaton Mithonbaal Peregrineh_Peregrinus Phawsteh_Faustus Phlawi_Flavius Pheliks_Felix Philosir Pimyaton Plawteh_Plautus Pompay_Pompeius Primeh_Primus Prophigeh_Profugus Qandideh_Candidus Qommodeh_Commodus 
-			Qwinteh_Quintus Regineh_Reginus Rib-Addi Ruphus_Rufus Sabineh_Sabinus Sakarbaal Serwi_Servius Sewereh_Severus Sexsteh_Sextus Shafat Tabnit Tanubda Tiberi_Tiberius Wespasiyaneh_Vespasian Yaroah Yehawwielon Yuli_Julius Yulyaneh_Julianus Yutpan Zimrida
+			Abba Abbaye Acha Achai Achunai Aharon Alechsandri Ammi Amram Amunah Ashi Asher Avomai Avraham Azariah Baboi Baruch
+			Bibai Binyamin Boaz Bustenai Chanan Chananel Chaninai Chanoch Chaim Chayim Chelbo Chisdai Chiyya Chizkiyah Chofni Chushiel
+			Daniel David Dimi Dodai Dudai Efrayim Eina Elazar Elchanan Eldad Eliezer Elyakim Gedalyah Gershom Ghayyat Giat Giza Hillel 
+			Hila Isaac Ivomai Kafnai Kahana Kalonymos Levi Kiyomi Machir Malcha Mar Mari Matiyahu Meir Menechem Menashe Mesharsheya Meshulam 
+			Mevasser Mishael Mordechai Moshe Nachman Nachshon Nasan Natan Natroi Natronai Nechemiah Nehilai Nesanel Nissim Paltoi Pirkoi 
+			Peter Rava Ravai Ravi Ravya Reuven Rivai Saadiah Sechok Shabsai Shalom Shanoi Shemaryah Sherira Sheshna Shila Shimon Shinoi 
+			Shlomo Shmuel Sorgo Sulam Tachlifa Tamar Tzadok Tzemach Uri Yaakov Yachya Yechiel Yehudah Yehudai Yehoshua Yeshayah Yehudah 
+			Yisrael Yitzchak Yoel Yosef Yoshiah Yosi Yuda Zakkai Zelekman Zuiskind
 		}
 		female_names = {
-			Abdosir Abdtanit Agripina_Agrippina Amatashtart Amatbaal Amma Ammobaal Amotmilqart Antoniya_Antonia Arashtibaal Arisha Arishat Arishot Arshut Ashdanot Ashdonbaal Ashmonrabti Astarte Awgusta_Augusta Azibal Barkitbaal 
-			Batnoam Birkana Birkanda Bisha Bitnima Demna Domina Elissa Emeshmun Hannah Imashmon Imashtart Izabel_Elizabeth Lamiya_Lamia Mitunbaal Muttunbaal Pawly Pheliqula_Felicula Quarta Saphanbaal Septy Shiba Sisa Ummashtart Yasha Yuhliya_Julia Zibqet
+			Beila Belet Chana Doltza Esther Guta Guthela Madrona Matrona Minna Pultzelina Rachel Rivkah Saris Scolaster
+			Shluida Shoinlin Shonlin Tziporah Yehudis Yeintil
 		}
 		
-		dynasty_title_names = yes
-		founder_named_dynasties = yes
+		from_dynasty_prefix = "of "
 
-		male_patronym = "bin "
-		female_patronym = "bitt "
-		prefix = yes
+		modifier = default_culture_modifier
+	}
+	sephardi = {
+		graphical_culture = byzantinegfx
 		
+		color = { 0.7 0.2 0.7 }
+
+		male_names = {
+			Abba Abbaye Acha Achai Achunai Aharon Alechsandri Ammi Amram Amunah Ashi Asher Avomai Avraham Azariah Baboi Baruch
+			Bibai Binyamin Boaz Bustenai Chanan Chananel Chaninai Chanoch Chaim Chayim Chelbo Chisdai Chiyya Chizkiyah Chofni Chushiel
+			Daniel David Dimi Dodai Dudai Efrayim Eina Elazar Elchanan Eldad Eliezer Elyakim Gedalyah Gershom Ghayyat Giat Giza Hillel 
+			Hila Isaac Ivomai Kafnai Kahana Kalonymos Levi Kiyomi Machir Malcha Mar Mari Matiyahu Meir Menechem Menashe Mesharsheya Meshulam 
+			Mevasser Mishael Mordechai Moshe Nachman Nachshon Nasan Natan Natroi Natronai Nechemiah Nehilai Nesanel Nissim Paltoi Pirkoi 
+			Peter Rava Ravai Ravi Ravya Reuven Rivai Saadiah Sechok Shabsai Shalom Shanoi Shemaryah Sherira Sheshna Shila Shimon Shinoi 
+			Shlomo Shmuel Sorgo Sulam Tachlifa Tamar Tzadok Tzemach Uri Yaakov Yachya Yechiel Yehudah Yehudai Yehoshua Yeshayah Yehudah 
+			Yisrael Yitzchak Yoel Yosef Yoshiah Yosi Yuda Zakkai Zelekman Zuiskind
+		}
+		female_names = {
+			Beila Belet Chana Doltza Esther Guta Guthela Madrona Matrona Minna Pultzelina Rachel Rivkah Saris Scolaster
+			Shluida Shoinlin Shonlin Tziporah Yehudis Yeintil
+		}
+		
+		from_dynasty_prefix = "of "
+
 		modifier = default_culture_modifier
 	}
 	hebrew = { 
@@ -88,7 +109,7 @@ semitic = {
 			Caiaphas Cephas_Peter Cephus_Peter Chadlai Chama Chanin_Chanin Chanina_Chanin Chaninai_Chanin 
 			Chinena_Chanin Chozai_Chozai Chuma Chunya_Chunya Clopas 
 			Dadisho' Denha Dikla_Dikla Diklah_Dikla Dimi Dinkha Dunanu 
-			Elisha'_Elisha Eliya Emmanuel_Emmanuel Enosh Ezekiel_Ezekiel 
+			Elisha'_Elisha Eliya_Elijah Emmanuel_Emmanuel Enosh Ezekiel_Ezekiel 
 			Farbokht_Farbokht Foma Flavyanus
 			Giwargis_George Grwgari_Gregory 
 			Hanina_Chanin Hnanisho' Hozai_Chozai 

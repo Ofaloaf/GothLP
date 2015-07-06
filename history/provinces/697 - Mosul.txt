@@ -16,5 +16,5 @@ b_baqofah = castle
 #b_arbil = temple
 
 #Misc
-culture = kurdish
+culture = assyrian
 religion = nestorian

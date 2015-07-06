@@ -174,14 +174,13 @@
 144146 = {
 	name="Fadl"
 	dynasty=792
-	religion="shiite"
+	religion="zoroastrian"
 	culture="bedouin_arabic"
-	father  = 20900
-	1080.1.1={
-		birth="1080.1.1"
+	731.1.1={
+		birth=yes
 	}
-	1139.1.1={
-		death="1139.1.1"
+	800.1.1={
+		death=yes
 	}
 }
 
@@ -609,11 +608,11 @@
 	culture="bedouin_arabic"
 	trait="proud"
 	trait="scholarly_theologian"
-	1150.1.1={
-		birth="1150.1.1"
+	730.1.1={
+		birth=yes
 	}
-	1200.1.1={
-		death="1200.1.1"
+	800.1.6={
+		death=yes
 	}
 }
 
@@ -627,11 +626,11 @@
 	religion="sunni"
 	culture="bedouin_arabic"
 	trait="underhanded_rogue"
-	1150.1.1={
-		birth="1150.1.1"
+	736.1.1={
+		birth=yes
 	}
-	1200.1.1={
-		death="1200.1.1"
+	800.1.6={
+		death=yes
 	}
 }
 
@@ -4859,12 +4858,11 @@
 	dynasty=1027011
 	religion="sunni"
 	culture="bedouin_arabic"
-	father=155157
-	1040.1.1={
-		birth="1040.1.1"
+	729.1.1={
+		birth=yes
 	}
-	1100.1.1={
-		death="1100.1.1"
+	800.1.1={
+		death=yes
 	}
 }
 155159 = {

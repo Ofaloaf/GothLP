@@ -1,8 +1,0 @@
-264001 = {
-	name = "Barca"
-	culture = punic
-}
-
-264002 = {
-	name = "Iolensis"
-}

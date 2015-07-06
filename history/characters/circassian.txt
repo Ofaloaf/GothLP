@@ -1,0 +1,12 @@
+3133001 = {
+	name = "Hazret"
+	dynasty=3336035 # Zazi
+	religion=tengri_pagan
+	culture=circassian
+	734.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}

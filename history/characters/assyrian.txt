@@ -1,0 +1,38 @@
+2222001 = {
+	name = Eliya
+	dynasty = 1552031 # Aqrawi
+	religion = nestorian
+	culture = assyrian
+	722.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+
+2222002 = {
+	name = Petros
+	dynasty = 1552009 # Tarsah
+	religion = nestorian
+	culture = assyrian
+	733.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+
+2222003 = {
+	name = Tolmai
+	dynasty = 1552014 # Semaan
+	religion = nestorian
+	culture = assyrian
+	736.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}

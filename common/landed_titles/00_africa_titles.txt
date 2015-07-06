@@ -341,7 +341,7 @@ e_africa = {
 			}
 		}
 		d_cyrenaica = {
-			color={ 32 150 63 }
+			color={ 196 227 251 }
 			color2={ 255 255 255 }
 
 			greek = "Kyrenaike"
@@ -349,7 +349,7 @@ e_africa = {
 			capital = 806 # Cyrenaica
 		
 			c_cyrenaica = {
-				color={ 34 152 65 }
+				color={ 166 214 249 }
 				color2={ 255 255 255 }
 
 				greek = "Kyrenaike"
@@ -373,7 +373,7 @@ e_africa = {
 				}
 			}
 			c_senoussi = {
-				color={ 36 154 67 }
+				color={ 142 221 244 }
 				color2={ 255 255 255 }
 
 				# Augila
@@ -399,10 +399,13 @@ e_africa = {
 				}
 			}
 			c_benghazi = {
-				color={ 38 156 69 }
+				color={ 102 184 244 }
 				color2={ 255 255 255 }
+
+				greek = Berenike
 			
 				b_benghazi = {
+					greek = Berenike
 				}
 				b_barca = {
 				}
@@ -420,7 +423,7 @@ e_africa = {
 				}
 			}
 			c_tobruk = {
-				color={ 40 158 71 }
+				color={ 223 240 253 }
 				color2={ 255 255 255 }
 			
 				b_tobruk = {

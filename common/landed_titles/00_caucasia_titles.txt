@@ -187,14 +187,25 @@ e_caucasia = {
 		d_edessa = {
 			color={ 182 110 45 }
 			color2={ 255 255 255 }
+
+			armenia = "Edesia"
+			kurdish = "Riha"
+			assyrian = "Urhay"
 			
 			capital = 699 # Edessa
 			
 			c_edessa = {
 				color={ 175 105 45 }
 				color2={ 255 255 255 }
+
+				armenia = "Edesia"
+				kurdish = "Riha"
+				assyrian = "Urhay"
 				
 				b_edessa = {
+					armenia = "Edesia"
+					kurdish = "Riha"
+					assyrian = "Urhay"
 				}
 				b_sruk = {
 				}
@@ -214,8 +225,21 @@ e_caucasia = {
 			c_tell_bashir = {
 				color={ 175 125 35 }
 				color2={ 255 255 255 }
+
+				assyrian = "Tel Bshir"
+
+				latine = Turbessel
+				hispani = Turbessel
+				gallic = Turbessel
+				gallaecian = Turbessel
+				italian = Turbessel
+				gothicromance = Turbessel
+				brithenig = Turbessel
+				africanu = Turbessel
+				dalmatian = Turbessel
 				
 				b_turbessel = {
+					assyrian = "Tel Bshir"
 				}
 				b_buzaa = {
 				}
@@ -235,6 +259,8 @@ e_caucasia = {
 			c_aintab = {
 				color={ 195 125 55 }
 				color2={ 255 255 255 }
+
+				greek = "Doliche"
 				
 				b_aintab = {
 				}
@@ -245,6 +271,7 @@ e_caucasia = {
 				b_ravendan = {
 				}
 				b_duluk = {
+					greek = "Doliche"
 				}
 				b_hromgla = {
 				}
@@ -570,8 +597,6 @@ e_caucasia = {
 		color2={ 255 255 255 }
 
 		circassian = "Adygea"
-		
-		capital = 603 # Alania
 		
 		tengri_pagan_reformed = 200
 

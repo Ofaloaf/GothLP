@@ -28,7 +28,7 @@ e_gallia = {
 
 				# Lugdunum
 
-				gothicromance = Liun
+				gothicromance = Liunés
 				
 				b_brindas = {
 					# Briendaco
@@ -3248,6 +3248,8 @@ e_gallia = {
 		d_treveria = {
 			color={ 208 104 44 }
 			color2={ 255 255 255 }
+
+			gothicromance = "Trevèri"
 			
 			capital = 118 # Trier
 
@@ -3256,6 +3258,8 @@ e_gallia = {
 				color2={ 255 255 255 }
 
 				# Treveria
+
+				gothicromance = "Trevèri"
 			
 				b_andernach = {
 					# Antunnacum
@@ -3264,6 +3268,7 @@ e_gallia = {
 					# Treveris
 
 					roman = "Treverorum"
+					gothicromance = "Trevèri"
 				}
 				b_coblenz = {
 					# Confluentes
@@ -3338,6 +3343,8 @@ e_gallia = {
 				color2={ 255 255 255 }
 
 				# Legia
+
+				gothicromance = "Lièja"
 			
 				b_liege = {
 					# Legia
@@ -3346,6 +3353,7 @@ e_gallia = {
 					latine = "Leodio"
 					gallic = "Leodicum"
 					hispani = "Leodico"
+					gothicromance = "Lièja"
 
 					old_frankish = "Ludeke"
 					gothic = "Ludic"
@@ -3370,10 +3378,13 @@ e_gallia = {
 			c_julich = {
 				color={ 100 100 141 }
 				color2={ 255 255 255 }
+
+				# Juliacum
 			
 				b_julich = {
 				}
 				b_aachen = {
+					gothicromance = "Aquisgran"
 				}
 				b_prum = {
 				}
