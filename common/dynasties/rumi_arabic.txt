@@ -152,3 +152,38 @@
 	name = "al-Dandachi"
 	culture = rumi_arabic
 }
+
+5553032 = {
+	name = "al-Antaqi"
+	culture = rumi_arabic
+}
+
+5553033 = {
+	name = "Battalid"
+	culture = rumi_arabic
+}
+
+5553034 = {
+	name = "Furatid"
+	culture = rumi_arabic
+}
+
+5553035 = {
+	name = "al-Afsini"
+	culture = rumi_arabic
+}
+
+5553036 = {
+	name = "al-Turandi"
+	culture = rumi_arabic
+}
+
+5553037 = {
+	name = "al Kamakhi"
+	culture = rumi_arabic
+}
+
+5553038 = {
+	name = "al-Zarbi"
+	culture = rumi_arabic
+}

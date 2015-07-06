@@ -17,6 +17,6 @@ b_ainbenamar = castle
 #b_barrha = castle
 
 # Misc
-culture = hispani
+culture = africanu
 religion = orthodox
 

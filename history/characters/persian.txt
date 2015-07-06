@@ -1806,3 +1806,31 @@
 		death=yes
 	}
 }
+
+1806009 = { 
+	name="Frasiyak"
+	dynasty=1042112
+	religion="zoroastrian"
+	culture="persian"
+	father=159550
+	715.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+1806010 = {
+	name = "Shahruz"
+	dynasty = 100643 # Saffari
+	religion="zoroastrian"
+	culture="persian"
+	father=159550
+	724.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}

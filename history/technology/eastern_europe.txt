@@ -5,6 +5,7 @@ technology = {
 	titles = {
 		d_mazovia
 		d_alania
+		d_zyx
 		d_silesia
 		d_wislania
 		d_kuyavia

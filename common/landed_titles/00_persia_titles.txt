@@ -1143,9 +1143,21 @@ e_persia = {
 		}
 	}
 	
-	k_khiva = {
-		color = { 210 175 60 }
+	k_khwarezm = {
+		color = { 83 83 64 }
 		color2={ 255 255 255 }
+
+		roman = "Chorasmia"
+		greek = "Chorasmia"
+		latine = "Chorasmia"
+		hispani = "Chorasmia"
+		gallic = "Chorasmia"
+		brithenig = "Chorasmia"
+		dalmatian = "Chorasmia"
+		africanu = "Chorasmia"
+
+		gothicromance = "Curasmia"
+		rimlyani = "Khorasmia"
 		
 		capital	= 626 # Khiva
 		culture = persian

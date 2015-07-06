@@ -343,14 +343,19 @@ e_africa = {
 		d_cyrenaica = {
 			color={ 32 150 63 }
 			color2={ 255 255 255 }
+
+			greek = "Kyrenaike"
 			
 			capital = 806 # Cyrenaica
 		
 			c_cyrenaica = {
 				color={ 34 152 65 }
 				color2={ 255 255 255 }
+
+				greek = "Kyrenaike"
 			
 				b_cyrene = {
+					greek = "Kyrene"
 				}
 				b_marsasusah = {
 				}
@@ -370,8 +375,13 @@ e_africa = {
 			c_senoussi = {
 				color={ 36 154 67 }
 				color2={ 255 255 255 }
+
+				# Augila
 			
 				b_kufra = {
+					# Corniclanum
+
+					greek = Korniklanon
 				}
 				b_jalu = {
 				}
@@ -911,18 +921,40 @@ e_africa = {
 			c_tangiers = {
 				color={ 90 122 65 }
 				color2={ 255 255 255 }
+
+				# Tingis
+
+				gothic = "Tingi"
+				old_frankish = "Tingi"
+				old_saxon = "Tingi"
+				frisian = "Tingi"
+				norse = "Tingi"
+				suebi = "Tingi"
 			
 				b_tangiers = {
+					# Tingis
+
+					gothic = "Tingi"
+					old_frankish = "Tingi"
+					old_saxon = "Tingi"
+					frisian = "Tingi"
+					norse = "Tingi"
+					suebi = "Tingi"
 				}
 				b_laraiche = {
+					# Ermaia Akra # actually Ras el Kouass
 				}
 				b_mulaybuselham = {
+					# Cottae # actually Cape Spartel
 				}
 				b_alcazarquivir = {
+					# Oppidum Novum
 				}
 				b_asilah = {
+					# Zilil
 				}
 				b_ainbenamar = {
+					# Admercuri # Ad Mercuri # Bled Mers
 				}
 				b_barrha = {
 				}
@@ -936,8 +968,12 @@ e_africa = {
 				b_infa = {
 				}
 				b_rabat = {
+					maghreb_arabic = "Errbat"
 				}
 				b_sale = {
+					# Sala
+
+					maghreb_arabic = "Sla"
 				}
 				b_tiflet = {
 				}
@@ -974,6 +1010,8 @@ e_africa = {
 			c_el_rif = {
 				color={ 77 109 46 }
 				color2={ 255 255 255 }
+
+				# Rusadir
 			
 				b_melilla = {
 				}

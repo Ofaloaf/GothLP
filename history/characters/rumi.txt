@@ -191,3 +191,31 @@
 
 	}
 }
+
+629011 = {
+	name="Abianos"
+	dynasty=5553037 # al Kamakhi
+	culture=rumi_arabic
+	religion=sunni
+	734.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+
+	}
+}
+
+629012 = {
+	name="Hasan"
+	dynasty=5553034 # Furatid
+	culture=rumi_arabic
+	religion=sunni
+	740.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+
+	}
+}

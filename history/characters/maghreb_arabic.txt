@@ -1,0 +1,21 @@
+1962001 = {
+	name = "Tifan"
+	dynasty = 845
+	culture=maghreb_arabic
+	religion=donatist
+	trait=brave
+	trait=brilliant_strategist
+	722.1.1={
+		birth=yes
+	}
+	768.7.14 = {
+		culture = roman
+		give_nickname = nick_the_culture
+	}
+	769.1.1 = {
+		culture = maghreb_arabic
+	}
+	800.1.1={
+		death=yes
+	}
+}

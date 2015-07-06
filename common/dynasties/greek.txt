@@ -39,3 +39,8 @@
 	name = "Moreatis"
 	culture = greek
 }
+
+1453009 = {
+	name = "Phaedimianos"
+	culture = greek
+}

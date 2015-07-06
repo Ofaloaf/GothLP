@@ -1646,6 +1646,8 @@ e_germany = {
 		d_holland = {
 			color={ 235 80 30 }
 			color2={ 255 255 255 }
+
+			pommeranian = "Holtzemia"
 		
 			capital = 80 #Holland
 			
@@ -1655,7 +1657,7 @@ e_germany = {
 				color={ 235 85 30 }
 				color2={ 255 255 255 }
 
-				pommerianian = "Holtzemia"
+				pommeranian = "Holtzemia"
 			
 				b_haarlem = {
 					gothic = "Haarlohaim"

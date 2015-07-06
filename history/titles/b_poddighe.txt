@@ -1,0 +1,5 @@
+760.1.1={
+	holding_dynasty = 1337033 # Poddighe
+	liege="d_tingitana"
+	holder=4449013 # Jagu Poddighe
+}

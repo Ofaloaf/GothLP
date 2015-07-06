@@ -1,0 +1,5 @@
+760.1.1={
+	holding_dynasty = 1337007 # Anedda
+	liege="d_tingitana"
+	holder=4449011 # Diodoru Anedda
+}

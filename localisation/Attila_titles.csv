@@ -158,6 +158,8 @@ k_illyria;Illyria;;;;;;;;;;;;;x
 k_illyria_adj;Illlyrian;;;;;;;;;;;;;x
 k_jazygia;Jazygia;;;;;;;;;;;;;x
 k_jazygia_adj;Jazygian;;;;;;;;;;;;;x
+k_khwarezm;Khwarezm;;;;;;;;;;;;;x
+k_khwarezm_adj;Khwarezian;;;;;;;;;;;;;x
 k_loegria;Loegria;;;;;;;;;;;;;x
 k_loegria_adj;Loegrian;;;;;;;;;;;;;x
 k_lusitania;Lusitania;;;;;;;;;;;;;x
@@ -406,6 +408,8 @@ d_wislania;Wislania;;;;;;;;;;;;;x
 d_wislania_adj;Wislanian;;;;;;;;;;;;;x
 d_zeugitana;Zeugitana;;;;;;;;;;;;;x
 d_zeugitana_adj;Zeugitanan;;;;;;;;;;;;;x
+d_zyx;Zyx;;;;;;;;;;;;;x
+d_zyx_adj;Zygian;;;;;;;;;;;;;x
 b_brockley_hill;Sulloniacis;;;;;;;;;;;;;x
 b_chelmsford;Caesaromagus;;;;;;;;;;;;;x
 b_kelvedon;Canonium;;;;;;;;;;;;;x

@@ -128,3 +128,81 @@
 		death=yes
 	}
 }
+
+4449009 = {
+	name = "Dominigu"
+	dynasty = 1337002 # Balistreri
+	culture="africanu"
+	religion="orthodox"
+	715.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+4449010 = {
+	name = "Marceh"
+	dynasty = 1337006 # Cappai
+	culture="africanu"
+	religion="orthodox"
+	725.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+	
+4449011 = {
+	name = "Diodoru"
+	dynasty = 1337007 # Anedda
+	culture="africanu"
+	religion="orthodox"
+	735.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+4449012 = {
+	name = "Johannei"
+	dynasty = 1337035 # Lussu
+	culture="africanu"
+	religion="orthodox"
+	730.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+4449013 = {
+	name = "Jagu"
+	dynasty = 1337033 # Poddighe
+	culture="africanu"
+	religion="orthodox"
+	740.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+4449014 = {
+	name = "Isalca"
+	dynasty = 1337042
+	culture="africanu"
+	religion="donatist"
+	736.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}

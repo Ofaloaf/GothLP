@@ -1085,6 +1085,10 @@ e_oriens = {
 				b_sis = {
 				}
 				b_anazarba = {
+					bedouin_arabic = "Ayn Zarba"
+					levantine_arabic = "Ayn Zarba"
+					egyptian_arabic = "Ayn Zarba"
+					rumi_arabic = "Ayn Zarba"
 				}
 				b_mamistra = {
 				}
@@ -1097,6 +1101,10 @@ e_oriens = {
 				b_vahka = {
 				}
 				b_mopsuestia = {
+					bedouin_arabic = "Al-Massisa"
+					levantine_arabic = "Al-Massisa"
+					egyptian_arabic = "Al-Massisa"
+					rumi_arabic = "Al-Massisa"
 				}
 			}
 			c_teluch = {

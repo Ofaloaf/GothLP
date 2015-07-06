@@ -24,3 +24,27 @@ b_moreatis = {
 	culture = greek
 	religion = orthodox
 }
+
+
+### TINGITANA ###
+
+b_balistreri = {
+	culture = africanu
+	religion = orthodox
+}
+b_cappai = {
+	culture = africanu
+	religion = orthodox
+}
+b_anedda = {
+	culture = africanu
+	religion = orthodox
+}
+b_lussu = {
+	culture = africanu
+	religion = orthodox
+}
+b_poddighe = {
+	culture = africanu
+	religion = orthodox
+}
