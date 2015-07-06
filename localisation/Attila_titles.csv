@@ -70,6 +70,8 @@ vice_royalty_duchy_of_provinciale;Province of;;;;;;;;;;;;;x
 vice_royalty_kingdom_of_provinciale;Diocese of;;;;;;;;;;;;;x
 vice_royalty_empire_of_provinciale;Grand Exarchate of;;;;;;;;;;;;;x
 #
+d_vandalic_order;Vandalic Order;;;;;;;;;;;;;x
+d_vandalic_order_adj;Vandalic;;;;;;;;;;;;;x
 d_arcani;Arcani;;;;;;;;;;;;;x
 d_arcani_adj;Arcanian;;;;;;;;;;;;;x
 d_band_of_britons;Band of Britons;;;;;;;;;;;;;x

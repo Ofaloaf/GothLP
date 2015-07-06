@@ -55,36 +55,6 @@ d_knights_templar = {
 	monthly_income = 10 # (Must be an integer between 1 and 512)
 }
 
-d_teutonic_order = {
-	
-	color={ 50 50 50 }
-	color2={ 255 255 255 }
-	
-	graphical_culture = holygfx
-	
-	capital = 258 # Lüneburg
-
-	title = "HOCHMEISTER"
-	foa = "HOCHMEISTER_FOA"
-	
-	# Always exists
-	landless = yes
-	
-	holy_order = yes
-	mercenary_type = teutonic_order_composition
-	
-	# Parent Religion 
-	religion = catholic
-	
-	culture = german
-	
-	# Cannot be held as a secondary title
-	primary = yes
-	
-	# Extra income due to donations, etc
-	monthly_income = 4 # (Must be an integer between 1 and 512)
-}
-
 d_knights_hospitaler = {
 
 	color={ 180 180 180 }
@@ -2985,27 +2955,6 @@ e_tartaria = {
 				b_sevastoupolis = {
 				}
 				b_kalamita = {
-				}
-			}
-			c_tmutarakan = {
-				color={ 196 99 162 }
-				color2={ 255 255 20 }
-				
-				b_tmutarakan = {
-				}
-				b_mapa = {
-				}
-				b_taman = {
-				} 
-				b_tumnev = {
-				}
-				b_jevlisia = {
-				}
-				b_sujukqale = {
-				}
-				b_bata = {
-				}
-				b_tsemes = {
 				}
 			}
 		}
