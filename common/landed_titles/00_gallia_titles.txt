@@ -215,9 +215,13 @@ e_gallia = {
 				color2={ 255 255 255 }
 
 				# Autessiodurum
+
+				gothicromance = "Aussèrra"
 				
 				b_auxerre = {
 					# Autessiodurum
+
+					gothicromance = "Aussèrra"
 				}
 				b_druyes = {
 				}
@@ -266,7 +270,9 @@ e_gallia = {
 
 				latine = "Nevirnum"
 				gallic = "Nevirnum"
-				hispani = "Nevirmum"
+				hispani = "Nevirnum"
+
+				gothicromance = "Nivèrns"
 				
 				b_courtenay = {
 				}
@@ -276,6 +282,8 @@ e_gallia = {
 					latine = "Nevirnum"
 					gallic = "Nevirnum"
 					hispani = "Nevirnum"
+
+					gothicromance = "Nivèrns"
 				}
 				b_lacharite = {
 				}
@@ -318,6 +326,8 @@ e_gallia = {
 		d_campanenses = {
 			color={ 166 125 154 }
 			color2={ 255 255 255 }
+
+			gothicromance = "Campanha"
 			
 			capital = 114 # Reims
 			
@@ -540,6 +550,8 @@ e_gallia = {
 		d_mosella = {
 			color = { 171 82 122 }
 			color2= { 255 255 255 }
+
+			gothicromance = "Mosèla"
 
 			c_pfalz = {
 				color={ 185 68 118 }

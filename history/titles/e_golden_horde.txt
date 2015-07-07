@@ -1,0 +1,12 @@
+20.1.1={
+	active = no
+}
+1066.1.1={
+	law = agnatic_succession
+	law = succ_ultimogeniture
+}
+1227.12.2=
+{
+holder=125503
+active = yes
+}
