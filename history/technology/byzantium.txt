@@ -28,7 +28,7 @@ technology = {
 		d_polemoniacus
 		d_cappadocia
 		d_kartli
-		d_derbent
+		d_albania
 		d_abkhazia
 		d_scythia
 		d_moesia

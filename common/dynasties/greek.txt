@@ -44,3 +44,13 @@
 	name = "Phaedimianos"
 	culture = greek
 }
+
+1453010 = {
+	name = "Hieronides"
+	culture = greek
+}
+
+1453011 = {
+	name = "Toinonides"
+	culture = greek
+}

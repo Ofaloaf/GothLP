@@ -30,6 +30,13 @@ e_hispania = {
 
 		capital = 326 # Cagliari
 
+		allow = {
+			NOT = {
+				has_landed_title=e_caralis
+				has_law = vice_royalty_0
+			}
+		}
+
 		d_sardinia = {
 			color={ 217 159 255 }
 			color2={ 255 255 255 }
@@ -179,6 +186,13 @@ e_hispania = {
 		color2= { 255 255 255 }
 
 		capital = 173 # Tarraco / Tarragona
+
+		allow = {
+			NOT = {
+				has_landed_title=e_caralis
+				has_law = vice_royalty_0
+			}
+		}
 
 		d_barcino = {
 			color = { 70 140 83 }
@@ -1063,6 +1077,13 @@ e_hispania = {
 		
 		catholic = 250 # Crusade target weight
 		muslim = 25 # Crusade target weight
+
+		allow = {
+			NOT = {
+				has_landed_title=e_caralis
+				has_law = vice_royalty_0
+			}
+		}
 		
 		d_galicia = {
 			color = { 213 158 51 }
@@ -1337,11 +1358,9 @@ e_hispania = {
 		
 		# Creation/usurpation trigger
 		allow = {
-			hidden_tooltip = {
-				OR = {
-					ai = no
-					religion_group = christian
-				}
+			NOT = {
+				has_landed_title=e_caralis
+				has_law = vice_royalty_0
 			}
 		}
 		
@@ -1748,6 +1767,13 @@ e_hispania = {
 		catholic = 100 # Crusade target weight
 		muslim = 50 # Crusade target weight
 		west_african_pagan_reformed = 50
+
+		allow = {
+			NOT = {
+				has_landed_title=e_caralis
+				has_law = vice_royalty_0
+			}
+		}
 		
 		d_cordubensis = {
 			color = { 11 96 202 }
@@ -2023,6 +2049,10 @@ e_hispania = {
 						religion_group = christian
 					}
 				}
+			}
+			NOT = {
+				has_landed_title=e_caralis
+				has_law = vice_royalty_0
 			}
 		}
 		

@@ -1757,7 +1757,7 @@
 
 1806005 = {
 	name="Peroz"
-	dynasty=7607 # Sarbadar
+	dynasty=7507 # Sarbadar
 	religion="zoroastrian"
 	culture="persian"
 	724.1.1={
@@ -1828,6 +1828,19 @@
 	culture="persian"
 	father=159550
 	724.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+1806011 = {
+	name = "Peroz"
+	dynasty = 100644 # Laith
+	religion="zoroastrian"
+	culture="persian"
+	723.1.1={
 		birth=yes
 	}
 	800.1.1={

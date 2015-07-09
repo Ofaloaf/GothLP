@@ -1,5 +1,5 @@
 600.1.1 = {
-	liege = "e_byzantium"
+	liege = "d_wallachia"
 }
 735.1.1 = {
 	holder = 3332016 # Dobromil Kabilyets

@@ -19,3 +19,16 @@
 		death=yes
 	}
 }
+
+1962002 = {
+	name = "Sifal"
+	dynasty = 7275 # an-Nafzawiyyat
+	culture=maghreb_arabic
+	religion=donatist
+	729.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}

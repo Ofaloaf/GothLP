@@ -1416,7 +1416,7 @@ decisions = {
 							title = e_gallia
 							title = e_germany
 							title = e_britannia
-							title = e_hispania
+							title = e_africa
 							AND = {
 								tier = KING
 								NOT = {	title = k_romania	}
@@ -1424,7 +1424,7 @@ decisions = {
 									empire = { title = e_gallia }
 									empire = { title = e_germany }
 									empire = { title = e_britannia }
-									empire = { title = e_hispania }
+									empire = { title = e_africa }
 								}
 							}
 						}
@@ -1450,7 +1450,7 @@ decisions = {
 						e_france = { holder_scope = { NOT = { religion_group = christian } } }
 					}
 					OR = {
-						has_landed_title = e_hispania
+						has_landed_title = e_africa
 						e_spain = {	has_holder = no	}
 						e_spain = { holder_scope = { NOT = { religion_group = christian } } }
 					}
@@ -1507,7 +1507,16 @@ decisions = {
 #				limit = { tier = KING }
 #				destroy_landed_title = THIS
 #			}
-			e_byzantium = {
+			e_caralis = {
+				holder_scope = {
+					opinion = {
+						who = ROOT
+						modifier = opinion_unhappy
+						months = 1200
+					}
+				}
+			}
+			e_papal_hre = {
 				holder_scope = {
 					opinion = {
 						who = ROOT

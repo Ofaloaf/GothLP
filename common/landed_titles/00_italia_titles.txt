@@ -1498,7 +1498,7 @@ e_italy = {
 			color={ 155 254 86 }
 			color2={ 255 255 255 }
 			
-			capital = 340 # Palermo
+			capital = 343 # Siracusa
 			
 			c_palermo = {
 				color={ 155 254 86 }

@@ -1,0 +1,7 @@
+758.1.1={
+	law = succ_ultimogeniture
+	holder=188784 # Uyghur conquest
+}
+759.6.1={
+	holder=188785
+}

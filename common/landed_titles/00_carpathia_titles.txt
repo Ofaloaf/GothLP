@@ -29,6 +29,34 @@ e_carpathia = {
 		d_wallachia = {
 			color={ 238 192 69 }
 			color2={ 255 255 255 }
+
+			greek = "Transalytanos"
+			roman = "Transalutanus"
+			latine = "Transalutanus"
+			hispani = Transalutanus
+			gallaecian = Transalutanus
+			gallic = Transalutanus
+			italian = Transalutano
+			dalmatian = Transalutano
+			brithenig = Transalutanus
+			africanu = Transalutanu
+			gothicromance = Transalutanus
+
+			traki = Transoltska
+			rimlyani = "Transoltanus"
+
+			alan = "Deliorman"
+			feretolan = "Deliorman"
+			jasi = "Deliorman"
+			sarmatian = "Deliorman"
+
+			turkish = "Teleorman"
+			cuman = "Deliorman"
+			khazar = "Deliorman"
+			bolghar = "Deliorman"
+			avar = "Deliorman"
+			karluk = "Deliorman"
+			kirghiz = "Deliorman"
 			
 			capital = 515 # Tirgoviste
 		
@@ -124,6 +152,15 @@ e_carpathia = {
 			capital = 545 # Torki
 			
 			pecheneg = "Pecheneg"
+			romanian = "Moldova"
+			gothic = "Mulda"
+			gothicromance = "Muldavia"
+			german = "Muldau"
+
+			alan = "Mulda"
+			feretolan = "Mulda"
+			jasi = "Mulda"
+			sarmatian = "Mulda"
 		
 			c_peresechen = {
 				color={ 225 204 147 }

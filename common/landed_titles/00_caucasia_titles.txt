@@ -25,13 +25,13 @@ e_caucasia = {
 		}
 	
 		d_armenia = {
-			color={ 154 77 36 }
+			color={ 65 167 165 }
 			color2={ 255 255 255 }
 			
 			capital = 682 # Vaspurakan
 			
 			c_vaspurakan = {
-				color={ 144 67 36 }
+				color={ 55 132 138 }
 				color2={ 255 255 255 }
 				
 				turkish = "Van"
@@ -55,7 +55,7 @@ e_caucasia = {
 				}
 			}
 			c_dwin = {
-				color={ 138 77 40 }
+				color={ 116 192 199 }
 				color2={ 255 255 255 }
 				
 				turkish = "Erivan"
@@ -76,7 +76,7 @@ e_caucasia = {
 				}
 			}
 			c_ani = {
-				color={ 168 87 50 }
+				color={ 55 176 173 }
 				color2={ 255 255 255 }
 				
 				turkish = "Kars"
@@ -99,7 +99,7 @@ e_caucasia = {
 				}
 			}
 			c_lori = {
-				color={ 142 70 45 }
+				color={ 66 132 123 }
 				color2={ 255 255 255 }
 			
 				b_lori_berd = {}
@@ -112,13 +112,13 @@ e_caucasia = {
 			}
 		}
 		d_mesopotamia = {
-			color={ 155 88 20 }
+			color={ 168 120 186 }
 			color2={ 255 255 255 }
 			
 			capital = 702 # Mesopotamia
 			
 			c_karin = {
-				color={ 155 95 20 }
+				color={ 133 79 153 }
 				color2={ 255 255 255 }
 				
 				turkish = "Erzurum"
@@ -142,7 +142,7 @@ e_caucasia = {
 				}
 			}
 			c_mesopotamia = {
-				color={ 165 99 25 }
+				color={ 190 128 206 }
 				color2={ 255 255 255 }
 				
 				b_tzimisca = {
@@ -163,7 +163,7 @@ e_caucasia = {
 				}
 			}
 			c_taron = {
-				color={ 155 70 25 }
+				color={ 105 70 117 }
 				color2={ 255 255 255 }
 				
 				b_manzikert = {
@@ -440,14 +440,15 @@ e_caucasia = {
 				}
 			}
 		}
-		d_derbent = {
-			color={ 203 76 76 }
+		d_albania = {
+			color={ 148 132 168 }
 			color2={ 255 255 255 }
 			
 			capital = 674 # Derbent
 
-			armenian = "Aghbania"
-			georgian = "Aghbania"
+			armenian = "Aguank"
+			georgian = "Rani"
+			persian = "Arran"
 			alan = "Aghbania"
 			greek = "Albania"
 			
@@ -459,53 +460,56 @@ e_caucasia = {
 				georgian = "Albaneti"
 
 				b_chukhurkabala = {
-				armenian = "Kabalak"
-				georgian = "Kabala"
-				alan = "Kabala"
+					armenian = "Kabalak"
+					georgian = "Kabala"
+					alan = "Kabala"
 				}
 				b_ganja = {
-				armenian = "Gandzak"
-				georgian = "Gandza"
-				alan = "Gandza"
+					armenian = "Gandzak"
+					georgian = "Gandza"
+					alan = "Gandza"
 				}
 				b_shaki = {
-				armenian = "Shake"
-				georgian = "Shake"
-				alan = "Shake"
+					armenian = "Shake"
+					georgian = "Shake"
+					alan = "Shake"
 				}
 				b_darussoltan = {
-				armenian = "Kaladasht"
-				georgian = "Kaladasht"
-				alan = "Kaladasht"
+					armenian = "Kaladasht"
+					georgian = "Kaladasht"
+					alan = "Kaladasht"
 				}
 				b_barda = {
-				armenian = "Partav"
-				georgian = "Bardavi"
-				alan = "Partavi"
+					armenian = "Partav"
+					georgian = "Bardavi"
+					alan = "Partavi"
 				}
 				b_emli = {
-				armenian = "Surp Yeghishe"
-				georgian = "Gish"
-				alan = "Kish"
+					armenian = "Surp Yeghishe"
+					georgian = "Gish"
+					alan = "Kish"
 				}
 				b_gelersengorersen = {
-				armenian = "Kalaberd"
-				georgian = "Kalaberd"
-				alan = "Kalaberd"
+					armenian = "Kalaberd"
+					georgian = "Kalaberd"
+					alan = "Kalaberd"
 				}
 				b_kabala = {
-				armenian = "Vartashen"
-				georgian = "Vardashen"
-				alan = "Vartashen"
+					armenian = "Vartashen"
+					georgian = "Vardashen"
+					alan = "Vartashen"
 				}
 			}
 			c_derbent = {
 				color={ 253 179 179 }
 				color2={ 255 255 255 }
+
+				persian = "Darband"
 				
 				b_narinkala = {
 				}
 				b_derbent = {
+					persian = "Darband"
 				}
 				b_juma = {
 				}

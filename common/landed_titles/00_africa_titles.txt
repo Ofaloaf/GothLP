@@ -753,6 +753,8 @@ e_africa = {
 			c_tlemcen = {
 				color={ 88 83 61 }
 				color2={ 255 255 255 }
+
+				# Altava
 			
 				b_tlemcen = {
 				}

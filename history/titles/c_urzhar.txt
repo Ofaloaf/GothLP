@@ -1,0 +1,12 @@
+744.1.1={
+	holder=188783
+}
+747.1.1={
+	holder=188784
+}
+758.1.1={
+	liege=d_kirghiz # Uyghur conquest
+}
+759.6.1={
+	holder=188785
+}
