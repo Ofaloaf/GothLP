@@ -113,7 +113,7 @@ central_germanic = {
 			Franziskus_Francis
 			Gardingus Gaudesind Gomedei Gomulfus Gresumarus Gudesteus Gumarius Gundivald Guntatus Gunterotis
 			Gabinus Georg_George
-			Heremigar Hermeric Hildemir Hilderic Huniscus Huniscus Heinrich_Henry Hermann_Herman
+			Heremigar Hermeric Hildemir Hilderic Huniscus Huniscus Hainrich_Henry Hermann_Herman
 			Isidor
 			Johann_John
 			Konrad_Konrad
@@ -204,7 +204,7 @@ central_germanic = {
 			Quidila
 			Reikahardus_Richard Recitach Rothareic_Roderick 
 			Saulaumon_Solomon Seimon_Simon Sigifridus_Siegfried Sigismunds_Sigismund Staifanus_Stephen Sibia
-			Sumaion_Simon Salla Seda Senarius Suatrias Sindila Sarus Sigisvult
+			Sumaion_Simon Salla Seda Senarius Suatrias Sindila Sarus Sigisvult Suarius_Suarius
 			Teimautheius_Timothy Teitus_Titus Totila Thiuda_Teoda Thiudareiks_Theodoric Thiudeis_Theudis
 			Thomas_Thomas Triwila
 			Uftila Unigis Ugnus

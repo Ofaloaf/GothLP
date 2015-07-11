@@ -295,38 +295,38 @@ provinciale = {
 
 		male_names = { 
 			Adhémar Acfred_Alfred Aimeric_Aymeric Alberic_Alberic Albert_Albert Aldebert_Albert Alias_Helias 
-			Amalric_Amalric Amaneus Ancelmes Andrai_Andrew Archambaut_Archibald Arnaut_Arnold Atila_Attila
+			Amalric_Amalric Amaneus Ancelmes Andrai_Andrew Archambalt_Archibald Arnaut_Arnold Atila_Attila
 			Artau_Artal Audoïn Aymar_Aymeric Aymeric_Aymeric Aznar_Aznar Antemi Ardo Alaric_Alaric Aram
 			Atalaric Avit_Avitus Amadaius_Amadeus Aloito Alffonsus_Alphonse Alexandre_Alexander Audon_Otto 
-			Audoacre_Odoacer Antunin_Antoninus Ainric_Henry Agust_August
-			Barral Bartoumiéu_Bartolomeus Baudoïn_Baldwin Beneset_Benedict Bérard_Bernard Berenguié_Berengar 
-			Bermond_Vermudo Bernat_Bernard Bertrand_Bertrand Blasi_Blaise Borel 
+			Audoacre_Odoacer Antunin_Antoninus Ainric_Henry Agust_August Arias Audericho
+			Barral Bartoumiéu_Bartolomeus Baudoïn_Baldwin Benexet_Benedict Bérard_Bernard Berenguié_Berengar 
+			Bermond_Vermudo Bernat_Bernard Bertrand_Bertrand Blasi_Blaise Borel Benaitu_Benedict
 			Boson_Boson Belisari_Belisarius
 			Clamenç_Clement Centolh_Centule Caraules_Charles Claudi_Claudius Cunstantin_Constantine
 			Cunstanci_Constantius
 			Dàvi_David Dat_Theodat Dodon Doumenge Duran Diaco_Diego
 			Ebles_Otto Ermengau Evaric_Euric Ervige Eraric Estilicó
-			Filip_Philip Froila_Froila Ferrand_Ferdinand Flaurènç Fulquet_Folke Francés_Francis 
+			Filip_Philip Froila_Froila Ferrand_Ferdinand Flaurènç Fulquet_Folke Francés_Francis Flaín
 			Frederi_Frederick 
-			Garçi_Garcia Gaston_Gaston Gausbert_Gausbert Gautier_Walter Gilbèrt_Gilbert Girard_Gerard 
+			Garçi_Garcia Gausbert_Gausbert Gautier_Walter Gilbèrt_Gilbert Girard_Gerard Godesteo Guntrodo
 			Gudafres_Godfrey Gui_Guy Guichard Guigues_Guy Guiraud_Gerald Guitart_Gerard Guillemó_William
-			Gauteric Gonçalo_Gonzal Guttier_Walter
+			Gauteric Gonçalo_Gonzal Guttier_Walter Gomé
 			Ives Irmanric Ildebad Immanuèl_Manuel Istève_Stephen
 			Jacme_Jacob Jaufret_Godfrey Joan_John Jordan_Jordan Jorge_George Julian_Julian Juli_Julius
 			Justi_Justin
 			Laurènç_Laurence Liun_Leo Loïs_Louis Loui_Louis Lup_Lupo Lodoycus Luc_Lucas
-			Marçau Martin_Martin Matfrei_Manfred Matias_Matthew Milau Miquel_Michael Maurici_Maurice Magne_Magnus
-			Marc_Marcus
-			Nichaulas_Nicholas Narseis
-			Olban Ordonno_Ordono 
+			Marçau Martin_Martin Matfrei_Manfred Matias_Matthew Milau Miquel_Michael Maurici_Maurice
+			Marc_Marcus Melén Magne_Magnus
+			Nicaulas_Nicholas Narseis
+			Olban Ordonno_Ordono Oveco
 			Pèitre_Peter Pascalis Pol_Paul Pons_Pons Pradas
 			Quintil
-			Raimond_Raymond Raimond-Berenguié_Raymond-Berengar Rainaut_Reinhold Rainer Romà_Roman
+			Raimond_Raymond Raimond-Berenguié_Raymond-Berengar Rainaut_Reinhold Rainer Romà_Roman Ramir
 			Raolf_Ralph Ricard_Richard Rubèrt_Robert Raugier_Roger Remistau Rodericho_Roderick
 			Ranimiro_Ramiro
-			Sans_Sancho Savarics Simaun_Simon Sidauni_Sidonius Suneario_Sunyer Sever_Severus
+			Sans_Sancho Savarics Simaun_Simon Sidauni_Sidonius Suneario_Sunyer Sever_Severus Suer_Suarius
 			Tièrri_Thierry Tibaud_Theobald Tumas_Thomas Turismau Tiuderic_Theodoric Tiudemir Tiudat_Theodat
-			Tiudòsi_Theodosius Teia Tacite_Tacitus Tiudor_Theodore
+			Tiudòsi_Theodosius Teia Tacite_Tacitus Tiudor_Theodore Telo
 			Ubald Ubert_Humbert Uc_Hugh Úlfila_Ulfilas
 			Vézian Vicenç_Vincent Videre_Witeric Vitimir_Vithimir Viteges Veremundo_Vermudo
 			Walia Wifredo_Wilfred
@@ -341,10 +341,10 @@ provinciale = {
 			Dulça_Douce 
 			Eisabèu_Elisabeth Elena_Helen Elisa_Elisabeth Elisabèta_Elisabeth Ermengarda_Ermengarde Elvira_Elvira
 			Ermessentz_Ermesinda Esclarmonda_Esclarmunda Estefania_Stephania Eufèmia_Euphemia Eufrosina_Euphrosyne
-			Faidida Filipa_Philippa Filomena Flòra_Flora Francesa_Francesca Fronilde_Fronilde
+			Faidida Filipa_Philippa Filomena Flòra_Flora Francesa_Francesca Fronilde_Fronilde Froiloba
 			Garcenda Geneviva Gerbèrga_Gerberga Gersenda Gisla_Gisela Guigone Guilheumina_Wilhelmina
 			Heloise_Eloise
-			Ioulanda_Yolanda Isabèu_Elisabeth Isabèla_Elisabeth 
+			Ioulanda_Yolanda Isabèu_Elisabeth Isabèla_Elisabeth Ildaria
 			Joana_Joan Juliana_Juliana 
 			Lúcia_Lucia Laura_Laura Loïsa_Louise 
 			Mabila Madalena_Magdalena Margarida_Margaret Maria_Maria Marquisa Marta_Martha Mascaròsa_Mascarosa

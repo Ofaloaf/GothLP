@@ -1,0 +1,14 @@
+680.1.1={
+	liege=e_hephthalites
+	holder = 188701 # Zunbil founder
+}
+687.1.1={
+	holder = 188702 
+}
+725.1.1={
+	holder = 188703
+}
+738.1.1={
+	holder = 188628
+}
+

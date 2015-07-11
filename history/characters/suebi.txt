@@ -75,3 +75,19 @@
 		death=yes
 	}
 }
+
+1313006 = {
+	name = "Guntatus"
+	dynasty = 713017 # vu Dibenga
+	religion=catholic
+	culture=suebi
+	741.1.1={
+		birth=yes
+	}
+	769.1.1={
+		add_claim = "c_schwaben"
+	}
+	800.1.1={
+		death=yes
+	}
+}
