@@ -43,9 +43,11 @@ acacian;Acacian;;;;;;;;;;;;;x
 anomoean;Anomoean;;;;;;;;;;;;;x
 nicene;Nicene;;;;;;;;;;;;;x
 donatist;Donatist;;;;;;;;;;;;;x
+donatist_DESC;Donatism's origins lay in the last persecution of Christians, under the emperor Diocletian. Some Christians had folded to imperial pressure and had made token repudiations of their faith, but when Christianity entered the mainstream Roman fold under Constantine, those same Christians sometimes became bishops and gained other positions of power within the Church. Hardliners objected to the inclusion of these 'traditores', as the hardliners called them, and stated that only the saintly (i.e. those who hadn't repudiated their faith under Diocletian's reign) should administer the Church. Rallying around Donatus, the bishop of Carthage at the time, these Christians became known as 'Donatists'.;;;;;;;;;;;;;x
 priscillian;Priscillian;;;;;;;;;;;;;x
 valentinianist;Valentinianist;;;;;;;;;;;;;x
 antinomian;Antinomian;;;;;;;;;;;;;x
+antinomian_DESC;Antinomianism is a theological doctrine dating back almost to the birth of Christianity itself, taking the notion of 'sola fide'- salvation by 'faith alone'- to its extreme, rejecting not just Old Testament ceremonial laws but all of the laws laid down by Moses. This rejection of Mosaic law- or 'moral law'- is at odds with most of mainstream Christendom.;;;;;;;;;;;;;x
 nick_strabo;Strabo;;;;;;;;;;;;;x
 APOSTOLIC_VICAR;Apostolic Vicar;;;;;;;;;;;;;x
 COMES;Comes;;;;;;;;;;;;;x

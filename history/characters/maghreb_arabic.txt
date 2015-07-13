@@ -32,3 +32,16 @@
 		death=yes
 	}
 }
+
+1962003 = {
+	name = "Aksil"
+	dynasty = 1337038
+	culture=maghreb_arabic
+	religion=donatist
+	733.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}

@@ -1384,8 +1384,19 @@ decisions = {
 			is_playable = yes
 			independent = yes
 			OR = {
-				religion = arian
-				culture_group = latinic
+				AND = {
+					religion_group = christian
+					NOT = { religion = catholic }
+					NOT = { religion = orthodox }
+				}
+				AND = {
+					religion = catholic
+					e_papal_hre = { has_holder = no }
+				}
+				AND = {
+					religion = orthodox
+					e_caralis = { has_holder = no }
+				}
 			}
 			NOT = { has_landed_title = e_byzantium }
 			NOT = { has_landed_title = e_papal_hre }

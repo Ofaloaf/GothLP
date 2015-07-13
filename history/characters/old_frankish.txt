@@ -769,3 +769,16 @@
 		death=yes
 	}
 }
+
+1687014 = {
+	name = "Théodebert"
+	dynasty = 1999012
+	religion = orthodox
+	culture="old_frankish"
+	728.1.1 = {
+		birth=yes
+	}
+	800.1.1 = {
+		death=yes
+	}
+}

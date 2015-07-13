@@ -1723,14 +1723,27 @@ e_scythia = {
 			color2={ 255 255 255 }
 			
 			capital = 417 # Vitebsk
+
+			alan = "Krivyston"
+			feretolan = "Krivyston"
+			jasi = "Krivystan"
+			sarmatian = "Krivystan"
 			
 			ilmenian = Kryvia
 			
 			c_minsk = {
 				color={ 60 105 2 }
 				color2={ 255 255 255 }
+
+				alan = "Niamiha"
+				feretolan = "Niamiha"
+				jasi = "Niamiha"
+				sarmatian = "Niamiha"
+
+				ilmenian = "Mensk"
 				
 				b_minsk = {
+					ilmenian = "Mensk"
 				}
 				b_maladzyechna = {
 				}
@@ -1771,8 +1784,17 @@ e_scythia = {
 			c_vitebsk = {
 				color={ 75 125 6 }
 				color2={ 255 255 255 }
+
+				alan = "Vitba"
+				feretolan = "Vitba"
+				jasi = "Vitba"
+				sarmatian = "Vitba"
 				
 				b_vitebsk = {
+					alan = "Vitbaqau"
+					feretolan = "Vitbaqau"
+					jasi = "Vitbaqau"
+					sarmatian = "Vitbaqau"
 				}
 				b_sakolniki = {
 				}

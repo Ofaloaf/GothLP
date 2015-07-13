@@ -1112,7 +1112,7 @@ pagan_group = {
 
 		icon = 37
 		
-		color = { 0.6 0.1 0.1 }
+		color = { 0.4 0 0 }
 		
 		high_god_name = GOD_SATURN
 		
@@ -1134,7 +1134,7 @@ pagan_group = {
 		religious_clothing_head = 3
 		religious_clothing_priest = 3
 	}
-celtic_pagan_reformed = {
+	celtic_pagan_reformed = {
 		# Use norsegfx rather than celticgfx to have the northern pagan rounded CoA on the map
 		graphical_culture = norsegfx
 		

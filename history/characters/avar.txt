@@ -624,7 +624,7 @@
 146166 = {
 	name="Ernakh"
 	dynasty=9570
-	religion="tengri_pagan"
+	religion="catholic"
 	culture="avar"
 	father=146163
 	724.1.1={
@@ -638,7 +638,7 @@
 146167 = {
 	name="Odolgan"
 	dynasty=9570
-	religion="tengri_pagan"
+	religion="catholic"
 	culture="avar"
 	father=146166
 	742.1.1={

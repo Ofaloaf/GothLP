@@ -47,5 +47,5 @@
 }
 
 761.1.1 = {
-	holder = 611004
+	holder = 611004 # Thiudareiks II Triarius
 }

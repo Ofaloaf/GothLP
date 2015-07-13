@@ -743,43 +743,70 @@ e_italy = {
 			c_bologna = {
 				color={ 244 180 130 }
 				color2={ 255 255 255 }
+
+				# Bononia
+
+				italian = "Bologna"
+				gothicromance = "Bolonha"
 				
 				b_faenza = {
+					# Faventia
 				}
 				b_bologna = {
+					# Bononia
+
+					italian = "Bologna"
+					gothicromance = "Bolonha"
 				}
 				b_forli = {
+					# Forum Livii
 				}
 				b_imola = {
+					# Emula
 				}
 				b_bentivoglio = {
+					# Bentivolium
 				}
 				b_budno = {
 				}
 				b_castelguelfo = {
+					# Guelfum
 				}
 				b_bagnacavallo = {
+					# Bagnacaballum
 				}
 			}
 			c_ferrara = {
 				color={ 244 180 130 }
 				color2={ 255 255 255 }
+
+				# Ferraria
 				
 				b_ferrara = {
+					# Ferraria
 				}
 				b_commacchio = {
+					# Cumaculum
 				}
 				b_tresigallo = {
+					# Transegallium
 				}
 				b_occhiobello = {
+					# Occhiobellum
+
+					gothicromance = "Auciobel"
 				}
 				b_copparo = {
+					# Copario
 				}
 				b_codigoro = {
+					# Codegoris
 				}
 				b_bondeno = {
+					# Bondenum
 				}
 				b_voghiera = {
+					# Veria
 				}
 			}
 			c_ravenna = {
@@ -789,18 +816,22 @@ e_italy = {
 				b_ravenna = {
 				}
 				b_cesena = {
+					# Caesena
 				}
 				b_cervia = {
 				}
 				b_russi = {
 				}
 				b_alfonsine = {
+					# Alphonsinae
 				}
 				b_cesenatico = {
+					# Caesenaticum
 				}
 				b_gambettola = {
 				}
 				b_gatteo = {
+					# Gattheum
 				}
 			}
 		}	
@@ -813,20 +844,29 @@ e_italy = {
 			c_lucca = {
 				color = { 232 186 25 }
 				color2={ 255 255 255 }
+
+				# Luca
 				
 				b_lucca = {
+					# Luca
 				}
 				b_pistoia = {
+					# Pistoria
 				}
 				b_cascina = {
+					# Cassina
 				}
 				b_altopascio = {
+					# Altus Passus
 				}
 				b_viareggio = {
+					# Via Regius
 				}
 				b_seravezza = {
+					# Sala Vetitia
 				}
 				b_capannori = {
+					# Capannore
 				}
 				b_calcinaia = {
 				}
@@ -834,83 +874,125 @@ e_italy = {
 			c_firenze = {
 				color = { 84 96 136 }
 				color2={ 255 255 255 }
+
+				# Florentia
+
+				gothicromance = "Flurença"
+				german = "Florenz"
 					
 				b_firenze = {
+					# Florentia
+
+					gothicromance = "Flurença"
+					german = "Florenz"
 				}
 				b_arezzo = {
+					# Arretium
 				}
 				b_prato = {
 				}
 				b_fiesole = {
+					 # Faesulae
 				}
 				b_montevarchi = {
 				}
 				b_certaldo = {
 				}
 				b_lucignano = {
+					# Lucinianum
 				}
 				b_sansepolcro = {
+					# Biturgia
 				}
 			}
 			c_siena = {
 				color = { 212 176 30 }
 				color2={ 255 255 255 }
+
+				# Saena Julia
 					
 				b_siena = {
+					# Saena Julia
 				}
 				b_cortona = {
+					# Corito
 				}
 				b_pienza = {
+					# Pientia
 				}
 				b_montepulciano = {
+					# Politianus
 				}
 				b_montalcino = {
+					# Ilcinus
 				}
 				b_sangimignano = {
+					# Geminianacum
 				}
 				b_colledievaldelsa = {
 				}
 				b_monteriggioni = {
+					# Regionis
 				}
 			}
 			c_pisa = {
 				color={ 232 251 226 }
 				color2={ 255 255 255 }
+
+				# Pisanus
 				
 				b_pisa = {
+					# Pisanus
+
+					gothicromance = "Pisa"
 				}
 				b_livorno = {
+					# Labro
 				}
 				b_canefro = {
 				}
 				b_volterra = {
+					# Volaterrae
+
+					greek = "Velathre"
 				}
 				b_vicopisano = {
+					# Auserissola
 				}
 				b_sanminiato = {
+					# Miniatacum
 				}
 				b_portoferraio = {
+					# Cosmopolis
 				}
 				b_giglio = {
+					# Igillia
 				}
 			}
 			c_piombino = {
 				color={ 236 255 230 }
 				color2={ 255 255 255 }
+
+				# Populonia
 				
 				b_piombino = {
+					# Populino
 				}
 				b_suvereto = {
+					# Suberetum
 				}
 				b_radicofani = {
+					# Radicofanum
 				}
 				b_populonia = {
 				}
 				b_campiglia = {
+					# Campilia
 				}
 				b_follonica = {
 				}
 				b_sanvincenzo = {
+					# Vincentia
 				}
 			}
 		}	

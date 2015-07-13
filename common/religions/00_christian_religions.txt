@@ -26,7 +26,7 @@ christian = {
 		icon = 1
 		heresy_icon = 6
 		
-		color = { 0.8 0.8 0.6 }
+		color = { 0.8 0.8 0.3 }
 		
 		crusade_name = CRUSADE
 		scripture_name = THE_BIBLE
@@ -138,7 +138,7 @@ christian = {
 		icon = 53
 		heresy_icon = 54
 		
-		color = { 0.7 0.5 0 }
+		color = { 0.7 0.25 0.25 } 
 		
 		crusade_name = CRUSADE
 		scripture_name = THE_BIBLE
@@ -174,7 +174,7 @@ christian = {
 		icon = 11
 		heresy_icon = 13
 		
-		color = { 0.7 0.7 0.1 }
+		color = { 0.7 0.5 0.5 }
 		
 		crusade_name = CRUSADE
 		scripture_name = THE_BIBLE
@@ -346,8 +346,8 @@ christian = {
 	arian = {
 		graphical_culture = westerngfx
 
-		icon = 1
-		heresy_icon = 6
+		icon = 58
+		heresy_icon = 59
 		
 		color = { 0.55 0.53 0.40 }
 		
@@ -383,8 +383,8 @@ christian = {
 	acacian = {
 		graphical_culture = westerngfx
 
-		icon = 1
-		heresy_icon = 6
+		icon = 58
+		heresy_icon = 59
 		
 		color = { 0.45 0.45 0.5 }
 		parent = arian
@@ -401,8 +401,8 @@ christian = {
 	anomoean = {
 		graphical_culture = westerngfx
 
-		icon = 1
-		heresy_icon = 6
+		icon = 58
+		heresy_icon = 59
 		
 		color = { 0.95 0.95 0.75 }
 		parent = arian
@@ -438,7 +438,7 @@ christian = {
 		icon = 53
 		heresy_icon = 54
 		
-		color = { 0.65 0.6 0.73 }
+		color = { 0.65 0.5 0.73 }
 		parent = orthodox
 		
 		crusade_name = CRUSADE
