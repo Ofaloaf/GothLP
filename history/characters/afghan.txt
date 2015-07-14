@@ -14,7 +14,7 @@
 
 74723 = {
 	name="Khingila"
-	dynasty=12334
+	dynasty=2001001
 	religion="zun_pagan"
 	culture="afghan"
 
@@ -71,7 +71,7 @@
 188565 = {
 	name="Bo-Fuzun"
 	dynasty=1042104 # Nandin
-	religion="buddhist"
+	religion="zun_pagan"
 	culture="afghan"
 	father=188718
 	trait=kshatriya
@@ -106,12 +106,10 @@
 188567 = {
 	name="Naz'aktar" # from early rather than mid 700s
 	dynasty=1042104 # Nandin
-	religion="buddhist"
+	religion="zun_pagan"
 	culture="afghan"
 	father=188565
 	mother=188566
-	trait=kshatriya
-	trait=mahayana_buddhist
 	742.9.25={
 		birth=yes
 	}

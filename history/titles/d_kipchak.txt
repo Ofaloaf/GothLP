@@ -1,0 +1,8 @@
+750.1.1={
+	law = succ_tanistry
+	historical_nomad = yes
+	holder=188814
+}
+762.1.1={
+	holder=188762
+}

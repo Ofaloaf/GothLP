@@ -1,0 +1,17 @@
+654.1.1= {
+	liege=k_volga_bulgaria
+	holder=74004
+}
+672.1.1={
+	holder=74007
+}
+699.1.1={
+	holder=74008
+}
+720.1.1={
+	holder=74010
+}
+771.1.1={
+	holder=74018
+}
+

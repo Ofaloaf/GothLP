@@ -1,0 +1,28 @@
+527.1.1 = {
+	liege = "k_malwa"
+	holder = 190110 # Yaodharman I
+}
+555.1.1 = {
+	holder = 190111 # Yashorata
+}
+593.1.1 = {
+	holder = 190112 # Varika
+}
+603.1.1 = {
+	holder = 190113 # Vyaghrarata
+}
+633.1.1 = {
+	holder = 190200 # Vishnuvarhana
+}
+677.1.1 = {
+	holder = 190201 # Sankaragana
+}
+689.1.1 = {
+	holder = 190202 # Balaharsha
+}
+728.1.1 = {
+	holder = 190203 # Yasodharman II
+}
+735.1.1 = {
+	holder = 190204 # Lakshmanaraja
+}

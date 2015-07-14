@@ -1,4 +1,4 @@
 760.1.1 = {
 	liege = "e_hephthalites"
-	holder = 188571
+	holder = 188565
 }

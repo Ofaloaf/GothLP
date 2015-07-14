@@ -932,6 +932,8 @@ altaic = {
 		dynasty_title_names = yes
 		founder_named_dynasties = yes
 
+		allow_looting = yes
+
 		modifier = default_culture_modifier
 	}
 	pecheneg = { # Oghuz Turkish
@@ -952,10 +954,13 @@ altaic = {
 		from_dynasty_prefix = "of "
 		founder_named_dynasties = yes
 
+		allow_looting = yes
+
 		modifier = default_culture_modifier
 	}
 	cuman = { # Kipchak Turkish
-		graphical_culture = turkishgfx
+		graphical_culture = cumangfx
+		secondary_graphical_culture = turkishgfx
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.75 0.60 0.20 }
@@ -971,6 +976,8 @@ altaic = {
 		
 		from_dynasty_prefix = "of "
 		founder_named_dynasties = yes
+
+		allow_looting = yes
 
 		modifier = default_culture_modifier
 	}
@@ -993,6 +1000,9 @@ altaic = {
 		}
 		
 		founder_named_dynasties = yes
+
+		allow_looting = yes
+
 		modifier = default_culture_modifier
 	}
 	
@@ -1017,8 +1027,11 @@ altaic = {
 			Sati Savaçka Savkëlti Savtilek Savilay_Sevilay Savintik_Sevindik Shurkka Sibel Sirin Sirma Songul Tähtani Tekçe Tura Umay Usunbike Yasar Yeldem Yildiz Yartilek 
 		}
 
-		modifier = default_culture_modifier
 		founder_named_dynasties = yes
+
+		allow_looting = yes
+
+		modifier = default_culture_modifier
 	}
 	
 	avar = { # Oghur Turkish
@@ -1045,11 +1058,14 @@ altaic = {
 		from_dynasty_prefix = "of "
 		founder_named_dynasties = yes
 
+		allow_looting = yes
+
 		modifier = default_culture_modifier
 	}
 	
 	karluk = {
-		graphical_culture = turkishgfx
+		graphical_culture = cumangfx
+		secondary_graphical_culture = turkishgfx
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.65 0.50 0.15 }
@@ -1064,18 +1080,53 @@ altaic = {
 		}
 		
 		from_dynasty_prefix = "of "
+		dynasty_title_names = yes
 		founder_named_dynasties = yes
+
+		allow_looting = yes
 
 		modifier = default_culture_modifier
 	}
 	
 	kirghiz = {
-		graphical_culture = turkishgfx
+		graphical_culture = cumangfx
+		secondary_graphical_culture = turkishgfx
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.85 0.72 0.30 }
 
 		male_names = {
+			Çilbu Aepak Asalup Asep Atrak Bönek Bachman Begluk Blush Bonyak Borç Eldeçyuk Etrek Girgen Gzi Itlar Ituk Könçek Kobyak Kopti Kotyan Koza
+			Kozel Kubasar Kuntuvdi Kutan Pulad Saru Sevenç Sirçan Sokal Sotan Sugr Törtogul Togli Tolun Tugor Uzluk Uzur
+			Manas Semetei Seitek Barsbeg Kokotoy Jaglaqar Tardush
+		}
+		female_names = {
+			Begayim Jibek
+			Çiçek Çilen Çiltanesi Özgul Özlem Akgul Asli Ayasun Ayten Bozçin Dilek Esin Gulçiçek Gulay Gunduz Gundes Gunes Ilkay Ipek Ipekel Irge
+			Karacik Mala Mutlu Peksen Samur Sarica Sati Sevilay Sevindik Sibel Sirin Sirma Songul Tekçe Tura Umay Usunbike Yasar Yeldem Yildiz
+		}
+		
+		from_dynasty_prefix = "of "
+		founder_named_dynasties = yes
+		
+		male_patronym = " uulu"
+		female_patronym = " kyzy"
+		prefix = no # The patronym is added as a suffix
+
+		allow_looting = yes
+
+		modifier = default_culture_modifier
+	}
+	
+	uyghur = {
+		graphical_culture = cumangfx
+		secondary_graphical_culture = turkishgfx
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.85 0.75 0.50 }
+
+		male_names = {
+			Bilge Çor Üge Barchuq Tömür Bars Adigh Buqa Mänglik Özmish
 			Çilbu Aepak Asalup Asep Atrak Bönek Bachman Begluk Blush Bonyak Borç Eldeçyuk Etrek Girgen Gzi Itlar Ituk Könçek Kobyak Kopti Kotyan Koza
 			Kozel Kubasar Kuntuvdi Kutan Pulad Saru Sevenç Sirçan Sokal Sotan Sugr Törtogul Togli Tolun Tugor Uzluk Uzur
 		}
@@ -1087,9 +1138,11 @@ altaic = {
 		from_dynasty_prefix = "of "
 		founder_named_dynasties = yes
 
+		allow_looting = yes
+
 		modifier = default_culture_modifier
 	}
-	
+
 	mongol = {
 		graphical_culture = mongolgfx
 		second_graphical_culture = muslimgfx
@@ -1097,7 +1150,7 @@ altaic = {
 		
 		horde = yes
 		
-		color = { 0.775 0.5 0.15 }
+		color = { 0.4 0.4 1.0 }
 
 		male_names = {
 			Abagha Achigh Aguchu Ajai Ajinai Akhutai Alagh Alchi Alchidai Altan Ambaghai Arkhai Arasen Babur Badai Bagaridai Bala Barghujin Bartan Batu Bedugun Begter Belgutei
@@ -1108,12 +1161,41 @@ altaic = {
 			Todogen Toghoril Toghtoga Tokhtamis Tolui Torolchi Tumen Uighurtai Ukhuna Usun Yedi Yegu Yeke Yesugei Yesunge Yokhunan Kadan Godan
 		}
 		female_names = {
-			Al-Alta Alan Altani Borte Botokhui Bulughan Chabi Chagur Chakha Checheyigen Chotan Doregene Doquz Ebegei Gurbesu Hogelun Holuikhan Ibakha Khadagan Khogaghchin Khojin Khorijin Khugurchin
-			Khulan Mandukhai Mongoljin Nomolun Oghul Orbei Sokhatai Sorkhaghatani Tekine Temulun Töregene Yesugun Yesui Hoelun
+			Al-Alta Alan Altani Borte Botokhui Bulughan Chabi Chagur Chakha Checheyigen Chotan Doregene Doquz Ebegei Gurbesu Hogelun Holuikhan Ibakha Khadagan Khogaghchin Khojin Khorijin Khugurchin Khulan Khutulun Mandukhai Mongoljin Nomolun Oghul Orbei Sokhatai Sorkhaghatani Tekine Temulun Töregene Yesugun Yesui Hoelun
 		}
 		
 		from_dynasty_prefix = "of "
 		founder_named_dynasties = yes
+
+		allow_looting = yes
+		
+		modifier = default_culture_modifier
+	}
+	
+	khitan = {
+		graphical_culture = mongolgfx
+		second_graphical_culture = muslimgfx
+		secondary_event_pictures = bedouin_arabic
+		
+		horde = yes
+		
+		color = { 0.8 0.8 0.3 }
+
+		male_names = {
+			Abaoji Bei Biegute Bishe Dashi Deguang Dilie Duolubu Fuguzhi Gou'er Hongji Hougu Jing Ketuyu Rian Ruan
+			Suogu Tiande Wenshunu Wolila Wuge Wuyu Xian Xiuge Yanchege Yanxi Yilie Zhilugu Zhongyuan Zongzhen
+		}
+		female_names = {
+			Bage Boshi Changshou Chaogui Cuiba Dianni Jiuge Lübugu Pusuwan Saige Shige Shulü-Ping Shuogu Sokhatai
+			Tabuyan Taige Taoge Xiao Xiao-Wen Xingge Yange Yanmu Yingtian
+		}
+		
+		dynasty_title_names = yes
+		
+		from_dynasty_prefix = "of "
+		founder_named_dynasties = yes
+
+		allow_looting = yes
 		
 		modifier = default_culture_modifier
 	}

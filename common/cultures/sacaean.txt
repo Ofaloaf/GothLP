@@ -21,6 +21,8 @@ sacaean = {
 		male_patronym = "y fyrt"
 		female_patronym = "y chyzg"
 		prefix = no
+
+		allow_looting = yes
 		
 		modifier = default_culture_modifier
 	}
@@ -61,8 +63,8 @@ sacaean = {
 		from_dynasty_prefix = "ve "
 		
 		prefix = no
-		
-		disinherit_from_blinding = yes
+
+		allow_looting = yes
 		
 		modifier = default_culture_modifier
 	}
@@ -113,6 +115,8 @@ sacaean = {
 		from_dynasty_prefix = "of "
 		founder_named_dynasties = yes
 
+		allow_looting = yes
+
 		modifier = default_culture_modifier
 	}
 	jasi = { # Iasi, Jasz, Jassy
@@ -157,6 +161,8 @@ sacaean = {
 		}
 		from_dynasty_prefix = "of "
 		founder_named_dynasties = yes
+
+		allow_looting = yes
 
 		modifier = default_culture_modifier
 	}

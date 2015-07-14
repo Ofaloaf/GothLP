@@ -789,7 +789,7 @@ e_persia = {
 	}
 	
 	k_baluchistan = {
-		color={ 155 169 114 }
+		color={ 175 82 16 }
 		color2={ 255 255 255 }
 		
 		capital = 1139 # Makran
@@ -797,13 +797,13 @@ e_persia = {
 		culture = afghan
 	
 		d_baluchistan = {
-			color={ 150 170 118 }
+			color={ 185 92 21 }
 			color2={ 255 255 255 }
 			
 			capital = 1139 # Makran
 			
 			c_makran = {
-				color={ 152 185 96 }
+				color={ 130 64 15 }
 				color2={ 255 255 255 }
 				
 				b_al_haur = {
@@ -816,14 +816,14 @@ e_persia = {
 				}
 			}
 			c_chagai = {
-				color={ 152 185 96 }
+				color={ 231 99 12 }
 				color2={ 255 255 255 }
 				
 				b_nushki = {
 				}
 			}
 			c_kalat = {
-				color={ 152 185 96 }
+				color={ 155 92 51 }
 				color2={ 255 255 255 }
 				
 				b_kalat = {
@@ -832,7 +832,7 @@ e_persia = {
 				}
 			}
 			c_armail = {
-				color={ 152 185 96 }
+				color={ 239 167 114 }
 				color2={ 255 255 255 }
 				
 				b_armail = {
@@ -846,13 +846,13 @@ e_persia = {
 			}
 		}
 		d_sistan = {
-			color={ 118 148 40 }
+			color={ 206 153 28 }
 			color2={ 255 255 255 }
 			
 			capital = 637 # Sistan
 			
 			c_sistan = {
-				color={ 102 122 67 }
+				color={ 233 189 86 }
 				color2={ 255 255 255 }
 				
 				b_haozdar = {
@@ -874,7 +874,7 @@ e_persia = {
 				}
 			}
 			c_zahedan = {
-				color={ 142 175 86 }
+				color={ 171 128 63 }
 				color2={ 255 255 255 }
 				
 				b_zahedan = {
@@ -895,7 +895,7 @@ e_persia = {
 				}
 			}
 			c_jask = {
-				color={ 146 179 90 }
+				color={ 162 119 21 }
 				color2={ 255 255 255 }
 				
 				b_yeldar = {
@@ -916,7 +916,7 @@ e_persia = {
 				}
 			}
 			c_tis = {
-				color={ 148 181 92 }
+				color={ 241 214 150 }
 				color2={ 255 255 255 }
 				
 				b_parak = {
@@ -935,7 +935,7 @@ e_persia = {
 				}
 			}
 			c_saravan = {
-				color={ 152 185 96 }
+				color={ 202 150 28 }
 				color2={ 255 255 255 }
 				
 				b_saravan = {
