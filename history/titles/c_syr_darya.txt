@@ -1,0 +1,7 @@
+500.1.1 = {
+	liege = "d_syr_darya"
+}
+
+760.1.1 = {
+	holder = 1924001 # Dogukan Tzachas
+}

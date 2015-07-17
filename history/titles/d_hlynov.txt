@@ -1,0 +1,4 @@
+750.1.1 = {
+	holder = 194119
+	effect = { set_coa = d_sames }
+}

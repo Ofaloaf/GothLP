@@ -1,3 +1,4 @@
 748.1.1 = {
+	set_tribute_suzerain = { who = k_jazygia percentage = 0.33 }
 	holder = 2424001 # Dragomir Boto
 }

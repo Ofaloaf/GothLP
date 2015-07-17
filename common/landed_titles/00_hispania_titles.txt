@@ -398,6 +398,8 @@ e_hispania = {
 
 			capital = 173 # Tarragona / Tarraco
 
+			gothicromance = "Tarragonesa"
+
 			c_tarragona = {
 				color = { 186 90 45 }
 				color2={ 255 255 255 }
@@ -630,7 +632,7 @@ e_hispania = {
 				# Caesaraugusta
 				
 				gothic = "Cesaracosta"
-				#gothicromance = "Cesaracosta"
+				gothicromance = "Cesaracosta"
 				
 				b_alagon = {
 					# Belaisca # actually Botorrita
@@ -639,7 +641,7 @@ e_hispania = {
 					# Caesaraugusta
 
 					gothic = "Cesaracosta"
-					#gothicromance = "Cesaracosta"
+					gothicromance = "Cesaracosta"
 				}
 				b_veruela = {
 					# Virula # guessing

@@ -549,9 +549,9 @@
 611037 = {
 	name = "Luthaweic"
 	dynasty = 405007
+	father = 611039 # Gudisal Amalis
 	culture = gothic
 	religion = arian
-	trait=legit_bastard
 	726.1.1 = {
 		birth = yes
 	}
@@ -559,6 +559,34 @@
 		add_claim = k_gothia
 	}
 	800.1.1 = {
+		death = yes
+	}
+}
+
+611038 = {
+	name = "Luthaweic"
+	father = 611020 # Gudahardus
+	dynasty = 405007 # Amalius
+	culture = gothic
+	religion = arian
+	684.1.1 = {
+		birth = yes
+	}
+	730.1.1 = {
+		death = yes
+	}
+}
+
+611039 = {
+	name = "Gudisal"
+	father = 611038 # Luthaweic Amalius
+	dynasty = 405007 # Amalius
+	culture = gothic
+	religion = arian
+	706.1.1 = {
+		birth = yes
+	}
+	755.1.1 = {
 		death = yes
 	}
 }

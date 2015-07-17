@@ -2725,6 +2725,8 @@ e_gallia = {
 			color2={ 255 255 255 }
 			
 			capital = 138 # Orleans
+
+			gothicromance = "Aurlianesa"
 			
 			c_orleans = {
 				color={ 126 124 226 }
@@ -2733,7 +2735,7 @@ e_gallia = {
 				# Aurelianum
 
 				roman = "Cenabum"
-				gothicromance = "Aureliani"
+				gothicromance = "Aurliani"
 				
 				b_gien = {
 					# Giemus
@@ -2744,7 +2746,7 @@ e_gallia = {
 					# Aurelianum
 	
 					roman = "Cenabum"
-					gothicromance = "Aureliani"
+					gothicromance = "Aurliani"
 				}
 				b_fleury = {
 					# Benedictacum

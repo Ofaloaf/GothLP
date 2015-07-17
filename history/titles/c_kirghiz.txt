@@ -1,7 +1,11 @@
+20.1.1 = {
+	historical_nomad = yes
+}
 758.1.1={
 	liege=d_kirghiz
 	holder=188784 # Uyghur conquest
 }
 759.6.1={
-	holder=188785
+	holder=217110
+	liege=d_altay
 }

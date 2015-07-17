@@ -1,0 +1,64 @@
+1924001 = {
+	name="Dogukan"
+	dynasty = 7301 # Tzachas
+	culture=turkish
+	religion=manichean
+	740.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+1924002 = {
+	name="Aksonqor"
+	dynasty = 7334 # Khurshidi
+	culture=turkish
+	religion=tengri_pagan
+	741.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+1924003 = {
+	name="Gunduz"
+	dynasty = 7347 # Bohruz
+	culture=turkish
+	religion=manichean
+	730.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+1924004 = {
+	name="Ertan"
+	dynasty = 7354 # Altntekin
+	culture=turkish
+	religion=manichean
+	732.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+1924005 = {
+	name="Kurboga"
+	dynasty = 7357 # Juyushli
+	culture=turkish
+	religion=manichean
+	740.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}

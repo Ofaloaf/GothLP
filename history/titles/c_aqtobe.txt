@@ -1,0 +1,11 @@
+20.1.1 = {
+	historical_nomad = yes
+}
+
+500.1.1 = {
+	liege = "d_turkestan"
+}
+
+760.1.1 = {
+	holder = 1924002 # Aksonqor Khurshidi
+}

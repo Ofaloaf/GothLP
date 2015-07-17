@@ -16,5 +16,5 @@ b_pecs = tribal
 #b_darda = castle
 
 # Misc
-culture = jasi
-religion = tengri_pagan
+culture = carantanian
+religion = catholic

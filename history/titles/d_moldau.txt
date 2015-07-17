@@ -1,5 +1,5 @@
 500.1.1 = {
-	liege = "d_moldau"
+	historical_nomad = yes
 }
 
 765.1.1 = {

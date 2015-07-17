@@ -1,3 +1,6 @@
+20.1.1 = {
+	historical_nomad = yes
+}
 760.1.1 = {
 	liege = "e_hephthalites"
 	holder = 188571

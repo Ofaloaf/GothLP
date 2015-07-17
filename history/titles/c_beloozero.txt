@@ -1,0 +1,4 @@
+750.1.1 = {
+	holder = 194128
+	liege = d_beloozero
+}

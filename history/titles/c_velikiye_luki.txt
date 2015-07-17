@@ -1,0 +1,4 @@
+750.1.1 = {
+	holder = 160057
+	liege = d_novgorod
+}

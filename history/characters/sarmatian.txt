@@ -81,3 +81,29 @@
 		death=yes
 	}
 }
+
+207007 = {
+	name = "Okorzan"
+	dynasty=514002 # Syrmat
+	religion="tengri_pagan"
+	culture="sarmatian"
+	742.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+207008 = {
+	name = "Thulogan"
+	dynasty=514017 # Dzaw
+	religion="tengri_pagan"
+	culture="sarmatian"
+	729.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}

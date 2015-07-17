@@ -1,8 +1,11 @@
+20.1.1 = {
+	historical_nomad = yes
+}
 758.1.1={
 	law = succ_ultimogeniture
-	historical_nomad = yes
+	liege = k_mongolia
 	holder=188784 # Uyghur conquest
 }
 759.6.1={
-	holder=188785
+	holder=217310 # Kirghiz tributary leader
 }

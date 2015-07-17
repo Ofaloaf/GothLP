@@ -1941,10 +1941,10 @@ e_scythia = {
 			color = { 120 155 40 }
 			color2={ 255 255 255 }
 
-			alan = "Siveria"
-			feretolan = "Siveria"
-			jasi = "Siveria"
-			sarmatian = "Siveria"
+			alan = "Siveryqau"
+			feretolan = "Siveryqau"
+			jasi = "Siveryqua"
+			sarmatian = "Siveryqau"
 			
 			capital = 567 # Novgorod Seversky
 	
