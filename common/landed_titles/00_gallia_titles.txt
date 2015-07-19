@@ -115,11 +115,13 @@ e_gallia = {
 				# Vesontio
 
 				german = "Bisanz"
+				gothicromance = "Besontion"
 				
 				b_besancon = {
 					# Vesontio
 
 					german = "Bisanz"
+					gothicromance = "Besontion"
 				}
 				b_belfort = {
 					# Bellumfortum
@@ -243,6 +245,8 @@ e_gallia = {
 				color2={ 255 255 255 }
 				
 				# Matiscone
+
+				gothicromance = "Matisconês"
 
 				b_fuisse = {
 				}
@@ -1819,8 +1823,8 @@ e_gallia = {
 				# Bituriga
 
 				roman = "Avaricum"
-
-				gothic = "Avaricum"
+				#gothic = "Avaricum"
+				gothicromance = "Burgis"
 				
 				b_chateauroux = {
 				}
@@ -1828,23 +1832,18 @@ e_gallia = {
 					# Dolus
 
 					gallic = "Dolensem"
-
 					gothicromance = "Dolis"
 				}
 				b_bourges = {
 					# Biturigum
 
 					roman = "Avaricum"
-
-					gothic = "Avaricum"
-
-					gothicromance = "Biturigis"
+					gothicromance = "Burgis"
 				}
 				b_issoudun = {
 					# Uxeldunum
 
 					roman = "Uxellodunum"
-
 					gothicromance = "Ixodun"
 				}
 				b_stsatur = {
@@ -1867,6 +1866,8 @@ e_gallia = {
 				color2={ 255 255 255 }
 
 				# Marca
+
+				gothicromance = "Marcha"
 				
 				b_crozant = {
 					# Crosus

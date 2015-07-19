@@ -46,11 +46,9 @@ province_event = {
 
 	trigger = {
 		culture = avar
-		county = {
-			OR = {
-				empire = { title = e_italy }
-				empire = { title = e_papal_hre }
-			}
+		region = world_europe_south_italy
+		any_province_holding = {
+			NOT = { holding_type = nomad }
 		}
 	}
 	
@@ -77,7 +75,7 @@ province_event = {
 	picture = GFX_evt_tribal_lands
 
 	trigger = {
-		county = { kingdom = { title = k_francia } }
+		county = { region = custom_frisia }
 		OR = {
 			culture = old_frankish
 			culture = frisian
@@ -112,7 +110,7 @@ province_event = {
 
 	trigger = {
 		culture = old_saxon
-		NOT = { kingdom = { title = k_frisia } }
+		NOT = { region = custom_frisia }
 		owner = {
 			culture_group = central_germanic
 		}
@@ -143,7 +141,7 @@ province_event = {
 	trigger = {
 		year = 776
 		culture = old_frankish
-		NOT = { kingdom = { title = k_francia } }
+		NOT = { region = custom_frisia }
 		owner = {
 			OR = {
 				culture_group = central_germanic
@@ -177,9 +175,7 @@ province_event = {
 	trigger = {
 		year = 800
 		culture = gothic
-		county = {
-			empire = { title = e_gallia }
-		}
+		region = world_europe_west_francia
 	}
 	
 	mean_time_to_happen = {
@@ -207,9 +203,7 @@ province_event = {
 	trigger = {
 		year = 800
 		culture = gothic
-		county = {
-			empire = { title = e_germania }
-		}
+		region = world_europe_germania
 	}
 	
 	mean_time_to_happen = {

@@ -1,0 +1,8 @@
+20.1.1 = {
+	historical_nomad = yes
+}
+
+760.1.1 = {
+	liege = "d_wislania"
+	holder = 228064
+}

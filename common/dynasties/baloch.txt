@@ -1,0 +1,9 @@
+2500001 = {
+	name = "Mahikhoran"
+	culture = baloch
+}
+
+2600002 = {
+	name = "Shambhani"
+	culture = baloch
+}

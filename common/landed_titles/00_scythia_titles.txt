@@ -420,6 +420,20 @@ e_scythia = {
 			
 			capital = 527 # Krakowskie
 
+			greek = "Ouistoula"
+			roman = "Vistula"
+			latine = "Vistula"
+			gallic = "Bisula"		# Ammian Marcellinus wrote it like that
+			hispani = "Visula"		# Pomponius Mela
+			gallaecian = "Visula"
+			dalmatian = "Vistula"
+
+			german = "Weichsel"
+			gothic = "Vandalus"
+			gothicromance = "Viscla"	# Jordanes
+			saxon = "Wistla"		# found in the Widsith
+			old_saxon = "Wistla"		# found in the Widsith
+
 			c_krakowskie = {
 				color={ 137 6 20 }
 				color2={ 255 255 255 }

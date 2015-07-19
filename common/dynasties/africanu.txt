@@ -225,5 +225,20 @@
 
 1337046 = {
 	name = "Awras"
-	culture = mauri
+	culture = africanu
+}
+
+1337047 = {
+	name = "Musulamen"
+	culture = africanu
+}
+
+1337048 = {
+	name = "Schellou"
+	culture = africanu
+}
+
+1337049 = {
+	name = "Schoviah"
+	culture = africanu
 }

@@ -1,0 +1,7 @@
+632.1.1 = {
+	liege = "d_sauvira"
+}
+
+760.1.1 = {
+	holder = 712008 # Matta Rai
+}

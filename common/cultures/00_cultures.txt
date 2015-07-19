@@ -2008,14 +2008,14 @@ indo_aryan_group = {
 		color = { 1.0 0.2 0.0 }
 	
 		male_names = {
-			Abdullah Abdurrashid Abdurrahman Alauddin "Ali Sher" Amar Arnel Asamuddin Aziz 
-			Banhbina Bhungar "Bhungar Rao" Chanesar Doda "Dadu Phattu" "Dalu Rai" "Deva Rai" 
-			"Fateh Khan" Feruzuddin Genhra Hafif_Khafif Hamir Ismail Junah Kahah Karan Khafif_Khafif Khaira Khinrah 
-			Mahmud Mubarak Muhammad Muhammed-Tur Munzir Nangar Nizamuddin Pahtu Punhun Raidhan 
-			Sabar Salahuddin Sanghar Sanjar Shahabuddin Sikandar Sumrah Syed Tai Tamachi Taghlak Umar Unar
+			Abdullah Abdurrashid Abdurrahman Alauddin "Ali Sher" Amar Arnel Asamuddin
+			Banhbina Bhungar "Bhungar Rao" Chanesar Chandra Doda "Dadu Phattu" Dahir "Dalu Rai" "Deva Rai" 
+			Diwa Feruzuddin Genhra Hafif_Khafif Hamir Ismail Junah Kahah Kakru Karan Khafif_Khafif 
+			Khaira Khinrah Matta Nanda Nangar Nizamuddin Pahtu Punhun Raidhan Ranu Rasil
+			Sabar Sahiras Sahasi Sanghar Sanjar Shahabuddin Sikandar Sumrah Syed Tai Tamachi Taghlak Unar
 		}
 		female_names = {
-			Bhagi Hamide Himu Sad Tari "Zainab Tari"
+			Bhagi Hamide Himu Sad Suhanadi Tari "Zainab Tari"
 		}
 		
 		dynasty_title_names = yes

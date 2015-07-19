@@ -1,0 +1,59 @@
+671001 = {
+	name = "Chacha"
+	culture = sindhi
+}
+
+671002 = {
+	name = "Kachelo"
+	culture = sindhi
+}
+
+671003 = {
+	name = "Bhangar"
+	culture = sindhi
+}
+
+671004 = {
+	name = "Bijarani"
+	culture = sindhi
+}
+
+671005 = {
+	name = "Jiskani"
+	culture = sindhi
+}
+
+671006 = {
+	name = "Junejo"
+	culture = sindhi
+}
+
+671007 = {
+	name = "Chharja"
+	culture = sindhi
+}
+
+671008 = {
+	name = "Sathio"
+	culture = sindhi
+}
+
+671009 = {
+	name = "Patoli"
+	culture = sindhi
+}
+
+671010 = {
+	name = "Pechuho"
+	culture = sindhi
+}
+
+671011 = {
+	name = "Noohpota"
+	culture = sindhi
+}
+
+671012 = {
+	name = "Rai"
+	culture = sindhi
+}

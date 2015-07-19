@@ -1,13 +1,12 @@
 175060 = {
-	name=Kallar # Founder of the Hindu Shahi dynasty 
-	dynasty=1043006
-	religion=hindu
+	name="Toramana"
+	dynasty=2001005 # Ebodalo
+	religion=buddhist
 	culture=afghan
-	trait=brahmin # Well documented as a Brahmin
-	841.1.1={
+	741.1.1={
 		birth=yes
 	}
-	895.1.1={
+	800.1.1={
 		death=yes
 	}
 }
@@ -27,31 +26,29 @@
 }
 
 74724 = {
-	name="Mohammed"
-	dynasty=12334
-	religion="sunni"
+	name="Mihirakula"
+	dynasty=2001004 # Yanda
+	religion="zun_pagan"
 	culture="afghan"
-	father=74723
-	mother=74725
 
-	1313.1.1={
+	730.1.1={
 		birth=yes
 	}
-	1375.1.1={
+	800.1.1={
 		death=yes
 	}
 }
 
 74725 = {
-	name="Ubaidah"
-	female=yes
-	religion="sunni"
+	name="Akshuwar"
+	dynasty = 2001002 # Bikova
+	religion="zun_pagan"
 	culture="afghan"
 
-	1295.1.1={
+	725.1.1={
 		birth=yes
 	}
-	1362.1.1={
+	800.1.1={
 		death=yes
 	}
 }
@@ -349,10 +346,6 @@
 	850.1.1={
 		birth=yes
 	}
-	865.1.1={
-		employer=175060
-		religion = hindu
-	}
 	873.1.1={
 		death=yes
 	}
@@ -367,10 +360,6 @@
 	846.1.1={
 		birth=yes
 	}
-	865.1.1={
-		employer=175060
-		religion = hindu
-	}
 	900.1.1={
 		death=yes
 	}
@@ -384,10 +373,6 @@
 	father=188711
 	848.1.1={
 		birth=yes
-	}
-	865.1.1={
-		employer=175060
-		religion = hindu
 	}
 	900.1.1={
 		death=yes

@@ -56,7 +56,7 @@ world_europe_south_east = {
 }
 world_europe_south_italy = { 
 	duchies = {
-		d_latium d_verona d_insubria d_liguria d_aemilia d_ravenna d_tuscia d_picenum d_quadia d_samnium d_campania d_apulia d_lucania d_bruttium d_sicily d_venice 
+		d_latium d_verona d_insubria d_liguria d_aemilia d_ravenna d_tuscia d_picenum d_quadia d_samnium d_campania d_apulia d_lucania d_bruttium d_sicily d_venice d_sardinia
 	}
 }
 world_europe_south = {

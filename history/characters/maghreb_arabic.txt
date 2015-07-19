@@ -45,3 +45,82 @@
 		death=yes
 	}
 }
+
+1962004 = {
+	name = "Atissi"
+	dynasty = 1337047 # Musulamen
+	culture=maghreb_arabic
+	religion=west_african_pagan
+	740.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+1962005 = {
+	name="Ugdada" # fictitious holder of Ouadane
+	dynasty=1042177
+	religion="west_african_pagan"
+	culture="maghreb_arabic"
+	742.1.1={
+		birth=yes
+	}
+	795.1.1={
+		death=yes
+	}
+}
+
+1962006 = {
+	name="Awzal" # fictitious holder of Idjil
+	dynasty=1042178
+	religion="west_african_pagan"
+	culture="maghreb_arabic"
+	733.1.1={
+		birth=yes
+	}
+	795.1.1={
+		death=yes
+	}
+}
+
+1962007 = {
+	name="Akateiaji" # fictitious holder of Taghaza
+	dynasty=1042179
+	religion="west_african_pagan"
+	culture="maghreb_arabic"
+	718.1.1={
+		birth=yes
+	}
+	775.1.1={
+		death=yes
+	}
+}
+
+1962008 = {
+	name="Gulusa" # fictitious holder of Araouane
+	dynasty=1042180
+	religion="west_african_pagan"
+	culture="maghreb_arabic"
+	750.1.1={
+		birth=yes
+	}
+	795.1.1={
+		death=yes
+	}
+}
+
+1962009 = {
+	name="Lacumaces" # fictitious
+	dynasty=1042179
+	religion="west_african_pagan"
+	culture="maghreb_arabic"
+	father=1962007
+	748.1.1={
+		birth=yes
+	}
+	795.1.1={
+		death=yes
+	}
+}

@@ -1060,6 +1060,10 @@ e_africa = {
 		d_gaetulia = {
 			color={ 239 228 176 }
 			color2={ 255 255 255 }
+
+			italian = "Getulia"
+			gothicromance = "Getulia"
+			brithenig = "Getulia"
 		
 			c_tharasset = {
 				color={ 47 154 36 }

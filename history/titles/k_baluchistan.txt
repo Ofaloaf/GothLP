@@ -1,0 +1,4 @@
+756.1.1 = {
+	set_tribute_suzerain = { who = e_persia percentage = 0.33 }
+	holder = 6910
+}

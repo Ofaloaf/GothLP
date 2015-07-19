@@ -34,17 +34,24 @@ province_event = {
 			}
 		}
 		NOT = { # No flipping back to Norse culture before 1150
-			AND = {
-				owner = { culture = norse }
+			OR = {
+				AND = {
+					owner = { culture = norse }
 				ROOT = {
-					OR = {
-						culture = geatish
-						culture = norwegian
-						culture = danish
-						culture = norman
+						OR = {
+							culture = geatish
+							culture = norwegian
+							culture = danish
+							culture = norman
+						}
 					}
+					NOT = {	has_global_flag = norse_culture_flipping }
 				}
-				NOT = {	has_global_flag = norse_culture_flipping }
+				AND = {
+					owner = { culture = avar }
+					region = world_europe_south_italy
+					ROOT = { culture = italian }
+				}
 			}
 		}
 	}

@@ -19,4 +19,4 @@ b_ifni = tribal
 
 # Misc
 culture = maghreb_arabic
-religion = donatist
+religion = west_african_pagan

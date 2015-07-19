@@ -1,0 +1,246 @@
+178011 = {
+	name="Genhra" # Fictional
+	dynasty=1041111
+	religion="hindu"
+	culture="sindhi"
+	735.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+188557 = {
+	name="Sikandar" # fictional
+	dynasty=1041115
+	religion="hindu"
+	culture="sindhi"
+	trait=kshatriya
+	trait=shaktist_hindu
+	742.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+188558 = {
+	name="Munzir" # fictional
+	dynasty=1041117
+	religion="hindu"
+	culture="sindhi"
+	trait=kshatriya
+	trait=shaktist_hindu
+	728.1.1={
+		birth=yes
+	}
+	790.1.1={
+		death=yes
+	}
+}
+
+188559 = {
+	name="Shahabuddin" # fictional
+	dynasty=1041117
+	religion="hindu"
+	culture="sindhi"
+	father=188558
+	trait=kshatriya
+	trait=shaktist_hindu
+	755.1.1={
+		birth=yes
+	}
+	805.1.1={
+		death=yes
+	}
+}
+
+188560 = {
+	name="Genhra" # fictional
+	dynasty=1041118
+	religion="hindu"
+	culture="sindhi"
+	trait=kshatriya
+	trait=vaishnavist_hindu
+	737.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+188561 = {
+	name="Banhbina" # fictional
+	dynasty=1041114
+	religion="hindu"
+	culture="sindhi"
+	trait=kshatriya
+	trait=smartist_hindu
+	740.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+188562 = {
+	name="Doda" # fictional
+	dynasty=1041113
+	religion="buddhist"
+	culture="sindhi"
+	trait=kshatriya
+	trait=mahayana_buddhist
+	732.1.1={
+		birth=yes
+	}
+	780.1.1={
+		death=yes
+	}
+}
+
+188563 = {
+	name="Chanesar" # fictional
+	dynasty=1041112
+	religion="buddhist"
+	culture="sindhi"
+	trait=kshatriya
+	trait=mahayana_buddhist
+	724.1.1={
+		birth=yes
+	}
+	780.1.1={
+		death=yes
+	}
+}
+
+188564 = {
+	name="Arnel" # fictional
+	dynasty=1041111
+	religion="hindu"
+	culture="sindhi"
+	trait=kshatriya
+	trait=shaivist_hindu
+	745.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+712001 = {
+	name = "Chach"
+	dynasty=671001 # Chacha
+	culture = sindhi
+	religion = hindu
+	580.1.1 = {
+		born = yes
+	}
+	640.1.1 = {
+		death = yes
+	}
+}
+
+712002 = {
+	name = "Chach"
+	dynasty=671001 # Chacha
+	father=712001
+	culture = sindhi
+	religion = hindu
+	610.1.1 = {
+		born = yes
+	}
+	671.1.1 = {
+		death = yes
+	}
+}
+
+712003 = {
+	name = "Chandra"
+	dynasty=671001 # Chacha
+	father=712001
+	culture = sindhi
+	religion = hindu
+	615.1.1 = {
+		born = yes
+	}
+	679.1.1 = {
+		death = yes
+	}
+}
+
+712004 = {
+	name = "Dahir"
+	dynasty=671001 # Chacha
+	father=712003
+	culture = sindhi
+	religion = hindu
+	661.1.1 = {
+		born = yes
+	}
+	712.1.1 = {
+		death = yes
+	}
+}
+
+712005 = {
+	name = "Junah"
+	dynasty=671001 # Chacha
+	father=712004
+	culture = sindhi
+	religion = hindu
+	688.1.1 = {
+		born = yes
+	}
+	739.1.1 = {
+		death = yes
+	}
+}
+
+712006 = {
+	name = "Rasil"
+	dynasty=671001 # Chacha
+	father=712005
+	culture = sindhi
+	religion = hindu
+	trait=smartist_hindu
+	trait=zealous
+	719.1.1 = {
+		born = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+
+712007 = {
+	name = "Sanjar"
+	dynasty=671001 # Chacha
+	father=712006
+	culture = sindhi
+	religion = hindu
+	trait=smartist_hindu
+	741.1.1 = {
+		born = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+
+712008 = {
+	name = "Matta"
+	dynasty = 671012 # Rai
+	culture = sindhi
+	religion = hindu
+	734.1.1 = {
+		born = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}

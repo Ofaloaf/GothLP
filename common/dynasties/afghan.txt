@@ -2,3 +2,28 @@
 	name = "Khingilid"
 	culture = afghan
 }
+
+2001002 = {
+	name = "Bikova"
+	culture = afghan
+}
+
+2001003 = {
+	name = "Haytal"
+	culture = afghan
+}
+
+2001004 = {
+	name = "Yanda"
+	culture = afghan
+}
+
+2001005 = {
+	name = "Ebodalo"
+	culture = afghan
+}
+
+2001006 = {
+	name = "Abdel"
+	culture = afghan
+}
