@@ -2,7 +2,7 @@ e_caralis = {
 	color={ 200 30 0 }
 	color2={ 255 255 20 }
 	
-	capital = 169 3 Murcia / #326 # Cagliari
+	capital = 169 # Murcia / #326 # Cagliari
 	
 	#short_name = yes
 	# Nova Carthago

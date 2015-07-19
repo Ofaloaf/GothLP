@@ -60,10 +60,8 @@
 188560 = {
 	name="Genhra" # fictional
 	dynasty=1041118
-	religion="hindu"
+	religion="buddhist"
 	culture="sindhi"
-	trait=kshatriya
-	trait=vaishnavist_hindu
 	737.1.1={
 		birth=yes
 	}
@@ -138,7 +136,7 @@
 	culture = sindhi
 	religion = hindu
 	580.1.1 = {
-		born = yes
+		birth = yes
 	}
 	640.1.1 = {
 		death = yes
@@ -152,7 +150,7 @@
 	culture = sindhi
 	religion = hindu
 	610.1.1 = {
-		born = yes
+		birth = yes
 	}
 	671.1.1 = {
 		death = yes
@@ -166,7 +164,7 @@
 	culture = sindhi
 	religion = hindu
 	615.1.1 = {
-		born = yes
+		birth = yes
 	}
 	679.1.1 = {
 		death = yes
@@ -180,7 +178,7 @@
 	culture = sindhi
 	religion = hindu
 	661.1.1 = {
-		born = yes
+		birth = yes
 	}
 	712.1.1 = {
 		death = yes
@@ -194,7 +192,7 @@
 	culture = sindhi
 	religion = hindu
 	688.1.1 = {
-		born = yes
+		birth = yes
 	}
 	739.1.1 = {
 		death = yes
@@ -210,7 +208,7 @@
 	trait=smartist_hindu
 	trait=zealous
 	719.1.1 = {
-		born = yes
+		birth = yes
 	}
 	800.1.1 = {
 		death = yes
@@ -225,7 +223,7 @@
 	religion = hindu
 	trait=smartist_hindu
 	741.1.1 = {
-		born = yes
+		birth = yes
 	}
 	800.1.1 = {
 		death = yes
@@ -238,7 +236,7 @@
 	culture = sindhi
 	religion = hindu
 	734.1.1 = {
-		born = yes
+		birth = yes
 	}
 	800.1.1 = {
 		death = yes

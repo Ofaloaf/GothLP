@@ -1,4 +1,4 @@
 760.1.1 = {
 	set_tribute_suzerain = { who = e_arabia percentage = 0.40 }
-	holder = 2222002 # Petros Tarsah
+	holder = 2221002 # Petros Tarsah
 }

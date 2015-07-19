@@ -1,0 +1,47 @@
+490.1.1={
+	holder = 191088	#Krisnagupta
+	liege = d_magadha
+}
+500.1.1={
+	holder = 191089 #Harsagupta
+}
+530.1.1={
+	holder = 191090 #Jivatagupta
+}
+546.1.1={
+	holder = 191091 #Kumaragupta
+}
+580.1.1={
+	holder = 191092 #Damodaragupta
+}
+605.1.1={
+	holder = 191093 #Mahasenagupta
+}
+630.1.1={
+	holder = 191094 #Kumaragupta
+}
+650.1.1={
+	holder = 191095 #Madhavagupta
+}
+672.1.1={
+	holder = 191096 #Adityasenagupta
+}
+685.1.1={
+	holder = 191097 #Devagupta
+}
+690.1.1={
+	holder = 191098 #Visnugupta
+}
+710.1.1={
+	holder = 191099 #Jivatagupta II
+}
+727.1.1={
+	holder = 191000
+}
+755.1.1={
+	holder = 190027 #Gopala Pala
+	liege=k_bengal
+}
+769.1.1={
+	holder = 190028 #Dharamapala Pala
+}

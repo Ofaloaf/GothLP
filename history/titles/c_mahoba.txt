@@ -1,0 +1,16 @@
+700.1.1={
+	liege = d_jejakabhukti
+	holder = 191018 #Karamchand
+}
+
+720.1.1={
+	holder = 191019 #Ranasimha
+}
+
+730.1.1={
+	holder = 191020 #Naranath
+}
+
+750.1.1={
+	holder = 191021 #Jayasimha
+}

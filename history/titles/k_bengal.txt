@@ -1,0 +1,6 @@
+755.1.1={
+	holder = 190027 #Gopala Pala
+}
+769.1.1={
+	holder = 190028 #Dharamapala Pala
+}

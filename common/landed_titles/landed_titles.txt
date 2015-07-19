@@ -9303,8 +9303,8 @@ e_rajastan = {
 			}
 		}
 	}
-	k_kosala = {
-		color={ 205 60 10 }
+	k_kannauj = { # formerly k_kosala
+		color={ 197 47 39 }
 		color2={ 255 255 255 }
 		
 		capital = 1356 # Kanyakubja

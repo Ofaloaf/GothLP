@@ -1,0 +1,12 @@
+725.1.1={
+	holder = 191000 #Yasovarman
+}
+752.1.1={
+	holder = 191002 # Ama
+}
+762.1.1={
+	holder = 191003 # Dundaka
+}
+769.1.1={
+	holder = 191004 # Bhoja
+}

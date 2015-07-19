@@ -1,4 +1,4 @@
 760.1.1 = {
 	set_tribute_suzerain = { who = e_persia percentage = 0.40 }
-	holder = 2222001 # Eliya Aqrawi
+	holder = 2221001 # Eliya Aqrawi
 }

@@ -1,0 +1,30 @@
+672.1.1={
+	holder = 191096 #Adityasenagupta
+}
+685.1.1={
+	holder = 191097 #Devagupta
+}
+690.1.1={
+	holder = 191098 #Visnugupta
+}
+710.1.1={
+	holder = 191099 #Jivatagupta II
+}
+727.1.1={
+	holder = 191000 #Yasovarman
+}
+733.8.14={
+	holder=188377 # Lalitaditya Muktapida
+}
+736.1.1={
+	holder=188378 # Kuvalayapida
+}
+737.1.1={
+	holder=188379 # Vajraditya
+}
+744.1.1={
+	holder = 0
+}
+769.1.1={
+	holder = 190028 #Dharamapala Pala
+}
