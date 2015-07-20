@@ -1,0 +1,13 @@
+﻿720.1.1={
+	holder=191233  #Jayavarmadeva
+	liege=d_tosali
+}
+760.1.1={
+	holder=191234  #Anantavarman
+}
+770.1.1={
+	holder=191235  #Gangakavilasa
+}
+790.1.1={
+	holder=191236 #Bhupendravarman
+}

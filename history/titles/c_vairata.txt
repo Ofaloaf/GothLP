@@ -1,0 +1,8 @@
+740.1.1={
+	holder = 191866 #Auka Guhila
+	liege = 0
+}
+765.1.1={
+	holder = 191867 #Krishna
+	liege = k_rajputana
+}

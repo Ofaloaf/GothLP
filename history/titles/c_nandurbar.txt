@@ -1,0 +1,12 @@
+570.1.1={
+	liege = d_lata
+}
+738.1.1={
+	holder = 191635 #Annexed by Calukyas of Lata
+}
+747.1.1={
+	holder = 74409 #Conquered by Dantidurga
+}
+756.1.1={
+	holder = 191623 #Karka Rashtrakuta, grant by Dantidurga
+}

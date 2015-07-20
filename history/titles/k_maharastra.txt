@@ -1,0 +1,36 @@
+543.1.1={
+	holder=74721
+}
+566.1.1={
+	holder=74720
+}
+596.1.1={
+	holder=74719
+}
+609.1.1={
+	holder=74718
+}
+655.1.1={
+	holder=74717
+}
+680.1.1={
+	holder=74716
+}
+696.1.1={
+	holder=74713
+}
+733.1.1={
+	holder=74714
+}
+744.1.1={
+	holder=74715
+}
+753.1.1={
+	holder=74409	#Dantidurga Rashtrakuta
+}
+756.1.1={
+	holder=74413	#Krishna I
+}
+774.1.1={
+	holder=74414	#Govinda II
+}

@@ -1,0 +1,9 @@
+﻿736.1.1={
+	holder=191169	#Ksemankaradeva
+}
+756.1.1={
+	holder=191170	#Sivakaradeva
+}
+790.1.1={
+	holder=191171	#Subhakaradeva
+}

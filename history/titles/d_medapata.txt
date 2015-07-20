@@ -1,0 +1,12 @@
+734.1.1={
+	holder = 188470 # Kalbhoj Guhilot
+}
+750.1.1={
+	liege = k_malwa
+}
+753.1.1={
+	holder = 188471 # Khuman
+}
+773.1.1={
+	holder = 188472 # Mattat
+}

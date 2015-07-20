@@ -1,0 +1,8 @@
+#Baland Tribe
+750.1.1={
+	holder = 191482 # Patel
+	liege = d_dahala
+}
+780.1.1={
+	holder = 191483 #Mukhia
+}

@@ -9655,7 +9655,7 @@ e_bengal = {
 		capital = 1151 # Laksmanavati
 		
 		d_vanga = {
-			color = { 35 165 35 }
+			color = { 211 95 73 }
 			color2={ 255 255 255 }
 			
 			capital = 1319 # Bikrampur
@@ -9981,7 +9981,7 @@ e_bengal = {
 		}
 	}
 	k_kamarupa = {
-		color={ 6 127 80 }
+		color={ 163 5 77 }
 		color2={ 255 255 255 }
 	
 		capital = 1321 # Kamarupanagara
@@ -10690,7 +10690,7 @@ e_deccan = {
 	short_name = yes
 	
 	k_maharastra = {
-		color={ 150 0 20 }
+		color={ 67 124 181 }
 		color2={ 255 255 255 }
 		
 		capital = 1145 # Devagiri
@@ -11075,7 +11075,7 @@ e_deccan = {
 		}
 	}
 	k_karnata = {
-		color={ 150 20 0 }
+		color={ 49 175 191 }
 		color2={ 255 255 255 }
 		
 		capital = 1143 # Kalyani

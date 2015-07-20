@@ -1,0 +1,13 @@
+670.1.1={
+	holder=191223	#Udayana
+	liege=d_daksina_kosala
+}
+720.1.1={
+	holder=191224	#Judrabala
+}
+750.1.1={
+	holder=191225	#Nannadeva
+}
+780.1.1={
+	holder=191228	#Chandragupta
+}

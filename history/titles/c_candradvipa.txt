@@ -1,0 +1,17 @@
+645.1.1={
+	holder = 191100 #Khadgodyama
+	liege = d_vanga
+}
+675.1.1={
+	holder = 191101 #Jatakhadga
+}
+700.1.1={
+	holder = 191102 #Devakhadga
+}
+725.1.1={
+	holder = 190084 #Shantideva Shantideva
+	liege = 0
+}
+750.1.1={
+	holder = 190085 #Viradeva Shantideva
+}

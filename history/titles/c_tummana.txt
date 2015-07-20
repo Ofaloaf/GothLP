@@ -1,0 +1,13 @@
+690.1.1={
+	holder=191385#Jayavardhana I Sailavamsa
+}
+720.1.1={
+	holder=191386#Jayavardhana II Sailavamsa
+}
+740.1.1={
+	holder=191387#Srivardhana II Sailavamsa
+	liege = d_dahala
+}
+780.1.1={
+	holder = 191388 #Cedi?
+}

@@ -1,0 +1,27 @@
+695.1.1={
+	holder = 191106	#Adi Malla
+}
+710.1.1={
+	holder = 191107	#Jai
+}
+720.1.1={
+	holder = 191108 #Benu
+}
+733.1.1={
+	holder = 191109 #Kinu
+}
+742.1.1={
+	holder = 191110 #Indra
+}
+755.1.1={
+	liege = k_bengal
+}
+757.1.1={
+	holder = 191111 #Kau
+}
+764.1.1={
+	holder = 191112 #Jhau
+}
+775.1.1={
+	holder = 191113 #Shur
+}

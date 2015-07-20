@@ -1,0 +1,31 @@
+500.1.1={
+	holder= 191432 #Satyamartanda
+	liege=d_kalinga
+}
+550.1.1={
+	holder= 191433 #Naranga*
+}
+600.1.1={
+	holder= 191434 #Ganga*
+}
+630.1.1={
+	holder= 191435 #Atavi Durjaya
+}
+650.1.1={
+	holder= 191436 #Gudda*
+}
+680.1.1={
+	holder= 191437 #Kadni*
+}
+700.1.1={
+	holder= 191438 #Bhima
+}
+740.1.1={
+	holder= 191439 #Ganga (brother of Bhima)
+}
+760.1.1={
+	holder= 191440 #Vallabha
+}
+780.1.1={
+	holder= 191441 #Yudhamalla
+}

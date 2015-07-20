@@ -1,0 +1,7 @@
+#Suhmabhukti or Daksina Radha
+755.1.1 = {
+	holder = 191152 #Adnata
+}
+760.1.1={
+	liege = k_bengal
+}

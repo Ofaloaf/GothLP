@@ -1,0 +1,10 @@
+650.1.1={
+	holder=191323 #Kurumpruhoda Mana
+	liege=d_ratanpur
+}
+700.1.1={
+	holder=191324 #Soorjat Badwaik Mana
+}
+750.1.1={
+	holder=191325 #Manas
+}

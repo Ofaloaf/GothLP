@@ -1,0 +1,7 @@
+#Kathis of Kanthakota
+768.1.1={
+	holder = 191682
+}
+780.1.1={
+	holder = 191683
+}

@@ -1,0 +1,4 @@
+﻿755.1.1 = {
+	holder = 191152 #Adnata
+	liege = d_suhma
+}

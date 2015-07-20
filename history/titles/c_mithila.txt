@@ -1,0 +1,4 @@
+725.1.1={
+	holder = 191303	#Ramagupta
+	liege=k_bihar
+}

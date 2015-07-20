@@ -1,0 +1,7 @@
+765.1.1={
+	holder=191011	#Balan Singh Burdak
+	liege=d_jangladesh
+}
+768.1.1={
+	holder=191012 #Mal Singh Burdak
+}

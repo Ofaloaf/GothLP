@@ -1,0 +1,4 @@
+760.1.1={
+	holder=191380	#Nandaraja
+	liege = d_anupa
+}

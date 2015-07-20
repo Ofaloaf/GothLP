@@ -1,0 +1,4 @@
+740.1.1={
+	holder = 191015	#Yadavs
+	liege = k_kannauj
+}

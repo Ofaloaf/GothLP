@@ -1,0 +1,7 @@
+743.1.1={
+	holder = 188105 # Chandraraja I
+	liege=d_jangladesh
+}
+768.1.1={
+	holder = 188106 # Gopendraraja
+}

@@ -1,0 +1,45 @@
+﻿496.1.1={
+	holder = 191188 #Indravarma 
+}	
+534.1.1={
+	holder = 191189	#Maharajendravarma
+}
+560.1.1={
+	holder = 191190 #Mahasmantavarma
+}
+575.1.1={
+	holder = 191191 #Hastivarma 
+}
+583.1.1={
+	holder = 191192 #Indravarma 
+}
+587.1.1={
+	holder = 191193 #Mitravarma 
+}
+624.1.1={
+	holder = 191194 #Indravarma 
+}
+633.1.1={
+	holder = 191196 #Indravarma 
+}
+650.1.1={
+	holder = 191197 #Gunavarma
+}
+679.1.1={
+	holder = 191198 #Devendravarma
+}
+700.1.1={
+	holder = 191199 #Anantavarma
+}
+717.1.1={
+	holder = 191200 #Nandavarma
+}
+747.1.1={
+	holder = 191201 #Devendravarma
+}
+752.1.1={
+	holder = 191202 #Rajendravarma
+}
+780.1.1={
+	holder = 191203 #Anantavarma
+}

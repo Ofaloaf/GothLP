@@ -1,0 +1,15 @@
+645.1.1={
+	holder = 191100 #Khadgodyama
+}
+675.1.1={
+	holder = 191101 #Jatakhadga
+}
+700.1.1={
+	holder = 191102 #Devakhadga
+}
+730.1.1={
+	holder = 191103 #Rajarabhata
+}
+755.1.1={
+	holder = 190085 #Viradeva Shantideva
+}

@@ -1,0 +1,4 @@
+740.1.1={
+	liege = "k_kannauj"
+	holder = 191522 #Tribal Cheifs
+}
