@@ -72,3 +72,82 @@
 		death=yes
 	}
 }
+
+3131005 = {
+	name = "Giorgi"
+	dynasty=5000049 # Cotrougli
+	religion=catholic
+	culture=dalmatian
+	736.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+3131006 = {
+	name = "Aliau"
+	dynasty=5000028 # Cuosamaura
+	religion=catholic
+	culture=dalmatian
+	725.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+3131007 = {
+	name = "Puol"
+	dynasty=5000041 # Cerieva
+	religion=catholic
+	culture=dalmatian
+	730.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+3131008 = {
+	name = "Antuone"
+	dynasty=5000042 # Babalei
+	religion=catholic
+	culture=dalmatian
+	740.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+3131009 = {
+	name = "Caurnel"
+	dynasty=5000037 # Vittaurin
+	religion=catholic
+	culture=dalmatian
+	714.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+3131010 = {
+	name = "Tiodor"
+	dynasty=5000037 # Vittaurin
+	father = 3131009
+	religion=catholic
+	culture=dalmatian
+	743.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}

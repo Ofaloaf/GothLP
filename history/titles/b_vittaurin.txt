@@ -1,0 +1,5 @@
+760.1.1={
+	holding_dynasty = 5000037 # Vittaurin
+	liege="d_dioclea"
+	holder=3131009 # Caurnel Vittaurin
+}

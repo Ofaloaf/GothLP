@@ -3167,3 +3167,103 @@
 		death=yes
 	}
 }
+
+475024 = {
+	name="Laurentius"
+	religion="catholic"
+	culture="roman"
+	trait=ambitious
+	trait=craven
+	444.1.1={
+		birth=yes
+	}
+	506.1.1={
+		death=yes
+	}
+}
+
+475025 = {
+	name="Festus"
+	religion="catholic"
+	culture="roman"
+	442.1.1={
+		birth=yes
+	}
+	511.1.1={
+		death=yes
+	}
+}
+
+475026 = {
+	name="Helpidius"
+	religion="catholic"
+	culture="roman"
+	469.1.1={
+		birth=yes
+	}
+	513.1.1={
+		death=yes
+	}
+}
+
+475027 = {
+	name="Dioscorus"
+	religion="catholic"
+	culture="roman"
+	465.1.1={
+		birth=yes
+	}
+	523.8.13={
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+
+475028 = {
+	name="Philodotus"
+	religion="catholic"
+	culture="roman"
+	478.1.1={
+		birth=yes
+	}
+	536.1.1={
+		death=yes
+	}
+}
+
+475029 = {
+	name="Lucius"
+	religion="catholic"
+	culture="roman"
+	475.1.1={
+		birth=yes
+	}
+	537.1.1={
+		death=yes
+	}
+}
+
+475030 = {
+	name="Anastasius"
+	religion="catholic"
+	culture="roman"
+	480.1.1={
+		birth=yes
+	}
+	548.1.1={
+		death=yes
+	}
+}
+
+475031 = {
+	name="John"
+	religion="catholic"
+	culture="roman"
+	500.1.1={
+		birth=yes
+	}
+	556.4.16={
+		death=yes
+	}
+}

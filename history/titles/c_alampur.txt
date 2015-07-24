@@ -1,0 +1,4 @@
+760.1.1={
+	holder = 192019 #Ganda Sankili Vaidumba
+	liege = k_maharastra
+}

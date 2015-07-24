@@ -48,3 +48,31 @@ b_poddighe = {
 	culture = africanu
 	religion = orthodox
 }
+
+
+### RAGUSA / RAUGIA ###
+
+b_cotrougli = {
+	culture = dalmatian
+	religion = catholic
+}
+
+b_cuosamaura = {
+	culture = dalmatian
+	religion = catholic
+}
+
+b_cerieva = {
+	culture = dalmatian
+	religion = catholic
+}
+
+b_babalei = {
+	culture = dalmatian
+	religion = catholic
+}
+
+b_vittaurin = {
+	culture = dalmatian
+	religion = catholic
+}

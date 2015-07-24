@@ -513,3 +513,472 @@
 		death=yes
 	}
 }
+
+476031 = {
+	name="Longinus"
+	culture="latine"
+	religion="catholic"
+	501.1.1={
+		birth=yes
+	}
+	569.1.1={
+		death=yes
+	}
+}
+
+476032 = {
+	name="Sagittarius"
+	culture="latine"
+	religion="catholic"
+	521.1.1={
+		birth=yes
+	}
+	587.1.1={
+		death=yes
+	}
+}
+
+476033 = {
+	name="Petro"
+	culture="latine"
+	religion="catholic"
+	534.1.1={
+		birth=yes
+	}
+	587.1.1={
+		name = "Laurentius"
+	}
+	590.1.1 = {
+		death=yes
+	}
+}
+
+476034 = {
+	name="Caesarius"
+	culture="latine"
+	religion="catholic"
+	534.1.1={
+		birth=yes
+	}
+	592.1.1={
+		death=yes
+	}
+}
+
+476035 = {
+	name="Hercule"
+	culture="latine"
+	religion="catholic"
+	553.1.1={
+		birth=yes
+	}
+	592.1.1={
+		name = "Simplician"
+	}
+	599.1.1 = {
+		death=yes
+	}
+}
+
+476036 = {
+	name="Decimo"
+	culture="latine"
+	religion="catholic"
+	542.1.1={
+		birth=yes
+	}
+	599.1.1={
+		name = "Caesarius"
+	}
+	610.1.1 = {
+		death=yes
+	}
+}
+
+476037 = {
+	name="Quintian"
+	culture="latine"
+	religion="catholic"
+	560.1.1={
+		birth=yes
+	}
+	619.1.1 = {
+		death=yes
+	}
+}
+
+476038 = {
+	name="Maximo"
+	culture="latine"
+	religion="catholic"
+	565.1.1={
+		birth=yes
+	}
+	619.1.1={
+		name = "Cornelius"
+	}
+	624.1.1 = {
+		death=yes
+	}
+}
+
+476039 = {
+	name="Symmacho"
+	culture="latine"
+	religion="catholic"
+	542.1.1={
+		birth=yes
+	}
+	599.1.1={
+		name = "Laurentius"
+	}
+	610.1.1 = {
+		death=yes
+	}
+}
+
+476040 = {
+	name="Tacito"
+	culture="latine"
+	religion="catholic"
+	544.1.1={
+		birth=yes
+	}
+	631.1.1={
+		name = "Leo"
+	}
+	632.1.1 = {
+		death=yes
+	}
+}
+
+476041 = {
+	name="Petronio"
+	culture="latine"
+	religion="catholic"
+	578.1.1={
+		birth=yes
+	}
+	632.1.1={
+		name = "Faustus"
+	}
+	640.1.1 = {
+		death=yes
+	}
+}
+
+476042 = {
+	name="Diocletiano"
+	culture="latine"
+	religion="catholic"
+	569.1.1={
+		birth=yes
+	}
+	640.1.1={
+		name = "Lucius"
+	}
+	640.6.1 = {
+		death=yes
+	}
+}
+
+476043 = {
+	name="Vigilio"
+	culture="latine"
+	religion="catholic"
+	587.1.1={
+		birth=yes
+	}
+	640.6.1={
+		name = "Lucius"
+	}
+	656.1.1 = {
+		death=yes
+	}
+}
+
+476044 = {
+	name="Gelasio"
+	culture="latine"
+	religion="catholic"
+	598.1.1={
+		birth=yes
+	}
+	656.1.1={
+		name = "Laurentius"
+	}
+	659.1.1 = {
+		death=yes
+	}
+}
+
+476045 = {
+	name="Romano"
+	culture="latine"
+	religion="catholic"
+	605.1.1={
+		birth=yes
+	}
+	659.1.1={
+		name = "Pontius"
+	}
+	663.1.1 = {
+		death=yes
+	}
+}
+
+476046 = {
+	name="Numeriano"
+	culture="latine"
+	religion="catholic"
+	606.1.1={
+		birth=yes
+	}
+	663.1.1={
+		name = "Felix"
+	}
+	666.6.6 = {
+		death=yes
+	}
+}
+
+476047 = {
+	name="Lucifer"
+	culture="latine"
+	religion="catholic"
+	616.1.6={
+		birth=yes
+	}
+	666.6.6={
+		name = "Romanus"
+	}
+	677.7.7 = {
+		death=yes
+		give_nickname=nick_the_wicked
+	}
+}
+
+476048 = {
+	name="Cesare"
+	culture="latine"
+	religion="catholic"
+	633.1.1={
+		birth=yes
+	}
+	677.7.7={
+		name = "John"
+	}
+	682.1.1 = {
+		death=yes
+	}
+}
+
+476049 = {
+	name="Urso"
+	culture="latine"
+	religion="catholic"
+	649.1.1={
+		birth=yes
+	}
+	682.1.1={
+		name = "Benedict"
+	}
+	693.1.1 = {
+		death=yes
+	}
+}
+
+476050 = {
+	name="Johanni"
+	culture="latine"
+	religion="catholic"
+	645.1.1={
+		birth=yes
+	}
+	693.1.1={
+		name = "Faustus"
+	}
+	699.1.1 = {
+		death=yes
+	}
+}
+
+476051 = {
+	name="Romano"
+	culture="latine"
+	religion="catholic"
+	632.1.1={
+		birth=yes
+	}
+	699.1.1={
+		name = "Laurentius"
+	}
+	700.1.1 = {
+		death=yes
+	}
+}
+
+476052 = {
+	name="Valente"
+	culture="latine"
+	religion="catholic"
+	645.1.1={
+		birth=yes
+	}
+	700.1.1={
+		name = "Tiberius"
+	}
+	705.1.1 = {
+		death=yes
+	}
+}
+
+476053 = {
+	name="Theodato"
+	culture="latine"
+	religion="catholic"
+	656.1.1={
+		birth=yes
+	}
+	705.1.1={
+		name = "Just"
+	}
+	707.1.1 = {
+		death=yes
+	}
+}
+
+476054 = {
+	name="Sanctio"
+	culture="latine"
+	religion="catholic"
+	669.1.1={
+		birth=yes
+	}
+	705.1.1={
+		name = "Boniface"
+	}
+	724.1.1 = {
+		death=yes
+	}
+}
+
+476055 = {
+	name="Jacobo"
+	culture="latine"
+	religion="catholic"
+	665.1.1={
+		birth=yes
+	}
+	724.1.1={
+		name = "Faustus"
+	}
+	727.1.1 = {
+		death=yes
+	}
+}
+
+476056 = {
+	name="Saturnino"
+	culture="latine"
+	religion="catholic"
+	677.1.1={
+		birth=yes
+	}
+	727.1.1={
+		name = "Leo"
+	}
+	733.1.1 = {
+		death=yes
+	}
+}
+
+476057 = {
+	name="Victorio"
+	culture="latine"
+	religion="catholic"
+	675.1.1={
+		birth=yes
+	}
+	733.1.1={
+		name = "Sixtus"
+	}
+	735.1.1 = {
+		death=yes
+	}
+}
+
+476058 = {
+	name="Johanni"
+	culture="latine"
+	religion="catholic"
+	684.1.1={
+		birth=yes
+	}
+	735.1.1={
+		name = "Antoninus"
+	}
+	739.1.1 = {
+		death=yes
+	}
+}
+
+476059 = {
+	name="Simon"
+	culture="latine"
+	religion="catholic"
+	696.1.1={
+		birth=yes
+	}
+	739.1.1={
+		name = "Julius"
+	}
+	750.1.1 = {
+		death=yes
+	}
+}
+
+476060 = {
+	name="Trajano"
+	culture="latine"
+	religion="catholic"
+	697.1.1={
+		birth=yes
+	}
+	750.1.1={
+		name = "Clement"
+	}
+	758.1.1 = {
+		death=yes
+	}
+}
+
+476061 = {
+	name="Pacatiano"
+	culture="latine"
+	religion="catholic"
+	709.1.1={
+		birth=yes
+	}
+	758.1.1={
+		name = "Laurentius"
+	}
+	766.1.1 = {
+		death=yes
+	}
+}
+
+476062 = {
+	name="Ennodio"
+	culture="latine"
+	religion="catholic"
+	710.1.1={
+		birth=yes
+	}
+	766.1.1={
+		name = "Anastasius"
+	}
+	768.12.31 = {
+		death=yes
+	}
+}

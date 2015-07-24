@@ -1,0 +1,16 @@
+650.1.1={
+	holder = 192020 #Satyasraya Vemulavada Chalukya
+	liege = d_warangal
+}
+675.1.1={
+	holder = 192021 #Prithvipati
+}
+700.1.1={
+	holder = 192022 #Maharaja (SIC)
+}
+725.1.1={
+	holder = 192023 #Rajaditya
+}
+750.1.1={
+	holder = 192024 #Vinayaditya Yuddhamalla
+}

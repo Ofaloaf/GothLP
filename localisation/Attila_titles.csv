@@ -38,6 +38,7 @@ duke_latine;Dux;;;;;;;;;;;;;x
 county_of_gothic;Pagus;;;;;;;;;;;;;x
 county_of_latine;Comitatus;;;;;;;;;;;;;x
 count_latine;Comes;;;;;;;;;;;;;x
+PRESBYTER;Presbyter;;;;;;;;;;;;;x
 arian;Arian;;;;;;;;;;;;;x
 arian_DESC;Arianism was branded a heresy at the 325 Council of Nicaea for its rejection of the Holy Trinity, instead viewing Jesus, the Son of God, as subordinate to God the Father, rather than his equal, which is the Trinitarian view endorsed by the Nicene Creed. Although Arianism was thus rejected by authorities within the Roman Empire, Arianism fluorished amongst Germanic Christian converts, in particular gaining much influence within the Gothic tribes.;;;;;;;;;;;;;x
 acacian;Acacian;;;;;;;;;;;;;x
@@ -117,7 +118,7 @@ k_pentarchy_adj;Pentarchal;;;;;;;;;;;;;x
 e_africa;Africa;;;;;;;;;;;;;x
 e_africa_adj;African;;;;;;;;;;;;;x
 e_caralis;Nova Carthago;;;;;;;;;;;;;x
-e_caralis;Carthaginian;;;;;;;;;;;;;x
+e_caralis_adj;Carthaginian;;;;;;;;;;;;;x
 e_caucasia;Caucasia;;;;;;;;;;;;;x
 e_caucasia_adj;Caucasian;;;;;;;;;;;;;x
 e_gallia;Gallia;;;;;;;;;;;;;x
@@ -136,6 +137,8 @@ e_scythia;Scythia;;;;;;;;;;;;;x
 e_scythia_adj;Scythian;;;;;;;;;;;;;x
 k_aquitania;Aquitania;;;;;;;;;;;;;x
 k_aquitania_adj;Aquitanian;;;;;;;;;;;;;x
+k_arian;Arian Presbyterate;;;;;;;;;;;;;x
+k_arian_adj;Arian;;;;;;;;;;;;;x
 k_armorica;Armorica;;;;;;;;;;;;;x
 k_armorica_adj;Armorican;;;;;;;;;;;;;x
 k_asia;Asia;;;;;;;;;;;;;x
@@ -335,7 +338,7 @@ d_ostfalia_adj;Ostfalian;;;;;;;;;;;;;x
 d_ostmarca;Ostmarca;;;;;;;;;;;;;x
 d_ostmarca_adj;Ostmarcan;;;;;;;;;;;;;x
 d_pacensis;Pacensis;;;;;;;;;;;;;x
-d_pacensis;Pacensian;;;;;;;;;;;;;x
+d_pacensis_adj;Pacensian;;;;;;;;;;;;;x
 d_pagenses;Pagenses;;;;;;;;;;;;;x
 d_pagenses_adj;Pagensian;;;;;;;;;;;;;x
 d_palestina;Palestina;;;;;;;;;;;;;x
@@ -431,3 +434,8 @@ b_anvardos;Anvardos;;;;;;;;;;;;;x
 b_theotokopoulos;Theotokopoulos;;;;;;;;;;;;;x
 b_kazantzakis;Kazantzakis;;;;;;;;;;;;;x
 b_moreatis;Moreatis;;;;;;;;;;;;;x
+b_cotrougli;Cotrougli;;;;;;;;;;;;;x
+b_cuosamaura;Cuosamaura;;;;;;;;;;;;;x
+b_cerieva;Cerieva;;;;;;;;;;;;;x
+b_babalei;Babalei;;;;;;;;;;;;;x
+b_vittaurin;Vittaurin;;;;;;;;;;;;;x

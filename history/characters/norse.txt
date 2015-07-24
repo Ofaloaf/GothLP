@@ -471,7 +471,7 @@
 
 6878 = {
 	name="Alsting"
-	dynasty=1059
+	dynasty=2015003 # Alstinging
 	religion=norse_pagan
 	culture=norse
 	diplomacy=9
@@ -522,59 +522,28 @@
 	father=6878
 	mother=6879
 	867.1.1={
+
 		birth=yes
+
 	}
+
 	920.1.1={
+
 		death=yes
+
 	}
+
 }
 
 40605 = {
-	name="Rurik" # Rurik, legendary founder of Rus. Probably known as Hrörekr by his Norse contemporaries.
-	dynasty=705
+	name="Helgi"
+	dynasty=2015002
 	religion="norse_pagan"
 	culture=norse
-	diplomacy = 12
-	martial = 8
-	stewardship = 8
-	intrigue = 6
-	learning = 3
-	trait=gregarious
-	trait=ambitious
-	trait=just
-	trait=quick
-	trait=brilliant_strategist
-	trait=brave
-	830.1.1={
+	730.1.1={
 		birth=yes
 	}
-	866.1.1={
-		add_spouse = 6863
-		wealth = 1000
-		effect = {
-			spawn_unit = {
-				province = 414
-				owner = ROOT
-				leader = ROOT
-				troops = {
-					light_infantry = { 507 507 }
-					heavy_infantry = { 50 50 }
-					archers = { 119 119 }
-				}
-				attrition = 1.0
-			}
-			spawn_fleet = {
-				province = closest # closest sea zone
-				owner = ROOT
-				cannot_inherit = yes # disbands on inheritance
-				troops =
-				{
-					galleys = { 40 40 }
-				}
-			}
-		}
-	}
-	879.1.2={
+	800.1.1={
 		death=yes
 	}
 }

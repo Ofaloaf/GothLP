@@ -1,0 +1,5 @@
+760.1.1={
+	holding_dynasty = 5000042 # Babalei
+	liege="d_dioclea"
+	holder=3131008 # Antuone Babalei
+}

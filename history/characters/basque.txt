@@ -10,3 +10,16 @@
 		death=yes
 	}
 }
+
+71901 = {
+	name="Gartzia"
+	dynasty=788
+	religion="orthodox"
+	culture="basque"
+	740.1.1 = {
+		birth=yes
+	}
+	800.1.1 = {
+		death=yes
+	}
+}

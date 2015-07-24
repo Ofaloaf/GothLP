@@ -75,3 +75,16 @@
 		death = yes
 	}
 }
+
+999007 = {
+	name = Nugzar
+	dynasty = 1872014 # Beeruny
+	religion = tengri_pagan
+	culture = jasi
+	746.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}

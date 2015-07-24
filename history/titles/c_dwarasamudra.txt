@@ -1,0 +1,10 @@
+750.1.1={
+	holder = 192016 #Mangala Nolambadhiraja
+	liege = d_nulambavadi
+}
+768.1.1={
+	holder = 192017 #Singapota
+}
+780.1.1={
+	holder = 192018 #Paramesvara Charuponnera
+}

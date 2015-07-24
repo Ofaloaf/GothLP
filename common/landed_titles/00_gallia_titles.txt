@@ -1986,6 +1986,8 @@ e_gallia = {
 			color2={ 255 255 255 }
 			
 			capital = 105 # Vannes
+
+			culture = norman
 			
 			c_nantes = {
 				color={ 170 50 23 }

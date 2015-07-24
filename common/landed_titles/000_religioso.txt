@@ -73,6 +73,43 @@ k_orthodox = {
 	}
 }
 
+k_arian = {
+	color = { 233 224 218 }
+	color2= { 255 255 255 }
+
+	capital = 333 # Roma
+
+	title = "PRESBYTER"
+	foa = "POPE_FOA"
+	short_name = yes
+	location_ruler_title = yes
+	
+	allow = {
+		always = no # Only by special decision
+	}
+	
+	# Always exists
+	landless = yes
+	
+	# Controls a religion
+	controls_religion = arian
+	
+	religion = arian
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+
+	male_names = {
+		Arius Acacius Aetius Auxentius Augustine Adeodatus Basil Benjamin Boniface Constantine Demophilus
+		Donatus Eusebius Eudoxius Eunomius Felix George John Lucian Martin Nicholas Paul Paschalis 
+		Photinus Philostorgius Quodvultdeus Sabbas Sansalas Sidonius Sigesarius Stephen Theodore Theodosius 
+		Trasaricus Ubiligisclus Ulfilas Valens Zachary
+	}
+}
+
+
 e_sunni = {
 	# OBSOLETE
 	color={ 40 160 40 }

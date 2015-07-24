@@ -19,6 +19,7 @@ d_galicia_adj;Gallaecian;;;;;;;;;;;;;x
 d_tyrol;Teriolis;;;;;;;;;;;;;x
 d_tyrol_adj;Teriolian;;;;;;;;;;;;;x
 c_aargau_adj;Argovian;;;;;;;;;;;;;x
+c_alania_adj;Maghasian;;;;;;;;;;;;;x
 c_aljazira_adj;Gazertoan;;;;;;;;;;;;;x
 c_albret_adj;Martian;;;;;;;;;;;;;x
 c_alcacer_do_sal;Salacian;;;;;;;;;;;;;x
@@ -479,7 +480,6 @@ b_chatelaillon;Carantonus;;;;;;;;;;;;;x
 b_chatelaudren;Casteaodrenum;;;;;;;;;;;;;x
 b_chatellerault;Castrumairaldi;;;;;;;;;;;;;x
 b_chaumontsurloire;Mons Calus;;;;;;;;;;;;;x
-b_chaves;Aquae Flaviae;;;;;;;;;;;;;x
 b_chauvigny;Calviniacum;;;;;;;;;;;;;x
 b_chaves;Aquae Flaviae;;;;;;;;;;;;;x
 b_chebika;Adspeculam;;;;;;;;;;;;;x
@@ -1535,6 +1535,7 @@ PROV250;Brisgavia;;;;;;;;;;;;;x
 PROV254;Uburzis;;;;;;;;;;;;;x
 PROV259;Wigmodia;;;;;;;;;;;;;x
 PROV261;Sturmaria;;;;;;;;;;;;;x
+PROV304;Rugia;;;;;;;;;;;;;x
 PROV315;Cambidano;;;;;;;;;;;;;x
 PROV317;Tridentum;;;;;;;;;;;;;x
 PROV318;Brixia;;;;;;;;;;;;;x
@@ -1607,6 +1608,7 @@ PROV521;Partiscum;;;;;;;;;;;;;x
 PROV522;Aquincum;;;;;;;;;;;;;x
 PROV523;Tisia;;;;;;;;;;;;;x
 PROV540;Marcodava;;;;;;;;;;;;;x
+PROV603;Maghas;;;;;;;;;;;;;x
 PROV684;Nisibis;;;;;;;;;;;;;x
 PROV693;Ctesiphon;;;;;;;;;;;;;x
 PROV697;Nineveh;;;;;;;;;;;;;x

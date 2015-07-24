@@ -401,3 +401,29 @@
 		death = yes
 	}
 }
+
+1789023 = {
+	name = "Zefirines"
+	dynasty = 1940007 # de Condate
+	culture = gallic
+	religion = orthodox
+	738.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+
+1789024 = {
+	name = "Victor"
+	dynasty = 1940005 # Tetricienne
+	culture = gallic
+	religion = orthodox
+	733.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}

@@ -1,0 +1,4 @@
+750.1.1 = {
+	holder = 194150
+	liege = d_yaroslavl
+}

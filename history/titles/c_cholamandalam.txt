@@ -1,0 +1,4 @@
+769.1.1={
+	liege = d_tondai_nadu
+	holder = 189400
+}

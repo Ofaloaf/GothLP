@@ -998,6 +998,8 @@ e_scythia = {
 			c_west_dvina = {
 				color={ 125 18 18 }
 				color2={ 255 255 255 }
+
+				# Latgale
 				
 				swedish = "Lettgallen"
 				norse = "Lettgallen"

@@ -2455,6 +2455,8 @@ e_italy = {
 			
 			capital = 468 # Ragusa
 			
+			dalmatian = "Raugia"
+
 			serbian = "Duklja"
 			croatian = "Duklja"
 			bulgarian = "Duklja"
@@ -2466,9 +2468,11 @@ e_italy = {
 				dalmatian = "Cattaro"
 				
 				b_podgorica = {
+					dalmatian = "Ribnica"
 					greek = "Birziminium"
 				}
 				b_bar = {
+					dalmatian = Antibari
 					italian = Antivari
 					greek = Antivarion
 				}
@@ -2479,10 +2483,16 @@ e_italy = {
 					greek = Askrivion
 				}
 				b_skadar = {
+					latine = Scodra
+					dalmatian = Scodra
 					italian = Scutari
 					greek = Skoutarion
 				}
 				b_ulcinj = {
+					dalmatian = Ulcigno
+					italian = Dulcigno
+					latine = Ulcinium
+					roman = Colchinium
 				}
 				b_budva = {
 				}

@@ -1,3 +1,311 @@
-500.1.1 = {
+42.1.1={
+ holder = 145292
+} # Peter's first visit to Rome
+
+64.10.13={
+ holder = 145291
+}
+79.1.1={
+	holder = 7615
+}
+92.1.1={
+	holder = 7614
+}
+99.1.1={
+	holder = 7613
+}
+107.1.1={
+	holder = 7612
+}
+115.1.1={
+	holder = 7611
+}
+125.1.1={
+	holder = 7610
+}
+137.1.1={
+	holder = 7609
+}
+140.1.1={
+	holder = 7608
+}
+154.1.1={
+	holder = 7607
+}
+167.4.20={
+	holder = 7606
+}
+174.1.1={
+	holder = 7605
+}
+189.1.1={
+	holder = 7604
+}
+199.1.1={
+	holder = 7603
+}
+217.12.20={
+	holder = 7602
+}
+222.10.14={
+	holder = 7601
+}
+230.1.1={
+	holder = 7600
+}
+235.9.29={
+	holder = 7799
+}
+236.1.3={
+	holder = 7798
+}
+250.1.20={
+	holder = 7797
+}
+253.6.1={
+	holder = 7796
+}
+254.3.5={
+	holder = 7795
+}
+257.8.2={	
+	holder = 7794
+}
+258.8.6={
+	holder = 7793
+}
+268.12.26={
+	holder = 7792
+}
+274.12.30={
+	holder = 7791
+}
+283.7.12={
+	holder = 7790
+}
+296.4.22={
+	holder = 7789
+}
+304.4.1={
+	holder = 7787
+}
+309.1.16={
+	holder = 7786
+}
+310.8.17={
+	holder = 7785
+}
+314.1.10={
+	holder = 7784
+}
+335.12.31={
+	holder = 7783
+}
+336.10.7={
+	holder = 7782
+}
+352.4.12={
+	holder = 7781
+}
+366.9.24={
+	holder = 7780
+}
+384.12.11={
+	holder = 7779
+}
+399.11.26={
+	holder = 7778
+}
+401.11.27={
+	holder = 7777
+}
+417.3.12={
+	holder = 7776
+}
+418.12.26={
+	holder = 7775
+}
+422.9.4={
+	holder = 7774
+}
+432.4.6={
+	holder = 7773
+}
+440.8.18={
+	holder = 7772
+}
+461.11.10={
+	holder = 7771
+}
+468.2.28={
+	holder = 7770
+}
+483.3.10={
+	holder = 7769
+}
+492.1.1={
+	holder = 7768
+}
+496.11.21={
+	holder = 7767 # Anastasius II
+}
+498.11.22={
+	holder = 475024 # Laurentius I, of the Laurentian Schism
+}
+506.1.1={
+	holder = 475025 # Festus
+}
+511.1.1={
+	holder = 475026 # Helpidius
+}
+513.1.1={
+	holder = 475027 # Dioscorus
+}
+523.8.13={
+	holder = 7762 # John I
+}
+526.5.18={
+	holder = 475028 # Philodotus
+}
+536.1.1={
+	holder = 475029 # Lucius II
+}
+537.1.1={
+	holder = 475030 # Anastasius  III
+}
+548.1.1={
+	holder = 475031 # John II
+}
+556.4.16={
+	holder = 7899 # Pelagius I
+}
+561.3.4={
+	holder = 476031 # Longinus
+}
+579.1.1={
+	holder = 476032 # Sagittarius
+}
+587.1.1 = {
+	holder = 476033 # Laurentius II
+}
+590.1.1 = {
+	holder = 476034 # Caesarius I
+}
+
+592.1.1 = {
+	holder = 476035 # Simplician
+}
+
+599.1.1 = {
+	holder = 476036 # Caesarius II
+}
+
+610.1.1 = {
+	holder = 476037 # Quintian
+}
+
+619.1.1 = {
+	holder = 476038 # Cornelius II
+}
+
+624.1.1 = {
+	holder = 476039 # Laurentius III
+}
+
+631.1.1 = {
+	holder = 476040 # Leo II
+}
+
+632.1.1 = {
+	holder = 476041 # Faustus I
+}
+
+640.1.1 = {
+	holder = 476042 # Lucius III
+}
+
+640.6.1 = {
+	holder = 476043 # Lucius IV
+}
+
+656.1.1 = {
+	holder = 476044 # Laurentius IV
+}
+
+659.1.1 = {
+	holder = 476045 # Pontius
+}
+
+663.1.1 = {
+	holder = 476046 # Felix IV
+}
+
+666.6.6 = {
+	holder = 476047 # Romanus the Wicked
+}
+
+677.7.7 = {
+	holder = 476048 # John III
+}
+
+682.1.1 = {
+	holder = 476049 # Benedict I
+}
+
+693.1.1 = {
+	holder = 476050 # Faustus II
+}
+
+699.1.1 = {
+	holder = 476051 # Laurentius V
+}
+
+700.1.1 = {
+	holder = 476052 # Tiberius
+}
+
+705.1.1 = {
+	holder = 476053 # Just
+}
+
+707.1.1 = {
+	holder = 476054 # Boniface II
+}
+
+724.1.1 = {
+	holder = 476055 # Lucius V
+}
+
+727.1.1 = {
+	holder = 476056 # Leo III
+}
+
+733.1.1 = {
+	holder = 476057 # Sixtus IV
+}
+
+735.1.1 = {
+	holder = 476058 # Antoninus
+}
+
+739.1.1 = {
+	holder = 476059 # Julius II
+}
+
+750.1.1 = {
+	holder = 476060 # Clement II
+}
+
+758.1.1 = {
+	holder = 476061 # Laurentius VI
+}
+
+766.1.1 = {
+	holder = 476062 # Anastasius III
+}
+
+# Laurentius VII
+
+769.1.1 = {
 	liege = "e_papal_hre"
 }

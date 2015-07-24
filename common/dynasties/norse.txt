@@ -2,3 +2,13 @@
 	name = "Maðverðr"
 	culuture = norse
 }
+
+2015002 = {
+	name = "Muttlanding"
+	culuture = norse
+}
+
+2015003 = {
+	name = "Alstinging"
+	culuture = norse
+}

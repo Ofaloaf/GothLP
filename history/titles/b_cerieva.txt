@@ -1,0 +1,5 @@
+760.1.1={
+	holding_dynasty = 5000041 # Cerieva
+	liege="d_dioclea"
+	holder=3131007 # Puol Cerieva
+}

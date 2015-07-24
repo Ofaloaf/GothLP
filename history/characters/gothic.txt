@@ -44,7 +44,7 @@
 }
 
 611004 = {
-	name = "Thiudareiks"
+	name = "Thiudareiks" # Thiudareiks II
 	dynasty = 405001 # Triarius
 	father=611022 # Sigivult Amalius
 	mother=611029 # Xristina Triarius
@@ -58,6 +58,9 @@
 	trait = bastard
 	740.1.1 = {
 		birth = yes
+	}
+	769.1.1 = {
+		dynasty = 405001 # Triarius
 	}
 	800.1.1 = {
 		death=yes

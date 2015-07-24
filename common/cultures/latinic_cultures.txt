@@ -108,12 +108,12 @@ latinic = {
 			Romano_Roman Romulo Rufino Rutilio Romaeo Regaliano
 			Sabiniano Saturnino Sempronio Septimio Sergio_Sergius Severino Severo Sexto Symmacho_Symmachus 
 			Sanctio_Sancho Simon_Simon Satyro Stephano_Stephen
-			Tacito Theodosio_Theodosios Tiberio_Tiberius Titio Titus Trajano_Trajan Thomas_Thomas Tetrico
-			Theodato_Theodat 
+			Tacito_Tacitus Theodosio_Theodosios Tiberio_Tiberius Titio Titus Trajano_Trajan Thomas_Thomas
+			Theodato_Theodat Tetrico
 			Urbano_Urban Urso_Ursus Ulysse
 			Valente Valentiniano Valeriano Valerio_Valerius Venantio Vespasiano Victorio_Victor
 			Victorino Vigilio Vitaliano Volusiano Vindiciano
-			Zeno Zephyrino
+			Zeno_Zeno Zephyrino
 		}
 		female_names = {
 			Agrippina Antonia_Antonia Antonina Aquilia Aurelia Athanasia Apollonia Anna_Anna Agatha_Agatha

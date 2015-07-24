@@ -1,0 +1,5 @@
+760.1.1={
+	holding_dynasty = 5000049 # Cotrougli
+	liege="d_dioclea"
+	holder=3131005 # Giorgi Cotrougli
+}
