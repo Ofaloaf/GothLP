@@ -1232,6 +1232,7 @@ e_gallia = {
 				b_apchier = {
 				}
 				b_marvejols = {
+					gothicromance = "Maruèjuls"
 				}
 				b_florac = {
 				}
@@ -1988,6 +1989,12 @@ e_gallia = {
 			capital = 105 # Vannes
 
 			culture = norman
+
+			norman = Normandy
+			norse = Normandy
+			danish = Normandy
+			norwegian = Normandy
+			geatish = Normandy
 			
 			c_nantes = {
 				color={ 170 50 23 }
@@ -2243,6 +2250,9 @@ e_gallia = {
 			color2={ 255 255 255 }
 			
 			capital = 97 # Rouen
+
+			brithenig = "Brittany"
+			welsh = "Brittany"
 			
 			c_evreux = {
 				color={ 105 111 94 }

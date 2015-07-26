@@ -31,7 +31,7 @@ circassian;Circassian;;;;;;;;;;;;;x
 rimlyani;Rimlyani;;;;;;;;;;;;;x
 traki;Traki;;;;;;;;;;;;;x
 rumi_arabic;Rumi;;;;;;;;;;;;;x
-gothicromance;Valagot;;;;;;;;;;;;;x
+gothicromance;Valgautic;;;;;;;;;;;;;x
 geatish;Geatish;;;;;;;;;;;;;x
 duchy_of_latine;Ducatus;;;;;;;;;;;;;x
 duke_latine;Dux;;;;;;;;;;;;;x
@@ -42,7 +42,9 @@ PRESBYTER;Presbyter;;;;;;;;;;;;;x
 arian;Arian;;;;;;;;;;;;;x
 arian_DESC;Arianism was branded a heresy at the 325 Council of Nicaea for its rejection of the Holy Trinity, instead viewing Jesus, the Son of God, as subordinate to God the Father, rather than his equal, which is the Trinitarian view endorsed by the Nicene Creed. Although Arianism was thus rejected by authorities within the Roman Empire, Arianism fluorished amongst Germanic Christian converts, in particular gaining much influence within the Gothic tribes.;;;;;;;;;;;;;x
 acacian;Acacian;;;;;;;;;;;;;x
+acacian_DESC;The Acacian position on the dispute over Christ' nature differed from both Arians and Nicene Christians, because Acacians simply did not care if Jesus was of the same substance or a similar substance as God, and were very explicit in their rejection over mentioning 'substance' or 'essence' in any official synod document whatsoever.;;;;;;;;;;;;;x
 anomoean;Anomoean;;;;;;;;;;;;;x
+anomoean_DESC;Anomoeans get their name from a Greek word meaning 'Not Similar'. They believed in an extreme version of Arian Christology, holding that not only were God and Jesus not of the same substance, but that they were not even of /similar/ substances. This is, like, an extra-strength denial of the Holy Trinity and is therefore doubly-heretical.;;;;;;;;;;;;;x
 donatist;Donatist;;;;;;;;;;;;;x
 donatist_DESC;Donatism's origins lay in the last persecution of Christians, under the emperor Diocletian. Some Christians had folded to imperial pressure and had made token repudiations of their faith, but when Christianity entered the mainstream Roman fold under Constantine, those same Christians sometimes became bishops and gained other positions of power within the Church. Hardliners objected to the inclusion of these 'traditores', as the hardliners called them, and stated that only the saintly (i.e. those who hadn't repudiated their faith under Diocletian's reign) should administer the Church. Rallying around Donatus, the bishop of Carthage at the time, these Christians became known as 'Donatists'.;;;;;;;;;;;;;x
 priscillian;Priscillian;;;;;;;;;;;;;x

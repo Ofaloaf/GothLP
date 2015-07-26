@@ -167,6 +167,93 @@ christian = {
 		religious_clothing_head = 2
 		religious_clothing_priest = 2
 	}
+
+	donatist = {
+		graphical_culture = westerngfx
+
+		icon = 53
+		heresy_icon = 54
+		
+		color = { 0.95 0.8 0.9 }
+		parent = orthodox
+		
+		crusade_name = CRUSADE
+
+		autocephaly = no
+		can_retire_to_monastery = yes
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 2
+	}
+	antinomian = {
+		graphical_culture = westerngfx
+
+		icon = 53
+		heresy_icon = 54
+		
+		color = { 0.65 0.5 0.73 }
+		parent = orthodox
+		
+		crusade_name = CRUSADE
+
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		female_temple_holders = yes
+		feminist = yes      # Nullifies the negative opinion modifier that vassals normally get if ruler is female or has female heir
+		pc_marriage = yes
+		bs_marriage = yes
+		
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+	}
+
+	monothelite = {
+		graphical_culture = westerngfx
+
+		icon = 53
+		heresy_icon = 54
+		
+		color = { 0.5 0 0.3 }
+		parent = orthodox
+		
+		crusade_name = CRUSADE
+
+		autocephaly = yes
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		can_call_crusade = no
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+	}
+	
+	iconoclast = {
+		graphical_culture = westerngfx
+
+		icon = 53
+		heresy_icon = 54
+		
+		color = { 0.5 0.2 0.4 }
+		parent = orthodox
+		
+		crusade_name = CRUSADE
+
+		autocephaly = yes
+		can_excommunicate = yes
+		can_grant_divorce = yes
+		can_grant_invasion_cb = invasion
+		can_grant_claim = yes
+		can_call_crusade = no
+		can_retire_to_monastery = yes
+		priests_can_inherit = no
+		
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+	}
 	
 	miaphysite = {
 		graphical_culture = westerngfx
@@ -227,54 +314,6 @@ christian = {
 		religious_clothing_priest = 2
 	}
 
-	monothelite = {
-		graphical_culture = westerngfx
-
-		icon = 53
-		heresy_icon = 54
-		
-		color = { 0.5 0 0.3 }
-		parent = orthodox
-		
-		crusade_name = CRUSADE
-
-		autocephaly = yes
-		can_excommunicate = yes
-		can_grant_divorce = yes
-		can_grant_invasion_cb = invasion
-		can_grant_claim = yes
-		can_call_crusade = no
-		can_retire_to_monastery = yes
-		priests_can_inherit = no
-		
-		religious_clothing_head = 2
-		religious_clothing_priest = 2
-	}
-	
-	iconoclast = {
-		graphical_culture = westerngfx
-
-		icon = 53
-		heresy_icon = 54
-		
-		color = { 0.5 0.2 0.4 }
-		parent = orthodox
-		
-		crusade_name = CRUSADE
-
-		autocephaly = yes
-		can_excommunicate = yes
-		can_grant_divorce = yes
-		can_grant_invasion_cb = invasion
-		can_grant_claim = yes
-		can_call_crusade = no
-		can_retire_to_monastery = yes
-		priests_can_inherit = no
-		
-		religious_clothing_head = 2
-		religious_clothing_priest = 2
-	}
-	
 	nestorian = {
 		graphical_culture = westerngfx
 
@@ -417,43 +456,5 @@ christian = {
 		
 		religious_clothing_head = 2
 		religious_clothing_priest = 1
-	}
-	donatist = {
-		graphical_culture = westerngfx
-
-		icon = 53
-		heresy_icon = 54
-		
-		color = { 0.95 0.8 0.9 }
-		parent = orthodox
-		
-		crusade_name = CRUSADE
-
-		autocephaly = no
-		can_retire_to_monastery = yes
-		
-		religious_clothing_head = 0
-		religious_clothing_priest = 2
-	}
-	antinomian = {
-		graphical_culture = westerngfx
-
-		icon = 53
-		heresy_icon = 54
-		
-		color = { 0.65 0.5 0.73 }
-		parent = orthodox
-		
-		crusade_name = CRUSADE
-
-		can_retire_to_monastery = yes
-		priests_can_inherit = no
-		female_temple_holders = yes
-		feminist = yes      # Nullifies the negative opinion modifier that vassals normally get if ruler is female or has female heir
-		pc_marriage = yes
-		bs_marriage = yes
-		
-		religious_clothing_head = 2
-		religious_clothing_priest = 2
 	}
 }

@@ -24,12 +24,11 @@ k_papal_state = {
 	
 	# Regnal names
 	male_names = {
-		John Gregory Benedict Clement Innocent Leo Pius Stephen Boniface Urban Alexander Adrian Paul
-		Celestine Martin Nicholas Sixtus Felix Sergius Anastasius Honorius Eugene Sylvester Victor
-		Lucius Callixtus Julius Pelagius Adeodatus Theodore Marinus Agapetus Damasus Paschal
-		Gelasius Marcellus "John Paul" Anacletus Evaristus Telesphorus Hyginus Anicetus Mark Hilarius 
-		Simplicius Symmachus Hormisdas Silverius Vigilius Sabinian Severinus Vitalian Donus Agatho
-		Conon Sisinnius Constantine Zachary Valentine Formosus Romanus Lando
+		Anastasius Laurentius Clement Antoninus Sixtus Julius Faustus Romanus Just Tiberius Benedict Alexander
+		Lucius Leo Cornelius Pontius Quintian Simplician Vigilius Valentine Constantine Donus Hilarius Pius
+		Stephen Pelagius Victor Paul Sylvester Innocent John Gregory Hormisdas Sabinian Paschal Eugene Honorius
+		Arcadius Philodotus Festus Andrew Symmachus Claudius Caearius Aurelius Severus Maximus Philip Theodosius
+		Adrian Felix
 	}
 }
 

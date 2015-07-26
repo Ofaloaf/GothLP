@@ -1,8 +1,5 @@
 500.1.1 = {
 	liege = "k_gothia"
-	name = d_rotomagus
-	adjective = d_rotomagus_adj
-	effect = { set_coa = d_rotomagus }
 }
 747.1.1 = {
 	holder = 7777002

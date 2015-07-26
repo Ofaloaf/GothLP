@@ -12,10 +12,14 @@ k_dacia;Dacia;;;;;;;;;;;;;x
 k_dacia_adj;Dacian;;;;;;;;;;;;;x
 k_spanish_galicia;Gallaecia;;;;;;;;;;;;;x
 k_spanish_galicia_adj;Gallaecian;;;;;;;;;;;;;x
+d_brittany;Rotomagus;;;;;;;;;;;;;x
+d_brittany_adj;Rotomagian;;;;;;;;;;;;;x
 d_flanders;Flandria;;;;;;;;;;;;;x
 d_flanders_adj;Flandrian;;;;;;;;;;;;;x
 d_galicia;Gallaecia;;;;;;;;;;;;;x
 d_galicia_adj;Gallaecian;;;;;;;;;;;;;x
+d_normandy;Armorica;;;;;;;;;;;;;x
+d_normandy_adj;Armorican;;;;;;;;;;;;;x
 d_tyrol;Teriolis;;;;;;;;;;;;;x
 d_tyrol_adj;Teriolian;;;;;;;;;;;;;x
 c_aargau_adj;Argovian;;;;;;;;;;;;;x

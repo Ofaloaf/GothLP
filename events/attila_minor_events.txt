@@ -4,150 +4,145 @@ namespace = ATTILA
 
 # The Creation of Normandy
 # in Brittany
-narrative_event = {
-	id = ATTILA.001
-	desc = EVTDESC_ATTILA_001
-	title = EVTTITLE_ATTILA_001
-	picture = GFX_evt_throne_room
-	border = GFX_event_narrative_frame_war
-
-	major = yes
-	
-	only_playable = yes
-	
-	trigger = {
-		has_landed_title = d_normandy
-		OR = {
-			culture = norse
-			culture = norman
-			religion = norse_pagan
-		}
-		NOT = { has_global_flag = normandy_established }
-	}
-
-	major_trigger = {
-		capital_scope = {
-			NOT = {
-				distance = {
-					where = 106 # Nantes
-					value = 800	# Same part of the world
-				}
-			}
-		}
-	}
-	
-	mean_time_to_happen = {
-		days = 1
-	}
-	
-	immediate = {
-		set_global_flag = normandy_established
-	}
-	
-	option = {
-		name = EVTOPTA_ATTILA_001
-		trigger = {
-			has_landed_title = d_normandy
-		}
-		d_normandy = {
-			set_name = ""
-			adjective = ""
-			reset_coa = THIS
-		}
-	}
-	option = {
-		name = EVTOPTB_ATTILA_001
-		trigger = {
-			NOT = { has_landed_title = d_normandy }
-			culture = norse
-		}
-	}
-	option = {
-		name = EVTOPTC_ATTILA_001
-		trigger = {
-			NOT = { has_landed_title = d_normandy }
-			NOT = { culture = norse }
-		}
-	}
-}
+#narrative_event = {
+#	id = ATTILA.001
+#	desc = EVTDESC_ATTILA_001
+#	title = EVTTITLE_ATTILA_001
+#	picture = GFX_evt_throne_room
+#	border = GFX_event_narrative_frame_war
+#
+#	major = yes
+#	
+#	only_playable = yes
+#	
+#	trigger = {
+#		has_landed_title = d_normandy
+#		OR = {
+#			culture = norse
+#			culture = norman
+#			religion = norse_pagan
+#		}
+#		NOT = { has_global_flag = normandy_established }
+#	}
+#
+#	major_trigger = {
+#		capital_scope = {
+#			region = world_europe_west
+#		}
+#	}
+#	
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#	
+#	immediate = {
+#		set_global_flag = normandy_established
+#	}
+#	
+#	option = {
+#		name = EVTOPTA_ATTILA_001
+#		trigger = {
+#			has_landed_title = d_normandy
+#		}
+#		d_normandy = {
+#			set_name = ""
+#			adjective = ""
+#			reset_coa = THIS
+#		}
+#	}
+#	option = {
+#		name = EVTOPTB_ATTILA_001
+#		trigger = {
+#			NOT = { has_landed_title = d_normandy }
+#			culture = norse
+#		}
+#	}
+#	option = {
+#		name = EVTOPTC_ATTILA_001
+#		trigger = {
+#			NOT = { has_landed_title = d_normandy }
+#			NOT = { culture = norse }
+#		}
+#	}
+#}
 
 # The Creation of Brittany
 # in Normandy
-narrative_event = {
-	id = ATTILA.002
-	desc = EVTDESC_ATTILA_002
-	title = EVTTITLE_ATTILA_002
-	picture = GFX_evt_throne_room
-	border = GFX_event_narrative_frame_war
-	
-	only_playable = yes
-
-	major = yes
-	
-	trigger = {
-		has_landed_title = d_brittany
-		completely_controls = d_brittany
-		OR = {
-			culture = breton
-			culture = welsh
-			culture = brithenig
-		}
-		NOT = { has_global_flag = brittany_established }
-	}
-
-	major_trigger = {
-		capital_scope = {
-			NOT = {
-				distance = {
-					where = 97 # Rouen / Arques / Rotomagus
-					value = 800	# Same part of the world
-				}
-			}
-		}
-	}
-	
-	mean_time_to_happen = {
-		days = 1
-	}
-	
-	immediate = {
-		set_global_flag = brittany_established
-	}
-	
-	option = {
-		name = EVTOPTA_ATTILA_002
-		trigger = {
-			has_landed_title = d_brittany
-		}
-		d_brittany = {
-			set_name = ""
-			adjective = ""
-			reset_coa = THIS
-		}
-	}
-	option = {
-		name = EVTOPTB_ATTILA_002
-		trigger = {
-			NOT = { has_landed_title = d_brittany }
-			OR = {
-				culture = welsh
-				culture = brithenig
-			}
-		}
-	}
-	option = {
-		name = EVTOPTC_ATTILA_002
-		trigger = {
-			NOT = { has_landed_title = d_brittany }
-			NOT = { 
-				OR = {
-					culture = welsh
-					culture = brithenig
-				}
-			}
-		}
-	}
-}
+#narrative_event = {
+#	id = ATTILA.002
+#	desc = EVTDESC_ATTILA_002
+#	title = EVTTITLE_ATTILA_002
+#	picture = GFX_evt_throne_room
+#	border = GFX_event_narrative_frame_war
+#	
+#	only_playable = yes
+#
+#	major = yes
+#	
+#	trigger = {
+#		has_landed_title = d_brittany
+#		completely_controls = d_brittany
+#		OR = {
+#			culture = breton
+#			culture = welsh
+#			culture = brithenig
+#		}
+#		NOT = { has_global_flag = brittany_established }
+#	}
+#
+#	major_trigger = {
+#		capital_scope = {
+#			NOT = {
+#				distance = {
+#					where = 97 # Rouen / Arques / Rotomagus
+#					value = 800	# Same part of the world
+#				}
+#			}
+#		}
+#	}
+#	
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#	
+#	immediate = {
+#		set_global_flag = brittany_established
+#	}
+#	
+#	option = {
+#		name = EVTOPTA_ATTILA_002
+#		trigger = {
+#			has_landed_title = d_brittany
+#		}
+#		d_brittany = {
+#			set_name = ""
+#			adjective = ""
+#			reset_coa = THIS
+#		}
+#	}
+#	option = {
+#		name = EVTOPTB_ATTILA_002
+#		trigger = {
+#			NOT = { has_landed_title = d_brittany }
+#			OR = {
+#				culture = welsh
+#				culture = brithenig
+#			}
+#		}
+#	}
+#	option = {
+#		name = EVTOPTC_ATTILA_002
+#		trigger = {
+#			NOT = { has_landed_title = d_brittany }
+#			NOT = { 
+#				OR = {
+#					culture = welsh
+#					culture = brithenig
+#				}
+#			}
+#		}
+#	}
+#}
 
 #there's a weird CTD bug I can't figure out, involving the Papacy controlling the HRE at game start
 #the scenario thus technically starts with the HRE and Papacy as two separate things

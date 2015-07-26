@@ -1,5 +1,0 @@
-500.1.1 = {
-	name = d_armorica
-	adjective = d_armorica_adj
-	effect = { set_coa = d_armorica }
-}
