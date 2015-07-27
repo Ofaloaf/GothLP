@@ -1990,6 +1990,9 @@ e_italy = {
 		color = { 174 227 95 }
 		color2= { 255 255 255 }
 
+		orthodox = 300 # Crusade target weight
+		catholic = 1000 # Crusade target weight
+
 		d_domavia = {
 			color = { 240 167 130 }
 			color2= { 255 255 255 }

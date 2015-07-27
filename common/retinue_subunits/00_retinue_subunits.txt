@@ -84,7 +84,7 @@ RETTYPE_CUL_ENG =
 	
 	potential = {
 		OR = {
-			culture = english
+			culture = brithenig
 			culture = welsh
 		}
 	}
@@ -162,11 +162,11 @@ RETTYPE_CUL_FRANK_NOR_GER =
 	
 	potential = {
 		OR = {
-			culture = frankish
-			culture = occitan
+			culture = gothicromance
+			culture = gallic
 			culture = norman
-			culture = german
-			culture = breton
+			culture = brithenig
+			culture = burgundian
 		}
 	}
 	
@@ -183,7 +183,10 @@ RETTYPE_CUL_IBER =
 	first_amount = 400
 	
 	potential = {
-		culture_group = iberian
+		OR = {
+			culture = hispani
+			culture = gallaecian
+		}
 	}
 	
 	modifier = {
@@ -235,6 +238,7 @@ RETTYPE_CUL_NORTHGER =
 			culture = saxon
 			culture = old_saxon
 			culture = frisian
+			culture = burgundian
 		}
 	}
 	
@@ -252,7 +256,7 @@ RETTYPE_CUL_HUNG =
 	potential = {
 		OR = {
 			culture = hungarian
-			culture_group = west_slavic
+			culture_group = sacaean
 		}
 	}
 	
@@ -282,13 +286,13 @@ RETTYPE_CUL_ARAB =
 	}
 }
 
-RETTYPE_CUL_ANDALUSIAN = 
+RETTYPE_CUL_AFRICANU = 
 {
 	first_type = 3
 	first_amount = 400
 
 	potential = {
-		culture = andalusian_arabic
+		culture = africanu
 	}
 
 	modifier = {
@@ -579,5 +583,21 @@ RETTYPE_CUL_PICTISH =
 		light_infantry_morale = 0.2
 		archers_offensive = 0.1
 		archers_morale = 0.1
+	}
+}
+
+RETTYPE_CUL_GOTH = 
+{
+	first_type = 2
+	first_amount = 400
+	
+	potential = {
+		culture = gothic
+	}
+	
+	modifier = {
+		pikemen_defensive = 0.4
+		pikemen_offensive = 0.2
+		pikemen_morale = 0.2
 	}
 }

@@ -2,6 +2,11 @@ e_oriens = {
 	color = { 135 202 252 }
 	color2= { 255 255 255 }
 
+	bedouin_arabic = "Al Mashriq"
+	egyptian_arabic = "Al Mashriq"
+	rumi_arabic = "Al Mashriq"
+	levantine_arabic = "Al Mashriq"
+
 	k_jerusalem = {
 		color={ 180 180 180 }
 		color2={ 255 255 255 }

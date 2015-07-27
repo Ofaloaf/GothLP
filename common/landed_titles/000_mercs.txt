@@ -30,6 +30,65 @@ d_vandalic_order = {
 	monthly_income = 4 # (Must be an integer between 1 and 512)
 }
 
+d_knights_of_st_sabbas = {
+	
+	color={ 200 200 220 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 138 # Orleans
+	
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+	
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	mercenary_type = knights_templar_composition
+	
+	# Parent Religion 
+	religion = arian
+	
+	culture = gothic
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 6 # (Must be an integer between 1 and 512)
+}
+
+d_circumcellions = {
+	
+	color={ 200 60 50 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 817 # Tunis/Carthago
+
+	title = "AGONISTICUS"
+	foa = "CAPTAIN_FOA"
+	
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	mercenary_type = berber_company_composition
+	
+	# Parent Religion 
+	religion = donatist
+	
+	culture = berber
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 1 # (Must be an integer between 1 and 512)
+}
 
 #### MERCENARIES PROPER ####
 

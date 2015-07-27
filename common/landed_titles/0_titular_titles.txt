@@ -115,3 +115,10 @@ e_hephthalites = {
 			capital = 237 # Savoie
 
 		}
+
+		d_paris = {
+			color = { 20 50 210 }
+			color2= { 255 255 255 }
+
+			capital = 112 # Ile-de-France/Paris
+		}

@@ -37,6 +37,9 @@ e_hispania = {
 			}
 		}
 
+		catholic = 250 # Crusade target weight
+		orthodox = 700 # Crusade target weight
+
 		d_sardinia = {
 			color={ 217 159 255 }
 			color2={ 255 255 255 }
@@ -193,6 +196,9 @@ e_hispania = {
 				has_law = vice_royalty_0
 			}
 		}
+
+		catholic = 250 # Crusade target weight
+		orthodox = 1000 # Crusade target weight
 
 		d_barcino = {
 			color = { 70 140 83 }
@@ -1076,9 +1082,6 @@ e_hispania = {
 		greek = "Gallaekia"
 		africanu = "Gallecia"
 		dalmatian = "Gallecia"
-		
-		catholic = 250 # Crusade target weight
-		muslim = 25 # Crusade target weight
 
 		allow = {
 			NOT = {
@@ -1086,6 +1089,10 @@ e_hispania = {
 				has_law = vice_royalty_0
 			}
 		}
+
+		catholic = 200 # Crusade target weight
+		orthodox = 2000 # Crusade target weight
+		arian = 250 # Crusade target weight
 		
 		d_galicia = {
 			color = { 213 158 51 }
@@ -1355,6 +1362,7 @@ e_hispania = {
 		capital = 160 # Lisboa
 		
 		catholic = 250 # Crusade target weight
+		orthodox = 600
 		muslim = 25
 		west_african_pagan_reformed = 25
 		
@@ -1767,6 +1775,7 @@ e_hispania = {
 		gothic = "Betica"
 		
 		catholic = 100 # Crusade target weight
+		orthodox = 500
 		muslim = 50 # Crusade target weight
 		west_african_pagan_reformed = 50
 

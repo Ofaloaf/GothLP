@@ -1,13 +1,18 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
-EVTTITLE_ATTILA_001;The Birth of Normandy;;;;;;;;;;;;;x
+EVTNAME_ATTILA_001;The Birth of Normandy;;;;;;;;;;;;;x
 EVTDESC_ATTILA_001;Traditionally known as Armorica, the northwest corner of Gaul is now increasingly dominated and settled by Norsemen and their followers. This had led to 'Armorica' slipping from common talk about the region, being replaced with 'Normannia'- Normandy.;;;;;;;;;;;;;x
 EVTOPTA_ATTILA_001;Long live Normandy!;;;;;;;;;;;;;x
 EVTOPTB_ATTILA_001;A new land for our brothers?;;;;;;;;;;;;;x
 EVTOPTC_ATTILA_001;Interesting;;;;;;;;;;;;;x
-EVTTITLE_ATTILA_002;The Birth of Brittany;;;;;;;;;;;;;x
+EVTNAME_ATTILA_002;The Birth of Brittany;;;;;;;;;;;;;x
 EVTDESC_ATTILA_002;For centuries, there have been minor colonies of Britons along the northern coast of Gaul. Sometimes refugees, sometimes adventurers, all of them have nonetheless left their mark on the land. Although the region they settled was normally called the Saxon Shore in Roman Times, and more recently known simply as Rotomagus, after its most major city, the region is now being called Brittany, after all the Britons who now live there.;;;;;;;;;;;;;x
 EVTOPTA_ATTILA_002;And now, leave Brittany alone!;;;;;;;;;;;;;x
 EVTOPTB_ATTILA_002;A new land for our brothers!;;;;;;;;;;;;;x
 EVTOPTC_ATTILA_002;Okay then;;;;;;;;;;;;;x
+EVTNAME_ATTILA_004;The Knights of St. Sabbas;;;;;;;;;;;;;x
+EVTDESC_ATTILA_004;With Christendom imperiled by heathenry, the Presbyter of Rome has decreed the formation of the Brotherhood of Fellow-Soldiers of Saint Sabbas the Goth, more commonly known as the Knights of St. Sabbas. These men are devout Arian Christians who have devoted their lives to the protection of Christian pilgrims, but they are willing to assist zealous realms in the spread of Arian Christianity when called by a lord to do so.;;;;;;;;;;;;;x
+EVTOPTA_ATTILA_004;Hurrah for the men of St. Sabbas!;;;;;;;;;;;;;x
+EVTOPTB_ATTILA_004;Another nuisance!;;;;;;;;;;;;;x
+EVTOPTC_ATTILA_004;Interesting;;;;;;;;;;;;;x
 establish_arian_supremacy;Establish Arian Supremacy;;;;;;;;;;;;;x
 establish_arian_supremacy_desc;For too long, the Arian faith has been disunited and lacking in leadership. Normally no one would accept a single figure as head of the faith, but if we could establish an Arian see in Rome, the priest who rules there would be respected and heeded by the general Arian clergy.;;;;;;;;;;;;;x

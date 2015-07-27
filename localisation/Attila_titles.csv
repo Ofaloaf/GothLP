@@ -39,6 +39,7 @@ county_of_gothic;Pagus;;;;;;;;;;;;;x
 county_of_latine;Comitatus;;;;;;;;;;;;;x
 count_latine;Comes;;;;;;;;;;;;;x
 PRESBYTER;Presbyter;;;;;;;;;;;;;x
+AGONISTICUS;Agonisticus;;;;;;;;;;;;;x
 arian;Arian;;;;;;;;;;;;;x
 arian_DESC;Arianism was branded a heresy at the 325 Council of Nicaea for its rejection of the Holy Trinity, instead viewing Jesus, the Son of God, as subordinate to God the Father, rather than his equal, which is the Trinitarian view endorsed by the Nicene Creed. Although Arianism was thus rejected by authorities within the Roman Empire, Arianism fluorished amongst Germanic Christian converts, in particular gaining much influence within the Gothic tribes.;;;;;;;;;;;;;x
 acacian;Acacian;;;;;;;;;;;;;x
@@ -56,6 +57,8 @@ APOSTOLIC_VICAR;Apostolic Vicar;;;;;;;;;;;;;x
 COMES;Comes;;;;;;;;;;;;;x
 LEGATE;Legate;;;;;;;;;;;;;x
 LEGATE_FOA;Your Legatorialness;;;;;;;;;;;;;x
+RETTYPE_CUL_GOTH;Gothic Pike;;;;;;;;;;;;;x
+RETTYPE_CUL_AFRICANU;African Equites;;;;;;;;;;;;;x
 vice_royalty_duke_traki;Governor;;;;;;;;;;;;;x
 vice_royalty_king_traki;Exarch;Exarque;Exarch;;Exarca;;;;;;;;;x
 vice_royalty_emperor_traki;Grand Exarch;Grand exarque;Groﬂ-Exarch;;Gran Exarca;;;;;;;;;x
@@ -113,6 +116,10 @@ d_reudignian_band;Reudignian Band;;;;;;;;;;;;;x
 d_reudignian_band_adj;Reudignian;;;;;;;;;;;;;x
 d_albis_raiders;Albis Raiders;;;;;;;;;;;;;x
 d_albis_raiders_adj;Albian;;;;;;;;;;;;;x
+d_circumcellions;Circumcellions;;;;;;;;;;;;;x
+d_circumcellions_adj;Circumcellion;;;;;;;;;;;;;x
+d_knights_of_st_sabbas;Knights of St. Sabbas;;;;;;;;;;;;;x
+d_knights_of_st_sabbas_adj;Sabbasine;;;;;;;;;;;;;x
 #
 k_pentarchy;Pentarchy;;;;;;;;;;;;;x
 k_pentarchy_adj;Pentarchal;;;;;;;;;;;;;x

@@ -14,6 +14,11 @@ e_gallia = {
 
 		gothicromance = "Gautia"
 
+		catholic = 2000 # Crusade target weight
+		orthodox = 3000 # Crusade target weight
+		arian = 5000 # Crusade target weight
+		norse_pagan_reformed = 100 # Crusade target weight
+
 		d_lugdunensis = {
 			color={ 82 120 48 }
 			color2={ 255 255 255 }
@@ -753,6 +758,10 @@ e_gallia = {
 
 		capital = 212
 
+		catholic = 2000 # Crusade target weight
+		orthodox = 5000 # Crusade target weight
+		arian = 1000 # Crusade target weight
+
 		d_tolosa = {
 			color={ 105 170 122 }
 			color2={ 255 255 255 }
@@ -1320,6 +1329,10 @@ e_gallia = {
 		capital = 149 # Bordaeux
 
 		culture = aquitanian
+
+		catholic = 800  # Crusade target weight
+		orthodox = 3000 # Crusade target weight
+		arian = 2000  # Crusade target weight
 		
 		d_aquitania = {
 			color={ 54 10 243 }
@@ -1981,6 +1994,11 @@ e_gallia = {
 		capital = 105 # Vannes
 		
 		catholic = 300 # Crusade target weight
+
+		catholic = 100
+		orthodox = 800
+		arian = 2000
+		norse_pagan_reformed = 100 # Crusade target weight
 		
 		d_normandy = {
 			color={ 131 138 116 }
@@ -2892,6 +2910,11 @@ e_gallia = {
 	k_belgica = {
 		color = { 235 200 127 }
 		color2= { 255 255 255 }
+
+		catholic = 300 # Crusade target weight
+		orthodox = 700 # Crusade target weight
+		arian = 1200 # Crusade target weight
+		norse_pagan_reformed = 500 # Crusade target weight
 
 		d_suessionia = {
 			color={ 251 223 111 }
