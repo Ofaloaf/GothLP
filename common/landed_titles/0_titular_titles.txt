@@ -121,4 +121,6 @@ e_hephthalites = {
 			color2= { 255 255 255 }
 
 			capital = 112 # Ile-de-France/Paris
+
+			gothicromance = "París"
 		}

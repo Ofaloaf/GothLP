@@ -1,0 +1,8 @@
+# c_dhofar
+665.1.1={
+	liege=d_oman
+}
+
+767.1.1={
+	holder=188765
+}

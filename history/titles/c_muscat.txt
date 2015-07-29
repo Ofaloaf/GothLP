@@ -1,0 +1,8 @@
+# c_muscat
+665.1.1={
+	liege=d_oman
+}
+
+768.1.1={
+	holder = 188764
+}

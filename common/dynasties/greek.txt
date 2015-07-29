@@ -54,3 +54,8 @@
 	name = "Toinonides"
 	culture = greek
 }
+
+1453012 = {
+	name = "Bosporos"
+	culture = greek
+}

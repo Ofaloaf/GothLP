@@ -1,0 +1,9 @@
+# c_kathiri
+
+630.1.1={
+	liege="d_sanaa"
+}
+
+765.1.1={
+	holder = 188732 # Yufirids
+}

@@ -4,8 +4,8 @@ e_caralis = {
 	
 	capital = 169 # Murcia / #326 # Cagliari
 	
-	#short_name = yes
-	# Nova Carthago
+	short_name = yes
+	# Cathagennan Empire
 	
 	culture = hispani
 	religion = orthodox
@@ -1150,8 +1150,6 @@ e_hispania = {
 
 				b_santiago = {
 					# Iria
-
-					holy_site = catholic
 				}
 				b_vigo = {
 					# Vicus Spacorum

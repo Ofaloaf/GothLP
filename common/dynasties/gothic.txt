@@ -312,3 +312,8 @@
 	name = "Zeutanus"
 	culture = gothic
 }
+
+405063 = {
+	name = "Delius"
+	culture = gothic
+}

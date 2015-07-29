@@ -6,6 +6,12 @@ welsh;Briton;;;;;;;;;;;;;x
 pommeranian;Wendish;;;;;;;;;;;;;x
 orthodox_DESC;When the Roman Emperor Constantine I ended centuries of persecution and began embracing early Christianity, one of his major projects was to seek theological conformity within Christendom. To this end, he convened the First Council of Nicaea in 325. After much debate, this council produced the Nicene Creed, outlining explicitly some of the central tenets of mainstream Christianity. This form of Christianity, embraced by the Roman Empire in the 4th and 5th centuries, is thus called 'Orthodox' Christianity due to its nature as the 'mainstream' form of Christianity within the Roman world. 'Nicene', in reference to the Council of Nicaea, is also sometimes used.;;;;;;;;;;;;;x
 world_europe_west_francia;Gaul;;;;;;;;;;;;;x
+BM_CHARLEMAGNE;The Goths;;;;;;;;;;;;;x
+BM_CHARLEMAGNE_DESC;I'm watching 8 out of 10 Cats Does Countdown right now;;;;;;;;;;;;;x
+BM_THE_OLD_GODS;The Romans;;;;;;;;;;;;;x
+BM_FATE_OF_ENGLAND;The Orient;;;;;;;;;;;;;x
+BM_THE_MONGOLS;The Northerners;;;;;;;;;;;;;x
+BM_100_YEARS_WAR;The Steppes;;;;;;;;;;;;;x
 e_hre;Holy Western Empire;;;;;;;;;;;;;x
 e_hre_adj;Holy Western;;;;;;;;;;;;;x
 k_dacia;Dacia;;;;;;;;;;;;;x
@@ -169,6 +175,7 @@ c_santiago_adj;Irian;;;;;;;;;;;;;x
 c_savoie_adj;Sapaudian;;;;;;;;;;;;;x
 c_senoussi_adj;Augilan;;;;;;;;;;;;;x
 c_sens_adj;Senonean;;;;;;;;;;;;;x
+c_severin_adj;Pelendavan;;;;;;;;;;;;;x
 c_sevilla_adj;Hispalian;;;;;;;;;;;;;x
 c_somerset_adj;Glastenningite;;;;;;;;;;;;;x
 c_soria_adj;Daurian;;;;;;;;;;;;;x
@@ -536,6 +543,7 @@ b_coulogne;Colonia;;;;;;;;;;;;;x
 b_coutances;Constantia;;;;;;;;;;;;;x
 b_couzan;Carus Locus;;;;;;;;;;;;;x
 b_covilha;Cavaiuliana;;;;;;;;;;;;;x
+b_craiova;Pelendava;;;;;;;;;;;;;x
 b_craon;Crodeno;;;;;;;;;;;;;x
 b_crepy;Cripiacum;;;;;;;;;;;;;x
 b_crevacuore;Crevacorium;;;;;;;;;;;;;x
@@ -1604,6 +1612,7 @@ PROV503;Arsia;;;;;;;;;;;;;x
 PROV504;Domavium;;;;;;;;;;;;;x
 PROV505;Singidunum;;;;;;;;;;;;;x
 PROV513;Petrodava;;;;;;;;;;;;;x
+PROV516;Pelendava;;;;;;;;;;;;;x
 PROV517;Argidava;;;;;;;;;;;;;x
 PROV518;Acumincum;;;;;;;;;;;;;x
 PROV519;Apulensis;;;;;;;;;;;;;x
@@ -1612,6 +1621,7 @@ PROV521;Partiscum;;;;;;;;;;;;;x
 PROV522;Aquincum;;;;;;;;;;;;;x
 PROV523;Tisia;;;;;;;;;;;;;x
 PROV540;Marcodava;;;;;;;;;;;;;x
+PROV541;Iasyx;;;;;;;;;;;;;x
 PROV603;Maghas;;;;;;;;;;;;;x
 PROV684;Nisibis;;;;;;;;;;;;;x
 PROV693;Ctesiphon;;;;;;;;;;;;;x

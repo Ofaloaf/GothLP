@@ -946,6 +946,7 @@ e_italy = {
 				color2={ 255 255 255 }
 				
 				b_ravenna = {
+					holy_site = catholic
 				}
 				b_cesena = {
 					# Caesena

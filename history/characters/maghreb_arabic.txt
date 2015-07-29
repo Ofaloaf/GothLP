@@ -124,3 +124,16 @@
 		death=yes
 	}
 }
+
+1962010 = {
+	name="Kawsen"
+	dynasty=1337050
+	religion="donatist"
+	culture="maghreb_arabic"
+	750.1.1={
+		birth=yes
+	}
+	795.1.1={
+		death=yes
+	}
+}

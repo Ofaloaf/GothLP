@@ -242,3 +242,8 @@
 	name = "Schoviah"
 	culture = africanu
 }
+
+1337050 = {
+	name = "Nasamonu"
+	culture = africanu
+}

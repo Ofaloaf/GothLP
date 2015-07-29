@@ -4,6 +4,9 @@ e_gallia = {
 
 	capital = 227
 
+	gothic = "Magna Gothia"
+	gothicromance = "Manha Gautia"
+
 	k_gothia = {
 		color = { 59 108 94 } # 79 128 114
 		color2= { 255 255 255 }
@@ -2271,6 +2274,7 @@ e_gallia = {
 
 			brithenig = "Brittany"
 			welsh = "Brittany"
+			norman = "Brétangne"
 			
 			c_evreux = {
 				color={ 105 111 94 }
@@ -2285,7 +2289,7 @@ e_gallia = {
 
 					roman = "Aulercorum"
 
-					gothicromance = "Ebrocas"
+					gothicromance = "Ebrieis"
 				}
 				b_falaise = {
 					# Falesia
@@ -2339,11 +2343,13 @@ e_gallia = {
 
 					gothic = "Cadumo"
 					gothicromance = "Cadumo"
+					norman = "Kaem"
 				}
 				b_coutances = {
 					# Constantia
 
 					gallic = "Cosedia"
+					norman = "Couotaunches"
 				}
 				b_bayeux = {
 					# Baiocassium
@@ -2382,6 +2388,7 @@ e_gallia = {
 
 					gothic = "Carusbaurg"
 					gothicromance = "Chierisbaurg"
+					norman = "Tchidbouo"
 				}
 			}
 			c_vexin = {
@@ -2846,12 +2853,16 @@ e_gallia = {
 
 				roman = "Lutetia"
 				greek = "Lutetia"
+
+				gothicromance = "París"
+				norman = "Parys"
 				
 				b_paris = {
-					used_for_dynasty_names = no
-
 					roman = "Lutetia"
 					greek = "Lutetia"
+
+					gothicromance = "París"
+					norman = "Parys"
 				}
 				b_melun = {
 					# Melodunum

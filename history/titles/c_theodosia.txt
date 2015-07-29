@@ -1,0 +1,7 @@
+500.1.1 = {
+	liege = "d_cherson"
+}
+
+760.1.1 = {
+	holder = 145912 # Staphhilos Bosporos
+}

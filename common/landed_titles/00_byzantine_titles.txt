@@ -714,6 +714,9 @@ e_byzantium = {
 			c_achaia = {
 				color={ 192 31 136 }
 				color2={ 255 255 20 }
+
+				traki = Ahaja
+				rimlyani = Akhaja
 				
 				b_patras = {
 				}
@@ -735,8 +738,13 @@ e_byzantium = {
 			c_korinthos = {
 				color={ 194 33 138 }
 				color2={ 255 255 20 }
+
+				traki = Korint
+				rimlyani = Korint
 				
 				b_corinth = {
+					traki = Korint
+					rimlyani = Korint
 				}
 				b_nauplion = {
 				}
@@ -756,10 +764,15 @@ e_byzantium = {
 			c_methone = {
 				color={ 196 35 140 }
 				color2={ 255 255 20 }
+
+				traki = Metoni
+				rimlyani = Metoni
 				
 				b_modon = {
 					greek = "Methone"
 					italian = "Modone"
+					traki = Metoni
+					rimlyani = Metoni
 				}
 				b_kiparissia = {
 				}
@@ -779,8 +792,13 @@ e_byzantium = {
 			c_monemvasia = {
 				color={ 198 37 142 }
 				color2={ 255 255 20 }
+
+				traki = "Monemvasija"
+				rimlyani = "Monemvasija"
 				
 				b_monemvasia = {
+					traki = "Monemvasija"
+					rimlyani = "Monemvasija"
 				}
 				b_mistra = {
 				}
@@ -854,12 +872,14 @@ e_byzantium = {
 				color2={ 255 255 20 }
 				
 				italian = "Durazzo"
-				serbian = "Ohrid"
-				bulgarian = "Ohrid"
+				traki = "Durachi"
+				rimlyani = "Durachi"
 				
 				b_durazzo = {
 					greek = "Dyrrhachion"
 					italian = "Durazzo"
+					traki = "Durachi"
+					rimlyani = "Durachi"
 				}
 				b_chounavia = {
 				}
@@ -887,6 +907,9 @@ e_byzantium = {
 			c_epeiros = {
 				color={ 138 67 113 }
 				color2={ 255 255 20 }
+
+				traki = "Epir"
+				rimlyani = "Epir"
 				
 				b_butrint = {
 					greek = "Bouthroton"
@@ -894,6 +917,8 @@ e_byzantium = {
 				b_paramythia = {
 				}
 				b_ioannina = {
+					traki = "Janjina"
+					rimlyani = "Janjina"
 				}
 				b_sopot = {
 					greek = "Koritsa"
@@ -901,6 +926,8 @@ e_byzantium = {
 				b_pogonia = {
 				}
 				b_gjirokaster = {
+					traki = "Gjirokastra"
+					rimlyani = "Gjirokastra"
 					greek = Argyrokastron
 				}
 				b_igoumenitsa = {
@@ -934,8 +961,12 @@ e_byzantium = {
 				color2={ 255 255 20 }
 				
 				turkish = "Iyonya"
+				traki = "Kefalonija"
+				rimlyani = "Kefalonija"
 				
 				b_corfu = {
+					traki = "Krf"
+					rimlyani = "Krf"
 				}
 				b_lefkas = {
 					turkish = "Ayamavra"
@@ -1050,10 +1081,14 @@ e_byzantium = {
 				
 				turkish = "Kiklad"
 				italian = "Egeopelagi"
+				traki = "Naksos"
+				rimlyani = "Naksos"
 				
 				b_naxos = {
 					turkish = "Naksa"
 					italian = "Nasso"
+					traki = "Naksos"
+					rimlyani = "Naksos"
 				}
 				b_hermoupolis = {
 					turkish = "Sire"
@@ -1079,9 +1114,13 @@ e_byzantium = {
 				color2={ 255 255 20 }
 				
 				turkish = "Midilli"
+				traki = "Lezbos"
+				rimlyani = "Lesbos"
 				
 				b_mytilene = {
 					turkish = "Midilli"
+					traki = "Lezbos"
+					rimlyani = "Lesbos"
 				}
 				b_mithymna = {
 				}
@@ -1103,12 +1142,16 @@ e_byzantium = {
 				color2={ 255 255 20 }
 				
 				turkish = "Sisam"
+				traki = "Hij"
+				rimlyani = "Hij"
 				
 				b_samos = {
 					turkish = "Sisam"
 				}
 				b_chios = {
 					turkish = "Sakiz"
+					traki = "Hij"
+					rimlyani = "Hij"
 				}
 				b_tigani = {
 				}
@@ -1126,8 +1169,13 @@ e_byzantium = {
 			c_rhodos = {
 				color={ 116 37 88 }
 				color2={ 255 255 20 }
+
+				traki = "Rod"
+				rimlyani = "Rodos"
 				
 				b_rhodos = {
+					traki = "Rod"
+					rimlyani = "Rodos"
 				}
 				b_lindos = {
 				}
@@ -1156,9 +1204,13 @@ e_byzantium = {
 				color2={ 255 255 20 }
 				
 				turkish = "Iznik"
+				traki = "Nikeja"
+				rimlyani = "Nikeja"
 				
 				b_nikaea = {
 					turkish = "Iznik"
+					traki = "Nikeja"
+					rimlyani = "Nikeja"
 				}
 				b_kios = {
 				}
@@ -1180,11 +1232,17 @@ e_byzantium = {
 				color2={ 255 255 20 }
 				
 				turkish = "Izmit"
+				traki = "Nikomedija"
+				rimlyani = "Nikomedija"
 				
 				b_nikomedeia = {
 					turkish = "Izmit"
+					traki = "Nikomedija"
+					rimlyani = "Nikomedija"
 				}
 				b_chalkedon = {
+					traki = "Halkedon"
+					rimlyani = "Halkedon"
 				}
 				b_chrysopolis = {
 				} 
@@ -1240,9 +1298,13 @@ e_byzantium = {
 				color2={ 255 255 20 }
 				
 				turkish = "Erdek"
+				traki = Kizik
+				rimlyani = Kizik
 				
 				b_kyzikos = {
 					turkish = "Aydincik"
+					traki = Kizik
+					rimlyani = Kizik
 				}
 				b_artake = {
 					turkish = "Erdek"
@@ -1265,9 +1327,13 @@ e_byzantium = {
 				color2={ 255 255 20 }
 				
 				turkish = "Balakhisar"
+				traki = Abid
+				rimlyani = Abidos
 				
 				b_abydos = {
 					turkish = "Balakhisar"
+					traki = Abid
+					rimlyani = Abidos
 				}
 				b_lampsakos = {
 					holy_site = hellenic_pagan
@@ -1409,9 +1475,13 @@ e_byzantium = {
 				color2={ 255 255 20 }
 				
 				turkish = "Isparta"
+				traki = Sozopolj
+				rimlyani = Sozopolj
 				
 				b_souzopolis = {
 					turkish = "Afyonkarahisar"
+					traki = Sozopolj
+					rimlyani = Sozopolj
 				}
 				b_synnada = {
 				}
@@ -1434,8 +1504,12 @@ e_byzantium = {
 				color2={ 255 255 20 }
 				
 				turkish = "Alasehir"
+				traki = Laodikija
+				rimlyani = Laodikija
 				
 				b_laodikeia = {
+					traki = Laodikija
+					rimlyani = Laodikija
 				}
 				b_philadelphia = {
 					turkish = "Alasehir"
@@ -1489,9 +1563,13 @@ e_byzantium = {
 				color2={ 255 255 20 }
 				
 				turkish = "Mugla"
+				traki = Likija
+				rimlyani = Likija
 				
 				b_halikarnassos = {
 					turkish = "Bodrum"
+					traki = Halikarnas
+					rimlyani = Halikarnas
 				}
 				b_myra = {
 				}
@@ -1539,9 +1617,13 @@ e_byzantium = {
 				color2={ 255 255 20 }
 				
 				turkish = Kayseri
+				traki = Cezareja
+				rimlyani = Kezareja
 				
 				b_kaisereia = {
 					turkish = Kayseri
+					traki = Cezareja
+					rimlyani = Kezareja
 				}
 				b_misti = {
 				}
@@ -1563,8 +1645,12 @@ e_byzantium = {
 				color2={ 255 255 20 }
 				
 				turkish = Aksaray
+				traki = Tijana
+				rimlyani = Tijana
 				
 				b_tyana = {
+					traki = Tijana
+					rimlyani = Tijana
 				}
 				b_archelais = {
 					turkish = Aksaray
@@ -1598,6 +1684,8 @@ e_byzantium = {
 				bedouin_arabic = Anqarah
 				levantine_arabic = Anqarah
 				egyptian_arabic = Anqarah
+				traki = Angira
+				rimlyani = Angira
 				
 				b_ankyra = {
 					turkish = Ankara
@@ -1605,6 +1693,8 @@ e_byzantium = {
 					bedouin_arabic = Anqarah
 					levantine_arabic = Anqarah
 					egyptian_arabic = Anqarah
+					traki = Angira
+					rimlyani = Angira
 				}
 				b_germa = {
 				}
@@ -1626,6 +1716,8 @@ e_byzantium = {
 				color2={ 255 255 20 }
 				
 				turkish = "Kirsehir"
+				traki = Galatija
+				rimlyani = Galatija
 				
 				b_mikissos = {
 					turkish = "Kirsehir"
@@ -1655,6 +1747,8 @@ e_byzantium = {
 				color2={ 255 255 20 }
 				
 				turkish = "Kastamonu"
+				traki = Paflagonija
+				rimlyani = Paflagonia
 				
 				b_kastamonu = {
 				}
@@ -1678,9 +1772,13 @@ e_byzantium = {
 				color2={ 255 255 20 }
 				
 				turkish = "Eregli"
+				traki = Herakleja
+				rimlyani = Herakleja
 				
 				b_herakleia = {
 					turkish = "Eregli"
+					traki = Herakleja
+					rimlyani = Herakleja
 				}
 				b_claudiopolis = {
 				}
@@ -1729,8 +1827,13 @@ e_byzantium = {
 			c_theodosiopolis = {
 				color={ 201 231 29 }
 				color2={ 255 255 255 }
+
+				traki = Teodiosiopolj
+				rimlyani = Teodiosiopolj
 				
 				b_theodosiopolis = {
+					traki = Teodiosiopolj
+					rimlyani = Teodiosiopolj
 				}
 				b_argyropolis = {
 				}

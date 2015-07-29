@@ -63,12 +63,19 @@ e_carpathia = {
 			c_turnu = {
 				color={ 241 195 72 }
 				color2={ 255 255 255 }
+
+				traki = Holavnik
+				rimlyani = Holavnik
 			
 				b_turnu = {
+					traki = Holavnik
+					rimlyani = Holavnik
 				}
 				b_giurgiu = {
 				}
 				b_bucuresti = {
+					traki = Ilfov
+					rimlyani = Ilfov
 				}
 				b_dristra = {
 				}
@@ -105,12 +112,15 @@ e_carpathia = {
 			c_severin = {
 				color={ 247 201 78 }
 				color2={ 255 255 255 }
+
+				# Pelendava
 			
 				b_severin = {
 				}
 				b_ursova = {
 				}
 				b_craiova = {
+					# Pelendava
 				}
 				b_ramnic = {
 				}
@@ -165,12 +175,28 @@ e_carpathia = {
 			c_peresechen = {
 				color={ 225 204 147 }
 				color2={ 255 255 255 }
+
+				# Iasyx
+
+				russian = Yassy
+				traki = Yashi
+				rimlyani = Jashi
+				greek = Iasion
+				italian = Iassi
+
+				mongol = "Yangi-Shehr"
 			
 				b_iasi = {
+					russian = Yassy
+					traki = Yashi
+					rimlyani = Jashi
+					greek = Iasion
+					italian = Iassi
 				}
 				b_varzaresti = {			
 				}
 				b_orhei = {
+					mongol = "Yangi-Shehr"
 				}
 				b_chisinau = {
 				}

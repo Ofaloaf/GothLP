@@ -4273,7 +4273,7 @@ e_arabia = {
 			}
 		}
 		d_sanaa = {
-			color={ 63 119 0 }
+			color={ 233 155 81 }
 			color2={ 255 255 255 }
 			
 			capital = 860 # Sanaa
@@ -4404,7 +4404,7 @@ e_arabia = {
 			}
 		}
 		d_oman = {
-			color={ 93 196 2 }
+			color={ 98 134 153 }
 			color2={ 255 255 255 }
 			
 			capital = 868 # Muscat
@@ -4727,6 +4727,8 @@ e_abyssinia = {
 			color2={ 255 255 255 }
 			
 			capital = 872 # Berbera
+
+			greek = "Malao"
 		
 			c_busaso = {
 				color={ 127 151 52 }
@@ -4752,8 +4754,11 @@ e_abyssinia = {
 			c_berbera = {
 				color={ 127 151 52 }
 				color2={ 255 255 255 }
+
+				greek = "Malao"
 			
 				b_berbera = {
+					greek = "Malao"
 				}
 				b_maydh = {
 				}

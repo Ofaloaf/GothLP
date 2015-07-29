@@ -587,3 +587,43 @@
 	name = "de Treviris"
 	culture = gallic
 }
+
+1940120 = {
+	name = "de Mellento"
+	culture = gallic
+}
+
+1940121 = {
+	name = "de Magniaco"
+	culture = gallic
+}
+
+1940122 = {
+	name = "de Pontisara"
+	culture = gallic
+}
+
+1940123 = {
+	name = "de Calvo-Monte"
+	culture = gallic
+}
+
+1940124 = {
+	name = "de Argolio"
+	culture = gallic
+}
+
+1940125 = {
+	name = "de Gamachiis"
+	culture = gallic
+}
+
+1940126 = {
+	name = "de Veliaco"
+	culture = gallic
+}
+
+1940127 = {
+	name = "de Portu-Mortuo"
+	culture = gallic
+}

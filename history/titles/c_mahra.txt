@@ -1,0 +1,8 @@
+# c_mahra
+630.1.1={
+	liege=d_sanaa
+}
+
+768.1.1={
+	holder=188745
+}

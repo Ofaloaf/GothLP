@@ -456,3 +456,17 @@
 		death = yes
 	}
 }
+
+145912 = {
+	name="Staphhilos"
+	dynasty=1453012
+	religion="orthodox"
+	culture="greek"
+
+	740.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death="800.1.1"
+	}
+}
