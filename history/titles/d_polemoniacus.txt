@@ -1,5 +1,5 @@
 760.1.1 = {
-	set_tribute_suzerain = { who = k_asia percentage = 0.25 }
+	set_tribute_suzerain = { who = e_arabia percentage = 0.2 }
 	holder = 629008 # Hakam al-Zarkun
 	conquest_culture = rumi_arabic
 }

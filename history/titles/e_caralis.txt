@@ -202,9 +202,42 @@
 	holder=145234
 } # Valentinian II
 379.1.19={
-	holder=70534
+	holder=70534 # Theodosius
 }
 
+395.1.17={
+	holder = 145227 # Honorius
+}
+
+# 402 Aebutianus Occidentalis
+# 404 Lartia Flavia
+# 412 Decimus Metilius
+# 424 Theodosius II
+# 436 Trajan II
+
+# 453 Nicholas I Occidentalis
+# 474 Orestes Tatulianus
+# 486 Romulus
+# 504 Romulianus
+# 514 Cassiodorus II Senator
+# 585 Junillus Occidentalis
+# 588 Cupressenus
+# 602 Astyrius
+# 611 Auchenius
+# 617 Andromachus
+# 629 Nicomachus
+# 636 Asclepiodotus
+# 660 Faltonio
+# 668 Nigolago II
+# 684 Egenio
+# 695 Reles
+# 701 Orbanus
+# 702 Theoclezo
+# 710 Mertinus
+# 732 Pinniolo
+# 744 Lopon # Lepidoso
+# 750 Stevanus
+
 763.1.1 = {
-	holder = 1573007 # Nigolago Lepidoso
+	holder = 1573007 # Nigolago III Lepidoso
 }

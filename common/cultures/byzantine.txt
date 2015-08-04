@@ -1,8 +1,8 @@
 byzantine = {
-	graphical_culture = easterngfx
+	graphical_cultures = { easterngfx }
 
 	greek = {
-		graphical_culture = byzantinegfx
+		graphical_culture = { byzantinegfx }
 		
 		color = { 0.8 0.3 0.8 }
 
@@ -43,7 +43,7 @@ byzantine = {
 		modifier = default_culture_modifier
 	}
 	romanian = {
-		graphical_culture = westernslavicgfx
+		graphical_culture = { westernslavicgfx }
 
 		color = { 0.6 0.4 0.4 }
 
@@ -81,7 +81,7 @@ byzantine = {
 		modifier = default_culture_modifier
 	}
 	rimlyani = {
-		graphical_culture = westernslavicgfx
+		graphical_culture = { westernslavicgfx }
 		
 		color = { 0.7 0.5 0.5 }
 

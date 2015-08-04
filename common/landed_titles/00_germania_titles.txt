@@ -1734,21 +1734,22 @@ e_germany = {
 				color={ 200 100 30 }
 				color2={ 255 255 255 }
 
-				roman = "Wallacra"
-				greek = "Wallacra"
-				latine = "Wallacra"
-				gallic = "Wallacra"
-				hispani = "Wallacra"
-				gallaecian = "Wallacra"
-				dalmatian = "Wallacra"
-				africanu = "Wallacra"
+				# Wallacra
 
+				old_frankish = Walacria
+				burgundian = Walacria
+				gothic = Walacria
+				gothicromance = Gualcra
+				dutch = Zeeland
+				frisian = Seelan
 				pommeranian = "Morskazemia"
 			
 				b_middelburg = {
 					old_frankish = "Middelburch"
 					frisian = "Middelburch"
 					old_saxon = "Middelburch"
+					gothic = Midjisbaurg
+					gothicromance = Mediubaurga
 				}
 				b_tholen = {
 				}
@@ -1865,8 +1866,11 @@ e_germany = {
 				color={ 139 66 97 }
 				color2={ 255 255 255 }
 
+				gothic = Gielra
+				gothicromance = Gellera
+				old_frankish = Gellere
 				german = "Geldern"
-
+				dutch = Gelre
 				pommeranian = "Gelera"
 			
 				b_nijmegen = {
@@ -2389,6 +2393,8 @@ e_germany = {
 				boarisch = "Niamberg"
 
 				carantanian = "Norimpurk"
+
+				holy_site = catholic
 		
 				b_nurnberg = {
 					boarisch = "Niamberg"

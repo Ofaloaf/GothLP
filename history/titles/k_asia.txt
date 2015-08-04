@@ -3,5 +3,6 @@
 	pentarch = b_hagiasophia
 }
 756.1.1 = {
+	set_tribute_suzerain = { who = e_arabia percentage = 0.2 }
 	holder = 629001 # Lawi Khalfunid
 }

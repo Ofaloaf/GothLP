@@ -1,8 +1,8 @@
 central_germanic = {
-	graphical_culture = westerngfx
+	graphical_cultures = { westerngfx }
 
 	german = {
-		graphical_culture = germangfx
+		graphical_cultures = { germangfx }
 		
 		color = { 0.5 0.5 0.5 }
 
@@ -48,7 +48,7 @@ central_germanic = {
 		modifier = default_culture_modifier
 	}
 	old_frankish = {
-		graphical_culture = germangfx
+		graphical_cultures = { germangfx }
 		
 		color = { 0.3 0.3 0.5 }
 
@@ -96,7 +96,7 @@ central_germanic = {
 		modifier = default_culture_modifier
 	}
 	suebi = {
-		graphical_culture = germangfx
+		graphical_cultures = { germangfx }
 		
 		color = { 0.7 0.7 0.7 }
 
@@ -171,7 +171,7 @@ central_germanic = {
 		modifier = default_culture_modifier
 	}
 	gothic = {
-		graphical_culture = germangfx
+		graphical_cultures = { germangfx }
 		
 		color = { 0.55 0.5 0.55 }
 
@@ -249,7 +249,7 @@ central_germanic = {
 		modifier = default_culture_modifier
 	}
 	burgundian = {
-		graphical_culture = norsegfx
+		graphical_cultures = { norsegfx }
 		
 		color = { 0.6 0.25 0.55 }
 
@@ -302,7 +302,7 @@ central_germanic = {
 		# Bavarian
 		# German, Langobard, Bavarian diminutives, ???
 
-		graphical_culture = germangfx
+		graphical_cultures = { germangfx }
 		
 		color = { 0.95 0.95 0.8 }
 
@@ -383,7 +383,7 @@ central_germanic = {
 		modifier = default_culture_modifier
 	}
 	old_saxon = {
-		graphical_culture = saxongfx
+		graphical_cultures = { saxongfx }
 		
 		color = { 0.5 0.1 0.1 }
 		

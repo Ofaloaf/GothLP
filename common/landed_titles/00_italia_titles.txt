@@ -59,16 +59,17 @@ e_italy = {
 				color2={ 220 220 1 }
 				
 				christian = 1500 # Crusade target weight
+
+				holy_site = catholic
+				holy_site = arian
+				holy_site = orthodox
+				holy_site = aztec
+				holy_site = aztec_reformed
+				holy_site = hellenic_pagan
+				holy_site = pagan
 				
 				b_roma = {
 					pentarchy = yes
-					holy_site = catholic
-					holy_site = arian
-					holy_site = orthodox
-					holy_site = aztec
-					holy_site = aztec_reformed
-					holy_site = hellenic_pagan
-					holy_site = pagan
 					used_for_dynasty_names = no
 				}
 				b_viterbo = {
@@ -945,8 +946,9 @@ e_italy = {
 				color={ 244 180 130 }
 				color2={ 255 255 255 }
 				
+				holy_site = catholic
+
 				b_ravenna = {
-					holy_site = catholic
 				}
 				b_cesena = {
 					# Caesena

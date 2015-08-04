@@ -277,25 +277,26 @@ e_oriens = {
 				
 				christian = 250 # Crusade target weight
 				muslim = 250 # Crusade target weight
+
+				holy_site = catholic
+				holy_site = orthodox
+				holy_site = nicene
+				holy_site = sunni
+				holy_site = shiite
+				holy_site = miaphysite
+				holy_site = monophysite
+				holy_site = nestorian
+				holy_site = pagan
+				holy_site = yazidi
+				holy_site = jewish
+				holy_site = samaritan
+				holy_site = karaite
+				holy_site = ibadi
 		
 				b_mirabel = {
 				}
 				b_jerusalem = {
 					pentarchy = yes
-					holy_site = catholic
-					holy_site = orthodox
-					holy_site = nicene
-					holy_site = sunni
-					holy_site = shiite
-					holy_site = miaphysite
-					holy_site = monophysite
-					holy_site = nestorian
-					holy_site = pagan
-					holy_site = yazidi
-					holy_site = jewish
-					holy_site = samaritan
-					holy_site = karaite
-					holy_site = ibadi
 				}
 				b_nablus = {
 				}
@@ -590,12 +591,13 @@ e_oriens = {
 			c_antiocheia = {
 				color={ 152 69 135 }
 				color2={ 255 255 255 }
+
+				holy_site = miaphysite
+				holy_site = monophysite
+				holy_site = nestorian
 			
 				b_antiocheia = {
 					pentarchy = yes
-					holy_site = miaphysite
-					holy_site = monophysite
-					holy_site = nestorian
 				}
 				b_latakiah = {
 				}
@@ -749,14 +751,15 @@ e_oriens = {
 			c_damascus = {
 				color={ 125 255 6 }
 				color2={ 255 255 255 }
+
+				holy_site = shiite
+				holy_site = jewish
+				holy_site = samaritan
+				holy_site = karaite
 			
 				b_qsarbardawil = {
 				}
 				b_damascus = {
-					holy_site = shiite
-					holy_site = jewish
-					holy_site = samaritan
-					holy_site = karaite
 				}
 				b_daraa = {
 				}
@@ -1189,15 +1192,16 @@ e_oriens = {
 				color2={ 255 255 255 }
 
 				coptic = "Rakote"
+
+				holy_site = miaphysite
+				holy_site = monophysite
+				holy_site = hellenic_pagan
+				holy_site = nestorian
 			
 				b_alexandria = {
 					coptic = "Rakote"
 
 					pentarchy = yes
-					holy_site = miaphysite
-					holy_site = monophysite
-					holy_site = hellenic_pagan
-					holy_site = nestorian
 				}
 				b_abukir = {
 					# Canopus
@@ -1419,6 +1423,9 @@ e_oriens = {
 				color2={ 255 255 255 }
 
 				# Memphis
+
+				holy_site = zun_pagan
+				holy_site = zun_pagan_reformed
 			
 				b_cairo = {
 					coptic = "Kahiree"
@@ -1430,8 +1437,6 @@ e_oriens = {
 				b_helwan = {
 				}
 				b_heliopolis = {
-					holy_site = zun_pagan
-					holy_site = zun_pagan_reformed
 				}
 				b_maadi = {
 				}
@@ -1656,11 +1661,12 @@ e_oriens = {
 			c_sinai = {
 				color={ 143 201 8 }
 				color2={ 255 255 255 }
+
+				holy_site = jewish
+				holy_site = samaritan
+				holy_site = karaite
 			
 				b_attur = {
-					holy_site = jewish
-					holy_site = samaritan
-					holy_site = karaite
 				}
 				b_sharmelsheikh = {
 				}

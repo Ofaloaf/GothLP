@@ -170,4 +170,35 @@ decisions = {
 			factor = 1
 		}
 	}
+
+	claim_nova_carthago = {
+		is_high_prio = yes
+		potential = {
+			has_dlc = "Legacy of Rome"
+			NOT = { has_landed_title = c_murcia }
+			has_landed_title = e_caralis
+			any_realm_lord = { 
+				AND = {
+					ai = yes
+					has_landed_title = c_murcia
+				}
+			}
+		}
+		allow = {
+			NOT = { has_landed_title = c_murcia }
+			any_realm_lord = { 
+				has_landed_title = c_murcia
+			}
+		}
+		effect = {
+			ROOT = {
+				c_murcia = {
+					usurp_title_plus_barony_if_unlanded_and_vassals = PREV
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }

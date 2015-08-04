@@ -170,7 +170,7 @@
 168620 = {
 	name="Aldgisl" 
 	dynasty=246
-	religion="norse_pagan"
+	religion="arian"
 	culture="frisian"
 	father=131730
 	742.1.1 = {

@@ -6,8 +6,8 @@ title = c_lyon
 # Settlements
 max_settlements = 5
 b_vithericopolis = castle
-b_lyon = temple
-b_pusignan = city
+b_lyon = city
+b_pusignan = temple
 b_brindas = castle
 
 #b_anse = city

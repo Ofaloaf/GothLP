@@ -6,6 +6,7 @@ vasconic;Vasconic;;;;;;;;;;;;;x
 kemetic;Kemetic;;;;;;;;;;;;;x
 moorish;Moorish;;;;;;;;;;;;;x
 slavic;Slavic;;;;;;;;;;;;;x
+crusader;Crusader;;;;;;;;;;;;;x
 gothic;Gothic;;;;;;;;;;;;;x
 sacaean;Sacaean;;;;;;;;;;;;;x
 caucasian;Caucasian;;;;;;;;;;;;;x
@@ -17,7 +18,6 @@ hispani;Hispanian;;;;;;;;;;;;;x
 latine;Latine;;;;;;;;;;;;;x
 hebrew;Hebrew;;;;;;;;;;;;;x
 assyrian;Assyrian;;;;;;;;;;;;;x
-punic;Punic;;;;;;;;;;;;;x
 coptic;Coptic;;;;;;;;;;;;;x
 dalmatian;Dalmatian;;;;;;;;;;;;;x
 burgundian;Burgundian;;;;;;;;;;;;;x
@@ -33,6 +33,7 @@ traki;Traki;;;;;;;;;;;;;x
 rumi_arabic;Rumi;;;;;;;;;;;;;x
 gothicromance;Valgautic;;;;;;;;;;;;;x
 geatish;Geatish;;;;;;;;;;;;;x
+ultramarini;Ultramarini;;;;;;;;;;;;;x
 duchy_of_latine;Ducatus;;;;;;;;;;;;;x
 duke_latine;Dux;;;;;;;;;;;;;x
 county_of_gothic;Pagus;;;;;;;;;;;;;x
@@ -59,6 +60,7 @@ LEGATE;Legate;;;;;;;;;;;;;x
 LEGATE_FOA;Your Legatorialness;;;;;;;;;;;;;x
 RETTYPE_CUL_GOTH;Gothic Pike;;;;;;;;;;;;;x
 RETTYPE_CUL_AFRICANU;African Equites;;;;;;;;;;;;;x
+RETTYPE_CUL_ROMAN;Bucellarii;;;;;;;;;;;;;x
 vice_royalty_duke_traki;Governor;;;;;;;;;;;;;x
 vice_royalty_king_traki;Exarch;Exarque;Exarch;;Exarca;;;;;;;;;x
 vice_royalty_emperor_traki;Grand Exarch;Grand exarque;Groﬂ-Exarch;;Gran Exarca;;;;;;;;;x

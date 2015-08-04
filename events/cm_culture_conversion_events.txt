@@ -175,7 +175,11 @@ province_event = {
 	trigger = {
 		year = 800
 		culture = gothic
-		region = world_europe_west_francia
+		OR = {
+			region = world_europe_west_francia
+			region = world_europe_west_iberia
+			region = world_europe_south_italy
+		}
 	}
 	
 	mean_time_to_happen = {

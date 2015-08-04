@@ -442,3 +442,315 @@ character_event = {
 		}
 	}
 }
+
+
+# The Ultramarini Melting Pot
+character_event = {
+	id = 55012
+	desc = "EVTDESC_Plus_650"
+	picture = GFX_evt_throne_room
+	
+	only_rulers = yes
+	min_age = 16
+	capable_only = yes
+	prisoner = no
+
+	trigger = {
+		has_global_flag = christian_crusades_unlocked
+		NOR = {
+			culture = ultramarini
+			culture_group = arabic
+			culture_group = altaic
+			culture_group = iranian
+		}
+		OR = {
+			independent = yes
+			top_liege = { culture = ultramarini }
+		}
+		capital_scope = {
+			OR = {
+				culture = levantine_arabic
+				culture = egyptian_arabic
+				culture = bedouin_arabic
+			}
+			OR = {
+				region = world_middle_east
+				region = custom_khwarizm
+				region = custom_persia
+				region = custom_egypt
+			}
+		}
+		OR = {
+			religion = catholic
+			religion = lollard
+			religion = orthodox
+			religion = donatist
+			religion = antinominian
+			religion = arian
+			religion = acacian
+		}
+		NOT = { has_character_flag = no_melting_pot }
+	}
+
+	mean_time_to_happen = {
+		months = 500
+		modifier = {
+			factor = 0.01
+			independent = no
+		}
+		modifier = {
+			factor = 0.5
+			year = 1150
+		}
+		modifier = {
+			factor = 0.5
+			year = 1200
+		}
+		modifier = {
+			factor = 1.05
+			NOT = { learning = 1 }
+		}
+		modifier = {
+			factor = 1.05
+			NOT = { learning = 2 }
+		}
+		modifier = {
+			factor = 1.05
+			NOT = { learning = 3 }
+		}
+		modifier = {
+			factor = 1.05
+			NOT = { learning = 4 }
+		}
+		modifier = {
+			factor = 1.05
+			NOT = { learning = 5 }
+		}
+		modifier = {
+			factor = 1.05
+			NOT = { learning = 6 }
+		}
+		modifier = {
+			factor = 1.05
+			NOT = { learning = 7 }
+		}
+		modifier = {
+			factor = 1.05
+			NOT = { learning = 8 }
+		}
+		modifier = {
+			factor = 1.05
+			NOT = { learning = 9 }
+		}
+		modifier = {
+			factor = 0.95
+			learning = 11
+		}
+		modifier = {
+			factor = 0.95
+			learning = 12
+		}
+		modifier = {
+			factor = 0.95
+			learning = 13
+		}
+		modifier = {
+			factor = 0.95
+			learning = 14
+		}
+		modifier = {
+			factor = 0.95
+			learning = 15
+		}
+		modifier = {
+			factor = 0.95
+			learning = 16
+		}
+		modifier = {
+			factor = 0.95
+			learning = 17
+		}
+		modifier = {
+			factor = 0.95
+			learning = 18
+		}
+		modifier = {
+			factor = 0.95
+			learning = 19
+		}
+		modifier = {
+			factor = 0.95
+			learning = 20
+		}
+		modifier = {
+			factor = 0.95
+			learning = 21
+		}
+		modifier = {
+			factor = 0.95
+			learning = 22
+		}
+		modifier = {
+			factor = 0.95
+			learning = 23
+		}
+		modifier = {
+			factor = 0.95
+			learning = 24
+		}
+		modifier = {
+			factor = 0.95
+			learning = 25
+		}
+	}
+
+	option = {
+		name = "EVTOPTA_Plus_650"
+		culture = ultramarini
+	}
+	option = {
+		name = "EVTOPTB_Plus_630"
+		trigger = { ai = no }
+		set_character_flag = no_melting_pot
+	}
+}
+
+# Make my court ultramarini
+character_event = {
+	id = 55013
+	desc = "EVTDESC_Plus_651"
+	picture = GFX_evt_throne_room
+	
+	only_rulers = yes
+	min_age = 16
+	capable_only = yes
+	prisoner = no
+
+	trigger = {
+		has_global_flag = christian_crusades_unlocked
+		culture = ultramarini
+		OR = {
+			independent = yes
+			top_liege = { culture = ultramarini }
+		}
+		capital_scope = {
+			OR = {
+				culture = levantine_arabic
+				culture = egyptian_arabic
+				culture = bedouin_arabic
+			}
+			OR = {
+				region = world_middle_east
+				region = custom_persia
+				region = custom_egypt
+			}
+		}
+		OR = {
+			religion = catholic
+			religion = lollard
+			religion = orthodox
+			religion = donatist
+			religion = antinominian
+			religion = arian
+			religion = acacian
+		}
+		any_courtier = {
+			NOR = {
+				culture = ultramarini
+				culture_group = arabic
+				culture_group = altaic
+				culture_group = iranian
+			}
+			is_ruler = no
+			prisoner = no
+			OR = {
+				religion = catholic
+				religion = lollard
+				religion = orthodox
+				religion = donatist
+				religion = antinominian
+				religion = arian
+				religion = acacian
+			}
+			location = {
+				OR = {
+					culture = levantine_arabic
+					culture = egyptian_arabic
+					culture = bedouin_arabic
+				}
+				OR = {
+					region = world_middle_east
+					region = custom_persia
+					region = custom_egypt
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 60
+		modifier = {
+			factor = 0.5
+			year = 1150
+		}
+		modifier = {
+			factor = 0.5
+			year = 1200
+		}
+	}
+
+	option = {
+		name = "EVTOPTA55004"
+		random_courtier = {
+			limit = {
+				NOR = {
+					culture = ultramarini
+					culture_group = arabic
+					culture_group = altaic
+					culture_group = iranian
+				}
+				is_ruler = no
+				prisoner = no
+				OR = {
+					religion = catholic
+					religion = lollard
+					religion = orthodox
+					religion = donatist
+					religion = antinominian
+					religion = arian
+					religion = acacian
+				}
+				location = {
+					OR = {
+						culture = levantine_arabic
+						culture = egyptian_arabic
+						culture = bedouin_arabic
+					}
+					OR = {
+						region = world_middle_east
+						region = custom_persia
+						region = custom_egypt
+					}
+				}
+			}
+			culture = ultramarini
+			hidden_tooltip = {
+				character_event = { id = 55014 days = 3 }
+			}
+		}
+	}
+}
+
+# Convert to Ultramarini
+character_event = {
+	id = 55014
+	desc = "EVTDESC_Plus_653"
+	picture = GFX_evt_throne_room
+
+	is_triggered_only = yes
+
+	option = {
+		name = "OK"
+		culture = ultramarini
+	}
+}

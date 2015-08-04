@@ -301,25 +301,48 @@ decisions = {
 			prisoner = no
 			NOT = { trait = incapable }
 			NOT = { has_global_flag = rome_restored }
-			has_landed_title = e_byzantium
+			OR = {
+				has_landed_title = e_byzantium
+				has_landed_title = e_caralis
+			}
 			religion_group = christian
 		}
 		allow = {
 			prestige = 3000
-			completely_controls = d_latium
-			completely_controls = d_venice
-			completely_controls = d_ferrara
-			completely_controls = d_sicily
-			completely_controls = d_genoa
-			completely_controls = d_capua
-			completely_controls = d_apulia
-			completely_controls = d_thrace
-			completely_controls = d_antioch
-			completely_controls = d_jerusalem
-			completely_controls = d_alexandria
-			completely_controls = d_athens
-			completely_controls = d_tunis
-			completely_controls = d_croatia
+			OR = {
+				AND = {
+					has_landed_title = e_caralis
+					has_landed_title = e_byzantium
+					completely_controls = c_roma
+				}
+				AND = {
+					completely_controls = d_latium
+					completely_controls = d_venice
+					completely_controls = d_ravenna
+					completely_controls = d_sicily
+					completely_controls = d_liguria
+					completely_controls = d_campania
+					completely_controls = d_apulia
+					completely_controls = d_bruttium
+					completely_controls = d_thrace
+					completely_controls = d_tunis
+					completely_controls = d_dalmatia
+					OR = {
+						AND = {
+							completely_controls = d_antioch
+							completely_controls = d_palestina
+							completely_controls = d_alexandria
+							completely_controls = d_athens
+						}
+						AND = {
+							completely_controls = d_lugdunensis
+							completely_controls = d_carthaginiensis
+							completely_controls = d_gaditanus
+							completely_controls = d_aquitania
+						}
+					}
+				}
+			}
 		}
 		effect = {
 			set_global_flag = rome_restored
@@ -343,9 +366,9 @@ decisions = {
 			}
 			OR = {
 				religion = orthodox
-				religion = paulician
 				religion = monothelite
 				religion = iconoclast
+				religion = donatist
 			}
 			is_heretic = no
 			NOT = { has_global_flag = schism_mended }
@@ -363,9 +386,9 @@ decisions = {
 				holder_scope = {
 					OR = {
 						religion = orthodox
-						religion = paulician
 						religion = monothelite
 						religion = iconoclast
+						religion = donatist
 					}
 					is_heretic = no
 				}
@@ -375,9 +398,9 @@ decisions = {
 				holder_scope = {
 					OR = {
 						religion = orthodox
-						religion = paulician
 						religion = monothelite
 						religion = iconoclast
+						religion = donatist
 					}
 					is_heretic = no
 				}
@@ -387,9 +410,9 @@ decisions = {
 				holder_scope = {
 					OR = {
 						religion = orthodox
-						religion = paulician
 						religion = monothelite
 						religion = iconoclast
+						religion = donatist
 					}
 					is_heretic = no
 				}
@@ -399,9 +422,9 @@ decisions = {
 				holder_scope = {
 					OR = {
 						religion = orthodox
-						religion = paulician
 						religion = monothelite
 						religion = iconoclast
+						religion = donatist
 					}
 					is_heretic = no
 				}
@@ -411,9 +434,9 @@ decisions = {
 				holder_scope = {
 					OR = {
 						religion = orthodox
-						religion = paulician
 						religion = monothelite
 						religion = iconoclast
+						religion = donatist
 					}
 					is_heretic = no
 				}

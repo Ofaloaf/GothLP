@@ -1,9 +1,8 @@
 arabic = {
-	graphical_culture = muslimgfx
+	graphical_cultures = { muslimgfx }
 	
 	bedouin_arabic = { 
-		graphical_culture = arabicgfx
-		second_graphical_culture = muslimgfx
+		graphical_cultures = { arabicgfx muslimgfx }
 		
 		color = { 0.1 0.75 0.1 }
 
@@ -30,8 +29,7 @@ arabic = {
 		modifier = default_culture_modifier
 	}
 	levantine_arabic = {
-		graphical_culture = arabicgfx
-		second_graphical_culture = muslimgfx
+		graphical_cultures = { arabicgfx muslimgfx }
 		
 		color = { 0.3 0.95 0.3 }
 
@@ -58,8 +56,7 @@ arabic = {
 		modifier = default_culture_modifier
 	}
 	egyptian_arabic = {
-		graphical_culture = arabicgfx
-		second_graphical_culture = muslimgfx
+		graphical_cultures = { arabicgfx muslimgfx }
 		
 		color = { 0.1 0.6 0.1 }
 
@@ -91,7 +88,7 @@ arabic = {
 		modifier = default_culture_modifier
 	}
 	rumi_arabic = {
-		graphical_culture = andalusiangfx #westerngfx
+		graphical_cultures = { andalusiangfx }
 		
 		color = { 0.4 0.6 0.1 }
 

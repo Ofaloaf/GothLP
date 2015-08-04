@@ -879,6 +879,9 @@ e_hispania = {
 				color2={ 255 255 255 }
 				
 				# Carpetania
+
+				holy_site = arian
+				holy_site = orthodox
 				
 				b_madrid = {
 					# Matritum
@@ -891,9 +894,6 @@ e_hispania = {
 
 					gothic = "Tollitu"
 					#gothicromance = "Tolleto"
-
-					holy_site = arian
-					holy_site = orthodox
 				}
 				b_orgaz = {
 					# Orgas
@@ -1799,10 +1799,11 @@ e_hispania = {
 				levantine_arabic = "Qurtubah"
 				egyptian_arabic = "Qurtubah"
 				rumi_arabic = "Qurtubah"
+
+				holy_site = aztec
+				holy_site = aztec_reformed
 				
 				b_cordoba = {
-					holy_site = aztec
-					holy_site = aztec_reformed
 					bedouin_arabic = "Qurtubah"
 					maghreb_arabic = "Qurtubah"
 					levantine_arabic = "Qurtubah"

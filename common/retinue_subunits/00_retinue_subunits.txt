@@ -601,3 +601,28 @@ RETTYPE_CUL_GOTH =
 		pikemen_morale = 0.2
 	}
 }
+
+RETTYPE_CUL_ROMAN = 
+{
+	first_type = 1		# heavy inf.
+	first_amount = 200
+
+	second_type = 4		# knights
+	second_amount = 50
+	
+	potential = {
+		is_nomadic = no
+		OR = {
+			culture = roman
+			culture = hispani
+			culture = gallic
+			culture = latine
+		}
+	}
+	
+	modifier = {
+		knights_offensive = 0.1
+		heavy_infantry_offensive = 0.2
+		heavy_infantry_morale = 0.2
+	}
+}

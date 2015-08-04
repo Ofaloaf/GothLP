@@ -1,0 +1,374 @@
+1099001 = {
+	name = "Cervan"
+	culture = ultramarini
+}
+
+1099002 = {
+	name = "Ertraneus"
+	culture = ultramarini
+}
+
+1099003 = {
+	name = "Castet"
+	culture = ultramarini
+}
+
+1099004 = {
+	name = "Calepien"
+	culture = ultramarini
+}
+
+1099005 = {
+	name = "Babin"
+	culture = ultramarini
+}
+
+1099006 = {
+	name = "Hagopingus"
+	culture = ultramarini
+}
+
+1099007 = {
+	name = "Grimane"
+	culture = ultramarini
+}
+
+1099008 = {
+	name = "Pocodataro"
+	culture = ultramarini
+}
+
+1099009 = {
+	name = "Miracingus"
+	culture = ultramarini
+}
+
+1099010 = {
+	name = "Matharas"
+	culture = ultramarini
+}
+
+1099011 = {
+	name = "Bembo"
+	culture = ultramarini
+}
+
+1099012 = {
+	name = "Mocenigo"
+	culture = ultramarini
+}
+
+1099013 = {
+	name = "Gradenigo"
+	culture = ultramarini
+}
+
+1099014 = {
+	name = "Govins"
+	culture = ultramarini
+}
+
+1099015 = {
+	name = "Castet"
+	culture = ultramarini
+}
+
+1099016 = {
+	name = "Brus"
+	culture = ultramarini
+}
+
+1099017 = {
+	name = "Barlays"
+	culture = ultramarini
+}
+
+1099018 = {
+	name = "Tyrensis"
+	culture = ultramarini
+}
+
+1099019 = {
+	name = "Surianus"
+	culture = ultramarini
+}
+
+1099020 = {
+	name = "Bencellinus"
+	culture = ultramarini
+}
+
+1099021 = {
+	name = "Bubalus"
+	culture = ultramarini
+}
+
+1099022 = {
+	name = "Fulcheri
+	culture = ultramarini
+}
+
+1099023 = {
+	name = "Malduit"
+	culture = ultramarini
+}
+
+1099024 = {
+	name = "Passerellus"
+	culture = ultramarini
+}
+
+1099025 = {
+	name = "Sechir"
+	culture = ultramarini
+}
+
+1099026 = {
+	name = "Gumbaldi"
+	culture = ultramarini
+}
+
+1099027 = {
+	name = "Tortus"
+	culture = ultramarini
+}
+
+1099028 = {
+	name = "Vacarius"
+	culture = ultramarini
+}
+
+1099029 = {
+	name = "Dapifer"
+	culture = ultramarini
+}
+
+1099030 = {
+	name = "Mercatibus"
+	culture = ultramarini
+}
+
+1099031 = {
+	name = "Sydoniensis"
+	culture = ultramarini
+}
+
+1099032 = {
+	name = "Tyberiadensis"
+	culture = ultramarini
+}
+
+1099033 = {
+	name = "Bethlemita"
+	culture = ultramarini
+}
+
+1099034 = {
+	name = "Ascalonis"
+	culture = ultramarini
+}
+
+1099035 = {
+	name = "Rametensis"
+	culture = ultramarini
+}
+
+1099036 = {
+	name = "Rigitestensis"
+	culture = ultramarini
+}
+
+1099037 = {
+	name = "Laodicensis"
+	culture = ultramarini
+}
+
+1099038 = {
+	name = "Torpeiensis"
+	culture = ultramarini
+}
+
+1099039 = {
+	name = "Corvasil"
+	culture = ultramarini
+}
+
+1099040 = {
+	name = "Attard"
+	culture = ultramarini
+}
+
+1099041 = {
+	name = "lo Grato"
+	culture = ultramarini
+}
+
+1099042 = {
+	name = "Badoer"
+	culture = ultramarini
+}
+
+1099043 = {
+	name = "Boldù"
+	culture = ultramarini
+}
+
+1099044 = {
+	name = "Bragadin"
+	culture = ultramarini
+}
+
+1099045 = {
+	name = "Carrara"
+	culture = ultramarini
+}
+
+1099046 = {
+	name = "Cimator"
+	culture = ultramarini
+}
+
+1099047 = {
+	name = "Correr"
+	culture = ultramarini
+}
+
+1099048 = {
+	name = "da Frixaturo"
+	culture = ultramarini
+}
+
+1099049 = {
+	name = "da Vale"
+	culture = ultramarini
+}
+
+1099050 = {
+	name = "Dal Sol"
+	culture = ultramarini
+}
+
+1099051 = {
+	name = "Dalioto"
+	culture = ultramarini
+}
+
+1099052 = {
+	name = "Darmo"
+	culture = ultramarini
+}
+
+1099053 = {
+	name = "Dolfin"
+	culture = ultramarini
+}
+
+1099054 = {
+	name = "Donà"
+	culture = ultramarini
+}
+
+1099055 = {
+	name = "Galinarion"
+	culture = ultramarini
+}
+
+1099056 = {
+	name = "Garzone"
+	culture = ultramarini
+}
+
+1099057 = {
+	name = "Greco"
+	culture = ultramarini
+}
+
+1099058 = {
+	name = "Malipiero"
+	culture = ultramarini
+}
+
+1099059 = {
+	name = "Minorita"
+	culture = ultramarini
+}
+
+1099060 = {
+	name = "Muxe"
+	culture = ultramarini
+}
+
+1099061 = {
+	name = "Natale"
+	culture = ultramarini
+}
+
+1099062 = {
+	name = "Molin"
+	culture = ultramarini
+}
+
+1099063 = {
+	name = "Paxe"
+	culture = ultrarmini
+}
+
+1099064 = {
+	name = "Premarin"
+	culture = ultramarini
+}
+
+1099065 = {
+	name = "Purus"
+	culture = ultramarini
+}
+
+1099066 = {
+	name = "Sartor"
+	culture = ultramarini
+}
+
+1099067 = {
+	name = "Sourosin"
+	culture = ultramarini
+}
+
+1099068 = {
+	name = "Scrovegni"
+	culture = ultramarini
+}
+
+1099069 = {
+	name = "Taiapetra"
+	culture = ultramarini
+}
+
+1099070 = {
+	name = "Thadei"
+	culture = ultramarini
+}
+
+1099071 = {
+	name = "Trentavasi"
+	culture = ultramarini
+}
+
+1099072 = {
+	name = "Tulon"
+	culture = ultramarini
+}
+
+1099073 = {
+	name = "Vendelino"
+	culture = ultramarini
+}
+
+1099074 = {
+	name = "Zentil"
+	culture = ultramarini
+}
+
+1099075 = {
+	name = "Tartare"
+	cultue = ultramarini
+}

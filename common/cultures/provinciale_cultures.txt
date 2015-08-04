@@ -181,8 +181,8 @@ provinciale = {
 			Pinniolo Placido Potenzus Ponpilo Porfirius Postonio Presio Principio Puricello
 			Quinto Quinzano Quiriacus
 			Ramulus Reles Renovado Reparatus Revelius Romaeus
-			Salomon Salvator Salvadus Sampirus Samuhel Sancio_Sancho Santoius Santon Sarracinus Saturninus 
-			Savaano Sebastianos_Sebastian Scemoso Semeson Sempronio Servatus Servodeo Severo Sexto 
+			Salomon Salvator Salvadus Sampirus Sancio_Sancho Santoius Santon Sarracinus Saturninus Sexto
+			Savaano Sebastianos_Sebastian Scemoso Semeson Sempronio Servatus Servodeo Severo Samuhel_Samuel
 			Silus Silvanus Silvester Simeon_Simon Symphonio Stevanus_Stephen
 			Tardenatus Teorenius Teretianus Tertulianus Timotheus Titus_Titus Tiyon Todosio Toranzus 
 			Toutellus Theodoro_Theodore Theoclezo Theofilo_Theophilus
@@ -330,7 +330,7 @@ provinciale = {
 			Tièrri_Thierry Tibaud_Theobald Tumas_Thomas Turismau Tiuderic_Theodoric Tiudemir Tiudat_Theodat
 			Tiudòsi_Theodosius Teia Tacite_Tacitus Tiudor_Theodore Telo
 			Ubald Ubert_Humbert Uc_Hugh Úlfila_Ulfilas Ugne
-			Vézian Vicenç_Vincent Videre_Witeric Vitimir_Vithimir Viteges Veremundo_Vermudo Vigitino
+			Vézian Vicenç_Vincent Videre_Witeric Vitimir_Vithimir Viteges Veremundo_Vermudo Vigitino Valaric
 			Walia Wifredo_Wilfred
 		}
 		female_names = {

@@ -26,7 +26,7 @@ e_gallia = {
 			color={ 82 120 48 }
 			color2={ 255 255 255 }
 
-			gothicromance = "Liunesa"
+			gothicromance = "Liyunesa"
 			
 			capital = 227 # Lyon
 			
@@ -36,7 +36,9 @@ e_gallia = {
 
 				# Lugdunum
 
-				gothicromance = Liunés
+				gothicromance = Liyunés
+
+				holy_site = arian
 				
 				b_brindas = {
 					# Briendaco
@@ -50,11 +52,9 @@ e_gallia = {
 					# Lugdunum
 
 					gothic = "Lugduum"
-					gothicromance = "Liun"
+					gothicromance = "Liyun"
 
 					german = "Leyden"
-
-					holy_site = arian
 				}
 				b_anse = {
 					# Ansa
@@ -66,6 +66,8 @@ e_gallia = {
 				}
 				b_pusignan = {
 					# Pusinius
+
+					gothicromance = "Pusinha"
 				}
 				b_irigny = {
 					# Iriacum # making up shit
@@ -2074,6 +2076,9 @@ e_gallia = {
 				greek = "Darioriton"
 
 				gothicromance = "Veneda"
+
+				holy_site = celtic_pagan
+				holy_site = celtic_pagan_reformed
 				
 				b_vannes = {
 					# Venetis
@@ -2097,9 +2102,6 @@ e_gallia = {
 				}
 				b_locmine = {
 					brithenig = "Logunec'h"
-
-					holy_site = celtic_pagan
-					holy_site = celtic_pagan_reformed
 				}
 				b_hennebont = {
 					# Pontevetus
@@ -2856,6 +2858,9 @@ e_gallia = {
 
 				gothicromance = "París"
 				norman = "Parys"
+
+				holy_site = aztec
+				holy_site = aztec_reformed
 				
 				b_paris = {
 					roman = "Lutetia"
@@ -2871,9 +2876,6 @@ e_gallia = {
 				}
 				b_stdenis = {
 					# Dionysiacum
-
-					holy_site = aztec
-					holy_site = aztec_reformed
 				}
 				b_meaux = {
 					# Meldis
@@ -3016,6 +3018,11 @@ e_gallia = {
 				color2={ 255 255 255 }
 
 				# Atrebatensis
+
+				gothicromance = "Atrebatesa"
+
+				holy_site = celtic_pagan
+				holy_site = celtic_pagan_reformed
 				
 				b_arras = {
 					# Atrebatum
@@ -3024,9 +3031,6 @@ e_gallia = {
 					gallic = "Nemetocenna"
 
 					gothicromance = "Athrebate"
-
-					holy_site = celtic_pagan
-					holy_site = celtic_pagan_reformed
 				}
 				b_terwaan = {
 					# Tervanna
@@ -3066,6 +3070,7 @@ e_gallia = {
 
 				latine = "Bononiensis"
 				hispani = "Bononiensis"
+				gothicromance = "Boloniensa"
 				
 				b_boulogne = {
 					# Bolonia
@@ -3164,9 +3169,17 @@ e_gallia = {
 				color2={ 255 255 255 }
 
 				# Ypra
+
+				dutch = Ieper
+				german = Ypern
+				gothic = Iprensis
 				
 				b_ypres = {
 					# Ypra
+
+					dutch = Ieper
+					german = Ypern
+					gothic = Ipera
 				}
 				b_rosebeke = {
 				}
@@ -3196,8 +3209,19 @@ e_gallia = {
 			c_brugge = {
 				color={ 250 120 0 }
 				color2={ 255 255 255 }
+
+				# Bruggas
+
+				dutch = Brugge
+				german = Brügge
+				gothicromance = Brujas
 				
 				b_brugge = {
+					# Bruggas
+
+					dutch = Brugge
+					german = Brügge
+					gothicromance = Brujas
 				}
 				b_damme = {
 				}
@@ -3217,12 +3241,30 @@ e_gallia = {
 			c_gent = {
 				color={ 234 110 5 }
 				color2={ 255 255 255 }
+
+				# Ganda
+
+				dutch = Gent
+				frisian = Gint
 				
 				b_gent = {
+					# Ganda
+
+					dutch = Gent
+					frisian = Gint
+					german = Dornick
 				}
 				b_doornik = {
+					# Tornacum
+
+					dutch = Doornik
+					german = Dornick
+					gothicromance = Turnaco
 				}
 				b_oudenaarde = {
+					# Aldenarda
+
+					dutch = Oudenaarde
 				}
 				b_aalst = {
 				}
@@ -3245,41 +3287,87 @@ e_gallia = {
 			c_brabant = {
 				color={ 113 188 148 }
 				color2={ 255 255 255 }
+
+				# Bracbantum
 			
 				b_leuven = {
+					# Lovanium
+
+					dutch = Leuven
+					german = Löwen
+					norse = Loven
 				}
 				b_mechelen = {
+					# Maslinas
+
+					dutch = Mechelen
+					german = Mecheln
 				}
 				b_brussel = {
+					# Brosella
+
+					dutch = Brussel
+					german = Brüssel
+					old_frankish = Broeksel
+
+					gothicromance = Brussèlas
 				}
 				b_antwerpen = {
+					# Anduerpis
+
+					dutch = Antwerpen
+					german = Antorf
 				}
 				b_aarschot = {
+					# Arescod
 				}
 				b_grimbergen = {
+					# Grentberghis
+
+					old_frankish = Grientbergen
 				}
 				b_herstal = {
+					# Heristal
 				}
 				b_lier = {
+					gothicromance = Lierra
 				}
 			}
 			c_hainaut = {
 				color={ 103 62 185 }
 				color2={ 255 255 255 }
+
+				# Fanomartensis
+
+				suebi = Hagnagawi
+				german = Hennegau
+				dutch = Henegouwen
+
+				gothicromance = "Fanomarésa"
 			
 				b_valenciennes = {
+					# Valentiana
+
+					dutch = Valencijn
 				}
 				b_cambrai = {
+					# Camaracum
+
+					dutch = Kamerijk
+					german = Kamerich
 				}
 				b_avesnes = {
 				}
 				b_mons = {
 				}
 				b_chievres = {
+					# Cervia
 				}
 				b_enghien = {
+					dutch = Edingen
 				}
 				b_charleroi = {
+					# Carnotus
 				}
 				b_ath = {
 				}
@@ -3287,18 +3375,42 @@ e_gallia = {
 			c_breda = {
 				color={ 234 145 54 }
 				color2={ 255 255 255 }
+
+				gothic = Braida
+				suebi = Braida
+				old_frankish = Braida
 			
 				b_breda = {
+					gothic = Braida
+					suebi = Braida
+					old_frankish = Braida
 				}
 				b_shertogenbosch = {
+					# Silvaducis
+
+					dutch = "Des Hertogen Bosch"
+					german = Herzogenbusch
 				}
 				b_tilburg = {
+					# Tilliburgis
+
+					dutch = Tilburg
+					german = Tilburg
+
+					gothicromance = Tilbaurg
 				}
 				b_willemstad = {
+					# Ruigenhil
 				}
 				b_bergenopzoom = {
+					# Zomam
+
+					dutch = "Bergen op Zoom"
 				}
 				b_cuijck = {
+					# Ceuclum
+
+					dutch = Cuijk
 				}
 				b_ravenstein = {
 				}
@@ -3511,31 +3623,61 @@ e_gallia = {
 
 				# Colonia
 
+				german = "Köln"
+				norse = "Köln"
+				norwegian = "Köln"
+				danish = "Köln"
+				geatish = "Köln"
 				dutch = "Keulen"
 				gothicromance = "Culunha"
+				pommeranian = "Kolonia"
+				carantanian = "Kolín"
 			
 				b_koln = {
 					# Colonia
 
+					german = "Köln"
+					norse = "Köln"
+					norwegian = "Köln"
+					danish = "Köln"
+					geatish = "Köln"
 					dutch = "Keulen"
 					gothicromance = "Culunha"
-
-					holy_site = catholic
+					pommeranian = "Kolonia"
+					carantanian = "Kolín"
 				}
 				b_berg = {
+					gothic = Baurgs
+					gothicromance = Baurgha
 				}
 				b_mark = {
+					# Marca
+
+					gothicromance = Marcha
+					german = Mark
+					dutch = Mark
 				}
 				b_bonn = {
 					# Bonna
 				}
 				b_dietz = {
+					# Theodissa
+
+					old_frankish = Thidesse
+					gothic = Diedisse
+					gothicromance = Tiudissa
+					german = Dietz
+					dutch = Dietz
 				}
 				b_saffenburg = {
 				}
 				b_hochstaden = {
 				}
 				b_brauweiler = {
+					# Brunivilare
+
+					german = Brauweiler
+					gothicromance = Brunvillara
 				}
 			}
 			c_mainz = {
@@ -3544,12 +3686,20 @@ e_gallia = {
 
 				# Mogontiacum
 
+				german = "Mainz"
+				dutch = "Ments"
 				gothicromance = "Maiança"
+				pommeranian = "Moguncja"
+				carantanian = "Magjnc"
 			
 				b_mainz = {
 					# Mogontiaco
 
+					german = "Mainz"
+					dutch = "Ments"
 					gothicromance = "Maiança"
+					pommeranian = "Moguncja"
+					carantanian = "Magnjc"
 				}
 				b_frankfurt = {
 				}

@@ -1,0 +1,14 @@
+631001 = {
+	name = "Altsikurs"
+	culture = avar
+}
+
+631002 = {
+	name = "Altsiok"
+	culture = avar
+}
+
+631003 = {
+	name = "Ovadia"
+	culture = avar
+}

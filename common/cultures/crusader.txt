@@ -1,0 +1,69 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new groups or cultures, make sure they are unique.
+
+crusader_group = {
+	graphical_cultures = { westerngfx }
+
+	ultramarini = {
+		graphical_cultures = { byzantinegfx westerngfx }
+
+		color = { 0.55 0.6 0.55 }
+
+		male_names = {
+			Alexander_Alexander Amorellus Athanasius Alatheus Antenel Arigis Anscheric Agustus_August Andreas_Andrew
+			Amalric Abrahil
+			Brito Balduinus_Baldwin Balian Barisan Basilius_Basil Bernard Bartholomeus_Bartholomeus
+			Bolferag
+			Comasio Carolus_Charles Clarembalt Claudius_Claudius Cosmas Clemencius_Clement
+			Davit_David Daimbert Danielus Demsis Dionyse_Dionysius
+			Euricus_Euric Egilbert
+			Fulco Fabius Frotarius Fulcarius Fulcrad Foroen Feroard Frothard Frotlaic
+			Gisalic Guermond Grimoald Gallicanus Gelduin Gabriel_Gabriel Galon Gislarius Gaucelmus Gaujoin Gerges
+			Henricus_Henry Hilduin Heracles Hector Helias Haimo
+			Innocentis Isambard Ingalbert Iacob_Jacob
+			Janus_Janus Jehan_John Judas Jonas Josephus_Joseph
+			Leo_Leo Lucas_Luke
+			Marcus_Mark Marellus Meffereg
+			Nicholas_Nicholas Nilus
+			Octavius Oddet Odaric
+			Paganus_Pagan Pancratius Petrus_Peter Pontius_Pons Paul_Paul Pelagius_Pelagius Pericle
+			Quintus Quodvultdeus
+			Romaricus Remistus Romanus_Roman Rorgon Romuald Ramnulfus Ragno Ricimer Resselelm
+			Sarus Stephanus_Stephen Sicard Saffarace Sabbas Salomon_Solomon Sinibalt Simon_Simon Segoin Stilicho
+			Sinopus Sicleard Siclevold Salem Samuel_Samuel
+			Theoderic_Theodoric Thoros_Theodore Thiudigisclus Thomas_Thomas Thiudis Tiberius Taphroc Trutgalt
+			Ursicin
+			Vitalis Vuitard Vulvarius Venerio
+			Walamirus Wilpertus
+			Zotton Zenon_Zeno Zafer
+		}
+		female_names = {
+			Andeleova Alexandra Alda Ansegund Amalaberga Anastasia_Anastasia Athanasia_Athanasia
+			Bertrada Bladovildis Brunhilda Bertenildis
+			Cenosinda Cixilo Celsa Celsovildis Creada
+			Daniela Dagena Desiderata
+			Ermosinda
+			Fruilo Faregildis Frolaica Frotberga Frotildis
+			Guadiosa Giloyrae Gisclauara Gunderona Goisuintha Gogildi Gotberga
+			Hildoara Honosinda
+			Isilo Ispasanda
+			Juliana_Juliana Julia_Julia
+			Leovigoto Leuvina Leudesinda Liuilo Landina Leutberga
+			Maria_Maria Magdalena_Magdalene Milisendis Morberga
+			Quinigia
+			Sesoira Subildi Siseguntia Sigalsis Sybilla Siclehildis
+			Teodogoncia Thuresmuda Theodora Thomasina
+			Ubitilde
+			Vilocia Valeria
+			Ysabella_Elisabeth
+		}
+
+		from_dynasty_prefix = "de "
+		
+		male_patronym = "filius "
+		female_patronym = "filia "
+		prefix = yes
+
+		modifier = default_culture_modifier
+	}
+}
