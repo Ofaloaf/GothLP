@@ -1,8 +1,8 @@
 caucasian = {
-	graphical_culture = { easterngfx }
+	graphical_cultures = { easterngfx }
 
 	armenian = {
-		graphical_culture = { byzantinegfx }
+		graphical_cultures = { byzantinegfx }
 		
 		color = { 0.5 0.2 0.5 }
 
@@ -24,7 +24,7 @@ caucasian = {
 		modifier = default_culture_modifier
 	}
 	georgian = {
-		graphical_culture = { byzantinegfx }
+		graphical_cultures = { byzantinegfx }
 		
 		color = { 0.6 0.3 0.8 }
 
@@ -50,7 +50,7 @@ caucasian = {
 		modifier = default_culture_modifier
 	}
 	circassian = {
-		graphical_culture = { eastslavicgfx }
+		graphical_cultures = { eastslavicgfx }
 		
 		color = { 0.0 0.4 0.3 }
 

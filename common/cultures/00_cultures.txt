@@ -2,10 +2,10 @@
 # If adding new groups or cultures, make sure they are unique.
 
 west_germanic = {
-	graphical_culture = westerngfx
+	graphical_cultures = { westerngfx }
 
 	english = {
-		graphical_culture = englishgfx
+		graphical_cultures = { englishgfx }
 		
 		color = { 0.8 0.2 0.2 }
 		
@@ -34,7 +34,7 @@ west_germanic = {
 		mother_name_chance = 5
 	}
 	saxon = {
-		graphical_culture = saxongfx
+		graphical_cultures = { saxongfx }
 		
 		color = { 0.8 0.3 0.3 }
 		
@@ -85,7 +85,7 @@ west_germanic = {
 		modifier = default_culture_modifier
 	}
 	frisian = {
-		graphical_culture = saxongfx
+		graphical_cultures = { saxongfx }
 		
 		color = { 0.7 0.3 0.0 }
 		
@@ -133,8 +133,7 @@ west_germanic = {
 		modifier = default_culture_modifier
 	}
 	dutch = {
-		graphical_culture = germangfx
-		graphical_unit_culture = western
+		graphical_cultures = { germangfx westerngfx }
 		
 		color = { 0.96 0.39 0.08 }
 		
@@ -179,10 +178,10 @@ west_germanic = {
 }
 
 latin = {
-	graphical_culture = westerngfx
+	graphical_cultures = { westerngfx }
 
 	frankish = {
-		graphical_culture = frankishgfx
+		graphical_cultures = { frankishgfx }
 		
 		color = { 0.8 0.8 0.2 }
 		male_names = {
@@ -222,7 +221,7 @@ latin = {
 		mother_name_chance = 10
 	}
 	occitan = {
-		graphical_culture = occitangfx
+		graphical_cultures = { occitangfx }
 		
 		color = { 0.9 0.9 0.4 }
 
@@ -263,10 +262,10 @@ latin = {
 }
 
 iberian = {
-	graphical_culture = occitangfx
+	graphical_cultures = { occitangfx }
 
 	castillan = {
-		graphical_culture = southerngfx
+		graphical_cultures = { southerngfx }
 		
 		color = { 0.95 0.82 0.09 }
 
@@ -298,7 +297,7 @@ iberian = {
 		modifier = default_culture_modifier
 	}
 	catalan = {
-		graphical_culture = southerngfx
+		graphical_cultures = { southerngfx }
 		
 		color = { 0.85 0.75 0.08 }
 
@@ -327,7 +326,7 @@ iberian = {
 		modifier = default_culture_modifier
 	}
 	portuguese = {
-		graphical_culture = southerngfx
+		graphical_cultures = { southerngfx }
 		
 		color = { 0.75 0.67 0.07 }
 
@@ -358,7 +357,7 @@ iberian = {
 		mother_name_chance = 15
 	}
 	visigothic = {
-		graphical_culture = southerngfx
+		graphical_cultures = { southerngfx }
 		
 		color = { 0.55 0.55 0.15 }
 
@@ -367,18 +366,11 @@ iberian = {
 			Friedenando_Ferdinand Friednand_Ferdinand Froila_Froila Garçi_Garcia Gonçalo_Gonzalo Gundemar Guttier_Walter Johan_John Liuva Liuvericho
 			Lupo_Lupo Mauregato Monnio_Munio Nunno_Nuno Oliba Ordonno_Ordono Pelagio_Pelagius Petro_Peter Ranimiro_Ramiro Rekkaredo
 			Rodericho_Roderick Sans_Sancho Silo Suneario_Sunyer Suniefredo Theodoricho_Theodoric Veremondo_Vermudo Wifredo_Wilfred Wimarano Witiza
-
-#			Abdela_Abdullah Abdelaçiç Abdelmelic Abdeluahid Abderrabmen Abrafim Ambroz Amet_Ahmad Ayyub Çacharya
-#			Çelim Çulema Hacan Hamdan Harun Içag Mahomat_Muhammad Maruan Muça Omar
-#			Xabrit Yabya Yafar Yuçuf Yunus
 		}
 		female_names = {
 			Adelgundis Adosinda Agnes_Agnes Aragonte Argilo Ava_Eva Brunechildis Egilona Eldonza_Aldonza Elduara_Alduara
 			Elvira_Elvira Ermengardis_Ermengarde Ermenisinda_Ermesinda Flamula Fronilde_Fronilde Gaudiosa Gonterote_Gotruda Iberia Leodegundis Menenda
 			Monnia_Munia Monniadomna Onecca_Oneka Riciberga Sibilia_Sibylla Sisenanda Theodora_Theodora Urraca_Urraca Winidilda_Gunhild
-
-#			Abda Ayab Ayça Çayida Çeida Emira Isra Leyla Melica Nadia
-#			Nadira Neyla Nur Tarifa Yaçmina
 		}
 		from_dynasty_prefix = "de "
 		grammar_transform = french
@@ -398,10 +390,10 @@ iberian = {
 }
 
 celtic = {
-	graphical_culture = westerngfx
+	graphical_cultures = { westerngfx }
 
 	irish = {
-		graphical_culture = celticgfx
+		graphical_cultures = { celticgfx }
 		
 		color = { 0.3 0.8 0.8 }
 
@@ -461,7 +453,7 @@ celtic = {
 		mother_name_chance = 10
 	}
 	scottish = {
-		graphical_culture = celticgfx
+		graphical_cultures = { celticgfx }
 		
 		color = { 0.3 0.7 0.7 }
 
@@ -505,7 +497,7 @@ celtic = {
 		tribal_name = "TRIBAL_NAME_PROV_CLAN"
 	}
 	pictish = {
-		graphical_culture = celticgfx
+		graphical_cultures = { celticgfx }
 		
 		color = { 0.2 0.6 0.6 }
 
@@ -542,7 +534,7 @@ celtic = {
 		tribal_name = "TRIBAL_NAME_PROV_CLAN"
 	}
 	welsh = {
-		graphical_culture = celticgfx
+		graphical_cultures = { celticgfx }
 		
 		color = { 0.3 0.8 0.6 }
 
@@ -605,7 +597,7 @@ celtic = {
 		mother_name_chance = 0
 	}
 	breton = {
-		graphical_culture = celticgfx
+		graphical_cultures = { celticgfx }
 		
 		color = { 0.3 0.5 0.4 }
 		
@@ -685,10 +677,10 @@ celtic = {
 }
 
 finno_ugric = {
-	graphical_culture = easterngfx
+	graphical_cultures = { easterngfx }
 
 	finnish = {
-		graphical_culture = ugricgfx
+		graphical_cultures = { ugricgfx }
 		
 		color = { 0.1 0.6 0.6 }
 
@@ -709,7 +701,7 @@ finno_ugric = {
 		modifier = default_culture_modifier
 	}
 	lappish	 = {
-		graphical_culture = ugricgfx
+		graphical_cultures = { ugricgfx }
 		
 		color = { 0.4 0.75 0.85 }
 
@@ -727,7 +719,7 @@ finno_ugric = {
 		modifier = default_culture_modifier
 	}
 	ugricbaltic = {
-		graphical_culture = ugricgfx
+		graphical_cultures = { ugricgfx }
 		
 		color = { 0.3 0.7 0.7 }
 
@@ -754,7 +746,7 @@ finno_ugric = {
 		modifier = default_culture_modifier
 	}
 	komi = {
-		graphical_culture = ugricgfx
+		graphical_cultures = { ugricgfx }
 		
 		color = { 0.5 0.75 0.25 }
 
@@ -778,7 +770,7 @@ finno_ugric = {
 	}
 	
 	khanty = {
-		graphical_culture = ugricgfx
+		graphical_cultures = { ugricgfx }
 		
 		color = { 0.4 0.65 0.20 }
 
@@ -802,7 +794,7 @@ finno_ugric = {
 	}
 	
 	samoyed = { # AKA Nenets
-		graphical_culture = ugricgfx
+		graphical_cultures = { ugricgfx }
 		
 		color = { 0.3 0.75 0.75 }
 
@@ -818,7 +810,7 @@ finno_ugric = {
 		modifier = default_culture_modifier
 	}
 	mordvin = {
-		graphical_culture = ugricgfx
+		graphical_cultures = { ugricgfx }
 		
 		color = { 0.3 0.7 0.7 }
 
@@ -843,10 +835,10 @@ finno_ugric = {
 }
 
 baltic = {
-	graphical_culture = easterngfx
+	graphical_cultures = { easterngfx }
 
 	lettigallish = {
-		graphical_culture = ugricgfx
+		graphical_cultures = { ugricgfx }
 		
 		color = { 0.5 0.5 0.1 }
 
@@ -866,7 +858,7 @@ baltic = {
 		modifier = default_culture_modifier
 	}
 	lithuanian = {
-		graphical_culture = ugricgfx
+		graphical_cultures = { ugricgfx }
 		
 		color = { 0.56 0.55 0.2 }
 
@@ -886,7 +878,7 @@ baltic = {
 		modifier = default_culture_modifier
 	}
 	prussian = {
-		graphical_culture = ugricgfx
+		graphical_cultures = { ugricgfx }
 		
 		color = { 0.56 0.55 0.4 }
 
@@ -905,10 +897,10 @@ baltic = {
 }
 
 altaic = {
-	graphical_culture = muslimgfx
+	graphical_cultures = { turkishgfx mongolgfx muslimgfx }
 
 	turkish = { # Oghuz Turkish
-		graphical_culture = turkishgfx
+		graphical_cultures = { turkishgfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.85 0.55 0.15 }
@@ -937,7 +929,7 @@ altaic = {
 		modifier = default_culture_modifier
 	}
 	pecheneg = { # Oghuz Turkish
-		graphical_culture = turkishgfx
+		graphical_cultures = { turkishgfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.85 0.79 0.25 }
@@ -959,8 +951,7 @@ altaic = {
 		modifier = default_culture_modifier
 	}
 	cuman = { # Kipchak Turkish
-		graphical_culture = cumangfx
-		secondary_graphical_culture = turkishgfx
+		graphical_cultures = { cumangfx turkishgfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.75 0.60 0.20 }
@@ -983,7 +974,7 @@ altaic = {
 	}
 	
 	khazar = { # Oghur Turkish
-		graphical_culture = turkishgfx
+		graphical_cultures = { turkishgfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.7 0.45 0.1 }
@@ -1007,7 +998,7 @@ altaic = {
 	}
 	
 	bolghar = { # Oghur Turkish
-		graphical_culture = turkishgfx
+		graphical_cultures = { turkishgfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.7 0.7 0.3 }
@@ -1035,8 +1026,7 @@ altaic = {
 	}
 	
 	avar = { # Oghur Turkish
-		graphical_culture = turkishgfx
-		second_graphical_culture = easterngfx
+		graphical_cultures = { turkishgfx easterngfx }
 		secondary_event_pictures = bedouin_arabic
 
 		color = { 0.7 0.7 0.3 }
@@ -1064,8 +1054,7 @@ altaic = {
 	}
 	
 	karluk = {
-		graphical_culture = cumangfx
-		secondary_graphical_culture = turkishgfx
+		graphical_cultures = { cumangfx turkishgfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.65 0.50 0.15 }
@@ -1089,8 +1078,7 @@ altaic = {
 	}
 	
 	kirghiz = {
-		graphical_culture = cumangfx
-		secondary_graphical_culture = turkishgfx
+		graphical_cultures = { cumangfx turkishgfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.85 0.72 0.30 }
@@ -1119,8 +1107,7 @@ altaic = {
 	}
 	
 	uyghur = {
-		graphical_culture = cumangfx
-		secondary_graphical_culture = turkishgfx
+		graphical_cultures = { cumangfx turkishgfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.85 0.75 0.50 }
@@ -1144,8 +1131,7 @@ altaic = {
 	}
 
 	mongol = {
-		graphical_culture = mongolgfx
-		second_graphical_culture = muslimgfx
+		graphical_cultures = { mongolgfx muslimgfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		horde = yes
@@ -1173,8 +1159,7 @@ altaic = {
 	}
 	
 	khitan = {
-		graphical_culture = mongolgfx
-		second_graphical_culture = muslimgfx
+		graphical_cultures = { mongolgfx muslimgfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		horde = yes
@@ -1202,10 +1187,10 @@ altaic = {
 }
 
 east_slavic = {
-	graphical_culture = easterngfx
+	graphical_cultures = { easterngfx }
 
 	russian = {
-		graphical_culture = easternslavicgfx
+		graphical_cultures = { easternslavicgfx }
 		graphical_unit_culture = western
 		
 		color = { 0.2 0.4 0.1 }
@@ -1243,7 +1228,7 @@ east_slavic = {
 		modifier = default_culture_modifier
 	}
 	ilmenian = {
-		graphical_culture = easternslavicgfx
+		graphical_cultures = { easternslavicgfx }
 		graphical_unit_culture = western
 		
 		color = { 0.45 0.6 0.2 }
@@ -1278,7 +1263,7 @@ east_slavic = {
 		modifier = default_culture_modifier
 	}
 	severian = {
-		graphical_culture = easternslavicgfx
+		graphical_cultures = { easternslavicgfx }
 		graphical_unit_culture = western
 		
 		color = { 0.5 0.8 0.3 }
@@ -1313,7 +1298,7 @@ east_slavic = {
 		modifier = default_culture_modifier
 	}
 	volhynian = {
-		graphical_culture = easternslavicgfx
+		graphical_cultures = { easternslavicgfx }
 		graphical_unit_culture = western
 		
 		color = { 0.65 0.8 0.3 }
@@ -1349,193 +1334,11 @@ east_slavic = {
 	}
 }
 
-west_slavic = {
-	graphical_culture = easterngfx
-
-	bohemian = {
-		graphical_culture = westernslavicgfx
-		
-		color = { 0.4 0.6 0.5 }
-		
-		male_names = {
-			Albert_Albert Albrecht_Albert Ales_Alexander Arnost_Ernest Bavor Bedrich_Frederick Benes_Benedict Bocek Bohuslav_Boguslaw Boleslav_Boleslav Bores Borijov_Borijov Bretislav_Bretislaus Budivoj Castolov Cenek_Vincent Chval Ctirad Diepold
-			Detrich_Thierry Drslav Gerhard Hanus_John Havel_Gallus Heralt Herman_Herman Hrabis Hynek_Henry Jan_John Jaromír_Jaromir Jaroslav_Jaroslav Jesek Jindrich_Henry Jirík_George Karel_Charles Kojata Konrád_Konrad Kuník Litold
-			Markvart Matous_Matthew Mikulás_Nicholas Milic Mojmír Ojír Oldrich_Ulrich Ondrej_Andrew Ota_Otto Otakar Pelhrim Petr_Peter Premysl_Premysl Prokop_Procopius Rajmund_Raymond Rostislav Sezima Slavibor
-			Slavomír Smil Sobieslav_Sobeslaus Spytihnev Strachkvas Svatobor Svatopluk_Svatopluk Tobiás Václav_Vaclav Viktorín Vítek_Guy Vanek Vilém_William Vladimír_Vladimir Vladislav_Vladislav Vojtech_Albert
-			Vratislav_Vratislav Vsebor_Vsebor Závis Zbynek_Zbynek Zdík Zdirad Zikmund_Sigmund 
-		}
-		female_names = {
-			Adléta Anezka Anna_Anna Barbora Bedriska Blazena Bohuslava Boleslava Bozena Bozislava Bretislava Dobromila Dobroslava Domaslava Dorota_Dorothy
-			Doubravka Drahomíra Drahoslava Eliska Eufemie_Euphemia Gertruda_Gertrude Guta Hedvika Helena_Helen Jana Jaroslava Jitka Johanka Judita_Judith Justina Katerina_Catherine
-			Klára_Clara Konstancie_Constance Kristyna_Christina Kunhuta Libuse Ludmila Marie_Maria Markéta Mlada Olga Perchta Pribyslava Richeza Skonka Stanislava Svatava
-			Vilemína Viola_Yolanda Vladislava Vojslava Zdislava Zdenka Zofie_Sophia
-		}
-		
-		from_dynasty_prefix = "of "
-
-		modifier = default_culture_modifier
-	}
-	polish = {
-		graphical_culture = westernslavicgfx
-		
-		color = { 0.4 0.6 0.55 }
-
-		male_names = {
-			Aleksander_Alexander Andrzej_Andrew Bartosz_Bartolomeus Bezprym Boguchwal Bogumil Boleslaw_Boleslav Boncza_Bonifacius Borzyslaw Bozydar_Theodat Borzywoj_Borijov Budziwuj Czcibor_Ctibor Czyrzniech
-			Dalimir Daniel_Daniel Dobieslaw Dobrogost Dobromir Doman Domawuj Dytryk_Thierry Eustachy_Eustace Gaudenty Gierolt_Gerald Gniewomir Gniewosz Gosciwuj Goszczon Henryk_Henry Imram
-			Izbor Józef_Joseph Jacek_Hyacinth Jaksa_Jacob Jakub_Jacob Jakusz Jan_John Janislaw_John Janko_John Janusz_John Jaroslaw_Jaroslav Jerzy_George Karol_Charles Kazimierz Konrad_Konrad Krystyn_Christian Krzeslaw Lambert_Lambert Leszek
-			Maciej_Matthew Macko_Matthew Malowuj Marcin_Martin Maslaw Mateusz_Matthew Mieszko Mikolaj_Nicholas Milobrat Milosz_Milosz Miroslaw_Miroslav Msciwoj Mszczuj Nadbor Niezamysl Odon_Otto Pawel_Paul Pelka
-			Piotr_Peter Piskla Prendota Przemyslaw_Premysl Przybor Sambor Sedziej Sedzimir Sieciech Siemomysl Siemowit Skarbimir Snowid Spytko Stanislaw_Stanislav
-			Stefan_Stephen Stoigniew Strasz Sulislaw Sulistryj Swietopelk_Svatopluk Swietoslaw_Sviatoslav Szczesny_Felix Tomasz_Thomas Trojden Twardomir Usciech Waclaw_Vaclav Wanko_Vaclav Wawrzyniec_Laurence
-			Wielislaw Wieslaw Wincenty_Vincent Wit_Guy Witosz Wladyslaw_Vladislav Wojciech_Albert Wojuta Wszebor_Vsebor Zbigniew_Zbynek Zbyszko_Zbynek Zegota_Ignatius Zelibrat
-			Zygmunt_Sigmund
-		}
-		female_names = {
-			Adelajda Adleta Agnieszka_Agnes Aldona Anastazja_Anastasia Anna_Anna Beata Bozena Danuta Dobrawa Dobronega Elzbieta_Elisabeth Eufemia_Euphemia Eufrozyna Gertruda_Gertrude Grzymislawa
-			Helena_Helen Jadwiga Jolanta_Yolanda Judyta_Judith Katarzyna_Catherine Kazimiera Kenna Kinga Konstancja_Constance Krystyna_Christina Kunegunda Lucja_Lucia Ludmila Magdalena_Magdalena Malgorzata Maria_Maria
-			Matylda_Matilda Milena Nadzieja Nawoja Pechna Rycheza Ryksa Salomea Samboja Scholastyka Smiechna Stanislawa Swietoslawa Wislawa Wojslawa
-			Wolislawa Wszebora Wszemila Zofia_Sophia Zwinislawa
-		}
-		from_dynasty_prefix = "of "
-		
-		#male_patronym = "owski"
-		#female_patronym = "owska"
-		#prefix = no
-
-		modifier = default_culture_modifier
-		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
-		pat_grf_name_chance = 40
-		mat_grf_name_chance = 10
-		father_name_chance = 10
-		
-		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
-		pat_grm_name_chance = 10
-		mat_grm_name_chance = 40
-		mother_name_chance = 5
-	}
-}
-
-south_slavic = {
-	graphical_culture = easterngfx
-
-	croatian = {
-		graphical_culture = westernslavicgfx
-		
-		color = { 0.4 0.2 0.2 }
-
-		male_names = {
-			Adam_Adam Andrija Bartol_Bartolomeus Besar Bojan Boris Branimir Castimir Danail_Daniel Dmitar Dobromir Dragan Dragomir Drzislav Dujam Duym Filip_Philip Gaspar Gheorghe_George Grigorii_Gregory
-			Hranislav Hrvoje Igor Ioan_John Ivan_John Ivanis Jitej Karlo_Charles Koloman_Koloman Kresimir Ladislav Ljudevit Ljutomisl Lovro Matej_Matthew Mihajlo Milman Mislav Mutimir
-			Nikolitza_Nicholas Ognjen Petar_Peter Prohor Radomir Ratimir Sebeslav Seslav Slavich Stanislav_Stanislav Stjepan Sulvan Teodor Tomislav Tvrdoslav Tvrtko Ulfo_Ulf Vid Vitomir Vlaicu
-			Vukan Zvonimir
-		}
-		female_names = {
-			Adriana Anna_Anna Borislava Cededa Doroteja_Dorothy Ekaterina_Catherine Helena_Helen Jadviga Jovana Kera Ladika Maria_Maria Mihaela Nada Petra Viola_Yolanda Jadranka Mare
-			Antonija Capeka Dragana Dubravka Emilija_Emily Gordana Jagoda Jelena Jelka Lucija_Lucia Katalin_Catherine Marija_Maria Marijana Mirjana Mirna Mojca Natalija NataŠa
-			Rijeka Silvija Snjezana Sofija_Sophia Suzana_Susana Svjetlana Suronja Tatjana Tihana Valerija Vedrana Visnja Vjekoslava Zlata Zvonimira
-		}
-		
-		from_dynasty_prefix = "od "
-
-		modifier = default_culture_modifier
-		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
-		pat_grf_name_chance = 40
-		mat_grf_name_chance = 10
-		father_name_chance = 10
-		
-		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
-		pat_grm_name_chance = 10
-		mat_grm_name_chance = 40
-		mother_name_chance = 5
-		
-	}
-	serbian = {
-		graphical_culture = westernslavicgfx
-		
-		color = { 0.5 0.3 0.3 }
-
-		male_names = {
-			Aldimir Asen Berbat Blaz_Blaise Boleslav Borna Branimir Budimir Kosmin Danilo_Daniel Djordje_George Dmitar Dobroslav Dragija Dragos Dragutin Gavrilo_Gabriel Godimir Goran
-			Grgur Ilija Ivan_John Josif_Joseph Josip_Joseph Jovan_John Kasjan Konstantin_Constantine Krsto Lazar Ljudevit Luka Marko_Marcus Martin_Martin Matija_Matthew Mihailo Mihovil Milorad Milutin Mircea Miroslav_Miroslav Mislav Nenad Nikodim_Nicodemus Nikola_Nicholas
-			Ninoslav Petar_Peter Porin Prvoslav Radoslav Rastko Ratomir Roman_Roman Serapion Simeon_Simon Sinisa Slavko Slobodan Stefan_Stephen Teodosije Trajan Uros Visarion Vladimir_Vladimir Vladislav_Vladislav Vlastimir
-			Vuk_Lupo Vukan Vukasin Vukoman Zoran Zvonimir
-		}
-		female_names = {
-			Agata_Agatha Barbara Branimira Desislava Dubravka Elena_Helen Hicela Jelena Karolina Keratza Lovorka Marija_Maria Milka Neda Radica Zdenka Andjela Antonija
-			Bastina Biljana Bistrina Bojana Casna Chasna Dejana Dragana Dragoslava Duga Dusica Gordana Grana Grubana Jagoda Jovana Jovanka Karika
-			Ljubica Luka Majka Malina Medeni Meki Milinka Miljana Miriti Mirjana Mudary Mudra Nada Nadanje Namena
-		}
-		
-		from_dynasty_prefix = "od "
-		
-		male_patronym = "ic"
-		prefix = no
-
-		modifier = default_culture_modifier
-	}
-	bulgarian = {
-		graphical_culture = westernslavicgfx
-		
-		color = { 0.7 0.5 0.5 }
-
-		male_names = {
-			Aleksii Balin Bernardin_Bernard Bertalan Bogoris Boril Bozidar_Theodat Braslav Dan Dionisii_Dionysus Dominik_Dominic Dragoman Dragshan Drzislav Evtimii Frujin German Grgur Hranimir
-			Ioakim Ivan_John Jerolim Kalojan Kocelj Kozma Kresimir Kulin Ljubomir Ljutomisl Marko_Marcus Mihail_Michael Mikica Miroslav_Miroslav Momchil Nikola_Nicholas Ognen Petar_Peter 
-			Prijezda Radislav Radu Sava Sermon Slavac Soimir Stracimir Svetislav Tomislav Trpimir Vasilii_Basil Viseslav Vladislav_Vladislav Vojnomir Zdeslav
-		}
-		female_names = {
-			Aleksandra Aleksandrina Bilyana Bisera Bogdana Bogna Borislava Boyana Dana Desislava Donka Elisaveta_Elisabeth Emiliya_Emily Evdokiya Filipa_Philippa Gergana
-			Hristina Iskra Iva Ivana Ivanka Ivet Lala Lidiya Lilyana Lyudmila Maya Nadejda Nevena Nikolina Penka Rada Radka Raina Raya Rayna Rosa
-			Rositsa Silva Silviya Snezhana Stoyanka Tereza_Teresa Todorka Tsveta Tsvetanka Vasilka Violeta_Yolanda Yana Yoanan Yordanka Zhivka
-		}
-		
-		from_dynasty_prefix = "ot "
-		
-		male_patronym = "ov"
-		female_patronym = "ova"
-		prefix = no
-
-		modifier = default_culture_modifier
-	}
-}
-
-magyar = {
-	graphical_culture = easterngfx
-
-	hungarian = {
-		graphical_culture = westernslavicgfx
-		
-		color = { 0.5 0.6 0.3 }
-
-		male_names = {
-			Ábel Ádárn Ágoston Álmos Árpád Õdön_Otto Alajos Ambrus András_Andrew Antal Attila Bálint Béla_Albert Balázs Benedek_Benedict Bernát_Bernard Bertók Bertalan Boldizsár Bonuslo
-			Borisz_Boris Csák Csaba Csongor Dénes Dömötör Dezsõ Domoszló Donát Elek Elemér Endre Ernõ Fulöp_Philip Ferenc_Francis Frigyes Gábor Gábriel_Gabriel Gáspár_Caspar Géza Gazsi
-			Gellért Gergely György_George Gyula Imre István_Stephen Izsák Jákob_Jacob János_John József_Joseph Jenõ Kálmán Károly_Charles Konrád_Konrad Kornél Kristóf László Lázár Lõrinc Lajos_Louis
-			Lampert Levente Lukács Márk_Marcus Márton_Martin Máté Mátyás_Matthew Móric Mózes Mihály_Michael Miklós Nándor Orbán Oszkár Pál_Paul Péter_Peter Sámuel_Samuel Sándor_Alexander Salamon Saul Soma
-			Szilveszter_Silvester Tádor Tacsony Tamás_Thomas Tibor Tivadar Vazul Vencel_Vaclav Vilmos Zoltán Zsigmond_Sigmund Zsolt 
-		}
-		female_names = {
-			Ágnes_Agnes Éva_Eva Adelaida_Adelaide Agáta_Agatha Amália_Amelia Angyalka Anikó Aranka Berta_Bertha Borbála Csilla Csillag Czenzi Dorottya_Dorothy Edit_Edith Emõke Emese Erika Erzsébet_Elisabeth Eszter
-			Etel Euphemia_Euphemia Gizella_Gisela Györgyi_Georgia Hajnal Hedwig_Hedwig Ibolya Ildikó Illona Irén_Irene Jácinta Józsa Júlia_Juliana Jolán Judith_Judith Kamilla_Camilla Katalin_Catherine Kinga Klára_Clara
-			Konstancia_Constance Krisztina_Christina Kunigunda_Kunigunde Luca Mária_Maria Márta_Martha Magdolna_Magdalena Margaréta_Margaret Margit Matild_Matilda Natália_Natalia Odola Orsolya Panni Piroska Rózsa_Rosa Sára_Sarah Sarolt
-			Skolasztika Sophia_Sophia Tundér Terezia_Teresa Viola_Viola Virág Zoltána Zsófia_Sophia Zsanett Zsuzsa
-		}
-		
-		from_dynasty_prefix = "a "
-		
-		male_patronym = "fi"
-		prefix = no
-
-		modifier = default_culture_modifier
-	}
-}
-
-
 east_african = {
-	graphical_culture = muslimgfx
+	graphical_cultures = { muslimgfx }
 
 	ethiopian = {
-		graphical_culture = africangfx
+		graphical_cultures = { africangfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.4 0.4 0.3 }
@@ -1557,7 +1360,7 @@ east_african = {
 	}
 	
 	somali = {
-		graphical_culture = africangfx
+		graphical_cultures = { africangfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.2 0.2 0.1 }
@@ -1583,7 +1386,7 @@ east_african = {
 	}
 	
 	nubian = {
-		graphical_culture = africangfx
+		graphical_cultures = { africangfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.35 0.7 0.25 }
@@ -1612,11 +1415,10 @@ east_african = {
 }
 
 west_african = {
-	graphical_culture = africangfx
-	second_graphical_culture = muslimgfx
+	graphical_cultures = { africangfx muslimgfx }
 	
 	manden = {
-		graphical_culture = westafricangfx
+		graphical_cultures = { westafricangfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.45 0.45 0.2 }
@@ -1643,11 +1445,10 @@ west_african = {
 }
 
 mesoamerican = {
-	graphical_culture = mesoamericangfx
-	second_graphical_culture = muslimgfx
+	graphical_cultures = { mesoamericangfx muslimgfx }
 
 	nahuatl = {
-		graphical_culture = mesoamericangfx
+		graphical_cultures = { mesoamericangfx }
 		color = { 1.0 0.5 0.0 }
 		
 		horde = yes
@@ -1685,12 +1486,10 @@ mesoamerican = {
 }
 
 indo_aryan_group = {
-	graphical_culture = indiangfx
-	second_graphical_culture = muslimgfx # Fallback type
+	graphical_cultures = { indiangfx muslimgfx }
 	
 	bengali = { # Indo-Aryan
-		graphical_culture = indiangfx
-		second_graphical_culture = muslimgfx # Fallback type
+		graphical_cultures = { indiangfx muslimgfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.45 0.0 0.0 }
@@ -1737,8 +1536,7 @@ indo_aryan_group = {
 	}
 	
 	oriya = { # Indo-Aryan
-		graphical_culture = indiangfx
-		second_graphical_culture = muslimgfx # Fallback type
+		graphical_cultures = { indiangfx muslimgfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.8 0.4 0.0 }
@@ -1774,8 +1572,7 @@ indo_aryan_group = {
 	}
 	
 	assamese = { # Indo-Aryan
-		graphical_culture = indiangfx
-		second_graphical_culture = muslimgfx # Fallback type
+		graphical_cultures = { indiangfx muslimgfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.6 0.3 0.0 }
@@ -1800,8 +1597,7 @@ indo_aryan_group = {
 	}
 
 	hindustani = { # Indo-Aryan
-		graphical_culture = indiangfx
-		second_graphical_culture = muslimgfx # Fallback type
+		graphical_cultures = { indiangfx muslimgfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 1.0 0.0 0.0 }
@@ -1852,8 +1648,7 @@ indo_aryan_group = {
 	}
 	
 	gujurati = { # Indo-Aryan
-		graphical_culture = indiangfx
-		second_graphical_culture = muslimgfx # Fallback type
+		graphical_cultures = { indiangfx muslimgfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.4 0.2 0.2 }
@@ -1904,8 +1699,7 @@ indo_aryan_group = {
 	}
 	
 	panjabi = { # Indo-Aryan
-		graphical_culture = indiangfx
-		second_graphical_culture = muslimgfx # Fallback type
+		graphical_cultures = { indiangfx muslimgfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.8 0.3 0.2 }
@@ -1930,8 +1724,7 @@ indo_aryan_group = {
 	}
 	
 	rajput = { # Indo-Aryan
-		graphical_culture = indiangfx
-		second_graphical_culture = muslimgfx # Fallback type
+		graphical_cultures = { indiangfx muslimgfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.6 0.0 0.0 }
@@ -2001,8 +1794,7 @@ indo_aryan_group = {
 	}
 
 	sindhi = { # Indo-Aryan
-		graphical_culture = indiangfx
-		second_graphical_culture = muslimgfx # Fallback type
+		graphical_cultures = { indiangfx muslimgfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 1.0 0.2 0.0 }
@@ -2025,8 +1817,7 @@ indo_aryan_group = {
 	}
 
 	marathi = { # Indo-Aryan
-		graphical_culture = indiangfx
-		second_graphical_culture = muslimgfx # Fallback type
+		graphical_cultures = { indiangfx muslimgfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 0.8 0.2 0.0 }
@@ -2071,8 +1862,7 @@ indo_aryan_group = {
 	}
 
 	sinhala = { # Indo-Aryans who arrived in Sri Lanka ca 600BC
-		graphical_culture = indiangfx
-		second_graphical_culture = muslimgfx # Fallback type
+		graphical_cultures = { indiangfx muslimgfx }
 		secondary_event_pictures = bedouin_arabic
 		
 		color = { 1.0 0.3 0.3 }
@@ -2112,12 +1902,10 @@ indo_aryan_group = {
 }
 
 dravidian_group = {
-	graphical_culture = indiangfx
-	second_graphical_culture = muslimgfx # Fallback type
+	graphical_cultures = { indiangfx muslimgfx }
 
 	tamil = { # Dravidian - Southern India except Sri Lanka
-		graphical_culture = indiangfx
-		second_graphical_culture = muslimgfx # Fallback type
+		graphical_cultures = { indiangfx muslimgfx }
 		secondary_event_pictures = bengali
 		
 		color = { 1.0 0.7 0.2 }
@@ -2170,8 +1958,7 @@ dravidian_group = {
 	}
 	
 	telugu = { # Dravidian
-		graphical_culture = indiangfx
-		second_graphical_culture = muslimgfx # Fallback type
+		graphical_cultures = { indiangfx muslimgfx }
 		secondary_event_pictures = bengali
 		
 		color = { 0.8 0.8 0.0 }
@@ -2206,8 +1993,7 @@ dravidian_group = {
 	}
 	
 	kannada = { # Dravidian
-		graphical_culture = indiangfx
-		second_graphical_culture = muslimgfx # Fallback type
+		graphical_cultures = { indiangfx muslimgfx }
 		secondary_event_pictures = bengali
 		
 		color = { 0.8 0.6 0.0 }
