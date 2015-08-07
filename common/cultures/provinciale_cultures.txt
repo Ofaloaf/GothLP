@@ -33,7 +33,7 @@ provinciale = {
 			Sidonis Symmaches_Symmachus Syagris Saturninus Sanxe_Sancho Savinïen Symphorianes 
 			Silvanus Silvester_Silvester Sebaste_Sebastian Stremonis
 			Theodores_Theodore Theophiles Thomas_Thomas Trofimes Tiberis_Tiberius Tetricus Timotheus_Timothy 
-			Theodosis_Theodosius
+			Theodosis_Theodosius Tibatto
 			Urbanes_Urban Ursinus_Ursus
 			Victor_Victor Victorines Vincentis_Vincent Viventiolis Vitalis
 			Zacharias_Zachary Zefirines

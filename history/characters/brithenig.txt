@@ -189,7 +189,7 @@
 	religion="arian"
 	trait="shy"
 	trait="brave"
-	trait="tough_warrior"
+	trait="tough_soldier"
 	720.1.1={
 		birth=yes
 	}

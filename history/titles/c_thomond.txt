@@ -61,7 +61,7 @@ holder=83769 #Finguine son of Cathal Cú-Cen-Máthair
 }
 696.1.1=
 {
-holder=x #Ailill son of Cathal Cú-Cen-Máthair
+holder=0 #Ailill son of Cathal Cú-Cen-Máthair
 }
 700.1.1 = {
 	liege = "d_connacht"

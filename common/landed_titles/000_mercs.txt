@@ -81,7 +81,7 @@ d_circumcellions = {
 	# Parent Religion 
 	religion = donatist
 	
-	culture = berber
+	culture = maghreb_arabic
 	
 	# Cannot be held as a secondary title
 	primary = yes

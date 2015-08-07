@@ -3,6 +3,5 @@
 }
 1171.1.1={
 	active = yes
-	holder = 72363 # Pedro de Castro
 	liege = k_castille
 }

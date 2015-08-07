@@ -419,19 +419,6 @@
 		death = yes
 	}
 }
-
-188681 = {
-	name="Hashim"
-	dynasty=1042148
-	religion="mazdaki" # Khurramite
-	culture="sogdian"
-	731.1.1={
-		birth=yes
-	}
-	783.1.1={
-		death=yes
-	}
-}
 217328 = {
 	name = Farn # fictional son of Bunyat
 	dynasty = 1051143

@@ -2052,11 +2052,11 @@ e_persia = {
 				color={ 254 242 175 }
 				color2={ 255 255 255 }
 
-				assyian = "Shiggor"
+				assyrian = "Shiggor"
 				kurdish = "Shengal"
 				
 				b_sinjar = {
-					assyian = "Shiggor"
+					assyrian = "Shiggor"
 					kurdish = "Shengal"
 				}
 				b_hatra = {

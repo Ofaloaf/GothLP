@@ -4,19 +4,7 @@ e_scythia = {
 	
 	capital = 527 # Krakowskie
 		
-	culture = polish
-	
-	allow = {
-		hidden_tooltip = {
-			OR = {
-				ai = no
-				culture_group = west_slavic
-				culture_group = baltic
-			}
-		}
-	}
-	
-	short_name = yes
+	culture = alan
 
 	k_moravia = {
 		color={ 158 102 36 }
@@ -24,7 +12,7 @@ e_scythia = {
 
 		capital = 441 # Brno
 
-		culture = bohemian
+		culture = carantanian
 		
 		slavic_pagan_reformed = 100 # Crusade target weight
 		
@@ -57,12 +45,13 @@ e_scythia = {
 				feretolan = "Plokensiy"
 				jasi = "Plokensiy"
 				sarmatian = "Plokensiy"
+
+				holy_site = slavic_pagan
+				holy_site = slavic_pagan_reformed
 				
 				b_plock = {
 				}
-				b_pruszkow = {
-					holy_site = slavic_pagan
-					holy_site = slavic_pagan_reformed			
+				b_pruszkow = {			
 				}
 				b_warszawa = {
 				}
@@ -113,7 +102,7 @@ e_scythia = {
 				color2={ 255 255 255 }
 				
 				german = Lebus
-				swedish = Lebus
+				geatish = Lebus
 				norse = Lebus
 				norwegian = Lebus
 				danish = Lebus
@@ -125,7 +114,7 @@ e_scythia = {
 			
 				b_lubusz = {
 					german = Lebus
-					swedish = Lebus
+					geatish = Lebus
 					norse = Lebus
 					norwegian = Lebus
 					danish = Lebus
@@ -150,7 +139,7 @@ e_scythia = {
 				color2={ 255 255 255 }
 				
 				german = Gnesen
-				swedish = Gnesen
+				geatish = Gnesen
 				norse = Gnesen
 				norwegian = Gnesen
 				danish = Gnesen
@@ -162,7 +151,7 @@ e_scythia = {
 			
 				b_gniezno = {
 					german = Gnesen
-					swedish = Gnesen
+					geatish = Gnesen
 					norse = Gnesen
 					norwegian = Gnesen
 					danish = Gnesen
@@ -187,7 +176,7 @@ e_scythia = {
 				color2={ 255 255 255 }
 				
 				german = Posen
-				swedish = Posen
+				geatish = Posen
 				norse = Posen
 				norwegian = Posen
 				danish = Posen
@@ -199,7 +188,7 @@ e_scythia = {
 			
 				b_poznan = {
 					german = Posen
-					swedish = Posen
+					geatish = Posen
 					norse = Posen
 					norwegian = Posen
 					danish = Posen
@@ -258,21 +247,21 @@ e_scythia = {
 			
 				b_glogow = {
 					german = Glogau
-					swedish = Glogau
+					geatish = Glogau
 					norse = Glogau
 					norwegian = Glogau
 					danish = Glogau
 				}
 				b_legnica = {
 					german = Liegnitz
-					swedish = Liegnitz
+					geatish = Liegnitz
 					norse = Liegnitz
 					norwegian = Liegnitz
 					danish = Liegnitz
 				}
 				b_krosno = {
 					german = Krossen
-					swedish = Krossen
+					geatish = Krossen
 					norse = Krossen
 					norwegian = Krossen
 					danish = Krossen
@@ -287,7 +276,7 @@ e_scythia = {
 				}
 				b_zagan = {
 					german = Sagan
-					swedish = Sagan
+					geatish = Sagan
 					norse = Sagan
 					norwegian = Sagan
 					danish = Sagan
@@ -299,21 +288,21 @@ e_scythia = {
 			
 				b_wroclaw = {
 					german = Breslau
-					swedish = Breslau
+					geatish = Breslau
 					norse = Breslau
 					norwegian = Breslau
 					danish = Breslau
 				}
 				b_brzeg = {
 					german = Brieg
-					swedish = Brieg
+					geatish = Brieg
 					norse = Brieg
 					norwegian = Brieg
 					danish = Brieg
 				}
 				b_zmigrod = {
 					german = Trachtenberg
-					swedish = Trachtenberg
+					geatish = Trachtenberg
 					norse = Trachtenberg
 					norwegian = Trachtenberg
 					danish = Trachtenberg
@@ -328,7 +317,7 @@ e_scythia = {
 				}
 				b_henrykow = {
 					german = Heinrichau
-					swedish = Heinrichau
+					geatish = Heinrichau
 					norse = Heinrichau
 					norwegian = Heinrichau
 					danish = Heinrichau
@@ -339,7 +328,7 @@ e_scythia = {
 				color2={ 255 255 255 }
 				
 				german = Oppeln
-				swedish = Uppeln
+				geatish = Uppeln
 				norse = Uppeln
 				norwegian = Uppeln
 				danish = Uppeln
@@ -356,7 +345,7 @@ e_scythia = {
 			
 				b_opole = {
 					german = Oppeln
-					swedish = Uppeln
+					geatish = Uppeln
 					norse = Uppeln
 					norwegian = Uppeln
 					danish = Uppeln
@@ -381,7 +370,7 @@ e_scythia = {
 				color2={ 255 255 255 }
 				
 				german = Teschen
-				swedish = Teschen
+				geatish = Teschen
 				norse = Teschen
 				norwegian = Teschen
 				danish = Teschen
@@ -393,7 +382,7 @@ e_scythia = {
 			
 				b_cieszyn = {
 					german = Teschen
-					swedish = Teschen
+					geatish = Teschen
 					norse = Teschen
 					norwegian = Teschen
 					danish = Teschen
@@ -439,7 +428,7 @@ e_scythia = {
 				color2={ 255 255 255 }
 				
 				german = Krakau
-				swedish = Krakau
+				geatish = Krakau
 				norse = Krakau
 				norwegian = Krakau
 				danish = Krakau
@@ -451,7 +440,7 @@ e_scythia = {
 			
 				b_krakow = {
 					german = Krakau
-					swedish = Krakau
+					geatish = Krakau
 					norse = Krakau
 					norwegian = Krakau
 					danish = Krakau
@@ -481,7 +470,7 @@ e_scythia = {
 				color2={ 255 255 255 }
 				
 				german = Sandez
-				swedish = Sandez
+				geatish = Sandez
 				norse = Sandez
 				norwegian = Sandez
 				danish = Sandez
@@ -493,7 +482,7 @@ e_scythia = {
 			
 				b_nowysacz = {
 					german = "Neu Sandez"
-					swedish = Nysand
+					geatish = Nysand
 					norse = Nysand
 					norwegian = Nysand
 					danish = Nysand
@@ -555,7 +544,7 @@ e_scythia = {
 				color2={ 255 255 255 }
 				
 				german = Schieratz
-				swedish = Schieratz
+				geatish = Schieratz
 				norse = Schieratz
 				norwegian = Schieratz
 				danish = Schieratz
@@ -569,7 +558,7 @@ e_scythia = {
 					# Syradia
 
 					german = Schieratz
-					swedish = Schieratz
+					geatish = Schieratz
 					norse = Schieratz
 					norwegian = Schieratz
 					danish = Schieratz
@@ -654,7 +643,7 @@ e_scythia = {
 				color={ 125 50 50 }
 				color2={ 255 255 255 }
 				
-				swedish = "Livland"
+				geatish = "Livland"
 				norse = "Livland"
 				danish = "Livland"
 				norwegian = "Livland"
@@ -668,45 +657,44 @@ e_scythia = {
 				b_kokenois = {
 					ugricbaltic = Koknese
 					german = Kokenhusen
-					polish = Koknese
+					#polish = Koknese
 					lithuanian = Koknese
 				}
 				b_uxkull = { # Ikskila
-					swedish = "Yxkull"
+					geatish = "Yxkull"
 					norse = "Yxkull"
 					danish = "Yxkull"
 					norwegian = "Yxkull"
 					german = "Üxküll"
 					ugricbaltic = Ikškila
-					polish = Ikškile
+					#polish = Ikškile
 					lithuanian = Ikškile
 				}
 				b_wenden = {
 					ugricbaltic = Võnnu
-					polish = Kies
+					#polish = Kies
 					lithuanian = Cesys
 				}
 				b_wolmer = {
 					ugricbaltic = Valmiera
 					german = Wolmar
-					polish = Valmiera
+					#polish = Valmiera
 					lithuanian = Valmiera
 				}
 				b_lemisele = {
-					swedish = "Lemsal"
+					geatish = "Lemsal"
 					norse = "Lemsal"
 					danish = "Lemsal"
 					norwegian = "Lemsal"
 					german = "Lemsal"
 					ugricbaltic = Lemsalu
-					german = Lemsal
-					polish = Limbaži
+					#polish = Limbaži
 					lithuanian = Limbažiai
 				}
 				b_seswegen = {
 					ugricbaltic = Cesvaine
 					german = Sesswegen
-					polish = Cesvaine
+					#polish = Cesvaine
 					lithuanian = Cesvaine
 				}
 			}
@@ -714,7 +702,7 @@ e_scythia = {
 				color={ 170 50 50 }
 				color2={ 255 255 255 }
 				
-				swedish = Lääne
+				geatish = Lääne
 				danish = Lääne
 				
 				b_salaspils = {
@@ -727,7 +715,7 @@ e_scythia = {
 				b_parnu = {
 					ugricbaltic = Pärnu
 					german = Pernau
-					polish = Parnawa
+					#polish = Parnawa
 					lithuanian = Pernu
 				}
 				b_martna = {
@@ -745,14 +733,14 @@ e_scythia = {
 				color={ 115 5 5 }
 				color2={ 255 255 255 }
 				
-				swedish = "Dorpat"
+				geatish = "Dorpat"
 				norse = "Dorpat"
 				danish = "Dorpat"
 				norwegian = "Dorpat"
 				german = "Dorpat"
 			
 				b_tartu = {
-					swedish = "Dorpat"
+					geatish = "Dorpat"
 					norse = "Dorpat"
 					danish = "Dorpat"
 					norwegian = "Dorpat"
@@ -777,30 +765,31 @@ e_scythia = {
 				color={ 101 48 48 }
 				color2={ 255 255 255 }
 				
-				swedish = "Ösel"
+				geatish = "Ösel"
 				norse = "Ösel"
 				danish = "Øsel"
 				norwegian = "Øsel"
 				german = "Ösel"
+
+				holy_site = finnish_pagan
+				holy_site = finnish_pagan_reformed
 			
 				b_kuressare = {
-					swedish = "Arensborg"
+					geatish = "Arensborg"
 					norse = "Arensborg"
 					danish = "Arensborg"
 					norwegian = "Arensborg"
 					german = "Arensburg"
 				}
 				b_hiiumaa = {
-					swedish = "Dagö"
+					geatish = "Dagö"
 					norse = "Dagö"
 					danish = "Dagø"
 					norwegian = "Dagø"
 					german = "Dagö"
-					holy_site = finnish_pagan
-					holy_site = finnish_pagan_reformed
 				}
 				b_muhu = {
-					swedish = "Moon"
+					geatish = "Moon"
 					norse = "Moon"
 					danish = "Moon"
 					norwegian = "Moon"
@@ -878,18 +867,17 @@ e_scythia = {
 				lithuanian = "Semba"
 				lettigallish = "Semba"
 				german = "Samland"
-				swedish = "Samland"
+				geatish = "Samland"
 				norse = "Samland"
 				danish = "Samland"
 				norwegian = "Samland"
 					
 				b_konigsberg = {
-					polish = "Krolewiec"
 					prussian = "Krolewiec"
 					pommeranian = "Krolewiec"
 					lithuanian = "Krolewiec"
 					lettigallish = "Krolewiec"
-					bohemian = "Krolewiec"
+					#bohemian = "Krolewiec"
 				}
 				b_fischhausen = {
 					prussian = "Romowe"
@@ -898,7 +886,6 @@ e_scythia = {
 					lettigallish = "Romowe"	
 				}
 				b_sambrandenburg = {
-					polish = "Bramborska"
 					prussian = "Bramborska"
 					pommeranian = "Bramborska"
 				}
@@ -919,14 +906,17 @@ e_scythia = {
 				color2={ 255 255 255 }
 				
 				german = "Kulm"
-				swedish = "Kulm"
+				geatish = "Kulm"
 				norwegian = "Kulm"
 				danish = "Kulm"
 				norse = "Kulm"
+
+				holy_site = baltic_pagan
+				holy_site = baltic_pagan_reformed
 			
 				b_chelmno = {
 					german = "Kulm"
-					swedish = "Kulm"
+					geatish = "Kulm"
 					norse = "Kulm"
 					norwegian = "Kulm"
 					danish = "Kulm"
@@ -944,8 +934,6 @@ e_scythia = {
 				b_eylau = {
 				}
 				b_briesen = {
-					holy_site = baltic_pagan
-					holy_site = baltic_pagan_reformed
 				}
 			}
 		}
@@ -960,13 +948,13 @@ e_scythia = {
 				color={ 125 14 14 }
 				color2={ 255 255 255 }
 				
-				swedish = "Pallteskja"
+				geatish = "Pallteskja"
 				norse = "Pallteskja"
 				danish = "Pallteskja"
 				norwegian = "Pallteskja"
 			
 				b_polotsk = {
-					swedish = "Pallteskja"
+					geatish = "Pallteskja"
 					norse = "Pallteskja"
 					danish = "Pallteskja"
 					norwegian = "Pallteskja"
@@ -1001,7 +989,7 @@ e_scythia = {
 
 				# Latgale
 				
-				swedish = "Lettgallen"
+				geatish = "Lettgallen"
 				norse = "Lettgallen"
 				danish = "Lettgallen"
 				norwegian = "Lettgallen"
@@ -1014,29 +1002,29 @@ e_scythia = {
 				}
 				b_kreuzburg = {
 					ugricbaltic = Krustpilsi
-					polish = Krzyzbork
+					#polish = Krzyzbork
 					lithuanian = Krustpils
 				}
 				b_daugavpils = {
 					german = "Dünaburg"
-					swedish = "Dynaborg"
+					geatish = "Dynaborg"
 					norse = "Dynaborg"
 					danish = "Dynaborg"
 					norwegian = "Dynaborg"
 					finnish = "Väinänlinna"
 					russian = "Dvinsk"
 					ugricbaltic = Väinalinn
-					polish = Dyneburg
+					#polish = Dyneburg
 					lithuanian = Daugpilis
 				}
 				b_balvi = {
 					lithuanian = Balvai
 				}
 				b_rezekne = {
-					polish = Rzezyca
+					#polish = Rzezyca
 				}
 				b_kraslava = {
-					polish = Kraslaw
+					#polish = Kraslaw
 				}
 				b_vilaka = {
 					lithuanian = Viliaka
@@ -1046,7 +1034,7 @@ e_scythia = {
 					german = Varaklani
 				}
 				b_ludza = {
-					polish = Lucyn
+					#polish = Lucyn
 				}
 			}
 		}
@@ -1151,14 +1139,15 @@ e_scythia = {
 			c_podlasie = {
 				color={ 148 100 100 }
 				color2={ 255 255 255 }
+
+				holy_site = baltic_pagan
+				holy_site = baltic_pagan_reformed
 				
 				b_drohiczyn = {
 				}
 				b_kolno = {
 				}
 				b_sejny = {
-					holy_site = baltic_pagan
-					holy_site = baltic_pagan_reformed
 				}
 				b_lomza = {
 				}
@@ -1180,7 +1169,7 @@ e_scythia = {
 			capital = 373 # Kurzeme
 			
 			german = "Kurland"
-			swedish = "Kurland"
+			geatish = "Kurland"
 			norse = "Kurland"
 			danish = "Kurland"
 			norwegian = "Kurland"
@@ -1193,14 +1182,15 @@ e_scythia = {
 				color2={ 255 255 255 }
 				
 				german = "Riga"
-				swedish = "Riga"
+				geatish = "Riga"
 				norse = "Riga"
 				danish = "Riga"
 				norwegian = "Riga"
+
+				holy_site = baltic_pagan
+				holy_site = baltic_pagan_reformed
 				
 				b_riga = {
-					holy_site = baltic_pagan
-					holy_site = baltic_pagan_reformed
 				}
 				b_bauska = {
 				}
@@ -1222,7 +1212,7 @@ e_scythia = {
 				color2={ 255 255 255 }
 				
 				german = "Kurland"
-				swedish = "Kurland"
+				geatish = "Kurland"
 				norse = "Kurland"
 				danish = "Kurland"
 				norwegian = "Kurland"
@@ -1256,10 +1246,10 @@ e_scythia = {
 			german = "Sameiten"
 			prussian = "Zhmud"
 			lithuanian = "Zemaitija"
-			polish = "Zhmudz"
+			#polish = "Zhmudz"
 			russian = "Zhmud"
 			pommeranian = "Zhmud"
-			bohemian = "Zhmud"
+			#bohemian = "Zhmud"
 			lettigallish = "Zemaiteje"
 			
 			c_scalovia = {
@@ -1268,8 +1258,8 @@ e_scythia = {
 					
 				b_ragnit = {
 					pommeranian = "Ragneta"
-					polish = "Ragneta"
-					bohemian = "Ragneta"
+					#polish = "Ragneta"
+					#bohemian = "Ragneta"
 					russian = "Ragneta"
 					prussian = "Ragnita"
 					lithuanian = "Ragaine"
@@ -1300,11 +1290,11 @@ e_scythia = {
 				}
 				b_gargzdai = {
 					german = "Garsden"
-					swedish = "Garsden"
+					geatish = "Garsden"
 					norse = "Garsden"
 					danish = "Garsden"
 					norwegian = "Garsden"
-					polish = "Gorzdy"
+					#polish = "Gorzdy"
 					russian = "Gorzhdy"
 				}
 				b_kaup = {
@@ -1327,22 +1317,22 @@ e_scythia = {
 				german = "Sameiten"
 				prussian = "Zhmud"
 				lithuanian = "Zemaitija"
-				polish = "Zhmudz"
+				#polish = "Zhmudz"
 				russian = "Zhmud"
 				pommeranian = "Zhmud"
-				bohemian = "Zhmud"
+				#bohemian = "Zhmud"
 				lettigallish = "Zemaiteje"
 				
 				b_raseiniai = {
 					german = "Raseinen"
-					swedish = "Raseinen"
+					geatish = "Raseinen"
 					norse = "Raseinen"
 					danish = "Raseinen"
 					norwegian = "Raseinen"
 				}
 				b_jurbarkas = {
 					german = "Georgenburg"
-					swedish = "Georgsborg"
+					geatish = "Georgsborg"
 					norse = "Georgsborg"
 					danish = "Georgsborg"
 					norwegian = "Georgsborg"
@@ -1386,7 +1376,7 @@ e_scythia = {
 		}
 		
 		norse = Könugarðr
-		swedish = Könugård
+		geatish = Könugård
 		norwegian = Kønugård
 		danish = Kønugård
 		
@@ -1398,7 +1388,7 @@ e_scythia = {
 			capital = 547 # Kiev
 			
 			norse = Könugarðr
-			swedish = Könugård
+			geatish = Könugård
 			norwegian = Kønugård
 			danish = Kønugård
 
@@ -1455,7 +1445,7 @@ e_scythia = {
 				color2={ 255 255 255 }
 				
 				norse = Könugarðr
-				swedish = Könugård
+				geatish = Könugård
 				norwegian = Kønugård
 				danish = Kønugård
 
@@ -1472,10 +1462,13 @@ e_scythia = {
 				feretolan = Sambat
 				jasi = Sambat
 				sarmatian = Sambat
+
+				holy_site = slavic_pagan
+				holy_site = slavic_pagan_reformed
 	
 				b_kiev = {
 					norse = Könugarðr
-					swedish = Könugård
+					geatish = Könugård
 					norwegian = Kønugård
 					danish = Kønugård
 
@@ -1493,9 +1486,7 @@ e_scythia = {
 					jasi = Sambat
 					sarmatian = Sambat
 				}
-				b_yuriev = {
-					holy_site = slavic_pagan
-					holy_site = slavic_pagan_reformed				
+				b_yuriev = {				
 				}
 				b_iskorosten = {
 				}
@@ -1842,13 +1833,13 @@ e_scythia = {
 				color={ 229 244 185 }
 				color2={ 255 255 255 }
 				
-				swedish = "Smaleskja"
+				geatish = "Smaleskja"
 				norse = "Smaleskja"
 				danish = "Smaleskja"
 				norwegian = "Smaleskja"
 					
 				b_smolensk = {
-					swedish = "Smaleskja"
+					geatish = "Smaleskja"
 					norse = "Smaleskja"
 					danish = "Smaleskja"
 					norwegian = "Smaleskja"
@@ -1998,12 +1989,13 @@ e_scythia = {
 				feretolan = "Debr"
 				jasi = "Debr"
 				sarmatian = "Debr"
+
+				holy_site = baltic_pagan
+				holy_site = baltic_pagan_reformed
 				
 				b_bryansk = {
 				}
 				b_pochep = {
-					holy_site = baltic_pagan
-					holy_site = baltic_pagan_reformed
 				}
 				b_orel = {
 				}
@@ -2053,13 +2045,13 @@ e_scythia = {
 				color={ 101 130 50 }
 				color2={ 255 255 255 }
 				
-				swedish = "Moramar"
+				geatish = "Moramar"
 				norse = "Moramar"
 				danish = "Moramar"
 				norwegian = "Moramar"
 				
 				b_murom = {
-					swedish = "Moramar"
+					geatish = "Moramar"
 					norse = "Moramar"
 					danish = "Moramar"
 					norwegian = "Moramar"
@@ -2082,12 +2074,13 @@ e_scythia = {
 			c_ryazan = {
 				color={ 121 140 50 }
 				color2={ 255 255 255 }
+
+				holy_site = finnish_pagan
+				holy_site = finnish_pagan_reformed
 					
 				b_ryazan = {
 				}
 				b_solotcha = {
-					holy_site = finnish_pagan
-					holy_site = finnish_pagan_reformed
 				}
 				b_grodets = {
 				}

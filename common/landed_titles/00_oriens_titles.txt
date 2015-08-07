@@ -280,7 +280,6 @@ e_oriens = {
 
 				holy_site = catholic
 				holy_site = orthodox
-				holy_site = nicene
 				holy_site = sunni
 				holy_site = shiite
 				holy_site = miaphysite

@@ -106,8 +106,6 @@ e_britannia = {
 					saxon = "Cantwareburh"
 					old_saxon = "Cantwareburg"
 					old_frankish = "Cantwareburg"
-
-					holy_site = catholic
 				}
 				b_faversham = {
 					# Durolevum
@@ -418,6 +416,10 @@ e_britannia = {
 
 				brithenig = "Caer Lundein"
 				welsh = "Llundain"
+
+				holy_site = aztec
+				holy_site = aztec_reformed
+				holy_site = arian
 			
 				b_romford = {
 					# Durolitum
@@ -426,10 +428,6 @@ e_britannia = {
 					# Londinium
 
 					used_for_dynasty_names = no
-
-					holy_site = aztec
-					holy_site = aztec_reformed
-					holy_site = arian
 
 					brithenig = "Lundein"
 					welsh = "Llundain"
@@ -630,6 +628,9 @@ e_britannia = {
 				# Sorbiodunum
 
 				brithenig = "Sorbiodunon"
+
+				holy_site = celtic_pagan
+				holy_site = celtic_pagan_reformed
 			
 				b_wilton = {
 					# Cunetio # actually Mildenhall, Wiltshire
@@ -661,6 +662,11 @@ e_britannia = {
 				}
 				b_marlborough = {
 					# Cunetio
+				}
+				b_stonehenge = { # previously b_waltham
+					welsh = "Cor y Cewri"
+
+					used_for_dynasty_names = no
 				}
 			}
 			c_oxford = {
@@ -1228,6 +1234,9 @@ e_britannia = {
 				pictish = "Nouantia"
 				welsh = "Nofant"
 				irish = "Na Rannaibh"
+
+				holy_site = celtic_pagan
+				holy_site = celtic_pagan_reformed
 				
 				b_dumfries = {
 					pictish = "Dunrad"
@@ -1251,9 +1260,6 @@ e_britannia = {
 					pictish = "Taiuuan"
 					welsh = "Tygwyn"
 					irish = "Taigh Mhàrtainn"
-
-					holy_site = celtic_pagan
-					holy_site = celtic_pagan_reformed
 				}
 				b_dunrod = {
 					pictish = "Dun Brin"
@@ -2730,6 +2736,8 @@ e_britannia = {
 				irish = Dubhlinn
 				welsh = Dulyn
 
+				holy_site = celtic_pagan
+				holy_site = celtic_pagan_reformed
 				
 				b_dublin = {
 					norse = Dyflinn
@@ -2752,9 +2760,6 @@ e_britannia = {
 				}
 				b_mellifont = {
 					irish = "An Mhainistir Mhór"
-
-					holy_site = celtic_pagan
-					holy_site = celtic_pagan_reformed
 				}
 				b_trim = {
 					irish = "Baile Átha Troim"

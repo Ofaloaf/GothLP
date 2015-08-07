@@ -7155,23 +7155,6 @@
 	}
 }
 
-166323 = {
-	name="Rabban Marcos"
-	religion="nestorian"
-	culture="mongol" #Either Öngüd or Turkic Uyghur descent
-	trait="scholarly_theologian"
-	1245.1.1={
-		birth="1245.1.1"
-	}
-	1281.1.1={
-		name="Yahballaha"
-	}
-	1317.1.1={
-		death="1317.1.1"
-		give_nickname=nick_the_holy
-	}
-}
-
 166324 = {
 	name="Timai"
 	religion="nestorian"

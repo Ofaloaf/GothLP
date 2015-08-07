@@ -104,7 +104,7 @@
 }
 
 1099022 = {
-	name = "Fulcheri
+	name = "Fulcheri"
 	culture = ultramarini
 }
 

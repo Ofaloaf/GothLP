@@ -11,7 +11,7 @@
 	trait=craven
 	trait=ambitious
 	trait=zealous
-	trait=detatched_priest
+	trait=martial_cleric
 	714.1.1={
 		birth=yes
 	}

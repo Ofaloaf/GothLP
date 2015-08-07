@@ -104,6 +104,9 @@ e_byzantium = {
 
 				traki = "Konstantinograd"
 				rimlyani = "Konstantinograd"
+
+				holy_site = orthodox
+				holy_site = catholic
 				
 				b_constantinople = {
 					traki = "Konstantinograd"
@@ -111,8 +114,7 @@ e_byzantium = {
 				}
 				b_hagiasophia = {
 					pentarchy = yes
-					holy_site = orthodox
-					holy_site = nicene
+
 					turkish = "Ayasofya"
 				}
 				b_galata = {
@@ -553,6 +555,8 @@ e_byzantium = {
 				hispani = "Thessalonica"
 				dalmatian = "Thessalonica"
 				gallaecian = "Thessalonica"
+
+				holy_site = hellenic_pagan
 				
 				b_thessaloniki = {
 					traki = "Solun"
@@ -566,7 +570,6 @@ e_byzantium = {
 					gallaecian = "Thessalonica"
 				}
 				b_thesedessa = {
-					holy_site = hellenic_pagan
 				}
 				b_voden = {
 					traki = "Vodinu"
@@ -658,13 +661,14 @@ e_byzantium = {
 
 				traki = "Atena"
 				rimlyani = "Atena"
+
+				holy_site = hellenic_pagan
 				
 				b_athens = {
 					traki = "Atena"
 					rimlyani = "Atena"
 				}
 				b_piraeaus = {
-					holy_site = hellenic_pagan
 				}
 				b_megara = {
 				}
@@ -1067,7 +1071,7 @@ e_byzantium = {
 		color = { 194 63 48 }
 		color2= { 255 255 255 }
 
-		capital = 759 # Ikonion
+		capital = 745 # Smyrna
 
 		d_aegean_islands = {
 			color={ 24 50 123 }
@@ -1329,6 +1333,8 @@ e_byzantium = {
 				turkish = "Balakhisar"
 				traki = Abid
 				rimlyani = Abidos
+
+				holy_site = hellenic_pagan
 				
 				b_abydos = {
 					turkish = "Balakhisar"
@@ -1336,7 +1342,6 @@ e_byzantium = {
 					rimlyani = Abidos
 				}
 				b_lampsakos = {
-					holy_site = hellenic_pagan
 				}
 				b_alexandriatroas = {
 				}
@@ -1356,7 +1361,7 @@ e_byzantium = {
 			color={ 225 234 115 }
 			color2={ 255 255 20 }
 			
-			capital = 486 # Samos
+			capital = 745 # Smyrna
 			
 			c_ephesos = {
 				color={ 215 226 69 }
@@ -1443,9 +1448,10 @@ e_byzantium = {
 				color2={ 255 255 20 }
 				
 				turkish = "Konya"
+
+				holy_site = sunni
 				
 				b_ikonion = {
-					holy_site = sunni
 					turkish = "Konya"
 				}
 				b_lisdra = {
@@ -1592,11 +1598,7 @@ e_byzantium = {
 	}
 	k_pontus = {
 		color={ 40  164  157 }
-		color2={ 255 255 23 }
-	
-
-		capital = 759 # Ikonion
-		
+		color2={ 255 255 23 }		
 
 		culture = greek
 		

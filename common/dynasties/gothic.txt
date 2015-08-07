@@ -29,7 +29,7 @@
 }
 
 405007 = {
-	name = "Amalius"
+	name = "Amaling"
 	culture = gothic
 }
 

@@ -4,7 +4,7 @@ e_carpathia = {
 	
 	capital = 522 # Pest
 	
-	culture = hungarian
+	culture = jasi
 	
 	tengri_pagan_reformed = 100
 	slavic_pagan_reformed = 50 # Crusade target weight
@@ -277,12 +277,13 @@ e_carpathia = {
 				color2={ 255 255 255 }
 
 				# Petrodava
+
+				holy_site = slavic_pagan
+				holy_site = slavic_pagan_reformed
 			
 				b_barlad = {
 				}
 				b_husi = {
-					holy_site = slavic_pagan
-					holy_site = slavic_pagan_reformed
 				}
 				b_vaslui = {
 				}
@@ -512,14 +513,14 @@ e_carpathia = {
 			capital = 443 # Nitra
 
 			german = Neutra
-			bohemian = Nitra
+			traki = Nitra
 			
 			c_nitra = {
 				color={ 194 25 25 }
 				color2={ 255 255 255 }
 
 				german = Neutra
-				bohemian = Nitra
+				traki = Nitra
 				
 				b_nyitra = {
 				}
@@ -570,7 +571,7 @@ e_carpathia = {
 				color={ 202 33 33 }
 				color2={ 255 255 255 }
 				
-				hungarian = Gömör
+				jasi = Gömör
 				
 				b_gomor = {
 				}
@@ -594,7 +595,7 @@ e_carpathia = {
 				color2={ 255 255 255 }
 
 				german = Arwa
-				hungarian = Árva
+				jasi = Árva
 				
 				b_arvavara = {
 				}
@@ -620,8 +621,8 @@ e_carpathia = {
 			
 			capital = 538 # Abauj
 			
-			croatian = Chrobatia
-			bohemian = Uzhorod	
+			traki = Chrobatia
+			carantanian = Uzhorod	
 			
 			c_saris = { # "Spis" in-game
 				color={ 158 17 17 }
@@ -674,7 +675,7 @@ e_carpathia = {
 				color2={ 255 255 255 }
 
 				german = Neuburg
-				bohemian = Abov
+				traki = Abov
 				
 				b_abauj = {
 				}
@@ -752,13 +753,14 @@ e_carpathia = {
 				color2={ 255 255 255 }
 
 				# Aquincum
+
+				holy_site = tengri_pagan
+				holy_site = tengri_pagan_reformed
 				
 				b_pest = {
 					# Aquincum
 				}
 				b_vac = {
-					holy_site = tengri_pagan
-					holy_site = tengri_pagan_reformed
 				}
 				b_kecskemet = {
 				}
@@ -886,7 +888,7 @@ e_carpathia = {
 			capital = 517 # Temes
 
 			romanian = Timis
-			serbian = Tamis
+			traki = Tamis
 			
 			c_temes = {
 				color={ 153 127 64 }

@@ -3,7 +3,7 @@ e_scandinavia = {
 	color2={ 255 255 0 }
 	capital = 290 # Uppland
 	
-	culture = swedish
+	culture = geatish
 	
 	norse_pagan_reformed = 500 # Crusade target weight
 	
@@ -59,13 +59,14 @@ e_scandinavia = {
 			c_uppland = {
 				color={ 30 30 155 }
 				color2={ 255 255 255 }
+
+				holy_site = norse_pagan
+				holy_site = norse_pagan_reformed
 				
 				b_sigtuna = {
 				}
 				b_uppsala = {
-			   	# norse = Uppsalir
-					holy_site = norse_pagan
-					holy_site = norse_pagan_reformed
+			   		norse = Uppsalir
 				}
 				b_osteras = {
 					norwegian = "Østerås"
@@ -332,6 +333,8 @@ e_scandinavia = {
 				norwegian = "Vestergøtland"
 				danish = "Vestergøtland"
 				norse = "Vestergautland"
+
+				holy_site = pagan
 				
 				b_galakvist = {
 					norwegian = "Gælakvist"
@@ -342,7 +345,6 @@ e_scandinavia = {
 					danish = "Lødøse"
 				}
 				b_skara = {
-					holy_site = pagan
 				}
 				b_falkoping = {
 					norwegian = "Falkøping"
@@ -449,7 +451,6 @@ e_scandinavia = {
 			}
 			c_vasterbotten = {
 				color={ 53 196 164 }
-				color={ 70 70 156 }
 				color2={ 255 255 255 }
 				
 				norwegian = "Vesterbotten"
@@ -752,7 +753,7 @@ e_scandinavia = {
 		
 		norse = Danmark
 		danish = Danmark
-		swedish = Danmark
+		geatish = Danmark
 		norwegian = Danmark
 		pommeranian = "Zememerania"
 		
@@ -833,7 +834,7 @@ e_scandinavia = {
 				b_hammershus = {
 				}
 				b_nexo = {
-					swedish = "Nexö"
+					geatish = "Nexö"
 					norse = "Nexö"
 				}
 				b_aakirkeby = {
@@ -880,7 +881,7 @@ e_scandinavia = {
 			
 			dignity = 8
 			
-			swedish = Själland
+			geatish = Själland
 			english = Zealand
 			norse = Sjælland
 			pommeranian = "Zemjemore"
@@ -903,26 +904,29 @@ e_scandinavia = {
 				color={ 216 50 50 }
 				color2={ 255 255 255 }
 				
-				swedish = Själland
+				geatish = Själland
 				norse = Sjælland
 				english = Zealand
 				pommeranian = "Zemjemore"
 				carantanian = "Zemjemore"
+
+				holy_site = norse_pagan
+				holy_site = norse_pagan_reformed
 				
 				b_kobenhavn = {
-					swedish = Köpenhamn
+					geatish = Köpenhamn
 					norse = Hafn
 				}
 				b_roskilde = {
 				}
 				b_helsingor = {
-					swedish = Helsingör
+					geatish = Helsingör
 					norse = Helsingör
 				}
 				b_kalundborg = {
 				}
 				b_naestved = {
-					swedish = Nästved
+					geatish = Nästved
 					norse = Næstved
 				}
 				b_slagelse = {
@@ -932,9 +936,7 @@ e_scandinavia = {
 				b_ringsted = {
 				}
 				b_lejre = {
-					norse = Hleiðra
-					holy_site = norse_pagan
-					holy_site = norse_pagan_reformed		
+					norse = Hleiðra		
 				}
 			}
 			c_fyn = {
@@ -1003,13 +1005,13 @@ e_scandinavia = {
 					carantanian = "Szlezwik"
 				}
 				b_sonderborg = {
-					swedish = "Sönderborg"
+					geatish = "Sönderborg"
 					german = "Sonderburg"
 				}
 				b_tonder = {
 				}
 				b_aabenraa = {
-					swedish = "Åbenrå"
+					geatish = "Åbenrå"
 					german = "Apenrade"
 				}
 				b_haderslev = {
@@ -1031,14 +1033,14 @@ e_scandinavia = {
 				carantanian = "Jutsko"
 			
 				b_aarhus = {
-					swedish = "Århus"
+					geatish = "Århus"
 				}
 				b_viborg = {
 				}
 				b_aalborg = {
 				}
 				b_ringkobing = {
-					swedish = "Ringköping"
+					geatish = "Ringköping"
 					norse = Ringköping
 				}
 				b_randers = {
@@ -1068,7 +1070,7 @@ e_scandinavia = {
 		
 		norse = Noregr
 		danish = Norge
-		swedish = Norge
+		geatish = Norge
 		norwegian = Norge
 		
 		d_iceland = {
@@ -1079,19 +1081,19 @@ e_scandinavia = {
 			
 			norse = Island
 			danish = Island
-			swedish = Island
+			geatish = Island
 			norwegian = Island
 			
 			c_vestisland = {
 				color={ 190 230 250 }
 				color2={ 220 220 220 }
 				
-				swedish = "Västisland"
+				geatish = "Västisland"
 				
 				b_reykjavik = {
 				}
 				b_alftanes = {
-					swedish = "Alftanäs"
+					geatish = "Alftanäs"
 				}
 				b_skalholt = {
 				}
@@ -1110,7 +1112,7 @@ e_scandinavia = {
 				color={ 185 195 255 }
 				color2={ 220 220 220 }
 				
-				swedish = "Östisland"
+				geatish = "Östisland"
 				
 				b_husavik = {
 				}
@@ -1158,7 +1160,7 @@ e_scandinavia = {
 				color={ 116 145 239 }
 				color2={ 255 255 255 }
 				
-				swedish = "Färöarna"
+				geatish = "Färöarna"
 				pictish = "Caliu"
 				welsh = "Ynysoedd Ceiliau"
 				irish = "Innse Caora"
@@ -1210,7 +1212,7 @@ e_scandinavia = {
 				
 				norwegian = "Hjaltland"
 				danish = "Hjaltland"
-				swedish = "Hjaltland"
+				geatish = "Hjaltland"
 				norse = "Hjaltland"
 				pictish = "Insee Cait"
 				welsh = "Ynysoedd Cait"
@@ -1234,7 +1236,7 @@ e_scandinavia = {
 				b_cunningsburgh = {
 					norwegian = "Konungsborg"
 					danish = "Konungsborg"
-					swedish = "Konungsborg"
+					geatish = "Konungsborg"
 					norse = "Konungsborg"
 					pictish = "Caer Rui"
 					welsh = "Caer Rhi"
@@ -1265,7 +1267,7 @@ e_scandinavia = {
 				color={ 106 140 235 }
 				color2={ 255 255 255 }
 				
-				swedish = "Orknö"
+				geatish = "Orknö"
 				danish = "Orknø"
 				norse = "Orknö"
 				pictish = "Insee Orc"
@@ -1275,7 +1277,7 @@ e_scandinavia = {
 				b_kirkwall = {
 					norwegian = "Kirkuvåg"
 					danish = "Kyrkovik"
-					swedish = "Kyrkovik"
+					geatish = "Kyrkovik"
 					norse = "Kyrkovik"
 					pictish = "Icluasctreh"
 					welsh = "Eglwystref"
@@ -1284,7 +1286,7 @@ e_scandinavia = {
 				b_birsay = {
 					norwegian = "Birgishærad"
 					danish = "Birgishærad"
-					swedish = "Birgishärad"
+					geatish = "Birgishärad"
 					norse = "Birgishærad"
 					pictish = "Brideclauet"
 					welsh = "Ffraidclywed"
@@ -1529,7 +1531,7 @@ e_scandinavia = {
 			
 			capital = 275 # Trondelag
 			
-			swedish = "Tröndelag"
+			geatish = "Tröndelag"
 			german = "Tröndelag"
 			norse = "Nidaros"
 			
@@ -1550,7 +1552,7 @@ e_scandinavia = {
 				color={ 20 155 255 }
 				color2={ 255 255 255 }
 				
-				swedish = "Tröndelag"
+				geatish = "Tröndelag"
 				german = "Tröndelag"
 				norse = "Tröndelag"
 				
@@ -1574,6 +1576,9 @@ e_scandinavia = {
 			c_naumadal = {
 				color={ 25 205 240 }
 				color2={ 255 255 255 }
+
+				holy_site = norse_pagan
+				holy_site = norse_pagan_reformed
 				
 				b_tinghaugen = {
 				}
@@ -1586,8 +1591,6 @@ e_scandinavia = {
 				b_hegra = {
 				}
 				b_maere = {
-					holy_site = norse_pagan
-					holy_site = norse_pagan_reformed
 				}
 				b_leksvik = {
 				}
@@ -1689,7 +1692,7 @@ e_scandinavia = {
 				color={ 40 76 225 }
 				color2={ 255 255 255 }
 				
-				swedish = "Härjedalen"
+				geatish = "Härjedalen"
 				norse = "Herjadal"
 				
 				b_sveg = {
@@ -1769,13 +1772,13 @@ e_scandinavia = {
 				color={ 135 60 60 }
 				color2={ 255 255 255 }
 				
-				swedish = "Kandalax"
+				geatish = "Kandalax"
 				norse = "Kandalax"
 				norwegian = "Kandalax"
 				danish = "Kandalax"
 			
 				b_kantalahti = {
-					swedish = "Kandalax"
+					geatish = "Kandalax"
 					norse = "Kandalax"
 					norwegian = "Kandalax"
 					danish = "Kandalax"
@@ -1829,35 +1832,35 @@ e_scandinavia = {
 				color={ 160 85 85 }
 				color2={ 255 255 255 }
 				
-				swedish = "Reval"
+				geatish = "Reval"
 				danish = "Reval"
 				norwegian = "Reval"
 				german = "Reval"
 				norse = "Reval"
 			
 				b_reval = { # Kalevan
-					swedish = "Reval"
+					geatish = "Reval"
 					danish = "Reval"
 					norwegian = "Reval"
 					german = "Reval"
 					norse = "Reval"
 				}
 				b_hapsal = { # Haapsalu
-					swedish = "Hapsal"
+					geatish = "Hapsal"
 					danish = "Hapsal"
 					norwegian = "Hapsal"
 					german = "Hapsal"
 					norse = "Hapsal"
 				}
 				b_toompea = {
-					swedish = "Domberg"
+					geatish = "Domberg"
 					danish = "Domberg"
 					norwegian = "Domberg"
 					german = "Domberg"
 					norse = "Domberg"
 				}
 				b_leal = { # Lihula
-					swedish = "Lehal"
+					geatish = "Lehal"
 					danish = "Lehal"
 					norwegian = "Lehal"
 					german = "Leal"
@@ -1901,13 +1904,13 @@ e_scandinavia = {
 				russian = "Ingriya"
 				ilmenian = "Ingriya"
 				severian = "Ingriya"
-				swedish = "Ingermanland"
+				geatish = "Ingermanland"
 			
 				b_nyen = {
 					finnish = "Nevanlinna"
 				}
 				b_noteborg = {
-					swedish = "Nöteborg"
+					geatish = "Nöteborg"
 					norse = "Nöteborg"
 					norwegian = "Nøteborg"
 					danish = "Nøteborg"
@@ -1916,13 +1919,13 @@ e_scandinavia = {
 				}
 				b_valaam = {
 					finnish = "Valamo"
-					swedish = "Valamo"
+					geatish = "Valamo"
 					norse = "Valamo"
 				}
 				b_jogopera = {
 				}
 				b_ivanovskaya = { # Teusina
-					swedish = "Teusina"
+					geatish = "Teusina"
 					norwegian = "Teusina"
 					norse = "Teusina"
 					danish = "Teusina"
@@ -1934,7 +1937,7 @@ e_scandinavia = {
 				}
 				b_khotchino = {
 					finnish = "Hatsina"
-					swedish = "Hatsina"
+					geatish = "Hatsina"
 					norse = "Hatsina"
 				}
 			}
@@ -1945,7 +1948,7 @@ e_scandinavia = {
 			
 			capital = 388 # Karjala
 			
-			swedish = "Karelen"
+			geatish = "Karelen"
 			danish = "Karelen"
 			norse = "Karelen"
 			norwegian = "Karelen"
@@ -1955,19 +1958,19 @@ e_scandinavia = {
 				color={ 120 10 10 }
 				color2={ 255 255 255 }
 				
-				swedish = "Savolax"
+				geatish = "Savolax"
 				norse = "Savolax"
 				norwegian = "Savolax"
 				danish = "Savolax"
 			
 				b_olavinlinna = {
-					swedish = "Olofsborg"
+					geatish = "Olofsborg"
 					norse = "Olofsborg"
 					norwegian = "Olavsborg"
 					danish = "Olavsborg"
 				}
 				b_mikkeli = {
-					swedish = "St Michel"
+					geatish = "St Michel"
 					norse = "St Michel"
 					norwegian = "St Michel"
 					danish = "St Michel"
@@ -1977,13 +1980,13 @@ e_scandinavia = {
 				b_sotkamo = {
 				}
 				b_brahelinna = {
-					swedish = "Brahehus"
+					geatish = "Brahehus"
 					norse = "Brahehus"
 					norwegian = "Brahehus"
 					danish = "Brahehus"
 				}
 				b_iisalmi = {
-					swedish = "Idensalmi"
+					geatish = "Idensalmi"
 					norse = "Idensalmi"
 					norwegian = "Idensalmi"
 					danish = "Idensalmi"
@@ -1997,7 +2000,7 @@ e_scandinavia = {
 				color={ 165 45 45 }
 				color2={ 255 255 255 }
 				
-				swedish = "Onega"
+				geatish = "Onega"
 				norse = "Onega"
 				danish = "Onega"
 				norwegian = "Onega"
@@ -2024,7 +2027,7 @@ e_scandinavia = {
 				color={ 135 25 25 }
 				color2={ 255 255 255 }
 				
-				swedish = "Östkarelen"
+				geatish = "Östkarelen"
 				norse = "Östkarelen"
 				danish = "Østkarelen"
 				norwegian = "Østkarelen"
@@ -2051,23 +2054,24 @@ e_scandinavia = {
 				color={ 185 70 70 }
 				color2={ 255 255 255 }
 				
-				swedish = "Kexholm"
+				geatish = "Kexholm"
 				norse = "Kexholm"
 				norwegian = "Kexholm"
 				danish = "Kexholm"
+
+				holy_site = finnish_pagan
+				holy_site = finnish_pagan_reformed	
 			
 				b_antrea = {
-					swedish = "St Andree"
+					geatish = "St Andree"
 					norse = "St Andree"
 					norwegian = "St Andree"
 					danish = "St Andree"
 				}
-				b_raivola = {
-					holy_site = finnish_pagan
-					holy_site = finnish_pagan_reformed				
+				b_raivola = {			
 				}
 				b_kakisalmi = {
-					swedish = "Kexholm"
+					geatish = "Kexholm"
 					norse = "Kexholm"
 					norwegian = "Kexholm"
 					danish = "Kexholm"
@@ -2102,43 +2106,43 @@ e_scandinavia = {
 				color={ 185 65 65 }
 				color2={ 255 255 255 }
 				
-				swedish = "Nyland"
+				geatish = "Nyland"
 				norse = "Nyland"
 				norwegian = "Nyland"
 				danish = "Nyland"
 			
 				b_porvoo = {
-					swedish = "Borgå"
+					geatish = "Borgå"
 					norse = "Borgå"
 					norwegian = "Borgå"
 					danish = "Borgå"
 				}
 				b_raseborg = {
-					swedish = "Raseborg"
+					geatish = "Raseborg"
 					norse = "Raseborg"
 					norwegian = "Raseborg"
 					danish = "Raseborg"
 				}
 				b_espoo = {
-					swedish = "Esbo"
+					geatish = "Esbo"
 					norse = "Esbo"
 					norwegian = "Esbo"
 					danish = "Esbo"
 				}
 				b_siuntio = {
-					swedish = "Sjundeå"
+					geatish = "Sjundeå"
 					norse = "Sjundeå"
 				}
 				b_svartholm = {
 				}
 				b_hanko = {
-					swedish = "Hangö"
+					geatish = "Hangö"
 					norse = "Hangö"
 					norwegian = "Hangø"
 					danish = "Hangø"
 				}
 				b_lohja = {
-					swedish = "Lojo"
+					geatish = "Lojo"
 					norse = "Lojo"
 					norwegian = "Lojo"
 					danish = "Lojo"
@@ -2150,25 +2154,25 @@ e_scandinavia = {
 				color={ 125 15 15 }
 				color2={ 255 255 255 }
 				
-				swedish = "Finland"
+				geatish = "Finland"
 				norwegian = "Finland"
 				norse = "Finland"
 				danish = "Finland"
 			
 				b_kuusisto  = {
-					swedish = "Kustö"
+					geatish = "Kustö"
 					norse = "Kustö"
 					norwegian = "Kustø"
 					danish = "Kustø"
 				}
 				b_turku  = {
-					swedish = "Åbo"
+					geatish = "Åbo"
 					norse = "Åbo"
 					norwegian = "Åbo"
 					danish = "Åbo"
 				}
 				b_naantali = {
-					swedish = "Nådendal"
+					geatish = "Nådendal"
 					norse = "Nådendal"
 					norwegian = "Nådendal"
 					danish = "Nådendal"
@@ -2176,13 +2180,13 @@ e_scandinavia = {
 				b_rikala  = {
 				}
 				b_rauma  = {
-					swedish = "Raumo"
+					geatish = "Raumo"
 					norse = "Raumo"
 				}
 				b_jukarsborg  = {
 				}
 				b_lieto  = {
-					swedish = "Lundo"
+					geatish = "Lundo"
 					norse = "Lundo"
 				}
 				b_stenberga  = {
@@ -2192,13 +2196,13 @@ e_scandinavia = {
 				color={ 130 20 20 }
 				color2={ 255 255 255 }
 				
-				swedish = "Tavastehus"
+				geatish = "Tavastehus"
 				norwegian = "Tavastehus"
 				danish = "Tavastehus"
 				norse = "Tavastehus"
 			
 				b_hameenlinna = {
-					swedish = "Tavastehus"
+					geatish = "Tavastehus"
 					norwegian = "Tavastehus"
 					danish = "Tavastehus"
 					norse = "Tavastehus"
@@ -2222,13 +2226,13 @@ e_scandinavia = {
 				color={ 116 46 46 }
 				color2={ 255 255 255 }
 				
-				swedish = "Satakunda"
+				geatish = "Satakunda"
 				norse = "Satakunda"
 			
 				b_ulvila = {
 				}
 				b_liinmaa = {
-					swedish = "Vredenborg"
+					geatish = "Vredenborg"
 					norse = "Vredenborg"
 					norwegian = "Vredenborg"
 					danish = "Vredenborg"
@@ -2251,19 +2255,19 @@ e_scandinavia = {
 				color={ 152 66 66 }
 				color2={ 255 255 255 }
 				
-				swedish = "Österbotten"
+				geatish = "Österbotten"
 				norwegian = "Østerbotten"
 				danish = "Østerbotten"
 				norse = "Austerbotn"
 			
 				b_oulu = {
-					swedish = "Uleåborg"
+					geatish = "Uleåborg"
 					norse = "Uleåborg"
 					norwegian = "Uleåborg"
 					danish = "Uleåborg"
 				}
 				b_nykarleby = {
-					swedish = "Nykarleby"
+					geatish = "Nykarleby"
 					norse = "Nykarleby"
 					norwegian = "Nykarleby"
 					danish = "Nykarleby"

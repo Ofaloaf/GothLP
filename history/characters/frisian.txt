@@ -37,9 +37,7 @@
 		birth="680.1.1"
 	}
 	734.1.1 = {
-		death = {
-			death=yes
-		}
+		death = yes
 	}
 }
 

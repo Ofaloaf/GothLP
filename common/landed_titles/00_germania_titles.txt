@@ -600,14 +600,15 @@ e_germany = {
 				feretolan = "Rujaniy"
 				jasi = "Rujaniy"
 				sarmatian = "Rujaniy"
+
+				holy_site = slavic_pagan
+				holy_site = slavic_pagan_reformed
+				holy_site = baltic_pagan
+				holy_site = baltic_pagan_reformed
 				
 				b_charenza = {
 				}
 				b_arkona = {
-					holy_site = slavic_pagan
-					holy_site = slavic_pagan_reformed
-					holy_site = baltic_pagan
-					holy_site = baltic_pagan_reformed
 				}
 				b_rugard = {
 				}
@@ -691,13 +692,11 @@ e_germany = {
 				color2={ 255 255 255 }
 				
 				pommeranian = "Gdansk"
-				polish = "Gdansk"
-				bohemian = "Gdansk"
 				russian = "Gdansk"
 				prussian = "Gdansk"
 				lithuanian = "Gdansk"
 				lettigallish = "Gdansk"
-				swedish = "Danzig"
+				geatish = "Danzig"
 				norse = "Danzig"
 				norwegian = "Danzig"
 				danish = "Danzig"
@@ -706,13 +705,11 @@ e_germany = {
 				}
 				b_danzig = {
 					pommeranian = "Gdansk"
-					polish = "Gdansk"
-					bohemian = "Gdansk"
 					russian = "Gdansk"
 					prussian = "Gdansk"
 					lithuanian = "Gdansk"
 					lettigallish = "Gdansk"
-					swedish = "Danzig"
+					geatish = "Danzig"
 					norse = "Danzig"
 					norwegian = "Danzig"
 					danish = "Danzig"
@@ -735,7 +732,7 @@ e_germany = {
 				color2={ 255 255 255 }
 				
 				german = "Stolp"
-				swedish = "Stolp"
+				geatish = "Stolp"
 				norwegian = "Stolp"
 				danish = "Stolp"
 				norse = "Stolp"
@@ -746,7 +743,7 @@ e_germany = {
 				}
 				b_slupsk = {
 					german = "Stolp"
-					swedish = "Stolp"
+					geatish = "Stolp"
 					norwegian = "Stolp"
 					danish = "Stolp"
 					norse = "Stolp"
@@ -2093,12 +2090,12 @@ e_germany = {
 				# Mimigernaford
 
 				pommeranian = "Abrod"
+
+				holy_site = norse_pagan
+				holy_site = norse_pagan_reformed
 				
 				b_munster = {
 					pommeranian = "Abrod"
-
-					holy_site = norse_pagan
-					holy_site = norse_pagan_reformed
 				}
 				b_dortmund = {
 				}

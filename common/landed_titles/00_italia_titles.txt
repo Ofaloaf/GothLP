@@ -1265,8 +1265,8 @@ e_italy = {
 				b_mitterburg = {
 					# Pisinium
 
-					croatian = "Pazin"
-					serbian = "Pazin"
+					carantanian = "Pazin"
+					traki = "Pazin"
 					italian = "Pisino"
 					greek = "Pisinion"
 				}
@@ -1275,8 +1275,8 @@ e_italy = {
 
 					greek = "Tergesti"
 					german = "Triest"
-					croatian = "Trst"
-					serbian = "Trst"
+					carantanian = "Trst"
+					traki = "Trst"
 				}
 				b_fiume = {
 					# Fluminis
@@ -1370,8 +1370,8 @@ e_italy = {
 				}
 				b_udine = {
 					german = "Weiden"
-					croatian = "Videm"
-					serbian = "Videm"
+					carantanian = "Videm"
+					traki = "Videm"
 				}
 				b_friuli = {
 					german = "Friaul"
@@ -2199,7 +2199,7 @@ e_italy = {
 				greek = "Attienities"
 				italian = "Segna"
 				german = "Zengg"
-				hungarian = "Zeng"
+				jasi = "Zeng"
 	
 				b_senj = {
 					# Senia
@@ -2207,7 +2207,7 @@ e_italy = {
 					greek = "Attienities"
 					italian = "Segna"
 					german = "Zengg"
-					hungarian = "Zeng"
+					jasi = "Zeng"
 				}
 				b_kaseg = {
 				}
@@ -2463,9 +2463,8 @@ e_italy = {
 			
 			dalmatian = "Raugia"
 
-			serbian = "Duklja"
-			croatian = "Duklja"
-			bulgarian = "Duklja"
+			traki = "Duklja"
+			carantanian = "Duklja"
 			
 			c_zeta = {
 				color={ 131 96 15 }
@@ -2513,14 +2512,14 @@ e_italy = {
 				
 				dalmatian = "Raugia"
 				greek = "Raugia"
-				croatian = "Dubrovnik"
-				serbian = "Dubrovnik"
+				carantanian = "Dubrovnik"
+				traki = "Dubrovnik"
 				
 				b_ragusa = {
 					dalmatian = "Raugia"
 					greek = "Raugia"
-					croatian = "Dubrovnik"
-					serbian = "Dubrovnik"
+					carantanian = "Dubrovnik"
+					traki = "Dubrovnik"
 				}
 				b_narona = {
 				}

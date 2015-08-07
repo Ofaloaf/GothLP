@@ -1669,19 +1669,6 @@
 		death=yes
 	}
 }
-188774 = {
-	name="Wakhushakk" # fictional Sogdian ruler
-	dynasty=1042188 # Sogdia
-	religion="zoroastrian"
-	culture="persian"
-	trait=sympathy_pagans
-	743.1.1={
-		birth=yes
-	}
-	800.1.1={
-		death=yes
-	}
-}
 
 
 ##########################

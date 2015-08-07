@@ -90,7 +90,7 @@ e_gallia = {
 				}
 				b_feurs = {
 					# Forum Segusiavorum
-					used_for_dynasty_name = no
+					used_for_dynasty_names = no
 				}
 				b_roanne = {
 					# Rodumna
@@ -99,7 +99,7 @@ e_gallia = {
 				}
 				b_charlieu = {
 					# Carus Locus
-					used_for_dynasty_name = no
+					used_for_dynasty_names = no
 				}
 				b_chalmazel = {
 					# Calmismansum
@@ -1997,8 +1997,6 @@ e_gallia = {
 		color2={ 255 255 255 }
 		
 		capital = 105 # Vannes
-		
-		catholic = 300 # Crusade target weight
 
 		catholic = 100
 		orthodox = 800

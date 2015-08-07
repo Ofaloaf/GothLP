@@ -26,6 +26,14 @@ e_africa = {
 				color2={ 255 255 255 }
 
 				# Carthago
+
+				gothicromance = "Cartage"
+				africanu = "Cartàggini"
+
+				holy_site = arian
+				holy_site = orthodox
+				holy_site = west_african_pagan
+				holy_site = west_african_pagan_reformed		
 			
 				b_tunis = {
 					# Thuni
@@ -48,11 +56,8 @@ e_africa = {
 				b_cartaghe = {
 					# Carthago
 
-					#occitan = "Cartage"
+					gothicromance = "Cartage"
 					africanu = "Cartàggini"
-
-					holy_site = arian
-					holy_site = orthodox
 				}
 				b_zaghouan = {
 				}
@@ -79,10 +84,7 @@ e_africa = {
 					# Sicca
 				}
 				b_siliana = {
-					# Zama # not modern-day Siliana
-
-					holy_site = west_african_pagan
-					holy_site = west_african_pagan_reformed			
+					# Zama # not modern-day Siliana	
 				}
 				b_kasserine = {
 					# Cillium
@@ -447,8 +449,6 @@ e_africa = {
 		d_numidia = {
 			color={ 164 247 131 }
 			color2={ 255 255 255 }
-			
-			capital = 825 # Beni Yanni
 		
 			c_constantine = {
 				color={ 45 251 102 }
@@ -616,16 +616,16 @@ e_africa = {
 			c_atlas_mnt = {
 				color={ 102 142 217 }
 				color2={ 255 255 255 }
+
+				holy_site = west_african_pagan
+				holy_site = west_african_pagan_reformed
+				holy_site = ibadi
 			
 				b_tiaret = {
 				}
 				b_djelfa = {
 				}
 				b_bordj = {
-					holy_site = west_african_pagan
-					holy_site = west_african_pagan_reformed
-
-					holy_site = ibadi
 				}
 				b_elyourh = {
 				}
@@ -873,14 +873,15 @@ e_africa = {
 			c_marrakech = {
 				color={ 201 129 167 }
 				color2={ 255 255 255 }
+
+				holy_site = aztec
+				holy_site = aztec_reformed
+				holy_site = west_african_pagan
+				holy_site = west_african_pagan_reformed
 			
 				b_marrakech = {
 				}
 				b_sidirahhal = {
-					holy_site = aztec
-					holy_site = aztec_reformed
-					holy_site = west_african_pagan
-					holy_site = west_african_pagan_reformed
 				}
 				b_ouarzazate = {
 				}
