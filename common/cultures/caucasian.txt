@@ -19,7 +19,7 @@ caucasian = {
 		
 		from_dynasty_prefix = "ve "
 		
-		disinherit_from_blinding = yes
+		#disinherit_from_blinding = yes
 		
 		modifier = default_culture_modifier
 	}
@@ -45,7 +45,7 @@ caucasian = {
 		female_patronym = "shvili"
 		prefix = no
 		
-		disinherit_from_blinding = yes
+		#disinherit_from_blinding = yes
 
 		modifier = default_culture_modifier
 	}

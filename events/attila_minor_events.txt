@@ -155,6 +155,7 @@ narrative_event = {
 	border = GFX_event_narrative_frame_war
 
 	trigger = {
+		NOT = { has_global_flag = fixed_that_bug }
 		has_character_flag = ought_to_be_pope
 		NOT = { has_character_flag = given_the_papacy }
 	}
@@ -165,6 +166,7 @@ narrative_event = {
 	
 	option = {
 		name = EVTOPTA_CM_1000
+		set_global_flag = fixed_that_bug
 		set_character_flag = given_the_papacy
 		k_papal_state = {
 			grant_title = ROOT

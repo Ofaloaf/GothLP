@@ -73,7 +73,7 @@ provinciale = {
 		mat_grm_name_chance = 40
 		mother_name_chance = 5
 
-		disinherit_from_blinding = yes
+		#disinherit_from_blinding = yes
 
 		modifier = default_culture_modifier
 	}

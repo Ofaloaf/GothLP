@@ -588,8 +588,13 @@ e_byzantium = {
 			c_thessalia = {
 				color={ 198 28 139 }
 				color2={ 255 255 20 }
+
+				traki = "Tesalija"
+				rimlyani = "Tesalija"
 				
 				b_larissa = {
+					traki = "Larisa"
+					rimlyani = "Larisa"
 				}
 				b_volos = {
 				}
@@ -616,8 +621,13 @@ e_byzantium = {
 			c_demetrias = {
 				color={ 209 69 161 }
 				color2={ 255 255 20 }
+
+				traki = "Demetrijas"
+				rimlyani = "Demetrijas"
 				
 				b_thebes = {
+					traki = Teba
+					rimlyani = Teba
 				}
 				b_lebadea = {
 				}
@@ -628,6 +638,8 @@ e_byzantium = {
 				b_levadhia = {
 				}
 				b_demetrias = {
+					traki = "Demetrijas"
+					rimlyani = "Demetrijas"
 				}
 				b_ravennika = {
 				}
@@ -637,6 +649,8 @@ e_byzantium = {
 			c_hellas = {
 				color={ 212 72 164 }
 				color2={ 255 255 20 }
+
+				traki = "Khelas"
 				
 				b_naupaktos = {
 				}
@@ -829,6 +843,9 @@ e_byzantium = {
 			c_strymon = {
 				color={ 139 29 101 }
 				color2={ 255 255 20 }
+
+				traki = "Struma"
+				rimlyani = "Struma"
 				
 				b_skopje = {
 				}
