@@ -204,40 +204,92 @@
 379.1.19={
 	holder=70534 # Theodosius
 }
-
 395.1.17={
 	holder = 145227 # Honorius
 }
 
-# 402 Aebutianus Occidentalis
-# 404 Lartia Flavia
-# 412 Decimus Metilius
-# 424 Theodosius II
-# 436 Trajan II
 
-# 453 Nicholas I Occidentalis
-# 474 Orestes Tatulianus
-# 486 Romulus
-# 504 Romulianus
-# 514 Cassiodorus II Senator
-# 585 Junillus Occidentalis
-# 588 Cupressenus
-# 602 Astyrius
-# 611 Auchenius
-# 617 Andromachus
-# 629 Nicomachus
-# 636 Asclepiodotus
-# 660 Faltonio
-# 668 Nigolago II
-# 684 Egenio
-# 695 Reles
-# 701 Orbanus
-# 702 Theoclezo
-# 710 Mertinus
-# 732 Pinniolo
-# 744 Lopon # Lepidoso
-# 750 Stevanus
-
+402.1.1 = {
+	holder = 475032 # Aebutianus Occidentalis
+}
+404.1.1 = {
+	holder = 475033 # Lartia Flavia
+}
+412.1.1 = {
+	holder = 475034 # Decimus Metilius
+}
+424.1.1 = {
+	holder = 475035 # Theodosius II
+}
+436.1.1 = {
+	holder = 475036 # Trajan II
+}
+453.1.1 = {
+	holder = 475037 # Nicholaus I Occidentalis
+}
+474.1.1 = {
+	holder = 475038 # Orestes Tatulianus
+}
+486.1.1 = {
+	holder = 475039 # Romulus Augustulus
+}
+504.1.1 = {
+	holder = 475040 # Romulinus
+}
+514.1.1 = {
+	holder = 475041 # Cassiodorus Senatore
+}
+585.1.1 = {
+	holder = 475042 # Junillus Occidentalis
+}
+588.1.1 = {
+	holder = 475043 # Cupressenus
+}
+602.1.1 = {
+	holder = 475044 # Astyrius
+}
+611.1.1 = {
+	holder = 475045 # Auchenius
+}
+617.1.1 = {
+	holder = 475046 # Andromachus
+}
+629.1.1 = {
+	holder = 475047 # Nicomachus
+}
+636.1.1 = {
+	holder = 475048 # Asclepiodotus
+}
+660.1.1 = {
+	holder = 1573026 # Faltonio
+}
+668.1.1 = {
+	holder = 1573027 # Marchus
+}
+684.1.1 = {
+	holder = 1573028 # Egenio
+}
+695.1.1 = {
+	holder = 1573029 # Reles
+}
+701.1.1 = {
+	holder = 1573030 # Orbanus
+}
+702.1.1 = {
+	holder = 1573031 # Theoclezo
+}
+710.1.1 = {
+	holder = 1573032 # Mertinus
+}
+732.1.1 = {
+	holder = 1573033 # Pinniolo
+}
+744.1.1 = { 
+	holder = 1573034 # Lopon Lepidoso
+}
+750.1.1 = {
+	holder = 1573036 # Stevanus Lepidoso
+}
 763.1.1 = {
-	holder = 1573007 # Nigolago III Lepidoso
+	holder = 1573007 # Nigolago II Lepidoso
 }

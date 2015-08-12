@@ -1,0 +1,14 @@
+1476001 = {
+	name = "Occidentalis"
+	culture = roman
+}
+
+1476002 = {
+	name = "Tatulianus"
+	culture = roman
+}
+
+1476003 = {
+	name = "Hispanicus"
+	culture = roman
+}

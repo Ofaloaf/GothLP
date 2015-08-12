@@ -46,6 +46,7 @@
 	holder = 611022 # Sigisvult
 }
 
-761.1.1 = {
+768.9.24= {
 	holder = 611004 # Thiudareiks II Triarius
+	law = agnatic_succession
 }

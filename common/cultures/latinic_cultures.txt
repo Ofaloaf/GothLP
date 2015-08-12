@@ -22,7 +22,7 @@ latinic = {
 			Leo_Leo Leontius_Leontius Liberius Licinius Lucius 
 			Magnus_Magnus Marcellinus Marcellus Marcian Marcus_Marcus Marinus Marius Martinus Maximianus
 			Maximinus Maximus_Maximus Martialis
-			Nepotianus Nerva Numerianus 
+			Nepotianus Nerva Numerianus Nicholaus_Nicholas
 			Octavianus Octavius Otho
 			Paulinus Paulus_Paul Petronius Philip_Philip Pompeius Pontianus Priscus Probus Publius
 			Pelagius_Pelagius Pontius

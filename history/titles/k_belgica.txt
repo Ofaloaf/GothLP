@@ -3,6 +3,6 @@
 	pentarch = b_roma
 }
 
-761.1.1 = {
+768.9.24 = {
 	holder = 611037 # Luthaweic Amalius
 }

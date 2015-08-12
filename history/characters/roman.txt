@@ -3267,3 +3267,228 @@
 		death=yes
 	}
 }
+
+### WESTERN ROMAN EMPERORS
+
+475032 = {
+	name="Aebutianus"
+	dynasty = 1476001 # Occidentalis
+	religion="orthodox"
+	culture="roman"
+	350.1.1={
+		birth=yes
+	}
+	404.1.1={
+		death=yes
+	}
+}
+
+475033 = {
+	name="Lartia Flavia"
+	dynasty = 1476001 # Occidentalis
+	religion="orthodox"
+	culture="roman"
+	350.1.1={
+		birth=yes
+	}
+	412.1.1={
+		death=yes
+	}
+}
+
+475034 = {
+	name="Decimus Metilius"
+	dynasty = 1476001 # Occidentalis
+	religion="orthodox"
+	culture="roman"
+	350.1.1={
+		birth=yes
+	}
+	424.1.1={
+		death=yes
+	}
+}
+
+475035 = {
+	name="Theodosius"
+	dynasty = 1476001 # Occidentalis
+	religion="orthodox"
+	culture="roman"
+	350.1.1={
+		birth=yes
+	}
+	436.1.1={
+		death=yes
+	}
+}
+
+475036 = {
+	name="Trajanus"
+	dynasty = 1476001 # Occidentalis
+	religion="orthodox"
+	culture="roman"
+	390.1.1={
+		birth=yes
+	}
+	453.1.1={
+		death=yes
+	}
+}
+
+475037 = {
+	name="Nicholaus"
+	dynasty = 1476001 # Occidentalis
+	religion="orthodox"
+	culture="roman"
+	400.1.1={
+		birth=yes
+	}
+	474.1.1={
+		death=yes
+	}
+}
+
+475038 = {
+	name="Orestes"
+	dynasty = 1476002 # Tatulianus
+	religion="orthodox"
+	culture="roman"
+	419.1.1={
+		birth=yes
+	}
+	486.1.1={
+		death=yes
+	}
+}
+
+475039 = {
+	name="Romulus"
+	father=475038 # Orestes
+	dynasty = 1476002 # Tatulianus
+	religion="orthodox"
+	culture="roman"
+	460.1.1={
+		birth=yes
+	}
+	504.1.1={
+		death=yes
+	}
+}
+
+475040 = {
+	name="Romulinus"
+	father=475039 # Romulus
+	dynasty = 1476002 # Tatulianus
+	religion="orthodox"
+	culture="roman"
+	479.1.1={
+		birth=yes
+	}
+	514.1.1={
+		death=yes
+	}
+}
+
+475041 = {
+	name="Cassiodorus"
+	dynasty = 476002 # Senatore
+	religion="orthodox"
+	culture="roman"
+	485.1.1={
+		birth=yes
+	}
+	585.1.1={
+		death=yes
+	}
+}
+
+475042 = {
+	name="Junillus"
+	dynasty = 1476001 # Occidentalis
+	religion="orthodox"
+	culture="roman"
+	533.1.1={
+		birth=yes
+	}
+	588.1.1={
+		death=yes
+	}
+}
+
+475043 = {
+	name="Cupressenus"
+	dynasty = 1476001 # Occidentalis
+	religion="orthodox"
+	culture="roman"
+	540.1.1={
+		birth=yes
+	}
+	602.1.1={
+		death=yes
+	}
+}
+
+475044 = {
+	name="Astyrius"
+	dynasty = 1476001 # Occidentalis
+	religion="orthodox"
+	culture="roman"
+	550.1.1={
+		birth=yes
+	}
+	611.1.1={
+		death=yes
+	}
+}
+
+475045 = {
+	name="Auchenius"
+	dynasty = 1476001 # Occidentalis
+	religion="orthodox"
+	culture="roman"
+	550.1.1={
+		birth=yes
+	}
+	617.1.1={
+		death=yes
+	}
+}
+
+475046 = {
+	name="Andromachus"
+	dynasty = 1476001 # Occidentalis
+	religion="orthodox"
+	culture="roman"
+	550.1.1={
+		birth=yes
+	}
+	629.1.1={
+		death=yes
+	}
+}
+
+475047 = {
+	name="Nicomachus"
+	dynasty = 1476001 # Occidentalis
+	religion="orthodox"
+	culture="roman"
+	580.1.1={
+		birth=yes
+	}
+	636.1.1={
+		death=yes
+	}
+}
+
+475048 = {
+	name="Asclepiodotus"
+	dynasty = 1476001 # Occidentalis
+	religion="orthodox"
+	culture="roman"
+	590.1.1={
+		birth=yes
+	}
+	660.1.1={
+		death=yes
+	}
+}
