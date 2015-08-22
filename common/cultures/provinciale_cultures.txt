@@ -310,7 +310,7 @@ provinciale = {
 			Frederi_Frederick Faluax
 			Garçi_Garcia Gausbert_Gausbert Gautier_Walter Gilbèrt_Gilbert Girard_Gerard Godesteo Guntrodo
 			Gudafres_Godfrey Gui_Guy Guichard Guigues_Guy Guiraud_Gerald Guitart_Gerard Guillemó_William
-			Gauteric Gonçalo_Gonzal Guttier_Walter Gomé
+			Gauteric Gonçalo_Gonzal Guttier_Walter Gomé Guidéric_Witeric Guidimir_Vithimir
 			Ives Irmanric Ildebad Immanuèl_Manuel Istève_Stephen
 			Jacme_Jacob Jaufret_Godfrey Joan_John Jordan_Jordan Jorge_George Julian_Julian Juli_Julius
 			Justi_Justin
@@ -330,7 +330,7 @@ provinciale = {
 			Tièrri_Thierry Tibaud_Theobald Tumas_Thomas Turismau Tiuderic_Theodoric Tiudemir Tiudat_Theodat
 			Tiudòsi_Theodosius Teia Tacite_Tacitus Tiudor_Theodore Telo
 			Ubald Ubert_Humbert Uc_Hugh Úlfila_Ulfilas Ugne
-			Vézian Vicenç_Vincent Videre_Witeric Vitimir_Vithimir Viteges Veremundo_Vermudo Vigitino Valaric
+			Vézian Vicenç_Vincent Viteges Veremundo_Vermudo Vigitino Valaric
 			Walia Wifredo_Wilfred
 		}
 		female_names = {

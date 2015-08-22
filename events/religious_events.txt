@@ -4866,7 +4866,7 @@ narrative_event = {
 	trigger = {
 		religion_group = muslim
 		controls_religion = yes
-		year = 1187
+		year = 1000
 		
 		NOT = { has_global_flag = muslim_jihads_unlocked }
 	}
@@ -4912,7 +4912,7 @@ narrative_event = {
 	only_men = yes
 	
 	trigger = {
-		year = 900
+		year = 800
 		religion_group = muslim
 		controls_religion = yes
 		NOT = { has_global_flag = muslim_jihads_unlocked }
@@ -4962,7 +4962,7 @@ narrative_event = {
 	only_men = yes
 	
 	trigger = {
-		year = 900
+		year = 800
 		religion_group = muslim
 		controls_religion = yes
 		NOT = { has_global_flag = muslim_jihads_unlocked }
@@ -5012,7 +5012,7 @@ narrative_event = {
 	only_men = yes
 	
 	trigger = {
-		year = 900
+		year = 800
 		religion_group = muslim
 		controls_religion = yes
 		NOT = { has_global_flag = muslim_jihads_unlocked }

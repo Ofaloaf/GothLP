@@ -1083,12 +1083,15 @@ e_germany = {
 				roman = "Alpes Graies"
 				greek = "Alpes Graies"
 				latine = "Savaudia"
+				gothicromance = "Savauia"
 
 				german = "Savoyen"
 				suebi = "Savoye"
 				
 				b_savosusa = {
 					# Segusio
+
+					gothicromance = "Susa"
 				}
 				b_tarentaise = {
 					# Tarentasiae
@@ -1101,7 +1104,7 @@ e_germany = {
 
 					german = "Kamrach"
 
-					#gothicromance = "Leminco"
+					gothicromance = "Leminco"
 				}
 				b_aosta = {
 					# Augusta
@@ -1111,12 +1114,13 @@ e_germany = {
 					german = "Osten"
 
 					gothic = "Agusta"
-					#gothicromance = "Agusta"
+					gothicromance = "Agusta"
 				}
 				b_pombia = {
 					# Plumbia
 				}
 				b_montjovet = {
+					# Mons Joviculus
 				}
 				b_vercelli = {
 					# Vercellae
@@ -1146,6 +1150,11 @@ e_germany = {
 				b_monthey = {
 				}
 				b_aigle = {
+					# Alium
+
+					gothic = "Aleo"
+					gothicromance = "Aleo"
+					suebi = "Aleo"
 				}
 				b_martigny = {
 					# Martinach
@@ -1158,7 +1167,7 @@ e_germany = {
 					brithenig = "Octodorus"
 
 					gothic = "Martiniacum"
-					#gothicromance = "Martignac"
+					gothicromance = "Martignac"
 				}
 				b_siders = {
 				}

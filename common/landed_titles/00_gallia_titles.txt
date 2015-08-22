@@ -15,7 +15,8 @@ e_gallia = {
 
 		culture = gothic
 
-		gothicromance = "Gautia"
+		gothicromance = "Gotya"
+		german = "Gothien"
 
 		catholic = 2000 # Crusade target weight
 		orthodox = 3000 # Crusade target weight
@@ -44,9 +45,10 @@ e_gallia = {
 					# Briendaco
 				}
 				b_vithericopolis = {
-					# Vithericopolis
-					# Vidryoble????
 					# replaces b_stjeanbaptiste
+
+					gothicromance = "Vidrygobol"
+					german = "Vitericwalde"
 				}
 				b_lyon = {
 					# Lugdunum
@@ -171,14 +173,19 @@ e_gallia = {
 				b_tournus = {
 				}
 				b_louhans = {
+					# Lovincum
 				}
 				b_chamilly = {
+					# Camilliaco # guessing
 				}
 				b_seurre = {
+					# Surregium
 				}
 				b_stjeandelosne = {
+					# Latona
 				}
 				b_cuisery = {
+					# Cuisiriaco
 				}
 			}
 		}
@@ -195,6 +202,9 @@ e_gallia = {
 				# Divio
 				
 				b_semur = {
+					# Sinemurum
+
+					gothicromance = "Senemuro"
 				}
 				b_dijon = {
 					# Divio
@@ -214,10 +224,13 @@ e_gallia = {
 					gothic = "Videliacus"
 				}
 				b_avallon = {
+					# Aballo
 				}
 				b_citeaux = {
+					# Cistercium
 				}
 				b_beaune = {
+					# Belena
 				}
 				b_noyers = {
 				}
@@ -236,18 +249,28 @@ e_gallia = {
 					gothicromance = "Aussèrra"
 				}
 				b_druyes = {
+					# Romaniacum # St. Romain did something there I guess???
 				}
 				b_tonnerre = {
+					# Tornodurum
 				}
 				b_pontigny = {
+					# Pontiniacum
+
+					gothicromance = "Ponteigni" # Frankish, 1269
 				}
 				b_cravant = {
+					# Crebanna
 				}
 				b_crisenon = {
 				}
 				b_stsauveurenpuisaye = {
+					# Salvatoracum
 				}
 				b_mailly = {
+					# Mailliacus # is this Mailly-le-Camp? I'm not sure
+
+					gothicromance = "Mailli"
 				}
 			}
 			c_macon = {
@@ -319,21 +342,27 @@ e_gallia = {
 				# Quadrigellanus
 				
 				b_montstvincent = {
+					# Vincentiacum
 				}
 				b_charolles = {
 					# Quadrigellae
 				}
 				b_paray = {
+					# Parodium # guessing
 				}
 				b_semurenbrionnais = {
+					# Senemurum
 				}
 				b_toulonsurarroux = {
+					# Bibracte
 				}
 				b_perrecy = {
+					# Germanacum
 				}
 				b_digoine = {
 				}
 				b_joncy = {
+					# Jovincia # guessing
 				}
 			}
 		}
@@ -374,8 +403,12 @@ e_gallia = {
 					greek = "Andemantunnum"
 				}
 				b_chaumont = {
+					# Calmontium
 				}
 				b_clairvaux = {
+					# Claravallis
+
+					gothicromance = "Claravall"
 				}
 				b_rosnay = {
 					# Rodenaium
@@ -411,6 +444,7 @@ e_gallia = {
 					gothicromance = Rems
 				}
 				b_chateauthierry = {
+					# Otmensis
 				}
 				b_provins = {
 					# Probivinum
@@ -418,6 +452,7 @@ e_gallia = {
 					gothicromance = Provinis
 				}
 				b_chalons = {
+					# Cathalaunum
 				}
 				b_chatillon = {
 					# Castellionum
@@ -454,17 +489,22 @@ e_gallia = {
 					greek = "Agedincum"
 				}
 				b_nemours = {
+					# Nemausus
 				}
 				b_chateaulandon = {
+					# Wastinensis
 				}
 				b_nogentsurseine = {
+					# Novigentum
 				}
 				b_joigny = {
 					# Joviniacum
 				}
 				b_montereau = {
+					# Monasteriolum
 				}
 				b_villeneuveleroi = {
+					# Villanova
 				}
 			}
 		}
@@ -494,14 +534,23 @@ e_gallia = {
 					# Pontesarvix
 				}
 				b_epinal = {
+					# Spinalium
 				}
 				b_luneville = {
+					# Lineatis Villa
+
+					gothicromance = "Lunivilla"
 				}
 				b_charpeigne = {
+					# Scarponna
 				}
 				b_mortagnedevosges = {
+					# Mauritania
+
+					gothicromance = "Mortesna"
 				}
 				b_saintavoid = {
+					# Hilariacum
 				}
 			}
 			c_saintois = {
@@ -530,6 +579,11 @@ e_gallia = {
 				b_ornois = {
 				}
 				b_saulnois = {
+					# Salinensis
+
+					german = "Salzgau"
+					gothic = "Saltgawi"
+					gothicromance = "Saliensa"
 				}
 				b_dompaire = {
 				}
@@ -548,8 +602,10 @@ e_gallia = {
 					roman = "Caturices"
 				}
 				b_vaucouleurs = {
+					# Valliscolore
 				}
 				b_saintmihel = {
+					# Michaelacum
 				}
 				b_commercy = {
 					# Commercium
@@ -558,6 +614,7 @@ e_gallia = {
 					# Jovinus
 				}
 				b_saintdizier = {
+					# Desideriacum
 				}
 			}
 		}
