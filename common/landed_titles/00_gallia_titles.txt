@@ -15,7 +15,7 @@ e_gallia = {
 
 		culture = gothic
 
-		gothicromance = "Gotya"
+		gothicromance = "Gautya"
 		german = "Gothien"
 
 		catholic = 2000 # Crusade target weight
