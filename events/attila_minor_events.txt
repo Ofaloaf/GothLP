@@ -70,7 +70,7 @@ namespace = ATTILA
 # in Normandy
 #narrative_event = {
 #	id = ATTILA.002
-#	desc = EVTDESC_ATTILA_002
+#	desc = EVTDESC_ATTILA_002
 #	title = EVTNAME_ATTILA_002
 #	picture = GFX_evt_throne_room
 #	border = GFX_event_narrative_frame_war
@@ -148,9 +148,9 @@ namespace = ATTILA
 #the scenario thus technically starts with the HRE and Papacy as two separate things
 #but this event ties them together almost instantly, once the game starts
 narrative_event = {
-	id = ATTILA.003
+	id = ATTILA.3
 	title = EVTTITLE_CM_1000
-	desc = EVTDESC_CM_1000
+	desc = EVTDESC_CM_1000
 	picture = GFX_evt_rival_rulers
 	border = GFX_event_narrative_frame_war
 
@@ -177,7 +177,7 @@ narrative_event = {
 
 # Formation of the Knights of St. Sabbas
 narrative_event = {
-	id = ATTILA.004
+	id = ATTILA.4
 	title = "EVTNAME_ATTILA_004"
 	desc = "EVTDESC_ATTILA_004"
 	picture = "GFX_evt_crusaders"
@@ -193,7 +193,7 @@ narrative_event = {
 		
 		NOT = { year = 1312 }
 		NOT = { is_title_active = d_knights_of_st_sabbas }
-		is_active_title = k_arian
+		is_title_active = k_arian
 	
 		has_global_flag = christian_crusades_unlocked
 		

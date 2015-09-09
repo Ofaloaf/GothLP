@@ -192,7 +192,7 @@ provinciale = {
 			Zacarias_Zachary Zarraquina Zarraco
 		}
 		female_names = {
-			Alvura Amita Angibono Anna Antolina Aquilina Arcedonia Aurivita Avolina Avida 
+			Alvura Amita Angibono Anna_Anna Antolina Aquilina Arcedonia Aurivita Avolina Avida 
 			Aurobonna Auripella Auroana Auria
 			Basilisa Beata Beatrix Bonella Bononome Bonosa
 			Calvina Camilla Candida Cecilia_Cecilia Columba Corva Crementina Crescente Creusa Culia 

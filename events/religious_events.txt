@@ -1271,11 +1271,7 @@ narrative_event = {
 	only_men = yes
 	
 	trigger = {
-		OR = {
-			religion = arian
-			religion = acacian
-			religion = anomean
-		}
+		religion = orthodox
 		is_heretic = no
 		
 		NOT = { is_title_active = d_vandalic_order }
@@ -1288,44 +1284,28 @@ narrative_event = {
 				221 = { # Provence
 					NOT = {
 						owner = {
-							OR = {
-								religion = arian
-								religion = acacian
-								religion = anomean
-							}
+							religion = orthodox
 						}
 					}
 				}
 				214 = { # Toulouse
 					NOT = {
 						owner = {
-							OR = {
-								religion = arian
-								religion = acacian
-								religion = anomean
-							}
+							religion = orthodox
 						}
 					}
 				}
 				32 = { # Middlesex / Londinium
 					NOT = {
 						owner = {
-							OR = {
-								religion = arian
-								religion = acacian
-								religion = anomean
-							}
+							religion = orthodox
 						}
 					}
 				}
 				149 = { # Bordeaux
 					NOT = {
 						owner = {
-							OR = {
-								religion = arian
-								religion = acacian
-								religion = anomean
-							}
+							religion = orthodox
 						}
 					}
 				}
@@ -1333,22 +1313,14 @@ narrative_event = {
 			119 = { # Cologne
 				NOT = {
 					owner = {
-						OR = {
-							religion = arian
-							religion = acacian
-							religion = anomean
-						}
+						religion_group = christian
 					}
 				}
 			}
 			227 = { # Lyon
 				NOT = {
 					owner = {
-						OR = {
-							religion = arian
-							religion = acacian
-							religion = anomean
-						}
+						religion_group = christian
 					}
 				}
 			}
@@ -3581,7 +3553,6 @@ character_event = {
 			modifier = {
 				factor = 5
 				NOT = { year = 930 }
-				NOT = { culture_group = magyar }
 			}
 			modifier = {
 				factor = 5

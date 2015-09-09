@@ -506,15 +506,22 @@ e_britannia = {
 					brithenig = "Cair Lerion"
 
 					gothic = "Coritanorum"
-					#gothicromance = Coritanorum
+					gothicromance = Curtanis
 				}
 				b_nottingham = {
+					# Tyogofog # making shit up
+
+					welsh = "Y Ty Ogofog"
+					irish = "Na Tithe Uaimh"
 				}
 				b_southwell = {
+					# Ad Pontem
 				}
 				b_newark = {
+					# Venonis # actually High Cross
 				}
 				b_hucknall = {
+					# Vernemeto # actually Willoughby on the Wolds
 				}
 				b_tickhill = {
 				}
@@ -532,8 +539,10 @@ e_britannia = {
 				brithenig = "Luitcoyt"
 			
 				b_coventry = {
+					# Coventre
 				}
 				b_warwick = {
+					# Manduessedum # actually Mancetter
 				}
 				b_lichfield = {
 					# Letocetum
@@ -541,8 +550,10 @@ e_britannia = {
 					brithenig = "Luitcoyt"
 				}
 				b_stafford = {
+					# Pennocrucium # actually Stretton Bridge, Water Eaton, Staffordshire
 				}
 				b_tamworth = {
+					# Tamus # I don't even know what the proper Latin for the River Tame is
 				}
 				b_kenilworth = {
 				}
@@ -563,6 +574,7 @@ e_britannia = {
 				saxon = "Lincolnescire"
 				
 				b_gainsborough = {
+					# Bannovallum # actually Horncastle
 				}
 				b_lincoln = {
 					# Linnuis
@@ -571,14 +583,18 @@ e_britannia = {
 					brithenig = "Linnuis"
 				}
 				b_boston = {
+					# Segelocum # actually Littleborough
 				}
 				b_spalding = {
+					# Causennae (probably just Causennis near Grantham)
 				}
 				b_stamford = {
 				}
 				b_grantham = {
+					# Causennis
 				}
 				b_louth = {
+					# Helenacum # making stuff up, reference to Constantine the Great's mum
 				}
 				b_bardney = {
 				}

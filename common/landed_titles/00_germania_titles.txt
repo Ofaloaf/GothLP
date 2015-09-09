@@ -1170,35 +1170,67 @@ e_germany = {
 					gothicromance = "Martignac"
 				}
 				b_siders = {
+					# Sidrium
+
+					suebi = Syder
+					gothic = Syder
+					german = Siders
+
+					latine = Sirro
+					gothicromance = Sirro
 				}
 				b_sitten = {
+					# Sedunum
+
+					german = Sitten
 				}
 				b_greyerz = {
+					# Grueria # 1144
 				}
 				b_chateaudoex = {
+					# Oit
 				}
 			}
 			c_geneve = {
 				color={ 228 203 226 }
 				color2={ 255 255 255 }
 
+				# Genava
+
 				german = "Genf"
+				gothic = Gebennensis
 				
 				b_geneve = {
+					# Genava
+
 					german = "Genf"
 				}
 				b_romainmotier = {
+					# Romanis Monasterium
 				}
 				b_nyon = {
+					# Noiodunum
+
 					german = "Neuis"
 				}
 				b_lausanne = {
+					# Lausanna
+
+					latine = Lausonio
+					italian = Losanna
+					gothicromance = Losanna
 				}
 				b_echallens = {
 				}
 				b_aubonne = {
+					# Albona
 				}
 				b_orbe = {
+					# Urba
+
+					suebi = Orbam
+					gothic = Orbam
+					german = Orbach
 				}
 				b_thonon = {
 				}

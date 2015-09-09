@@ -85,9 +85,9 @@ latinic = {
 			Albino Alexandro_Alexander Anastasio_Anastasius Anicio Annio Antonino Antonio_Antonius Anthemio
 			Arcadio Aureliano Aurelio_Aurelius Avito Andronico_Andronicus Andrea_Andrew Andromacho Aureolo
 			Belisario_Belisarius Beniamino_Benjamin Benedicto_Benedict Bonifacio_Boniface
-			Cecilio Cesare_Caesar Carino Caro Cassio Claudio Clementio Constante_Constans Cassiodoro Cola
+			Cecilio Cesare_Caesar Carino Caro Cassio Claudio Clementio Constante_Constans Cassiodoro 
 			Constantino_Constantine Constantio_Constantius Cornelio Crasso Cypriano_Cyprianus Cassiano
-			Comentiolo
+			Comentiolo Cola_Nicholas
 			Decimo Decio Diocletiano Domitiano Domitio Druso Donato Dativo
 			Emiliano Emilio Etio Ennodio Enea Emmanuel_Manuel
 			Fabiano Fabio Fausto Felice_Felix Flaviano Floriano Faustino
@@ -301,7 +301,7 @@ latinic = {
 		male_names = {
 			Alp_Alp Anzi Alzec Arslanio_Arslan Arogis Antonin_Antoninus Antoni_Antonius Atenolfo Avit_Avitus
 			Ambroeus_Ambrose Àngel_Angel Àtila_Attila Ascani August_August Aureli_Aurelius Anthemi_Anthemius
-			Adrian_Adrian Aba Andrea_Andrew Antenor Alzec
+			Adrian_Adrian Aba Andrea_Andrew Antenor
 			Baian_Bayan Bars Buoso Bonvesin Benedétt_Benedict Baitza Balambero_Balamabar Bagatoro
 			Cubrato Cepa Curtio Cisa Cano Carlo_Charles Claudi_Claudius Costantin_Constantine Cesare_Caesar
 			Costanz_Constantius Costant_Constans
@@ -326,7 +326,7 @@ latinic = {
 			Zacharia_Zachary
 		}
 		female_names = {
-			Acgula Asli Aiten Ana_Anna Agnesa_Agnes Antonia_Antonia Amalia_Amelia Ambrosiua Argentina Augusta
+			Acgula Asli Aiten Ana_Anna Agnesa_Agnes Antonia_Antonia Amalia_Amelia Ambrosia Argentina Augusta
 			Anastasia_Anastasia Albina Ausonia
 			Bianca_Blanche Bona_Bonne 
 			Caliamale Cristina_Christine Caterina_Catherine Cecilia_Cecilia Constanza_Constance Cornelia
@@ -336,7 +336,6 @@ latinic = {
 			Fausta_Fausta Felicia Felicita Fortunata Flaminia
 			Gulei Gunes Giuseppa Giacinta Ginevra Giovanna Giuditta Giulia_Juliana 
 			Ippolita Isabella_Elisabeth
-			Giuseppa
 			Larcca Luccha Lisabetta_Elisabeth Laura_Laura Lavinia Leonide Letizia Lidia Livia Lucia_Lucia
 			Lucinetta Lucrezia 
 			Mala Maturcca Magherita_Margaret Maria_Maria Maddalena_Magdalena Marcella 

@@ -19,7 +19,7 @@ d_vandalic_order = {
 	mercenary_type = teutonic_order_composition
 	
 	# Parent Religion 
-	religion = arian
+	religion = orthodox
 	
 	culture = german
 	

@@ -1771,6 +1771,7 @@ e_hispania = {
 		capital = 181 # Cordoba
 		
 		gothic = "Betica"
+		gothicromance = "Betica"
 		
 		catholic = 100 # Crusade target weight
 		orthodox = 500

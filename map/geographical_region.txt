@@ -278,3 +278,13 @@ custom_scotland = {
 		d_the_isles d_guotodin d_western_isles d_altclut d_albany d_moray
 	}
 }
+custom_egypt = {
+	duchies = {
+		d_alexandria d_cairo d_thebais d_sinai
+	}
+}
+custom_persia = {
+	duchies = {
+		d_khorasan d_mazandaran d_esfahan d_kerman d_fars d_hamadan d_tabriz d_azerbaijan 
+	}
+}

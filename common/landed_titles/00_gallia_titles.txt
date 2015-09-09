@@ -1074,12 +1074,15 @@ e_gallia = {
 			color2={ 255 255 255 }
 			
 			capital = 221 # Provence
+
+			gothicromance = "Provinça"
 			
 			c_provence = {
 				color={ 120 174 177 }
 				color2={ 255 255 255 }
 
 				# Provincia
+				gothicromance = "Provinça"
 				
 				b_arles = {
 					# Arelate
@@ -1110,6 +1113,8 @@ e_gallia = {
 				}
 				b_grasse = {
 					# Grassum
+
+					gothicromance = "Grassa"
 				}
 				b_castellane = {
 					# Gargarius # St-Jean de Garguier
@@ -1326,6 +1331,8 @@ e_gallia = {
 				color2={ 255 255 255 }
 
 				# Viennensis
+
+				gothicromance = "Viennensa"
 				
 				b_montelimar = {
 				}
@@ -1355,6 +1362,8 @@ e_gallia = {
 				color2={ 255 255 255 }
 
 				# Vivarium
+
+				gothicromance = "Vivarés"
 				
 				b_aubenas = {
 					# Albenate
@@ -2019,6 +2028,8 @@ e_gallia = {
 				color2={ 255 255 255 }
 
 				# Lemovicia
+
+				gothicromance = "Lemovinsa"
 				
 				b_turenne = {
 					# Turenna
@@ -2027,6 +2038,7 @@ e_gallia = {
 					# Lemovicum
 
 					roman = "Augustoritum"
+					gothicromance = "Limòtges"
 				}
 				b_comborn = {
 					# Curretia
@@ -2086,7 +2098,7 @@ e_gallia = {
 					roman = "Condevincum"
 					greek = "Kondeouinkon"
 
-					gothicromance = "Nametis"
+					gothicromance = "Namntas"
 				}
 				b_chateaubriant = {
 					# Beriacum
@@ -2393,7 +2405,7 @@ e_gallia = {
 
 				gothic = "Constantiensis"
 				old_frankish = "Constantiensis"
-				gothicromance = "Constantiensis"
+				gothicromance = "Costanciensa"
 				
 				b_caen = {
 					# Cadomum
@@ -2830,7 +2842,7 @@ e_gallia = {
 				# Aurelianum
 
 				roman = "Cenabum"
-				gothicromance = "Aurliani"
+				gothicromance = "Aurliansa"
 				
 				b_gien = {
 					# Giemus
@@ -2993,12 +3005,14 @@ e_gallia = {
 				color2={ 255 255 255 }
 
 				# Viromandensis
+
+				gothicromance = "Veromandesa"
 				
 				b_coucy = {
 					# Coucia
 				}
 				b_stquentin = {
-					# Viromanduorum
+					# Viromandorum
 
 					gothic = Veromandis
 					gothicromance = "Veromandis"
@@ -3029,6 +3043,8 @@ e_gallia = {
 				color2={ 255 255 255 }
 
 				# Suessionum
+
+				gothicromance = "Suessiona"
 				
 				b_peronne = {
 					# Perunna
@@ -3044,6 +3060,8 @@ e_gallia = {
 				}
 				b_soissons = {
 					# Suessionum
+
+					gothicromance = "Suessiona"
 				}
 				b_corbie = {
 					# Corbeia
