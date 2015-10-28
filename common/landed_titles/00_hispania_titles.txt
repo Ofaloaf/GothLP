@@ -49,8 +49,13 @@ e_hispania = {
 			c_corsica = {
 				color={ 226 248 251 }
 				color2={ 255 255 255 }
+
+				gothicromance = Corsega
+				catalan = "Còrsega"
+				italogothic = "Còrsica"
 				
 				b_ajaccio = {
+					catalan = "Adiaci"
 				}
 				b_bonifacio = {
 				}
@@ -96,9 +101,17 @@ e_hispania = {
 				color2={ 255 255 255 }
 
 				africanu = "Callaris"
+
+				gothicromance = Castèl
+				catalan = Càller
+				italogothic = Càliari
 				
 				b_cagliari = {
 					africanu = "Callaris"
+
+					gothicromance = Castèl
+					catalan = Càller
+					italogothic = Càliari
 				}
 				b_ogliastra = {
 				}
@@ -127,6 +140,9 @@ e_hispania = {
 				color2={ 255 255 255 }
 				
 				# Maiorica
+
+				gothicromance = "Malhòrca"
+				catalan = Mallorca
 				
 				b_alcudia = {
 					# Pollentia
@@ -156,9 +172,14 @@ e_hispania = {
 				color2={ 255 255 255 }
 				
 				# Minorica
+
+				gothicromance = "Menòrca"
+				catalan = Menorca
 				
 				b_ciutadella = {
 					# Civitatella
+
+					catalan = Ciutadella
 				} 
 				b_mahon = {
 					# Magonis
@@ -205,6 +226,10 @@ e_hispania = {
 			color2= { 255 255 255 }
 
 			capital = 204 # Barcelona
+
+			catalan = Barcelona
+			gothicromance = Barcelona
+			italogothic = Barslona
 			
 			c_barcelona = {
 				color = { 166 110 72 }
@@ -216,12 +241,16 @@ e_hispania = {
 				gallic = "Barcino"
 				hispani = "Barcino"
 				brithenig = "Barguin"
+
+				catalan = Barcelona
+				gothicromance = Barcelona
+				italogothic = Barslona
 				
 				b_berga = {
 					# Bergium
 
 					gothic = "Baurga"
-					#gothicromance = "Baurgio"
+					gothicromance = "Baurgio"
 				}
 				b_barcelona = {
 					# Barciluna
@@ -230,6 +259,10 @@ e_hispania = {
 					gallic = "Barcino"
 					hispani = "Barcino"
 					brithenig = "Barguin"
+
+					catalan = Barcelona
+					gothicromance = Barcelona
+					italogothic = Barslona
 				}
 				b_vic = {
 					# Ausa
@@ -256,12 +289,18 @@ e_hispania = {
 				color2={ 255 255 255 }
 
 				# Orgellis
+
+				catalan = Urgell
+				gothicromance = Urgèl
 				
 				b_pallars = {
 					# Pallariensis
 				}
 				b_urgell = {
 					# Orgellis
+
+					catalan = Urgell
+					gothicromance = Urgèl
 				}
 				b_suert = {
 					basque = "Zubi"
@@ -293,6 +332,8 @@ e_hispania = {
 				latine = "Ruscino"
 				gallic = "Ruscino"
 				hispani = "Ruscino"
+
+				catalan = Rosselló
 				
 				b_cotlliure = {
 					# Caucoliberi
@@ -304,7 +345,8 @@ e_hispania = {
 					hispani = "Perpiniano"
 					gallic = "Perpiniano"
 
-					#gothicroman = "Perpiniani"
+					gothicroman = "Perpiniani"
+					catalan = Perpinyà
 				}
 				b_elna = {
 					# Illiberis
@@ -331,11 +373,15 @@ e_hispania = {
 				# Emporiae
 
 				greek = Emporion
+
+				catalan = "Empúries"
 				
 				b_empuries = {
 					# Emporiae
 
 					greek = Emporion
+
+					catalan = "Empúries"
 				}
 				b_labisbaldemporda = {
 					# Fontanetum
@@ -348,6 +394,9 @@ e_hispania = {
 				}
 				b_cerdana = {
 					# Cerretania
+
+					catalan = Cerdanya
+					gothicromance = Cerdanha
 				}
 				b_besalu = {
 					# Bisuldunum
@@ -367,22 +416,31 @@ e_hispania = {
 				# Ilerda
 
 				hispani = "Iltrida"
+
+				catalan = Lleida
+				gothicromance = Lhèida
 				
 				b_lleida = {
 					# Ilerda
 
 					hispani = "Iltrida"
+
+					catalan = Lleida
+					gothicromance = Lhèida
 				}
 				b_cervera = {
 					# Cervariae
 
-					#gothicromance = "Cervarie"
+					catalan = Cervera
+					gothicromance = "Cervarie"
 				}
 				b_solsona = {
 					# Setelsis
 
 					gothic = "Setelsona"
-					#gothicromance = "Setelsona"
+					gothicromance = "Setelsona"
+
+					catalan = Solsona
 				}
 				b_agramunt = {
 				}
@@ -444,9 +502,13 @@ e_hispania = {
 				color2={ 255 255 255 }
 
 				# Castalia
+
+				catalan = "Castelló"
 				
 				b_castellon = {
 					# Castalia
+
+					catalan = "Castelló"
 				}
 				b_alpuente = {
 					# Ildium # unrelated to Alpuente
@@ -461,7 +523,8 @@ e_hispania = {
 
 					roman = "Castra Aelia"
 
-					#gothicromance = "Maurila"
+					catalan = Morella
+					gothicromance = "Maurila"
 				}
 				b_vilarreal = {
 					# Regalis
@@ -479,12 +542,18 @@ e_hispania = {
 
 				# Valentia
 			
-				#gothicromance = "Valencia"
+				catalan = "València"
+				gothicromance = "Valencia"
+				italogothic = Valensia
 				
 				b_gandia = {
 				}
 				b_valencia = {
 					# Valentia
+
+					catalan = "València"
+					gothicromance = "Valencia"
+					italogothic = Valensia
 				}
 				b_jativa = {
 					# Saetabis
@@ -512,10 +581,15 @@ e_hispania = {
 				# Dianum
 
 				gothic = "Aurariola"
-				#gothicromance = "Auroriola"
+				gothicromance = "Auroriola"
+				catalan = Oriola
 				
 				b_denia = {
 					# Dianum
+
+					catalan = "Dénia"
+					gothicromance = "Dénia"
+					italogothic = "Dénia"
 				}
 				b_alicante = {
 					# Lucentum
@@ -532,6 +606,8 @@ e_hispania = {
 				}
 				b_orihuela = {
 					# Aurariola
+
+					catalan = Oriola
 				}
 				b_castalla = {
 					# Castra
@@ -568,6 +644,9 @@ e_hispania = {
 				}
 				b_teruel = {
 					# Terulium
+
+					catalan = Terol
+					gothicromance = "Teròl"
 				}
 				b_hijar = {
 					# Ars
@@ -599,11 +678,16 @@ e_hispania = {
 					# Iaca
 
 					hispani = "Iaka"
+
+					catalan = Jaca
+					gothicromance = Jaca
 				}
 				b_huesca = {
 					# Osca
 
 					greek = "Ileoscan"
+
+					gothicromance = "Òsca"
 				}
 				b_barbastro = {
 					# Barbastrum
@@ -613,7 +697,7 @@ e_hispania = {
 					hispani = "Barbastra"
 
 					gothic = "Bergiduna"
-					#gothicromance = "Bergiduna"
+					gothicromance = "Bergiduna"
 				}
 				b_loarre = {
 					# Lobarra # guessing
@@ -639,6 +723,7 @@ e_hispania = {
 				
 				gothic = "Cesaracosta"
 				gothicromance = "Cesaracosta"
+				catalan = "Saragossa"
 				
 				b_alagon = {
 					# Belaisca # actually Botorrita
@@ -647,7 +732,8 @@ e_hispania = {
 					# Caesaraugusta
 
 					gothic = "Cesaracosta"
-					gothicromance = "Cesaracosta"
+					gothicromance = "Cesaragosta"
+					catalan = "Saragossa"
 				}
 				b_veruela = {
 					# Virula # guessing
@@ -721,7 +807,8 @@ e_hispania = {
 
 				greek = "Pyrgos"
 				gothic = "Baurgs"
-				#gothicromance = "Baurgus"
+				gothicromance = "Baurgus"
+				catalan = Burchs
 				
 				b_aguilardecampo = {
 					# Campodium
@@ -731,10 +818,14 @@ e_hispania = {
 
 					greek = "Pyrgos"
 					gothic = "Baurgs"
-					#gothicromance = "Baurgus"
+					gothicromance = "Baurgus"
+					catalan = Burchs
 				}
 				b_palencia = {
 					# Pallantia
+
+					catalan = "Palència"
+					gothicromance = "Paléncia"
 				}
 				b_silos = {
 					# Dominicum # Santo Domingo de Silos
@@ -873,6 +964,10 @@ e_hispania = {
 			color2={ 255 255 255 }
 			
 			capital = 197 # Toledo
+
+			gothic = "Tollitu"
+			gothicromance = "Tolleto"
+			catalan = Toledo
 			
 			c_toledo = {
 				color = { 245 204 15 }
@@ -885,6 +980,8 @@ e_hispania = {
 				
 				b_madrid = {
 					# Matritum
+
+					catalan = Madrit
 				}
 				b_toledo = {
 					# Toletum
@@ -893,7 +990,8 @@ e_hispania = {
 					hispani = "Tollitum"
 
 					gothic = "Tollitu"
-					#gothicromance = "Tolleto"
+					gothicromance = "Tolleto"
+					catalan = Toledo
 				}
 				b_orgaz = {
 					# Orgas
@@ -909,7 +1007,8 @@ e_hispania = {
 					hispani = "Ebora"
 
 					gothic = "Elbora"
-					#gothicromance = "Elbora"
+					gothicromance = "Elbora"
+					catalan = Elbora
 				}
 				b_consuegra = {
 					# Consabura
@@ -921,7 +1020,8 @@ e_hispania = {
 					# Egelesta
 
 					gothic = "Elesca"
-					#gothicromance = "Elescas"
+					gothicromance = "Elescas"
+					catalan = Elescas
 				}
 			}
 			c_molina = {
@@ -954,6 +1054,8 @@ e_hispania = {
 				levantine_arabic = "Kunka"
 				egyptian_arabic = "Kunka"
 				rumi_arabic = "Kunka"
+
+				catalan = Conca
 				
 				b_siguenza = {
 				}
@@ -963,6 +1065,8 @@ e_hispania = {
 					levantine_arabic = "Kunka"
 					egyptian_arabic = "Kunka"
 					rumi_arabic = "Kunka"
+
+					atalan = Conca
 				}
 				b_guadalajara = {
 				}

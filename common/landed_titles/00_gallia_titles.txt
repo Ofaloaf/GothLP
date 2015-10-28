@@ -27,7 +27,8 @@ e_gallia = {
 			color={ 82 120 48 }
 			color2={ 255 255 255 }
 
-			gothicromance = "Liyunesa"
+			gothicromance = "Liyunés"
+			italogothic = "Lionansa"
 			
 			capital = 227 # Lyon
 			
@@ -38,6 +39,7 @@ e_gallia = {
 				# Lugdunum
 
 				gothicromance = Liyunés
+				italogothic = "Lion"
 
 				holy_site = arian
 				
@@ -55,6 +57,7 @@ e_gallia = {
 
 					gothic = "Lugduum"
 					gothicromance = "Liyun"
+					italogothic = "Lion"
 
 					german = "Leyden"
 				}
@@ -81,7 +84,7 @@ e_gallia = {
 
 				# Forensis
 
-				gothicromance = "Foresz"
+				gothicromance = "Faurésa"
 				
 				b_couzan = {
 				}
@@ -89,10 +92,15 @@ e_gallia = {
 				}
 				b_thiers = {
 					# Thiermum
+
+					gothicromance = "Tigèrn"
+					italogothic = "Tièrn"
 				}
 				b_feurs = {
 					# Forum Segusiavorum
 					used_for_dynasty_names = no
+
+					gothicromance = "Faurensa"
 				}
 				b_roanne = {
 					# Rodumna
@@ -102,9 +110,13 @@ e_gallia = {
 				b_charlieu = {
 					# Carus Locus
 					used_for_dynasty_names = no
+
+					gothicromance = "Carlegu"
 				}
 				b_chalmazel = {
 					# Calmismansum
+
+					gothicromance = "Calmansel"
 				}
 				b_stetienne = {
 					# St. Stephanus
@@ -352,6 +364,9 @@ e_gallia = {
 				}
 				b_semurenbrionnais = {
 					# Senemurum
+
+					gothic = "Senemurum"
+					gothicromance = "Semuro"
 				}
 				b_toulonsurarroux = {
 					# Bibracte
@@ -565,18 +580,35 @@ e_gallia = {
 					# Suentesis
 
 					gothic = Suggentesis
+					gothicromance = "Suntensa"
 				}
 				b_vaudemont = {
 					# Votanumons
+
+					gothicromance = "Vaumuns"
 				}
 				b_brixey = {
 					# Briccius
+
+					gothicromance = "Brichei"
 				}
 				b_sorcystmartin = {
+					# Sorcia
+
+					gothic = "Sorcia"
+					gothicromance = "Saurci"
+					italogothic = "Saurci"
 				}
 				b_ivios = {
+					# Ivosium
+
+					gothic = "Ivosium"
 				}
 				b_ornois = {
+					# Onnensis
+
+					gothic = "Onnensis"
+					gothicromance = "Ornansa"
 				}
 				b_saulnois = {
 					# Salinensis
@@ -606,15 +638,21 @@ e_gallia = {
 				}
 				b_saintmihel = {
 					# Michaelacum
+
+					gothicromance = "Miqelei"
 				}
 				b_commercy = {
 					# Commercium
 				}
 				b_joinville = {
 					# Jovinus
+
+					gothicromance = "Joinei"
 				}
 				b_saintdizier = {
 					# Desideriacum
+
+					gothicromance = "Desdrei"
 				}
 			}
 		}
@@ -860,6 +898,7 @@ e_gallia = {
 					# Lomberium
 
 					gothicromance = "Lombèrs"
+					gallic = "Lombès"
 				} 
 				b_hautpoul = {
 					# Altopullo
@@ -882,6 +921,7 @@ e_gallia = {
 					# Rutenorum
 
 					gothicromance = "Rodés"
+					gallic = "Rutenis"
 				} 
 				b_millau = {
 					# Millavensis
@@ -944,7 +984,7 @@ e_gallia = {
 			color = { 207 112 80 }
 			color2= { 255 255 255 }
 
-			gothicromance = "Narbonesa"
+			gothicromance = "Narbonés"
 
 			capital = 212 # Narbonne
 
@@ -1419,6 +1459,7 @@ e_gallia = {
 				# Burdigalensis
 
 				gothicromance = "Bordèu"
+				italogothic = "Bordò"
 				
 				b_castillon = {
 					# Castellum
@@ -1427,6 +1468,7 @@ e_gallia = {
 					# Burdigala
 
 					gothicromance = "Bordèu"
+					italogothic = "Bordò"
 				}
 				b_stemilion = {
 				}
@@ -1453,11 +1495,13 @@ e_gallia = {
 				# Aginnum
 
 				greek = "Aginnon"
+				gothicromance = "Agenés"
 				
 				b_agen = {
 					# Aginnum
 
 					greek = "Aginnon"
+					gothicromance = "Agen"
 				}
 				b_penne = {
 				}

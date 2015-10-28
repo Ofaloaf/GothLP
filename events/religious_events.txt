@@ -4596,7 +4596,7 @@ narrative_event = {
 	only_men = yes
 	
 	trigger = {
-		religion = catholic
+		religion = orthodox
 		controls_religion = yes
 		year = 1090
 		
@@ -4649,7 +4649,7 @@ narrative_event = {
 	
 	trigger = {
 		year = 900
-		religion = catholic
+		religion = orthodox
 		controls_religion = yes
 		NOT = { has_global_flag = christian_crusades_unlocked }
 		
@@ -4715,7 +4715,7 @@ narrative_event = {
 	
 	trigger = {
 		year = 900
-		religion = catholic
+		religion = orthodox
 		controls_religion = yes
 		NOT = { has_global_flag = christian_crusades_unlocked }
 		
@@ -4785,11 +4785,9 @@ narrative_event = {
 			112 = { # Paris
 				NOT = { owner = { religion_group = christian } }
 			}
-			AND = {
-				119 = { # Cologne
-					religion_group = christian
-					NOT = { owner = { religion_group = christian } }
-				}
+			119 = { # Cologne
+				religion_group = christian
+				NOT = { owner = { religion_group = christian } }
 			}
 		}
 	}

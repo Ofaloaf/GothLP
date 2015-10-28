@@ -279,3 +279,40 @@ narrative_event = {
 		}
 	}
 }
+
+province_event = {
+	id = ATTILA.5
+	desc = EVTDESC_ATTILA_5
+	picture = GFX_evt_stone_church
+
+	trigger = {
+		owner = {
+			OR = {
+				culture = gothic
+				culture = gothicromance
+			}
+		}
+		region = world_europe_south_italy
+		any_province_holding = {
+			NOT = { holding_type = nomad }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 2400
+		modifier = {
+			factor = 0.3
+			NOT = {
+				OR = {
+					culture = latine
+					culture = italian
+				}
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTA_ATTILA_5
+		culture = italogothic
+	}
+}

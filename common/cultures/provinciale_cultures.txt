@@ -289,6 +289,8 @@ provinciale = {
 		modifier = default_culture_modifier
 	}
 	gothicromance = {
+		# 'Valgautic' in-game
+		# basically Occitan/Catalan, I keep wavering on which to go with
 		graphical_culture = occitangfx
 		
 		color = { 0.9 0.9 0.5 }
@@ -310,12 +312,12 @@ provinciale = {
 			Frederi_Frederick Faluax
 			Garçi_Garcia Gausbert_Gausbert Gautier_Walter Gilbèrt_Gilbert Girard_Gerard Godesteo Guntrodo
 			Gudafres_Godfrey Gui_Guy Guichard Guigues_Guy Guiraud_Gerald Guitart_Gerard Guillemó_William
-			Gauteric Gonçalo_Gonzal Guttier_Walter Gomé Guidéric_Witeric Guidimir_Vithimir
+			Gauteric Gonçalo_Gonzal Guttier_Walter Gomé Guidéric_Witeric Guidimir_Vithimir Gabrieù_Gabriel
 			Ives Irmanric Ildebad Immanuèl_Manuel Istève_Stephen
 			Jacme_Jacob Jaufret_Godfrey Joan_John Jordan_Jordan Jorge_George Julian_Julian Juli_Julius
-			Justi_Justin
-			Laurènç_Laurence Liun_Leo Loïs_Louis Loui_Louis Lup_Lupo Lodoycus_Louis Luc_Lucas Laülf Leuberic
-			Leidrat
+			Justi_Justin Josèp_Joseph
+			Laurènç_Laurence Liun_Leo Lozoïc_Louis Lup_Lupo Lodoycus_Louis Lucàs_Lucas Laülf Leuberic
+			Leidrat Lissandre_Alexander
 			Marçau Martin_Martin Matfrei_Manfred Matias_Matthew Milau Miquel_Michael Maurici_Maurice Miró
 			Marc_Marcus Melén Magne_Magnus
 			Nicaulas_Nicholas Narseis
@@ -336,7 +338,7 @@ provinciale = {
 		female_names = {
 			Adèla_Adela Adalaïda_Adelaide Adeltrudis Agata_Agatha Aïna_Emma Ainès_Agnes Alaïs_Alice Ava Azalaïs
 			Alienòr_Eleanor Aliç_Alice Almòdis_Almodis Alpaïs Ana_Anna Arsenda_Arsenda Assalhida Azelma 
-			Amalasunda Argilo
+			Amalasunda Argilo Andrieva_Andrea
 			Bòna_Bonne Beatritz_Beatrice Berenguela Berta Blanca_Blanche Brandimena Bregida_Brigid Brunissenda 
 			Camila Carlòta Caterina_Catherine Cecilia_Cecilia Clara_Clara Clarmonda_Esclarmunda 
 			Clemència_Clementia Cunstància_Constance 
@@ -345,6 +347,7 @@ provinciale = {
 			Ermessentz_Ermesinda Esclarmonda_Esclarmunda Estefania_Stephania Eufèmia_Euphemia Eufrosina_Euphrosyne
 			Faidida Filipa_Philippa Filomena Flòra_Flora Francesa_Francesca Fronilde_Fronilde Froiloba
 			Garcenda Geneviva Gerbèrga_Gerberga Gersenda Gisla_Gisela Guigone Guilheumina_Wilhelmina
+			Gabrièla_Gabrielle
 			Heloise_Eloise
 			Ioulanda_Yolanda Isabèu_Elisabeth Isabèla_Elisabeth Ildaria
 			Joana_Joan Juliana_Juliana 

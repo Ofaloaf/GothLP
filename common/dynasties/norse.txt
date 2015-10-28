@@ -1,14 +1,14 @@
 2015001 = {
 	name = "Maðverðr"
-	culuture = norse
+	culture = norse
 }
 
 2015002 = {
 	name = "Muttlanding"
-	culuture = norse
+	culture = norse
 }
 
 2015003 = {
 	name = "Alstinging"
-	culuture = norse
+	culture = norse
 }

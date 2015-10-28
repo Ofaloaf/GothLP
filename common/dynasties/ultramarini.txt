@@ -370,5 +370,5 @@
 
 1099075 = {
 	name = "Tartare"
-	cultue = ultramarini
+	culture = ultramarini
 }

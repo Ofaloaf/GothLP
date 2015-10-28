@@ -2,8 +2,7 @@ latinic = {
 	graphical_culture = easterngfx
 
 	roman = {
-		graphical_culture = southerngfx
-		second_graphical_culture = occitangfx # Fallback type
+		graphical_cultures = { italiangfx southerngfx }
 		
 		color = { 0.8 0.7 0.2 }
 
@@ -76,8 +75,7 @@ latinic = {
 		modifier = default_culture_modifier
 	}
 	latine = {
-		graphical_culture = southerngfx
-		second_graphical_culture = occitangfx # Fallback type
+		graphical_cultures = { italiangfx southerngfx }
 		
 		color = { 0.75 0.5 0.25 }
 
@@ -155,8 +153,7 @@ latinic = {
 	africanu = {
 		# https://forum.paradoxplaza.com/forum/index.php?threads/new-cultures.610605/page-35#post-17867591
 
-		graphical_culture = arabicgfx
-		second_graphical_culture = muslimgfx
+		graphical_cultures = { arabicgfx muslimgfx }
         
 	        color = { 0.9 0.73 0.5 }
 
@@ -235,7 +232,7 @@ latinic = {
 	        mother_name_chance = 5
 	}
 	dalmatian = {
-		graphical_culture = italiangfx
+		graphical_cultures = { italiangfx southerngfx }
 		
 		color = { 0.7 0.65 0.50 }
 
@@ -293,8 +290,10 @@ latinic = {
 		mother_name_chance = 10
 	}
 	italian = {
-		graphical_culture = southerngfx
-		second_graphical_culture = occitangfx # Fallback type
+		# this is what happens Avars instead of Lombards settle in Italy
+		# mostly swapping out Germanic names for Iranian and Turkic ones and then making then Italianish
+		# also, sporadically switching out Standard Italian name forms for Lombard/Lumbaarts, just for distinction
+		graphical_cultures = { italiangfx southerngfx }
 		
 		color = { 0.95 0.9 0.7 }
 
@@ -348,6 +347,77 @@ latinic = {
 		}
 
 		from_dynasty_prefix = "di "
+
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	}
+ 	italogothic = {
+		# 'Ivreian' in-game
+		# basically piedmontese
+
+		graphical_cultures = { italiangfx southerngfx }
+		
+		color = { 0.78 0.78 0.78 }
+
+		male_names = {
+			Atalarigh Atil_Attila Aligerno Alarigh_Alaric Anagaste Andrea_Andrew Alavivo Ascario Arborio
+			Agila Amalarigh_Amalric Ardo Atanarigh Atanagildo Ataulfo Arcibald Adrian_Adrian Ambreus
+			Antòni_Antonius Agustin_August Ajmon_Aymeric Ainrigh_Henry
+			Buterigh Benedet_Benedict Batista Bonifass_Boniface Boson
+			Chindavindo Chintila Carl_Charles Conrà Costantin_Constantine Clàudi_Claudius Clement
+			Deceneo Daniele_Daniel
+			Erarigh Eidrec Eladio Ermenegildo Egica Ervige Emanuel_Manuel Edoard_Edward Ebal Eurigh_Euric
+			Éracle_Hercules Ësteo_Stephen
+			Federigh_Frederick Fravitta Froia Fritigerno Flip_Philip Filibert
+			Ildibaldo Ignassi Iblet
+			Guidin Guido_Guy Giordane_Jordanes Gainas Giunio Giouan_John Gesalico Gundemaro Genio_Eugene
+			Gulielm_William Giaco_Jacob Gezo Gulfurn Gajo_Gaius Gianrens Giacolin Gregòri_Gregory
+			Godifré_Godfrey Giacint_Hyacinth Gaudens Giòrs_George
+			Leovigildo Liuva Lugh_Luke Ludovigh_Louis Lorens_Laurentius Leon_Leo Liutsarn Lissànder_Alexander
+			Medeo_Amadeus Margh_Marcus Michel_Michael Màssim Manfrèid Melior
+			Nicholaus_Nicholas Nicolet
+			Odoacre_Odoacer Ovida Olmundo Oton_Otto Ors Oreste Odilo Odoin_Otwin
+			Pierio Plinta Pàol_Paul Pé_Peter Pero_Peter
+			Ragnari Radagaiso Ricimero Recaredo Reccesvindo Roderigh Ròmol_Romulus Renà_Renatus
+			Safrax Sigisvulto Saro Sunieric Segeric Sigeric Sisbuto Sisnand Suintila Sunifeder
+			Theodorico Teodemiro Teia Teodato Totila Tribigildo Tufta Tuldila Teodosi_Theodosius Teodulfo
+			Teudi Teudiselo Torimondo Tulga Tomà_Thomas Tiudenand Tiudòr_Theodore Tiuderigh_Theodoric
+			Usdrila Uraia Ulfila Ugo Umbert
+			Valamiro Vitige Viliaric Valila Vitaliano Vallia Vamba Viterico Vitiza Vitòrio
+			Xavêio
+			Zenone
+		}
+		female_names = {
+			Andefleda Amalasunta Amalafrida Amalaberga Adelàide Angela Alasia Agnese Amalia Agustina Aurona
+			Brunechilde Bianca Beatris_Beatrice
+			Civilona Cristina Carolina Catlina Cunigunda_Kunigunde Clotilde_Clotilde Constanza_Constance 
+			Cornelia
+			Dòmna Diodata Desiderata
+			Ereleuva Egilona Ermenberga Enrichëtta Eleonòra Elisabeta_Elisabeth Ermion
+			Felìcita Flavia Flora_Flora Fausta
+			Galsuinda Gioana_Joan Giulia_Julia Giacinta Gambara Geila Gaila Giacomëtta Gabriela
+			Isabella_Elisabeth
+			Jolanda_Yolanda
+			Luisa Luchina Lavinia Liutberga Laura_Laura
+			Matasunta Maria_Maria Margarita Maddalena_Magdalena Marina Marozia Menia
+			Neta_Anna
+			Polissena
+			Ricciarda Romana Rodelina Rosamunda
+			Sifeca Susanna Sergia Serenahilda_Serhilda Sichelgaita Sunigilda Sunilda Stefania_Stephania
+			Sofia_Sophia Sibila_Sibylla
+			Teresa_Teresa Teodolinda Tamora
+			Valdamerca Virginia Vitòria_Victoria
+		}
+
+		from_dynasty_prefix = "ëd "
 
 		modifier = default_culture_modifier
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.

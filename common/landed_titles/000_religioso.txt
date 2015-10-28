@@ -58,7 +58,7 @@ k_orthodox = {
 	
 	# Regnal names
 	male_names = {
-		Alexius Alexnander Anastasius Anacletus Antonius Andronicus Arcadius
+		Alexius Alexander Anastasius Anacletus Antonius Andronicus Arcadius
 		Constantinus Cyriacus Cosmas
 		Eugenius Euthymius
 		Gregorius Gennadius Georgius Germanus

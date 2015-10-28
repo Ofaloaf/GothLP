@@ -667,12 +667,37 @@ e_germany = {
 				color2={ 255 255 255 }
 				
 				pommeranian = Szczecin
+
+				norse = Burstaborg
+				danish = Burstaborg
+				norwegian = Burstaborg
+				geatish = Burstaborg
+
+				old_saxon = Burstenburgh
+				saxon = Burstenburgh
+
+				alan = Szetsiqaew
+				feretolan = Szetsiqaew
+				jasi = Szetsiqaew
+				sarmatian = Szetsiqaew
 			
 				b_soldin = {
 				}
 				b_stettin = {
-
 					pommeranian = Szczecin
+
+					norse = Burstaborg
+					danish = Burstaborg
+					norwegian = Burstaborg
+					geatish = Burstaborg
+
+					old_saxon = Burstenburgh
+					saxon = Burstenburgh
+
+					alan = Szetsiqaew
+					feretolan = Szetsiqaew
+					jasi = Szetsiqaew
+					sarmatian = Szetsiqaew
 				}
 				b_wollin = {
 				} 
@@ -700,8 +725,17 @@ e_germany = {
 				norse = "Danzig"
 				norwegian = "Danzig"
 				danish = "Danzig"
+
+				alan = "Kasubiy"
+				feretolan = "Kasubiy"
+				jasi = "Kasubiy"
+				sarmatian = "Kasubiy"
 			
 				b_bytow = {
+					alan = Bitom
+					feretolan = Bitom
+					sarmatian = Bitom
+					jasi = Bitom
 				}
 				b_danzig = {
 					pommeranian = "Gdansk"
@@ -713,6 +747,11 @@ e_germany = {
 					norse = "Danzig"
 					norwegian = "Danzig"
 					danish = "Danzig"
+
+					alan = "Gedanskiy"
+					feretolan = "Gedanskiy"
+					jasi = Gedanskiy
+					sarmatian = Gedanskiy
 				}
 				b_oliva = {
 				}
@@ -736,6 +775,11 @@ e_germany = {
 				norwegian = "Stolp"
 				danish = "Stolp"
 				norse = "Stolp"
+
+				alan = Stulpi
+				feretolan = Stulpi
+				jasi = Stulpi
+				sarmatian = Stulpi
 			
 				b_rugenwalde = {
 					pommeranian = "Dirlovo"
@@ -747,6 +791,11 @@ e_germany = {
 					norwegian = "Stolp"
 					danish = "Stolp"
 					norse = "Stolp"
+
+					alan = Stulpi
+					feretolan = Stulpi
+					jasi = Stulpi
+					sarmatian = Stulpi
 				}
 				b_colberg = {
 				}
@@ -1664,6 +1713,7 @@ e_germany = {
 		color2={ 220 220 20 }
 
 		old_frankish = "Frankia"
+		dutch = "Frankenland"
 		
 		culture = dutch
 		
@@ -2301,8 +2351,14 @@ e_germany = {
 				carantanian = "Gornja Bavarska"
 			
 				b_munchen = {
+					suebi = Munichen
+					gothic = Munichen
+					gothicromance = Munic
 					boarisch = "Minga"
 					carantanian = "Monakovo"
+
+					italian = Monaco
+					africanu = "Mònacu"
 				}
 				b_dachau = {
 					boarisch = "Dochau"
@@ -2573,6 +2629,12 @@ e_germany = {
 					carantanian = "Linec"
 					traki = "Linec"
 					rimlyani = "Linec"
+
+					avar = "Lench"
+					alan = "Lench"
+					jasi = "Lench"
+					sarmatian = "Lench"
+					feretolan = "Lench"
 				}
 				b_melk = {
 					# Medilica
@@ -2615,6 +2677,12 @@ e_germany = {
 				carantanian = "Stajerska"
 				traki = "Stajerska"
 				rimlyani = "Stajerska"
+
+				avar = Grach
+				jasi = Grach
+				alan = Grach
+				sarmatian = Grach
+				feretolan = Grach
 				
 				b_eppenstein = {
 				}
@@ -2622,6 +2690,12 @@ e_germany = {
 					carantanian = "Gradec"
 					traki = "Gradec"
 					rimlyani = "Gradec"
+
+					avar = Grach
+					jazi = Grach
+					alan = Grach
+					sarmatian = Grach
+					feretolan = Grach
 				}
 				b_lavant = {
 					# Lavantina

@@ -255,7 +255,7 @@
 
 405051 = {
 	name = "Quidilasunus"
-	culutre = gothic
+	culture = gothic
 }
 
 405052 = {

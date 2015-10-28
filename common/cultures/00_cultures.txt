@@ -302,15 +302,43 @@ iberian = {
 		color = { 0.85 0.75 0.08 }
 
 		male_names = {
-			Alfons_Alphonse Arnau_Arnold Artau_Artal Berenguer_Berengar Berenguer-Ramon Bernat_Bernard Bernat-Guillem Dalmau Ermengol_Ermengaud Felip_Philip
-			Ferran_Ferdinand Frederic_Frederick Gausfred_Godfrey Gerard_Gerard Gombau Guerau_Gerald Guifré_Wilfred Guillem_William Guillem-Ramon Guislabert_Gilbert
-			Hug_Hugh Jaume_Jacob Joan_John Jofré_Godfrey Ott_Otto Pere_Peter Ponç_Pons Ponç-Hug Ramon_Raymond Ramon-Berenguer_Raymond-Berengar
-			Ramon-Folc Roger_Roger Sanç_Sancho Sunyer_Sunyer Udalard
+			Alfons_Alphonse Arnau_Arnold Artau_Artal Alaric_Alaric Ardó August_Augustus Antoní_Antonius 
+			Aureol Alexandre_Alexander Aleix_Alexius Acfred
+			Berenguer_Berengar Berenguer-Ramon Bernat_Bernard Bernat-Guillem Bonós Balduí_Baldwin Borrell
+			Belló Benció
+			Cèsar Claudi_Claudius Constantí_Constantine Constant
+			Dalmau 
+			Ermengol_Ermengaud Ègica Euric_Euric Eribert
+			Felip_Philip Froila_Froila Ferran_Ferdinand Frederic_Frederick  Frèdol
+			Gausfred_Godfrey Gerard_Gerard Gombau Guerau_Gerald Guifré_Wilfred Guillem_William 
+			Guillem-Ramon Guislabert_Gilbert Guisclafred
+			Hug_Hugh 
+			Jaume_Jacob Joan_John Jofré_Godfrey Juli_Julius
+			Lleó_Leo
+			Marc_Marcus Màrius_Marius Maximí Magne_Magnus Miquel_Michael Monnio_Munio Miró
+			Nunno_Nuno
+			Ott_Otto Octavi_Octavius Ordonno_Ordono
+			Pere_Peter Ponç_Pons Ponç-Hug Pipí_Pipin
+			Ramon_Raymond Ramon-Berenguer_Raymond-Berengar Roger_Roger Ròmul_Romulus Romà_Roman
+			Roderick_Roderick
+			Sanç_Sancho Sunyer_Sunyer Sext
+			Teudis Teodoric_Theoderic Tiberi
+			Udalard
+			Viteric Valerià Victor_Victor
+			Zenó
 		}
 		female_names = {
-			Adelaida_Adelaide Agnès_Agnes Alamanda Arsenda_Arsenda Beatriu_Beatrice Blanca_Blanche Brunisenda Constança_Constance Dolça_Douce Elionor_Eleanor
-			Elisenda Ermessenda_Ermesinda Estefania_Stephania Gueraua Guillelma Guisla_Gisela Isabel_Elisabeth Margarida_Margaret Maria_Maria Marquesa_Marquise
-			Sança_Sancha Sibila_Sibylla Teresa_Teresa Toda_Toda Violant_Yolanda
+			Adelaida_Adelaide Agnès_Agnes Alamanda Arsenda_Arsenda 
+			Beatriu_Beatrice Blanca_Blanche Brunisenda 
+			Constança_Constance 
+			Dolça_Douce 
+			Elionor_Eleanor Elisenda Ermessenda_Ermesinda Estefania_Stephania  Ermengarda
+			Gueraua Guillelma Guisla_Gisela Guinidilda Garsenda
+			Isabel_Elisabeth Irene
+			Margarida_Margaret Maria_Maria Marquesa_Marquise
+			Sança_Sancha Sibila_Sibylla 
+			Teresa_Teresa Toda_Toda Teodora_Theodora
+			Violant_Yolanda
         }
 		from_dynasty_prefix = "de "
 		grammar_transform = french

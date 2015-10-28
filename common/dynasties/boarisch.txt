@@ -95,7 +95,7 @@
 
 1814020 = {
 	name = "vo Aidenboch"
-	cultue = boarisch
+	culture = boarisch
 }
 
 1814021 = {
@@ -695,7 +695,7 @@
 
 1814140 = {
 	name = "Steurer"
-	cultue = boarisch
+	culture = boarisch
 }
 
 1814141 = {

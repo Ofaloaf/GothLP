@@ -45,7 +45,7 @@
 
 1940011 = {
 	name = "Rafinel"
-	cultue = gallic
+	culture = gallic
 }
 
 1940012 = {
@@ -190,7 +190,7 @@
 
 1940040 = {
 	name = "Vindonnino"
-	cultue = gallic
+	culture = gallic
 }
 
 1940041 = {

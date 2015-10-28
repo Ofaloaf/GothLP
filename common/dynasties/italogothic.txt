@@ -1,0 +1,224 @@
+1919001 = {
+	name = "Rava"
+	culture = italogothic
+}
+
+1919002 = {
+	name = "ëd Lissandria"
+	culture = italogothic
+}
+
+1919003 = {
+	name = "ëd Giaven"
+	culture = italogothic
+}
+
+1919004 = {
+	name = "Biancaman"
+	culture = italogothic
+}
+
+1919005 = {
+	name = "ëd Florensa"
+	culture = italogothic
+}
+
+1919006 = {
+	name = "dla Novalèisa"
+	culture = italogothic
+}
+
+1919007 = {
+	name = "Waldelenus"
+	culture = italogothic
+}
+
+1919008 = {
+	name = "Walchunus"
+	culture = italogothic
+}
+
+1919009 = {
+	name = "Crisòstom"
+	culture = italogothic
+}
+
+1919010 = {
+	name = "d'Asèj"
+	culture = italogothic
+}
+
+1919011 = {
+	name = "Ìsler"
+	culture = italogothic
+}
+
+1919012 = {
+	name = "Calv"
+	culture = italogothic
+}
+
+1919013 = {
+	name = "ëd Cavour"
+	culture = italogothic
+}
+
+1919014 = {
+	name = "de Turrin"
+	culture = italogothic
+}
+
+1919015 = {
+	name = "ëd Leinì"
+	culture = italogothic
+}
+
+1919016 = {
+	name = "Borgno"
+	culture = italogothic
+}
+
+1919017 = {
+	name = "Grivetta"
+	culture = italogothic
+}
+
+1919018 = {
+	name = "ëd Castion"
+	culture = italogothic
+}
+
+1919019 = {
+	name = "ëd Bredulo"
+	culture = italogothic
+}
+
+1919020 = {
+	name = "ëd Pombia"
+	culture = italogothic
+}
+
+1919021 = {
+	name = "ëd Vërsèj"
+	culture = italogothic
+}
+
+1919022 = {
+	name = "d'Äich"
+	culture = italogothic
+}
+
+1919023 = {
+	name = "d'Alba"
+	culture = italogothic
+}
+
+1919024 = {
+	name = "Bonomel"
+	culture = italogothic
+}
+
+1919025 = {
+	name = "de Prez"
+	culture = italogothic
+}
+
+1919026 = {
+	name = "ëd Véres"
+	culture = italogothic
+}
+
+1919027 = {
+	name = "ëd Coursan"
+	culture = italogothic
+}
+
+1919028 = {
+	name = "Fieschi"
+	culture = italogothic
+}
+
+1919029 = {
+	name = "d'Acaja"
+	culture = italogothic
+}
+
+1919030 = {
+	name = "dla Ròca"
+	culture = italogothic
+}
+
+1919031 = {
+	name = "Cacheran"
+	culture = italogothic
+}
+
+1919032 = {
+	name = "ëd Bricheras"
+	culture = italogothic
+}
+
+1919033 = {
+	name = "ëd Valèis"
+	culture = italogothic
+}
+
+1919034 = {
+	name = "Germonius"
+	culture = italogothic
+}
+
+1919035 = {
+	name = "Brambilla"
+	culture = italogothic
+}
+
+1919036 = {
+	name = "de Gorrevôd"
+	culture = italogothic
+}
+
+1919037 = {
+	name = "dël Mondvì"
+	culture = italogothic
+}
+
+1919038 = {
+	name = "dël Pesi"
+	culture = italogothic
+}
+
+1919039 = {
+	name = "dël Giss"
+	culture = italogothic
+}
+
+1919040 = {
+	name = "dla Vermegnana"
+	culture = italogothic
+}
+
+1919041 = {
+	name = "Ancina"
+	culture = italogothic
+}
+
+1919042 = {
+	name = "Calcagn"
+	culture = italogothic
+}
+
+1919043 = {
+	name = "Borgèis"
+	culture = italogothic
+}
+
+1919044 = {
+	name = "ëd San Dalmass"
+	culture = italogothic
+}
+
+1919045 = {
+	name = "dla Rol"
+	culture = italogothic
+}

@@ -76,6 +76,7 @@ e_italy = {
 					# Viterbium
 
 					italian = "Viterbo"
+					italogothic = "Viterb"
 				}
 				b_tusculum = {
 				}
@@ -83,6 +84,7 @@ e_italy = {
 					# Tibur
 
 					italian = "Tivoli"
+					italogothic = "Tivoli"
 				}
 				b_ostia = {
 				}
@@ -90,11 +92,13 @@ e_italy = {
 					# Sutrium
 
 					italian = "Sutri"
+					italogothic = "Sutri"
 				}
 				b_aragni = {
 					# Anagnia
 
 					italian = "Anagni"
+					italogothic = "Anagni"
 				}
 				b_terracina = {
 					# Tarracina
@@ -115,29 +119,47 @@ e_italy = {
 					# Urbs Vetus
 
 					italian = "Orvieto"
+					italogothic = "Orvieto"
 					gothicromance = "Urviet"
+					africanu = "Orvietu"
 				}
 				b_narni = {
 					# Narnia
+
+					italian = "Narni"
+					italogothic = "Narni"
 				}
 				b_alviano = {
 					# Alvianum
+
+					italian = "Alviano"
+					italogothic = "Alviano"
 				}
 				b_montecastrilli = {
 					# Mons Castrillorum
+
+					italian = "Montecastrilli"
+					italogothic = "Montecastrilli"
 				}
 				b_otricoli = {
 					# Ocriculum
+
+					italian = Otricoli
+					italogothic = Otricoli
 				}
 				b_amelia = {
 					# Ameria
 
 					italian = Amelia
+					italogothic = "Amelia"
 					gothic = Amalia
 					gothicromance = Amalia
 				}
 				b_baschi = {
 					# Basco
+
+					italian = Baschi
+					italogothic = Baschi
 				}
 				b_ciconia = {
 				}
@@ -148,12 +170,21 @@ e_italy = {
 				color2={ 255 255 255 }
 
 				# Urbetellum
+
+				italian = Orbetello
+				italogothic = Orbetello
 				
 				b_orbetello = {
 					# Urbetellum
+
+					italian = Orbetello
+					italogothic = Orbetello
 				}
 				b_grosseto = {
 					# Grossetum
+
+					italian = Grosseto
+					italogothic = Grosseto
 				}
 				b_pitigliano = {
 					# Pitilianum
@@ -162,6 +193,7 @@ e_italy = {
 					# Rusellae Novae
 
 					italian = "Roselle"
+					italogothic = Roselle
 				}
 				b_sorano = {
 					# Soranum
@@ -197,11 +229,15 @@ e_italy = {
 				# Tarvisium
 
 				dalmatian = "Trevixo"
+				italian = Treviso
+				italogothic = Trevis
 				
 				b_treviso = {
 					# Tarvisium
 
 					dalmatian = "Trevixo"
+					italian = Treviso
+					italogothic = Trevis
 				}
 				b_bassano = {
 					# Bassanum
@@ -214,14 +250,21 @@ e_italy = {
 					# Opitergium
 
 					dalmatian = "Oderso"
+					italian = Oderzo
+					italogothic = Oderzo
 				}
 				b_castelfranco = {
 					# Castela # making up a bit
 
 					dalmatian = "Castelo"
+					italian = Castelo
+					italogothic = Castelo
 				}
 				b_asola = {
 					# Ansula
+
+					italian = Asola
+					italogothic = Asola
 				}
 				b_citadella = {
 				}
@@ -229,22 +272,34 @@ e_italy = {
 					# Ceneta
 
 					roman = "Cenetae"
+					italian = Ceneda
+					italogothic = Ceneda
 				}
 				b_paese = {
 					# Paesium
 
 					dalmatian = "Paéxe"
+					italian = Paese
+					italogothic = Paese
 				}
 			}
 			c_verona = {
 				color={ 255 230 230 }
 				color2={ 255 255 255 }
+
+				dalmatian = "Verone"
+				italian = "Verùna"
 				
 				b_verona = {
+					dalmatian = Verone
+					italian = "Verùna"
 				}
 				b_vicenza = {
 					# Vincentia
 
+					dalmatian = Vicensa
+					italian = Vicenza
+					italogothic = Vicensa
 					german = "Wiesenthein"
 					suebi = "Cimbria"
 				}
@@ -283,6 +338,7 @@ e_italy = {
 				dalmatian = "Padoa"
 				german = "Padua"
 				suebi = "Padua"
+				italogothic = "Pàdoa"
 				gothicromance = "Pàdoa"
 				
 				b_padova = {
@@ -292,51 +348,66 @@ e_italy = {
 					dalmatian = "Padoa"
 					german = "Padua"
 					suebi = "Padua"
+					italogothic = "Pàdoa"
 					gothicromance = "Pàdoa"
 				}
 				b_este = {
 					# Ateste
 
 					italian = "Este"
+					italogothic = Este
 				}
 				b_polesine = {
 					# Pollicinum
 
 					dalmatian = "Poléxine"
 					italian = "Polesine"
+					italogothic = Polesine
 				}
 				b_montagnana = {
 					# Montaniana
+
+					italian = Montagnana
+					italogothic = Montagnana
 				}
 				b_adria = {
 					# Hadria
+
+					italian = Adria
+					italogothic = Adria
 				}
 				b_chioggia = {
 					# Clodia
 
 					italian = "Chioggia"
-					dalmatian = "Cioxa"
+					italogothic = Chioggia
+					dalmatian = "Cióxa"
 				}
 				b_rovigo = {
 					# Rodigium
 
 					avar = "Ruvigh"
 					italian = "Rovigo"
+					italogothic = Rovigh
 					roman = "Rhodigium"
 				}
 				b_vigonza = {
 					# Vigoncia
 
 					dalmatian = "Vigonsa"
+					italian = Vigonza
+					italogothic = Vigonza
 				}
 			}
 			c_mantua = {
 				color={ 255 238 238 }
 				color2={ 255 255 255 }
 
+				italogothic = "Màntoa"
 				gothicromance = "Màntoa"
 				
 				b_mantua = {
+					italogothic = "Màntoa"
 					gothicromance = "Màntoa"
 				}
 				b_serravalle = {
@@ -368,6 +439,7 @@ e_italy = {
 
 			capital = 235 # Mediolanum
 
+			italian = "Insübria"
 			german = "Insubrien"
 			suebi = "Insubrien"
 			
@@ -379,6 +451,7 @@ e_italy = {
 
 				german = "Wälsch-Brixen"
 				gothicromance = "Breissa"
+				italogothic = Bressa
 				italian = "Brescia"
 				
 				b_brescia = {
@@ -386,13 +459,16 @@ e_italy = {
 
 					german = "Wälsch-Brixen"
 					gothicromance = "Breissa"
-					italian = "Brescia"
+					italogothic = Bressa
+					italian = "Brèsa"
 				}
 				b_bergamo = {
 					# Bergomum
 
 					avar = "Bèrghem"
 					italian = "Bergamo"
+					italogothic = Bérghem
+					gothicromance = Bergam
 				}
 				b_peschiera = {
 					# Piscaria
@@ -403,16 +479,19 @@ e_italy = {
 					# Trivillium
 
 					italian = "Treviglio"
+					italogothic = Treviglio
 				}
 				b_salo = {
 					# Salodium
 
-					italian = "Salo"
+					italian = "Salò"
+					italogothic = "Salò"
 				}
 				b_lumezzane = {
 					# Limesanum
 
 					italian = "Lemezàne"
+					italogothic = Lumezzane
 				}
 				b_montichiari = {
 					# Monteclarus
@@ -435,6 +514,7 @@ e_italy = {
 				german = "Mailand"
 				suebi = "Mailand"
 				italian = "Milano"
+				italogothic = Milan
 				gothicromance = "Milan"
 				
 				b_milano = {
@@ -443,6 +523,7 @@ e_italy = {
 					german = "Mailand"
 					suebi = "Mailand"
 					italian = "Milano"
+					italogothic = Milan
 					gothicromance = "Milan"
 				}
 				b_monza = {
@@ -450,35 +531,43 @@ e_italy = {
 
 					german = "Montsch"
 					italian = "Mùnscia"
+					italogothic = Monza
 				}
 				b_como = {
 					# Comum
 
 					italian = "Como"
+					italogothic = "Còm"
+					gothicromance = "Còme"
 				}
 				b_lodi = {
 					# Laus
 
 					german = "Lauden"
 					italian = "Lodi"
+					italogothic = "Lòd"
+					gothicromance = "Lòd"
 				}
 				b_vigevano = {
 					# Viglebanum
 
 					german = "Vigen"
 					italian = "Vigevano"
+					italogothic = Vigevano
 				}
 				b_maggiore = {
 					# Verbannus
 
 					german = "Langen"
 					italian = "Maggiore"
+					italogothic = "Magior"
 				}
 				b_legnano = {
 					# Ledegnanum
 
 					german = "Ligni"
 					italian = "Legnano"
+					italogothic = Legnano
 				}
 				b_chiavenna = {
 					# Clavenna
@@ -496,12 +585,16 @@ e_italy = {
 	
 				german = "Trient"
 				italian = "Trento"
+				italogothic = Trent
+				gothicromance = Trent
 				
 				b_trento = {
 					# Tridentum
 	
 					german = "Trient"
 					italian = "Trento"
+					italogothic = Trent
+					gothicromance = Trent
 				}
 				b_brixen = {
 					# Brixino
@@ -515,6 +608,7 @@ e_italy = {
 					german = "Bozen"
 					suebi = "Botzen"
 					italian = "Bolzano"
+					italogothic = Bolsan
 				}
 				b_meran = {
 					# Meranum
@@ -558,6 +652,8 @@ e_italy = {
 				suebi = "Pawei"
 				gothic = "Pawei"
 				italian = "Pavia"
+				italogothic = "Pavìa"
+				gothicromance = "Pavìa"
 				
 				b_pavia = {
 					# Papia
@@ -567,17 +663,22 @@ e_italy = {
 					suebi = "Pawei"
 					gothic = "Pawei"
 					italian = "Pavia"
+					italogothic = "Pavìa"
+					gothicromance = "Pavìa"
 				}
 				b_bobbio = {
 					# Ebovium
 
 					italian = "Bobbio"
+					italogothic = Bobbio
 				}
 				b_piacenza = {
 					# Placentia
 
 					greek = "Plakentia"
 					italian = "Piacenza"
+					italogothic = Piasensa
+					gothicromance = "Plasença"
 				}
 				b_voghera = {
 					# Viqueria
@@ -585,16 +686,22 @@ e_italy = {
 					roman = "Iria"
 					latine = "Iriae"
 					italian = "Voghera"
+					italogothic = Voghera
+					gothicromance = Voghera
 				}
 				b_alessandria = {
 					# Alexandria
 
 					italian = "Alessandria"
+					italogothic = Lissandria
+					gothicromance = Alexàndria
 				}
 				b_casteggio = {
 					# Clastidium
 
 					italian = "Casteggio"
+					italogothic = Casteggio	
+					gothicromance = Casteggio
 				}
 				b_colorno = {
 					# Colurnus
@@ -649,20 +756,33 @@ e_italy = {
 			c_genoa = {
 				color={ 226 223 193 }
 				color2={ 255 255 255 }
+
+				italian = Genova
+				italogothic = "Gènoa"
+				gothicromance = "Génoa"
 				
 				b_genoa = {
+					italian = Genova
+					italogothic = "Gènoa"
+					gothicromance = "Génoa"
 				}
 				b_rapallo = {
 				}
 				b_luna = {
 				}
 				b_ventimiglia = {
+					italian = Ventimiglia
+					italogothic = Ventemiglia
+					gothicromance = Ventemilha
 				}
 				b_savona = {
 				}
 				b_chiavari = {
 				}
 				b_albenga = {
+					gothic = "Albinauno"
+					gothicromance = "Albingano"
+					italogothic = Albingano
 				}
 				b_fosdinovo = {
 				}
@@ -672,21 +792,44 @@ e_italy = {
 				color2={ 255 255 255 }
 
 				# Pedemontium
+
+				italian = "Piemonte"
+				italogothic = Piemont
+				gothicromance = "Piemont"
 				
 				b_ivrea = {
 					# Eporedia
+
+					italian = "Ivrea"
+					italogothic = "Ivrèja"
+					gothic = "Iporeia"
+					gothicromance = "Ivreia"
 				}
 				b_torino = {
 					# Taurinorum
+
+					gothicromance = "Taurin"
+					italogothic = Turin
+					italian = "Türì"
 				}
 				b_settimo = {
 					# Septimum
+
+					italian = "Settimo"
+					italogothic = "Ël Seto"
+					gothicromance = "Seto"
 				}
 				b_auriate = {
 					# Auria # Valloriate, Vallis Auria Cuneensium
+
+					italian = "Auriate"
 				}
 				b_novara = {
 					# Novaria
+
+					italian = Novara
+					italogothic = Noara
+					gothicromance = Novara
 				}
 				b_ferrero = {
 				}
@@ -694,6 +837,10 @@ e_italy = {
 				}
 				b_crevacuore = {
 					# Crevacorium
+
+					italian = Crevacuore
+					italogothic = Crevacòr
+					gothicromance = "Crevacòr"
 				}
 			}
 			
@@ -704,27 +851,33 @@ e_italy = {
 				# Salutiae
 
 				italian = "Saluzzo"
+				italogothic = Salusse
 				gothicromance = "Saluças"
 				
 				b_saluzzo = {
 					# Salutiae
 
 					italian = "Saluzzo"
+					italogothic = Salusse
 					gothicromance = "Saluças"
 				}
 				b_pinerolo = {
+					italian = Pinerolo
+					italogothic = Pinareul
 					gothicromance = "Pinerùl"
 				} 
 				b_cuneo = {
 					# Cuneum
 
 					italian = "Cuneo"
+					italogothic = Coni
 					gothicromance = "Cuni"
 				}
 				b_savigliano = {
 					# Savilianum
 
 					italian = "Savigliano"
+					italogothic = Savijan
 					gothicromance = "Savijan"
 				}
 				b_busca = {
@@ -734,6 +887,7 @@ e_italy = {
 					# Padusana
 
 					italian = "Paesana"
+					italogothic = Paisana
 					gothicromance = "Paisana"
 				}
 				b_verzuolo = {
@@ -757,11 +911,14 @@ e_italy = {
 				# Mons Ferratus
 
 				italian = "Monferrato"
+				italogothic = "Monfrà"
+				gothicromance = "Monfrà"
 				
 				b_monferrato = {
 					# Ferratus
 
 					italian = "Monferrato"
+					italogothic = "Monfrà"
 					gothicromance = "Monfrà"
 				}
 				b_casale = {
@@ -770,13 +927,18 @@ e_italy = {
 					# Hasta
 
 					roman = "Hasta Pompeia"
+					italian = Asti
 					frankish = "Aste"
 				}
 				b_acqui = {
 					# Aquae
+
+					italian = Acqui
 				}
 				b_tortona = {
 					# Derthona
+
+					italian = Tortona
 
 					latine = "Dertona"
 					hispani = "Dertona"
@@ -786,12 +948,15 @@ e_italy = {
 				}
 				b_biella = {
 					# Bugella
+
+					italian = Bugella
 				}
 				b_alba = {
 				}
 				b_canelli = {
 					# Canellae
 
+					italian = Canelli
 					frankish = "Canelles"
 				}
 			}
@@ -808,11 +973,13 @@ e_italy = {
 
 				# Mutina
 
+				italian = Modena
 				german = "Muden"
 				
 				b_modena = {
 					# Mutina
 
+					italian = Modena
 					german = "Muden"
 				}
 				b_reggionellemila = {
@@ -1083,6 +1250,9 @@ e_italy = {
 				}
 				b_livorno = {
 					# Labro
+
+					gothicromance = Ligorna
+					italogothic = Livorn
 				}
 				b_canefro = {
 				}
@@ -1148,9 +1318,14 @@ e_italy = {
 				}
 				b_pesaro = {
 					# Pisaurum
+
+					italogothic = "Pésaro"
 				}
 				b_rimini = {
 					# Ariminum
+
+					gothicromance = Rimin
+					italogothic = Rimin
 				}
 				b_matelica = {
 				}
@@ -1177,11 +1352,13 @@ e_italy = {
 				# Urbinum
 
 				gothicromance = "Urbin"
+				italogothic = "Urbin"
 				
 				b_urbino = {
 					# Urbinum
 
 					gothicromance = "Urbin"
+					italogothic = "Urbin"
 				}
 				b_sanseverino = {
 					# Severinacum
@@ -1516,9 +1693,13 @@ e_italy = {
 				color2={ 255 255 255 }
 				
 				greek = "Neapolis"
+				gothicromance = "Nàpols"
+				italogothic = "Nàpoli"
 				
 				b_napoli = {
 					greek = "Neapolis"
+					gothicromance = "Nàpols"
+					italogothic = "Nàpoli"
 				}
 				b_aversa = {
 				}

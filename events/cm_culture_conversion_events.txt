@@ -178,7 +178,6 @@ province_event = {
 		OR = {
 			region = world_europe_west_francia
 			region = world_europe_west_iberia
-			region = world_europe_south_italy
 		}
 	}
 	
