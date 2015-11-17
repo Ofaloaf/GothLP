@@ -39,6 +39,8 @@ e_britannia = {
 			roman = "Cantium"
 
 			capital = 73 # Kent
+
+			orthodox = 50
 			
 			c_surrey = {
 				color={ 241 241 231 }
@@ -51,19 +53,81 @@ e_britannia = {
 				old_frankish = "Suþrige"
 				
 				b_farnham = {
+					# Vindomulis # not actually Vindomis
+
+					welsh = Gwyndomul
+					brithenig = Vindomulis
+					gothicromance = Vindomulis
+
+					saxon = Fearnhamme
+					old_saxon = Fearnhamme
+					norse = Fearnhamme
 				}
 				b_guildford = {
 					# Astolat
+
+					brithenig = Astolat
+					gothicromance = Astolat
+
+					saxon = Guldeford
+					old_saxon = Guldeford
+					norse = Guldeford
 				}
 				b_lambeth = {
+					# Lampiacum # making shit up
+
+					gothic = Lampiacus
+					old_frankish = Lampiacus
+					suebi = Lampiacus
+					burgundian = Lampiacus
+
+					brithenig = Lanchei
+					gothicromance = Lanchèi
+
+					saxon = Lambehitha
+					old_saxon = Lambehitha
+					norse = Lambehitha
 				}
 				b_southwark = {
+					# Suthringa
+
+					brithenig = Suthringa
+					gothicromance = Suthringa
+
+					saxon = Suthringanaweorc
+					old_saxon = Suthringanaweorc
+					norse = Suthringanaweorc
 				}
 				b_woking = {
+					# Voccinga
+
+					brithenig = Guochinga
+					gothicromance = Guachinga
+
+					saxon = Wochingas
+					old_saxon = Wochingas
+					norse = Wochingas
 				}
 				b_chertsey = {
+					# Cirotis
+
+					brithenig = Cirotis
+					gothicromance = Cirotis
+
+					saxon = Cirotisege
+					old_saxon = Cerotesege
+					norse = Cerotesege
 				}
 				b_croydon = {
+					# Crocidunum # making shit up
+
+					welsh = "Din Crog"
+					brithenig = "Crogidun"
+					gothicromance = "Crauciyun"
+
+					saxon = Crogdaene
+					old_saxon = Crogdaene
+					norse = Crognaene
 				}
 				b_waverley = {
 				}
@@ -84,6 +148,12 @@ e_britannia = {
 					# Durobrivis
 
 					brithenig = "Dorobrevis"
+					gothic = Robrivis
+					gothicromance = Raufensa
+
+					saxon = Hrofescester
+					old_saxon = Hrofescester
+					norse = Hrofescester
 				}
 				b_dover = {
 					# Dubris
@@ -386,10 +456,33 @@ e_britannia = {
 
 				brithenig = "Caer Mincip"
 				welsh = "Caer Mincip"
+
+				saxon = Beadanfordscir
+				old_saxon = Beadanfordscir
+				norse = Beadanfordscir
 				
 				b_bedford = {
+					# Bedaiacum # making up shit
+
+					welsh = Badeg
+
+					gothicromance = Baidjac
+
+					saxon = Beadanford
+					old_saxon = Beadanford
+					norse = Beadanford
 				}
 				b_hertford = {
+					# Cervidacum # making up shit
+
+					welsh = Sergwydag
+					brithenig = Cerguidag
+
+					gothicromance = Cervidacum
+
+					saxon = Herutford
+					old_saxon = Herutford
+					norse = Herutford
 				}
 				b_st_albans = {
 					# Verulamium
@@ -417,12 +510,20 @@ e_britannia = {
 				brithenig = "Caer Lundein"
 				welsh = "Llundain"
 
+				saxon = Lundeneras
+				old_saxon = Lundeneras
+				norse = Lundeneras
+
 				holy_site = aztec
 				holy_site = aztec_reformed
 				holy_site = arian
 			
 				b_romford = {
 					# Durolitum
+
+					saxon = Rumford
+					old_saxon = Rumford
+					norse = Rumford
 				}
 				b_london = {
 					# Londinium
@@ -431,6 +532,10 @@ e_britannia = {
 
 					brithenig = "Lundein"
 					welsh = "Llundain"
+
+					saxon = Lunden
+					old_saxon = Lunden
+					norse = Lunden
 				}
 				b_brockley_hill = {
 					# Sulloniacis
@@ -612,27 +717,69 @@ e_britannia = {
 
 				# Glouvia
 
+				brithenig = Gloiu
 				welsh = Caerloyw
+
+				saxon = Gleawecasterscir
+				old_saxon = Gleawecasterscir
+				norse = Gleawecasterscir
+				
 			
 				b_gloucester = {
 					# Glevum
 
 					brithenig = "Cair Gloiu"
 					welsh = Caerloyw
+
+					saxon = Gleawecastre
+					old_saxon = Gleawecastre
+					norse = Gleawecastre
 				}
 				b_sudeley = {
 				}
 				b_tewkesbury = {
+					# Theotocum # erroneous etymology but WHO CARES YOU NERD
+
+					welsh = Theotocum
+					brithenig = "Tiodog"
+
+					gothic = Theotocas
+					gothicroman = Tiutocas
 				}
 				b_cheltenham = {
+					# Ariconium # actually Weston-under-Penyard
+
+					gothic = Ariconium
+					gothicromance = Arcunha
+
+					saxon = Cheltingaham
+					old_saxon = Cheltingaham
+					norse = Cheltingaham
 				}
 				b_cirencester = {
 					# Corinium
+
+					gothicromance = Corinya
+
+					saxon = Cirenceaster
+					old_saxon = Cirenceaster
+					norse = Cirenceaster
 				}
 				b_winchcombe = {
+					# Antona # "Antona" was actually the name of the Avon River in Latin
+
+					welsh = Afon
+					brithenig = Afona
+
+					gothic = Antona
+					gothicromance = Antona
 				}
 				b_bristol = {
 					# Abona
+
+					saxon = Bricgstow
+					old_saxon = Bricgstow
+					norse = Bricgstow
 				}
 				b_hailes = {
 				}
@@ -643,7 +790,14 @@ e_britannia = {
 
 				# Sorbiodunum
 
-				brithenig = "Sorbiodunon"
+				welsh = "Din Sorbion"
+				brithenig = "Dinsorbio"
+
+				gothicromance = Sorbiha
+
+				saxon = Wiltunscir
+				old_saxon = Wiltunscir
+				norse = Wiltunscir
 
 				holy_site = celtic_pagan
 				holy_site = celtic_pagan_reformed
@@ -670,17 +824,32 @@ e_britannia = {
 
 					brithenig = "Sorbiodunon"
 					welsh = "Caer Gradawc"
+
+					saxon = Searoburg
+					old_saxon = Searoburg
+					norse = Searoburg
 				}
 				b_devizes = {
 					# Divisas
 				}
 				b_ramsbury = {
+					# Orphecum # there's an old Roman villa nearby with a mosaic of Orpheus
+
+					welsh = Orfeg		# making shit up
+					brithenig = Orfeg	# likewise
+
+					gothic = Orphecum
+					gothicromance = Arbecas
 				}
 				b_marlborough = {
 					# Cunetio
 				}
 				b_stonehenge = { # previously b_waltham
 					welsh = "Cor y Cewri"
+
+					saxon = Stanheng
+					old_saxon = Stanenges
+					norse = Stanenges
 
 					used_for_dynasty_names = no
 				}
@@ -696,6 +865,11 @@ e_britannia = {
 				
 				b_oxford = {
 					# Bovedunum # shit I made up, derived from 'Bovem', ox.
+
+					welsh = "Din Buwch"
+					brithenig = "Dinbuvac"
+
+					gothicromance = "Tinbuvacas"
 
 					old_saxon = "Oxnaford"
 					saxon = "Oxnaford"
@@ -719,6 +893,10 @@ e_britannia = {
 					saxon = "Buccingahame"
 				}
 				b_banbury = {
+					# Banna
+
+					gothic = Banna
+					gothicromance = Banna
 
 					old_saxon = "Banesbyrig"
 					saxon = "Banesbyrig"
@@ -1736,14 +1914,47 @@ e_britannia = {
 				color2={ 255 255 255 }
 			
 				b_caerwent = {
+					# Venta Silurum
+
+					welsh = "Caerwent"
+					brithenig = "Guensilur"
+
+					gothicromance = Siluras
 				}
 				b_chepstow = {
+					# Casventa
+
+					welsh = Casgwent
+					brithenig = Casventa
+
+					gothicromance = Casventa
+
+					saxon = Ceapstowe
+					old_saxon = Ceapstowe
+					norse = Ceapstowe
 				}
 				b_abergavenny = {
+					# Gobannium
+
+					welsh = "Y Fenni"
+					brithenig = Fennia
+
+					gothicromance = "Gaubanha"
 				}
 				b_monmouth = {
+					# Blestium
+
+					welsh = Abermynwy
+					brithenig = Trefynwy
+
+					gothicromance = "Blaistya"
 				}
 				b_caerleon = {
+					# Castra Legio
+
+					brithenig = "Cair Legeion"
+
+					gothicromance = "Iscalaigo"
 				}
 				b_newport = {
 				}
@@ -1762,22 +1973,86 @@ e_britannia = {
 			c_cornwall = {
 				color={ 150 40 15 }
 				color2={ 255 255 255 }
+
+				# Cornubia
+
+				welsh = Kernow
+				brithenig = Purocoronavis
+
+				gothic = Cornualia
+				gothicromance = Cornueilha
+
+				old_saxon = Cornweal
+				saxon = Cornweal
+				norse = Cornweal
 				
 				b_bodmin = {
+					# Bodamia
+
+					welsh = Bosvenegh
+					brithenig = Bosvena
+
+					gothic = Botmenei
+					gothicromance = Bosvenjac
 				}
 				b_launceston = {
+					# Sancti Stephani
+
+					welsh = Lannstevan
+					brithenig = Lannstevan
+
+					gothic = "Sancti Stephani"
+					gothicromance = "Santistaive"
+
+					old_saxon = Dunheafod
+					saxon = Dunheafod
+					norse = Dunheafod
 				}
 				b_st_germans = {
+					# Sancti Germani
+
+					welsh = Lannaled
+					brithenig = Lannales
+
+					gothic = "Sancti Germani"
+					gothicromance = "Sant Gairman"
 				}
 				b_truro = {
+					# Triverium
+
+					welsh = Truru
+					brithenig = Truru
+
+					gothic = Triverium
+					gothicromance = Triverus
 				}
 				b_liskeard = {
+					welsh = Lyskerrys
+					brithenig = Liscerrys
+
+					gothicromance = Liscairis
 				}
 				b_tintagel = {
+					welsh = "Din Tagell"
+					brithenig = "Dintagel"
+
+					gothic = Tintagol
+					gothicromance = "Tintaieul"
 				}
 				b_st_michael = {
+					# Sancti Michaeli
+
+					welsh = Lannvihal
+					brithenig = Lannvihal
+
+					gothic = "Sancti Michaeli"
+					gothicromance = "Sant Miqueli"
 				}
 				b_restormel = {
+					welsh = Rostorrmel
+					brithenig = Rostorrmel
+
+					gothicromance = Rostormelas
 				}
 			}
 			c_devon = {
@@ -1785,20 +2060,53 @@ e_britannia = {
 				color2={ 255 255 255 }
 				
 				b_lydford = {
+					# Heracleus
+
+					greek = "Herakleous Akron"
+
+					gothic = "Heracleus"
+					gothicromance = "Eraclei"
 				}
 				b_exeter = {
+					# Isca
+
+					welsh = "Pensa vel Coyt"
+					brithenig = "Pensa vel Coyt"
+
+					gothic = Isca
+					gothicromance = Isca
 				}
 				b_crediton = {
+					# Cridia
+
+					gothic = Cridia
+					gothicromance = Cridya
 				}
 				b_totnes = {
 				}
 				b_axminster = {
+					# Moridunum
+
+					welsh = Moridunon
+					brithenig = Moridunon
+
+					gothic = Moridunon
+					gothicromance = Morduna
 				}
 				b_tavistock = {
+					# Hellenis
+
+					gothic = Hellenis
+					gothicromance = Hellenis
 				}
 				b_buckfast = {
+					# Buffestra
 				}
 				b_dartmouth = {
+					# Darant
+
+					gothic = Derstum
+					gothicromance = Dairstas
 				}
 			}
 			c_dorset = {
@@ -1806,8 +2114,17 @@ e_britannia = {
 				color2={ 255 255 255 }
 
 				# Durnovaria
+
+				old_saxon = "Dornsæte"
+				saxon = Dorseteschyre
+				norse = "Dornsæte"
 				
 				b_wareham = {
+					# Piscadoma
+
+					old_saxon = Werham
+					saxon = Werham
+					norse = Werham
 				}
 				b_corfe = {
 				}
@@ -1815,20 +2132,35 @@ e_britannia = {
 					# Palladour
 
 					brithenig = "Cair Palladour"
-					welsh = "Caer Palladour"
+					welsh = "Caer Palladwr"
+
+					old_saxon = Sceptesburh
+					saxon = Sceptesburh
+					norse = Sceptesburh
 				}
 				b_dorchester = {
 					# Durnovaria
 
 					brithenig = "Dourovaria"
+
+					old_saxon = Dornwaraceaster
+					saxon = Dornwaraceaster
+					norse = Dornwaraceaster
 				}
 				b_sherborne = {
+					# Sincerflumina
+
+					old_saxon = Scirburne
+					saxon = Scirburne
+					norse = Scirburne
 				}
 				b_lyme = {
 				}
 				b_weymouth = {
+					# Vimutium
 				}
 				b_wimborne = {
+					# Isaca
 				}
 			}
 			c_somerset = {
@@ -1836,6 +2168,10 @@ e_britannia = {
 				color2={ 255 255 255 }
 
 				# Glastenning
+
+				saxon = Sumorsaete
+				old_saxon = Sumortunsaete
+				norse = Sumortunaete
 				
 				b_bath = {
 					# Badonicus
@@ -1843,6 +2179,10 @@ e_britannia = {
 					roman = "Aquae Sulis"
 					brithenig = "Acquesoules"
 					welsh = "Baddon"
+
+					saxon = Badanceaster
+					old_saxon = Badanceaster
+					norse = Badanceaster
 				}
 				b_wells = {
 					# Fontanetum
@@ -1851,8 +2191,22 @@ e_britannia = {
 					# Lindinis
 				}
 				b_taunton = {
+					# Uxella # possibly Bridgwater?
+
+					welsh = Uxella
+					brithenig = Uxella
+
+					gothic = Uxella
+					gothicromance = Uxella
+
+					saxon = Brycg
+					old_saxon = Brycg
+					norse = Bryggja
 				}
 				b_muchelney = {
+					saxon = Miclianae
+					old_saxon = Miclianae
+					norse = Miklianey
 				}
 				b_castle_cary = {
 				}
@@ -2458,6 +2812,7 @@ e_britannia = {
 		culture = irish
 		
 		catholic = 300 # Crusade target weight
+		orthodox = 100
 		norse_pagan_reformed = 200 # Crusade target weight
 		
 		norse = Irland

@@ -37,7 +37,7 @@ province_event = {
 			OR = {
 				AND = {
 					owner = { culture = norse }
-				ROOT = {
+					ROOT = {
 						OR = {
 							culture = geatish
 							culture = norwegian
@@ -46,6 +46,13 @@ province_event = {
 						}
 					}
 					NOT = {	has_global_flag = norse_culture_flipping }
+				}
+				AND = {
+					owner = { culture = gothic }
+					OR = {
+						ROOT = { culture = gothicromance }
+						ROOT = { culture = italogothic }
+					}
 				}
 				AND = {
 					owner = { culture = avar }

@@ -435,7 +435,7 @@
 
 5999088 = {
 	name = "Cagatosicis"
-	culutre = italian
+	culture = italian
 }
 
 5999089 = {

@@ -20,6 +20,32 @@ EVTDESC_Plus_650;For as long as we westerners have lived here we have relied upo
 EVTOPTA_Plus_650;Yes, let us adopt this new Ultramarini identity;Oui, unissons nous à nos cerfs.;Ja, lasst uns eins mit unseren Leibeigenen sein.;;Yes, let us adopt this new Ultramarini identity;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVTDESC_Plus_651;I have persuaded my courtier to embrace the notion of an Ultramarini culture that is sweeping across the realm.;J'ai convaincu mon courtisan d'embrasser la notion de culture d'Outremer qui déferle sur le royaume.;Ich habe meinen Höfling davon überzeugt dieser Vorstellung von einem Outremerischer Kultur, das sich schon im ganzen Reich kehrt, zu umarmen.;;I have persuaded my courtier to embrace the notion of an Outremer culture that is sweeping across the realm.;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVTDESC_Plus_652;I have persuaded my vassal to embrace the notion of an Ultramarini culture that is sweeping across the realm.;J'ai persuadé mon vassal d'embrasser la notion de culture d'Outremer qui déferle sur le royaume.;Ich habe meinen Vassal davon überzeugt dieser Vorstellung von einem Outremerischer Kultur, das sich schon im ganzen Reich kehrt, zu umarmen.;;I have persuaded my vassal to embrace the notion of an Outremer culture that is sweeping across the realm.;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#
+EVTNAMEwdragon1;Knights of the White Dragon;;;;;;;;;;;;;x
+EVTDESCwdragon1;Inspired by the Christian capture of Stonehenge, Anglo-Saxon noblemen, the exiled children of families expelled from eastern Britain after the collapse of Christian Loegria, have rallied to the cross. They vow to protect all Christendom, but are especially committed to Britain and the fight against Celtic paganism.;;;;;;;;;;;;;x
+EVTOPTAwdragon1;God bless these men!;;;;;;;;;;;;;x
+EVTOPTBwdragon1;They won't go far.;;;;;;;;;;;;;x
+EVTOPTCwdragon1;At least they're fighting pagans.;;;;;;;;;;;;;x
+EVTDESCwdragon2;This county would help our fight against heathenry!;;;;;;;;;;;;;x
+EVTOPTAwdragon2;Ask for the county!;;;;;;;;;;;;;x
+EVTDESCwdragon3;The leader of the White Dragon order has asked us to donate one of our frontier provinces to them. This would help them in their fight against the pagans, but shoot, we'd have to give up land.;;;;;;;;;;;;;x
+EVTOPTAwdragon3;If they need it, they can have it.;;;;;;;;;;;;;x
+EVTOPTBwdragon3;No land will be given to them right now.;;;;;;;;;;;;;x
+EVTOPTCwdragon3;I will never give up my lands!;;;;;;;;;;;;;x
+EVTDESCwdragon4;We got the county! We got the county!;;;;;;;;;;;;;x
+EVTNAME8703;The Knights of the White Dragon;;;;;;;;;;;;;x
+EVTDESC8703;In an effort to defend [FromFrom.PrimaryTitle.GetName] against pagan attacks, [FromFrom.GetTitledFirstName] has granted the Knights of the White Dragon the [From.County.GetFullName]. This province has never been fully settled and many of the population are still heathens. This noble gesture could help protect the endangered frontier of [FromFrom.PrimaryTitle.GetName] as well as further the Holy War against pagans.;;;;;;;;;;;;;x
+EVTDESCwdragon6;The Knights of the White Dragon wish to expand into Britain in order to better fight the heathens. To show my support, perhaps I should offer them a county of mine?;;;;;;;;;;;;;x
+EVTDESCwdragon7;My liege,\nI wish to support The White Dragons by grating them a county, and seek your approval.\n\nYour humble vassal,\n[From.GetTitledName];;;;;;;;;;;;;x
+EVTDESCwdragon8;My liege,\nMy vassal, [FromFrom.GetTitledName] wishes to support The Knights of the White Dragon by granting them a county. I would of course not allow such an important decision without first seeking your approval.\n\nYour humble vassal,\n[From.GetTitledName];;;;;;;;;;;;;x
+EVTOPTA8722;Excelent proposal!;Excellente proposition !;Hervorragender Vorschlag!;;¡Excelente proposición!;;;;;;;;;x
+EVTOPTB8722;I will not permit any ceding of land;Je ne permettrai aucune cession de terre;Ich werde keine Landabtretung gestatten;;No permitiré la cesión de ninguna tierra;;;;;;;;;x
+EVTDESCwdragon9;Your generous offer of grating a county to The Knights of the White Dragon has met with my approval.\n[From.GetTitledName];;;;;;;;;;;;;x
+EVTOPTAwdragon9;Then so it shall be!;Qu'il en soit ainsi !;So soll es sein!;;¡Entonces que así sea!;;;;;;;;;x
+EVTDESCwdragon10;I will not permit that you cede any territory to The White Dragons!\n[From.GetTitledName];;;;;;;;;x
+EVTOPTAwdragon10;Then I will retract my offer;Je retirerai donc mon offre;Dann werde ich mein Angebot zurückziehen;;Entonces retiro mi oferta;;;;;;;;;x
+EVTDESCwdragon11;To the Great [Root.GetTitledFirstName],\nYour bravery is legendary. I wish to support you in your valiant struggle against the heathens, and hereby offer to transfer a county to your order.\n\nSigned,\n[From.GetTitledName];;;;;;;;;;;;;x
+#
 establish_arian_supremacy;Establish Arian Supremacy;;;;;;;;;;;;;x
 establish_arian_supremacy_desc;For too long, the Arian faith has been disunited and lacking in leadership. Normally no one would accept a single figure as head of the faith, but if we could establish an Arian see in Rome, the priest who rules there would be respected and heeded by the general Arian clergy.;;;;;;;;;;;;;x
 claim_nova_carthago;Claim Nova Carthago;;;;;;;;;;;;;x

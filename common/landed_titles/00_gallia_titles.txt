@@ -4,8 +4,8 @@ e_gallia = {
 
 	capital = 227
 
-	gothic = "Magna Gothia"
-	gothicromance = "Manha Gautia"
+	gothic = "Gutaland"
+	gothicromance = "Gothia"
 
 	k_gothia = {
 		color = { 59 108 94 } # 79 128 114
@@ -75,7 +75,14 @@ e_gallia = {
 					gothicromance = "Pusinha"
 				}
 				b_irigny = {
-					# Iriacum # making up shit
+					# Ireniacum # making up shit
+
+					gothic = Ireniacus
+					old_frankish = Ireniacus
+					suebi = Ireniacus
+					burgundian = Ireniacus
+
+					gothicromance = Irainac
 				}
 			}
 			c_forez = {
@@ -89,6 +96,14 @@ e_gallia = {
 				b_couzan = {
 				}
 				b_montbrison = {
+					# Brisiniacum # making up shit
+
+					gothic = Brisinicus
+					old_frankish = Brisinicus
+					suebi = Brisinicus
+					burgundian = Brisinicus
+
+					gothicromance = Brisaunac
 				}
 				b_thiers = {
 					# Thiermum
@@ -111,7 +126,12 @@ e_gallia = {
 					# Carus Locus
 					used_for_dynasty_names = no
 
-					gothicromance = "Carlegu"
+					gothic = Carilocus
+					old_frankish = Carilocus
+					suebi = Carilocus
+					burgundian = Carilocus
+
+					gothicromance = "Carlaigu"
 				}
 				b_chalmazel = {
 					# Calmismansum
@@ -130,7 +150,7 @@ e_gallia = {
 			capital = 135 # Bourgogne
 
 			gothic = "Gothonia"
-			gothicromance = "Gautonia"
+			gothicromance = "Gautanya"
 			
 			c_besancon = {
 				color={ 71 135 173 }
@@ -154,6 +174,13 @@ e_gallia = {
 				}
 				b_vesoul = {
 					# Vesulium
+
+					gothic = Vesulius
+					old_frankish = Vesulius
+					suebi = Vesulius
+					burgundian = Vesulius
+
+					gothicromance = "Vaisulaz"
 				}
 				b_montbeliard = {
 					# Belgardis
@@ -169,6 +196,8 @@ e_gallia = {
 				}
 				b_morteau = {
 					# Mortua Aqua
+
+					gothicromance = Mortuaiga
 				}
 			}
 			c_chalons = {
@@ -176,28 +205,59 @@ e_gallia = {
 				color2={ 255 255 255 }
 
 				# Catalaunia
+
+				gothicromance = "Calaunsa"
 				
 				b_brancion = {
+					# Brancianum
+
+					gothic = Brancianus
+					old_frankish = Brancianus
+					suebi = Brancianus
+					burgundian = Brancianus
+
+					gothicromance = Brancèi
 				}
 				b_chalon = {
 					# Catalaunum
+
+					gothic = Catalaunus
+					old_frankish = Catalaunus
+					suebi = Catalaunus
+					burgundian = Catalaunus
+
+					gothicromance = Calauna
 				}
 				b_tournus = {
 				}
 				b_louhans = {
 					# Lovincum
+
+					gothic = Lovincus
+					old_frankish = Lovincus
+					suebi = Lovincus
+					burgundian = Lovincus
+
+					gothicromance = Laungan
 				}
 				b_chamilly = {
 					# Camilliaco # guessing
 				}
 				b_seurre = {
 					# Surregium
+
+					gothic = Surregius
+					old_frankish = Surregius
+					suebi = Surregius
+					burgundian = Surregius
 				}
 				b_stjeandelosne = {
 					# Latona
 				}
 				b_cuisery = {
 					# Cuisiriaco
+
+					gothicromance = "Quisirèi"
 				}
 			}
 		}
@@ -299,16 +359,51 @@ e_gallia = {
 					# Matisco
 				}
 				b_cluny = {
+					# Cluniacum
+
+					gothic = Cluniacus # 825
+					old_frankish = Cluniacus
+					suebi = Cluniacus
+
+					gothicromance = Cluniaco
+					italogothic = Cluna
 				}
 				b_davaye = {
 				}
 				b_beaujeu = {
+					# Bellum Jugum
+
+					gothicromance = Bailijoc
+					italogothic = Bailjug
 				}
 				b_lugny = {
+					# Luviniacum
+
+					old_frankish = Luviniacus
+					gothic = Luviniacus
+					suebi = Luviniacus
+
+					gothicromance = Luinacaz
+					italogothic = Luginjaco
 				}
 				b_berze = {
+					# Bertiacum # guessing
+
+					gothic = Bersiacus
+					old_frankish = Bersiacus
+					suebi = Bersiacus
+
+					gothicromance = Bairicaz
+					italogothic = Bairzia
 				}
 				b_villefranchesursaone = {
+					# Villa Gothi
+
+					old_frankish = "Villa Franci"
+					suebi = "Villa Suebi"
+
+					gothicromance = "Villagautaz"
+					italogothic = "Villagoti"
 				}
 			}
 			c_nevers = {
@@ -324,6 +419,9 @@ e_gallia = {
 				gothicromance = "Nivèrns"
 				
 				b_courtenay = {
+					# Curtinacum
+
+					gothicromance = Curtinaz
 				}
 				b_nevers = {
 					# Nevernis
@@ -335,16 +433,35 @@ e_gallia = {
 					gothicromance = "Nivèrns"
 				}
 				b_lacharite = {
+					# Massava # Mesves-sur-Loire
+
+					gothicromance = Masava
+					italogothic = Masava
 				}
 				b_donzy = {
+					# Dominiacus
+
+					gothicromance = Donezac
 				}
 				b_chateauchinon = {
+					# Bulciacum # actually Bulcy, France
+
+					gothicromance = Bullecaz
 				}
 				b_vandenesse = {
+					# Vindenossa
+
+					gothicromance = Vindenoca
 				}
 				b_clamecy = {
+					# Clamiciacus
+
+					gothicromance = Clamisjac
 				}
 				b_cosne = {
+					# Condate
+
+					gothicromance = Caudat
 				}
 			}
 			c_charolais = {
@@ -667,6 +784,14 @@ e_gallia = {
 				color2={ 255 255 255 }
 
 				# Wormatia
+
+				roman = "Borbetomagus"
+				latine = "Vormatia"
+				gallic = "Vormatia"
+				hispani = "Vormatia"
+				brithenig = "Guormacia"
+
+				gothicromance = "Vormatas"
 			
 				b_kaiserslautern = {
 					# Rouphiniana
@@ -679,9 +804,14 @@ e_gallia = {
 					gallic = "Vormatia"
 					hispani = "Vormatia"
 					brithenig = "Guormacia"
+
+					gothicromance = "Vormatas"
 				}
 				b_hagenau = {
 					# Cruciniacum # actually Bad Kreuznach
+
+					gothicromance = "Cruncinjac"
+					italogothic = Crunciniaca
 				}
 				b_stahleck = {
 					# Volsolvia # actually Oberwesel
@@ -694,6 +824,9 @@ e_gallia = {
 					german = "Bingen"
 					gothic = "Bingen"
 					suebi = "Bingen"
+
+					gothicromance = Bingas
+					italogothic = Bingis
 				}
 				b_speyer = {
 					# Spira
@@ -732,12 +865,18 @@ e_gallia = {
 				}
 				b_marslatour = {
 					# Castrum Martium # guessing
+
+					gothicromance = Castramarcja
+					italogothic = Castramarcia
 				}
 				b_bouzonville = {
 					# Bosonisvilla
 				}
 				b_briey = {
 					# Bricium (attested form 1105)
+
+					gothicromance = Bricei
+					italogothic = Brisseia
 				}
 				b_joudreville = {
 					# Scarponna # actually Scarpone, France
@@ -753,9 +892,27 @@ e_gallia = {
 				color2={ 255 255 255 }
 
 				# Verodunum
+
+				german = Wirten
+				gothic = Verodunensis
+				old_frankish = Verodunensis
+				suebi = Wirten
+				norse = Wirten
+				danish = Wirten
+				norwegian = Wirten
+				geatish = Wirten
 			
 				b_verdun = {
 					# Verodunum
+
+					german = Wirten
+					gothic = Wirten
+					old_frankish = Wirten
+					suebi = Wirten
+					norse = Wirten
+					danish = Wirten
+					norwegian = Wirten
+					geatish = Wirten
 				}
 				b_grandpre = {
 					# Ibliodurum # actually Vionville
@@ -786,6 +943,8 @@ e_gallia = {
 				}
 				b_etain = {
 					# Castrum Vabrense # actually Chatillon-sous-les-Cotes
+
+					gothicromance = Vabrense
 				}
 			}
 		}
@@ -807,18 +966,63 @@ e_gallia = {
 					# Egino
 				}
 				b_strassburg = {
+					# Argentoratum
+
+					gothicromance = Argentorate
+					italogothic = Argentorate
 				}
 				b_lauterburg = {
+					# Tribuni
+
+					gothicromance = Tribuni
+
+					german = Lauterburg
 				}
 				b_selz = {
+					# Saletio
+
+					gothicromance = Salecio
+					italogothic = Salessio
+
+					german = Seltz
 				}
 				b_erstein = {
+					# Tabernis # Tres Tabernae Cesaris # actually Saverne, France
+
+					gothicromance = Ziaberna
+					italogothic = Ziaberna
+
+					german = Zabern
+					suebi = Zabarnam
+					gothic = Zabarnam
 				}
 				b_molsheim = {
+					gothic = Mudilashaim
+					old_frankish = Mollesheim
 				}
 				b_brumath = {
+					# Brocomagus
+
+					greek = Brokomagos # Ptolemy's Geography
+
+					gothicromance = Bruomade
+					italogothic = Bruomade
+
+					german = Brumath
+					gothic = Brocmagad
+					old_frankish = Brocmagad
+					suebi = Brumat
 				}
 				b_schlettstadt = {
+					# Scletistata # 836 attestation
+
+					gothicromance = Scletistata
+					italogothic = Scletistata
+
+					german = Schlettstadt
+					old_frankish = Sclastat # 726
+					gothic = Sclastat
+					suebi = Sclastat
 				}
 			}
 			c_sundgau = {
@@ -833,18 +1037,51 @@ e_gallia = {
 					# Enghisehaim
 				}
 				b_kolmar = {
+					# Columbarium
+
+					gothicromance = Columbaria
+					italogothic = Columbaria
 				}
 				b_murbach = {
+					# Maurobaccus # 730 attestation
+
+					gothicromance = Mourbacas # made up
+					italogothic = Mourbacas
+
+					gothic = Murbachensis # 1049
 				}
 				b_mulhouse = {
+					# Rubiaco # actually Rouffach. 'Rubiaco' is attested in 662
+
+					gothicromance = Rubjac
+					italogothic = Rubiac
 				}
 				b_landser = {
+					# Landisera # 1246
+
+					gothicromance = Landsere # 1279
+					italogothic = Landsere
 				}
 				b_thann = {
+					# Tanne
+
+					gothic = Danne		# 10th century
+					old_frankish = Danne
+					german = Dànn
+
+					gothicromance = Thanna  # 1304
 				}
 				b_altkirch = {
+					# Aldechiarcum
+
+					gothicromance = Aldciarco
 				}
 				b_ferette = {
+					# Ferreto
+
+					gothicromance = Firida # Phirida was attested in 1133
+
+					german = Pfirt
 				}
 			}
 		}
@@ -854,7 +1091,7 @@ e_gallia = {
 		color = { 173 48 80 } #166 50 50 
 		color2= { 226 195 45 }
 
-		#culture = gallic
+		culture = gallic
 
 		capital = 212
 
@@ -1928,6 +2165,7 @@ e_gallia = {
 					roman = "Cossium"
 				}
 				b_roquefort = {
+					gothicromance = "Ròcahòrt"
 				}
 				b_montdemarsan = {
 				}
@@ -2570,6 +2808,7 @@ e_gallia = {
 					
 					gothic = "Fiscannus"
 					gothicromance = "Feiscanno"
+					italogothic = "Fiscannus"
 				}
 				b_rouen = {
 					# Rotomagus
@@ -2665,12 +2904,16 @@ e_gallia = {
 			color2={ 255 255 255 }
 			
 			capital = 107 # Anjou
+
+			gothicromance = Anjau
 			
 			c_anjou = {
 				color={ 159 194 37 }
 				color2={ 255 255 255 }
 
 				# Andegavia
+
+				gothicromance = Anjau
 				
 				b_vihiers = {
 					# Vierium
@@ -2689,7 +2932,7 @@ e_gallia = {
 					hispani = "Andecavorum"
 		
 					gothic = "Andecava"
-					gothicromance = "Andgieus"
+					gothicromance = "Angieus"
 				}
 				b_fontevraud = {
 					# Fonsebraldi
@@ -2928,6 +3171,7 @@ e_gallia = {
 
 				roman = "Autricum"
 				gallic = "Carnotum"
+				gothicromance = Carnutis
 				
 				b_chateaudun = {
 					# Castrodunum
@@ -2937,6 +3181,7 @@ e_gallia = {
 
 					roman = "Autricum"
 					gallic = "Carnotum"
+					gothicromance = Carnutis
 				}
 				b_dreux = {
 					# Durocassis
@@ -2967,6 +3212,8 @@ e_gallia = {
 				roman = "Lutetia"
 				greek = "Lutetia"
 
+				old_frankish = Parisius
+				gothic = Parisius
 				gothicromance = "París"
 				norman = "Parys"
 
@@ -2977,6 +3224,8 @@ e_gallia = {
 					roman = "Lutetia"
 					greek = "Lutetia"
 
+					old_frankish = Parisius
+					gothic = Parisius
 					gothicromance = "París"
 					norman = "Parys"
 				}
@@ -3127,8 +3376,11 @@ e_gallia = {
 			color2={ 255 255 255 }
 			
 			capital = 78
+
+			# Flandria
 			
 			roman = "Menapiorum"
+			gothicromance = "Flandés"
 			
 			c_artois = {
 				color={ 234 110 90 }
@@ -3174,6 +3426,8 @@ e_gallia = {
 				}
 				b_beaumetz = {
 					# Bellomansum
+
+					gothicromance = "Bellomansa"
 				}
 				b_bapaume = {
 					# Bapalma
@@ -3200,6 +3454,8 @@ e_gallia = {
 				}
 				b_montreuil = {
 					# Monasterolium
+
+					gothicromance = "Monstruliya"
 				}
 				b_saintpol = {
 					# Paulopolis # guessing
@@ -3212,6 +3468,8 @@ e_gallia = {
 					saxon = "Hesdinfer"
 					gothic = "Hesdinfer"
 					german = "Heusden"
+
+					gothicromance = Hesdin
 				}
 				b_fauquembergues = {
 					# Falconia # making up shit
@@ -3264,7 +3522,6 @@ e_gallia = {
 					# Burgusinbroco
 
 					gothic = "Broecbaurg"
-
 					gothicromance = "Brocosburga"
 				}
 				b_marck = {
@@ -3274,7 +3531,6 @@ e_gallia = {
 				}
 				b_gravelines = {
 					gothic = "Garoine"
-
 					gothicromance = "Graveninga"
 				}
 				b_coulogne = {
@@ -3302,6 +3558,8 @@ e_gallia = {
 				}
 				b_cassel = {
 					# Menapiorum
+
+					gothicromance = Menapiyura
 				}
 				b_roeselare = {
 					# Rollare
@@ -3343,16 +3601,20 @@ e_gallia = {
 				b_damme = {
 				}
 				b_sluys = {
+					gothicromance = Sluis
 				}
 				b_oostende = {
+					gothicromance = Ostenda
 				}
 				b_male = {
 				}
 				b_nieuwpoort = {
+					gothicromance = Nauvaporta
 				}
 				b_torhout = {
 				}
 				b_aardenburg = {
+					gothicromance = Bavunysa
 				}
 			}
 			c_gent = {
@@ -3406,6 +3668,11 @@ e_gallia = {
 				color2={ 255 255 255 }
 
 				# Bracbantum
+
+				gothic = Bracbatensis
+				old_frankish = Bracbatensis
+
+				gothicromance = Brasbanha
 			
 				b_leuven = {
 					# Lovanium
@@ -3428,6 +3695,7 @@ e_gallia = {
 					old_frankish = Broeksel
 
 					gothicromance = Brussèlas
+					italogothic = Brussel
 				}
 				b_antwerpen = {
 					# Anduerpis
@@ -3670,8 +3938,11 @@ e_gallia = {
 				color2={ 255 255 255 }
 
 				# Juliacum
+
+				gothicromance = Juljac
 			
 				b_julich = {
+					gothicromance = Juljac
 				}
 				b_aachen = {
 					gothicromance = "Aquisgran"

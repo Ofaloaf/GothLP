@@ -96,6 +96,7 @@ NDefines.NTitle.DUKE_GRANT_DECADENCE_RED = 0.02
 NDefines.NTitle.KING_GRANT_DECADENCE_RED = 0.05
 NDefines.NTitle.EMPEROR_GRANT_DECADENCE_RED = 0.1
 NDefines.NTitle.EMPIRE_DE_JURE_ASSIMILATION_YEARS = 50		-- Kingdoms under the de facto control of another empire will change de jure liege after this many years
+NDefines.NTitle.ALLOW_DE_JURE_ASSIMILATION_ANYWHERE = 0
 NDefines.NTitle.REQ_DUCHIES_FOR_KINGDOM_CREATION = 3 		-- Number of held duchies required to create a kingdom (for rulers who are not already kings or emperors)
 NDefines.NTitle.REQ_KINGDOMS_FOR_EMPIRE_CREATION = 3 		-- Number of held kingdoms required to create an Empire (for rulers who are not already emperors)
 NDefines.NTitle.TITULAR_TITLE_CREATION_COST_MULT = 1		-- Titular titles are more expensive to create

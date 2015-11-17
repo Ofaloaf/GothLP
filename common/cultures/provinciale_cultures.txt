@@ -204,7 +204,7 @@ provinciale = {
 			Helisabeth_Elisabeth Honoria
 			Iohanne_Joan Iusta Iussana Iulia_Julia
 			Kellula
-			Lalla Lallina Letifaga Leocadia Lepora Lupa_Lupa Lupella
+			Lalla Lallina Letifaga Leocadia Lepora Lupa_Lupa Lupella Lidia_Lydia
 			Maiorina Maria_Maria Manina Marta_Martha Martina Matreduze Matrvita Matrona Metina Miti 
 			Meola Margarida_Margarita
 			Narcissa Natalia Naoralia Ninna Nomendulce Nomne

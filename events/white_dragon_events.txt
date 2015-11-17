@@ -1,0 +1,579 @@
+###########################################
+#
+# Knights of the White Dragon Events
+#
+# ID wdragon
+#
+###########################################
+
+namespace = wdragon
+
+# Formation of the Knights of the White Dragon
+narrative_event = {
+	id = wdragon.1
+	title = "EVTNAMEwdragon1"
+	desc = "EVTDESCwdragon1"
+	picture = "GFX_evt_crusaders"
+	border = "GFX_event_narrative_frame_religion"
+	
+	major = yes
+	only_playable = yes
+	only_men = yes
+	religion_group = christian
+	
+	trigger = {
+		religion = orthodox
+		is_heretic = no
+		
+		NOT = { is_title_active = d_white_dragon }
+		
+		has_global_flag = irminsul
+	}
+	
+	mean_time_to_happen = {
+		months = 4
+	}
+	
+	immediate = {
+		activate_title = { title = d_white_dragon status = yes }
+		create_random_soldier = {
+			dynasty = none
+			culture = saxon
+			random_traits = yes
+			religion = ROOT
+		}
+		new_character = {
+			d_white_dragon = {
+				grant_title = PREV
+			}
+			set_defacto_liege = THIS
+			wealth = 500
+		}
+		
+		religion_authority = {
+			modifier = religious_order_formed
+			years = 10
+		}
+	}
+	option = {
+		name = "EVTOPTAwdragon1"
+		trigger = {
+			religion = ROOT
+		}
+	}
+	option = {
+		name = "EVTOPTBwdragon1"
+		trigger = {
+			NOT = { religion_group = christian }
+		}
+	}
+	option = {
+		name = "EVTOPTCwdragon1"
+		trigger = {
+			religion_group = christian
+			NOT = { religion = ROOT }
+		}
+	}
+}
+
+### Ask for a County in order to help against Pagans ###
+
+# Grandmaster writes a letter
+character_event = {
+	id = wdragon.2
+	desc = "EVTDESCwdragon2"
+	picture = GFX_evt_council
+	border = GFX_event_normal_frame_religion
+	
+	only_playable = yes
+	
+	trigger = {
+		# Knights of the White Dragon is active
+		is_title_active = d_white_dragon
+		primary_title = {
+			title = d_white_dragon
+		}
+		independent = yes
+
+		NOT = { has_global_flag = white_dragons_invited_to_kingdom }
+		NOT = { has_global_flag = land_wanted_by_white_dragons }
+		OR = {
+			NOT = { has_character_flag = land_given_to_white_dragons }
+			had_character_flag = { flag = land_given_to_white_dragons days = 365 }
+			had_character_flag = { flag = no_land_to_white_dragons_at_the_moment days = 720 }
+		}
+
+		# There is a valid province
+		any_independent_ruler = {
+			religion = ROOT
+			primary_title = {
+				tier = KING
+			}
+			NOT = { has_character_flag = no_land_to_religious_orders }
+			any_demesne_province = {
+				NOT = { religion = ROOT }
+				any_province_holding = {
+					NOT = { holding_type = nomad }
+				}
+				any_neighbor_province = {
+					has_owner = yes
+					owner = {
+						OR = {
+							religion = celtic_pagan
+							religion = celtic_pagan_reformed
+						}
+					}
+				}
+				kingdom = {
+					OR = {
+						has_holder = no
+						holder_scope = {
+							NOT = { religion = ROOT }
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	immediate = {
+		hidden_tooltip = {
+			set_global_flag = land_wanted_by_white_dragons
+		}
+	}
+	
+	option = {
+		name = "EVTOPTAwdragon2"
+		random_independent_ruler = {
+			limit = {
+				religion = ROOT
+				primary_title = {
+					tier = KING
+				}
+				any_demesne_province = {
+					NOT = { religion = ROOT }
+					any_province_holding = {
+						NOT = { holding_type = nomad }
+					}
+					any_neighbor_province = {
+						has_owner = yes
+						owner = {
+							OR = {
+								religion = celtic_pagan
+								religion = celtic_pagan_reformed
+							}
+						}
+					}
+					kingdom = {
+						OR = {
+							has_holder = no
+							holder_scope = {
+								NOT = { religion = ROOT }
+							}
+						}
+					}
+				}
+			}
+			random_demesne_province = {
+				limit = {
+					NOT = { religion = ROOT }
+					any_province_holding = {
+						NOT = { holding_type = nomad }
+					}
+					any_neighbor_province = {
+						has_owner = yes
+						owner = {
+							OR = {
+								religion = celtic_pagan
+								religion = celtic_pagan_reformed
+							}
+						}
+					}
+					kingdom = {
+						OR = {
+							has_holder = no
+							holder_scope = {
+								NOT = { religion = ROOT }
+							}
+						}
+					}
+				}
+				set_province_flag = land_wanted_by_white_dragons
+				owner = {
+					letter_event = { id = wdragon.3 days = 7 }
+				}
+			}
+		}
+	}
+}
+
+# Ask permission from the King
+letter_event = {
+	id = wdragon.3
+	desc = "EVTDESCwdragon3"
+	border = GFX_event_letter_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAwdragon3"
+		ai_chance = { factor = 100 }
+		prestige = 50
+		piety = 50
+		random_demesne_province = {
+			limit = { has_province_flag = land_wanted_by_white_dragons }
+			county = {
+				grant_title = FROM
+				FROM = {
+					gain_settlements_under_title = {
+						title = PREV
+						enemy = ROOT
+					}
+				}
+			}
+		}
+		FROM = {
+			opinion = {
+				modifier = opinion_granted_county_to_holy_order
+				who = ROOT
+				years = 100
+			}
+		}
+		religion_head = {
+			opinion = {
+				modifier = opinion_exalted
+				who = ROOT
+				years = 10
+			}
+		}
+		hidden_tooltip = {
+			FROM = {
+				random_demesne_province = {
+					limit = { has_province_flag = land_wanted_by_white_dragons }
+					province_event = { id = wdragon.4 days = 1 }
+				}
+			}
+		}
+		set_character_flag = land_given_to_white_dragons
+	}
+	option = {
+		name = "EVTOPTBwdragon3"
+		ai_chance = { factor = 0 }
+		set_character_flag = no_land_to_white_dragons_at_the_moment
+	}
+	option = {
+		name = "EVTOPTCwdragon3"
+		ai_chance = { factor = 0 }
+		piety = -25
+		FROM = {
+			opinion = {
+				modifier = opinion_angry
+				who = ROOT
+				years = 20
+			}
+		}
+		religion_head = {
+			opinion = {
+				modifier = opinion_disappointed
+				who = ROOT
+				years = 10
+			}
+		}
+		hidden_tooltip = {
+			FROM = { letter_event = { id = 8800 days = 1 } }
+		}
+		set_character_flag = no_land_to_religious_orders
+		clr_province_flag = land_wanted_by_white_dragons
+		clr_global_flag = land_wanted_by_white_dragons
+	}
+}
+
+# The county has been seceded
+province_event = {
+	id = wdragon.4
+	desc = "EVTDESCwdragon4"
+	picture = "GFX_evt_castle_construction"
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EXCELLENT"
+		hidden_tooltip = {
+			clr_province_flag = land_wanted_by_white_dragons
+			clr_global_flag = land_wanted_by_white_dragons
+			owner = { narrative_event = { id = wdragon.5 days = 7 } }
+			any_playable_ruler = {
+				limit = {
+					ai = no
+					NOT = { character = FROM }
+					OR = {
+						religion_group = christian
+						war_with = FROM
+						capital_scope = {
+							NOT = {
+								distance = {
+								where = ROOT
+								value = 100	# Means we live fairly near the province where the castle is built
+								}
+							}
+						}
+					}
+				}
+				narrative_event = { id = wdragon.5 days = 7 }
+			}
+		}
+	}
+}
+
+# News spread about the new county
+narrative_event = {
+	id = wdragon.5
+	title = "EVTNAMEwdragon5"
+	desc = "EVTDESCwdragon5"
+	picture = "GFX_evt_crusaders"
+	border = "GFX_event_narrative_frame_religion"
+	
+	only_rulers = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA8703"
+		trigger = {
+			has_character_flag = land_given_to_white_dragons
+		}
+		prestige = 100
+		clr_character_flag = land_given_to_white_dragons
+	}
+	option = {
+		name = "EVTOPTB8703"
+		trigger = {
+			NOT = { has_character_flag = land_given_to_white_dragons }
+			religion = FROMFROM
+		}
+	}
+	option = {
+		name = "EVTOPTC8703"
+		trigger = {
+			NOT = { religion_group = christian }
+		}
+	}
+	option = {
+		name = "EVTOPTD8703"
+		trigger = {
+			religion_group = christian
+			NOT = { religion = FROMFROM }
+		}
+	}
+}
+
+
+province_event = {
+	id = wdragon.6
+	desc = "EVTDESCwdragon6"
+	picture = GFX_evt_council
+	border = GFX_event_normal_frame_religion
+	
+	only_rulers = yes
+	
+	trigger = {
+		owner = {
+			NOT = { has_character_flag = no_land_to_white_dragons }
+			NOT = { has_character_flag = wants_to_give_land_to_white_dragons }
+			
+			war = no
+			
+			# The Emperor is Top liege
+			top_liege = {
+				OR = {
+					AND = {
+						primary_title = { title = e_caralis }
+						culture_group = provinciale
+					}
+					primary_title = { title = k_gothia }
+				}
+			}
+
+			# White Dragons is active
+			is_title_active = d_white_dragon
+			any_independent_ruler = {
+				primary_title = {
+					title = d_white_dragon
+				}
+			}
+		}
+		# There is a valid province
+		any_province_holding = {
+			NOT = { holding_type = nomad }
+		}
+		region = world_europe_west_brittania
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+		
+		modifier = {
+			factor = 0.75
+			religion_group = pagan_group
+		}
+		modifier = {
+			factor = 0.75
+			any_neighbor_province = {
+				has_owner = yes
+				owner = {
+					religion_group = pagan_group
+				}
+			}
+		}
+	}
+	
+	immediate = {
+		hidden_tooltip = {
+			owner = { set_character_flag = wants_to_give_land_to_white_dragons }
+			set_province_flag = province_to_the_white_dragons
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA8720"
+		tooltip = {
+			owner = {
+				any_independent_ruler = {
+					limit = {
+						primary_title = {
+							title = d_white_dragon
+						}
+					}
+					ROOT = {
+						county = {
+							grant_title = PREVPREV
+						}
+					}
+				}
+			}
+		}
+		hidden_tooltip = {
+			owner = {
+				liege = { letter_event = { id = wdragon.7 days = 3 } }
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTB8720"
+		owner = { set_character_flag = no_land_to_white_dragons }
+	}
+}
+
+# Liege decides
+letter_event = {
+	id = wdragon.7
+	desc = "EVTDESCwdragon7"
+	border = GFX_event_letter_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA8721"	# Ask top liege
+		trigger = { independent = no }
+		liege = { letter_event = { id = wdragon.8 days = 3 } }
+	}
+	option = {
+		name = "EVTOPTB8721"	# Yes
+		ai_chance = { factor = 100 }
+		trigger = { independent = yes }
+		FROM = { letter_event = { id = wdragon.9 days = 3 } }
+	}
+	option = {
+		name = "EVTOPTC8721"	# No
+		ai_chance = { factor = 0 }
+		trigger = { independent = yes }
+		FROM = { letter_event = { id = wdragon.10 days = 3 } }
+	}
+}
+
+# Top liege decides
+letter_event = {
+	id = wdragon.8
+	desc = "EVTDESCwdragon8"
+	border = GFX_event_letter_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA8722"	# Yes
+		ai_chance = { factor = 100 }
+		FROM = { letter_event = { id = wdragon.9 days = 3 } }
+	}
+	option = {
+		name = "EVTOPTB8722"	# No
+		ai_chance = { factor = 0 }
+		FROM = { letter_event = { id = wdragon.10 days = 3 } }
+	}
+}
+
+# Gift was allowed
+letter_event = {
+	id = wdragon.9
+	desc = "EVTDESCwdragon9"
+	border = GFX_event_letter_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAwdragon9"
+		any_independent_ruler = {
+			limit = {
+				primary_title = {
+					title = d_white_dragon
+				}
+			}
+			letter_event = { id = wdragon.11 days = 3 }
+		}
+	}
+}
+
+# Gift was not allowed
+letter_event = {
+	id = wdragon.10
+	desc = "EVTDESCwdragon10"
+	border = GFX_event_letter_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTAwdragon10"
+	}
+}
+
+# The White Dragons are informed
+letter_event = {
+	id = wdragon.11
+	desc = "EVTDESCwdragon11"
+	border = GFX_event_letter_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EXCELLENT"
+		FROM = {
+			random_demesne_province = {
+				limit = { has_province_flag = province_to_the_white_dragons }
+				clr_province_flag = province_to_the_white_dragons
+				county = {
+					grant_title = ROOT
+					ROOT = {
+						gain_settlements_under_title = {
+							title = PREV
+							enemy = FROM
+						}
+					}
+				}
+			}
+		}
+	}
+}

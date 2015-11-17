@@ -68,7 +68,8 @@ e_germany = {
 				}
 				b_magdeburg = {	
 
-					pommeranian = Magadoburg			
+					pommeranian = Magadoburg
+					suebi = Magadosburg			
 				}
 				b_haldensleben = {
 					pommeranian = Hahaldeslevo
@@ -821,6 +822,7 @@ e_germany = {
 
 		suebi = "Suebia"
 		german = "Schwaben"
+		norse = "Sváfaland"
 
 		culture = suebi
 
@@ -859,7 +861,7 @@ e_germany = {
 
 				suebi = "Bade"
 				gothic = "Aquensis"
-				#gothicromance = "Aquensis"
+				gothicromance = "Aquensa"
 			
 				b_baden = {
 					roman = "Aquae"
@@ -873,7 +875,7 @@ e_germany = {
 					boarisch = "Bodn"
 					suebi = "Bade"
 					gothic = "Aquae"
-					#gothicromance = "Aquae"
+					gothicromance = "Aquae"
 				}
 				b_karlsruhe = {
 				}
@@ -886,7 +888,7 @@ e_germany = {
 					greek = "Segodounon"
 
 					gothic = "Wimpina"
-					#gothicromance = "Wimpina"
+					gothicromance = "Wimpina"
 				}
 				b_calw = {
 					roman = "Caleua"
@@ -899,7 +901,7 @@ e_germany = {
 
 					suebi = "Calb"
 					gothic = "Calewa"
-					#gothicromance = "Caleua"
+					gothicromance = "Caleua"
 				}
 				b_pforzheim = {
 					roman = "Portus"
@@ -912,7 +914,7 @@ e_germany = {
 
 					suebi = "Pforze"
 					gothic = "Portuhaim" # 'Portus' + gothic 'Haim'
-					#gothicromance = "Pordaim"
+					gothicromance = "Pordaim"
 				}
 				b_durlach = {
 				}
@@ -966,12 +968,15 @@ e_germany = {
 
 			suebi = "Suebia"
 			german = "Schwaben"
+			norse = "Sváfa"
 			
 			capital = 249 #Schwaben
 			
 			c_schwaben = {
 				color={ 81 81 81 }
 				color2={ 255 255 255 }
+
+				norse = "Sváfa"
 			
 				b_tubingen = {
 					suebi = "Dibenga"
@@ -1713,7 +1718,7 @@ e_germany = {
 		color2={ 220 220 20 }
 
 		old_frankish = "Frankia"
-		dutch = "Frankenland"
+		dutch = "Francië"
 		
 		culture = dutch
 		
@@ -1738,6 +1743,8 @@ e_germany = {
 			color2={ 255 255 255 }
 
 			pommeranian = "Holtzemia"
+
+			norse = Holtland
 		
 			capital = 80 #Holland
 			
@@ -1748,6 +1755,8 @@ e_germany = {
 				color2={ 255 255 255 }
 
 				pommeranian = "Holtzemia"
+
+				norse = Holtland
 			
 				b_haarlem = {
 					gothic = "Haarlohaim"
@@ -1786,6 +1795,8 @@ e_germany = {
 				color2={ 255 255 255 }
 
 				pommeranian = "Epagorec" # Egmond
+
+				norse = "Vester-Frísland"
 			
 				b_alkmaar = {
 					german = "Alkmar"
@@ -1872,6 +1883,8 @@ e_germany = {
 			brithenig = "Friz"
 
 			pommeranian = "Frisko"
+
+			norse = "Frísland"
 			
 			culture = frisian
 		
@@ -1883,6 +1896,8 @@ e_germany = {
 				dutch = "Oost-Friesland"
 
 				pommeranian = "Vychodifriska"
+
+				norse = "Austur-Frísland"
 			
 				b_emden = {
 				}
@@ -2124,11 +2139,13 @@ e_germany = {
 				color2={ 255 255 255 }
 
 				frisian = "Ooldenbuurich"
+				norse = Aldinborg
 
 				pommeranian = "Aldenpurk"
 				
 				b_oldenburg = {
 					frisian = "Ooldenbuurich"
+					norse = Aldinborg
 					pommeranian = "Aldenpurk"
 				}
 				b_cloppenburg = {
@@ -2181,12 +2198,18 @@ e_germany = {
 				# Mimigernaford
 
 				pommeranian = "Abrod"
+				carantanian = Abrod
+
+				dutch = Munster
 
 				holy_site = norse_pagan
 				holy_site = norse_pagan_reformed
 				
 				b_munster = {
 					pommeranian = "Abrod"
+					carantanian = Abrod
+
+					dutch = Munster
 				}
 				b_dortmund = {
 				}
@@ -2260,22 +2283,57 @@ e_germany = {
 				color2={ 255 255 255 }
 
 				# Gutingi
+
+				old_saxon = Chöttingen
+				suebi = Göttinge
 				
 				b_gottingen = {
+					# Gutingi
+
+					old_saxon = Chöttingen
+					suebi = Göttinge
 				}
 				b_corvey = {
+					# Hethis
 				}
 				b_lippe = {
 				}
 				b_kassel = {
+					# Cattorum
+
+					gothic = Chassella
+					old_frankish = Chassella
+					suebi = Chassella
+					burgundian = Chassella
+					german = Kassel
+
+					gothicromance = Cassailla
 				}
 				b_goslar = {
 				}
 				b_northeim = {
 				}
 				b_eisenach = {
+					# Ysenacum
+
+					gothic = Isinacha
+					old_frankish = Isinacha
+					suebi = Isinacha
+					burgundian = Isinacha
+					german = Eisenach
+
+					gothicromance = Isinacha
 				}
 				b_detmold = {
+					# Theotmalli
+
+					gothic = Tietmelli
+					old_frankish = Tietmelli
+					suebi = Tietmelli
+					burgundian = Tietmelli
+					german = Detmold
+
+					gothicromance = Tiutmal
 				}
 			}
 		}
@@ -2312,6 +2370,7 @@ e_germany = {
 				roman = "Cambodunum"
 				german = "Kempten"
 				boarisch = "Kempten"
+				suebi = Kempte
 
 				carantanian = "Auspurk"
 			
@@ -2322,20 +2381,26 @@ e_germany = {
 					roman = "Cambodunum"
 					german = "Kempten"
 					boarisch = "Kempten"
+					suebi = Kempte
 				}
 				b_augsburg = {
 					boarisch = "Augschburg"
+					suebi = Augschburg
 
 					carantanian = "Auspurk"
 				}
 				b_zumarshausen = { # ZuSmarshausen
+					suebi = Zomerhouse
 				}
 				b_kaufbeuren = {
 					boarisch = "Kaufbeiren"
+					suebi = Kaufbeire
 				}
 				b_donauworth = {
+					boarisch = Doanaweat
 				}
 				b_friedberg = {
+					boarisch = Fribe
 				}
 				b_hochstadt = {
 				}
@@ -2351,7 +2416,7 @@ e_germany = {
 				carantanian = "Gornja Bavarska"
 			
 				b_munchen = {
-					suebi = Munichen
+					suebi = Münche
 					gothic = Munichen
 					gothicromance = Munic
 					boarisch = "Minga"
@@ -2361,7 +2426,10 @@ e_germany = {
 					africanu = "Mònacu"
 				}
 				b_dachau = {
+					# Dahauua
+
 					boarisch = "Dochau"
+					german = Dachau
 				}
 				b_freising = {
 					# Frigisinga
@@ -2444,6 +2512,7 @@ e_germany = {
 		
 				b_straubing = {
 					roman = "Sorviodurum"
+					suebi = Strupinga
 					boarisch = "Strauwing"
 				}
 				b_regensburg = {
@@ -2536,9 +2605,13 @@ e_germany = {
 
 				# Batavis
 		
+				boarisch = "Båssa"
+				german = Passau
+
 				b_passau = {
 					# Batavis
 
+					boarisch = "Båssa"
 					german = "Passau"
 				}
 				b_ortenburg = {
@@ -2562,6 +2635,7 @@ e_germany = {
 
 				german = "Znaim"
 				boarisch = "Znaim"
+				suebi = Znaim
 		
 				b_mikulov = {
 					german = "Nikolsburg"
@@ -2584,6 +2658,7 @@ e_germany = {
 				b_znojmo = {
 					german = "Znaim"
 					boarisch = "Znaim"
+					suebi = Znaim
 				}
 				b_ivancice = {
 				}
@@ -2602,7 +2677,7 @@ e_germany = {
 				hispani = "Vindobona"
 				dalmatian = "Vindobona"
 				africanu = "Vindobona"	
-				brithenig = "Vindobona"	
+				brithenig = "Vindobona"
 
 				carantanian = "Dunaj"
 				traki = "Viden"

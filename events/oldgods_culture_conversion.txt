@@ -17,7 +17,7 @@ province_event = {
 	border = GFX_event_normal_frame_diplomacy
 	
 	trigger = {
-		year = 950
+		year = 900
 		culture = norse
 		kingdom = { title = k_gotarike }
 		NOT = { year = 1150 }
@@ -60,7 +60,7 @@ province_event = {
 	border = GFX_event_normal_frame_diplomacy
 	
 	trigger = {
-		year = 950
+		year = 900
 		culture = norse
 		kingdom = { title = k_norway }
 		NOT = { year = 1150 }
@@ -103,7 +103,7 @@ province_event = {
 	border = GFX_event_normal_frame_diplomacy
 	
 	trigger = {
-		year = 950
+		year = 900
 		culture = norse
 		kingdom = { title = k_denmark }
 		NOT = { year = 1150 }

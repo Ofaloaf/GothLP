@@ -224,7 +224,7 @@ central_germanic = {
 			Ibragardi Iohanna_Joan Iolantha_Yolande Iosefa Iudeith
 			Juduka Juliana Julja_Julia Justeina
 			Karla Kathareina_Catherine Kustanteina Kustantsja
-			Lawraintsja Liudibairga Liudiwina Lydja Liudigardi
+			Lawraintsja Liudibairga Liudiwina Lydja_Lydia Liudigardi
 			Magdalena_Magdalene Mahtisuintha Marja_Mary Martha_Martha
 			Othalareika
 			Paitra Pawla

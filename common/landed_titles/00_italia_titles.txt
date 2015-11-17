@@ -293,6 +293,10 @@ e_italy = {
 				b_verona = {
 					dalmatian = Verone
 					italian = "Verùna"
+
+					gothic = Bern
+					german = Bern
+					suebi = Bern
 				}
 				b_vicenza = {
 					# Vincentia
@@ -1549,6 +1553,8 @@ e_italy = {
 					german = "Weiden"
 					carantanian = "Videm"
 					traki = "Videm"
+
+					gothic = Utinum
 				}
 				b_friuli = {
 					german = "Friaul"
@@ -1577,7 +1583,7 @@ e_italy = {
 		culture = latine
 		
 		catholic = 500 # Crusade target weight
-		orthodox = 50
+		orthodox = 700
 		muslim = 10
 		
 		d_samnium = {
@@ -1938,60 +1944,114 @@ e_italy = {
 			color2={ 255 255 255 }
 			
 			capital = 343 # Siracusa
+
+			# Sicilia
+
+			greek = Sikelia
+
+			gothicromance = "Sicília"
+			italogothic = Sicilia
+			africanu = "Sitzìlia"
+
+			german = Sizilien
+			norse = Sikiley
+			geatish = Sicilien
+			danish = Sicilien
 			
 			c_palermo = {
 				color={ 155 254 86 }
 				color2={ 255 255 255 }
+
+				# Panormus
 				
 				maghreb_arabic = "Balharm"
 				levantine_arabic = "Balharm"
 				egyptian_arabic = "Balharm"
 				bedouin_arabic = "Balharm"
 				rumi_arabic = "Balharm"
-				greek = "Panarmos"
+				greek = "Panormos"
+
+				gothicromance = "Palèrme"
+				italogothic = Palerm
 				
 				b_palermo = {
+					# Panormus
+
 					maghreb_arabic = "Balharm"
 					levantine_arabic = "Balharm"
 					egyptian_arabic = "Balharm"
 					bedouin_arabic = "Balharm"
 					rumi_arabic = "Balharm"
-					greek = "Panarmos"
+					greek = "Panormos"
+
+					gothicromance = "Palèrme"
+					italogothic = Palerm
 				}
 				b_cefalu = {
+					# Cephaloedium
+
+					greek = Kefalodios
+
+					latine = Cefalodio
+					italian = Cefalù
 				}
 				b_monreale = {
+					# Mons Regalis
+
+					italian = Monreale
 				}
 				b_gratteri = {
+					# Gratterium
+
+					latine = Gratterio
 				}
 				b_caltavuturo = {
+					# Vulturium
+
+					latine = Vulturio
+
+					levantine_arabic = "Qal'at Abi l-Thawr"
+					egyptian_arabic = "Qal'at Abi l-Thawr"
+					bedouin_arabic = "Qal'at Abi l-Thawr"
+					rumi_arabic = "Qal'at Abi l-Thawr"
 				}
 				b_petralia = {
 				}
 				b_misilmeri = {
+					# Misilmerium
 				}
 				b_mistretta = {
+					# Mytistratum
 				}
 			}
 			c_messina = {
 				color={ 155 254 86 }
 				color2={ 255 255 255 }
+
+				# Messana
 				
 				greek = "Messene"
 				
 				b_messina = {
+					# Messana
+
 					greek = "Messene"
 				}
 				b_lipari = {
+					# Lipara
 				}
 				b_taormina = {
-					greek = "Taourmenion"
+					# Tauromenium
+
+					greek = "Tauromenion"
 				}
 				b_sanmarcodalunzio = {
+					# Haluntio
 				}
 				b_troinia = {
 				}
 				b_furnari = {
+					# Furnaris
 				}
 				b_cataratti = {
 				}
@@ -2001,17 +2061,26 @@ e_italy = {
 			c_siracusa = {
 				color={ 155 254 86 }
 				color2={ 255 255 255 }
+
+				# Syracusae
 				
 				greek = "Syrakousa"
 				
 				b_syracusa = {
+					# Syracusae
+
 					greek = "Syrakousa"
 				}
 				b_catania = {
+					# Catana
 				}
 				b_lentini = {
+					# Leontium
+
+					greek = Leontinoi
 				}
 				b_noto = {
+					# Netum
 				}
 				b_caltagirone = {
 				}
@@ -2146,24 +2215,134 @@ e_italy = {
 			capital = 356 # Venice
 			
 			dignity = 10
+
+			latine = Venetia
+			dalmatian = "Venèxia"
+			africanu = Vinezzia
+			brithenig = Fenis
+			welsh = Fenis
+			gothicromance = "Venècia"
+			italogothic = Venessia
+
+			german = Venedig
+			gothic = Venedig
+			suebi = Venedig
+			norse = Venedig
+			danish = Venedig
+			geatish = Venedig
+			norwegian = Venedig
+			dutch = "Venetië"
+
+			carantanian = Benetke
+
+			rumi_arabic = "Al-Bunduqiya"
+			egyptian_arabic = "Al-Bunduqiya"
+			levantine_arabic = "Al-Bunduqiya"
+			bedouin_arabic = "Al-Bunduqiya"
+			turkish = Venedik
 			
 			c_venezia = {
 				color = { 40 143 132 }
 				color2 = { 255 255 255 }
+
+				# Venetiae
+
+				latine = Venetia
+				dalmatian = "Venèxia"
+				africanu = Vinezzia
+				brithenig = Fenis
+				welsh = Fenis
+				gothicromance = "Venècia"
+				italogothic = Venessia
+
+				german = Venedig
+				gothic = Venedig
+				suebi = Venedig
+				norse = Venedig
+				danish = Venedig
+				geatish = Venedig
+				norwegian = Venedig
+				dutch = "Venetië"
+
+				carantanian = Benetke
+
+				rumi_arabic = "Al-Bunduqiya"
+				egyptian_arabic = "Al-Bunduqiya"
+				levantine_arabic = "Al-Bunduqiya"
+				bedouin_arabic = "Al-Bunduqiya"
+				turkish = Venedik
 				
 				b_venezia = {
+					# Venetia
+
+					dalmatian = "Venèxia"
+					africanu = Vinezzia
+					brithenig = Fenis
+					welsh = Fenis
+					gothicromance = "Venècia"
+					italogothic = Venessia
+					
+					german = Venedig
+					gothic = Venedig
+					suebi = Venedig
+					norse = Venedig
+					danish = Venedig
+					geatish = Venedig
+					norwegian = Venedig
+					dutch = "Venetië"
+						
+					carantanian = Benetke
+						
+					rumi_arabic = "Al-Bunduqiya"
+					egyptian_arabic = "Al-Bunduqiya"
+					levantine_arabic = "Al-Bunduqiya"
+					bedouin_arabic = "Al-Bunduqiya"
+					turkish = Venedik
 				}
 				b_rialto = {
+					# Rivoaltus
+
+					latine = Rivoalto
+					italian = Rialto
+					dalmatian = Rialto
+					gothicromance = "Rivauti"
 				}
 				b_pallestrina = {
+					# Feretina
+
+					latine = Feretina
+					italian = Pellestrina
+					dalmatian = Pelestrina
+					gothicromance = Feretina
 				}
 				b_lido = {
+					# Malamaucus # Malamocco
+
+					latine = Malamauco
+					italian = Malamocco
+					dalmatian = Malamoco
+					gothicromance = Malamaucas
 				}
 				b_jesolo = {
+					# Equilium
+
+					latine = "Iesolo"
+					italian = "Jesolo"
+					dalmatian = "Gèxolo"
 				}
 				b_murano = {
+					# Murianum
+
+					latine = Muriano
+					italian = Murano
+					dalmatian = Murano
 				}
 				b_torcello = {
+					# Turicellum
+
+					latine = Turicello
+					italian = Torcello
+					dalmatian = Torcello
 				}
 				b_fusina = {
 				}

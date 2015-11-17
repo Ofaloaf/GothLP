@@ -1,0 +1,13 @@
+In France:
+
+Try to change holding names to Late Latin forms, when possible.
+
+"St. [Name]", "[Name]igny]", "Chateau-[Name]", "Mont [Name]", etc., when no clear etymology or Latin form exists, should be turned into "[LATIN FORM of Name]-(i)acum", or as good a guess at that as possible. A hypothetical "Monsclaude" then "Claudiacum" or, if you want to be fancy, "Claudiniacum".
+
+(Germanic) Gothic, Suebi, (Old) Frankish and Burgundian take on "Corrupted Latin" forms. I'm treating all of them like "Roman Germans", in that they're notionally familiar with Roman ways and with Latin in the 8th century, and try to use Latin in their administrations when they can. If there's an attested Merovingian or Carolingian Latin name-form, great, use that. If not, take Latin names ending in -um and turn that into -us. Claudiniacum then is localized as Claudiniacus when controlled by Goths.
+
+Gautés/gothicromance forms default to Occitan, if possible and no other good idea comes to mind. For something like Claudiacum, where the "Latin" form was made up to fit in, or for a French town with an actual attested Latin form but no Occitan form, there's a couple tricks for turning a name into some Romance-y.
+
+* Latin placenames ending in "-iacum" can be truncated to "-èi" if it seems right. Vichy, France, is rendered in modern Occitan as "Vichèi", and its Latin etymology goes back to "Vippiacum". The "pp"->"ch" thing in that example I don't get, but "-iacum" to "-èi" is right there, so yeah. By this rule, "Claudiacum" can become "Claudèi".
+
+* Latin placenames ending in "-niacum" can be truncated to "-nac", so "Claudinac" is an appropriate shortening of "Claudiniacum". "-hac" might also work for "-iniacum" maybe? "Claudhac" sort of sounds alright.

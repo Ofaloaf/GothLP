@@ -32,13 +32,16 @@ e_hispania = {
 
 		allow = {
 			NOT = {
-				has_landed_title=e_caralis
-				has_law = vice_royalty_0
+				AND = {
+					has_landed_title=e_caralis
+					has_law = vice_royalty_0
+					ai = yes
+				}
 			}
 		}
 
 		catholic = 250 # Crusade target weight
-		orthodox = 700 # Crusade target weight
+		orthodox = 2000 # Crusade target weight
 
 		d_sardinia = {
 			color={ 217 159 255 }
@@ -213,13 +216,16 @@ e_hispania = {
 
 		allow = {
 			NOT = {
-				has_landed_title=e_caralis
-				has_law = vice_royalty_0
+				AND = {
+					has_landed_title=e_caralis
+					has_law = vice_royalty_0
+					ai = yes
+				}
 			}
 		}
 
 		catholic = 250 # Crusade target weight
-		orthodox = 1000 # Crusade target weight
+		orthodox = 5000 # Crusade target weight
 
 		d_barcino = {
 			color = { 70 140 83 }
@@ -227,7 +233,7 @@ e_hispania = {
 
 			capital = 204 # Barcelona
 
-			catalan = Barcelona
+			catalan = Barceluna
 			gothicromance = Barcelona
 			italogothic = Barslona
 			
@@ -243,8 +249,8 @@ e_hispania = {
 				brithenig = "Barguin"
 
 				catalan = Barcelona
-				gothicromance = Barcelona
-				italogothic = Barslona
+				gothicromance = Barceluna
+				italogothic = Barsluna
 				
 				b_berga = {
 					# Bergium
@@ -261,8 +267,8 @@ e_hispania = {
 					brithenig = "Barguin"
 
 					catalan = Barcelona
-					gothicromance = Barcelona
-					italogothic = Barslona
+					gothicromance = Barceluna
+					italogothic = Barsluna
 				}
 				b_vic = {
 					# Ausa
@@ -278,7 +284,7 @@ e_hispania = {
 				b_vallparadis = {
 					# Egara # Egosa /Terrassa
 
-					#gothicromance = Egosa
+					gothicromance = Egosa
 				}
 				b_provencana = {
 					# Provintiana
@@ -462,22 +468,30 @@ e_hispania = {
 
 			capital = 173 # Tarragona / Tarraco
 
-			gothicromance = "Tarragonesa"
+			gothicromance = "Tarraconesa"
 
 			c_tarragona = {
 				color = { 186 90 45 }
 				color2={ 255 255 255 }
 				
 				# Tarraco
+
+				gothic = Tarracona
+				gothicromance = Tarracona
+				italogothic = Tarracona
 				
 				b_tarragona = {
 					# Tarraco
+
+					gothic = Tarracona
+					gothicromance = Tarracona
+					italogothic = Tarracona
 				}
 				b_spantortosa = {
 					# Dertosa
 
 					gothic = "Dertusa"
-					#gothicromance = "Dertusa"
+					gothicromance = "Dertusa"
 				}
 				b_cambrils = {
 				}
@@ -1189,8 +1203,11 @@ e_hispania = {
 
 		allow = {
 			NOT = {
-				has_landed_title=e_caralis
-				has_law = vice_royalty_0
+				AND = {
+					has_landed_title=e_caralis
+					has_law = vice_royalty_0
+					ai = yes
+				}
 			}
 		}
 
@@ -1464,15 +1481,18 @@ e_hispania = {
 		capital = 160 # Lisboa
 		
 		catholic = 250 # Crusade target weight
-		orthodox = 600
+		orthodox = 2000
 		muslim = 25
 		west_african_pagan_reformed = 25
 		
 		# Creation/usurpation trigger
 		allow = {
 			NOT = {
-				has_landed_title=e_caralis
-				has_law = vice_royalty_0
+				AND = {
+					has_landed_title=e_caralis
+					has_law = vice_royalty_0
+					ai = yes
+				}
 			}
 		}
 		
@@ -1757,43 +1777,113 @@ e_hispania = {
 			c_plasencia = {
 				color = { 228 230 23 }
 				color2={ 255 255 255 }
+
+				# Ambracia
 				
 				b_hervas = {
+					# Gervasiacum # "Hervas" might be derived from something about St. Gervase
+
+					hispani = Gervasiacum
+					gothicromance = Gervazèi
 				}
 				b_plasencia = {
+					# Plasentia
+
+					latine = Deobriga
+					hispani = Placentia
+					gothicromance = Plasaintya
 				}
 				b_jaraiz = {
+					# Caesarum # hypothetical
+
+					hispani = Caesarum
+					gothic = Caesarus
+					old_frankish = Caesarus
+					suebi = Caesarus
+					burgundian = Caesarus
+					gothicromance = Cesarés
 				}
 				b_lazarza = {
+					# Caelionicco # actually Finca de la Vega, Penacaballera
+
+					hispani = Caelionicco
+					gothicromance = Caliyunac
 				}
 				b_montehermoso = {
+					# Mons Fermosus
+
+					hispani = "Mons Fermosus"
+					gothicromance = "Monsairmauso"
 				}
 				b_ventadelmoral = {
+					# (Ad) Lippos
+
+					hispani = Lippos
+					gothicromance = Lippa
 				}
 				b_jarandilla = {
+					# Flavium Vivertorum
+
+					hispani = "Flavium Vivertorum"
+					gothicromance = Vibairtura
 				}
 				b_talayuela = {
+					# Martinacum # There is a Church of St. Martin in Talayuela
+
+					hispani = Martinacum
+					gothicromance = Mardanèi
 				}
 			}
 			c_alcantara = {
 				color = { 230 232 25 }
 				color2={ 255 255 255 }
+
+				# Caurium
 				
 				b_alcantara = {
+					# Petriacum # Saint Peter/San Pedro de Alcantara is the patron saint of the city
+
+					hispani = Petriacum
+					gothicromance = "Peytrèi"
 				}
 				b_coria = {
+					# Caurium
 				}
 				b_moraleja = {
+					# Moralis
+
+					hispani = Moralis
+					gothicromance = "Mauralés"
 				}
 				b_brozas = {
+					# Tongobriga
+
+					hispani = Tongobriga
+					gothicromance = Tongobriga
 				}
 				b_lamata = {
+					# Matta
+
+					hispani = Matta
+					gothicromance = Matta
 				}
 				b_racharachel = {
+					# Tagulus # The Tagus River goes through part of this territory and I don't know what 'racharachel' is.
+
+					hispani = Tagulus
+					gothicromance = Tagel
 				}
 				b_lasnavasdelmadrono = {
+					# Virgini # patron saint of Navas del Madrono is the Virgen de la O
+
+					hispani = Virgini
+					gothicromance = Virgini
 				}
 				b_ceclavin = {
+					# Cellavini
+
+					hispani = Cellavini
+					gothicromance = Cellavini
 				}
 			}
 			c_caceres = {
@@ -1804,42 +1894,109 @@ e_hispania = {
 				
 				b_caceres = {
 					# Caesarina
+
+					gothicromance = Cesarine
 				}
 				b_guadalupe = {
+					# Castra Caecilia # actually Caceres el Viejo
+
+					hispani = "Castra Caecilia"
+					gothicromance = Castelcasiles
 				}
 				b_trujillo = {
 					# Turgalium
+
+					hispani = Turgalium
+					gothicromance = Turgalha
 				}
 				b_alburquerque = {
+					# Albus Quercus
+
+					hispani = "Albus Quercus"
+					gothicromance = Albiquercus
 				}
 				b_alia = {
+					# Tourmogon # actually Cerro Garrote, Garrovillas de Alconetar
+
+					hispani = Tourmogon
+					gothicromance = Turmulo
 				}
 				b_arroyodelalluz = {
+					# Rusticiana # actually Galisteo, Coria
+
+					hispani = Rusticiana
+					gothicromance = Rusticana
 				}
 				b_logrosan = {
+					# Lucretius
+
+					hispani = Lucretius
+					gothicromance = Lugrace
 				}
 				b_alcuescar = {
+					# Lama # actually El Campillo (de la Jara????)
+
+					hispani = Lama
+					gothicromance = Lama
 				}
 			}
 			c_badajoz = {
 				color = { 234 236 29 }
 				color2={ 255 255 255 }
+
+				# Emerita
+
+				gothicromance = Merito
+				italogothic = Merito
 				
 				b_jerezdeloscaballeros = {
+					# Fama Julia
+
+					hispani = Famaiulia
+					gothicromance = Famaulha
 				}
 				b_badajoz = {
+					# Emerita
+
+					hispani = Emerita
+					gothicromance = Mairito
+					italogothic = Merito
 				}
 				b_merida = {
+					# Plagiaria
+
+					hispani = Plagiaria
+					gothicromance = Plagharya
 				}
 				b_zafra = {
+					# Perceiana # actually Cortijo de la Vega del Conde
+
+					hispani = Perceiana
+					gothicromance = Pairciane
 				}
 				b_almendralejo = {
+					# Armentaria # actually Cabeza del Buey
+
+					hispani = Armentaria
+					gothicromance = Armintarha
 				}
 				b_villalbadelosbarros = {
+					# Caspiana # actually Cerro de Las Pilas
+
+					hispani = Caspiana
+					gothicromance = Caspiana
 				}
 				b_guarena = {
+					# Evandriana # actually Arroyo de San Servan
+
+					hispani = Evandriana
+					gothicromance = Aivandrya
 				}
 				b_fuentedelmaestre = {
+					# Dipo # actually Talavera la Real
+
+					hispani = Dipo
+					gothicromance = Dipau
 				}
 			}
 			c_salamanca = {
@@ -1849,21 +2006,54 @@ e_hispania = {
 				# Salamantica
 				
 				b_salbejar = {
+					# Biclara
+
+					hispani = Biclara
+					gothicromance = Biclara
 				}
 				b_salamanca = {
 					# Salamantica
 				}
 				b_ciudadrodrigo = {
+					# Mirobriga
+
+					hispani = Mirobriga
+					gothic = "Villa Roderichi"
+					old_frankish = Roderichus
+					suebi = Roderichus
+					burgundian = Roderichus
+					gothicromance = "Raudrigèi"
 				}
 				b_bracamonte = {
+					# Bletisama # actually Ledesma, Spain
+
+					hispani = Bletisama
+					gothic = Bletisa
+					gothicromance = Blaidsa
 				}
 				b_albadetormes = {
+					# Sentice # actually Duena de Abajo
+
+					hispani = Sentice
+					gothicromance = Saintissa
 				}
 				b_terradillos = {
+					# Turris # the name Terradillos is derived from "La Torrecilla", "The Turret"
+
+					hispani = Turris
+					gothicromance = Turri
 				}
 				b_carbajosadelasagrada = {
+					# Polibedenses # actually Yecle la Vieja, Yecla de Yeltes
+
+					hispani = Polibedenses
+					gothicromance = Paulidansa
 				}
 				b_lumbrales = {
+					# Liminis
+
+					hispani = Liminis
+					gothicromance = Liminarya
 				}
 			}
 		}
@@ -1878,14 +2068,17 @@ e_hispania = {
 		gothicromance = "Betica"
 		
 		catholic = 100 # Crusade target weight
-		orthodox = 500
+		orthodox = 2000
 		muslim = 50 # Crusade target weight
 		west_african_pagan_reformed = 50
 
 		allow = {
 			NOT = {
-				has_landed_title=e_caralis
-				has_law = vice_royalty_0
+				AND = {
+					has_landed_title=e_caralis
+					has_law = vice_royalty_0
+					ai = yes
+				}
 			}
 		}
 		
@@ -2166,10 +2359,15 @@ e_hispania = {
 				}
 			}
 			NOT = {
-				has_landed_title=e_caralis
-				has_law = vice_royalty_0
+				AND = {
+					has_landed_title=e_caralis
+					has_law = vice_royalty_0
+					ai = yes
+				}
 			}
 		}
+
+		orthodox = 1000
 		
 		d_navarra = {
 			color = { 230 198 90 }

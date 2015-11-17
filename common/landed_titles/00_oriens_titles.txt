@@ -32,7 +32,7 @@ e_oriens = {
 			}
 		}
 		
-		christian = 500 # Crusade target weight
+		christian = 800 # Crusade target weight
 		muslim = 250 # Crusade target weight
 		zoroastrian_group = 200 # Crusade target weight
 		
@@ -1175,7 +1175,7 @@ e_oriens = {
 		
 		culture = coptic
 		
-		orthodox = 20 # Crusade target weight
+		orthodox = 200 # Crusade target weight
 		muslim = 400 # Crusade target weight
 		zoroastrian_group = 150 # Crusade target weight
 		zun_pagan_reformed = 100 # Crusade target weight

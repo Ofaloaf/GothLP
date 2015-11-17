@@ -54,15 +54,15 @@ e_byzantium = {
 		hispani = "Thracia"
 		greek = "Thraike"
 
+		orthodox = 700 # Crusade target weight
+		catholic = 125 # Crusade target weight
+		muslim = 100 # Crusade target weight
+
 		d_thrace = {
 			color={ 65 120 211 }
 			color2={ 255 255 20 }
 			
 			capital = 496 # Byzantion
-			
-			orthodox = 250 # Crusade target weight
-			catholic = 125 # Crusade target weight
-			muslim = 100 # Crusade target weight
 			
 			c_kaliopolis = {
 				color={ 38 86 166 }
@@ -509,6 +509,8 @@ e_byzantium = {
 	k_macedonia = {
 		color = { 64 30 80 }
 		color2= { 255 255 255 }
+
+		orthodox = 300
 
 		d_macedonia = {
 			color = { 219 145 36 }
@@ -1090,6 +1092,8 @@ e_byzantium = {
 
 		capital = 745 # Smyrna
 
+		orthodox = 50
+
 		d_aegean_islands = {
 			color={ 24 50 123 }
 			color2={ 255 255 20 }
@@ -1619,7 +1623,7 @@ e_byzantium = {
 
 		culture = greek
 		
-		orthodox = 300 # Crusade target weight
+		orthodox = 30 # Crusade target weight
 		catholic = 75 # Crusade target weight
 		muslim = 100 # Crusade target weight
 		zoroastrian_group = 100 # Crusade target weight

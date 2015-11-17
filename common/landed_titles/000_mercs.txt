@@ -90,6 +90,36 @@ d_circumcellions = {
 	monthly_income = 1 # (Must be an integer between 1 and 512)
 }
 
+d_white_dragon = {
+	
+	color={ 202 26 26 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 32 # London
+
+	title = "GRANDMASTER"
+	foa = "GRANDMASTER_FOA"
+	
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	mercenary_type = teutonic_order_composition
+	
+	# Parent Religion 
+	religion = orthodox
+	
+	culture = saxon
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Extra income due to donations, etc
+	monthly_income = 5 # (Must be an integer between 1 and 512)
+}
+
 #### MERCENARIES PROPER ####
 
 ### BRITAIN ###

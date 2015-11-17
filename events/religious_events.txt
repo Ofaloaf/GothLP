@@ -1295,13 +1295,6 @@ narrative_event = {
 						}
 					}
 				}
-				32 = { # Middlesex / Londinium
-					NOT = {
-						owner = {
-							religion = orthodox
-						}
-					}
-				}
 				149 = { # Bordeaux
 					NOT = {
 						owner = {
@@ -1321,6 +1314,13 @@ narrative_event = {
 				NOT = {
 					owner = {
 						religion_group = christian
+					}
+				}
+			}
+			32 = { # Middlesex / Londinium
+				NOT = {
+					owner = {
+						religion = orthodox
 					}
 				}
 			}
@@ -4771,7 +4771,7 @@ narrative_event = {
 	
 	trigger = {
 		year = 900
-		religion = catholic
+		religion = orthodox
 		controls_religion = yes
 		NOT = { has_global_flag = christian_crusades_unlocked }
 		
