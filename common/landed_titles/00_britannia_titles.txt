@@ -447,6 +447,7 @@ e_britannia = {
 			capital = 32
 
 			roman = "Caesariensis"
+			welsh = Llundain
 
 			c_bedford = {
 				color={ 63 100 162 }
@@ -986,6 +987,11 @@ e_britannia = {
 				norse = "Dunholm"
 	
 				b_gateshead = {
+					# Ad Caput Caprae
+
+					saxon = Gætesheafod # guessing
+					old_saxon = Gætesheafod
+					norse = Gætesheafod
 				}
 				b_durham = {
 					norwegian = "Dunholm"
@@ -1002,6 +1008,17 @@ e_britannia = {
 					roman = "Gyrunum" # just guessing
 				}
 				b_hartlepool = {
+					# Longovicium # actually Lanchester
+
+					welsh = Longwyg # guessing
+					brithenig = Longouigo
+
+					gothic = Longovicium
+					gothicromance = Longovicium
+
+					saxon = Herterpol
+					old_saxon = Hereteu
+					norse = Heretu
 				}
 				b_auckland = {
 					# Alcluith
@@ -1100,18 +1117,51 @@ e_britannia = {
 					saxon = "Legacæstir"
 				}
 				b_halton = {
+					# Salinae # actually Middlewich
+
+					welsh = Salin
+					brithenig = Salina
+					gothicromance = Salina
 				}
 				b_malpas = {
+					# Bovium # actually Tilson
+
+					gothicromance = Bauvi
+
+					saxon = Tilastun
+					old_saxon = Tilastun
+					norse = Tilastun
 				}
 				b_northwich = {
+					# Condate
+
+					brithenig = Condate
+
+					gothicromance = Condate
+
+					saxon = Norþwic
+					old_saxon = Norþwic
+					norse = Norþwic
 				}
 				b_macclesfield = {
 				}
 				b_beeston = {
 				}
 				b_sandbach = {
+					# Sanbacum # making up shit
+
+					welsh = Llanbag # very much making up shit
+
+					saxon = Sanbec
+					old_saxon = Sandbaece
+					norse = Sandbaece
 				}
 				b_nantwich = {
+					# Nemetum # guessing
+
+					saxon = Nametwic
+					old_Saxon = Nametwic
+					norse = Nametwic
 				}
 			}
 			c_cumberland = {
@@ -1130,8 +1180,24 @@ e_britannia = {
 					welsh = Caerliwelydd
 				}
 				b_burgh = {
+					# Aballava
+
+					welsh = Aballab
+					brithenig = Aballaba
+
+					gothicromance = Aballaba
+
+					saxon = Burh
+					old_saxon = Burh
+					norse = Burh
 				}
 				b_gilsland = {
+					# Banna # actually the nearby town of Birdoswald
+
+					welsh = Banna
+					brithenig = Banna
+
+					gothicromance = Banna
 				}
 				b_penrith = {
 					# Voreda
@@ -1139,12 +1205,42 @@ e_britannia = {
 					brithenig = "Penrid"
 				}
 				b_egremont = {
+					# Tunnocelum # actually Beckermet / Calder Bridge
+
+					welsh = Iwlwgn		# making up shit
+					brithenig = Yuilwcen
 				}
 				b_papcastlet = {
+					# Derventio
+
+					saxon = Papicæster
+					old_saxon = Papicæster
+					norse = Papicæster
 				}
 				b_cockermouth = {
+					# Glannoventa # actually Ambleside
+
+					welsh = Glannogwent
+					brithenig = Glaniguent
+
+					latine = Clanoventa
+					
+					gothic = Glannibanta
+					old_frankish = Glannibanta
+					suebi = Glannibanta
+					burgundian = Glannibanta
+
+					gothicromance = Cantiventi
 				}
 				b_dacre = {
+					# Dacor
+
+					welsh = Dagr
+					brithenig = Dagr
+
+					saxon = Dacore
+					old_saxon = Dacore
+					norse = Dacore
 				}
 			}
 		}
@@ -2070,8 +2166,8 @@ e_britannia = {
 				b_exeter = {
 					# Isca
 
-					welsh = "Pensa vel Coyt"
-					brithenig = "Pensa vel Coyt"
+					welsh = "Caerwysg"
+					brithenig = "Cairguisca"
 
 					gothic = Isca
 					gothicromance = Isca
@@ -2189,12 +2285,15 @@ e_britannia = {
 				}
 				b_ilchester = {
 					# Lindinis
+
+					welsh = "Caerpensa"
+					brithenig = "Cair Pensa"
 				}
 				b_taunton = {
 					# Uxella # possibly Bridgwater?
 
-					welsh = Uxella
-					brithenig = Uxella
+					welsh = "Uxella"
+					brithenig = "Uxella"
 
 					gothic = Uxella
 					gothicromance = Uxella
