@@ -1701,11 +1701,39 @@ e_italy = {
 				greek = "Neapolis"
 				gothicromance = "Nàpols"
 				italogothic = "Nàpoli"
+
+				suebi = Neapel
+				german = Neapel
+				dutch = Napels
+				frisian = Napels
+
+				norse = Neapel
+				danish = Neapel
+				norwegian = Neapel
+				geatish = Neapel
+
+				gothic = Neapel
+				burgundian = Neapel
+				old_frankish = Neapel
 				
 				b_napoli = {
 					greek = "Neapolis"
 					gothicromance = "Nàpols"
 					italogothic = "Nàpoli"
+
+					suebi = Neapel
+					german = Neapel
+					dutch = Napels
+					frisian = Napels
+
+					norse = Neapel
+					danish = Neapel
+					norwegian = Neapel
+					geatish = Neapel
+
+					gothic = Neapel
+					burgundian = Neapel
+					old_frankish = Neapel
 				}
 				b_aversa = {
 				}

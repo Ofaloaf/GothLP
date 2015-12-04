@@ -953,6 +953,12 @@ e_gallia = {
 			color2={ 255 255 255 }
 			
 			capital = 134 #Sundgau
+
+			suebi = Alisaz
+			german = Elsass
+
+			gothicromance = "Alsàcia"
+			italogothic = Alsassia
 		
 			c_nordgau = {
 				color={ 225 204 10 }
@@ -1851,12 +1857,16 @@ e_gallia = {
 				color2={ 255 255 255 }
 
 				# Licinius
+
+				gothicromance = Lisinya
 				
 				b_lusignan = {
 					# Licinius
+
+					gothicromance = Licinjac
 				}
 				b_charroux = {
-					# Quadrifurcus"
+					# Quadrifurcus
 				}
 				b_niort = {
 					# Novioritum
@@ -1865,6 +1875,8 @@ e_gallia = {
 				}
 				b_melle = {
 					# Metellum
+
+					gothicromance = Midall
 				}
 				b_civray = {
 					# Severiacum
@@ -1888,6 +1900,9 @@ e_gallia = {
 				color2={ 255 255 255 }
 
 				# Santonicensis
+
+				gothicromance = Santunha
+				italogothic = "Séntunjhe"
 				
 				b_montguyon = {
 					# Guidonis
@@ -1902,6 +1917,8 @@ e_gallia = {
 				}
 				b_stjeandangely = {
 					# Angeliacum
+
+					gothicromance = Angilac
 				}
 				b_villeneuve = {
 					# Villanova
@@ -1936,6 +1953,8 @@ e_gallia = {
 				color2={ 255 255 255 }
 
 				# Pictavia
+
+				gothicromance = Peictau
 				
 				b_chauvigny = {
 					# Calviniacum
@@ -1944,6 +1963,8 @@ e_gallia = {
 				}
 				b_poitiers = {
 					# Pictavis
+
+					gothicromance = Peitieus
 				}
 				b_stsavin = {
 					# Sabiniacum
@@ -2275,6 +2296,8 @@ e_gallia = {
 				color2={ 255 255 255 }
 
 				# Borvonia
+
+				gothicromance = "Borvonés"
 				
 				b_bourbon = {
 					# Borvo
@@ -3855,12 +3878,28 @@ e_gallia = {
 				color={ 53 140 73 }
 				color2={ 255 255 255 }
 
-				gothic = Lucilinbaurg
-				gothicromance = "Lucilinensis"
+				# Arduenna
+
+				hispani = Arduenna
+				gallic = Arduenna
+				latine = Arduenna
+				brithenig = Arduenna
+				gallaecian = Arduenna
+				africanu = Arduenna
+
+				gothicromance = "Arduinas"
+
+				gothic = Ardennensis
+				old_frankish = Ardennensis
+				suebi = Ardennensis
+				burgundian = Ardennensis
+
+				german = Ardennen
+				dutch = Ardennen
 			
 				b_luxembourg = {
 					gothic = Lucilinbaurg
-					gothicromance = "Lucilnburgus"
+					gothicromance = "Lucilinburgus"
 				}
 				b_bouillon = {
 					# Bublione
@@ -3871,13 +3910,19 @@ e_gallia = {
 					hispani = "Bullionium"
 
 					german = "Beulen"
-					gothicromance = "Beuliuna"
+					dutch = Bullioen
+					gothicromance = "Biuliuna"
 				}
 				b_saintvith = {
 					# Vitacum
 				}
 				b_arlon = {
 					# Orolaunum
+
+					gothicromance = Aurlaun
+
+					dutch = Aarlen
+					german = Arel
 				}
 				b_neufchateau = {
 					# Novacastra
@@ -3921,16 +3966,50 @@ e_gallia = {
 					german = "Bastenach"
 				}
 				b_namur = {
+					# Namurcum
+
+					gothicromance = Namruc
+
+					gothic = Namurcus
+					old_frankish = Namurcus
+					burgundian = Namurcus
+					suebi = Namurcus
+
+					dutch = Namen
+					german = "Namür"
 				}
 				b_huy = {
+					# Amanium # actually Amay
+
+					gothicromance = Amaèi
 				}
 				b_laroche = {
+					# Perniciacum # actually Braives maybe????
+
+					gothicromance = Bairnesiac
+
+					gothic = Perniciacus
+					old_frankish = Perniciacus
+					burgundian = Perniciacus
+					suebi = Perniciacus
 				}
 				b_cine = {
+					# Vervigium # actually Vervoz
+
+					gothicromance = Virvyas
 				}
 				b_salm = {
+					# Salwa
+
+					gothicromance = "Saluó"
 				}
 				b_stavelot = {
+					# Stabelaco
+
+					gothicromance = Stablac
+
+					dutch = Stavelot
+					german = Stablo
 				}
 			}
 			c_julich = {
@@ -3939,25 +4018,86 @@ e_gallia = {
 
 				# Juliacum
 
+				gothic = Juliacus
 				gothicromance = Juljac
 			
 				b_julich = {
+					# Juliacum
+
+					gothic = Juliacus
 					gothicromance = Juljac
+
+					dutch = Gulik
+					german = Jülich
 				}
 				b_aachen = {
+					# Aquisgranum
+
 					gothicromance = "Aquisgran"
+
+					gothic = Aquis
+					old_frankish = Aquis
+					suebi = Aquis
+					burgundian = Aquis
+
+					dutch = Aken
+					german = Aachen
 				}
 				b_prum = {
+					# Prumia
+
+					gothicromance = Prumya
+
+					german = Prüm
 				}
 				b_geldern = {
+					gothicromance = Gielra
+
+					dutch = Gelder
 				}
 				b_roermond = {
+					# Mederiacum # actually Melick, NL
+
+					gothic = Mederiacus
+					gothicromance = Midriac
+
+					old_frankish = Mederiacus
+					burgundian = Mederiacus
+					suebi = Mederiacus
+
+					dutch = Melick
+					german = Melich # (???)
 				}
 				b_duren = {
+					# Durum
+
+					gothicromance = Duro
+
+					gothic = Duria # Villa Duria, 747
+					old_frankish = Duria
+					suebi = Duria
+					burgundian = Duria
+
+					roman = Marcodurum
+					greek = Marcodurum
+					latine = Marcodurum
+					hispani = Marcodurum
+					gallic = Marcodurum
+					brithenig = Marcodurum
+					gallaecian = Marcodurum
+
+					dutch = Düren
+					german = Düren
 				}
 				b_moers = {
+					# Calo # sortaguessing
+
+					gothicromance = Calo
 				}
 				b_monschau = {
+					# Gelduba
+
+					german = Gellep
 				}
 			}
 			c_loon = {
@@ -3982,17 +4122,66 @@ e_gallia = {
 					german = "Maastricht"
 				}
 				b_hasselt = {
+					old_frankish = Hasaluth
+					suebi = Hasaluth
+					gothic = Hasaluth
+					burgundian = Hasaluth
+
+					dutch = Hasselt
+					german = Hasselt
 				}
 				b_valkenburg = {
+					# Falconiacum
+
+					gothicromance = Falcunac
+
+					old_frankish = Falchenberch
+					suebi = Falchenberch
+					gothic = Falchenbaurgs
+					burgundian = Falchenbaurgs
+
+					german = Falkenburg
+					dutch = Valkenburg
 				}
 				b_heinsberg = {
+					# Teudurum # actually Tuddern
+
+					gothicromance = Tiudri
+
+					old_frankish = Teudurus
+					gothic = Teudurus
+					suebi = Teudurus
+					burgundian = Teudurus
+
+					dutch = Tudderen
+					german = "Tüddern"
 				}
 				b_hesbaie = {
+					# Hesbania
+
+					old_frankish = Haspinga
+					gothic = Haspinga
+					suebi = Haspinga
+					burgundian = Haspinga
+
+					gothicromance = Hisbanha
+
+					dutch = Haspengouw
+					german = Hespengau
 				}
 				b_wassenberg = {
+					# Coriovallum # actually Heerlen
+
+					gothic = Coriovalus
+					gothicromance = Cauryaval
+
+					german = Heerlen
 				}
 				b_tongeren = {
 					# Tungrorum
+
+					gothic = Tungrorus
+					gothicromance = Tungri
 
 					dutch = "Tongeren"
 					german = "Tongern"
@@ -4047,6 +4236,8 @@ e_gallia = {
 				}
 				b_bonn = {
 					# Bonna
+
+					german = Bonn
 				}
 				b_dietz = {
 					# Theodissa
@@ -4058,8 +4249,24 @@ e_gallia = {
 					dutch = Dietz
 				}
 				b_saffenburg = {
+					# Sentiacum # actually Sinzig
+
+					gothic = Sentiacum
+					gothicromance = "Sincèi"
+
+					german = Sinzig
+					suebi = Sinzig
+					old_saxon = Sinzig
 				}
 				b_hochstaden = {
+					# Rigomagus # actually Remagen
+
+					gothicromance = Riyumo
+					italogothic = Riyumo
+
+					german = Remagen
+					suebi = Remagen
+					old_saxon = Remagen
 				}
 				b_brauweiler = {
 					# Brunivilare
@@ -4090,6 +4297,13 @@ e_gallia = {
 					carantanian = "Magnjc"
 				}
 				b_frankfurt = {
+					# Nida
+
+					gothic = Nida
+					gothicromance = Nida
+					italogothic = Nida
+
+					old_frankish = Franconofurd
 				}
 				b_eppstein = {
 				}

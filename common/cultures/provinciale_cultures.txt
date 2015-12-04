@@ -85,7 +85,7 @@ provinciale = {
 		male_names = {
 			Artorius_Artorius Aleisandr_Alexander Arthmail Artbeau Avitor Adda_Adam Arthwr_Arthur
 			Antoin_Anthony Awstin_August Alan_Alan Arthen_Artemius Argad_Arcadius Andreas_Andrew
-			Beliatus Bellicus Bodeni Butu Budic Barrivent Brohcmail Briamail Bodvoc Brivitas
+			Beliatus Bellicus Bodeni Butu Budic Barrivent Brochmail Briamail Bodvoc Brivitas
 			Comitinus Clotual Cingualan Costenhin_Constantine Carol_Charles Cuuris Conetoc Cataman 
 			Cingen Cingal Caraethag Cristian_Christian Cynedd Cwrig_Cyriacus Cassius
 			Dumnovall Donal Dewidd_David Dubric Drystin Dunat

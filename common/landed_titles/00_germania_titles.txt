@@ -820,8 +820,8 @@ e_germany = {
 
 		roman = "Suebia"
 
-		suebi = "Suebia"
-		german = "Schwaben"
+		suebi = "Swabia"
+		german = "Swabia"
 		norse = "Sváfaland"
 
 		culture = suebi

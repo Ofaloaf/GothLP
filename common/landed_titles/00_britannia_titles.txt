@@ -515,6 +515,8 @@ e_britannia = {
 				old_saxon = Lundeneras
 				norse = Lundeneras
 
+				gothicromance = Lundrais
+
 				holy_site = aztec
 				holy_site = aztec_reformed
 				holy_site = arian
@@ -537,6 +539,8 @@ e_britannia = {
 					saxon = Lunden
 					old_saxon = Lunden
 					norse = Lunden
+
+					gothicromance = Lundrais
 				}
 				b_brockley_hill = {
 					# Sulloniacis
@@ -562,22 +566,53 @@ e_britannia = {
 				# Durobrivae
 
 				brithenig = "Durobriga"
+				gothicromance = Derauvri
 				
 				b_peterborough = {
 					# Durobrivae
 
 					brithenig = "Durobriga"
+					gothicromance = Derauvri
 				}
 				b_huntingdon = {
+					# Durovigutum # actually Godmanchester
+
+					welsh = Durovigutum
+					brithenig = Durovigutum
+
+					saxon = Godmundceaster
+					old_saxon = Godmundceaster
+					norse = Godmundceaster
 				}
 				b_ramsey = {
+					# Duroliponte # not Ramsey actually
+
+					saxon = Hramsige
+					old_saxon = Hramsige
+					norse = Hramsige
 				}
 				b_northampton = {
 					# Bannaventa # actually a place somewhere near Norton
+
+					welsh = Bingwent
+					brithenig = Banguent
 				}
 				b_kettering = {
+					# Catuvellaunorum # making up shit
+
+					saxon = Kyteringas
+					old_saxon = Kyteringas
+					norse = Kyteringas
 				}
 				b_cambridge = {
+					# Cantabriga
+
+					welsh = "Caergrawnt"
+					brithenig = "Cair Grauth"
+
+					saxon = Grantebrycge
+					old_saxon = Grantebrycge
+					norse = Grantebrycge
 				}
 				b_crowland = {
 				}
@@ -1863,8 +1898,15 @@ e_britannia = {
 				color2={ 255 255 255 }
 				
 				welsh = Pengwern
+
+				saxon = Scrobbesburh
+				old_saxon = Scrobbesburh
+				norse = Scrobbesburh
 			
 				b_shrewsbury = {
+					saxon = Scrobbesburh
+					old_saxon = Scrobbesburh
+					norse = Scrobbesburh
 				}
 				b_clun = {
 				}

@@ -110,7 +110,7 @@ central_germanic = {
 			Eboric Egenio_Eugene Eimiro Eirigu Eisindus Eldegotus Eldesindus Elperic Engomir Ensaldus 
 			Ermaric Evosind Erchangar Ernst
 			Fagildus Felmir Fralenko Framuld Francolin Fredoaldus Froatingus Fromildus Frumeirus 
-			Franziskus_Francis
+			Franziskus_Francis Fridericus_Frederick Friedrich_Frederick
 			Gardingus Gaudesind Gomedei Gomulfus Gresumarus Gudesteus Gumarius Gundivald Guntatus Gunterotis
 			Gabinus Georg_George
 			Heremigar Hermeric Hildemir Hilderic Huniscus Huniscus Hainrich_Henry Hermann_Herman

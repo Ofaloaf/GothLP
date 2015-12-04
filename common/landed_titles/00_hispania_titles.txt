@@ -2087,10 +2087,14 @@ e_hispania = {
 			color2={ 255 255 255 }
 			
 			capital = 181 # Cordoba
+
+			gothicromance = Cordubaisa
 			
 			c_cordoba = {
 				color = { 246 216 16 }
 				color2={ 255 255 255 }
+
+				# Corduba
 				
 				bedouin_arabic = "Qurtubah"
 				maghreb_arabic = "Qurtubah"
@@ -2102,6 +2106,8 @@ e_hispania = {
 				holy_site = aztec_reformed
 				
 				b_cordoba = {
+					# Corduba
+
 					bedouin_arabic = "Qurtubah"
 					maghreb_arabic = "Qurtubah"
 					levantine_arabic = "Qurtubah"
@@ -2109,18 +2115,52 @@ e_hispania = {
 					rumi_arabic = "Qurtubah"
 				}
 				b_alcolea = {
+					# Sabetanum # actually San Sebastian de los Ballesteros
+
+					hispani = Sabetanum
 				}
 				b_cabra = {
+					# Igabrum
+
+					gallaecian = Licabrum # Early Roman/presumably pre-Roman Spanish name
+					basque = Licabrum
+					aquitanian = Licabrum
+
+					hispani = Igabrum
+
+					gothic = Egabro
+					gothicromance = Egabro
 				}
 				b_andujar = {
+					# Isturgi
+
+					gothic = Sturgi
+					gothicromance = Sturgi
 				}
 				b_lucena = {
+					# Cisimbrium # actually Zambra
+
+					gothic = Cisimbrio # making up stuff
+					gothicromance = Cisimbrio
 				}
 				b_martos = {
+					# Tucci
+
+					roman = "Augusta Gemella Tuccitana"
+					hispani = Tuccitana
+
+					gothic = Tucci
+					gothicromance = Tucci
 				}
 				b_belalcazar = {
+					# Marruca # actually Cerro de la Zarzuela near Montilla
+
+					hispani = Marruca
 				}
 				b_canetedelastorres = {
+					# Calpurniana # actually Cerro del Hornillo, nearby Canete de las Torres
+
+					hispani = Calpurniana
 				}
 			}
 			c_calatrava = {
@@ -2130,21 +2170,60 @@ e_hispania = {
 				# Metellinum
 				
 				b_calatrava = {
+					# Oretum # actually Zuqueca, Granátula de Calatrava
+
+					hispani = Oretum
+
+					gothic = Oreti
+					gothicromance = Auredi
 				}
 				b_villareal = {
+					# Laminium # actually Alhambra, Ciudad Real
+
+					hispani = Laminium
+
+					gothic = Laminio
+					gothicromance = Laminya
 				}
 				b_caracuel = {
+					# Carcuvium #
+
+					hispani = Carcovium
+
+					gothic = Carcovi
+					gothicromance = Carcugua
 				}
 				b_alcazardesanjuan = {
+					# Alces
+
+					hispani = Alce
 				}
 				b_alarcos = {
+					# Oretana # making stuff up
+
+					hispani = Oretana
+
+					gothic = Oretana
+					gothicromance = Aurdanha
 				}
 				b_medellin = {
 					# Metellinum
 				}
 				b_almadeo = {
+					# Edeba # actually Torreneuva
+
+					hispani = Edeba
+
+					gothic = Edeba
+					gothicromance = Idaiba
 				}
 				b_almodovardelcampo = {
+					# Sisapo # actually La Bienvenida
+
+					hispani = Sisapo
+
+					gothic = Sisapo
+					gothicromance = Sisapo
 				}
 			}
 			c_granada = {
@@ -2154,20 +2233,68 @@ e_hispania = {
 				# Iliberris
 				
 				b_jaen = {
+					# Gaiena
+
+					hispani = Gaiena
+
+					gothic = Gaiena
+					gothicromance = Guyina
 				}
 				b_granada = {
+					# Iliberris
+
+					hispani = Iliberitanum
+
+					gothic = Iliberri
+					gothicromance = Ilbarri
 				}
 				b_elvira = {
+					# Ilturir # actually Colina de San Nicolas right near Granada proper
+
+					hispani = Ilturir
+
+					gothic = Ilturir
+					gothicromance = Ilturir
 				}
 				b_baeza = {
+					# Beatia
+
+					hispani = Beatia
+
+					gothic = Biatia
+					gothicromance = Biyaca
 				}
 				b_moclin = {
+					# Salaria # actually Ubeda la Vieja
+
+					hispani = Salaria
+
+					gothic = Salari
+					gothicromance = Salarya
 				}
 				b_iznajar = {
+					# Viniolae # actually possibly Arbuniel, Cambil
+
+					hispani = Viniolae
+
+					gothic = Viniolae
+					gothicromance = Viniula
 				}
 				b_guadix = {
+					# Acci
+
+					hispani = Acci
+
+					gothic = Acci
+					gothicromance = Acci
 				}
 				b_huelma = {
+					# Vergilia
+
+					hispani = Vergilia
+
+					gothic = Vergili
+					gothicromance = Virgilya
 				}
 			}
 			c_almeria = {
@@ -2177,20 +2304,52 @@ e_hispania = {
 				# Bastetania
 				
 				b_pechina = {
+					# Urci
+
+					hispani = Urci
+					gothicromance = Urci
 				}
 				b_almeria = {
+					# Turaniana # actually Ribera de la Algaida
+
+					hispani = Turaniana
+					gothicromance = Turanha
 				}
 				b_baza = {
+					# Basti
+
+					hispani = Basti
+					gothicromance = Basti
 				}
 				b_berja = {
+					# Vergis
+
+					hispani = Vergis
+					gothicromance = Virgi
 				}
 				b_motril = {
+					# Murgis
+
+					hispani = Murgis
+					gothicromance = Murgi
 				}
 				b_albox = {
+					# Tagili # actually Tijola
+
+					hispani = Tagili
+					gothicromance = "Tágila"
 				}
 				b_purchena = {
+					# Aboula # actually Abla
+
+					hispani = Aboula
+					gothicromance = Abula
 				}
 				b_vera = {
+					# Baria
+
+					hispani = Baria
+					gothicromance = Barh
 				}
 			}
 		}
