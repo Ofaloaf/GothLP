@@ -53,24 +53,65 @@ e_hispania = {
 				color={ 226 248 251 }
 				color2={ 255 255 255 }
 
-				gothicromance = Corsega
+				gothicromance = Corsaiga
 				catalan = "Còrsega"
 				italogothic = "Còrsica"
+
+				greek = Cinarca
 				
 				b_ajaccio = {
+					# Adiacium
+
+					gothicromance = Adiacaz
+					hispani = Adiacium
 					catalan = "Adiaci"
+					italian = Ajaccio
+
+					greek = Ourkinion
 				}
 				b_bonifacio = {
+					# Bonifacium
+
+					gothicromance = Bunifas
+					hispani = Bonifacium
+					latine = Bonifacio
+					italian = Bonifacio
+
+					greek = Palla
 				}
 				b_bastia = {
 				}
 				b_portevecchio = {
+					# Portus Syracusanus
+
+					gothicromance = Portusyracusi
+					hispani = "Portus Syracusanus"
 				}
 				b_filitosa = {
+					# Nuntiae # actually Nonza
+
+					gothicromance = Nuncya
+					italogothic = Nunsya
+					hispani = Nuntia
+					latine = Nuntiae
+
+					italian = Nonza
 				}
 				b_corte = {
+					# Cenestum
+
+					hispani = Cenestum
+					latine = Cenestum
+					gothicromance = Cinast
+					italogothic = Cenastu
+					italian = Corti
 				}
 				b_sartene = {
+					# Caprasia # actually Capraia
+
+					gothicromance = Caprasia
+					hispani = Caprasia
+					latine = Caprasia
 				}
 				b_aleria = {
 				}
@@ -82,26 +123,54 @@ e_hispania = {
 				africanu = "Arbaree"
 				
 				b_oristano = {
+					# Aristanis
+
+					gothicromance = Aristany
+					hispani = Aristanis
+					italian = Oristano
 				}
 				b_ardara = {
 				}
 				b_sassari = {
+					# Sassaris
+
+					gothicromance = "Sàsser"
+					hispanis = Sassaris
 					africanu = "Tàtari"
+					italian = Sassari
 				}
 				b_portotorres = {
+					# Turris Lybisonis
+
+					hispani = "Turris Lybisonis"
+					latine = "Turris Lybisonis"
+					gothicromance = "Turlabisun"
 				}
 				b_olbia = {
 				}
 				b_ottana = {
+					# Cornus # actually Santa Caterina di Pittinuri
+
+					hispani = Cornus
+					latine = Cornus
+					gothicromance = Curn
+					italogothic = Curn
 				}
 				b_tharros = {
 				}
 				b_santaigia = {
+					# Portus Scipio # Roman-era name
+
+					hispani = "Portus Scipio"
+					latine = "Portus Scipio"
+					gothicromance = Portuscibya
 				}
 			}
 			c_cagliari = {
 				color={ 170 200 170 }
 				color2={ 255 255 255 }
+
+				# Caralis
 
 				africanu = "Callaris"
 
@@ -110,25 +179,64 @@ e_hispania = {
 				italogothic = Càliari
 				
 				b_cagliari = {
-					africanu = "Callaris"
+					# Caralis
 
+					africanu = "Callaris"
 					gothicromance = Castèl
 					catalan = Càller
 					italogothic = Càliari
+					italian = Cagliari
 				}
 				b_ogliastra = {
+					# Nora # ancient town near modern Pula, Sardinia
+
+					hispani = Nora
+					latine = Nora
+					gothicromance = Nora
 				}
 				b_assemini = {
+					# Asseminis
+
+					hispani = Asseminis
+					latine = Asseminis
+					gothicromance = Asseminis
+					italian = Assemini
 				}
 				b_sanluri = {
+					# Ferraria # actually San Gregorio, Sinnai, Sardinia
+
+					hispani = Ferraria
+					latine = Ferraria
+					gothicromance = Fairarha
 				}
 				b_muravera = {
+					# Sarcapos
+
+					hispani = Sarcapos
+					latine = Sarcapos
+					gothicromance = Sarcap
 				}
 				b_dolianova = {
+					# Dolia
+
+					hispani = Dolia
+					latine = Dolina
+					gothicromance = Dulianava
+					italian = Dolianova
 				}
 				b_carbonia = {
+					# Sulcis # actually nearby Sant'Antioco
+
+					hispani = Sulcis
+					latine = Sulcis
+					gothicromance = Sulcis
 				}
 				b_capoterra = {
+					# Caput Terrae
+
+					hispani = "Caput Terrae"
+					latine = "Caput Terrae"
+					gothicromance = Caputerra
 				}
 			}
 		}
