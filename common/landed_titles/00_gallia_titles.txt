@@ -150,7 +150,7 @@ e_gallia = {
 			capital = 135 # Bourgogne
 
 			gothic = "Gothonia"
-			gothicromance = "Gautanya"
+			gothicromance = "Gautunha"
 			
 			c_besancon = {
 				color={ 71 135 173 }
@@ -1547,10 +1547,11 @@ e_gallia = {
 				b_clermont = {
 					# Arvernis
 
-					roman = "Augustonemetum"
-					latine = "Arvernum"
+					roman = Augustonemetum
+					latine = Arvernum
+					hispani = Arvernum
 
-					gothicromance = "Auverna"
+					gothicromance = Auverna
 				}
 				b_mozac = {
 					# Mussiacus
@@ -1567,8 +1568,22 @@ e_gallia = {
 				b_carlat = {
 				}
 				b_brioude = {
+					# Brivas
+
+					hispani = Brivas
+					gothicromance = Briuda
 				}
 				b_domeyrat = {
+					# Armariacum
+
+					hispani = Armariacum
+
+					gothic = Armariacus
+					suebi = Armariacus
+					burgundian = Armariacus
+					old_frankish = Armariacus
+					gothicromance = Almayrac # attested 1250
+					italogothic = Almayrac
 				}
 			}
 			c_gevaudan = {
@@ -1576,9 +1591,30 @@ e_gallia = {
 				color2={ 255 255 255 }
 
 				# Gabalitannus
+
+				gothic = Gabalum
+				suebi = Gabalum
+				old_frankish = Gabalum
+				burgundian = Gabalum
+
+				gothicromance = Gavaudan
 				
 				b_grezes = {
 					# Gredonense
+
+					roman = Gredonum
+					greek = Gredonum
+					gallic = Gredonum
+					hispani = Gredonum
+					latine = Gredonum
+
+					gothic = Gredone
+					burgundian = Gredone
+					suebi = Gredone
+					old_frankish = Gredone
+
+					gothicromance = Grèsas
+					italogothic = Grèsas
 				}
 				b_mende = {
 					# Mimate
@@ -1589,15 +1625,74 @@ e_gallia = {
 					# Ponots
 				}
 				b_apchier = {
+					# Silanum # actually Puech Crémat-Bas, Nasbinals
+
+					roman = "Ad Silanum"
+					greek = "Ad Silanum"
+					gallic = Adsilanum
+					hispani = "Ad Silanum"
+					latine = "Ad Silanum"
+
+					gothic = Silanus
+					suebi = Silanus
+					burgundian = Silanus
+					old_frankish = Silanus
+
+					gothicromance = Slanhéi
+					italogothic = Silanai
 				}
 				b_marvejols = {
-					gothicromance = "Maruèjuls"
+					# Gabalum # "Ad Gabalum" was the name of Classical Anderitum by the Late Antiquity. Actually Javols.
+
+					roman = Anderitum
+					greek = Anderitum
+
+					gallic = Gabalum
+					hispani = "Ad Gabalum"
+					latine = "Ad Gabalum"
+
+					gothic = Gavlis
+					suebi = Gabalis
+					old_frankish = Gabalis
+					burgundian = Gavlis
+
+					gothicromance = "Maruèjauls"
 				}
 				b_florac = {
+					# Floracum
+
+					gallic = Floracu
+					hispani = Floracum
+					latine = Floracum
+
+					gothic = Floracus
+					suebi = Floracus
+					burgundian = Floracus
+					old_frankish = Floracus
+
+					gothicromance = Fluyrac
+					italogothic = Fluyrac
 				}
 				b_stsauveur = {
+					# Salvatoracum
+
+					gothic = Salvatoracus
+					burgundian = Salvatoracus
+					suebi = Salvatoracus
+					old_frankish = Salvatoracus
+
+					gothicromance = Sauvaduyrac
 				}
 				b_tournel = {
+					# Turrulum # guessing
+
+					gothic = Turrulus
+					suebi = Turrulus
+					burgundian = Turrulus
+					old_frankish = Turrulus
+
+					gothicromance = Turnul
+					italogothic = Turnul
 				}
 			}			
 		}
@@ -1618,6 +1713,16 @@ e_gallia = {
 				gothicromance = "Viennensa"
 				
 				b_montelimar = {
+					# Acumum
+
+					greek = Akousion
+
+					gothic = Montilium
+					suebi = Montilium
+					burgundian = Montilium
+					old_frankish = Montilium
+
+					gothicromance = Muntïun
 				}
 				b_vienne = {
 					# Vienna
@@ -1627,17 +1732,43 @@ e_gallia = {
 
 					gallic = "Valencia"
 					hispani = "Valencia"
+
+					gothicromance = Valainsya
 				}
 				b_grenoble = {
 					# Gratianopolis
+
+					gothicromance = Gassanòbol
 				}
 				b_chartreuse = {
+					# Cartusia
+
+					gothicromance = Cartusia
 				}
 				b_albon = {
+					# Epaone
+
+					gothicromance = Ipau
 				}
 				b_stantoine = {
+					# Antoniacum
+
+					gothic = Antoniacus
+					suebi = Antoniacus
+					burgundian = Antoniacus
+					old_frankish = Antontiacus
+
+					gothicromance = Antuynac
 				}
 				b_valreas = {
+					# Valeriacum
+
+					gothic = Valeriacus
+					suebi = Valeriacus
+					burgundian = Valeriacus
+					old_frankish = Valeriacus
+
+					gothicromance = Vauriàs
 				}
 			}
 			c_viviers = {
@@ -2030,6 +2161,8 @@ e_gallia = {
 			old_frankish = "Guasconia"
 			basque = "Waskonia"
 			aquitanian = "Waskonia"
+
+			gothicromance = "Guascunha"
 			
 			capital = 209 # Armagnac
 
@@ -2203,6 +2336,8 @@ e_gallia = {
 			color2={ 255 255 255 }
 			
 			capital = 139 # Bourges
+
+			gothicromance = Bituric # 'Biturigia' ->(
 	
 			c_bourges = {
 				color={ 188 196 40 }
@@ -2236,14 +2371,28 @@ e_gallia = {
 				}
 				b_stsatur = {
 					# Saturniacum
+
+					gothic = Saturniacus
+					suebi = Saturniacus
+					burgundian = Saturniacus
+					old_frankish = Saturniacus
+
+					gothicromance = Saturnaz
 				}
 				b_sancerre = {
 					# Sacrum Caesaris
 
-					gothicromance = "Cesaris"
+					gothicromance = "Caisaris"
 				}
 				b_mehun = {
 					# Pontiniacum
+
+					gothic = Pontiniacus
+					suebi = Pontiniacus
+					burgundian = Pontiniacus
+					old_frankish = Pontiniacus
+
+					gothicromance = Pontinhac
 				}
 				b_vierzon = {
 					# Virsionis
@@ -2271,7 +2420,11 @@ e_gallia = {
 					gallic = "Varactum"
 
 					gothic = "Waractus"
-					gothicromance = "Guaractum"
+					burgundian = Waractus
+					suebi = Waractus
+					old_frankish = Waractus
+
+					gothicromance = "Guaract"
 				}
 				b_aubusson = {
 					# Albuconis
@@ -2289,6 +2442,13 @@ e_gallia = {
 				}
 				b_jouillat = {
 					# Joviacum # just guessing, really
+
+					gothic = Joviacus
+					suebi = Joviacus
+					burgundian = Joviacus
+					old_frankish = Joviacus
+
+					gothicromance = Jauyac
 				}
 			}
 			c_bourbon = {
@@ -2844,12 +3004,20 @@ e_gallia = {
 
 					gothic = "Ruthom"
 					gothicromance = "Rodumo"
+					italogothic = "Rodumo"
 				}
 				b_lillebonne = {
 					# Juliobona
 				}
 				b_harfleur = {
 					# Caracotinum
+
+					old_frankish = Caracotinus
+					suebi = Caracotinus
+					burgundian = Caracotinus
+					gothic = Caracotinus
+
+					gothicromance = Carcutina
 				}
 				b_arques = {
 					# Arcas
@@ -2860,11 +3028,22 @@ e_gallia = {
 				b_jumieges = {
 					# Gemeticum
 
+					old_frankish = Gemeticus
+					suebi = Gemeticus
+					burgundian = Gemeticus
+
 					gothic = "Gemedico"
 					gothicromance = "Gemedico"
 				}
 				b_longueville = {
 					# Longiniacum
+
+					gothic = Longiniacus
+					old_frankish = Longiniacus
+					suebi = Longiniacus
+					burgundian = Longiniacus
+
+					gothicromance = Lonyiac
 				}
 			}
 			c_eu = {

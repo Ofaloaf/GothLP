@@ -304,12 +304,12 @@ latinic = {
 			Baian_Bayan Bars Buoso Bonvesin Benedétt_Benedict Baitza Balambero_Balamabar Bagatoro
 			Cubrato Cepa Curtio Cisa Cano Carlo_Charles Claudi_Claudius Costantin_Constantine Cesare_Caesar
 			Costanz_Constantius Costant_Constans
-			Didio Davud_David Demir Daniele_Daniel Dionigi_Dionysius Diotifeci
+			Didio Davud_David Demir Daniele_Daniel Dionigi_Dionysius Diotifeci Dengizico_Dengizikh
 			Ernaco Egidio Emili_Emilio Emilian Ellaco Escacco
 			Folco_Folke Filipp_Philip Flavi_Flavius
 			Guar Giusepp_Joseph Giuan_John Galeàs Gaitan Gregori_Gregory Giulian_Julian Giovian_Jovian
 			Giuli_Julius Germano Gabriele_Gabriel
-			Iabgvo Iavantei Isbul
+			Iago_Jacob Iavantei Isbul
 			Lissander_Alexander Leonard_Leonard Lancino Luca_Luke Lorenzo_Laurence
 			Marco_Marcus Meneghin_Dominic March_Marcus Massimin_Maximinus Maggiorian_Majorian Martino_Martin
 			Magotino Marsilio

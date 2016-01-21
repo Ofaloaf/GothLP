@@ -177,7 +177,7 @@ central_germanic = {
 
 		male_names = {
 			Abraham_Abraham Adam_Adam Aggailus_Angel Agila Agustus_August Aimileis_Emil Airastus_Erastus
-			Airmanagild Alaicsandrus_Alexander Alagilds Alareiks_Alarich Albeis Albireiks_Alberich Amatus
+			Airmanagild Alaicsandrus_Alexander Alagilds Alareiks_Alaric Albeis Albireiks_Alberich Amatus
 			Amadaius_Amadeus Amalareiks_Amalric Amandus Ambrauseus_Ambrose Anastaseis_Anastasius Andraias_Andrew
 			Ansigais_Ansgar Ansihilms_Anselm Ansiwalds_Oswald Antoneis_Anthony Askalks Aliuilfus Apsical
 			Ansila Arnegisclus Argiovitus Athalocus

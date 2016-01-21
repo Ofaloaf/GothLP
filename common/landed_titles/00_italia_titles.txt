@@ -886,6 +886,7 @@ e_italy = {
 				}
 				b_busca = {
 					gothicromance = "Buscha"
+					italogothic = Busca
 				}
 				b_paesana = {
 					# Padusana
@@ -898,12 +899,14 @@ e_italy = {
 					# Urseolum
 
 					italian = "Verzuolo"
+					italogothic = "Vërzeul"
 					gothicromance = "Vërziul"
 				}
 				b_caraglio = {
 					# Caralium
 
 					italian = "Caraglio"
+					italogothic = Caraj
 					gothicromance = "Caralh"
 				}
 			}
@@ -938,11 +941,14 @@ e_italy = {
 					# Aquae
 
 					italian = Acqui
+					italogothic = "Äich"
 				}
 				b_tortona = {
 					# Derthona
 
 					italian = Tortona
+					italogothic = Tortona
+					gothicromance = Tortona
 
 					latine = "Dertona"
 					hispani = "Dertona"
@@ -954,6 +960,8 @@ e_italy = {
 					# Bugella
 
 					italian = Bugella
+					italogothic = Biela
+					gothicromance = Biyella
 				}
 				b_alba = {
 				}
@@ -961,7 +969,7 @@ e_italy = {
 					# Canellae
 
 					italian = Canelli
-					frankish = "Canelles"
+					italogothic = Canèj
 				}
 			}
 		}	
@@ -978,16 +986,22 @@ e_italy = {
 				# Mutina
 
 				italian = Modena
+				italogothic = Mòdena
 				german = "Muden"
 				
 				b_modena = {
 					# Mutina
 
 					italian = Modena
+					italogothic = Mòdena
 					german = "Muden"
 				}
 				b_reggionellemila = {
 					# Regium
+
+					italian = "Règg" # Lumbaart form
+					italogothic = Rès
+					gothicromance = Reis
 				}
 				b_carpi = {
 					# Carpium

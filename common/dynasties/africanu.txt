@@ -247,3 +247,8 @@
 	name = "Nasamonu"
 	culture = africanu
 }
+
+1137051 = {
+	name = "Masguinus"
+	culture = africanu
+}

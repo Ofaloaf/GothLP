@@ -325,7 +325,7 @@ decisions = {
 					completely_controls = d_apulia
 					completely_controls = d_bruttium
 					completely_controls = d_thrace
-					completely_controls = d_tunis
+					completely_controls = d_zeugitana
 					completely_controls = d_dalmatia
 					OR = {
 						AND = {
@@ -1490,8 +1490,8 @@ decisions = {
 					}
 					OR = {
 						has_landed_title = e_africa
-						e_spain = {	has_holder = no	}
-						e_spain = { holder_scope = { NOT = { religion_group = christian } } }
+						e_africa = {	has_holder = no	}
+						e_africa = { holder_scope = { NOT = { religion_group = christian } } }
 					}
 					OR = {
 						has_landed_title = e_britannia

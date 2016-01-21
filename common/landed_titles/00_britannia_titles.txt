@@ -983,6 +983,10 @@ e_britannia = {
 				saxon = Northumbria
 			
 				b_morpeth = {
+					# Vindobala # nearbyish
+
+					brithenig = "Guindobala" # making up something
+					welsh = "Gwindobal" # likewise
 				}
 				b_bamburgh = {
 					# Dinguardi
@@ -993,13 +997,20 @@ e_britannia = {
 					norse = "Bamborg"
 				}
 				b_hexham = {
+					# Hunnum
+
+					brithenig = Onno
+					welsh = Unno
 				}
 				b_newcastle = {
 					# Pons Aelius
 				}
 				b_alnwick = {
+					# Alauna # one of several towns named such, this one might've been near Learchild
 				}
 				b_norham = {
+					welsh = Tuaidh # Tweed, as in the Tweed River
+					brithenig = Tuaida # making up stuff
 				}
 				b_lindisfarne = {
 					# Medicata
@@ -1008,6 +1019,7 @@ e_britannia = {
 					welsh = "Medcaut"
 				}
 				b_mitford = {
+					# Bremenium # actually High Rocheser, Nothumberland
 				}
 			}
 			c_durham = {
@@ -1049,7 +1061,7 @@ e_britannia = {
 					brithenig = Longouigo
 
 					gothic = Longovicium
-					gothicromance = Longovicium
+					gothicromance = Longuichèi
 
 					saxon = Herterpol
 					old_saxon = Hereteu
@@ -1059,8 +1071,22 @@ e_britannia = {
 					# Alcluith
 				}
 				b_raby = {
+					# Viminibriga # nearby Piercebridge is the site of an unnamed Roman force.
+						      # '-bridge' can easily be traced back to '-briga'
+						      # 'Pierce-' is spectulated to refer to the old word 'Pershe'
+						      # 'Pershe' in turn refers to osiers, which in Latin is Viminia
+
+					brithenig = "Guiminbriga"
+					welsh = "Gwenbont"
 				}
 				b_st_cuthbert = {
+					# Vinovia # actually Binchester
+
+					brithenig = Guinovia # making up stuff
+					welsh = Gwinoif # making up stuff
+
+					saxon = Binnceaster
+					old_saxon = Binnceaster
 				}
 			}
 		}
