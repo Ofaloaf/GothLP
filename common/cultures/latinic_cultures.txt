@@ -238,7 +238,7 @@ latinic = {
 
 		male_names = {
 			Adam_Adam Aguastin_August Alecuandur_Alexander Aliau_Aelius Aliard Andre_Andrew Antuone_Anthony
-			Apricanu Aliau_Aelius Artebus Arelio_Aurelius
+			Apricanu Artebus Arelio_Aurelius
 			Bunedec_Benedict Buartol_Bartholomew Bunin Batsio Brogduos Brutus_Brutus
 			Caurnel_Cornelius Clemiant_Clement Crastin_Christian Cuarl_Charles Caunstantin_Constantine
 			Dimitre_Demetrius Domienc_Dominic Domienja_Dominic Dalmaciu_Dalmatius Danielu_Daniel

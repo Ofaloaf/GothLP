@@ -842,7 +842,7 @@ e_germany = {
 			greek = "Decumatia"
 
 			gothic = "Decumatia"
-			#gothicromance = "Decumatia"
+			gothicromance = "Aquensa"
 			
 			capital = 125 #Baden
 		

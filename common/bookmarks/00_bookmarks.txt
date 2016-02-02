@@ -4,10 +4,20 @@ bookmark =
 	name = "BM_CHARLEMAGNE"
 	desc = "BM_BM_CHARLEMAGNE_DESC"
 	date = 769.1.1
+
+	era = yes						## Will be shown on Era screen.
+	picture = GFX_pick_era_image_1
+
+	selectable_character = {
+		id = 611004 # Thiudareiks II Triarius, King of Gothia
+	}
+	selectable_character = {
+		id = 611037 # Luthaweic Amalius, King of Belgica
+	}
+	selectable_character = {
+		id = 611027 # Fravittas Ufargudja
+	}
 	
-	character = 611004 # Thiudareiks II Triarius, King of Gothia
-	character = 611037 # Luthaweic Amalius, King of Belgica
-	character = 611027 # Fravittas Ufargudja
 }
 
 # The Romans
@@ -16,10 +26,19 @@ bookmark =
 	name = "BM_THE_OLD_GODS"
 	desc = "BM_THE_OLD_GODS_DESC"
 	date = 769.1.1
-	
-	character = 1573007 # Nigolago Lepidoso, Emperor of the Carthagennan Empire
-	character = 3332001 # Kazimeru III Apsintvic, Emperor of the Byzantine Empire
-	character = 146140
+
+	era = yes						## Will be shown on Era screen.
+	picture = GFX_pick_era_image_2
+
+	selectable_character = {
+		id = 1573007 # Nigolago Lepidoso, Emperor of the Carthagennan Empire
+	}
+	selectable_character = {
+		id = 3332001 # Kazimeru III Apsintvic, Emperor of the Byzantine Empire
+	}
+	selectable_character = {
+		id = 146140
+	}
 }
 
 # The Orient
@@ -28,12 +47,25 @@ bookmark =
 	name = "BM_FATE_OF_ENGLAND"
 	desc = "BM_FATE_OF_ENGLAND_DESC"
 	date = 769.1.1
-	
-	character = 73679 # Abd al-Rahman I Umayyad, Caliph of Arabia
-	character = 1806002 # Khosrau III Sassanid, Shahnashah of Persia
-	character = 74723
-	character = 1806009 # Frasiyak Afrigid, Shah of Khwarezm
-	character = 191004 # Bhoja Varman, Maharaja of Kannauj
+
+	era = yes						## Will be shown on Era screen.
+	picture = GFX_pick_era_image_3
+
+	selectable_character = {
+		id = 73679 # Abd al-Rahman I Umayyad, Caliph of Arabia
+	}
+	selectable_character = {
+		id = 1806002 # Khosrau III Sassanid, Shahnashah of Persia
+	}
+	selectable_character = {
+		id = 74723
+	}
+	selectable_character = {
+		id = 1806009 # Frasiyak Afrigid, Shah of Khwarezm
+	}
+	selectable_character = {
+		id = 191004 # Bhoja Varman, Maharaja of Kannauj
+	}
 }
 
 # The Northerners
@@ -42,12 +74,25 @@ bookmark =
 	name = "BM_THE_MONGOLS"
 	desc = "BM_THE_MONGOLS_DESC"
 	date = 769.1.1
-	
-	character = 100507 # Kirur of Zemjemore
-	character = 194005
-	character = 7777005 # Sibyl Dwywan, Queen of Loegria
-	character = 166583
-	character = 194013
+
+	era = yes						## Will be shown on Era screen.
+	picture = GFX_pick_era_image_4
+
+	selectable_character = {
+		id = 100507 # Kirur of Zemjemore
+	}
+	selectable_character = {
+		id = 194005
+	}
+	selectable_character = {
+		id = 7777005 # Sibyl Dwywan, Queen of Loegria
+	}
+	selectable_character = {
+		id = 166583
+	}
+	selectable_character = {
+		id = 194013
+	}
 }
 
 # The Steppes
@@ -56,10 +101,23 @@ bookmark =
 	name = "BM_100_YEARS_WAR"
 	desc = "BM_100_YEARS_WAR_DESC"
 	date = 769.1.1
-	
-	character = 20664
-	character = 999001
-	character = 207002
-	character = 2424002 # Boruth Tuitanus
-	character = 74012
+
+	era = yes						## Will be shown on Era screen.
+	picture = GFX_pick_era_image_5
+
+	selectable_character = {
+		id = 20664
+	}
+	selectable_character = {
+		id = 999001
+	}
+	selectable_character = {
+		id = 207002
+	}
+	selectable_character = {
+		id = 2424002 # Boruth Tuitanus
+	}
+	selectable_character = {
+		id = 74012
+	}
 }
