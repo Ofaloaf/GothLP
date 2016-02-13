@@ -1374,6 +1374,8 @@ e_scythia = {
 		baltic_pagan_reformed = 100 # Crusade target weight
 		tengri_pagan_reformed = 100
 		finnish_pagan_reformed = 100
+
+		russian = "Ruthenia"
 		
 		allow = {
 			hidden_tooltip = {
@@ -1578,8 +1580,21 @@ e_scythia = {
 				feretolan = "Lendiziy"
 				jasi = "Lendizi"
 				sarmatian = "Lendizi"
+
+				german = Premissel
+				dutch = Premissel
+				suebi = Premissel
+				gothic = Premissel
+				old_frankish = Premissel
+				burgundian = Premissel
 	
 				b_peremyshl = {
+					german = Premissel
+					dutch = Premissel
+					suebi = Premissel
+					gothic = Premissel
+					old_frankish = Premissel
+					burgundian = Premissel
 				}
 				b_jaroslav = {
 				}

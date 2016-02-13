@@ -25,6 +25,8 @@ slavic = {
 		from_dynasty_prefix = "of "
 
 		modifier = default_culture_modifier
+
+		seafarer = yes # fight me irl
 	}
 	carantanian = {
 		graphical_culture = westernslavicgfx

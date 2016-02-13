@@ -68,14 +68,12 @@ e_oriens = {
 				color2={ 255 255 255 }
 				
 				bedouin_arabic = "Wadi Musa"
-				maghreb_arabic = "Wadi Musa"
 				levantine_arabic = "Wadi Musa"
 				egyptian_arabic = "Wadi Musa"
 				rumi_arabic = "Wadi Musa"
 			
 				b_monreal = {
 					bedouin_arabic = "Wadi Musa"
-					maghreb_arabic = "Wadi Musa"
 					levantine_arabic = "Wadi Musa"
 					egyptian_arabic = "Wadi Musa"
 					rumi_arabic = "Wadi Musa"
@@ -100,7 +98,6 @@ e_oriens = {
 				color2={ 255 255 255 }
 				
 				bedouin_arabic = "Al-Karak"
-				maghreb_arabic = "Al-Karak"
 				levantine_arabic = "Al-Karak"
 				egyptian_arabic = "Al-Karak"
 				rumi_arabic = "Al-Karak"
@@ -109,7 +106,6 @@ e_oriens = {
 				}
 				b_kerak = {
 					bedouin_arabic = "Al-Karak"
-					maghreb_arabic = "Al-Karak"
 					levantine_arabic = "Al-Karak"
 					egyptian_arabic = "Al-Karak"
 					rumi_arabic = "Al-Karak"
@@ -130,8 +126,24 @@ e_oriens = {
 			c_madaba = {
 				color={ 150 140 160 }
 				color2={ 255 255 255 }
-				
+
+				# Medabenia
+
+				bedouin_arabic = Madaba
+				levantine_arabic = Madaba
+				egyptian_arabic = Madaba
+				rumi_arabic = Madaba
+
 				b_madaba = {
+					# Medaba
+
+					greek = Medabenion
+					ultramarini = Medabenium
+
+					bedouin_arabic = Madaba
+					levantine_arabic = Madaba
+					egyptian_arabic = Madaba
+					rumi_arabic = Madaba
 				}
 				b_muwaqqar = {
 				}
@@ -140,6 +152,14 @@ e_oriens = {
 				b_bilal = {
 				}
 				b_umm_ar-rasas = {
+					# Mephaat
+
+					greek = Mephaa
+
+					bedouin_arabic = "Umm ar-Rasas"
+					levantine_arabic = "Umm ar-Rasas"
+					egyptian_arabic = "Umm ar-Rasas"
+					rumi_arabic = "Umm ar-Rasas"
 				}
 				b_sahab = {
 				}
@@ -291,11 +311,69 @@ e_oriens = {
 				holy_site = samaritan
 				holy_site = karaite
 				holy_site = ibadi
+
+				greek = Ierusolima
+				romanian = Ierusalim
+				ultramarini = Hierosolyma
+
+				gothic = Hierosolyma
+				gothicromance = Jerusalèm
+				italogothic = Gerusalem
+				italian = Gerusalemme
+
+				carantanian = Jeruzalem
+				pommeranian = Jeruzalém
+
+				german = Jerusalem
+				dutch = Jeruzalem
+				norwegian = Jerusalem
+				danish = Jerusalem
+				geatish = Jerusalem
+				norse = Jorsal
+
+				turkish = Kudüs
+				bedouin_arabic = "Al-Quds"
+				rumi_arabic = "Al-Quds"
+				egyptian_arabic = "Al-Quds"
+
+				hebrew = Yerushalaim
+				assyrian = Urishlem
+
+				roman = Aelia
 		
 				b_mirabel = {
 				}
 				b_jerusalem = {
 					pentarchy = yes
+
+					greek = Ierusolima
+					romanian = Ierusalim
+					ultramarini = Hierosolyma
+
+					gothic = Hierosolyma
+					gothicromance = Jerusalèm
+					italogothic = Gerusalem
+					italian = Gerusalemme
+
+					carantanian = Jeruzalem
+					pommeranian = Jeruzalém
+
+					german = Jerusalem
+					dutch = Jeruzalem
+					norwegian = Jerusalem
+					danish = Jerusalem
+					geatish = Jerusalem
+					norse = Jorsal
+
+					turkish = Kudüs
+					bedouin_arabic = "Al-Quds"
+					rumi_arabic = "Al-Quds"
+					egyptian_arabic = "Al-Quds"
+
+					hebrew = Yerushalaim
+					assyrian = Urishlem
+
+					roman = Aelia
 				}
 				b_nablus = {
 				}
@@ -306,6 +384,20 @@ e_oriens = {
 				b_montgisard = {
 				} 
 				b_jericho = {
+					greek = Iericho
+					romanian = Ierihon
+					ultramarini = Iericho
+
+					gothicromance = Jérico
+					italogothic = Jerigh
+					italian = Gerico
+
+					pommeranian = Jerycho
+
+					turkish = Eriha
+					bedouin_arabic = Ariha
+					rumi_arabic = Ariha
+					egyptian_arabic = Ariha
 				}
 				b_saintsamuel = {
 				}

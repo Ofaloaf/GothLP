@@ -11,7 +11,7 @@ crusader_group = {
 
 		male_names = {
 			Alexander_Alexander Amorellus Athanasius Alatheus Antenel Arigis Anscheric Agustus_August Andreas_Andrew
-			Amalric Abrahil
+			Amalric_Amalric Abrahil
 			Brito Balduinus_Baldwin Balian Barisan Basilius_Basil Bernard Bartholomeus_Bartholomeus
 			Bolferag
 			Comasio Carolus_Charles Clarembalt Claudius_Claudius Cosmas Clemencius_Clement
@@ -20,9 +20,9 @@ crusader_group = {
 			Fulco Fabius Frotarius Fulcarius Fulcrad Foroen Feroard Frothard Frotlaic
 			Gisalic Guermond Grimoald Gallicanus Gelduin Gabriel_Gabriel Galon Gislarius Gaucelmus Gaujoin Gerges
 			Henricus_Henry Hilduin Heracles Hector Helias Haimo
-			Innocentis Isambard Ingalbert Iacob_Jacob
-			Janus_Janus Jehan_John Judas Jonas Josephus_Joseph
-			Leo_Leo Lucas_Luke
+			Innocentis Isambard Ingalbert Iacob_Jacob Iehan_John
+			Janus_Janus Judas Jonas Josephus_Joseph
+			Levan_Leo Lucas_Luke
 			Marcus_Mark Marellus Meffereg
 			Nicholas_Nicholas Nilus
 			Octavius Oddet Odaric

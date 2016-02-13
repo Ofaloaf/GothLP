@@ -1005,6 +1005,7 @@ b_lynn;Lacus;;;;;;;;;;;;;x
 b_lyon;Lugdunum;;;;;;;;;;;;;x
 b_maastricht;Triecto;;;;;;;;;;;;;x
 b_macon;Matisco;;;;;;;;;;;;;x
+b_madaba;Medaba;;;;;;;;;;;;;x
 b_madain;Ctesiphon;;;;;;;;;;;;;x
 b_madrid;Matritum;;;;;;;;;;;;;x
 b_maggiore;Verbannus;;;;;;;;;;;;;x
@@ -1567,6 +1568,7 @@ b_tubirett;Dimmidi;;;;;;;;;;;;;x
 b_tunbeja;Vacca;;;;;;;;;;;;;x
 b_turenne;Turenna;;;;;;;;;;;;;x
 b_tuy;Tude;;;;;;;;;;;;;x
+b_umm_ar-rasas;Mephaat;;;;;;;;;;;;;x
 b_uncastillo;Castellum;;;;;;;;;;;;;x
 b_urbino;Urbinum;;;;;;;;;;;;;x
 b_urgell;Orgellis;;;;;;;;;;;;;x
@@ -1938,6 +1940,7 @@ PROV684;Nisibis;;;;;;;;;;;;;x
 PROV693;Ctesiphon;;;;;;;;;;;;;x
 PROV697;Nineveh;;;;;;;;;;;;;x
 PROV698;Gazerto;;;;;;;;;;;;;x
+PROV723;Medabenia;;;;;;;;;;;;;x
 PROV790;Petoum;;;;;;;;;;;;;x
 PROV794;Syene;;;;;;;;;;;;;x
 PROV796;Memphis;;;;;;;;;;;;;x
