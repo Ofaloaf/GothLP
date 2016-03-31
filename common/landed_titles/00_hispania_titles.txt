@@ -253,10 +253,11 @@ e_hispania = {
 				# Maiorica
 
 				gothicromance = "Malhòrca"
-				catalan = Mallorca
 				
 				b_alcudia = {
 					# Pollentia
+
+					gothicromance = "Pollença"
 				}
 				b_palma = {
 				}
@@ -290,13 +291,15 @@ e_hispania = {
 				b_ciutadella = {
 					# Civitatella
 
-					catalan = Ciutadella
+					gothicromance = Ciutadella
 				} 
 				b_mahon = {
 					# Magonis
 				}
 				b_alaior = {
 					# Eulaliacum # making shit up
+
+					gothicromance = Eulaljac
 				}
 				b_santaagueda = {
 					# Agathacum # derived backwards from 'Saint Agatha'
@@ -939,6 +942,9 @@ e_hispania = {
 					# Burgus
 
 					greek = "Pyrgos"
+					hispani = Pyrgus
+					gallic = Pyrgus
+
 					gothic = "Baurgs"
 					gothicromance = "Baurgus"
 					catalan = Burchs
@@ -1748,12 +1754,16 @@ e_hispania = {
 
 				roman = "Aeminium"
 				greek = "Aeminion"
+
+				gothicromance = "Coïmbra"
 				
 				b_coimbra = {
 					# Conimbriga
 
 					roman = "Aeminium"
 					greek = "Aeminion"
+
+					gothicromance = "Coïmbra"
 				}
 				b_viseu = {
 					# Viriacum # guessing

@@ -66,6 +66,8 @@ e_oriens = {
 			c_monreal = {
 				color={ 190 170 155 }
 				color2={ 255 255 255 }
+
+				romanian = Muntregal
 				
 				bedouin_arabic = "Wadi Musa"
 				levantine_arabic = "Wadi Musa"
@@ -73,6 +75,8 @@ e_oriens = {
 				rumi_arabic = "Wadi Musa"
 			
 				b_monreal = {
+					romanian = Muntregal
+
 					bedouin_arabic = "Wadi Musa"
 					levantine_arabic = "Wadi Musa"
 					egyptian_arabic = "Wadi Musa"
@@ -931,8 +935,27 @@ e_oriens = {
 			c_amman = {
 				color={ 131 255 12 }
 				color2={ 255 255 255 }
+
+				# Philadelphia
+
+				greek = Philadelphia
+				romanian = Philadelphia
+
+				bedouin_arabic = Amman
+				levantine_arabic = Amman
+				egyptian_arabic = Amman
+				rumi_arabic = Amman
 			
 				b_amman = {
+					# Philadelphia
+
+					greek = Philadelphia
+					romanian = Philadelphia
+
+					bedouin_arabic = Amman
+					levantine_arabic = Amman
+					egyptian_arabic = Amman
+					rumi_arabic = Amman
 				}
 				b_dhiban = {
 				}
@@ -945,6 +968,15 @@ e_oriens = {
 				b_deir_alla = {
 				}
 				b_jerash = {
+					# Gerasa
+
+					romanian = Gerasa
+					greek = Gerasa
+
+					bedouin_arabic = Jerash
+					levantine_arabic = Jerash
+					egyptian_arabic = Jerash
+					rumi_arabic = Jerash
 				}
 				b_al_balqa = {
 				}

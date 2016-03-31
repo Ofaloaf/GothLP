@@ -453,6 +453,8 @@ e_italy = {
 
 				# Brixia
 
+				hispani = Brixia
+
 				german = "Wälsch-Brixen"
 				gothicromance = "Breissa"
 				italogothic = Bressa
@@ -460,6 +462,8 @@ e_italy = {
 				
 				b_brescia = {
 					# Brixia
+
+					hispani = Brixia
 
 					german = "Wälsch-Brixen"
 					gothicromance = "Breissa"
@@ -1208,6 +1212,9 @@ e_italy = {
 				}
 				b_arezzo = {
 					# Arretium
+
+					gothicromance = Aress
+					italogothic = Aress
 				}
 				b_prato = {
 				}

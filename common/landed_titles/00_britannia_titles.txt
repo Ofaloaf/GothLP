@@ -898,6 +898,8 @@ e_britannia = {
 
 				old_saxon = "Oxnafordscir"
 				saxon = "Oxnafordscir"
+
+				brithenig = "Aelia"
 				
 				b_oxford = {
 					# Bovedunum # shit I made up, derived from 'Bovem', ox.
@@ -927,6 +929,8 @@ e_britannia = {
 
 					old_saxon = "Buccingahame"
 					saxon = "Buccingahame"
+
+					brithenig = Spinis
 				}
 				b_banbury = {
 					# Banna
@@ -2031,6 +2035,8 @@ e_britannia = {
 			c_dyfed = {
 				color={ 155 75 5 }
 				color2={ 255 255 255 }
+
+				brithenig = Defed
 			
 				b_carmarthen = {
 				}
@@ -2081,7 +2087,7 @@ e_britannia = {
 					# Venta Silurum
 
 					welsh = "Caerwent"
-					brithenig = "Guensilur"
+					brithenig =  Castrwent #"Guensilur"
 
 					gothicromance = Siluras
 				}
@@ -2101,7 +2107,7 @@ e_britannia = {
 					# Gobannium
 
 					welsh = "Y Fenni"
-					brithenig = Fennia
+					brithenig = Govan
 
 					gothicromance = "Gaubanha"
 				}
@@ -2109,14 +2115,14 @@ e_britannia = {
 					# Blestium
 
 					welsh = Abermynwy
-					brithenig = Trefynwy
+					brithenig = Blyst #Trefynwy
 
 					gothicromance = "Blaistya"
 				}
 				b_caerleon = {
 					# Castra Legio
 
-					brithenig = "Cair Legeion"
+					brithenig = "Castreleon"
 
 					gothicromance = "Iscalaigo"
 				}
@@ -2133,6 +2139,8 @@ e_britannia = {
 			color2={ 255 255 255 }
 			
 			capital = 31 # Cornwall
+
+			brithenig = Dunonea
 			
 			c_cornwall = {
 				color={ 150 40 15 }

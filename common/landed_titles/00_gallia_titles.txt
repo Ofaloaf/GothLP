@@ -38,8 +38,14 @@ e_gallia = {
 
 				# Lugdunum
 
+				gallic = Lugduum
+				hispani = Lugdunum
+
+				gothic = "Lugdunum"
 				gothicromance = Liyunés
 				italogothic = "Lion"
+
+				german = "Leyden"
 
 				holy_site = arian
 				
@@ -55,7 +61,10 @@ e_gallia = {
 				b_lyon = {
 					# Lugdunum
 
-					gothic = "Lugduum"
+					gallic = Lugduum
+					hispani = Lugdunum
+
+					gothic = "Lyduum"
 					gothicromance = "Liyun"
 					italogothic = "Lion"
 
@@ -158,11 +167,19 @@ e_gallia = {
 
 				# Vesontio
 
+				hispani = Vesontio
+				gallic = Visontione
+				brithenig = Besantion
+
 				german = "Bisanz"
 				gothicromance = "Besontion"
 				
 				b_besancon = {
 					# Vesontio
+
+					hispani = Vesontio
+					gallic = Visontione
+					brithenig = Besantion
 
 					german = "Bisanz"
 					gothicromance = "Besontion"
@@ -322,6 +339,12 @@ e_gallia = {
 				}
 				b_druyes = {
 					# Romaniacum # St. Romain did something there I guess???
+
+					old_frankish = Romaniacus
+					suebi = Romaniacus
+					burgundian = Romaniacus
+					gothic = Romaniacus
+					gothicromance = "Rominac"
 				}
 				b_tonnerre = {
 					# Tornodurum
@@ -329,6 +352,7 @@ e_gallia = {
 				b_pontigny = {
 					# Pontiniacum
 
+					gothic = Pontiniacus
 					gothicromance = "Ponteigni" # Frankish, 1269
 				}
 				b_cravant = {
@@ -1116,6 +1140,9 @@ e_gallia = {
 				color2={ 255 255 255 }
 
 				# Tolosanus
+
+				gallic = Tolosa
+				hispani = Tolosa
 
 				gothicromance = "Tolosa"
 				old_frankish = "Tholose"
@@ -2556,6 +2583,8 @@ e_gallia = {
 				color2={ 255 255 255 }
 				
 				# Namnetia
+
+				gothicromance = Namntas
 				
 				b_nantes = {
 					# Namnetum
@@ -3219,6 +3248,10 @@ e_gallia = {
 
 				# Turonensis
 
+				hispani = Turonum
+				gallic = Turonum
+				latine = Turonum
+
 				gothicromance = "Torena"
 				
 				b_chinon = {
@@ -3228,6 +3261,11 @@ e_gallia = {
 					# Turonum
 
 					roman = "Caesarodunum"
+
+					hispani = Turonum
+					gallic = Turonum
+					latine = Turonum
+
 					brithenig = "Teurgn"
 					gothicromance = "Tors"
 				}
@@ -3256,6 +3294,9 @@ e_gallia = {
 
 				# Blesae
 
+				hispani = Blesae
+				gallic = Blesae
+
 				gothicromance = "Bleso"
 				
 				b_beaugency = {
@@ -3263,6 +3304,9 @@ e_gallia = {
 				}
 				b_blois = {
 					# Blesae
+
+					hispani = Blesae
+					gallic = Blesae
 
 					gothicromance = "Bleso"
 				}
@@ -3295,6 +3339,9 @@ e_gallia = {
 				}
 				b_vendome = {
 					# Vindocinum
+
+					hispani = Vindocinum
+					gallic = Vindocinum
 
 					gothicromance = "Vindocino"
 				}
@@ -3377,6 +3424,9 @@ e_gallia = {
 				
 				b_chateaudun = {
 					# Castrodunum
+
+					gothicromance = Casteldun
+					italogothic = Casteldun
 				}
 				b_chartres = {
 					# Carnutum
@@ -3438,6 +3488,8 @@ e_gallia = {
 				}
 				b_stdenis = {
 					# Dionysiacum
+
+					gothicromance = "Denysiac"
 				}
 				b_meaux = {
 					# Meldis
@@ -3451,6 +3503,8 @@ e_gallia = {
 				}
 				b_montfortlamaury = {
 					# Moriacum
+
+					gothicromance = "Maurjac"
 				}
 				b_senlis = {
 					# Silvanectum
@@ -3462,6 +3516,8 @@ e_gallia = {
 				}
 				b_compiegne = {
 					# Compendium
+
+					gothicromance = "Cumendèi"
 				}
 			}
 		}
@@ -3520,6 +3576,8 @@ e_gallia = {
 				}
 				b_crepy = {
 					# Cripiacum
+
+					gothicromance = Crepya
 				}
 				b_montaigu = {
 				}
@@ -3528,9 +3586,13 @@ e_gallia = {
 				}
 				b_guise = {
 					# Gusia
+
+					gothicromance = Gusya
 				}
 				b_signy = {
 					# Signum # guessing
+
+					gothicromance = Seino
 				}
 			}
 			c_amiens = {
@@ -3547,11 +3609,19 @@ e_gallia = {
 				b_amiens = {
 					# Ambianorum
 
+					old_frankish = Ambianorus
+					suebi = Ambianorus
+					burgundian = Ambianorus
+					gothic = Ambianorus
+					gothicromance = Amyans
+
 					roman = "Samarobriva"
 					gallic = "Samarobriu"
 				}
 				b_beauvais = {
 					# Bellovacum
+
+					gothicromance = "Beloyac"
 				}
 				b_soissons = {
 					# Suessionum
@@ -3570,6 +3640,9 @@ e_gallia = {
 					# Mondisderium
 				}
 				b_breteuil = {
+					# Brittoialo
+
+					gothicromance = Brituyal
 				}
 			}
 		}
@@ -3661,6 +3734,8 @@ e_gallia = {
 				}
 				b_saintpol = {
 					# Paulopolis # guessing
+
+					gothicromance = Palobolh
 				}
 				b_hesdin = {
 					# Hesdinum
@@ -3679,6 +3754,8 @@ e_gallia = {
 					old_frankish = "Falcanberga"
 					gothic = "Falcobaurga"
 					german = "Valkenberg"
+
+					gothicromance = Falconha
 				}
 				b_ternouis = {
 					# Terna

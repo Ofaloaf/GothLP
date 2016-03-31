@@ -464,11 +464,11 @@ character_event = {
 
 	trigger = {
 		has_global_flag = christian_crusades_unlocked
-		NOR = {
-			culture = ultramarini
-			culture_group = arabic
-			culture_group = altaic
-			culture_group = iranian
+		OR = {
+			culture_group = provinciale
+			culture_group = latinic
+			culture_group = celtic
+			culture_group = vasconic
 		}
 		OR = {
 			independent = yes
