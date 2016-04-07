@@ -1158,6 +1158,9 @@ e_gallia = {
 					frankish = "Toulouse"
 				} 
 				b_lavaur = {
+					# Vobero
+
+					gothicromance = Castrovauro
 				} 
 				b_montauban = {
 					# Monsalbanus
@@ -1174,9 +1177,14 @@ e_gallia = {
 					# Altopullo
 				} 
 				b_montgiscard = {
+					# Badera # actually Baziège
+
+					gothicromance = Basièja
 				} 
 				b_muret = {
-					gothicromance = "Murèth"
+					# Vernosolum # actually Lavernose, of Lavernose-Lacasse
+
+					gothicromance = Vernosol
 				} 
 			}
 			c_rouergue = {
@@ -1199,16 +1207,32 @@ e_gallia = {
 					gothicromance = "Milhau"
 				} 
 				b_vabres = {
+					# Catiriacum # actually Cadayrac, France
+
+					gothicromance = Cadayrac
 				} 
 				b_najac = {
+					# Tribonum # actually Trébosc, France
 				} 
 				b_villefranche = {
+					# Carantomagus # actually Cranton
+
+					gothicromance = Carantomago
 				} 
 				b_caylus = {
+					# Castrum
+
+					gothicromance = Cailutz
 				} 
 				b_staffrique = {
+					# Sorica # https://en.wikipedia.org/wiki/Sorgues_(river)
+
+					gothicromance = Saurga
 				} 
 				b_estaing = {
+					# Campus Libatus # actually Compolibat
+
+					gothicromance = Campolivado
 				} 
 			}
 			c_foix = {
@@ -1230,7 +1254,9 @@ e_gallia = {
 					gothicromance = "Pàmias"
 				} 
 				b_mirepoix = {
-					gothicromance = "Mirapeis"
+					# Mirum Podium
+
+					gothicromance = "Mirapuèg"
 				} 
 				b_montsegur = {
 					# Securus
@@ -1238,6 +1264,18 @@ e_gallia = {
 					gothicromance = "Montsegur"
 				} 
 				b_stbertrand = {
+					# Convernarum
+
+					hispani = Convenae
+					gallic = Convenae
+					latine = Convenae
+
+					old_frankish = Convenae
+					suebi = Convenae
+					burgundian = Convenae
+					gothic = Convenae
+
+					gothicromance = Cummonigo
 				}  
 				b_roquefeuil = {
 					# Rocafolium
@@ -1245,6 +1283,10 @@ e_gallia = {
 					gothicromance = "Ròcafuèlh"
 				} 
 				b_stgaudens = {
+					# Mansus
+
+					gallic = Mansus
+					gothicromance = Manso
 				}  
 				b_usson = {
 				} 
@@ -1293,6 +1335,7 @@ e_gallia = {
 					# Balneum
 				}
 				b_saintguilhemledesert = {
+					# Sextantio # https://fr.wikipedia.org/wiki/Substantion
 				}
 				b_melgueil = {
 					# Melgorium
@@ -1337,14 +1380,15 @@ e_gallia = {
 					# Podium Sugarium
 
 					gothicromance = Peuchserguier
-
-					frankish = "Puisserguier"
 				} 
 				b_stponsdethomieres = {
+					# Naro # actually Montaurès
 				} 
 				b_castres = {
+					# Usuerva # actually Lézignan-Corbières
 				} 
 				b_queribus = {
+					# Cassero # actually Saint-Thibéry
 				} 
 			}
 			c_carcassonne = {
@@ -1859,7 +1903,7 @@ e_gallia = {
 
 				# Burdigalensis
 
-				gothicromance = "Bordèu"
+				gothicromance = "Burdelh"
 				italogothic = "Bordò"
 				
 				b_castillon = {
@@ -1868,7 +1912,7 @@ e_gallia = {
 				b_bordeaux = {
 					# Burdigala
 
-					gothicromance = "Bordèu"
+					gothicromance = "Burdelh"
 					italogothic = "Bordò"
 				}
 				b_stemilion = {
@@ -2377,6 +2421,9 @@ e_gallia = {
 				gothicromance = "Burgis"
 				
 				b_chateauroux = {
+					# Castrum Radulphi
+
+					gothicromance = Castelraolh
 				}
 				b_deols = {
 					# Dolus

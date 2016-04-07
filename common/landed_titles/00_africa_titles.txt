@@ -757,18 +757,25 @@ e_africa = {
 				# Altava
 			
 				b_tlemcen = {
+					# Pomaria
 				}
 				b_sidibelabbes = {
+					# Altava # actually Ouled Mimoun
 				}
 				b_muaskar = {
+					# Siga # actually Takembrit
 				}
 				b_bedrabine = {
+					# Tepidae # actually Ain el Hammam/Sidi Abdelli
 				}
 				b_tessala = {
+					# Camarata # possibly Sidi Djelloul
 				}
 				b_letelagh = {
+					# Albulae # also Praesidium Sufative # actually Ain Temouchent
 				}
 				b_dhaya = {
+					# Portus Sigensis # actually the mouth of Oued Tafna
 				}
 				b_elhaicaiba = {
 				}
@@ -818,14 +825,26 @@ e_africa = {
 			c_snassen = {
 				color={ 163 157 135 }
 				color2={ 255 255 255 }
+
+				# Malva # 'Malva' is the Latin name for the Moulouya River, which runs along the eastern edge of this prov
 			
 				b_oujda = {
+					# Lemnis
 				}
 				b_jerada = {
+					# Ad Fratres
+					# Jerada only dates back to 1927, if I'm reading this French right.
 				}
 				b_saldia = {
+					# Artisiga
+					# Saldia only dates back to 1883
+
+					africanu = Aquisira
+					gothic = Aquisira
+					gothicromance = Aquisira
 				}
 				b_ainbenimathar = {
+					# Numerus Syrorum # actually Lalla Maghnia/Marnia
 				}
 				b_debdou = {
 				}
@@ -874,6 +893,8 @@ e_africa = {
 				color={ 201 129 167 }
 				color2={ 255 255 255 }
 
+				# Mons Diur
+
 				holy_site = aztec
 				holy_site = aztec_reformed
 				holy_site = west_african_pagan
@@ -899,6 +920,8 @@ e_africa = {
 			c_figuig = {
 				color={ 183 53 121 }
 				color2={ 255 255 255 }
+
+				# Mulucha # alternate name for Malva Fl., the Moulouya River
 			
 				b_figuig = {
 				}
@@ -970,11 +993,14 @@ e_africa = {
 			c_infa = {
 				color={ 52 71 37 }
 				color2={ 255 255 255 }
+
+				# Sala
 			
 				b_infa = {
+					# Banasa
 				}
 				b_rabat = {
-					maghreb_arabic = "Errbat"
+					# Lixus
 				}
 				b_sale = {
 					# Sala
@@ -982,8 +1008,10 @@ e_africa = {
 					maghreb_arabic = "Sla"
 				}
 				b_tiflet = {
+					# Frigidae
 				}
 				b_berrechid = {
+					# Thamusida # actually Fghaina
 				}
 				b_azemmour = {
 				}
@@ -995,18 +1023,42 @@ e_africa = {
 			c_cebta = {
 				color={ 136 174 104 }
 				color2={ 255 255 255 }
+
+				# Septa
+
+				roman = Septem
+				latine = Septem
+				hispani = Septem
 			
 				b_cueta = {
+					# Septa
+
+					roman = Septem
+					latine = Septem
+					hispani = Septem
 				}
 				b_tetouan = {
+					# Tamuda
+
+					maghreb_arabic = Tittawin
 				}
 				b_Xauen = {
+					# Abilia # actually basically Cueta/Septa
+
+					greek = Abyla
+					hispani = Abila
+					gothicromance = Abyle
 				}
 				b_aulef = {
+					# Toenia # I can only find this in the Project Gutenberg EBook of 'The Atlas of Ancient and Classical Geography'
+
+					gothicromance = Taunha
 				}
 				b_babtaza = {
+					# Iagath # another site near Tetuan
 				}
 				b_targuist = {
+					# Metagonium # actually refers to a fair stretch of coastline
 				}
 				b_mdiq = {
 				}
@@ -1020,8 +1072,11 @@ e_africa = {
 				# Rusadir
 			
 				b_melilla = {
+					# Rusadir
 				}
 				b_alhoceima = {
+					# Parietina # actually Penon de Velez
+					# Al Hoeceima didn't event exist before 1925
 				}
 				b_midar = {
 				}
@@ -1039,14 +1094,20 @@ e_africa = {
 			c_massat = {
 				color={ 82 146 39 }
 				color2={ 255 255 255 }
+
+				# Rutubis
 			
 				b_essaouira = {
+					# Arambys
 				}
 				b_akermoud = {
+					# Rutubis # ???
 				}
 				b_safi = {
+					# Carcunticus
 				} 
 				b_haddraa = {
+					# Zama
 				}
 				b_aitelaouni = {
 				}

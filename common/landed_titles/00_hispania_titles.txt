@@ -1625,13 +1625,17 @@ e_hispania = {
 				color2={ 255 255 255 }
 				
 				# Olisipo
+
+				gothic = "Ulishbon"
+				suebi = "Ulishbon"
+				gothicromance = "Ulishbona"
 				
 				b_lisboa = {
 					# Olisipo
 
-					gothic = "Ulishbona"
-					suebi = "Ulishbona"
-					#gothicromance = "Ulishbona"
+					gothic = "Ulishbon"
+					suebi = "Ulishbon"
+					gothicromance = "Ulishbona"
 				}
 				b_alcobaca = {
 					# Eburobrittium # actually Obidos
@@ -1688,9 +1692,13 @@ e_hispania = {
 				color2={ 255 255 255 }
 
 				# Salacia
+
+				gothicromance = Salacia
 				
 				b_alcacerdosal = {
 					# Salatia
+
+					gothicromance = Salacia
 				}
 				b_alcacovas = {
 					# Malateca # Ribeira da Marateca
