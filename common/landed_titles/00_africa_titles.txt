@@ -41,6 +41,7 @@ e_africa = {
 					maghreb_arabic = "Tunes"
 				}
 				b_ariana = {
+					# Capris # actually modern-day Marisa
 				}
 				b_sousse = {
 					# Adrametum
@@ -60,6 +61,7 @@ e_africa = {
 					africanu = "Cartàggini"
 				}
 				b_zaghouan = {
+					# Ziqua
 				}
 				b_benarous = {
 					# Decimum, as in the Battle of Ad Decimu,
@@ -559,14 +561,18 @@ e_africa = {
 					# Dimmidi
 				}
 				b_msila = {
+					# Aras # actually Tarmount
 				}
 				b_sidiheg = {
+					# Zabi # actually Bechilga
 				}
 				b_roumana = {
+					# Tatilti # actually Taraess
 				}
 				b_ainzia = {
 				}
 				b_sidinhar = {
+					# Equizeto # possibly actually Ouled Agla
 				}
 				b_beneldir = {
 				}
@@ -617,76 +623,120 @@ e_africa = {
 				color={ 102 142 217 }
 				color2={ 255 255 255 }
 
+				# Atlas, just Atlas
+
 				holy_site = west_african_pagan
 				holy_site = west_african_pagan_reformed
 				holy_site = ibadi
 			
 				b_tiaret = {
+					# Tingartia
+
+					maghreb_arabic = Tahert
 				}
 				b_djelfa = {
+					# Fallaba # I think?
 				}
 				b_bordj = {
+					# Tamanouna # I think?
 				}
 				b_elyourh = {
+					# Columnata # actually Sidi Hosni/Waldeck-Rousseau
 				}
 				b_selmana = {
+					# Cellense # technically 'Castellum Cellense' # also actually Sidi Hosni/Waldeck-Rousseau
 				}
 				b_ainrich = {
+					# Breucorum # technically 'Cohors Breucorum' # actually Henchir Souik near Takhemaret/Tagremaret
+
+					africanu = Breucoru
 				}
 				b_ainzmila = {
 				}
 				b_hassibenmadjeb = {
+					# Garmulana # making shit up
 				}
 			}
 			c_lemdiyya = {
 				color={ 155 182 230 }
 				color2={ 255 255 255 }
+
+				# Medix
 			
 				b_medea = {
+					# Media
 				}
 				b_relizane = {
+					# Mina
 				}
 				b_aindefla = {
+					# Oppidum Novum
+
+					africanu = Obidonovu
 				}
 				b_elrhenb = {
+					# Gadaum # technically 'Gadaum Castra' # actually Djidioia/Saint-Aimé
 				}
 				b_aintorki = {
+					# Tigava # actually el Kherba/Ksar Soltane
 				}
 				b_blida = {
+					# Tingitanum # technically Castellum Tingitanum # actually El Asnam
+
+					africanu = Tingidanu
 				}
 				b_elhachem = {
+					# Ballene # technically Ballene Praesidium # actually L'Hillil
 				}
 				b_sidimohammed = {
+					# Vagal # actually possibly Sidi ten Thiour
 				}
 			}
 			c_al_djazair = {
 				color={ 44 89 173 }
 				color2={ 255 255 255 }
+
+				# Icosium
 			
 				b_algiers = {
+					# Icosium
+
+					africanu = Icosiu
 				}
 				b_tipasa = {
 				}
 				b_chiffa = {
+					# Caesarea # Caesarea Iol # actually Cherchell
+
+					africanu = Cesarea
 				}
 				b_sidiakacha = {
+					# Gunugu # actually Sidi-Brahim
 				}
 				b_rhedadoua = {
+					# Cartili # actually possibly Damous
 				}
 				b_elachour = {
+					# Cartenna # actually Ténès
 				}
 				b_elRdair = {
+					# Iar # Iar Castellum # actually Beni Haoua (Imilaen)
 				}
 				b_tirourda = {
+					# (Mons) Ferratus
 				}
 			}
 			c_mzab = {
 				color={ 62 126 247 }
 				color2={ 255 255 255 }
+
+				# Cinnaba
 			
 				b_mzab = {
+					# Cinnaba # actually a mountain range
 				}
 				b_noumerat = {
+					# Sufasar # actually Dolfussville
 				}
 				b_sebseb = {
 				}
@@ -704,41 +754,63 @@ e_africa = {
 			c_beni_yanni = {
 				color={ 123 155 193 }
 				color2={ 255 255 255 }
+
+				# Rusuccurum
 			
 				b_bourmedes = {
+					# Rusuccurum # also Rusuccuru # actually Dellys
+
+					africanu = Rusuccuru
 				}
 				b_tafoughalt = {
+					# Rusippisir # actually Taksebt
 				}
 				b_tigzirt = {
+					# Iomnium
 				}
 				b_bujima = {
+					# Rusguniae # actually Tamentfoust
 				}
 				b_azeffoun = {
+					# Ruzasus # also known as Rusazus, Rusasus
 				}
 				b_azazga = {
+					# Cissi # actually still known as Cissi. Huh.
 				}
 				b_taoudouch = {
+					# Tigisi # actually Tawerga
 				}
 				b_thiza = {
+					# Rusubbicari Matidiae # actually Zemmouri el Bahri/Mers el Hadjedje
 				}
 			}
 			c_tell_atlas = {
 				color={ 87 102 164 }
 				color2={ 255 255 255 }
+
+				# Usar # Usar, Sisar and Audus were all names for the same river that emptied near Saldae. I think it's the Oued Soummam now?
 			
 				b_tiziouzou = {
+					# Forsythia # actually not the Latin name for it at all! It's a flower.
 				}
 				b_zaoula = {
+					# Tubusuptus # actually Tiklat
+
+					africanu = Tubusuctu
 				}
 				b_akaoudj = {
+					# Ausum
 				}
 				b_mirabeau = {
+					# Bida # actually Djemaa Saharidj
 				}
 				b_nacina = {
 				}
 				b_draaelmizan = {
+					# Rapidum # actually Sour Djouab
 				}
 				b_tagoughalt = {
+					# Auzia # actually Sou El-Ghozlane
 				}
 				b_mechreck = {
 				}
@@ -804,16 +876,22 @@ e_africa = {
 			c_hanyan = {
 				color={ 141 131 71 }
 				color2={ 255 255 255 }
+
+				# Garaphi. I'm not sure if it's "Garaphi Mons" or "Garaphi Montes", but it's a thing.
 			
 				b_hanyan = {
+					# Lucu # actually Timziouine
 				}
 				b_naama = {
 				}
 				b_saida = {
+					# Tigit # actually Bénian
 				}
 				b_alkasdir = {
+					# Alamiliaria # 'Ala Miliaria', technically # actually also Bénian
 				}
 				b_alancha = {
+					# Aquae Sirenses # actually Hammam bou Hanifa
 				}
 				b_magoura = {
 				}

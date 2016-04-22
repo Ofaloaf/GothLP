@@ -898,8 +898,6 @@ e_britannia = {
 
 				old_saxon = "Oxnafordscir"
 				saxon = "Oxnafordscir"
-
-				brithenig = "Aelia"
 				
 				b_oxford = {
 					# Bovedunum # shit I made up, derived from 'Bovem', ox.

@@ -29,6 +29,7 @@ d_normandy_adj;Armorican;;;;;;;;;;;;;x
 d_tyrol;Teriolis;;;;;;;;;;;;;x
 d_tyrol_adj;Teriolian;;;;;;;;;;;;;x
 c_aargau_adj;Argovian;;;;;;;;;;;;;x
+c_al_djazair_adj;Icosian;;;;;;;;;;;;;x
 c_alania_adj;Maghasian;;;;;;;;;;;;;x
 c_aljazira_adj;Gazertoan;;;;;;;;;;;;;x
 c_albret_adj;Martian;;;;;;;;;;;;;x
@@ -56,6 +57,7 @@ c_barcelona_adj;Barcilunan;;;;;;;;;;;;;x
 c_bedford_adj;Verulamian;;;;;;;;;;;;;x
 c_bejaija_adj;Salditanan;;;;;;;;;;;;;x
 c_belgrade_adj;Singidunan;;;;;;;;;;;;;x
+c_beni_yanni_adj;Rusuccuran;;;;;;;;;;;;;x
 c_besancon_adj;Vesontian;;;;;;;;;;;;;x
 c_bihar_adj;Porolissensian;;;;;;;;;;;;;x
 c_birlad_adj;Petrodavan;;;;;;;;;;;;;x
@@ -108,6 +110,7 @@ c_gevaudan_adj;Gabalitannic;;;;;;;;;;;;;x
 c_gloucester_adj;Glouvian;;;;;;;;;;;;;x
 c_guines_adj;Ghisnaean;;;;;;;;;;;;;x
 c_hamburg_adj;Sturmarian;;;;;;;;;;;;;x
+c_hanyan_adj;Garaphi;;;;;;;;;;;;;x
 c_heves_adj;Tisian;;;;;;;;;;;;;x
 c_hum_adj;Arsian;;;;;;;;;;;;;x
 c_infa_adj;Salan;;;;;;;;;;;;;x
@@ -120,6 +123,7 @@ c_la_marche_adj;Marcan;;;;;;;;;;;;;x
 c_labourd_adj;Tarbelli;;;;;;;;;;;;;x
 c_lancaster_adj;Rhegedian;;;;;;;;;;;;;x
 c_leicester_adj;Lerian;;;;;;;;;;;;;x
+c_lemdiyya_adj;Median;;;;;;;;;;;;;x
 c_leon_adj;Legioan;;;;;;;;;;;;;x
 c_limousin_adj;Lemovician;;;;;;;;;;;;;x
 c_lincoln_adj;Lindian;;;;;;;;;;;;;x
@@ -142,6 +146,7 @@ c_middlesex_adj;Londinian;;;;;;;;;;;;;x
 c_modena_adj;Mutinan;;;;;;;;;;;;;x
 c_montpellier_adj;Cevennan;;;;;;;;;;;;;x
 c_mosul_adj;Ninevean;;;;;;;;;;;;;x
+c_mzab_adj;Cinnaban;;;;;;;;;;;;;x
 c_najera_adj;Tritian;;;;;;;;;;;;;x
 c_nantes_adj;Namnetian;;;;;;;;;;;;;x
 c_narbonne_adj;Narbonan;;;;;;;;;;;;;x
@@ -194,6 +199,7 @@ c_sussex_adj;Rheginian;;;;;;;;;;;;;x
 c_szekelyfold_adj;Marcodavan;;;;;;;;;;;;;x
 c_temes_adj;Argidavan;;;;;;;;;;;;;x
 c_tarragona_adj;Tarraconan;;;;;;;;;;;;;x
+c_tell_atlas_adj;Usarian;;;;;;;;;;;;;x
 c_thouars_adj;Toarcan;;;;;;;;;;;;;x
 c_tlemcen_adj;Altavan;;;;;;;;;;;;;x
 c_toledo_adj;Carpetanian;;;;;;;;;;;;;x
@@ -241,13 +247,18 @@ b_aigle;Alium;;;;;;;;;;;;;x
 b_aiguesmontes;Aquae Mortuae;;;;;;;;;;;;;x
 b_ainbenamar;Admercuri;;;;;;;;;;;;;x
 b_ainbenimathar;Numerus Syrorum;;;;;;;;;;;;;x
+b_aindefla;Oppidum Novum;;;;;;;;;;;;;x
+b_ainrich;Breucorum;;;;;;;;;;;;;x
+b_aintorki;Tigava;;;;;;;;;;;;;x
 b_aire;Atura;;;;;;;;;;;;;x
 b_aix;Aquae Sextiae;;;;;;;;;;;;;x
 b_ajaccio;Adiacium;;;;;;;;;;;;;x
+b_akaoudj;Ausum;;;;;;;;;;;;;x
 b_akermoud;Rutubis;;;;;;;;;;;;;x
 b_alacuas;Segobrida;;;;;;;;;;;;;x
 b_alagon;Belaisca;;;;;;;;;;;;;x
 b_alaior;Eulaliacum;;;;;;;;;;;;;x
+b_alancha;Aquae Sirensis;;;;;;;;;;;;;x
 b_alarcos;Oretana;;;;;;;;;;;;;x
 b_albadetormes;Sentice;;;;;;;;;;;;;x
 b_albalaromaine;Alba;;;;;;;;;;;;;x
@@ -276,11 +287,12 @@ b_alenquer;Arabriga;;;;;;;;;;;;;x
 b_alessandria;Alexandria;;;;;;;;;;;;;x
 b_alfonsine;Alphonsinae;;;;;;;;;;;;;x
 b_algaida;Castellitx;;;;;;;;;;;;;x
-b_algiers;Caesarea;;;;;;;;;;;;;x
+b_algiers;Icosium;;;;;;;;;;;;;x
 b_alhamadearagon;Bilbilitanorum;;;;;;;;;;;;;x
 b_alhoceima;Parietina;;;;;;;;;;;;;x
 b_alia;Tourmogon;;;;;;;;;;;;;x
 b_alicante;Lucentum;;;;;;;;;;;;;x
+b_alkasdir;Alamiliaria;;;;;;;;;;;;;x
 b_almadeo;Edeba;;;;;;;;;;;;;x
 b_almatin;Tusca;;;;;;;;;;;;;x
 b_almazan;Adnumantia;;;;;;;;;;;;;x
@@ -317,6 +329,7 @@ b_arandadeduero;Revendeca;;;;;;;;;;;;;x
 b_arcosdevaldevez;Aquae Leae;;;;;;;;;;;;;x
 b_arezzo;Arretium;;;;;;;;;;;;;x
 b_argentan;Argentomagus;;;;;;;;;;;;;x
+b_ariana;Capris;;;;;;;;;;;;;x
 b_arizgnano;Arzignanum;;;;;;;;;;;;;x
 b_arles;Arelate;;;;;;;;;;;;;x
 b_arlon;Orolaunum;;;;;;;;;;;;;x
@@ -355,6 +368,7 @@ b_avranches;Abrincas;;;;;;;;;;;;;x
 b_axminster;Moridunum;;;;;;;;;;;;;x
 b_ayerbe;Aierb;;;;;;;;;;;;;x
 b_aylesbury;Aquiladunum;;;;;;;;;;;;;x
+b_azazga;Cissi;;;;;;;;;;;;;x
 b_azeffoun;Ruzasus;;;;;;;;;;;;;x
 b_babtaza;Iagath;;;;;;;;;;;;;x
 b_badajoz;Emerita;;;;;;;;;;;;;x
@@ -429,6 +443,7 @@ b_bitburg;Beda;;;;;;;;;;;;;x
 b_bizerte;Zarytus;;;;;;;;;;;;;x
 b_blanquefort;Tegulae;;;;;;;;;;;;;x
 b_blaye;Blavia;;;;;;;;;;;;;x
+b_blida;Tingitanum;;;;;;;;;;;;;x
 b_blois;Blesae;;;;;;;;;;;;;x
 b_bobbio;Ebovium;;;;;;;;;;;;;x
 b_bocac;Sapua;;;;;;;;;;;;;x
@@ -439,6 +454,7 @@ b_bondeno;Bondenum;;;;;;;;;;;;;x
 b_bonifacio;Bonifacium;;;;;;;;;;;;;x
 b_bonn;Bonna;;;;;;;;;;;;;x
 b_bordeaux;Burdigala;;;;;;;;;;;;;x
+b_bordj;Tamanouna;;;;;;;;;;;;;x
 b_borja;Bursada;;;;;;;;;;;;;x
 b_boston;Segelocum;;;;;;;;;;;;;x
 b_boudaoud;Muslubium;;;;;;;;;;;;;x
@@ -449,6 +465,7 @@ b_bourbourg;Burgusinbroco;;;;;;;;;;;;;x
 b_bourg;Burgus;;;;;;;;;;;;;x
 b_bourganeuf;Burginova;;;;;;;;;;;;;x
 b_bourges;Biturigum;;;;;;;;;;;;;x
+b_bourmedes;Rusuccurum;;;;;;;;;;;;;x
 b_boussac;Bociacus;;;;;;;;;;;;;x
 b_bouvines;Bovinas;;;;;;;;;;;;;x
 b_bouzonville;Bosonisvilla;;;;;;;;;;;;;x
@@ -480,6 +497,7 @@ b_brussel;Brosella;;;;;;;;;;;;;x
 b_bruneck;Branecium;;;;;;;;;;;;;x
 b_buckenham;Branocastra;;;;;;;;;;;;;x
 b_buckfast;Buffestra;;;;;;;;;;;;;x
+b_bujima;Rusguniae;;;;;;;;;;;;;x
 b_burgh;Aballava;;;;;;;;;;;;;x
 b_burgos;Burgus;;;;;;;;;;;;;x
 b_burriana;Burgus-Anna;;;;;;;;;;;;;x
@@ -600,6 +618,7 @@ b_chiavenna;Clavenna;;;;;;;;;;;;;x
 b_chichester;Noviomagus;;;;;;;;;;;;;x
 b_chieti;Teate;;;;;;;;;;;;;x
 b_chievres;Cervia;;;;;;;;;;;;;x
+b_chiffa;Caesarea;;;;;;;;;;;;;x
 b_chinon;Chinonium;;;;;;;;;;;;;x
 b_chioggia;Clodia;;;;;;;;;;;;;x
 b_chiva;Turia;;;;;;;;;;;;;x
@@ -684,6 +703,7 @@ b_dijon;Divio;;;;;;;;;;;;;x
 b_diksmuide;Dicasmutha;;;;;;;;;;;;;x
 b_dinan;Dinnanum;;;;;;;;;;;;;x
 b_disentis;Desertina;;;;;;;;;;;;;x
+b_djelfa;Fallaba;;;;;;;;;;;;;x
 b_doaumont;Mosomagus;;;;;;;;;;;;;x
 b_dol;Dola;;;;;;;;;;;;;x
 b_dolianova;Dolia;;;;;;;;;;;;;x
@@ -695,6 +715,7 @@ b_doornik;Tornacum;;;;;;;;;;;;;x
 b_dorchester;Durnovaria;;;;;;;;;;;;;x
 b_dougga;Thugga;;;;;;;;;;;;;x
 b_dover;Dubris;;;;;;;;;;;;;x
+b_draaelmizan;Rapidum;;;;;;;;;;;;;x
 b_dreux;Durocassis;;;;;;;;;;;;;x
 b_dreznik;Adpraetorium;;;;;;;;;;;;;x
 b_drincourt;Drugocurtis;;;;;;;;;;;;;x
@@ -711,14 +732,19 @@ b_eibar;Heybar;;;;;;;;;;;;;x
 b_eisenach;Ysenacum;;;;;;;;;;;;;x
 b_eivissa;Ebusus;;;;;;;;;;;;;x
 b_ejea;Segia;;;;;;;;;;;;;x
+b_elachour;Cartenna;;;;;;;;;;;;;x
 b_elbekara;Choba;;;;;;;;;;;;;x
 b_elche;Illice;;;;;;;;;;;;;x
 b_eldjabia;Chullu;;;;;;;;;;;;;x
+b_elhachem;Ballene;;;;;;;;;;;;;x
 b_elkrib;Lares;;;;;;;;;;;;;x
 b_elmham;Ulmo;;;;;;;;;;;;;x
 b_elna;Illiberis;;;;;;;;;;;;;x
+b_elRdair;Iar;;;;;;;;;;;;;x
+b_elrhenb;Gadaum;;;;;;;;;;;;;x
 b_elvira;Ilturir;;;;;;;;;;;;;x
 b_ely;Elia;;;;;;;;;;;;;x
+b_elyourh;Columnata;;;;;;;;;;;;;x
 b_embrun;Eburodunum;;;;;;;;;;;;;x
 b_empuries;Emporiae;;;;;;;;;;;;;x
 b_ensisheim;Enghisehaim;;;;;;;;;;;;;x
@@ -836,10 +862,12 @@ b_haffouz;Aqua Regiae;;;;;;;;;;;;;x
 b_hagenau;Cruciniacum;;;;;;;;;;;;;x
 b_halton;Salinae;;;;;;;;;;;;;x
 b_hammamet;Pupput;;;;;;;;;;;;;x
+b_hanyan;Lucu;;;;;;;;;;;;;x
 b_harcourt;Herolcurtis;;;;;;;;;;;;;x
 b_harfleur;Caracotinum;;;;;;;;;;;;;x
 b_haro;Bibilium;;;;;;;;;;;;;x
 b_hartlepool;Longovicium;;;;;;;;;;;;;x
+b_hassibenmadjeb;Garmulana;;;;;;;;;;;;;x
 b_hastings;Mutuatonis;;;;;;;;;;;;;x
 b_hautpoul;Altopullo;;;;;;;;;;;;;x
 b_heinsberg;Teudurum;;;;;;;;;;;;;x
@@ -1067,6 +1095,7 @@ b_mayenne;Meduana;;;;;;;;;;;;;x
 b_mazara;Mazaria;;;;;;;;;;;;;x
 b_meaux;Meldis;;;;;;;;;;;;;x
 b_mechelen;Maslinas;;;;;;;;;;;;;x
+b_medea;Media;;;;;;;;;;;;;x
 b_medellin;Metellinum;;;;;;;;;;;;;x
 b_medinacelli;Ocelis;;;;;;;;;;;;;x
 b_medinadearagon;Castelacus;;;;;;;;;;;;;x
@@ -1093,6 +1122,7 @@ b_meung;Magdunum;;;;;;;;;;;;;x
 b_mila;Milevum;;;;;;;;;;;;;x
 b_milano;Mediolanum;;;;;;;;;;;;;x
 b_millau;Millavensis;;;;;;;;;;;;;x
+b_mirabeau;Bida;;;;;;;;;;;;;x
 b_mirandadeebro;Miranda;;;;;;;;;;;;;x
 b_mirande;Miranda;;;;;;;;;;;;;x
 b_mirandola;Mirandula;;;;;;;;;;;;;x
@@ -1180,6 +1210,8 @@ b_muravera;Sarcapos;;;;;;;;;;;;;x
 b_murbach;Maurobaccus;;;;;;;;;;;;;x
 b_muret;Vernosolum;;;;;;;;;;;;;x
 b_msaken;Horrea Caelia;;;;;;;;;;;;;x
+b_msila;Aras;;;;;;;;;;;;;x
+b_mzab;Cinnaba;;;;;;;;;;;;;x
 b_najac;Tribonum;;;;;;;;;;;;;x
 b_najera;Tritium;;;;;;;;;;;;;x
 b_namur;Namurcum;;;;;;;;;;;;;x
@@ -1211,6 +1243,7 @@ b_northwich;Condate;;;;;;;;;;;;;x
 b_norwich;Went;;;;;;;;;;;;;x
 b_noto;Netum;;;;;;;;;;;;;x
 b_nottingham;Tyogofog;;;;;;;;;;;;;x
+b_noumerat;Sufasar;;;;;;;;;;;;;x
 b_novara;Novaria;;;;;;;;;;;;;x
 b_novellara;Nubilaria;;;;;;;;;;;;;x
 b_novigrad;Burnum;;;;;;;;;;;;;x
@@ -1340,9 +1373,11 @@ b_regensburg;Reginum;;;;;;;;;;;;;x
 b_reggionellemila;Regium;;;;;;;;;;;;;x
 b_reims;Rementium;;;;;;;;;;;;;x
 b_reinosa;Renosa;;;;;;;;;;;;;x
+b_relizane;Mina;;;;;;;;;;;;;x
 b_rennes;Redonum;;;;;;;;;;;;;x
 b_rethel;Reistete;;;;;;;;;;;;;x
 b_reus;Reddis;;;;;;;;;;;;;x
+b_rhedadoua;Cartili;;;;;;;;;;;;;x
 b_rheineck;Rinegge;;;;;;;;;;;;;x
 b_rialto;Rivoaltus;;;;;;;;;;;;;x
 b_richmond;Petuaria;;;;;;;;;;;;;x
@@ -1363,6 +1398,7 @@ b_roscoff;Roscovia;;;;;;;;;;;;;x
 b_roselle;Rusellae Novae;;;;;;;;;;;;;x
 b_rosnay;Rodenaium;;;;;;;;;;;;;x
 b_roucy;Rusci;;;;;;;;;;;;;x
+b_roumana;Tatilti;;;;;;;;;;;;;x
 b_rovereto;Roboretum;;;;;;;;;;;;;x
 b_rovigo;Rodigium;;;;;;;;;;;;;x
 b_royan;Roianum;;;;;;;;;;;;;x
@@ -1373,6 +1409,7 @@ b_sable;Sabloilum;;;;;;;;;;;;;x
 b_sabugal;Callabriga;;;;;;;;;;;;;x
 b_saffenburg;Sentiacum;;;;;;;;;;;;;x
 b_safi;Carcunticus;;;;;;;;;;;;;x
+b_saida;Tigit;;;;;;;;;;;;;x
 b_saintavoid;Hilariacum;;;;;;;;;;;;;x
 b_saintdizier;Desideriacum;;;;;;;;;;;;;x
 b_saintes;Santonum;;;;;;;;;;;;;x
@@ -1433,6 +1470,7 @@ b_schlettstadt;Scletistata;;;;;;;;;;;;;x
 b_schwyz;Suittes;;;;;;;;;;;;;x
 b_sees;Sagiensis;;;;;;;;;;;;;x
 b_segovia;Segobriga;;;;;;;;;;;;;x
+b_selmana;Cellense;;;;;;;;;;;;;x
 b_selz;Saletio;;;;;;;;;;;;;x
 b_semur;Sinemurum;;;;;;;;;;;;;x
 b_semurebrionnais;Senemurum;;;;;;;;;;;;;x
@@ -1453,9 +1491,13 @@ b_shellal;Telelis;;;;;;;;;;;;;x
 b_sherborne;Sincerflumina;;;;;;;;;;;;;x
 b_shergotenbosch;Silvaducis;;;;;;;;;;;;;x
 b_sibenik;Sebenicum;;;;;;;;;;;;;x
+b_sidiakacha;Gunugu;;;;;;;;;;;;;x
 b_sidibelabbes;Altava;;;;;;;;;;;;;x
 b_sidibouzid;Sufetula;;;;;;;;;;;;;x
+b_sidihar;Equizeto;;;;;;;;;;;;;x
+b_sidiheg;Zabi;;;;;;;;;;;;;x
 b_sidimansour;Marazanae;;;;;;;;;;;;;x
+b_sidimohammed;Vagal;;;;;;;;;;;;;x
 b_sidimubarak;Admedera;;;;;;;;;;;;;x
 b_siena;Saena Julia;;;;;;;;;;;;;x
 b_sieradz;Syradia;;;;;;;;;;;;;x
@@ -1539,11 +1581,14 @@ b_syracusa;Syracusae;;;;;;;;;;;;;x
 b_szekezfehervar;Gorsium;;;;;;;;;;;;;x
 b_szeged;Partiscum;;;;;;;;;;;;;x
 b_szombathely;Savaria;;;;;;;;;;;;;x
+b_tafoughalt;Rusippisir;;;;;;;;;;;;;x
+b_tagoughalt;Auzia;;;;;;;;;;;;;x
 b_taillebourg;Talliaco;;;;;;;;;;;;;x
 b_talavera;Aebura;;;;;;;;;;;;;x
 b_talayuela;Martinacum;;;;;;;;;;;;;x
 b_tamworth;Tamus;;;;;;;;;;;;;x
 b_tangiers;Tingis;;;;;;;;;;;;;x
+b_taoudouch;Tigisi;;;;;;;;;;;;;x
 b_taormina;Tauromenium;;;;;;;;;;;;;x
 b_tarazona;Turiaso;;;;;;;;;;;;;x
 b_tarbes;Turba;;;;;;;;;;;;;x
@@ -1569,13 +1614,17 @@ b_thetford;Villafaustini;;;;;;;;;;;;;x
 b_thiers;Thiermum;;;;;;;;;;;;;x
 b_thionville;Theodonisvilla;;;;;;;;;;;;;x
 b_thiviers;Trivio;;;;;;;;;;;;;x
+b_thiza;Rusubbicari;;;;;;;;;;;;;x
 b_thouars;Toarcis;;;;;;;;;;;;;x
 b_thusis;Tosana;;;;;;;;;;;;;x
+b_tiaret;Tingartia;;;;;;;;;;;;;x
 b_tiflet;Frigidae;;;;;;;;;;;;;x
 b_tigzirt;Iomnium;;;;;;;;;;;;;x
 b_tilburg;Tilliburgis;;;;;;;;;;;;;x
+b_tirourda;Ferratus;;;;;;;;;;;;;x
 b_tittmoning;Titamanninga;;;;;;;;;;;;;x
 b_tivoli;Tibur;;;;;;;;;;;;;x
+b_tiziouzou;Forsythia;;;;;;;;;;;;;x
 b_tlemcen;Pomaria;;;;;;;;;;;;;x
 b_todi;Tuder;;;;;;;;;;;;;x
 b_toledo;Toletum;;;;;;;;;;;;;x
@@ -1710,8 +1759,10 @@ b_yecla;Ico;;;;;;;;;;;;;x
 b_york;Ebrauc;;;;;;;;;;;;;x
 b_zadar;Jadera;;;;;;;;;;;;;x
 b_zafra;Perceiana;;;;;;;;;;;;;x
+b_zaghouan;Ziqua;;;;;;;;;;;;;x
 b_zagreb;Andautonia;;;;;;;;;;;;;x
 b_zamora;Ocellodurum;;;;;;;;;;;;;x
+b_zaoula;Tubusuptus;;;;;;;;;;;;;x
 b_zaragoza;Caesaraugusta;;;;;;;;;;;;;x
 b_zemun;Mallevila;;;;;;;;;;;;;x
 b_zrin;Varianis;;;;;;;;;;;;;x
@@ -2011,13 +2062,18 @@ PROV819;Zarytus;;;;;;;;;;;;;x
 PROV820;Hippone;;;;;;;;;;;;;x
 PROV822;Saldae;;;;;;;;;;;;;x
 PROV823;Vescera;;;;;;;;;;;;;x
+PROV824;Usar;;;;;;;;;;;;;x
 PROV825;Rusuccurum;;;;;;;;;;;;;x
 PROV826;Minorica;;;;;;;;;;;;;x
 PROV827;Maiorica;;;;;;;;;;;;;x
 PROV828;Dimmidi;;;;;;;;;;;;;x
-PROV831;Caesarea;;;;;;;;;;;;;x
+PROV829;Cinnaba;;;;;;;;;;;;;x
+PROV830;Medix;;;;;;;;;;;;;x
+PROV831;Icosium;;;;;;;;;;;;;x
 PROV832;Unica;;;;;;;;;;;;;x
+PROV833;Atlas;;;;;;;;;;;;;x
 PROV834;Altava;;;;;;;;;;;;;x
+PROV835;Garaphi;;;;;;;;;;;;;x
 PROV836;Malva;;;;;;;;;;;;;x
 PROV837;Mulucha;;;;;;;;;;;;;x
 PROV838;Rusadir;;;;;;;;;;;;;x
@@ -2028,16 +2084,36 @@ PROV842;Sala;;;;;;;;;;;;;x
 PROV843;Mons Diur;;;;;;;;;;;;;x
 PROV844;Rutubis;;;;;;;;;;;;;x
 PROV930;Caturiges;;;;;;;;;;;;;x
+PROV938;Libycum Mare;;;;;;;;;;;;;x
 PROV954;Fretum Herculeum;;;;;;;;;;;;;x
 PROV965;Fretum Gallicum;;;;;;;;;;;;;x
 PROV968;Oceanus Virginius;;;;;;;;;;;;;x
 PROV970;Mare Tenebrosum;;;;;;;;;;;;;x
 PROV974;Oceanus Cantabricus;;;;;;;;;;;;;x
+PROV976;Fortunatae Insulae;;;;;;;;;;;;;x
+PROV980;Litus Lusitanius;;;;;;;;;;;;;x
+PROV981;Sinus Gaditanus;;;;;;;;;;;;;x
 PROV996;Metaris;;;;;;;;;;;;;x
+PROV1011;Litus Mauritanius;;;;;;;;;;;;;x
 PROV1014;Oceanus Callaicus;;;;;;;;;;;;;x
 PROV1015;Oceanus Aquitanicus;;;;;;;;;;;;;x
 PROV1019;Oceanus Hibernicus;;;;;;;;;;;;;x
 PROV1020;Massienus Sinus;;;;;;;;;;;;;x
 PROV1021;Sucronensis Sinus;;;;;;;;;;;;;x
+PROV1022;Mare Balearicum;;;;;;;;;;;;;x
+PROV1023;Numidius Sinus;;;;;;;;;;;;;x
+PROV1024;Mare Internum;;;;;;;;;;;;;x
 PROV1025;Sinus Leonis;;;;;;;;;;;;;x
 PROV1027;Stoechades;;;;;;;;;;;;;x
+PROV1028;Ligusticus Sinus;;;;;;;;;;;;;x
+PROV1029;Tyrrhenum Mare;;;;;;;;;;;;;x
+PROV1030;Litus Sardinius;;;;;;;;;;;;;x
+PROV1031;Cumanus Sinus;;;;;;;;;;;;;x
+PROV1032;Siculum Fretum;;;;;;;;;;;;;x
+PROV1033;Syrtis Minor;;;;;;;;;;;;;x
+PROV1034;Africum Pelagus;;;;;;;;;;;;;x
+PROV1035;Syrtis Maior;;;;;;;;;;;;;x
+PROV1036;Tarentinus Sinus;;;;;;;;;;;;;x
+PROV1038;Fretum Hydruntum;;;;;;;;;;;;;x
+PROV1109;Hadriaticum Mare;;;;;;;;;;;;;x
+PROV1110;Sinus Venetus;;;;;;;;;;;;;x

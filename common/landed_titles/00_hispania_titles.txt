@@ -1281,6 +1281,8 @@ e_hispania = {
 			c_la_mancha = {
 				color = { 250 220 20 }
 				color2={ 255 255 255 }
+
+				# Turiaso
 				
 				b_alarcon = {
 				}

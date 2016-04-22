@@ -595,6 +595,8 @@ e_italy = {
 				italian = "Trento"
 				italogothic = Trent
 				gothicromance = Trent
+				afrianu = Trentu
+				dalmatian = "Trénto"
 				
 				b_trento = {
 					# Tridentum
@@ -603,6 +605,8 @@ e_italy = {
 					italian = "Trento"
 					italogothic = Trent
 					gothicromance = Trent
+					afrianu = Trentu
+					dalmatian = "Trénto"
 				}
 				b_brixen = {
 					# Brixino
