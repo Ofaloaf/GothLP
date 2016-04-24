@@ -422,6 +422,10 @@ e_britannia = {
 					# Canonium
 				}
 				b_dunmow = {
+					# Mandubradunum # made up, riffing off Mandubracius of the Trinovantes
+
+					brithenig = "Din Mandrogeus" # Geoffrey of Monmouth called him 'Androgeus'
+					welsh = "Dun Mondrag" # trying to morph it towards something like Dunmow
 				}
 				b_colchester = {
 					# Camulodunum
@@ -433,10 +437,19 @@ e_britannia = {
 					# Caesaromagus
 				}
 				b_barking = {
+					# Trinovantum # Geoffrey of Monmouth claimed this was the original name of London
 				}
 				b_pleshey = {
+					# Addedodunum # made up, riffing off Addedomaros of the Trinovantes
+
+					welsh = Dinaedd
+					brithenig = Dineddo
 				}
 				b_hedingham = {
+					# Dubnovellaunum # made up, riffing off Dubnovellaunus of the Trinovantes
+
+					welsh = "Caer Dyfnwal"
+					brithenig = "Cair Dubnogwel"
 				}
 			}
 		}
@@ -492,14 +505,32 @@ e_britannia = {
 					welsh = "Caer Mincip"
 				}
 				b_berkhamsted = {
+					# Albanodunum # made up, riffing off St. Alban(us)
 				}
 				b_luton = {
+					# Cunobelindunum # made up, riffing off Cunobeline/Cunobelinus
+
+					welsh = Dincynfelyn
+					brithenig = Dinkymbelin
 				}
 				b_dunstable = {
+					# Tasciovanacum # made up, riffing off Tasciovanus
+
+					brithenig = Teneufana
+
+					gothicromance = Tascovanac
 				}
 				b_watford = {
+					# Caratacum # made up, riffing off Caratacus
+
+					welsh = "Din Caradog"
+					brithenig = "Dincaratawc"
 				}
 				b_ashridge = {
+					# Catuvellaunum # made up, riffing off the Catuvellauni tribe
+
+					welsh = "Caer Cadwgwll"
+					brithenig = "Cair Cadugwell"
 				}
 			}
 			c_middlesex = {
@@ -548,15 +579,23 @@ e_britannia = {
 					roman = "Sulloniacae"
 				}
 				b_tottenham = {
+					# Decumana - Via Decumana was a Roman road in old Londinium
 				}
 				b_fulham = {
+					# "Ad Principales" - Via Principalis was a Roman road in old Londinium
+
+					brithenig = Prinsipali
 				}
 				b_staines = {
 					# Pontes
 				}
 				b_harrow = {
+					# Theodosiacum 
+					# Gn. Ovidius Theodosius was the first Romano-British leader in the TWA section of gothlp
 				}
 				b_chelsea = {
+					# Salutiadunum
+					# C. Volusius Salutius was the last Romano-British leader in the TWA section of gothlp
 				}
 			}
 			c_northampton = {
@@ -896,6 +935,10 @@ e_britannia = {
 
 				# Ælia, 'Ælia Castra', Alchester Roman Town in Oxfordshire, near Wendlebury
 
+				brithenig = Elia
+
+				gothicromance = Alha
+
 				old_saxon = "Oxnafordscir"
 				saxon = "Oxnafordscir"
 				
@@ -1164,7 +1207,7 @@ e_britannia = {
 
 				# Deva
 
-				brithenig = "Cair Legion"
+				brithenig = Dui
 				welsh = "Deverdoeu"
 
 				old_saxon = "Legacæstirscire"
@@ -1173,7 +1216,7 @@ e_britannia = {
 				b_chester = {
 					# Deva
 
-					brithenig = "Cairlegion"
+					brithenig = Dui
 					welsh = "Deverdoeu"
 
 					old_saxon = "Legacæstir"
@@ -1900,9 +1943,14 @@ e_britannia = {
 				
 			capital = 66 # Shrewsbury
 
+			brithenig = "Ill Paes"
+			welsh = Powys
+
 			c_powys = {
 				color={ 175 90 20 }
 				color2={ 255 255 255 }
+
+				brithenig = "Ill Paes"
 				
 				b_caersws = {
 				}
@@ -2138,7 +2186,7 @@ e_britannia = {
 			
 			capital = 31 # Cornwall
 
-			brithenig = Dunonea
+			brithenig = "Dûnein"
 			
 			c_cornwall = {
 				color={ 150 40 15 }
@@ -2228,6 +2276,10 @@ e_britannia = {
 			c_devon = {
 				color={ 135 35 25 }
 				color2={ 255 255 255 }
+
+				# Dumnonia
+
+				brithenig = "Dûnein"
 				
 				b_lydford = {
 					# Heracleus
@@ -2241,7 +2293,7 @@ e_britannia = {
 					# Isca
 
 					welsh = "Caerwysg"
-					brithenig = "Cairguisca"
+					brithenig = Esca
 
 					gothic = Isca
 					gothicromance = Isca
@@ -2253,6 +2305,7 @@ e_britannia = {
 					gothicromance = Cridya
 				}
 				b_totnes = {
+					# Nemetostatio # actually North Tawton
 				}
 				b_axminster = {
 					# Moridunum
@@ -2297,6 +2350,7 @@ e_britannia = {
 					norse = Werham
 				}
 				b_corfe = {
+					# Vindocladia # actually Badbury (Hundred?), Dorset
 				}
 				b_shaftesbury = {
 					# Palladour
@@ -2325,6 +2379,9 @@ e_britannia = {
 					norse = Scirburne
 				}
 				b_lyme = {
+					# Dunum # actually Hod Hill in Blackmore Vale, Dorset
+
+					brithenig = Dun
 				}
 				b_weymouth = {
 					# Vimutium
