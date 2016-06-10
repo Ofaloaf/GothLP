@@ -756,6 +756,7 @@ e_russia = {
 		baltic_pagan_reformed = 100 # Crusade target weight
 		
 		norse = Garðariki
+		mordvin = Mordovia
 		
 		culture = russian
 		

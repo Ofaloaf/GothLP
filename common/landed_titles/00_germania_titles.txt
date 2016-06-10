@@ -1687,6 +1687,21 @@ e_germany = {
 				rimlyani = "Babenpurk"
 			
 				b_ansbach = {
+					# Onoldum
+
+					old_frankish = Onoltesbach
+					gothic = Onoltesbach
+					suebi = Onoltesbach
+					burgundian = Onoltesbach
+					german = Ansbach
+
+					gothicromance = Anaulda
+					italogothic = Anaulda
+
+					carantanian = Onoltepotok
+					pommeranian = Onoltepotok
+					traki = Onoltepotok
+					rimlyani = Onoltepotok					
 				}
 				b_bamberg = {
 					old_saxon = "Babenberch"
@@ -1700,14 +1715,26 @@ e_germany = {
 				b_babenberg = {
 				}
 				b_cadolzburg = {
+					carantanian = Kadoltspurk
+					pommeranian = Kadoltspurk
+					traki = Kadoltspurk
+					rimlyani = Kadoltspurk
 				}
 				b_colmberg = {
+					carantanian = Kolbenpurk
+					pommeranian = Kolbenpurk
+					traki = Kolbenpurk
+					rimlyani = Kolbenpurk
 				}
 				b_roth = {
 				}
 				b_uffenheim = {
 				}
 				b_crailsheim = {
+					carantanian = Krawelsgow
+					pommeranian = Krawelsgowa
+					traki = Krawelsgow
+					rimlyani = Krawelsgow
 				}
 			}
 		}
@@ -2391,6 +2418,11 @@ e_germany = {
 				}
 				b_zumarshausen = { # ZuSmarshausen
 					suebi = Zomerhouse
+
+					carantanian = Tsusmadomy
+					pommeranian = Tsusmadomy
+					traki = Tsusmadomy
+					rimlyani = Tsusmadomy
 				}
 				b_kaufbeuren = {
 					boarisch = "Kaufbeiren"
@@ -2398,6 +2430,11 @@ e_germany = {
 				}
 				b_donauworth = {
 					boarisch = Doanaweat
+
+					carantanian = Dunajwyspa
+					pommeranian = Dunajwyspa
+					traki = Dunajwyspa
+					rimlyani = Dunajwyspa
 				}
 				b_friedberg = {
 					boarisch = Fribe

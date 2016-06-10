@@ -397,16 +397,25 @@ e_carpathia = {
 				carantanian = "Bila"
 				
 				b_sarbogard = {
+					# Annamatia # actually Baracs, Hungary
 				}
 				b_adony = {
+					# Vetus Salina
 				}
 				b_mor = {
+					# Intercisa # actually Dunaujvros, Hungary
 				}
 				b_val = {
+					# Lussonium # actually Paks–Dunakömlod, Hungary
 				}
 				b_szekszard = {
+					# Alisca # possible location for it, at least
+
+					traki = Seksar
+					rimlyani = Seksar
 				}
 				b_dombovar = {
+					# Tricciana # actually Sagvar, Hungary
 				}
 				b_tamasi = {
 				}
@@ -761,18 +770,25 @@ e_carpathia = {
 					# Aquincum
 				}
 				b_vac = {
+					# Transaquincum
 				}
 				b_kecskemet = {
+					# Cirpi # actually Dunabogdany - Varad, Hungary
 				}
 				b_kiskunhalas = {
+					# Vindonianus (Vicus) # actually Budapest-Békasmegyer
 				}
 				b_szentendre = {
+					# Ulcisia (Castra)
 				}
 				b_cegled = {
+					# Quadriburgium # actually Visegrad
 				}
 				b_abrahamtelke = {
+					# Abrahamagellus # direct Latinization
 				}
 				b_kiskoros = {
+					# (Ponte) Navata # actually also Visegrad?
 				}
 			}
 			c_csanad = {
@@ -784,6 +800,7 @@ e_carpathia = {
 				greek = "Partiskon"
 				
 				b_csanad = {
+					# Morisena
 				}
 				b_szeged = {
 					# Partiscum
@@ -791,14 +808,22 @@ e_carpathia = {
 					greek = "Partiskon"
 				}
 				b_mako = {
+					# Marisus # actually the name of the Mures/Maros River in Latin
+
+					romanian = Mures
 				}
 				b_battonya = {
+					# Batania # the Romanian name for the city
 				}
 				b_csongrad = {
 				}
 				b_mindszent = {
+					romanian = Mindsenta
 				}
 				b_szentes = {
+					# Sanctamaria (St. Mary) # I /think/ Szentes is a corruption of that? not sure. Romanian name for the town can be both 'Santamaria' and 'Zenta', and I could see how the latter could be drawn from the former.
+
+					romanian = Santamaria
 				}
 				b_hodmezovasarhely = {
 				}
@@ -817,20 +842,28 @@ e_carpathia = {
 				# Marcodava
 				
 				b_csik = {
+					# Marcodava # actually Targu Mures/Marosvasarhely, see below.
 				}
 				b_aranyos = {
+					# Aureus
 				}
 				b_haromszek = {
+					# Sandava # actually (probably) Ghindari, Romania
 				}
 				b_maros = {
+					# Aeropolis # actually Targu Mures/Marosvasarhely, see below.
 				}
 				b_kezdi = {
+					# Castrum Sex # actually Sighisoara
 				}
 				b_szekelyudvarhely = {
+					# Stenarum # actually Platoul Podmoale, Sighisoara
 				}
 				b_sepsiszentgyorgy = {
+					# Georgiopolis
 				}
 				b_marosvasarhely = {
+					# Agropolis
 				}
 			}
 			c_bihar = {
@@ -840,20 +873,30 @@ e_carpathia = {
 				# Porolissensis
 				
 				b_bihar = {
+					# Byhoria # attested as Byhoriensis
+
+					romanian = Biharia
 				}
 				b_nagyvarad = {
+					# Varadinum
 				}
 				b_debrecen = {
+					# Porolissum # actually Moigrad, Romania
 				}
 				b_biharkeresztes = {
+					# Fanscal # I... think? this is an older name for the town. Google Translate doesn't do Hungarian->English that well yet
 				}
 				b_nagybajom = {
+					# Boyon
 				}
 				b_szalard = {
+					# Dakidava # actually possibly Simleu Silvaniei, Romania
 				}
 				b_zolonta = {
+					romanian = Salonta
 				}
 				b_elesd = {
+					# Certiae # actually Romita, Romania
 				}
 			}
 			c_feher = {
@@ -863,21 +906,33 @@ e_carpathia = {
 				# Apulensis
 				
 				b_feher = {
+					# Zidava # actually Drambar, Romania
 				}
 				b_arad = {
+					# Aradinum
 				}
 				b_gyulafehervar = {
-					romanian = "Balgrad"
+					# Apulum
+
+					romanian = "Alba Iulia"
+
+					traki = Balgrad
+					rimlyani = Albagrada
 				}
 				b_elek = {
+					# Blandiana (???)
 				}
 				b_abrudbanya = {
+					# Obruth
 				}
 				b_nagyenyed = {
+					# Brucla
 				}
 				b_vizakna = {
+					# Alburnus (Maior) # actually Rosia Montana
 				}
 				b_tovis = {
+					# Spinarum # first attestation of the town, from 1290.
 				}
 			}
 		}
@@ -897,20 +952,28 @@ e_carpathia = {
 				# Argidava
 				
 				b_temesvar = {
+					# Argidava # https://en.wikipedia.org/wiki/Argidava
 				}
 				b_lugos = {
+					# Amutria (possibly Ad Mutrium) # speculated to be Botosesti-Paia, Romania
 				}
 				b_csak = {
+					# Dorticum # actually Vrav, Serbia
 				}
 				b_buzias = {
+					# Margum # actually a spot on the Romanian side of the Danube, opposite Kovin
 				}
 				b_versecz = {
+					# Saldensium # making up some stuff, derived from the nearby Saldensii Dacians.
 				}
 				b_detta = {
+					# Aquae # not sure where this one actually is
 				}
 				b_kevevara = {
+					# Contramargum # also known as Kovin in Serbian
 				}
 				b_karansebes = {
+					# Drubetis # saw this attested on one old map but not dare.ht.lu.se, go figure
 				}
 			}
 			c_bacs = {
@@ -920,20 +983,28 @@ e_carpathia = {
 				# Acumincum
 				
 				b_bacs = {
+					# Acumincum # actually Stari Slankamen, Serbia
 				}
 				b_apatin = {
+					# Onagrinum # actually Begec, Serbia
 				}
 				b_szintarev = {
+					# Malata # actually Banostor, Serbia
 				}
 				b_baja = {
+					# Cusum # actually Petrovaradin, Serbia
 				}
 				b_zombor = {
+					# Cuccium # actually Ilok, Croatia
 				}
 				b_bacsalmas = {
+					# Alma # 'Alma Mons' was the name of a small mountain (range?) in Roman Vojvodina
 				}
 				b_pancsova = {
+					# Rittium # actually Surduk, Serbia
 				}
 				b_pardany = {
+					# Budalia # actually Martinci, Serbia
 				}
 			}
 		}
