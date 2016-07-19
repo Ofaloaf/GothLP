@@ -1016,16 +1016,24 @@ e_russia = {
 			capital = 413 # Pskov
 			
 			german = "Pleskau"
+			dutch = Pleskau
 
 			c_pskov = {
 				color={ 151 167 107 }
 				color2={ 255 255 255 }
 				
+				norse = Pleskow
 				german = "Pleskau"
+				dutch = Pleskau
 						
 				b_ostrov = {
+					german = Ostrow
+					dutch = Ostrow
 				}
 				b_pskov = {
+					norse = Pleskow
+					german = "Pleskau"
+					dutch = Pleskau
 				}
 				b_pechory = {
 				}

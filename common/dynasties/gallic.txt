@@ -627,3 +627,13 @@
 	name = "de Portu-Mortuo"
 	culture = gallic
 }
+
+1940128 = {
+	name = "Blussis"
+	culture = gallic
+}
+
+1940129 = {
+	name = "Indis"
+	culture = gallic
+}

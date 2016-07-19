@@ -493,12 +493,18 @@ e_gallia = {
 				color2={ 255 255 255 }
 
 				# Quadrigellanus
+
+				gothicromance = Cadrilenés
+				italogothic = Cardrienés
 				
 				b_montstvincent = {
 					# Vincentiacum
 				}
 				b_charolles = {
 					# Quadrigellae
+
+					gothicromance = Cadrela
+					italogothic = Cadrela
 				}
 				b_paray = {
 					# Parodium # guessing
@@ -940,6 +946,13 @@ e_gallia = {
 				}
 				b_grandpre = {
 					# Ibliodurum # actually Vionville
+
+					gothic = "Wydonis Villa" # Vydonis Villa, attested 1156
+					suebi = "Wydonis Villa"
+					burgundian = "Wydonis Villa"
+					old_frankish = "Vydonis Villa"
+
+					gothicromance = "Vydunvilla"
 				}
 				b_barlecomte = {
 					# Vungovicus # actually Voncq
@@ -959,11 +972,26 @@ e_gallia = {
 				}
 				b_doaumont = {
 					# Mosomagus # actually Mouzon
+
+					suebi = Mosa
+					burgundian = Mosa
+					old_frankish = Mosa
+					gothic = Mosa
+					gothicromance = Mosa
 				}
 				b_stenay = {
 					# Epoissum # actually Carignan
 
-					german = "Ipsch"
+					gallic = Eposio
+					brithenig = Eposio
+
+					suebi = Epoisso
+					burgundian = Epoisso
+					old_frankish = Epoisso
+					gothic = Epoisso
+					gothicromance = Ipoyso
+
+					german = "Ispch"
 				}
 				b_etain = {
 					# Castrum Vabrense # actually Chatillon-sous-les-Cotes
@@ -2535,6 +2563,8 @@ e_gallia = {
 				
 				b_bourbon = {
 					# Borvo
+
+					gothicromance = Borvon
 				}
 				b_moulins = {
 					# Molinae
@@ -2543,6 +2573,8 @@ e_gallia = {
 				}
 				b_lancy = {
 					# Lanciacus
+
+					gothicromance = "Lancèi"
 				}
 				b_montlucon = {
 					# Monlucum
@@ -2552,7 +2584,8 @@ e_gallia = {
 				b_vichy = {
 					# Vippiacum
 
-					gothicromance = "Vichiacus"
+					gothic = "Vichiacus"
+					gothicromance = "Vichèi"
 				}
 				b_murat = {
 				}
@@ -4134,6 +4167,7 @@ e_gallia = {
 			color2={ 255 255 255 }
 
 			gothicromance = "Trevèri"
+			italogothic = "Trevèri"
 			
 			capital = 118 # Trier
 
@@ -4144,30 +4178,69 @@ e_gallia = {
 				# Treveria
 
 				gothicromance = "Trevèri"
+				italogothic = "Trevèri"
+
+				old_saxon = Trier
+				german = Trier
+				dutch = Trier
 			
 				b_andernach = {
 					# Antunnacum
+
+					german = Andernach
+					dutch = Andernach
 				}
 				b_trier = {
 					# Treveris
 
 					roman = "Treverorum"
 					gothicromance = "Trevèri"
+					italogothic = "Trevèri"
+
+					old_saxon = Trier
+					german = Trier
+					dutch = Trier
 				}
 				b_coblenz = {
 					# Confluentes
+
+					gothicromance = Coblensa
+					italogothic = Coblensa
+
+					old_saxon = Koblenz
+					german = Coblenz
+					dutch = Coblenz
 				}
 				b_sponheim = {
+					# Contionacum # actually Konz, Germany
 
-					gothic = "Spanhaim"
+					gothicromance = Cunsyunac
+					italogothic = Cunsyunac
+
+					german = Konz
+					dutch = Konz
 				}
 				b_wittlich = {
+					# Tabernae # actually Tawern, Germany
+
+					gothicromance = Tabernis
+					italogothic = Tabernis
+
+					german = Tawern
+					dutch = Tawern
 				}
 				b_gerolstein = {
 
 					gothic = "Gerolstain"
 				}
 				b_laach = {
+					# Palatiolum # actually Pfalzel, Germany
+
+					gothicromance = Palaciol
+					italogothic = Palass
+
+					german = Pfalzel
+					dutch = Pfalzel
 				}
 				b_bitburg = {
 					# Beda

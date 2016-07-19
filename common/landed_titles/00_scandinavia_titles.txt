@@ -971,6 +971,9 @@ e_scandinavia = {
 			
 			capital = 267 # Jylland
 			
+			dutch = Sleeswijk
+			old_saxon = Sleswig
+			frisian = Slaswik
 			german = "Schleswig"
 			pommeranian = "Jutsko"
 			carantanian = "Jutsko"
@@ -991,7 +994,10 @@ e_scandinavia = {
 			c_slesvig = {
 				color={ 225 78 78 }
 				color2={ 255 255 255 }
-				
+
+				dutch = Sleeswijk
+				old_saxon = Sleswig
+				frisian = Slaswik
 				german = "Schleswig"
 				pommeranian = "Szlezwik"
 				carantanian = "Szlezwik"

@@ -317,3 +317,23 @@
 	name = "Delius"
 	culture = gothic
 }
+
+405064 = {
+	name = "Vesus"
+	culture = gothic
+}
+
+405065 = {
+	name = "Rosomonus"
+	culture = gothic
+}
+
+405066 = {
+	name = "Berig"
+	culture = gothic
+}
+
+405067 = {
+	name = "Gebericingi"
+	culture = gothic
+}

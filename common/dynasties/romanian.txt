@@ -1,0 +1,14 @@
+1221001 = {
+	name = "Octavian"
+	culture = romanian
+}
+
+1221002 = {
+	name = "Albescu"
+	culture = romanian
+}
+
+1221003 = {
+	name = "Lupei"
+	culture = romanian
+}

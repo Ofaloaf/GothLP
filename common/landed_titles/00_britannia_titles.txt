@@ -1972,31 +1972,52 @@ e_britannia = {
 			c_shrewsbury = {
 				color={ 241 55 25 }
 				color2={ 255 255 255 }
+
+				# Cornovia
 				
 				welsh = Pengwern
+				brithenig = "Lla Ferch"
 
 				saxon = Scrobbesburh
 				old_saxon = Scrobbesburh
 				norse = Scrobbesburh
 			
 				b_shrewsbury = {
+					welsh = Amwythig
+					brithenig = Amwythig
+
 					saxon = Scrobbesburh
 					old_saxon = Scrobbesburh
 					norse = Scrobbesburh
 				}
 				b_clun = {
+					welsh = Colunwy
+					brithenig = Colunwy
 				}
 				b_wenlock = {
+					# Verbeia # actually a goddess worshipped in Roman Britain
 				}
 				b_ludlow = {
+					# Uxacona # actually Red Hill, near Oakengates, Shropshire
 				}
 				b_whitchurch = {
+					# Mediolanum # fucking hell aren't there enough of these?
+
+					brithenig = Medlione # ??? I wish the Ill Bethisad people made more Brithenig toponyms
 				}
 				b_bridgnorth = {
+					# Levobrinta # actually Forden Gaer, Powys
 				}
 				b_oswestry = {
+					# Album Monasterium
+
+					used_for_dynasty_names = no
+
+					welsh = "Caer Ogyrfan"
+					brithenig = Castelogyrfan
 				}
 				b_chirk = {
+					# Rutunium # actually Harcourt Park, Shropshire
 				}
 			}
 			c_hereford = {
@@ -2009,8 +2030,10 @@ e_britannia = {
 				brithenig = "Ercic"
 			
 				b_st_ethelberts = {
+					# Branovium # actually Leintwardine, Herefordshire
 				}
 				b_hereford = {
+					# Branogenium # actually a fort a quarter-mile south of Leintwardine, Herefordshire
 				}
 				b_leominster = {
 					welsh = "Llanllieni"
@@ -2027,12 +2050,24 @@ e_britannia = {
 					norse = "Ircingafeld"
 				}
 				b_ewyas_harold = {
+					# Vortigernacum # made up ish? Nennius wrote of a "Cair Guorthigirn" that Vortigern died in.
+
+					welsh = "Cair Guorthigirn"
+					brithenig = "Cair Guorthigirn"
 				}
 				b_ledbury = {
+					# Clotarius # allegedly the name of the hill at the hillfort at Little Doward where Vortigern holed up
+
+					welsh = Ganarew
+					brithenig = Genoreu
 				}
 				b_clifford = {
+					# Rupevadus # "Rupes" + "Vadus" is a literal translation of "Cliff" + "Ford"
 				}
 				b_brobury = {
+					# Vaga # latin name of the River Wye
+
+					welsh = Gwy
 				}
 			}
 			c_worcester = {

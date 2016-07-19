@@ -338,6 +338,8 @@ e_caucasia = {
 		capital = 679 # Kartli
 		
 		culture = georgian
+
+		armenian = Iberia
 		
 		orthodox = 200 # Crusade target weight
 		tengri_pagan_reformed = 50

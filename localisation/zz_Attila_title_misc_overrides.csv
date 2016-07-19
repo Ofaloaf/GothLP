@@ -7,11 +7,22 @@ pommeranian;Wendish;;;;;;;;;;;;;x
 orthodox_DESC;When the Roman Emperor Constantine I ended centuries of persecution and began embracing early Christianity, one of his major projects was to seek theological conformity within Christendom. To this end, he convened the First Council of Nicaea in 325. After much debate, this council produced the Nicene Creed, outlining explicitly some of the central tenets of mainstream Christianity. This form of Christianity, embraced by the Roman Empire in the 4th and 5th centuries, is thus called 'Orthodox' Christianity due to its nature as the 'mainstream' form of Christianity within the Roman world. 'Nicene', in reference to the Council of Nicaea, is also sometimes used.;;;;;;;;;;;;;x
 world_europe_west_francia;Gaul;;;;;;;;;;;;;x
 BM_CHARLEMAGNE;The Goths;;;;;;;;;;;;;x
-BM_CHARLEMAGNE_DESC;I'm watching 8 out of 10 Cats Does Countdown right now;;;;;;;;;;;;;x
+BM_CHARLEMAGNE_ERA;The Goths;;;;;;;;;;;;;x
+BM_CHARLEMAGNE_ERA_INFO;Two distinct branches of the Goths invaded the Roman world in the late 4th and early 5th centuries. The Visigoths attempted to migrate into lands of the Eastern Roman Empire, and were utterly destroyed in Egypt. The Ostrogoths had better luck striking west, and successfully captured the Romano-Gallic city of Lugdunum in AD 402. From Lugdunum, the Goths gradually conquered much of old Gaul over the course of the 5th century, and succeeded in making themselves a permanent fixture in Western Europe. By the middle of the 8th century, the Goths had been settled in Gaul for a little over 300 years, yet still retain many elements of their Germanic, Migration Age culture. Established as they are in the middle of old Roman territory, however, it is only a matter of time before the Romantic ways of their neighbors begin to rub off on them...;;;;;;;;;;;;;x
 BM_THE_OLD_GODS;The Romans;;;;;;;;;;;;;x
+BM_THE_OLD_GODS_ERA;The Romans;;;;;;;;;;;;;x
 BM_FATE_OF_ENGLAND;The Orient;;;;;;;;;;;;;x
+BM_FATE_OF_ENGLAND_ERA;The Orient;;;;;;;;;;;;;x
 BM_THE_MONGOLS;The Northerners;;;;;;;;;;;;;x
+BM_THE_MONGOLS_ERA;The Northerners;;;;;;;;;;;;;x
 BM_100_YEARS_WAR;The Steppes;;;;;;;;;;;;;x
+BM_100_YEARS_WAR_ERA;The Steppes;;;;;;;;;;;;;x
+DARK_AGES;The Goths;;;;;;;;;;;;;x
+DARK_AGES_INFO;The Early Middle Ages started with the collapse of Roman authority in the early 5th century. The earlier part of this era saw the great Germani, Iranian and Slavic migrations across Europe, with peoples such as the Avars settling in Southern Europe, the Goths settling in Gaul and nomadic Alans settling down in old Venedia. The Western Roman Empire was violently shaken by the pressure from the Goths and Huns, and the Eastern Roman Empire fought bitterly with the ancient Persian enemy. The rise of Islam saw the Arabs conquering immense amounts of territory in the Levant, and in India several great dynasties vied for dominance, with the Rashtrakutas rising towards the end of the 8th century. In the steppes, the Khazars grew in power, and in Scandinavia things were about to change in a way that was to affect the entire continent...;;;;;;;;;;;;;x
+VIKING_ERA;The Romans;;;;;;;;;;;;;x
+EARLY_MED;The Orient;;;;;;;;;;;;;x
+HIGH_MED;The Northerners;;;;;;;;;;;;;x
+LATE_MED;The Steppes;;;;;;;;;;;;;x
 e_hre;Holy Western Empire;;;;;;;;;;;;;x
 e_hre_adj;Holy Western;;;;;;;;;;;;;x
 k_dacia;Dacia;;;;;;;;;;;;;x
@@ -188,6 +199,7 @@ c_senoussi_adj;Augilan;;;;;;;;;;;;;x
 c_sens_adj;Senonean;;;;;;;;;;;;;x
 c_severin_adj;Pelendavan;;;;;;;;;;;;;x
 c_sevilla_adj;Hispalian;;;;;;;;;;;;;x
+c_shrewsbury_adj;Cornovii;;;;;;;;;;;;;x
 c_snassen_adj;Malvan;;;;;;;;;;;;;x
 c_somerset_adj;Glastenningite;;;;;;;;;;;;;x
 c_soria_adj;Daurian;;;;;;;;;;;;;x
@@ -497,6 +509,7 @@ b_brescia;Brixia;;;;;;;;;;;;;x
 b_bressuire;Berzoriacum;;;;;;;;;;;;;x
 b_brest;Brista;;;;;;;;;;;;;x
 b_breteuil;Brittoialo;;;;;;;;;;;;;x
+b_bridgnorth;Levobrinta;;;;;;;;;;;;;x
 b_brienne;Breonna;;;;;;;;;;;;;x
 b_briey;Bricium;;;;;;;;;;;;;x
 b_brig;Briga;;;;;;;;;;;;;x
@@ -504,6 +517,7 @@ b_brindas;Briendaco;;;;;;;;;;;;;x
 b_brioude;Brivas;;;;;;;;;;;;;x
 b_bristol;Abona;;;;;;;;;;;;;x
 b_brixen;Brixino;;;;;;;;;;;;;x
+b_brobury;Vaga;;;;;;;;;;;;;x
 b_brough;Verterae;;;;;;;;;;;;;x
 b_brougham;Brocavum;;;;;;;;;;;;;x
 b_brozas;Tongobriga;;;;;;;;;;;;;x
@@ -640,6 +654,7 @@ b_chievres;Cervia;;;;;;;;;;;;;x
 b_chiffa;Caesarea;;;;;;;;;;;;;x
 b_chinon;Chinonium;;;;;;;;;;;;;x
 b_chioggia;Clodia;;;;;;;;;;;;;x
+b_chirk;Rutunium;;;;;;;;;;;;;x
 b_chiva;Turia;;;;;;;;;;;;;x
 b_cholet;Cauletum;;;;;;;;;;;;;x
 b_chur;Curia;;;;;;;;;;;;;x
@@ -657,6 +672,7 @@ b_clairvaux;Claravallis;;;;;;;;;;;;;x
 b_clamecy;Clamiciacus;;;;;;;;;;;;;x
 b_clarendon;Verlucio;;;;;;;;;;;;;x
 b_clermont;Arvernis;;;;;;;;;;;;;x
+b_clifford;Rupevadus;;;;;;;;;;;;;x
 b_clisson;Clesiodunum;;;;;;;;;;;;;x
 b_cluny;Cluniacum;;;;;;;;;;;;;x
 b_coblenz;Confluentes;;;;;;;;;;;;;x
@@ -798,6 +814,7 @@ b_eu;Aucia;;;;;;;;;;;;;x
 b_evora;Ebora;;;;;;;;;;;;;x
 b_evreux;Eburovicas;;;;;;;;;;;;;x
 b_evron;Eburo;;;;;;;;;;;;;x
+b_ewyas_harold;Vortigernacum;;;;;;;;;;;;;x
 b_exeter;Isca;;;;;;;;;;;;;x
 b_faenza;Faventia;;;;;;;;;;;;;x
 b_falaise;Falesia;;;;;;;;;;;;;x
@@ -917,6 +934,7 @@ b_hexham;Hunnum;;;;;;;;;;;;;x
 b_hijar;Ars;;;;;;;;;;;;;x
 b_hirsau;Hirsaugia;;;;;;;;;;;;;x
 b_hochstaden;Rigomagus;;;;;;;;;;;;;x
+b_hohenberg;Arbor Felix;;;;;;;;;;;;;x
 b_honfleur;Hunafluvia;;;;;;;;;;;;;x
 b_hucknall;Vernemeto;;;;;;;;;;;;;x
 b_huelgoat;Castrum Artus;;;;;;;;;;;;;x
@@ -969,6 +987,7 @@ b_julich;Juliacum;;;;;;;;;;;;;x
 b_jumieges;Gemeticum;;;;;;;;;;;;;x
 b_kairouan;Iubaltiana;;;;;;;;;;;;;x
 b_kaiserslautern;Rouphiniana;;;;;;;;;;;;;x
+b_kalisz;Calisia;;;;;;;;;;;;;x
 b_karansebes;Drubetis;;;;;;;;;;;;;x
 b_karlovac;Adfines;;;;;;;;;;;;;x
 b_kassel;Cattorum;;;;;;;;;;;;;x
@@ -998,6 +1017,7 @@ b_krk;Curicum;;;;;;;;;;;;;x
 b_kufra;Corniclanum;;;;;;;;;;;;;x
 b_kulbach;Kulma;;;;;;;;;;;;;x
 b_la_roche-bernard;Rocabernardus;;;;;;;;;;;;;x
+b_laach;Palatiolum;;;;;;;;;;;;;x
 b_labastideclairence;Bastida;;;;;;;;;;;;;x
 b_labisbaldemporda;Fontanetum;;;;;;;;;;;;;x
 b_lacharite;Massava;;;;;;;;;;;;;x
@@ -1033,6 +1053,7 @@ b_lazarza;Caelionicco;;;;;;;;;;;;;x
 b_le_mans;Cenomanorum;;;;;;;;;;;;;x
 b_lecheylard;Castellarum;;;;;;;;;;;;;x
 b_lectoure;Lactora;;;;;;;;;;;;;x
+b_ledbury;Clotarius;;;;;;;;;;;;;x
 b_legnano;Ledegnanum;;;;;;;;;;;;;x
 b_leibnitz;Lipnizza;;;;;;;;;;;;;x
 b_leicester;Lerion;;;;;;;;;;;;;x
@@ -1083,11 +1104,13 @@ b_loudun;Losdunum;;;;;;;;;;;;;x
 b_louhans;Lovincum;;;;;;;;;;;;;x
 b_louth;Helenacum;;;;;;;;;;;;;x
 b_lowestoft;Sitomagus;;;;;;;;;;;;;x
+b_lubusz;Lebusium;;;;;;;;;;;;;x
 b_lucca;Luca;;;;;;;;;;;;;x
 b_lucena;Cisimbrium;;;;;;;;;;;;;x
 b_lucignano;Lucinianum;;;;;;;;;;;;;x
 b_lucon;Lucio;;;;;;;;;;;;;x
 b_ludbreg;Iovia;;;;;;;;;;;;;x
+b_ludlow;Uxacona;;;;;;;;;;;;;x
 b_lugano;Luanasco;;;;;;;;;;;;;x
 b_lugny;Luviniacum;;;;;;;;;;;;;x
 b_lugo;Lucus;;;;;;;;;;;;;x
@@ -1167,6 +1190,7 @@ b_mertola;Myrtilis;;;;;;;;;;;;;x
 b_messina;Messana;;;;;;;;;;;;;x
 b_metz;Mettis;;;;;;;;;;;;;x
 b_meung;Magdunum;;;;;;;;;;;;;x
+b_miedryrzecz;Meserici;;;;;;;;;;;;;x
 b_mila;Milevum;;;;;;;;;;;;;x
 b_milano;Mediolanum;;;;;;;;;;;;;x
 b_millau;Millavensis;;;;;;;;;;;;;x
@@ -1324,6 +1348,7 @@ b_orvieto;Urbs Vetus;;;;;;;;;;;;;x
 b_osijek;Mursa;;;;;;;;;;;;;x
 b_osimo;Auximum;;;;;;;;;;;;;x
 b_osma;Osama;;;;;;;;;;;;;x
+b_oswestry;Album Monasterium;;;;;;;;;;;;;x
 b_otranto;Hydruntum;;;;;;;;;;;;;x
 b_otricoli;Ocriculum;;;;;;;;;;;;;x
 b_ottana;Cornus;;;;;;;;;;;;;x
@@ -1399,6 +1424,7 @@ b_portoferraio;Cosmopolis;;;;;;;;;;;;;x
 b_portotorres;Turris Lybisonis;;;;;;;;;;;;;x
 b_pozarevac;Margus;;;;;;;;;;;;;x
 b_pozega;Incerum;;;;;;;;;;;;;x
+b_poznan;Posnania;;;;;;;;;;;;;x
 b_prada;Prata;;;;;;;;;;;;;x
 b_praha;Casurgis;;;;;;;;;;;;;x
 b_pressburg;Biatec;;;;;;;;;;;;;x
@@ -1588,17 +1614,19 @@ b_spantortosa;Dertosa;;;;;;;;;;;;;x
 b_speyer;Spira;;;;;;;;;;;;;x
 b_split;Spalatum;;;;;;;;;;;;;x
 b_spoleto;Spoletium;;;;;;;;;;;;;x
+b_sponheim;Contionacum;;;;;;;;;;;;;x
 b_srebrenica;Argentaria;;;;;;;;;;;;;x
 b_st_albans;Verulamium;;;;;;;;;;;;;x
 b_st_brieuc;Briacum;;;;;;;;;;;;;x
 b_st_cuthbert;Vinovia;;;;;;;;;;;;;x
-b_st_nazaire;Nazariacum;;;;;;;;;;;;;x
+b_st_ethelberts;Branovium;;;;;;;;;;;;;x
 b_st_germans;Sancti Germani;;;;;;;;;;;;;x
 b_st_gildas;Suscinio;;;;;;;;;;;;;x
 b_st_malo;Macloviacum;;;;;;;;;;;;;x
 b_st_meen;Mevenniacum;;;;;;;;;;;;;x
 b_st_michael;Sancti Michaeli;;;;;;;;;;;;;x
 b_st_michel;Michaeliacum;;;;;;;;;;;;;x
+b_st_nazaire;Nazariacum;;;;;;;;;;;;;x
 b_st_peters;Petriacum;;;;;;;;;;;;;x
 b_st_pol_de_leon;Pauliacum;;;;;;;;;;;;;x
 b_st_swithun;Calleva;;;;;;;;;;;;;x
@@ -1801,6 +1829,7 @@ b_viseu;Viriacum;;;;;;;;;;;;;x
 b_viterbo;Viterbium;;;;;;;;;;;;;x
 b_viviers;Vivarium;;;;;;;;;;;;;x
 b_vizakna;Alburnus;;;;;;;;;;;;;x
+b_vlaardingen;Flenio;;;;;;;;;;;;;x
 b_voghera;Viqueria;;;;;;;;;;;;;x
 b_voghiera;Veria;;;;;;;;;;;;;x
 b_volterra;Volaterrae;;;;;;;;;;;;;x
@@ -1811,8 +1840,10 @@ b_warwick;Manduessedum;;;;;;;;;;;;;x
 b_wassenburg;Coriovallum;;;;;;;;;;;;;x
 b_watford;Caratacum;;;;;;;;;;;;;x
 b_wells;Fontanetum;;;;;;;;;;;;;x
+b_wenlock;Verbeia;;;;;;;;;;;;;x
 b_wervik;Virovino;;;;;;;;;;;;;x
 b_wherwell;Vectis;;;;;;;;;;;;;x
+b_whitchurch;Mediolanum;;;;;;;;;;;;;x
 b_wien;Vindobona;;;;;;;;;;;;;x
 b_willemstad;Ruigenhil;;;;;;;;;;;;;x
 b_wilton;Cunetio;;;;;;;;;;;;;x
@@ -1820,6 +1851,7 @@ b_wimborne;Isaca;;;;;;;;;;;;;x
 b_winchcombe;Afon;;;;;;;;;;;;;x
 b_winchester;Venta;;;;;;;;;;;;;x
 b_wittelsbach;Witilinesbac;;;;;;;;;;;;;x
+b_wittlich;Tabernae;;;;;;;;;;;;;x
 b_woking;Voccinga;;;;;;;;;;;;;x
 b_worcester;Guiragon;;;;;;;;;;;;;x
 b_worms;Wormatia;;;;;;;;;;;;;x
@@ -1836,6 +1868,7 @@ b_zagreb;Andautonia;;;;;;;;;;;;;x
 b_zamora;Ocellodurum;;;;;;;;;;;;;x
 b_zaoula;Tubusuptus;;;;;;;;;;;;;x
 b_zaragoza;Caesaraugusta;;;;;;;;;;;;;x
+b_zbaszyn;Sbansin;;;;;;;;;;;;;x
 b_zemun;Mallevila;;;;;;;;;;;;;x
 b_zombor;Cuccium;;;;;;;;;;;;;x
 b_zrin;Varianis;;;;;;;;;;;;;x
@@ -1867,6 +1900,7 @@ PROV59;Deva;;;;;;;;;;;;;x
 PROV61;Linnuis;;;;;;;;;;;;;x
 PROV62;Lerion;;;;;;;;;;;;;x
 PROV63;Derventio;;;;;;;;;;;;;x
+PROV66;Cornovia;;;;;;;;;;;;;x
 PROV67;Letocetum;;;;;;;;;;;;;x
 PROV68;Durobrivae;;;;;;;;;;;;;x
 PROV69;Verulamium;;;;;;;;;;;;;x
@@ -2071,7 +2105,11 @@ PROV357;Tarvisium;;;;;;;;;;;;;x
 PROV359;Oenipons;;;;;;;;;;;;;x
 PROV362;Brodentia;;;;;;;;;;;;;x
 PROV363;Soudeta;;;;;;;;;;;;;x
+PROV364;Lusatia;;;;;;;;;;;;;x
 PROV365;Hevellia;;;;;;;;;;;;;x
+PROV430;Lebusana;;;;;;;;;;;;;x
+PROV431;Posnania;;;;;;;;;;;;;x
+PROV432;Calisia;;;;;;;;;;;;;x
 PROV436;Bumsia;;;;;;;;;;;;;x
 PROV437;Casurgis;;;;;;;;;;;;;x
 PROV439;Marobud;;;;;;;;;;;;;x

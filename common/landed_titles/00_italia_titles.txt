@@ -1107,9 +1107,13 @@ e_italy = {
 				color2={ 255 255 255 }
 
 				# Ferraria
+
+				italogothic = "Fërara"
 				
 				b_ferrara = {
 					# Ferraria
+
+					italogothic = "Fërara"
 				}
 				b_commacchio = {
 					# Cumaculum
@@ -1138,10 +1142,15 @@ e_italy = {
 			c_ravenna = {
 				color={ 244 180 130 }
 				color2={ 255 255 255 }
+
+				gothicromance = Ravena
+				italogothic = "Ravënna"
 				
 				holy_site = catholic
 
 				b_ravenna = {
+					gothicromance = Ravena
+					italogothic = "Ravënna"
 				}
 				b_cesena = {
 					# Caesena
@@ -1206,12 +1215,14 @@ e_italy = {
 				# Florentia
 
 				gothicromance = "Flurença"
+				italogothic = Firensa
 				german = "Florenz"
 					
 				b_firenze = {
 					# Florentia
 
 					gothicromance = "Flurença"
+					italogothic = Firensa
 					german = "Florenz"
 				}
 				b_arezzo = {
@@ -1569,10 +1580,18 @@ e_italy = {
 
 				german = "Aglar"
 				dalmatian = "Aquileja"
+
+				pommeranian = Akwileja
+				carantanian = Akvileja
+				traki = Akvileja
 				
 				b_aquileia = {
 					german = "Aglar"
 					dalmatian = "Aquileja"
+
+					pommeranian = Akwileja
+					carantanian = Akvileja
+					traki = Akvileja
 				}
 				b_udine = {
 					german = "Weiden"
@@ -1666,6 +1685,9 @@ e_italy = {
 				color2={ 255 255 255 }
 				
 				greek = "Interamnion"
+
+				gothicromance = "Abruç"
+				italogothic = Abruss
 				
 				b_avezzano = {
 				}

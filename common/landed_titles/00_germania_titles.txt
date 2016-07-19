@@ -270,6 +270,7 @@ e_germany = {
 				polish = "Liubice"
 				bohemian = "Liubice"
 				prussian = "Liubice"
+				dutch = Lubeek
 				
 				b_lubeck = {
 					danish = "Lybæk"
@@ -280,6 +281,7 @@ e_germany = {
 					polish = "Liubice"
 					bohemian = "Liubice"
 					prussian = "Liubice"
+					dutch = Lubeek
 				}
 				b_ratzeburg = {
 					danish = "Ratseborg"
@@ -307,6 +309,8 @@ e_germany = {
 				danish = "Holsten"
 				swedish = "Holsten"
 				norwegian = "Holsten"
+				frisian = Holstinj
+				old_saxon = Holsteen
 				
 				b_kiel = {
 				}
@@ -429,8 +433,15 @@ e_germany = {
 				b_strehla = {
 				}
 				b_rabenau = {
+					old_frankish = Rabinowe
+					suebi = Rabinowe
+					burgundian = Rabinowe
+					gothic = Rabinowe
 				}
 				b_wettin = {
+					pommeranian = Vitin
+					carantanian = Vitin
+					traki = Vitin
 				}
 				b_radeburg = {
 				}
@@ -438,6 +449,10 @@ e_germany = {
 			c_lausitz = {
 				color={ 66 111 88 }
 				color2={ 255 255 255 }
+
+				# Lusatia
+
+				german = Lausitz
 
 				pommeranian = Luzycka
 
@@ -986,6 +1001,11 @@ e_germany = {
 
 					suebi = "Choschtez" # Konschdanz
 					german = "Konstanz"
+
+					pommeranian = Konstancja
+					carantanian = Kostnica
+					traki = Konstancja
+					rimlyani = Konstancja
 				}
 				b_heiligenberg = {
 					suebi = "Holgebeäg"
@@ -994,6 +1014,16 @@ e_germany = {
 					suebi = "Iberlinge"
 				}
 				b_hohenberg = {
+					# Arbor Felix # actually Arbon, Switzerland
+
+					gothicromance = Arbona
+					italogothic = Arbona
+
+					suebi = Aarbe
+					german = Arbon
+					old_frankish = Arbon
+					gothic = Arbon
+					burgundian = Arbon
 				}
 				b_friedrichshafen = {
 					suebi = "Fridrichshafe"
@@ -1771,6 +1801,7 @@ e_germany = {
 
 			pommeranian = "Holtzemia"
 
+			old_frankish = Holtland
 			norse = Holtland
 		
 			capital = 80 #Holland
@@ -1783,6 +1814,7 @@ e_germany = {
 
 				pommeranian = "Holtzemia"
 
+				old_frankish = Holtland
 				norse = Holtland
 			
 				b_haarlem = {
@@ -1794,7 +1826,10 @@ e_germany = {
 					old_frankish = "Aemstelredamme"
 				}
 				b_vlaardingen = {
+					# Flenio
+
 					frisian = "Flaardingen"
+					dutch = Vlaardingen
 				}
 				b_sgravenhage = {
 					# Haga

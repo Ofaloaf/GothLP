@@ -100,6 +100,8 @@ e_scythia = {
 			c_lubusz = {
 				color={ 135 30 30 }
 				color2={ 255 255 255 }
+
+				# Lebusana
 				
 				german = Lebus
 				geatish = Lebus
@@ -113,6 +115,8 @@ e_scythia = {
 				sarmatian = "Leubusiy"
 			
 				b_lubusz = {
+					# Lebusium
+
 					german = Lebus
 					geatish = Lebus
 					norse = Lebus
@@ -120,8 +124,10 @@ e_scythia = {
 					danish = Lebus
 				}
 				b_mysliborz = {
+					german = Soldin
 				}
 				b_kostrzyn = {
+					german = Kostschin
 				}
 				b_cedynia = {
 				}
@@ -174,6 +180,13 @@ e_scythia = {
 			c_poznanskie = {
 				color={ 145 6 2 }
 				color2={ 255 255 255 }
+
+				# Posnania
+
+				pommeranian = Poznan
+				carantanian = Poznan
+				traki = Poznanj
+				rimlyani = Posnani
 				
 				german = Posen
 				geatish = Posen
@@ -187,6 +200,13 @@ e_scythia = {
 				sarmatian = "Posnaniqaew"
 			
 				b_poznan = {
+					# Posnania
+
+					pommeranian = Poznan
+					carantanian = Poznan
+					traki = Poznanj
+					rimlyani = Posnani
+
 					german = Posen
 					geatish = Posen
 					norse = Posen
@@ -194,23 +214,37 @@ e_scythia = {
 					danish = Posen
 				}
 				b_obrzycko = {
+					german = Obersitzko
 				}
 				b_czarkow = {
 				}
 				b_miedryrzecz = {
+					# Meserici
+
+					german = Meseritz
+
+					pommeranian = Miedzyrecz
+					carantanian = Mezyriecze
 				}
 				b_drzen = {
+					german = Dryhn
 				}
 				b_zbaszyn = {
+					# Sbansin
+
+					german = Bentschen
 				}
 				b_strarygrode = {
 				}
 				b_srem = {
+					german = Schrimm
 				}
 			}
 			c_kaliskie = {
 				color={ 155 6 20}
 				color2={ 255 255 255 }
+
+				# Calisia
 
 				alan = "Kalyston"
 				feretolan = "Kalyston"
@@ -218,6 +252,11 @@ e_scythia = {
 				sarmatian = "Kalystan"
 			
 				b_kalisz = {
+					# Calisia
+
+					pommeranian = Kalisz
+					carantanian = Kalisz
+					traki = Kalisz
 				}
 				b_krotoszyn = {
 				}

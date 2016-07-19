@@ -549,7 +549,7 @@
 611037 = {
 	name = "Luthaweic"
 	dynasty = 405007
-	father = 611039 # Gudisal Amalis
+	father = 611039 # Gudisal Amalius
 	culture = gothic
 	religion = arian
 	726.1.1 = {
