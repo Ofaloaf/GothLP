@@ -979,6 +979,10 @@ e_africa = {
 				holy_site = west_african_pagan_reformed
 			
 				b_marrakech = {
+					# Bocanum
+
+					roman = "Bocænum Hemerum"
+					africanu = Bocanu
 				}
 				b_sidirahhal = {
 				}

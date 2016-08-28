@@ -769,20 +769,31 @@ e_italy = {
 				color={ 226 223 193 }
 				color2={ 255 255 255 }
 
+				# Genua
+
 				italian = Genova
 				italogothic = "Gènoa"
 				gothicromance = "Génoa"
 				
 				b_genoa = {
+					# Genua
+
 					italian = Genova
 					italogothic = "Gènoa"
 					gothicromance = "Génoa"
 				}
 				b_rapallo = {
+					# Rapallum
+
+					italogothic = "Rapallo"
 				}
 				b_luna = {
 				}
 				b_ventimiglia = {
+					# Albintimilium
+
+					roman = "Albium Intemelium"
+
 					italian = Ventimiglia
 					italogothic = Ventemiglia
 					gothicromance = Ventemilha
@@ -790,13 +801,21 @@ e_italy = {
 				b_savona = {
 				}
 				b_chiavari = {
+					# Clavarum
 				}
 				b_albenga = {
+					# Albingaunum
+
 					gothic = "Albinauno"
+					old_frankish = "Albinauno"
+					suebi = Albinauno
+					burgundian = Albinauno
+
 					gothicromance = "Albingano"
 					italogothic = Albingano
 				}
 				b_fosdinovo = {
+					# Fosdenovum
 				}
 			}
 			c_piemonte = {
@@ -1914,47 +1933,90 @@ e_italy = {
 			c_taranto = {
 				color={ 235 190 195 }
 				color2={ 255 255 255 }
+
+				# Tarentum
 				
 				greek = "Lukania"
+
+				gothicromance = Tarent
+				italogothic = Tàrant
+				italian = Taranto
 				
 				b_taranto = {
+					# Tarentum
+
 					greek = "Tarantas"
+
+					gothicromance = Tarent
+					italogothic = Tàrant
+					italian = Taranto
 				}
 				b_mottola = {
+					# Motula
 				}
 				b_castellaneta = {
+					# Castania
 				}
 				b_tursi = {
+					# Anglonum
+
+					gothic = Anglona
+					gothicromance = Anglona
+					italogothic = Anglona
+					italian = Anglona
 				}
 				b_montepeloso = {
+					# Mons Pelusius
+
+					italian = Montepeloso
 				}
 				b_tricanico = {
 				}
 				b_gravina = {
 				}
 				b_cassano = {
+					# Cassanum
+
+					italian = Cassano
 				}
 			}
 			
 			c_amalfi = {
 				color={ 120 200 225 }
 				color2 = { 255 255 255 }
+
+				# Amalphia
 				
 				b_amalfi={
+					# Amalphia
 				}
 				b_sorrento={
+					# Surrentum
+
+					italian = Sorrento
 				}
 				b_ravello={
+					# Rabellum
+
+					italian = Ravello
 				}
 				b_tramonti={
+					# Tramons
 				}
 				b_positano={
+					# Pausitanum
 				}
 				b_castellamare = {
+					# Stabia
+
+					roman = Stabiae
+					latine = Stabiae
 				}
 				b_capri = {
+					# Capreae
 				}
 				b_minori = {
+					# Rheggina Minor
 				}
 			}
 		}
@@ -1969,48 +2031,85 @@ e_italy = {
 			c_consenza = {
 				color={ 170 142 70 }
 				color2={ 255 255 255 }
+
+				# Consentia
 				
 				greek = "Kroton"
+
+				gothicromance = "Cosença"
+				italogothic = Consensa
 				
 				b_cosenza = {
+					# Consentia
+
+					gothicromance = "Cosença"
+					italogothic = Consensa
 				}
 				b_rossano = {
+					# Roscianum
 				}
 				b_umbriatico = {
+					# Umbriaticum
 				}
 				b_strongoli = {
+					# Strongylis # ancient Petelia I guess?
 				}
 				b_argentano = {
 				}
 				b_scalea = {
+					# Scalia # guessing
+
+					greek = Skalia
 				}
 				b_cerenzia = {
+					# Cerentium # I'm not sure this is the archaic Latin form
 				}
 				b_crotone = {
+					# Croton
+
+					greek = Kroton
 				}
 			}
 			c_reggio = {
 				color={ 170 142 70 }
 				color2={ 255 255 255 }
+
+				# Rhegium
 				
 				greek = "Rhegion"
+
+				gothicromance = "Ríjols" # Old Catalan form of the name
+				italogothic = Res
 				
 				b_reggio = {
+					# Rhegium
+
 					greek = "Rhegion"
+
+					gothicromance = "Ríjols" # Old Catalan
+					italogothic = Res
 				}
 				b_mileto = {
+					# Miletum
 				}
 				b_nicotera = {
+					greek = Nikoptera
 				}
 				b_belcastro = {
+					# Bellicastrum # pretty sure it was named Belcastro/Bellicastrum in 1300. 'Geneocastro' is the older Italian form, can't be bothered to work out Latin from that.
 				}
 				b_bova = {
 				}
 				b_gerace = {
+					# Hieracium
 				}
 				b_tropea = {
+					# Tropaea
+
+					greek = Trapeia
 				}
 				b_squillace = {
+					# Scylaceum
 				}
 			}
 		}

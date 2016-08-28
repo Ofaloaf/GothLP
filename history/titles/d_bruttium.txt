@@ -1,6 +1,25 @@
-100.1.1 = {
-	liege = "e_papal_hre"
+450.1.1 = {
+	holder = 475050 # Cassiodorus Senator(e)
 }
-760.1.1 = {
-	holder = 476029
+460.1.1 = {
+	holder = 475051 # Cassiodorus Senator(e)
+}
+498.11.22 = {
+	liege = "e_papal_hre"
+	holder = 0
+}
+619.1.1 = {
+	holder = 476064 # Cassius Senatore
+}
+649.1.1 = {
+	holder = 476069 # Cornelio I Senatore
+}
+681.1.1 = {
+	holder = 476070 # Cornelio II Senatore
+}
+705.1.1 = {
+	holder = 476071 # Cassio II Senatore
+}
+762.1.1 = {
+	holder = 476029 # Cassiano Senatore
 }

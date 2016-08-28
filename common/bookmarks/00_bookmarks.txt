@@ -112,12 +112,43 @@ bm_fate_of_england =
 
 	era = yes						## Will be shown on Era screen.
 	picture = GFX_pick_era_image_3
+	custom_start = yes
 
 	selectable_character = {
 		id = 73679 # Abd al-Rahman I Umayyad, Caliph of Arabia
+
+		age = 37
+		name = ERA_CHAR_NAME_73679
+		tite = e_arabia
+		title_name = ERA_UMAYYAD_EMPIRE
+		coa_dynasty = yes
+		dlc = "The Sword of Islam"
+		
+		character = {
+			dna = cmedkpffaax
+			properties = mj0afa000000
+			religion="sunni"
+			culture="bedouin_arabic"
+			government = muslim_government
+			dynasty=597
+		}
 	}
 	selectable_character = {
 		id = 1806002 # Khosrau III Sassanid, Shahnashah of Persia
+
+		age = 40
+		name = ERA_CHAR_NAME_1806002
+		title = e_persia
+		title_name = ERA_SASSANID_EMPIRE
+		
+		character = { 
+			dna = alhdhmkiaag
+			properties = ak00bc000000
+			religion="zoroastrian"
+			culture="persian"
+			government = feudal_government
+			dynasty=1029100
+		}
 	}
 	selectable_character = {
 		id = 74723 # Khingila Khingilid, leader of the Hephthalites

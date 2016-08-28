@@ -479,6 +479,7 @@
 476029 = {
 	name="Cassiano"
 	dynasty=476002 # Senatore
+	father = 476072
 	culture="latine"
 	religion="catholic"
 	martial=4
@@ -992,5 +993,188 @@
 	}
 	800.1.1 = {
 		death=yes
+	}
+}
+
+476064 = {
+	name="Cassius"
+	dynasty = 476002 # Senatore
+	father = 475054
+	religion="orthodox"
+	culture="roman"
+	575.1.1={
+		birth=yes
+	}
+	600.1.1 = {
+		add_spouse = 476065 # Mercuria
+	}
+	619.1.1 = {
+		give_nickname = nick_the_culture
+		religion = catholic
+	}
+	619.1.2 = {
+		culture = latine
+		name = "Cassio"
+	}
+	620.1.2 = {
+		add_spouse = 476068 # Pulcheria
+	}
+	649.1.1={
+		death=yes
+	}
+}
+
+476065 = {
+	name="Mercuria"
+	female = yes
+	religion="orthodox"
+	culture="roman"
+	582.1.1={
+		birth=yes
+	}
+	619.12.30 = {
+		add_trait = mangled
+	}
+	620.1.1={
+		death= { death_reason = death_murder_unknown }
+	}
+}
+
+476066 = {
+	name="Cassio"
+	dynasty = 476002 # Senatore
+	father = 476064
+	mother = 476065
+	religion="orthodox"
+	culture="latine"
+	602.1.1={
+		birth=yes
+	}
+	619.12.30 = {
+		add_trait = mangled
+	}
+	620.1.1={
+		death= { death_reason = death_murder_unknown }
+	}
+}
+
+476067 = {
+	name="Cassiano"
+	dynasty = 476002 # Senatore
+	father = 476064
+	mother = 476065
+	religion="orthodox"
+	culture="latine"
+	604.1.1={
+		birth=yes
+	}
+	620.1.1={
+		death=yes
+	}
+}
+
+476068 = {
+	name="Pulcheria"
+	female = yes
+	religion="catholic"
+	culture="latine"
+	trait=fair
+	trait=lustful
+	599.1.1={
+		birth=yes
+	}
+	666.1.1={
+		death=yes
+	}
+}
+
+476069 = {
+	name="Cornelio"
+	dynasty = 476002 # Senatore
+	father = 476064
+	mother = 476068
+	religion="catholic"
+	culture="latine"
+	623.1.1={
+		birth=yes
+	}
+	681.1.1={
+		death=yes
+	}
+}
+
+476070 = {
+	name="Cornelio"
+	dynasty = 476002 # Senatore
+	father = 476069
+	religion="catholic"
+	culture="latine"
+	651.1.1={
+		birth=yes
+	}
+	705.1.1={
+		death=yes
+	}
+}
+
+476071 = {
+	name="Cassio"
+	dynasty = 476002 # Senatore
+	father = 476070
+	religion="catholic"
+	culture="latine"
+	684.1.1={
+		birth=yes
+	}
+	705.1.1={
+		add_spouse = 476073
+	}
+	762.1.1={
+		death=yes
+	}
+}
+
+476072 = {
+	name="Cassiano"
+	dynasty = 476002 # Senatore
+	father = 476071
+	mother = 476073
+	religion="catholic"
+	culture="latine"
+	708.1.1={
+		birth=yes
+	}
+	761.1.1={
+		death=yes
+	}
+}
+
+476073 = {
+	name="Theodosia"
+	female = yes
+	religion="catholic"
+	culture="latine"
+	688.1.1={
+		birth=yes
+	}
+	737.1.1={
+		death=yes
+	}
+}
+
+476074 = {
+	name="Cassiodoro"
+	dynasty = 476002 # Senatore
+	father = 476072
+	religion="catholic"
+	culture="latine"
+	713.1.1={
+		birth=yes
+	}
+	762.1.1={
+		add_claim = d_bruttium
+	}
+	770.1.1={
+		death = yes
 	}
 }

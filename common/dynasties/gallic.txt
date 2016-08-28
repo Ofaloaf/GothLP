@@ -637,3 +637,8 @@
 	name = "Indis"
 	culture = gallic
 }
+
+1940130 = {
+	name = "Sedullis"
+	culture = gallic
+}

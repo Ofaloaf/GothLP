@@ -52,12 +52,19 @@ province_event = {
 					OR = {
 						ROOT = { culture = gothicromance }
 						ROOT = { culture = italogothic }
+						ROOT = { culture = german }
+						ROOT = { culture = gothicbritish }
 					}
 				}
 				AND = {
 					owner = { culture = avar }
 					region = world_europe_south_italy
 					ROOT = { culture = italian }
+				}
+				AND = {
+					owner = { culture = traki }
+					ROOT = { culture = greek }
+					ROOT = { culture = rimlyani }
 				}
 			}
 		}
@@ -248,6 +255,25 @@ province_event = {
 					}
 				}
 				NOT = {	has_global_flag = norse_culture_flipping }
+			}
+			AND = {
+				owner = { culture = gothic }
+				OR = {
+					ROOT = { culture = gothicromance }
+					ROOT = { culture = italogothic }
+					ROOT = { culture = german }
+					ROOT = { culture = gothicbritish }
+				}
+			}
+			AND = {
+				owner = { culture = avar }
+				region = world_europe_south_italy
+				ROOT = { culture = italian }
+			}
+			AND = {
+				owner = { culture = traki }
+				ROOT = { culture = greek }
+				ROOT = { culture = rimlyani }
 			}
 		}
 	}

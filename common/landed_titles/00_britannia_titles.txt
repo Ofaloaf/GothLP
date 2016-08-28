@@ -223,19 +223,24 @@ e_britannia = {
 					# Anderidos
 				}
 				b_chichester = {
-					# Noviomagus
+					# Reginorum
+
+					brithenig = Regnentium
 				}
 				b_lewes = {
 					# Novus Portus # Portslade-by-Sea
 				}
 				b_arundel = {
+					# Trisantonis # This is what Prolemy called the River Arun in the Geographia
 				}
 				b_rye = {
 					# Ripa
 				}
 				b_bramber = {
+					# Arnus # old Latin name for the upper reaches of the River Arun
 				}
 				b_bodiam = {
+					# Limen # old Celtic name for the River Rother, which Bodiam is near
 				}
 			}
 			c_winchester = {
@@ -684,9 +689,12 @@ e_britannia = {
 					gallic = Lerion
 					hispani = Ratae
 					brithenig = "Cair Lerion"
+					welsh = "Caerlyr"
 
 					gothic = "Coritanorum"
 					gothicromance = Curtanis
+
+					saxon = Ligoraceastre
 				}
 				b_nottingham = {
 					# Tyogofog # making shit up
@@ -704,10 +712,13 @@ e_britannia = {
 					# Vernemeto # actually Willoughby on the Wolds
 				}
 				b_tickhill = {
+					# Margidunum # actually Castle Hill, East Bridgeshire
 				}
 				b_worksop = {
+					# Crococalana # actually Brough, Nottinghamshire
 				}
 				b_newstead = {
+					# Volisiacum # making shit up, derived from Volisios of the Corieltauvi
 				}
 			}
 			c_warwick = {
@@ -769,6 +780,7 @@ e_britannia = {
 					# Causennae (probably just Causennis near Grantham)
 				}
 				b_stamford = {
+					# Ad Abum # actually Winteringham; the Roman Latin name is speculative, however.
 				}
 				b_grantham = {
 					# Causennis
@@ -777,6 +789,7 @@ e_britannia = {
 					# Helenacum # making stuff up, reference to Constantine the Great's mum
 				}
 				b_bardney = {
+					# Trisantona # speculative Latin name for the River Trent
 				}
 			}
 		}
@@ -1393,23 +1406,26 @@ e_britannia = {
 					# Petriacum # made up
 				}
 				b_scarborough = {
-					norwegian = "Skardaborg"
-					danish = "Skardaborg"
-					swedish = "Skardaborg"
-					norse = "Skardaborg"
+					# Gabrantovicorum # suggested Roman name for Bridlington, East Riding of Yorkshire
 				}
 				b_skipton = {
 					# Isurium # Isurium Brigantum, actually Aldborough
 				}
 				b_pontefract = {
+					# Delgovicia # exactly location unknown, but east of York somewhere
+
+					brithenig = Devovisia	# rendered 'Devovicia/Devovitia' in AD 700. Vulgarizing further.
+					welsh = Dewowys		# making up shit
 				}
 				b_hull = {
+					# Cataractonium # actually Catterick
+
+					welsh = Catraeth # possible but merely speculated
 				}
 				b_conisbrough = {
-					norwegian = "Kungsborg"
-					danish = "Kungsborg"
-					swedish = "Kungsborg"
-					norse = "Kungsborg"
+					# Derventio # actually Malton, North Yorkshire. 'Dervention Brigantium' if you want to differentiate it more
+
+					brithenig = Deruentione
 				}
 			}
 			c_derby = {
@@ -1432,6 +1448,8 @@ e_britannia = {
 
 					brithenig = "Derwent"
 
+					welsh = Derwennydd
+
 					norwegian = "Djuraby"
 					danish = "Djuraby"
 					swedish = "Djuraby"
@@ -1440,18 +1458,27 @@ e_britannia = {
 					saxon = "Deoraby"
 				}
 				b_bakewell = {
+					# Navio # actually Brough-on-Noe
 				}
 				b_repton = {
+					# Icenis # Icknield Street passes through Derby & is a Roman road. The name might be derived from the Iceni, so I figured it might've been the "Via Icenis" or some such, and then I made shit up from there.
 				}
 				b_bolsover = {
+					# Auladunum # making shit up. Aulus Gallus was governor of Britain when Strett's Park Roman fort was built.
+
+					welsh = "Dinawlys" # 'Dunum' becomes 'Din' and precedes the other name component. I made a guess as Welshified 'Aulus' as 'Awlys'
 				}
 				b_castleton = {
+					# Ostoria # making shit up. Ostorius Scapula was the Roman governor of Britain before Aulus Gallus
 				}
 				b_chesterfield = {
+					# Lutudarium # also rendered 'Lutudarum'. University of Lund says it's Carsington, Wikipedia says could be Wirksworth.
 				}
 				b_burton = {
+					# Aquae Arnemetiae # actually Buxton.
 				}
 				b_wirksworth = {
+					# Cartimanducum # making shit up. Cartimandua was a British queen who helped out Romans around the time Strutt's Park Roman fort was built.
 				}
 			}
 		}

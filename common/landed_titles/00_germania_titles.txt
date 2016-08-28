@@ -1329,6 +1329,7 @@ e_germany = {
 				color2={ 255 255 255 }
 
 				# Nuvenburch
+
 				roman = "Novum Castrum"
 				latine = "Novum Castrum"
 				gallic = "Novum Castellum"
@@ -1340,6 +1341,7 @@ e_germany = {
 
 				b_neuchatel = {
 					# Nuvenburch
+
 					roman = "Novum Castrum"
 					latine = "Novum Castrum"
 					gallic = "Novum Castellum"
@@ -1350,18 +1352,83 @@ e_germany = {
 					german = "Neuenburg"
 				}
 				b_stimier = {
+					# Viromagus # actually Oron-la-Ville
+					# http://www.hls-dhs-dss.ch/index.php aww yeah this is the good stuff
+
+					gothic = Auronum
+					burgundian = Auronum
+					old_frankish = Auronum
+
+					gothicromance = Aurun
+					italogothic = Aurun
+
+					suebi = Orung
+					german = Orung
 				}
 				b_fribourg = {
+					# Minnodunum # actually Moudon
+
+					gothic = Minodum
+					burgundian = Minodum
+					old_frankish = Minodum
+
+					gothicromance = Meldun
+
+					suebi = Milden
+					german = Milden
 				}
 				b_grandson = {
+					# Grancio
+
+					gothic = Grancione
+					old_frankish = Grancione
+					burgundian = Grancione
+					suebi = Gransee
+					german = Gransee
+
+					gothicromance = Gransyun
+					italogothic = Gransion
 				}
 				b_yverdon = {
+					# Eburodunum
+
+					roman = Eburodunum
+
+					gothic = Eburoduno
+					burgundian = Eburoduno
+					old_frankish = Eburoduno
+
+					gothicromance = Yvreduno
+					italogothic = Yvreduno
+
+					suebi = Iferten
+					german = Iferten
 				}
 				b_estavayer = {
+					# Staviacum
+
+					suebi = Stäffis
+					german = Stäffis
+
+					gothicromance = Stavayel
+					italogothic = Stavaiel
 				}
 				b_avences = {
+					# Aventicum
+
+					gothicromance = Avenche
 				}
 				b_murten = {
+					# Moridunum # sort of guessing
+
+					gothic = Muratum
+					burgundian = Muratum
+					old_frankish = Muratum
+					suebi = Murte
+					german = Murten
+
+					gothicromance = Murat
+					italogothic = Murato
 				}
 			}
 			c_bern = {
@@ -1386,6 +1453,7 @@ e_germany = {
 					suibi = "Berna"
 				}
 				b_interlaken = {
+					# Interlacus
 				}
 				b_luzern = {
 					# Luciaria

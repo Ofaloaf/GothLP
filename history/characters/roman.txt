@@ -3392,10 +3392,14 @@
 475041 = {
 	name="Cassiodorus"
 	dynasty = 476002 # Senatore
+	father = 475051
 	religion="orthodox"
 	culture="roman"
 	485.1.1={
 		birth=yes
+	}
+	510.1.1={
+		add_spouse = 4449015
 	}
 	585.1.1={
 		death=yes
@@ -3489,6 +3493,93 @@
 		birth=yes
 	}
 	660.1.1={
+		death=yes
+	}
+}
+
+475049 = {
+	name="Cassiodorus"
+	dynasty = 476002 # Senatore
+	religion="orthodox"
+	culture="greek"
+	395.1.1={
+		birth=yes
+		culture = roman
+	}
+	445.1.1={
+		death=yes
+	}
+}
+
+475050 = {
+	name="Cassiodorus"
+	dynasty = 476002 # Senatore
+	father = 475049
+	religion="orthodox"
+	culture="roman"
+	420.1.1={
+		birth=yes
+	}
+	460.1.1={
+		death=yes
+	}
+}
+
+475051 = {
+	name="Cassiodorus"
+	dynasty = 476002 # Senatore
+	father = 475050
+	religion="orthodox"
+	culture="roman"
+	455.1.1={
+		birth=yes
+	}
+	520.1.1={
+		death=yes
+	}
+}
+
+475052 = {
+	name="Cassiodorus"
+	dynasty = 476002 # Senatore
+	father = 475041
+	mother = 4449015
+	religion="orthodox"
+	culture="roman"
+	518.1.1={
+		birth=yes
+	}
+	580.1.1={
+		death=yes
+	}
+}
+
+475053 = {
+	name="Valentia"
+	female = yes
+	dynasty = 476002 # Senatore
+	father = 475041
+	mother = 4449015
+	religion="orthodox"
+	culture="roman"
+	515.1.1={
+		birth=yes
+	}
+	580.1.1={
+		death=yes
+	}
+}
+
+475054 = {
+	name="Junillus"
+	dynasty = 476002 # Senatore
+	father = 475052
+	religion="orthodox"
+	culture="roman"
+	550.1.1={
+		birth=yes
+	}
+	600.1.1={
 		death=yes
 	}
 }

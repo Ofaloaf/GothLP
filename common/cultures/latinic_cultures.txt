@@ -11,7 +11,7 @@ latinic = {
 			Antoninus Antonius_Antonius Arcadius Aurelianus Aurelius_Aurelius Avitus
 			Belisarius_Belisarius Britannicus 
 			Caecilius Caesar_Caesar Carinus Carus Cassius Claudius Clementius Constans_Constans 
-			Constantinus_Constantine Constantius_Constantius Cornelius Crassus 
+			Constantinus_Constantine Constantius_Constantius Cornelius Crassus Cassiodorus_Cassiodorus
 			Decimus Decius Diocletian Domitian Domitius Drusus 
 			Ennodius 
 			Fabianus Fabius Faustus Felix_Felix Flavianus Florianus Ferreolus
@@ -21,7 +21,7 @@ latinic = {
 			Leo_Leo Leontius_Leontius Liberius Licinius Lucius 
 			Magnus_Magnus Marcellinus Marcellus Marcian Marcus_Marcus Marinus Marius Martinus Maximianus
 			Maximinus Maximus_Maximus Martialis
-			Nepotianus Nerva Numerianus Nicholaus_Nicholas
+			Nepotianus Nerva Numerianus Nicolaus_Nicholas
 			Octavianus Octavius Otho
 			Paulinus Paulus_Paul Petronius Philip_Philip Pompeius Pontianus Priscus Probus Publius
 			Pelagius_Pelagius Pontius
@@ -83,7 +83,7 @@ latinic = {
 			Albino Alexandro_Alexander Anastasio_Anastasius Anicio Annio Antonino Antonio_Antonius Anthemio
 			Arcadio Aureliano Aurelio_Aurelius Avito Andronico_Andronicus Andrea_Andrew Andromacho Aureolo
 			Belisario_Belisarius Beniamino_Benjamin Benedicto_Benedict Bonifacio_Boniface
-			Cecilio Cesare_Caesar Carino Caro Cassio Claudio Clementio Constante_Constans Cassiodoro 
+			Cecilio Cesare_Caesar Carino Caro Cassio Claudio Clementio Constante_Constans Cassiodoro_Cassiodorus
 			Constantino_Constantine Constantio_Constantius Cornelio Crasso Cypriano_Cyprianus Cassiano
 			Comentiolo Cola_Nicholas
 			Decimo Decio Diocletiano Domitiano Domitio Druso Donato Dativo

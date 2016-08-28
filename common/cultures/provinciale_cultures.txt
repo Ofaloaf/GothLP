@@ -22,7 +22,7 @@ provinciale = {
 			Innocentis Ignacis_Ignatius Isaias_Isaiah Irenaeus Illidis
 			Julïen_Julian Julis_Julius Jacobes_Jacob Joanes_John
 			Lucas_Luke Lucius_Lucius Leoncis_Leontius Leo_Leo Laurentis_Laurence Landericus Latuinus 
-			Lazarus_Lazarus Luperculus Lupes_Lupo Laelianus Laurentiolis
+			Lazarus_Lazarus Luperculus Lupes_Lupo Laelïen Laurentiolis
 			Maximiien Michael_Michael Miles Matthaeus_Matthew Marcus_Marcus Maximes_Maximus Mamertinus 
 			Mamertus Mansuetus Mercurius Martines_Martin
 			Nicolaus_Nicholas Nicomaces Nazaris Namatis Nicasis

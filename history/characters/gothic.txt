@@ -407,6 +407,9 @@
 	726.1.1 = {
 		birth = yes
 	}
+	756.1.1 = {
+		add_spouse = 1789025
+	}
 	800.1.1 = {
 		death=yes
 	}
@@ -617,5 +620,21 @@
 	}
 	768.1.1 = {
 		death = yes
+	}
+}
+
+611042 = {
+	name = "Gallus"
+	dynasty = 405030 # Ufargudja
+	father = 611027
+	mother = 1789025
+	culture = gothic
+	religion = arian
+	trait="weak"
+	758.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death=yes
 	}
 }

@@ -1182,8 +1182,6 @@ e_hispania = {
 				levantine_arabic = "Kunka"
 				egyptian_arabic = "Kunka"
 				rumi_arabic = "Kunka"
-
-				catalan = Conca
 				
 				b_siguenza = {
 				}
@@ -1193,8 +1191,6 @@ e_hispania = {
 					levantine_arabic = "Kunka"
 					egyptian_arabic = "Kunka"
 					rumi_arabic = "Kunka"
-
-					atalan = Conca
 				}
 				b_guadalajara = {
 				}
