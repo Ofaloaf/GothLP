@@ -1,3 +1,45 @@
+451.1.1 = {
+	holder = 7777016 # Coel 'the Old' Coelan
+}
+460.1.1 = {
+	holder = 7777017 # Uther Pendragon
+}
+476.1.1 = {
+	holder = 7777018 # Arthwr Pendragon
+}
+499.1.1 = {
+	holder = 7777019 # Mordred / Modrat 'the Bastard' Moderatianus
+}
+500.1.1 = {
+	holder = 7777020 # Melehan Moderatianus
+}
+566.1.1 = {
+	holder = 7777022 # Modrat II Moderatianus
+}
+572.1.1 = {
+	holder = 7777023 # Conan I Moderatianus
+}
+575.1.1 = {
+	holder = 7777024 # Modrat III Moderatianus
+}
+589.1.1 = {
+	holder = 7777026 # Conan II Dwywan
+}
+612.1.1 = {
+	holder = 7777027 # Mewrig I Dwywan
+}
+657.1.1 = {
+	holder = 7777028 # Mewrig II Dwywan
+}
+643.1.1 = {
+	holder = 7777029 # Mewrig III Dwywan
+}
+724.1.1 = {
+	holder = 7777030 # Mewrig IV Dwywan
+}
+732.1.1 = {
+	holder = 7777031 # Mewrig V Dwywan
+}
 763.1.1 = {
 	holder = 7777005 # Sibyl Dwywan
 }

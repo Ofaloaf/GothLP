@@ -1,5 +1,7 @@
 100507 = {
 	name="Kirur"
+	dna = bdlkbriiaaz
+	properties = aj0bbc000000
 	dynasty=802038 # Kirurid
 	religion="norse_pagan"
 	culture="pommeranian"
@@ -16,6 +18,9 @@
 	trait=brave
 	739.1.1={
 		birth=yes
+	}
+	760.1.1 = {
+		add_spouse = 1446006
 	}
 	769.1.1={
 		wealth = 1000
@@ -94,6 +99,81 @@
 		birth = yes
 	}
 	799.1.1 = {
+		death = yes
+	}
+}
+
+1446005 = { 
+	name = "Gelo"
+	dynasty = 501
+	religion = slavic_pagan
+	culture = pommeranian
+	717.1.1 = {
+		birth = yes
+	}
+	739.1.1 = {
+		add_spouse = 1446009
+	}
+	764.1.1 = {
+		death = yes
+	}
+}
+
+1446006 = { 
+	name = "Aglo"
+	female = yes
+	dynasty = 501
+	father = 1446005
+	mother = 1446009
+	religion = norse_pagan
+	culture = pommeranian
+	743.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+
+1446007 = { 
+	name = "Gelo"
+	dynasty = 501
+	father = 1446005
+	mother = 1446009
+	religion = norse_pagan
+	culture = pommeranian
+	740.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+
+1446008 = {
+	name="Gori"
+	dynasty=802038 # Kirurid
+	father = 100507
+	mother = 1446006
+	religion="norse_pagan"
+	culture="pommeranian"
+	760.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+	}
+}
+
+1446009 = { 
+	name = "Rycheza"
+	female = yes
+	religion = norse_pagan
+	culture = pommeranian
+	721.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
 		death = yes
 	}
 }

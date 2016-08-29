@@ -18,5 +18,5 @@ b_tavia = temple
 #b_garsaura = castle
 
 # Misc
-culture = greek
-religion = orthodox
+culture = rumi_arabic
+religion = sunni

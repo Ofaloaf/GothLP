@@ -20,6 +20,8 @@
 207002 = {
 	name="Bagdoch"
 	dynasty=514010 # Iaxamat
+	dna = aefgiqfbeae
+	properties = ob00b0000000
 	religion="tengri_pagan"
 	culture="sarmatian"
 	725.1.1={

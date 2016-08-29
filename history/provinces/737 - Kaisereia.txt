@@ -16,5 +16,5 @@ b_kaisereia = temple
 #b_zoropassos = castle
 
 # Misc
-culture = greek
-religion = orthodox
+culture = rumi_arabic
+religion = sunni

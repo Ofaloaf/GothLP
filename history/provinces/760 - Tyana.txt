@@ -17,5 +17,5 @@ b_archelais = temple
 #b_faustinopolis = castle
 
 # Misc
-culture = greek
-religion = orthodox
+culture = rumi_arabic
+religion = sunni

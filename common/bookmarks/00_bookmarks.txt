@@ -101,6 +101,22 @@ bm_the_old_gods =
 			dynasty=1012003 # Apsintvic
 		}
 	}
+	selectable_character = {
+		id = 476029 # Cassiano Senatore, Dux Bruttium
+
+		age = 19
+		name = ERA_CHAR_NAME_476029
+		title = d_bruttium
+		
+		character = {
+			dna="wwgbkbzfbay"
+			properties="eh0chk0000"
+			religion="catholic"
+			culture="latine"
+			government = feudal_government
+			dynasty=476002 # Senatore
+		}
+	}
 }
 
 # The Orient
@@ -120,7 +136,7 @@ bm_fate_of_england =
 		age = 37
 		name = ERA_CHAR_NAME_73679
 		tite = e_arabia
-		title_name = ERA_UMAYYAD_EMPIRE
+		title_name = d_sunni
 		coa_dynasty = yes
 		dlc = "The Sword of Islam"
 		
@@ -152,12 +168,35 @@ bm_fate_of_england =
 	}
 	selectable_character = {
 		id = 74723 # Khingila Khingilid, leader of the Hephthalites
-	}
-	selectable_character = {
-		id = 1806009 # Frasiyak Afrigid, Shah of Khwarezm
+
+		age = 46
+		name = ERA_CHAR_NAME_74723
+		title = e_hephthalites
+		
+		character = { 
+			dna = bdgeivbbbam
+			properties = fg0aha000000
+			religion="zun_pagan"
+			culture="afghan"
+			government = nomadic_government
+			dynasty=2001001
+		}
 	}
 	selectable_character = {
 		id = 191004 # Bhoja Varman, Maharaja of Kannauj
+
+		age = 16
+		name = ERA_CHAR_NAME_191004
+		title = k_kannauj
+		
+		character = { 
+			dna = cgciafbbaaw
+			properties = ah00ac000000
+			religion="hindu"
+			culture="hindustani"
+			government = feudal_government
+			dynasty=1044300
+		}
 	}
 }
 
@@ -173,18 +212,68 @@ bm_the_mongols =
 
 	selectable_character = {
 		id = 100507 # Kirur of Zemjemore
-	}
-	selectable_character = {
-		id = 194005
+
+		age = 30
+		name = ERA_CHAR_NAME_100507
+		title = d_sjaelland
+		
+		character = { 
+			dna = bdlkbriiaaz
+			properties = aj0bbc000000
+			religion="norse_pagan"
+			culture="pommeranian"
+			government = tribal_government
+			dynasty=802038 # Kirurid
+		}
 	}
 	selectable_character = {
 		id = 7777005 # Sibyl Dwywan, Queen of Loegria
+
+		age = 25
+		name = ERA_CHAR_NAME_7777005
+		title = k_loegria
+		
+		character = { 
+			female = yes
+			dna="ivgnlisegyk"
+			properties="0eacdk00000"
+			religion="arian"
+			culture = brithenig
+			government = feudal_government
+			dynasty=1707105 # Dwywan
+		}
 	}
 	selectable_character = {
-		id = 166583
+		id = 166583 # King Ciniod of Pictavia
+
+		age = 46
+		name = ERA_CHAR_NAME_166583
+		title = k_caledonia
+		
+		character = { 
+			dna="rfensjgfxid"
+			properties="0apcdk00000"
+			religion="celtic_pagan"
+			culture = pictish
+			government = tribal_government
+			dynasty=1040011
+		}
 	}
 	selectable_character = {
-		id = 194013
+		id = 194005 # Hjörvardr Ulfing of Gautland
+
+		age = 46
+		name = ERA_CHAR_NAME_194005
+		title = d_ostergotland
+		
+		character = { 
+			dna="bhjaavafacj"
+			properties="0b00d0"
+			religion="norse_pagan"
+			culture = norse
+			government = tribal_government
+			dynasty=821 # Ulfing
+		}
 	}
 }
 
@@ -199,18 +288,51 @@ bm_100_years_war =
 	picture = GFX_pick_era_image_5
 
 	selectable_character = {
-		id = 20664
+		id = 20664 # Buürgur, Lord of the Alans
+
+		age = 30
+		name = ERA_CHAR_NAME_20664
+		title = d_alania
+		
+		character = { 
+			dna = djeejhjcaaz
+			properties = ao0bfc000000
+			religion="tengri_pagan"
+			culture = alan
+			government = tribal_government
+			dynasty=100602
+		}
 	}
 	selectable_character = {
-		id = 999001
+		id = 999001 # King Tugan Babakhel of Jazygia
+
+		age = 36
+		name = ERA_CHAR_NAME_999001
+		title = k_jazygia
+		
+		character = { 
+			dna = cgeeapcdeaf
+			properties = ag0bha000000
+			religion="tengri_pagan"
+			culture = jasi
+			government = tribal_government
+			dynasty=1872004 # Babakhel
+		}
 	}
 	selectable_character = {
-		id = 207002
-	}
-	selectable_character = {
-		id = 2424002 # Boruth Tuitanus
-	}
-	selectable_character = {
-		id = 74012
+		id = 207002 # Bagdoch of Sambat
+
+		age = 44
+		name = ERA_CHAR_NAME_207002
+		title = d_kiev
+		
+		character = { 
+			dna = aefgiqfbeae
+			properties = ob00b0000000
+			religion="tengri_pagan"
+			culture = sarmatian
+			government = nomadic_government
+			dynasty=514010 # Iaxamat
+		}
 	}
 }

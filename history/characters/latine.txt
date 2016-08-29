@@ -1165,7 +1165,7 @@
 476074 = {
 	name="Cassiodoro"
 	dynasty = 476002 # Senatore
-	father = 476072
+	father = 476071
 	religion="catholic"
 	culture="latine"
 	713.1.1={

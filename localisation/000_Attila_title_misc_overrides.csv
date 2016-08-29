@@ -11,7 +11,7 @@ BM_BM_CHARLEMAGNE_DESC;Two distinct branches of the Goths invaded the Roman worl
 BM_CHARLEMAGNE_ERA;The Goths;;;;;;;;;;;;;x
 BM_CHARLEMAGNE_ERA_INFO;Two distinct branches of the Goths invaded the Roman world in the late 4th and early 5th centuries. The Visigoths attempted to migrate into lands of the Eastern Roman Empire, and were utterly destroyed in Egypt. The Ostrogoths had better luck striking west, and successfully captured the Gallo-Roman city of Lugdunum in AD 402. From Lugdunum, the Goths gradually conquered much of old Gaul over the course of the 5th century, and succeeded in making themselves a permanent fixture in Western Europe. By the middle of the 8th century, the Goths had been settled in Gaul for a little over 300 years, yet still retained many elements of their Germanic, Migration Age culture. Established as they are in the middle of old Roman territory, however, it is only a matter of time before the Romantic ways of their neighbors begin to rub off on them...;;;;;;;;;;;;;x
 BM_THE_OLD_GODS;The Romans;;;;;;;;;;;;;x
-BM_THE_OLD_GODS_DESC;Both the Western and Eastern Roman Empires survived into the Middle Ages, but only just. Both endured significant losses, and underwent significant cultural shifts. The Western Empire, having been driven out of Italy itself by a faction of zealous senators who moved to establish the Pope as head of the realm, retreated to Hispania, where over the centuries it gradually adjusted to the provincial characteristics and Vulgar Latin of the region. The Eastern Empire was nearly overrun by Sassanids in the 5th century, and in its struggle to compensate for loss manpower and military might it drew in massive numbers of Slavic tribes as foederati, who later simply seized the Byzantine state for themselves.;;;;;;;;;;;;;x
+BM_THE_OLD_GODS_DESC;Both the Western and Eastern Roman Empires survived into the Middle Ages, but only just. Both endured significant losses, and underwent significant cultural shifts. The Western Empire, having been driven out of Italy itself by a faction of zealous senators who moved to establish the Pope as head of the realm, retreated to Hispania, where over the centuries it gradually adjusted to the provincial characteristics and Vulgar Latin of the region. The Eastern Empire was nearly overrun by Sassanids in the 5th century, and in its struggle to compensate for lost manpower and military might it drew in massive numbers of Slavic tribes as foederati, who later simply seized the Byzantine state for themselves.;;;;;;;;;;;;;x
 BM_THE_OLD_GODS_ERA;The Romans;;;;;;;;;;;;;x
 BM_FATE_OF_ENGLAND;The Orient;;;;;;;;;;;;;x
 BM_FATE_OF_ENGLAND_DESC;The Middle East in the Early Middle Ages was a chaotic land. The old wars of the Eastern Roman Empire and Sassanid Persia had seen both empires so exhausted that Islam was able to wedge itself between them- but the Caliphs were never able to fully capitalize on their foes' weaknesses, and both Christian Byzantium and Zoroastrian Persia, although scarred, managed to totter out of antiquity and into the Medieval Era.;;;;;;;;;;;;;x
@@ -30,7 +30,7 @@ VIKING_ERA;The Romans;;;;;;;;;;;;;x
 EARLY_MED;The Orient;;;;;;;;;;;;;x
 HIGH_MED;The Northerners;;;;;;;;;;;;;x
 LATE_MED;The Steppes;;;;;;;;;;;;;x
-ERA_CHAR_NAME_73679;Caliph Abd al-Rahman Umayyad;;;;;;;;;;;;;x
+ERA_CHAR_NAME_73679;Caliph Abd al-Rahman;;;;;;;;;;;;;x
 ERA_CHAR_INFO_73679;The Islamic Caliphate found some success in the eternally-contested lands of the Levant, between the Byzantine and Sassanid empires, but was unable to gain much further ground. The Persians to the east managed to hold firm along the Mesopotamian frontier, and the Byzantines managed to hold the line in the Tarsus Mountains. The Umayyads have a firm grip over the lands they do control, but can it ever be enough to defeat one of their old foes?;;;;;;;;;;;;;x
 e_hre;Holy Western Empire;;;;;;;;;;;;;x
 e_hre_adj;Holy Western;;;;;;;;;;;;;x
@@ -164,6 +164,7 @@ c_menorca_adj;Minorican;;;;;;;;;;;;;x
 c_metz_adj;Mettisian;;;;;;;;;;;;;x
 c_middlesex_adj;Londinian;;;;;;;;;;;;;x
 c_modena_adj;Mutinan;;;;;;;;;;;;;x
+c_molina_adj;Idubedan;;;;;;;;;;;;;x
 c_montpellier_adj;Cevennan;;;;;;;;;;;;;x
 c_mosul_adj;Ninevean;;;;;;;;;;;;;x
 c_mzab_adj;Cinnaban;;;;;;;;;;;;;x
@@ -553,6 +554,7 @@ b_burriana;Burgus-Anna;;;;;;;;;;;;;x
 b_burton;Aquae Arnemetiae;;;;;;;;;;;;;x
 b_bury;Adansam;;;;;;;;;;;;;x
 b_buzias;Margum;;;;;;;;;;;;;x
+b_cabanillasdelcampo;Idibedacus;;;;;;;;;;;;;x
 b_cabra;Igrabrum;;;;;;;;;;;;;x
 b_caceres;Caesarina;;;;;;;;;;;;;x
 b_cadiz;Gades;;;;;;;;;;;;;x
@@ -750,6 +752,7 @@ b_crozant;Crosus;;;;;;;;;;;;;x
 b_csak;Dorticum;;;;;;;;;;;;;x
 b_csanad;Morisena;;;;;;;;;;;;;x
 b_csik;Marcodava;;;;;;;;;;;;;x
+b_cuenca;Loutia;;;;;;;;;;;;;x
 b_cueta;Septa;;;;;;;;;;;;;x
 b_cuijck;Ceuclum;;;;;;;;;;;;;x
 b_cuisery;Cuisiriaco;;;;;;;;;;;;;x
@@ -808,6 +811,7 @@ b_eivissa;Ebusus;;;;;;;;;;;;;x
 b_ejea;Segia;;;;;;;;;;;;;x
 b_elachour;Cartenna;;;;;;;;;;;;;x
 b_elbekara;Choba;;;;;;;;;;;;;x
+b_elcasar;Castria;;;;;;;;;;;;;x
 b_elche;Illice;;;;;;;;;;;;;x
 b_eldjabia;Chullu;;;;;;;;;;;;;x
 b_elek;Blandiana;;;;;;;;;;;;;x
@@ -816,6 +820,7 @@ b_elhachem;Ballene;;;;;;;;;;;;;x
 b_elkrib;Lares;;;;;;;;;;;;;x
 b_elmham;Ulmo;;;;;;;;;;;;;x
 b_elna;Illiberis;;;;;;;;;;;;;x
+b_elpedregal;Tubalacum;;;;;;;;;;;;;x
 b_elRdair;Iar;;;;;;;;;;;;;x
 b_elrhenb;Gadaum;;;;;;;;;;;;;x
 b_elvira;Ilturir;;;;;;;;;;;;;x
@@ -930,6 +935,7 @@ b_grezes;Gredonense;;;;;;;;;;;;;x
 b_grimaud;Athenopolis;;;;;;;;;;;;;x
 b_grimbergen;Grenberghis;;;;;;;;;;;;;x
 b_grosseto;Grossetum;;;;;;;;;;;;;x
+b_guadalajara;Arriaca;;;;;;;;;;;;;x
 b_guadelupe;Casta Caecilia;;;;;;;;;;;;;x
 b_guadix;Acci;;;;;;;;;;;;;x
 b_guarda;Longobriga;;;;;;;;;;;;;x
@@ -968,6 +974,7 @@ b_hesbaie;Hesbania;;;;;;;;;;;;;x
 b_hesdin;Hesdinum;;;;;;;;;;;;;x
 b_hexham;Hunnum;;;;;;;;;;;;;x
 b_hijar;Ars;;;;;;;;;;;;;x
+b_hinojosa;Caunus;;;;;;;;;;;;;x
 b_hirsau;Hirsaugia;;;;;;;;;;;;;x
 b_hochstaden;Rigomagus;;;;;;;;;;;;;x
 b_hohenberg;Arbor Felix;;;;;;;;;;;;;x
@@ -1079,6 +1086,7 @@ b_larocheguyon;Rocaguionis;;;;;;;;;;;;;x
 b_larochelle;Rupellum;;;;;;;;;;;;;x
 b_lasnavasdelmadrono;Virgini;;;;;;;;;;;;;x
 b_lasouterraine;Subterranea;;;;;;;;;;;;;x
+b_laspedroneras;Oculis;;;;;;;;;;;;;x
 b_laspezia;Spezam;;;;;;;;;;;;;x
 b_launceston;Sancti Stephani;;;;;;;;;;;;;x
 b_lausanne;Lausanna;;;;;;;;;;;;;x
@@ -1251,6 +1259,7 @@ b_modena;Mutina;;;;;;;;;;;;;x
 b_moers;Calo;;;;;;;;;;;;;x
 b_mogadouro;Durius;;;;;;;;;;;;;x
 b_moissac;Musciacum;;;;;;;;;;;;;x
+b_molina;Manlianus;;;;;;;;;;;;;x
 b_molinalaseca;Ilorci;;;;;;;;;;;;;x
 b_monaco;Monoeci;;;;;;;;;;;;;x
 b_monastir;Ruspinum;;;;;;;;;;;;;x
@@ -1313,6 +1322,7 @@ b_mortain;Mauritanum;;;;;;;;;;;;;x
 b_morteau;Mortua Aqua;;;;;;;;;;;;;x
 b_mortemer;Mortunum;;;;;;;;;;;;;x
 b_mostar;Castrapons;;;;;;;;;;;;;x
+b_motadelacuervo;Cortona;;;;;;;;;;;;;x
 b_motril;Murgis;;;;;;;;;;;;;x
 b_mottola;Motula;;;;;;;;;;;;;x
 b_moulins;Molinae;;;;;;;;;;;;;x
@@ -1826,6 +1836,7 @@ b_tubirett;Dimmidi;;;;;;;;;;;;;x
 b_tunbeja;Vacca;;;;;;;;;;;;;x
 b_turenne;Turenna;;;;;;;;;;;;;x
 b_tuy;Tude;;;;;;;;;;;;;x
+b_ucles;Hoculacum;;;;;;;;;;;;;x
 b_umbriatico;Umbriaticum;;;;;;;;;;;;;x
 b_umm_ar-rasas;Mephaat;;;;;;;;;;;;;x
 b_uncastillo;Castellum;;;;;;;;;;;;;x
@@ -1887,6 +1898,7 @@ b_villareal;Laminium;;;;;;;;;;;;;x
 b_villefrance;Carantomagus;;;;;;;;;;;;;x
 b_villefranchesursaone;Villa Gothi;;;;;;;;;;;;;x
 b_villena;Belliana;;;;;;;;;;;;;x
+b_villanuevadelajara;Caesada;;;;;;;;;;;;;x
 b_villeneuve;Villanova;;;;;;;;;;;;;x
 b_villeneuveleroi;Villanova;;;;;;;;;;;;;x
 b_vinkovci;Cibalae;;;;;;;;;;;;;x
@@ -2066,6 +2078,7 @@ PROV172;Castalia;;;;;;;;;;;;;x
 PROV173;Tarraco;;;;;;;;;;;;;x
 PROV174;Ars;;;;;;;;;;;;;x
 PROV175;Bilbilis;;;;;;;;;;;;;x
+PROV176;Idubeda;;;;;;;;;;;;;x
 PROV177;Segontia;;;;;;;;;;;;;x
 PROV178;Turiaso;;;;;;;;;;;;;x
 PROV179;Orospeda;;;;;;;;;;;;;x

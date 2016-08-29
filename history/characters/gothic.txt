@@ -48,6 +48,8 @@
 	dynasty = 405001 # Triarius
 	father=611041 # Paitrus Triarius
 	mother=611040 # Frithunantha Amalius
+	dna = agbceeccebr
+	properties = aj0bh0000000
 	diplomacy = 8
 	martial = 7
 	intrigue = 7
@@ -393,6 +395,8 @@
 611027 = {
 	name = "Fravittas"
 	dynasty = 405030 # Ufargudja
+	dna = cdllaaijgan
+	properties = ad0bcc000000
 	culture = gothic
 	religion = arian
 	diplomacy = 8
@@ -553,6 +557,8 @@
 	name = "Luthaweic"
 	dynasty = 405007
 	father = 611039 # Gudisal Amalius
+	dna = caekgncfabw
+	properties = ad0aha000000
 	culture = gothic
 	religion = arian
 	726.1.1 = {
@@ -632,6 +638,108 @@
 	religion = arian
 	trait="weak"
 	758.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death=yes
+	}
+}
+
+611043 = {
+	name = "Filippus"
+	dynasty = 1940131 # Petanius
+	culture = gothic
+	religion = arian
+	martial = 12
+	diplomacy = 7
+	intrigue = 9
+	stewardship = 6
+	learning = 6
+	trait = brilliant_strategist
+	trait = proud
+	trait = stubborn
+	trait = sympathy_pagans
+	706.1.1 = {
+		birth = yes
+	}
+	752.1.1 = {
+		add_spouse = 611044
+	}
+	801.1.1 = {
+		death = yes
+	}
+}
+
+611044 = {
+	name = "Eugenia"
+	female = yes
+	culture = gothic
+	religion = arian
+	trait=seductress
+	727.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death=yes
+	}
+}
+
+611045 = {
+	name = "Juduka"
+	female = yes
+	dynasty = 1940131 # Petanius
+	father = 611043
+	mother = 611044
+	culture = gothic
+	religion = arian
+	755.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death=yes
+	}
+}
+
+611046 = {
+	name = "Paitrus"
+	dynasty = 1940131 # Petanius
+	father = 611043
+	mother = 611044
+	culture = gothic
+	religion = arian
+	758.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death=yes
+	}
+}
+
+611047 = {
+	name = "Cathareina"
+	female = yes
+	dynasty = 1940131 # Petanius
+	father = 611043
+	mother = 611044
+	culture = gothic
+	religion = arian
+	759.1.1 = {
+		birth = yes
+	}
+	800.1.1 = {
+		death=yes
+	}
+}
+
+611048 = {
+	name = "Iolantha"
+	female = yes
+	dynasty = 1940131 # Petanius
+	father = 611043
+	mother = 611044
+	culture = gothic
+	religion = arian
+	764.1.1 = {
 		birth = yes
 	}
 	800.1.1 = {

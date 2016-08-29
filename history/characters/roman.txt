@@ -3583,3 +3583,60 @@
 		death=yes
 	}
 }
+
+475055 = {
+	name="Maximus"
+	dynasty = 1476007 # Maximianus
+	religion="orthodox"
+	culture="roman"
+	trait = zealous
+	trait = ambitious
+	335.1.1={
+		birth=yes
+	}
+	383.8.25 = {
+		give_nickname=nick_the_great
+	}
+	388.8.28={
+		death=yes
+	}
+}
+
+475056 = {
+	name="Theodosius"
+	dynasty = 1476004 # Ovidius
+	religion="celtic_pagan"
+	culture="roman"
+	362.1.1={
+		birth=yes
+	}
+	425.1.1={
+		death=yes
+	}
+}
+
+475057 = {
+	name="Mamercus"
+	dynasty = 1476005 # Secundius
+	religion="celtic_pagan"
+	culture="roman"
+	387.1.1={
+		birth=yes
+	}
+	436.1.1={
+		death=yes
+	}
+}
+
+475058 = {
+	name="Salutius"
+	dynasty = 1476006 # Volusius
+	religion="celtic_pagan"
+	culture="roman"
+	383.8.25={
+		birth=yes
+	}
+	451.1.1={
+		death=yes
+	}
+}

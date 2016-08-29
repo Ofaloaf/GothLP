@@ -17,5 +17,5 @@ b_comanagene = temple
 
 # Misc
 terrain = mountain
-culture = greek
-religion = orthodox
+culture = rumi_arabic
+religion = sunni

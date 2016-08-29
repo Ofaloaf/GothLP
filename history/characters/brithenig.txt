@@ -68,8 +68,12 @@
 
 7777005 = {
 	name="Sibyl"
+	dna="ivgnlisegyk"
+	properties="0eacdk00000"
 	female=yes
 	dynasty=1707105 # Dwywan
+	father = 7777031 # Mewrig V Dwywan
+	mother = 7777032 # Caroleth
 	martial=8
 	diplomacy=9
 	intrigue=7
@@ -140,7 +144,7 @@
 	name="Icorig"
 	dynasty=1707006 # Boibont
 	culture="brithenig"
-	religion="celtic_pagan"
+	religion="arian"
 	713.1.1={
 		birth=yes
 	}
@@ -238,6 +242,366 @@
 	culture="brithenig"
 	religion="arian"
 	725.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+7777016 = {
+	name="Coelus"
+	dynasty=1707001 # Coelan
+	culture="brithenig"
+	religion="arian"
+	383.8.25={
+		birth=yes
+	}
+	451.1.1 = {
+		give_nickname=nick_the_old
+	}
+	460.1.1={
+		death=yes
+	}
+}
+
+7777017 = {
+	name="Uther"
+	dynasty=7776003 # Pendragon
+	culture="brithenig"
+	religion="arian"
+	427.1.1={
+		birth=yes
+	}
+	476.1.1={
+		death=yes
+	}
+}
+
+7777018 = {
+	name="Arthwr"
+	dynasty=7776003 # Pendragon
+	father = 7777017 # Uther Pendragon
+	culture="brithenig"
+	religion="arian"
+	trait="legit_bastard"
+	451.1.1={
+		birth=yes
+	}
+	500.1.1={
+		death = { death_reason = death_battle killer = 7777019 }
+	}
+}
+
+7777019 = {
+	name="Modrat"
+	dynasty=1707110 # Moderatianus
+	father = 7777018 # Arthwr Pendragon
+	culture="brithenig"
+	religion="arian"
+	trait="bastard"
+	472.1.1={
+		birth=yes
+		give_nickname=nick_the_bastard
+	}
+	494.1.1={
+		add_spouse = 7777021
+	}
+	500.1.1={
+		death = { death_reason = death_battle killer = 7777018 }
+	}
+}
+
+7777020 = {
+	name="Melehan"
+	dynasty=1707110 # Moderatianus
+	father = 7777019 # Medraut
+	mother = 7777021 # Guinevak
+	culture="brithenig"
+	religion="arian"
+	495.1.1={
+		birth=yes
+	}
+	566.1.1={
+		death=yes
+	}
+}
+
+7777021 = {
+	name="Guinevak"
+	female = yes
+	culture="brithenig"
+	religion="arian"
+	474.1.1={
+		birth=yes
+	}
+	502.1.1={
+		death=yes
+	}
+}
+
+7777022 = {
+	name="Modrat"
+	dynasty=1707110 # Moderatianus
+	father = 7777019 # Medraut
+	mother = 7777021 # Guinevak
+	culture="brithenig"
+	religion="arian"
+	498.1.1={
+		birth=yes
+	}
+	572.1.1={
+		death=yes
+	}
+}
+
+7777023 = {
+	name="Conan"
+	dynasty=1707110 # Moderatianus
+	father = 7777022 # Medraut
+	culture="brithenig"
+	religion="arian"
+	526.1.1={
+		birth=yes
+	}
+	575.1.1={
+		death=yes
+	}
+}
+
+7777024 = {
+	name="Modrat"
+	dynasty=1707110 # Moderatianus
+	father = 7777022 # Medraut
+	culture="brithenig"
+	religion="arian"
+	529.1.1={
+		birth=yes
+	}
+	589.1.1={
+		death=yes
+	}
+}
+
+7777025 = {
+	name="Mewrig"
+	dynasty=1707105 # Dwywan
+	culture="brithenig"
+	religion="arian"
+	528.1.1={
+		birth=yes
+	}
+	570.1.1={
+		death=yes
+	}
+}
+
+7777026 = {
+	name="Conan"
+	dynasty=1707105 # Dwywan
+	father = 7777025
+	culture="brithenig"
+	religion="arian"
+	549.1.1={
+		birth=yes
+	}
+	612.1.1={
+		death=yes
+	}
+}
+
+7777027 = {
+	name="Mewrig"
+	dynasty=1707105 # Dwywan
+	father = 7777026
+	culture="brithenig"
+	religion="arian"
+	580.1.1={
+		birth=yes
+	}
+	657.1.1={
+		death=yes
+	}
+}
+
+7777028 = {
+	name="Mewrig"
+	dynasty=1707105 # Dwywan
+	father = 7777027
+	culture="brithenig"
+	religion="arian"
+	611.1.1={
+		birth=yes
+	}
+	643.1.1={
+		death=yes
+	}
+}
+
+7777029 = {
+	name="Mewrig"
+	dynasty=1707105 # Dwywan
+	father = 7777028
+	culture="brithenig"
+	religion="arian"
+	637.1.1={
+		birth=yes
+	}
+	724.1.1={
+		death=yes
+	}
+}
+
+7777030 = {
+	name="Mewrig"
+	dynasty=1707105 # Dwywan
+	father = 7777029
+	culture="brithenig"
+	religion="arian"
+	679.1.1={
+		birth=yes
+	}
+	606.1.1 = {
+		add_spouse = 7777033
+	}
+	732.1.1={
+		death=yes
+	}
+}
+
+7777031 = {
+	name="Mewrig"
+	dynasty=1707105 # Dwywan
+	father = 7777030
+	mother = 7777033
+	culture="brithenig"
+	religion="arian"
+	710.1.1={
+		birth=yes
+	}
+	742.1.1={
+		add_spouse = 7777032
+	}
+	746.1.1 = {
+		give_nickname = nick_the_unlucky
+	}
+	763.1.1={
+		death=yes
+	}
+}
+
+7777032 = {
+	name="Caroleth"
+	female = yes
+	culture="brithenig"
+	religion="arian"
+	720.1.1={
+		birth=yes
+	}
+	746.1.1={
+		death=yes
+	}
+}
+
+7777033 = {
+	name="Buddega"
+	female = yes
+	culture="brithenig"
+	religion="arian"
+	679.1.1={
+		birth=yes
+	}
+	748.1.1={
+		death=yes
+	}
+}
+
+7777034 = {
+	name="Mair"
+	female = yes
+	dynasty=1707105 # Dwywan
+	father = 7777030
+	mother = 7777033
+	culture="brithenig"
+	religion="arian"
+	712.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+7777034 = {
+	name="Conan"
+	dynasty=1707105 # Dwywan
+	father = 7777030
+	mother = 7777033
+	culture="brithenig"
+	religion="arian"
+	713.1.1={
+		birth=yes
+	}
+	737.1.1 = {
+		add_spouse = 7777035
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+7777035 = {
+	name="Ourdolat"
+	female = yes
+	culture="brithenig"
+	religion="arian"
+	715.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+7777036 = {
+	name="Conan"
+	dynasty=1707105 # Dwywan
+	father = 7777034
+	mother = 7777035
+	culture="brithenig"
+	religion="arian"
+	739.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+7777037 = {
+	name="Mewrig"
+	dynasty=1707105 # Dwywan
+	father = 7777034
+	mother = 7777035
+	culture="brithenig"
+	religion="arian"
+	740.1.1={
+		birth=yes
+	}
+	800.1.1={
+		death=yes
+	}
+}
+
+7777038 = {
+	name="Sibyl"
+	female = yes
+	dynasty=1707105 # Dwywan
+	father = 7777034
+	mother = 7777035
+	culture="brithenig"
+	religion="arian"
+	744.1.1={
 		birth=yes
 	}
 	800.1.1={

@@ -4,4 +4,5 @@
 
 768.9.24 = {
 	holder = 611027 # Fravittas Ufargudja
+	conquest_culture = gothic
 }

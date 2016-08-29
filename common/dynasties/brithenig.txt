@@ -542,3 +542,9 @@
 	name = "Iserninus"
 	culture = brithenig
 }
+
+1707110 = {
+	name = "Moderatianus"
+	culture = brithenig
+	used_for_random = no
+}

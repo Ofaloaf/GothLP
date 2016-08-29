@@ -1,0 +1,22 @@
+383.8.25 = {
+	holder = 475055 # Magnus Maximus / Maximus 'the Great' Maximianus
+}
+405.1.1 = {
+	holder = 475056 # Gnaeus Ovidius Theodosius / Theodosius Ovidius
+}
+425.1.1 = {
+	holder = 475057 # Secundus Aulus Mamercus / Mamercus Secundius
+}
+436.1.1 = {
+	holder = 475058 # Gaius Volusius Salutius / Salutius Volusius
+}
+451.1.1 = {
+	holder = 7777016 # Coel Hen / Coelus 'The Old' Coelan
+}
+460.1.1 = {
+	holder = 7777017 # Uther Pendragon
+}
+476.1.1 = {
+	holder = 7777018 # Arthwr Pendragon
+}
+# 499 # ded

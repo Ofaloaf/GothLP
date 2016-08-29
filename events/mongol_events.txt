@@ -6,2051 +6,2053 @@
 #
 ###################################
 
-# Rumors of a Steppe Menace
-narrative_event = {
-	id = 60000
-	title = EVTNAME60000
-	desc = EVTDESC60000
-	major = yes
-	
-	picture = "GFX_evt_mongols"
-	border = "GFX_event_narrative_frame_war"
-	
-	only_playable = yes
-	religion = catholic
-	
-	trigger = {
-		always = no # replaced by new mongol arrival event
-		year = 1215
-		
-		controls_religion = yes # Let it happen for the Pope - he's always around
-		
-		NOT = { has_global_flag = mongol_horde_rumors }
-		NOT = { has_global_flag = il_khanate_arrival }
-		NOT = { has_global_flag = golden_horde_arrival }
-	}
-	
-	mean_time_to_happen = {
-		months = 1
-	}
-	
-	immediate = {
-		set_global_flag = mongol_horde_rumors
-		activate_title = { title = e_il-khanate status = yes }
-		create_random_soldier = {
-			random_traits = no
-			dynasty = 101916 # Toluid
-			name = "Hulegu"
-			culture = mongol
-			religion = tengri_pagan
-			age = 30
-			attributes = {
-				martial = 8
-				diplomacy = 4
-				stewardship = 5
-				intrigue = 4
-				learning = 3
-			}
-			health = 6
-			fertility = 0.7
-			trait = brilliant_strategist
-			trait = wroth
-			trait = cruel
-			trait = proud
-			trait = zealous
-		}
-		new_character = {
-			e_il-khanate = {
-				grant_title = PREV
-			}
-			set_defacto_liege = THIS
-		}
-		any_playable_ruler = {
-			limit = { ai = no }
-			chronicle = {
-				entry = CHRONICLE_MONGOL_RUMORS
-				portrait = [New.GetID]
-			}
-		}
-		
-		activate_title = { title = e_golden_horde status = yes }
-		create_random_soldier = {
-			random_traits = no
-			dynasty = 7379 # Jochid
-			name = "Batu"
-			culture = mongol
-			religion = tengri_pagan
-			age = 33
-			attributes = {
-				martial = 9
-				diplomacy = 5
-				stewardship = 8
-				intrigue = 7
-				learning = 3
-			}
-			health = 6
-			fertility = 0.7
-			trait = brilliant_strategist
-			trait = diligent
-			trait = humble
-			trait = gregarious
-			trait = just
-		}
-		new_character = {
-			e_golden_horde = {
-				grant_title = PREV
-			}
-			set_defacto_liege = THIS
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA60000"
-	}
-}
-
-# Arrival of the Ilkhanate
-narrative_event = {
-	id = 60001
-	title = "EVTNAME60001"
-	desc = "EVTDESC60001"
-	major = yes
-	hide_new = yes
-	
-	picture = "GFX_evt_mongols"
-	border = "GFX_event_narrative_frame_war"
-	
-	only_playable = yes
-	
-	trigger = {
-		always = no # replaced by new mongol arrival event
-		year = 1216
-		has_landed_title = e_il-khanate
-		NOT = { year = 1224 }
-		NOT = { has_global_flag = il_khanate_arrival }
-	}
-	
-	mean_time_to_happen = {
-		months = 24
-	}
-	
-	option = {
-		name = "OK"
-		trigger = {
-			has_landed_title = e_il-khanate
-		}
-		set_global_flag = il_khanate_arrival
-		1423 = { # Fergana
-			kingdom = {
-				ROOT = {
-					war = {
-						casus_belli = tribal_invasion
-						target = PREVPREV # The top liege of the owner
-						thirdparty_title = PREV # The de jure kingdom
-					}
-				}
-			}
-		}
-		wealth = 5000
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 30
-			attributes = {
-				martial = 12
-			}
-			trait = brilliant_strategist
-		}
-		new_character = {
-			spawn_unit = {
-				province = 1423 # Fergana
-				troops =
-				{
-					horse_archers = { 2700 2700 }
-					light_cavalry = { 1600 1600 }
-					light_infantry = { 541 541 }
-					heavy_infantry = { 210 210 }
-					knights = { 47 47 }
-				}
-			}
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 35
-			attributes = {
-				martial = 12
-			}
-			trait = brilliant_strategist
-		}
-		new_character = {
-			spawn_unit = {
-				province = 1423 # Fergana
-				troops =
-				{
-					horse_archers = { 2700 2700 }
-					light_cavalry = { 1600 1600 }
-					light_infantry = { 541 541 }
-					heavy_infantry = { 210 210 }
-					knights = { 47 47 }
-				}
-			}
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 39
-			attributes = {
-				martial = 12
-			}
-			trait = brilliant_strategist
-		}
-		new_character = {
-			spawn_unit = {
-				province = 1423 # Fergana
-				troops =
-				{
-					horse_archers = { 2700 2700 }
-					light_cavalry = { 1600 1600 }
-					light_infantry = { 541 541 }
-					heavy_infantry = { 210 210 }
-					knights = { 47 47 }
-				}
-			}
-		}
-		
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 30
-			attributes = {
-				martial = 12
-			}
-			trait = brilliant_strategist
-		}
-		new_character = {
-			spawn_unit = {
-				province = 1423 # Fergana
-				troops =
-				{
-					horse_archers = { 2700 2700 }
-					light_cavalry = { 1600 1600 }
-					light_infantry = { 541 541 }
-					heavy_infantry = { 210 210 }
-					knights = { 47 47 }
-				}
-			}
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 35
-			attributes = {
-				martial = 12
-			}
-			trait = brilliant_strategist
-		}
-		new_character = {
-			spawn_unit = {
-				province = 1423 # Fergana
-				troops =
-				{
-					horse_archers = { 2700 2700 }
-					light_cavalry = { 1600 1600 }
-					light_infantry = { 541 541 }
-					heavy_infantry = { 210 210 }
-					knights = { 47 47 }
-				}
-			}
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 39
-			attributes = {
-				martial = 12
-			}
-			trait = brilliant_strategist
-		}
-		new_character = {
-			spawn_unit = {
-				province = 1423 # Fergana
-				troops =
-				{
-					horse_archers = { 2700 2700 }
-					light_cavalry = { 1600 1600 }
-					light_infantry = { 541 541 }
-					heavy_infantry = { 210 210 }
-					knights = { 47 47 }
-				}
-			}
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 30
-			attributes = {
-				martial = 12
-			}
-			trait = brilliant_strategist
-		}
-		new_character = {
-			spawn_unit = {
-				province = 1423 # Fergana
-				troops =
-				{
-					horse_archers = { 2700 2700 }
-					light_cavalry = { 1600 1600 }
-					light_infantry = { 541 541 }
-					heavy_infantry = { 210 210 }
-					knights = { 47 47 }
-				}
-			}
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 35
-			attributes = {
-				martial = 12
-			}
-			trait = brilliant_strategist
-		}
-		new_character = {
-			spawn_unit = {
-				province = 1423 # Fergana
-				troops =
-				{
-					horse_archers = { 2700 2700 }
-					light_cavalry = { 1600 1600 }
-					light_infantry = { 541 541 }
-					heavy_infantry = { 210 210 }
-					knights = { 47 47 }
-				}
-			}
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 39
-			attributes = {
-				martial = 12
-			}
-			trait = brilliant_strategist
-		}
-		new_character = {
-			spawn_unit = {
-				province = 1423 # Fergana
-				troops =
-				{
-					horse_archers = { 2700 2700 }
-					light_cavalry = { 1600 1600 }
-					light_infantry = { 541 541 }
-					heavy_infantry = { 210 210 }
-					knights = { 47 47 }
-				}
-			}
-		}
-		
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 30
-			attributes = {
-				martial = 12
-			}
-			trait = brilliant_strategist
-		}
-		new_character = {
-			spawn_unit = {
-				province = 1181 # Oshrusana
-				troops =
-				{
-					horse_archers = { 2700 2700 }
-					light_cavalry = { 1600 1600 }
-					light_infantry = { 541 541 }
-					heavy_infantry = { 210 210 }
-					knights = { 47 47 }
-				}
-			}
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 35
-			attributes = {
-				martial = 12
-			}
-			trait = brilliant_strategist
-		}
-		new_character = {
-			spawn_unit = {
-				province = 1181 # Oshrusana
-				troops =
-				{
-					horse_archers = { 2700 2700 }
-					light_cavalry = { 1600 1600 }
-					light_infantry = { 541 541 }
-					heavy_infantry = { 210 210 }
-					knights = { 47 47 }
-				}
-			}
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 39
-			attributes = {
-				martial = 12
-			}
-			trait = brilliant_strategist
-		}
-		new_character = {
-			spawn_unit = {
-				province = 1181 # Oshrusana
-				troops =
-				{
-					horse_archers = { 2700 2700 }
-					light_cavalry = { 1600 1600 }
-					light_infantry = { 541 541 }
-					heavy_infantry = { 210 210 }
-					knights = { 47 47 }
-				}
-			}
-		}
-		
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 30
-			attributes = {
-				martial = 12
-			}
-			trait = brilliant_strategist
-		}
-		new_character = {
-			spawn_unit = {
-				province = 1181 # Oshrusana
-				troops =
-				{
-					horse_archers = { 2700 2700 }
-					light_cavalry = { 1600 1600 }
-					light_infantry = { 541 541 }
-					heavy_infantry = { 210 210 }
-					knights = { 47 47 }
-				}
-			}
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 35
-			attributes = {
-				martial = 12
-			}
-			trait = brilliant_strategist
-		}
-		new_character = {
-			spawn_unit = {
-				province = 1181 # Oshrusana
-				troops =
-				{
-					horse_archers = { 2700 2700 }
-					light_cavalry = { 1600 1600 }
-					light_infantry = { 541 541 }
-					heavy_infantry = { 210 210 }
-					knights = { 47 47 }
-				}
-			}
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 39
-			attributes = {
-				martial = 12
-			}
-			trait = brilliant_strategist
-		}
-		new_character = {
-			spawn_unit = {
-				province = 1181 # Oshrusana
-				troops =
-				{
-					horse_archers = { 2700 2700 }
-					light_cavalry = { 1600 1600 }
-					light_infantry = { 541 541 }
-					heavy_infantry = { 210 210 }
-					knights = { 47 47 }
-				}
-			}
-		}
-		
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 30
-			attributes = {
-				martial = 12
-			}
-			trait = brilliant_strategist
-		}
-		new_character = {
-			spawn_unit = {
-				province = 1181 # Oshrusana
-				troops =
-				{
-					horse_archers = { 2700 2700 }
-					light_cavalry = { 1600 1600 }
-					light_infantry = { 541 541 }
-					heavy_infantry = { 210 210 }
-					knights = { 47 47 }
-				}
-			}
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 35
-			attributes = {
-				martial = 12
-			}
-			trait = brilliant_strategist
-		}
-		new_character = {
-			spawn_unit = {
-				province = 1181 # Oshrusana
-				troops =
-				{
-					horse_archers = { 2700 2700 }
-					light_cavalry = { 1600 1600 }
-					light_infantry = { 541 541 }
-					heavy_infantry = { 210 210 }
-					knights = { 47 47 }
-				}
-			}
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 39
-			attributes = {
-				martial = 12
-			}
-			trait = brilliant_strategist
-		}
-		new_character = {
-			spawn_unit = {
-				province = 1181 # Oshrusana
-				troops =
-				{
-					horse_archers = { 2700 2700 }
-					light_cavalry = { 1600 1600 }
-					light_infantry = { 541 541 }
-					heavy_infantry = { 210 210 }
-					knights = { 47 47 }
-				}
-			}
-		}
-		
-		random = {
-			chance = 50
-			
-			create_character = {
-				random_traits = yes
-				dynasty = random
-				religion = tengri_pagan
-				culture = ROOT
-				female = no
-				age = 30
-				attributes = {
-					martial = 12
-				}
-				trait = brilliant_strategist
-			}
-			new_character = {
-				spawn_unit = {
-					province = 903 # Samarkand
-					troops =
-					{
-						horse_archers = { 2700 2700 }
-						light_cavalry = { 1600 1600 }
-						light_infantry = { 541 541 }
-						heavy_infantry = { 210 210 }
-						knights = { 47 47 }
-					}
-				}
-			}
-			create_character = {
-				random_traits = yes
-				dynasty = random
-				religion = tengri_pagan
-				culture = ROOT
-				female = no
-				age = 35
-				attributes = {
-					martial = 12
-				}
-				trait = brilliant_strategist
-			}
-			new_character = {
-				spawn_unit = {
-					province = 903 # Samarkand
-					troops =
-					{
-						horse_archers = { 2700 2700 }
-						light_cavalry = { 1600 1600 }
-						light_infantry = { 541 541 }
-						heavy_infantry = { 210 210 }
-						knights = { 47 47 }
-					}
-				}
-			}
-			create_character = {
-				random_traits = yes
-				dynasty = random
-				religion = tengri_pagan
-				culture = ROOT
-				female = no
-				age = 39
-				attributes = {
-					martial = 12
-				}
-				trait = brilliant_strategist
-			}
-			new_character = {
-				spawn_unit = {
-					province = 903 # Samarkand
-					troops =
-					{
-						horse_archers = { 2700 2700 }
-						light_cavalry = { 1600 1600 }
-						light_infantry = { 541 541 }
-						heavy_infantry = { 210 210 }
-						knights = { 47 47 }
-					}
-				}
-			}
-		}
-		random = {
-			chance = 50
-			create_character = {
-				random_traits = yes
-				dynasty = random
-				religion = tengri_pagan
-				culture = ROOT
-				female = no
-				age = 30
-				attributes = {
-					martial = 12
-				}
-				trait = brilliant_strategist
-			}
-			new_character = {
-				spawn_unit = {
-					province = 903 # Samarkand
-					troops =
-					{
-						horse_archers = { 2700 2700 }
-						light_cavalry = { 1600 1600 }
-						light_infantry = { 541 541 }
-						heavy_infantry = { 210 210 }
-						knights = { 47 47 }
-					}
-				}
-			}
-			create_character = {
-				random_traits = yes
-				dynasty = random
-				religion = tengri_pagan
-				culture = ROOT
-				female = no
-				age = 35
-				attributes = {
-					martial = 12
-				}
-				trait = brilliant_strategist
-			}
-			new_character = {
-				spawn_unit = {
-					province = 903 # Samarkand
-					troops =
-					{
-						horse_archers = { 2700 2700 }
-						light_cavalry = { 1600 1600 }
-						light_infantry = { 541 541 }
-						heavy_infantry = { 210 210 }
-						knights = { 47 47 }
-					}
-				}
-			}
-			create_character = {
-				random_traits = yes
-				dynasty = random
-				religion = tengri_pagan
-				culture = ROOT
-				female = no
-				age = 39
-				attributes = {
-					martial = 12
-				}
-				trait = brilliant_strategist
-			}
-			new_character = {
-				spawn_unit = {
-					province = 903 # Samarkand
-					troops =
-					{
-						horse_archers = { 2700 2700 }
-						light_cavalry = { 1600 1600 }
-						light_infantry = { 541 541 }
-						heavy_infantry = { 210 210 }
-						knights = { 47 47 }
-					}
-				}
-			}
-		}
-		
-		# Some extra courtiers
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 16
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 18
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 18
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 20
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 25
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 26
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 28
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = yes
-			age = 16
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = yes
-			age = 17
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = yes
-			age = 18
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = yes
-			age = 18
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = yes
-			age = 20
-		}
-	}
-	option = {
-		name = "EVTOPTB60001"
-		trigger = {
-			religion_group = muslim
-			NOT = { has_landed_title = e_il-khanate }
-		}
-	}
-	option = {
-		name = "EVTOPTC60001"
-		trigger = {
-			religion_group = christian
-			NOT = { has_landed_title = e_il-khanate }
-		}
-	}
-	option = {
-		name = "EVTOPTD60001"
-		trigger = {
-			NOT = { religion_group = christian }
-			NOT = { religion_group = muslim }
-			NOT = { has_landed_title = e_il-khanate }
-		}
-	}
-}
-
-
-# Arrival of the Golden Horde
-narrative_event = {
-	id = 60002
-	title = "EVTNAME60002"
-	desc = "EVTDESC60002"
-	major = yes
-	hide_new = yes
-	
-	picture = "GFX_evt_mongols"
-	border = "GFX_event_narrative_frame_war"
-	
-	only_playable = yes
-	
-	trigger = {
-		always = no # replaced by new mongol arrival event
-		year = 1224
-		NOT = { year = 1250 }
-		has_landed_title = e_golden_horde
-		has_global_flag = il_khanate_arrival
-		NOT = { has_global_flag = golden_horde_arrival }
-	}
-	
-	mean_time_to_happen = {
-		months = 120
-		modifier = {
-			factor = 0.5
-			year = 1235
-		}
-		modifier = {
-			factor = 0.5
-			year = 1240
-		}
-	}
-	
-	option = {
-		name = "OK"
-		trigger = {
-			has_landed_title = e_golden_horde
-		}
-		set_global_flag = golden_horde_arrival
-		if = {
-			limit = {
-				1425 = {
-					owner = {
-						realm = {
-							NOT = { title = e_il-khanate }
-						}
-					}
-				}
-			}
-			1425 = { # Ili
-				kingdom = {
-					ROOT = {
-						war = {
-							casus_belli = tribal_invasion
-							target = PREVPREV # The top liege of the owner of the province
-							thirdparty_title = PREV # The de jure kingdom
-						}
-					}
-				}
-			}
-		}
-		if = {
-			limit = {
-				war = no
-				1427 = {
-					owner = {
-						realm = {
-							NOT = { title = e_il-khanate }
-						}
-					}
-				}
-			}
-			1427 = { # Urzhar
-				kingdom = {
-					ROOT = {
-						war = {
-							casus_belli = tribal_invasion
-							target = PREVPREV # The top liege of the owner of the province
-							thirdparty_title = PREV # The de jure kingdom
-						}
-					}
-				}
-			}
-		}
-		if = {
-			limit = {
-				war = no
-				1132 = {
-					owner = {
-						realm = {
-							NOT = { title = e_il-khanate }
-						}
-					}
-				}
-			}
-			1132 = { # Kirghiz
-				kingdom = {
-					ROOT = {
-						war = {
-							casus_belli = tribal_invasion
-							target = PREVPREV # The top liege of the owner of the province
-							thirdparty_title = PREV # The de jure kingdom
-						}
-					}
-				}
-			}
-		}
-		if = {
-			limit = {
-				war = no
-				1329 = {
-					owner = {
-						realm = {
-							NOT = { title = e_il-khanate }
-						}
-					}
-				}
-			}
-			1329 = { # Ket
-				kingdom = {
-					ROOT = {
-						war = {
-							casus_belli = tribal_invasion
-							target = PREVPREV # The top liege of the owner of the province
-							thirdparty_title = PREV # The de jure kingdom
-						}
-					}
-				}
-			}
-		}
-		if = {
-			limit = {
-				war = no
-				1205 = {
-					owner = {
-						realm = {
-							NOT = { title = e_il-khanate }
-						}
-					}
-				}
-			}
-			1205 = { # Narim
-				kingdom = {
-					ROOT = {
-						war = {
-							casus_belli = tribal_invasion
-							target = PREVPREV # The top liege of the owner of the province
-							thirdparty_title = PREV # The de jure kingdom
-						}
-					}
-				}
-			}
-		}
-		if = {
-			limit = {
-				war = no
-				1306 = {
-					owner = {
-						realm = {
-							NOT = { title = e_il-khanate }
-						}
-					}
-				}
-			}
-			1306 = { # Tura
-				kingdom = {
-					ROOT = {
-						war = {
-							casus_belli = tribal_invasion
-							target = PREVPREV # The top liege of the owner of the province
-							thirdparty_title = PREV # The de jure kingdom
-						}
-					}
-				}
-			}
-		}
-		if = {
-			limit = {
-				war = no
-			}
-			1425 = { # Ili - Ok, we have no choice. DoW on the Il-Khanate.
-				kingdom = {
-					ROOT = {
-						war = {
-							casus_belli = tribal_invasion
-							target = PREVPREV # The top liege of the owner of the province
-							thirdparty_title = PREV # The de jure kingdom
-						}
-					}
-				}
-			}
-		}
-		
-		wealth = 5000
-		
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 30
-			attributes = {
-				martial = 12
-			}
-			trait = brilliant_strategist
-		}
-		new_character = {
-			spawn_unit = {
-				province = 1425 # Ili
-				troops =
-				{
-					horse_archers = { 2700 2700 }
-					light_cavalry = { 1600 1600 }
-					light_infantry = { 541 541 }
-					heavy_infantry = { 210 210 }
-					knights = { 47 47 }
-				}
-			}
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 35
-			attributes = {
-				martial = 12
-			}
-			trait = brilliant_strategist
-		}
-		new_character = {
-			spawn_unit = {
-				province = 1425 # Ili
-				troops =
-				{
-					horse_archers = { 2700 2700 }
-					light_cavalry = { 1600 1600 }
-					light_infantry = { 541 541 }
-					heavy_infantry = { 210 210 }
-					knights = { 47 47 }
-				}
-			}
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 39
-			attributes = {
-				martial = 12
-			}
-			trait = brilliant_strategist
-		}
-		new_character = {
-			spawn_unit = {
-				province = 1425 # Ili
-				troops =
-				{
-					horse_archers = { 2700 2700 }
-					light_cavalry = { 1600 1600 }
-					light_infantry = { 541 541 }
-					heavy_infantry = { 210 210 }
-					knights = { 47 47 }
-				}
-			}
-		}
-		
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 30
-			attributes = {
-				martial = 12
-			}
-			trait = brilliant_strategist
-		}
-		new_character = {
-			spawn_unit = {
-				province = 1425 # Ili
-				troops =
-				{
-					horse_archers = { 2700 2700 }
-					light_cavalry = { 1600 1600 }
-					light_infantry = { 541 541 }
-					heavy_infantry = { 210 210 }
-					knights = { 47 47 }
-				}
-			}
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 35
-			attributes = {
-				martial = 12
-			}
-			trait = brilliant_strategist
-		}
-		new_character = {
-			spawn_unit = {
-				province = 1425 # Ili
-				troops =
-				{
-					horse_archers = { 2700 2700 }
-					light_cavalry = { 1600 1600 }
-					light_infantry = { 541 541 }
-					heavy_infantry = { 210 210 }
-					knights = { 47 47 }
-				}
-			}
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 39
-			attributes = {
-				martial = 12
-			}
-			trait = brilliant_strategist
-		}
-		new_character = {
-			spawn_unit = {
-				province = 1425 # Ili
-				troops =
-				{
-					horse_archers = { 2700 2700 }
-					light_cavalry = { 1600 1600 }
-					light_infantry = { 541 541 }
-					heavy_infantry = { 210 210 }
-					knights = { 47 47 }
-				}
-			}
-		}
-		
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 30
-			attributes = {
-				martial = 12
-			}
-			trait = brilliant_strategist
-		}
-		new_character = {
-			spawn_unit = {
-				province = 1425 # Ili
-				troops =
-				{
-					horse_archers = { 2700 2700 }
-					light_cavalry = { 1600 1600 }
-					light_infantry = { 541 541 }
-					heavy_infantry = { 210 210 }
-					knights = { 47 47 }
-				}
-			}
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 35
-			attributes = {
-				martial = 12
-			}
-			trait = brilliant_strategist
-		}
-		new_character = {
-			spawn_unit = {
-				province = 1425 # Ili
-				troops =
-				{
-					horse_archers = { 2700 2700 }
-					light_cavalry = { 1600 1600 }
-					light_infantry = { 541 541 }
-					heavy_infantry = { 210 210 }
-					knights = { 47 47 }
-				}
-			}
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 39
-			attributes = {
-				martial = 12
-			}
-			trait = brilliant_strategist
-		}
-		new_character = {
-			spawn_unit = {
-				province = 1425 # Ili
-				troops =
-				{
-					horse_archers = { 2700 2700 }
-					light_cavalry = { 1600 1600 }
-					light_infantry = { 541 541 }
-					heavy_infantry = { 210 210 }
-					knights = { 47 47 }
-				}
-			}
-		}
-		
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 30
-			attributes = {
-				martial = 12
-			}
-			trait = brilliant_strategist
-		}
-		new_character = {
-			spawn_unit = {
-				province = 1427 # Urzhar
-				troops =
-				{
-					horse_archers = { 2700 2700 }
-					light_cavalry = { 1600 1600 }
-					light_infantry = { 541 541 }
-					heavy_infantry = { 210 210 }
-					knights = { 47 47 }
-				}
-			}
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 35
-			attributes = {
-				martial = 12
-			}
-			trait = brilliant_strategist
-		}
-		new_character = {
-			spawn_unit = {
-				province = 1427 # Urzhar
-				troops =
-				{
-					horse_archers = { 2700 2700 }
-					light_cavalry = { 1600 1600 }
-					light_infantry = { 541 541 }
-					heavy_infantry = { 210 210 }
-					knights = { 47 47 }
-				}
-			}
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 39
-			attributes = {
-				martial = 12
-			}
-			trait = brilliant_strategist
-		}
-		new_character = {
-			spawn_unit = {
-				province = 1427 # Urzhar
-				troops =
-				{
-					horse_archers = { 2700 2700 }
-					light_cavalry = { 1600 1600 }
-					light_infantry = { 541 541 }
-					heavy_infantry = { 210 210 }
-					knights = { 47 47 }
-				}
-			}
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 30
-			attributes = {
-				martial = 12
-			}
-			trait = brilliant_strategist
-		}
-		new_character = {
-			spawn_unit = {
-				province = 1427 # Urzhar
-				troops =
-				{
-					horse_archers = { 2700 2700 }
-					light_cavalry = { 1600 1600 }
-					light_infantry = { 541 541 }
-					heavy_infantry = { 210 210 }
-					knights = { 47 47 }
-				}
-			}
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 35
-			attributes = {
-				martial = 12
-			}
-			trait = brilliant_strategist
-		}
-		new_character = {
-			spawn_unit = {
-				province = 1427 # Urzhar
-				troops =
-				{
-					horse_archers = { 2700 2700 }
-					light_cavalry = { 1600 1600 }
-					light_infantry = { 541 541 }
-					heavy_infantry = { 210 210 }
-					knights = { 47 47 }
-				}
-			}
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 39
-			attributes = {
-				martial = 12
-			}
-			trait = brilliant_strategist
-		}
-		new_character = {
-			spawn_unit = {
-				province = 1427 # Urzhar
-				troops =
-				{
-					horse_archers = { 2700 2700 }
-					light_cavalry = { 1600 1600 }
-					light_infantry = { 541 541 }
-					heavy_infantry = { 210 210 }
-					knights = { 47 47 }
-				}
-			}
-		}
-		random = {
-			chance = 50
-			create_character = {
-				random_traits = yes
-				dynasty = random
-				religion = tengri_pagan
-				culture = ROOT
-				female = no
-				age = 30
-				attributes = {
-					martial = 12
-				}
-				trait = brilliant_strategist
-			}
-			new_character = {
-				spawn_unit = {
-					province = 1132 # Kirghiz
-					troops =
-					{
-						horse_archers = { 2700 2700 }
-						light_cavalry = { 1600 1600 }
-						light_infantry = { 541 541 }
-						heavy_infantry = { 210 210 }
-						knights = { 47 47 }
-					}
-				}
-			}
-			create_character = {
-				random_traits = yes
-				dynasty = random
-				religion = tengri_pagan
-				culture = ROOT
-				female = no
-				age = 35
-				attributes = {
-					martial = 12
-				}
-				trait = brilliant_strategist
-			}
-			new_character = {
-				spawn_unit = {
-					province = 1132 # Kirghiz
-					troops =
-					{
-						horse_archers = { 2700 2700 }
-						light_cavalry = { 1600 1600 }
-						light_infantry = { 541 541 }
-						heavy_infantry = { 210 210 }
-						knights = { 47 47 }
-					}
-				}
-			}
-			create_character = {
-				random_traits = yes
-				dynasty = random
-				religion = tengri_pagan
-				culture = ROOT
-				female = no
-				age = 39
-				attributes = {
-					martial = 12
-				}
-				trait = brilliant_strategist
-			}
-			new_character = {
-				spawn_unit = {
-					province = 1132 # Kirghiz
-					troops =
-					{
-						horse_archers = { 2700 2700 }
-						light_cavalry = { 1600 1600 }
-						light_infantry = { 541 541 }
-						heavy_infantry = { 210 210 }
-						knights = { 47 47 }
-					}
-				}
-			}
-		}
-		random = {
-			chance = 50
-			create_character = {
-				random_traits = yes
-				dynasty = random
-				religion = tengri_pagan
-				culture = ROOT
-				female = no
-				age = 30
-				attributes = {
-					martial = 12
-				}
-				trait = brilliant_strategist
-			}
-			new_character = {
-				spawn_unit = {
-					province = 1132 # Kirghiz
-					troops =
-					{
-						horse_archers = { 2700 2700 }
-						light_cavalry = { 1600 1600 }
-						light_infantry = { 541 541 }
-						heavy_infantry = { 210 210 }
-						knights = { 47 47 }
-					}
-				}
-			}
-			create_character = {
-				random_traits = yes
-				dynasty = random
-				religion = tengri_pagan
-				culture = ROOT
-				female = no
-				age = 35
-				attributes = {
-					martial = 12
-				}
-				trait = brilliant_strategist
-			}
-			new_character = {
-				spawn_unit = {
-					province = 1132 # Kirghiz
-					troops =
-					{
-						horse_archers = { 2700 2700 }
-						light_cavalry = { 1600 1600 }
-						light_infantry = { 541 541 }
-						heavy_infantry = { 210 210 }
-						knights = { 47 47 }
-					}
-				}
-			}
-			create_character = {
-				random_traits = yes
-				dynasty = random
-				religion = tengri_pagan
-				culture = ROOT
-				female = no
-				age = 39
-				attributes = {
-					martial = 12
-				}
-				trait = brilliant_strategist
-			}
-			new_character = {
-				spawn_unit = {
-					province = 1132 # Kirghiz
-					troops =
-					{
-						horse_archers = { 2700 2700 }
-						light_cavalry = { 1600 1600 }
-						light_infantry = { 541 541 }
-						heavy_infantry = { 210 210 }
-						knights = { 47 47 }
-					}
-				}
-			}
-		}
-		
-		# Some extra courtiers
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 16
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 18
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 18
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 20
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 25
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 26
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 28
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = yes
-			age = 16
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = yes
-			age = 17
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = yes
-			age = 18
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = yes
-			age = 18
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = yes
-			age = 20
-		}
-	}
-	option = {
-		name = "EVTOPTB60002"
-		trigger = {
-			religion_group = christian
-			NOT = { has_landed_title = e_golden_horde }
-		}
-	}
-	option = {
-		name = "EVTOPTC60002"
-		trigger = {
-			religion_group = muslim
-			NOT = { has_landed_title = e_golden_horde }
-		}
-	}
-	option = {
-		name = "EVTOPTD60002"
-		trigger = {
-			NOT = { religion_group = christian }
-			NOT = { religion_group = muslim }
-			NOT = { has_landed_title = e_golden_horde }
-		}
-	}
-}
-
-# Ilkhanate reinforcements
-character_event = {
-	id = 60004
-	desc = "EVTDESC60004"
-	
-	picture = "GFX_evt_mongols"
-	border = "GFX_event_normal_frame_war"
-	
-	only_playable = yes
-	
-	trigger = {
-		always = no # replaced by new mongol arrival event
-		NOT = { year = 1300 }
-		has_landed_title = e_il-khanate
-		NOT = { has_character_flag = ilkhanate_reinf }
-		had_global_flag = { flag = il_khanate_arrival days = 3650 }
-		e_il-khanate = {
-			holder_scope = {
-				culture = mongol
-				religion = tengri_pagan
-				OR = {
-					war = yes
-					is_landed = yes
-				}
-			}
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 1
-	}
-	
-	option = {
-		name = "OK"
-		set_character_flag = ilkhanate_reinf
-		
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 25
-			attributes = {
-				martial = 12
-			}
-			trait = brilliant_strategist
-		}
-		new_character = {
-			spawn_unit = {
-				province = 1423 # Fergana
-				troops =
-				{
-					horse_archers = { 2700 2700 }
-					light_cavalry = { 1600 1600 }
-					light_infantry = { 541 541 }
-					heavy_infantry = { 210 210 }
-					knights = { 47 47 }
-				}
-			}
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 26
-			attributes = {
-				martial = 12
-			}
-			trait = brilliant_strategist
-		}
-		new_character = {
-			spawn_unit = {
-				province = 1423 # Fergana
-				troops =
-				{
-					horse_archers = { 2700 2700 }
-					light_cavalry = { 1600 1600 }
-					light_infantry = { 541 541 }
-					heavy_infantry = { 210 210 }
-					knights = { 47 47 }
-				}
-			}
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 27
-			attributes = {
-				martial = 12
-			}
-			trait = brilliant_strategist
-		}
-		new_character = {
-			spawn_unit = {
-				province = 1423 # Fergana
-				troops =
-				{
-					horse_archers = { 2700 2700 }
-					light_cavalry = { 1600 1600 }
-					light_infantry = { 541 541 }
-					heavy_infantry = { 210 210 }
-					knights = { 47 47 }
-				}
-			}
-		}
-		
-		random = {
-			chance = 50
-			create_character = {
-				random_traits = yes
-				dynasty = random
-				religion = tengri_pagan
-				culture = ROOT
-				female = no
-				age = 25
-				attributes = {
-					martial = 12
-				}
-				trait = brilliant_strategist
-			}
-			new_character = {
-				spawn_unit = {
-					province = 1423 # Fergana
-					troops =
-					{
-						horse_archers = { 2700 2700 }
-						light_cavalry = { 1600 1600 }
-						light_infantry = { 541 541 }
-						heavy_infantry = { 210 210 }
-						knights = { 47 47 }
-					}
-				}
-			}
-			create_character = {
-				random_traits = yes
-				dynasty = random
-				religion = tengri_pagan
-				culture = ROOT
-				female = no
-				age = 26
-				attributes = {
-					martial = 12
-				}
-				trait = brilliant_strategist
-			}
-			new_character = {
-				spawn_unit = {
-					province = 1423 # Fergana
-					troops =
-					{
-						horse_archers = { 2700 2700 }
-						light_cavalry = { 1600 1600 }
-						light_infantry = { 541 541 }
-						heavy_infantry = { 210 210 }
-						knights = { 47 47 }
-					}
-				}
-			}
-			create_character = {
-				random_traits = yes
-				dynasty = random
-				religion = tengri_pagan
-				culture = ROOT
-				female = no
-				age = 27
-				attributes = {
-					martial = 12
-				}
-				trait = brilliant_strategist
-			}
-			new_character = {
-				spawn_unit = {
-					province = 1423 # Fergana
-					troops =
-					{
-						horse_archers = { 2700 2700 }
-						light_cavalry = { 1600 1600 }
-						light_infantry = { 541 541 }
-						heavy_infantry = { 210 210 }
-						knights = { 47 47 }
-					}
-				}
-			}
-		}
-	}
-}
-
-# Golden Horde reinforcements
-character_event = {
-	id = 60005
-	desc = "EVTDESC60004"
-	
-	picture = "GFX_evt_mongols"
-	border = "GFX_event_normal_frame_war"
-	
-	only_playable = yes
-	
-	trigger = {
-		always = no # replaced by new mongol arrival event
-		NOT = { year = 1320 }
-		has_landed_title = e_golden_horde
-		NOT = { has_character_flag = golden_horde_reinf }
-		had_global_flag = { flag = golden_horde_arrival days = 3650 }
-		e_golden_horde = {
-			holder_scope = {
-				culture = mongol
-				religion = tengri_pagan
-				OR = {
-					war = yes
-					is_landed = yes
-				}
-			}
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 1
-	}
-	
-	option = {
-		name = "OK"
-		set_character_flag = golden_horde_reinf
-		
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 30
-			attributes = {
-				martial = 12
-			}
-			trait = brilliant_strategist
-		}
-		new_character = {
-			spawn_unit = {
-				province = 1425 # Ili
-				troops =
-				{
-					horse_archers = { 2700 2700 }
-					light_cavalry = { 1600 1600 }
-					light_infantry = { 541 541 }
-					heavy_infantry = { 210 210 }
-					knights = { 47 47 }
-				}
-			}
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 32
-			attributes = {
-				martial = 12
-			}
-			trait = brilliant_strategist
-		}
-		new_character = {
-			spawn_unit = {
-				province = 1425 # Ili
-				troops =
-				{
-					horse_archers = { 2700 2700 }
-					light_cavalry = { 1600 1600 }
-					light_infantry = { 541 541 }
-					heavy_infantry = { 210 210 }
-					knights = { 47 47 }
-				}
-			}
-		}
-		create_character = {
-			random_traits = yes
-			dynasty = random
-			religion = tengri_pagan
-			culture = ROOT
-			female = no
-			age = 36
-			attributes = {
-				martial = 12
-			}
-			trait = brilliant_strategist
-		}
-		new_character = {
-			spawn_unit = {
-				province = 1425 # Ili
-				troops =
-				{
-					horse_archers = { 2700 2700 }
-					light_cavalry = { 1600 1600 }
-					light_infantry = { 541 541 }
-					heavy_infantry = { 210 210 }
-					knights = { 47 47 }
-				}
-			}
-		}
-	}
-}
+## Rumors of a Steppe Menace
+#narrative_event = {
+#	id = 60000
+#	title = EVTNAME60000
+#	desc = EVTDESC60000
+#	major = yes
+#	
+#	picture = "GFX_evt_mongols"
+#	border = "GFX_event_narrative_frame_war"
+#	
+#	only_playable = yes
+#	religion = catholic
+#	only_men = yes
+#	min_age = 16
+#	
+#	trigger = {
+#		always = no # replaced by new mongol arrival event
+#		year = 1215
+#		
+#		controls_religion = yes # Let it happen for the Pope - he's always around
+#		
+#		NOT = { has_global_flag = mongol_horde_rumors }
+#		NOT = { has_global_flag = il_khanate_arrival }
+#		NOT = { has_global_flag = golden_horde_arrival }
+#	}
+#	
+#	mean_time_to_happen = {
+#		months = 1
+#	}
+#	
+#	immediate = {
+#		set_global_flag = mongol_horde_rumors
+#		activate_title = { title = e_il-khanate status = yes }
+#		create_random_soldier = {
+#			random_traits = no
+#			dynasty = 101916 # Toluid
+#			name = "Hulegu"
+#			culture = mongol
+#			religion = tengri_pagan
+#			age = 30
+#			attributes = {
+#				martial = 8
+#				diplomacy = 4
+#				stewardship = 5
+#				intrigue = 4
+#				learning = 3
+#			}
+#			health = 6
+#			fertility = 0.7
+#			trait = brilliant_strategist
+#			trait = wroth
+#			trait = cruel
+#			trait = proud
+#			trait = zealous
+#		}
+#		new_character = {
+#			e_il-khanate = {
+#				grant_title = PREV
+#			}
+#			set_defacto_liege = THIS
+#		}
+#		any_playable_ruler = {
+#			limit = { ai = no }
+#			chronicle = {
+#				entry = CHRONICLE_MONGOL_RUMORS
+#				portrait = [New.GetID]
+#			}
+#		}
+#		
+#		activate_title = { title = e_golden_horde status = yes }
+#		create_random_soldier = {
+#			random_traits = no
+#			dynasty = 7379 # Jochid
+#			name = "Batu"
+#			culture = mongol
+#			religion = tengri_pagan
+#			age = 33
+#			attributes = {
+#				martial = 9
+#				diplomacy = 5
+#				stewardship = 8
+#				intrigue = 7
+#				learning = 3
+#			}
+#			health = 6
+#			fertility = 0.7
+#			trait = brilliant_strategist
+#			trait = diligent
+#			trait = humble
+#			trait = gregarious
+#			trait = just
+#		}
+#		new_character = {
+#			e_golden_horde = {
+#				grant_title = PREV
+#			}
+#			set_defacto_liege = THIS
+#		}
+#	}
+#	
+#	option = {
+#		name = "EVTOPTA60000"
+#	}
+#}
+#
+## Arrival of the Ilkhanate
+#narrative_event = {
+#	id = 60001
+#	title = "EVTNAME60001"
+#	desc = "EVTDESC60001"
+#	major = yes
+#	hide_new = yes
+#	
+#	picture = "GFX_evt_mongols"
+#	border = "GFX_event_narrative_frame_war"
+#	
+#	only_playable = yes
+#	
+#	trigger = {
+#		always = no # replaced by new mongol arrival event
+#		year = 1216
+#		has_landed_title = e_il-khanate
+#		NOT = { year = 1224 }
+#		NOT = { has_global_flag = il_khanate_arrival }
+#	}
+#	
+#	mean_time_to_happen = {
+#		months = 24
+#	}
+#	
+#	option = {
+#		name = "OK"
+#		trigger = {
+#			has_landed_title = e_il-khanate
+#		}
+#		set_global_flag = il_khanate_arrival
+#		1423 = { # Fergana
+#			kingdom = {
+#				ROOT = {
+#					war = {
+#						casus_belli = tribal_invasion
+#						target = PREVPREV # The top liege of the owner
+#						thirdparty_title = PREV # The de jure kingdom
+#					}
+#				}
+#			}
+#		}
+#		wealth = 5000
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 30
+#			attributes = {
+#				martial = 12
+#			}
+#			trait = brilliant_strategist
+#		}
+#		new_character = {
+#			spawn_unit = {
+#				province = 1423 # Fergana
+#				troops =
+#				{
+#					horse_archers = { 2700 2700 }
+#					light_cavalry = { 1600 1600 }
+#					light_infantry = { 541 541 }
+#					heavy_infantry = { 210 210 }
+#					knights = { 47 47 }
+#				}
+#			}
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 35
+#			attributes = {
+#				martial = 12
+#			}
+#			trait = brilliant_strategist
+#		}
+#		new_character = {
+#			spawn_unit = {
+#				province = 1423 # Fergana
+#				troops =
+#				{
+#					horse_archers = { 2700 2700 }
+#					light_cavalry = { 1600 1600 }
+#					light_infantry = { 541 541 }
+#					heavy_infantry = { 210 210 }
+#					knights = { 47 47 }
+#				}
+#			}
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 39
+#			attributes = {
+#				martial = 12
+#			}
+#			trait = brilliant_strategist
+#		}
+#		new_character = {
+#			spawn_unit = {
+#				province = 1423 # Fergana
+#				troops =
+#				{
+#					horse_archers = { 2700 2700 }
+#					light_cavalry = { 1600 1600 }
+#					light_infantry = { 541 541 }
+#					heavy_infantry = { 210 210 }
+#					knights = { 47 47 }
+#				}
+#			}
+#		}
+#		
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 30
+#			attributes = {
+#				martial = 12
+#			}
+#			trait = brilliant_strategist
+#		}
+#		new_character = {
+#			spawn_unit = {
+#				province = 1423 # Fergana
+#				troops =
+#				{
+#					horse_archers = { 2700 2700 }
+#					light_cavalry = { 1600 1600 }
+#					light_infantry = { 541 541 }
+#					heavy_infantry = { 210 210 }
+#					knights = { 47 47 }
+#				}
+#			}
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 35
+#			attributes = {
+#				martial = 12
+#			}
+#			trait = brilliant_strategist
+#		}
+#		new_character = {
+#			spawn_unit = {
+#				province = 1423 # Fergana
+#				troops =
+#				{
+#					horse_archers = { 2700 2700 }
+#					light_cavalry = { 1600 1600 }
+#					light_infantry = { 541 541 }
+#					heavy_infantry = { 210 210 }
+#					knights = { 47 47 }
+#				}
+#			}
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 39
+#			attributes = {
+#				martial = 12
+#			}
+#			trait = brilliant_strategist
+#		}
+#		new_character = {
+#			spawn_unit = {
+#				province = 1423 # Fergana
+#				troops =
+#				{
+#					horse_archers = { 2700 2700 }
+#					light_cavalry = { 1600 1600 }
+#					light_infantry = { 541 541 }
+#					heavy_infantry = { 210 210 }
+#					knights = { 47 47 }
+#				}
+#			}
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 30
+#			attributes = {
+#				martial = 12
+#			}
+#			trait = brilliant_strategist
+#		}
+#		new_character = {
+#			spawn_unit = {
+#				province = 1423 # Fergana
+#				troops =
+#				{
+#					horse_archers = { 2700 2700 }
+#					light_cavalry = { 1600 1600 }
+#					light_infantry = { 541 541 }
+#					heavy_infantry = { 210 210 }
+#					knights = { 47 47 }
+#				}
+#			}
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 35
+#			attributes = {
+#				martial = 12
+#			}
+#			trait = brilliant_strategist
+#		}
+#		new_character = {
+#			spawn_unit = {
+#				province = 1423 # Fergana
+#				troops =
+#				{
+#					horse_archers = { 2700 2700 }
+#					light_cavalry = { 1600 1600 }
+#					light_infantry = { 541 541 }
+#					heavy_infantry = { 210 210 }
+#					knights = { 47 47 }
+#				}
+#			}
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 39
+#			attributes = {
+#				martial = 12
+#			}
+#			trait = brilliant_strategist
+#		}
+#		new_character = {
+#			spawn_unit = {
+#				province = 1423 # Fergana
+#				troops =
+#				{
+#					horse_archers = { 2700 2700 }
+#					light_cavalry = { 1600 1600 }
+#					light_infantry = { 541 541 }
+#					heavy_infantry = { 210 210 }
+#					knights = { 47 47 }
+#				}
+#			}
+#		}
+#		
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 30
+#			attributes = {
+#				martial = 12
+#			}
+#			trait = brilliant_strategist
+#		}
+#		new_character = {
+#			spawn_unit = {
+#				province = 1181 # Oshrusana
+#				troops =
+#				{
+#					horse_archers = { 2700 2700 }
+#					light_cavalry = { 1600 1600 }
+#					light_infantry = { 541 541 }
+#					heavy_infantry = { 210 210 }
+#					knights = { 47 47 }
+#				}
+#			}
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 35
+#			attributes = {
+#				martial = 12
+#			}
+#			trait = brilliant_strategist
+#		}
+#		new_character = {
+#			spawn_unit = {
+#				province = 1181 # Oshrusana
+#				troops =
+#				{
+#					horse_archers = { 2700 2700 }
+#					light_cavalry = { 1600 1600 }
+#					light_infantry = { 541 541 }
+#					heavy_infantry = { 210 210 }
+#					knights = { 47 47 }
+#				}
+#			}
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 39
+#			attributes = {
+#				martial = 12
+#			}
+#			trait = brilliant_strategist
+#		}
+#		new_character = {
+#			spawn_unit = {
+#				province = 1181 # Oshrusana
+#				troops =
+#				{
+#					horse_archers = { 2700 2700 }
+#					light_cavalry = { 1600 1600 }
+#					light_infantry = { 541 541 }
+#					heavy_infantry = { 210 210 }
+#					knights = { 47 47 }
+#				}
+#			}
+#		}
+#		
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 30
+#			attributes = {
+#				martial = 12
+#			}
+#			trait = brilliant_strategist
+#		}
+#		new_character = {
+#			spawn_unit = {
+#				province = 1181 # Oshrusana
+#				troops =
+#				{
+#					horse_archers = { 2700 2700 }
+#					light_cavalry = { 1600 1600 }
+#					light_infantry = { 541 541 }
+#					heavy_infantry = { 210 210 }
+#					knights = { 47 47 }
+#				}
+#			}
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 35
+#			attributes = {
+#				martial = 12
+#			}
+#			trait = brilliant_strategist
+#		}
+#		new_character = {
+#			spawn_unit = {
+#				province = 1181 # Oshrusana
+#				troops =
+#				{
+#					horse_archers = { 2700 2700 }
+#					light_cavalry = { 1600 1600 }
+#					light_infantry = { 541 541 }
+#					heavy_infantry = { 210 210 }
+#					knights = { 47 47 }
+#				}
+#			}
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 39
+#			attributes = {
+#				martial = 12
+#			}
+#			trait = brilliant_strategist
+#		}
+#		new_character = {
+#			spawn_unit = {
+#				province = 1181 # Oshrusana
+#				troops =
+#				{
+#					horse_archers = { 2700 2700 }
+#					light_cavalry = { 1600 1600 }
+#					light_infantry = { 541 541 }
+#					heavy_infantry = { 210 210 }
+#					knights = { 47 47 }
+#				}
+#			}
+#		}
+#		
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 30
+#			attributes = {
+#				martial = 12
+#			}
+#			trait = brilliant_strategist
+#		}
+#		new_character = {
+#			spawn_unit = {
+#				province = 1181 # Oshrusana
+#				troops =
+#				{
+#					horse_archers = { 2700 2700 }
+#					light_cavalry = { 1600 1600 }
+#					light_infantry = { 541 541 }
+#					heavy_infantry = { 210 210 }
+#					knights = { 47 47 }
+#				}
+#			}
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 35
+#			attributes = {
+#				martial = 12
+#			}
+#			trait = brilliant_strategist
+#		}
+#		new_character = {
+#			spawn_unit = {
+#				province = 1181 # Oshrusana
+#				troops =
+#				{
+#					horse_archers = { 2700 2700 }
+#					light_cavalry = { 1600 1600 }
+#					light_infantry = { 541 541 }
+#					heavy_infantry = { 210 210 }
+#					knights = { 47 47 }
+#				}
+#			}
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 39
+#			attributes = {
+#				martial = 12
+#			}
+#			trait = brilliant_strategist
+#		}
+#		new_character = {
+#			spawn_unit = {
+#				province = 1181 # Oshrusana
+#				troops =
+#				{
+#					horse_archers = { 2700 2700 }
+#					light_cavalry = { 1600 1600 }
+#					light_infantry = { 541 541 }
+#					heavy_infantry = { 210 210 }
+#					knights = { 47 47 }
+#				}
+#			}
+#		}
+#		
+#		random = {
+#			chance = 50
+#			
+#			create_character = {
+#				random_traits = yes
+#				dynasty = random
+#				religion = tengri_pagan
+#				culture = ROOT
+#				female = no
+#				age = 30
+#				attributes = {
+#					martial = 12
+#				}
+#				trait = brilliant_strategist
+#			}
+#			new_character = {
+#				spawn_unit = {
+#					province = 903 # Samarkand
+#					troops =
+#					{
+#						horse_archers = { 2700 2700 }
+#						light_cavalry = { 1600 1600 }
+#						light_infantry = { 541 541 }
+#						heavy_infantry = { 210 210 }
+#						knights = { 47 47 }
+#					}
+#				}
+#			}
+#			create_character = {
+#				random_traits = yes
+#				dynasty = random
+#				religion = tengri_pagan
+#				culture = ROOT
+#				female = no
+#				age = 35
+#				attributes = {
+#					martial = 12
+#				}
+#				trait = brilliant_strategist
+#			}
+#			new_character = {
+#				spawn_unit = {
+#					province = 903 # Samarkand
+#					troops =
+#					{
+#						horse_archers = { 2700 2700 }
+#						light_cavalry = { 1600 1600 }
+#						light_infantry = { 541 541 }
+#						heavy_infantry = { 210 210 }
+#						knights = { 47 47 }
+#					}
+#				}
+#			}
+#			create_character = {
+#				random_traits = yes
+#				dynasty = random
+#				religion = tengri_pagan
+#				culture = ROOT
+#				female = no
+#				age = 39
+#				attributes = {
+#					martial = 12
+#				}
+#				trait = brilliant_strategist
+#			}
+#			new_character = {
+#				spawn_unit = {
+#					province = 903 # Samarkand
+#					troops =
+#					{
+#						horse_archers = { 2700 2700 }
+#						light_cavalry = { 1600 1600 }
+#						light_infantry = { 541 541 }
+#						heavy_infantry = { 210 210 }
+#						knights = { 47 47 }
+#					}
+#				}
+#			}
+#		}
+#		random = {
+#			chance = 50
+#			create_character = {
+#				random_traits = yes
+#				dynasty = random
+#				religion = tengri_pagan
+#				culture = ROOT
+#				female = no
+#				age = 30
+#				attributes = {
+#					martial = 12
+#				}
+#				trait = brilliant_strategist
+#			}
+#			new_character = {
+#				spawn_unit = {
+#					province = 903 # Samarkand
+#					troops =
+#					{
+#						horse_archers = { 2700 2700 }
+#						light_cavalry = { 1600 1600 }
+#						light_infantry = { 541 541 }
+#						heavy_infantry = { 210 210 }
+#						knights = { 47 47 }
+#					}
+#				}
+#			}
+#			create_character = {
+#				random_traits = yes
+#				dynasty = random
+#				religion = tengri_pagan
+#				culture = ROOT
+#				female = no
+#				age = 35
+#				attributes = {
+#					martial = 12
+#				}
+#				trait = brilliant_strategist
+#			}
+#			new_character = {
+#				spawn_unit = {
+#					province = 903 # Samarkand
+#					troops =
+#					{
+#						horse_archers = { 2700 2700 }
+#						light_cavalry = { 1600 1600 }
+#						light_infantry = { 541 541 }
+#						heavy_infantry = { 210 210 }
+#						knights = { 47 47 }
+#					}
+#				}
+#			}
+#			create_character = {
+#				random_traits = yes
+#				dynasty = random
+#				religion = tengri_pagan
+#				culture = ROOT
+#				female = no
+#				age = 39
+#				attributes = {
+#					martial = 12
+#				}
+#				trait = brilliant_strategist
+#			}
+#			new_character = {
+#				spawn_unit = {
+#					province = 903 # Samarkand
+#					troops =
+#					{
+#						horse_archers = { 2700 2700 }
+#						light_cavalry = { 1600 1600 }
+#						light_infantry = { 541 541 }
+#						heavy_infantry = { 210 210 }
+#						knights = { 47 47 }
+#					}
+#				}
+#			}
+#		}
+#		
+#		# Some extra courtiers
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 16
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 18
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 18
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 20
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 25
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 26
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 28
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = yes
+#			age = 16
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = yes
+#			age = 17
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = yes
+#			age = 18
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = yes
+#			age = 18
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = yes
+#			age = 20
+#		}
+#	}
+#	option = {
+#		name = "EVTOPTB60001"
+#		trigger = {
+#			religion_group = muslim
+#			NOT = { has_landed_title = e_il-khanate }
+#		}
+#	}
+#	option = {
+#		name = "EVTOPTC60001"
+#		trigger = {
+#			religion_group = christian
+#			NOT = { has_landed_title = e_il-khanate }
+#		}
+#	}
+#	option = {
+#		name = "EVTOPTD60001"
+#		trigger = {
+#			NOT = { religion_group = christian }
+#			NOT = { religion_group = muslim }
+#			NOT = { has_landed_title = e_il-khanate }
+#		}
+#	}
+#}
+#
+#
+## Arrival of the Golden Horde
+#narrative_event = {
+#	id = 60002
+#	title = "EVTNAME60002"
+#	desc = "EVTDESC60002"
+#	major = yes
+#	hide_new = yes
+#	
+#	picture = "GFX_evt_mongols"
+#	border = "GFX_event_narrative_frame_war"
+#	
+#	only_playable = yes
+#	
+#	trigger = {
+#		always = no # replaced by new mongol arrival event
+#		year = 1224
+#		NOT = { year = 1250 }
+#		has_landed_title = e_golden_horde
+#		has_global_flag = il_khanate_arrival
+#		NOT = { has_global_flag = golden_horde_arrival }
+#	}
+#	
+#	mean_time_to_happen = {
+#		months = 120
+#		modifier = {
+#			factor = 0.5
+#			year = 1235
+#		}
+#		modifier = {
+#			factor = 0.5
+#			year = 1240
+#		}
+#	}
+#	
+#	option = {
+#		name = "OK"
+#		trigger = {
+#			has_landed_title = e_golden_horde
+#		}
+#		set_global_flag = golden_horde_arrival
+#		if = {
+#			limit = {
+#				1425 = {
+#					owner = {
+#						realm = {
+#							NOT = { title = e_il-khanate }
+#						}
+#					}
+#				}
+#			}
+#			1425 = { # Ili
+#				kingdom = {
+#					ROOT = {
+#						war = {
+#							casus_belli = tribal_invasion
+#							target = PREVPREV # The top liege of the owner of the province
+#							thirdparty_title = PREV # The de jure kingdom
+#						}
+#					}
+#				}
+#			}
+#		}
+#		if = {
+#			limit = {
+#				war = no
+#				1427 = {
+#					owner = {
+#						realm = {
+#							NOT = { title = e_il-khanate }
+#						}
+#					}
+#				}
+#			}
+#			1427 = { # Urzhar
+#				kingdom = {
+#					ROOT = {
+#						war = {
+#							casus_belli = tribal_invasion
+#							target = PREVPREV # The top liege of the owner of the province
+#							thirdparty_title = PREV # The de jure kingdom
+#						}
+#					}
+#				}
+#			}
+#		}
+#		if = {
+#			limit = {
+#				war = no
+#				1132 = {
+#					owner = {
+#						realm = {
+#							NOT = { title = e_il-khanate }
+#						}
+#					}
+#				}
+#			}
+#			1132 = { # Kirghiz
+#				kingdom = {
+#					ROOT = {
+#						war = {
+#							casus_belli = tribal_invasion
+#							target = PREVPREV # The top liege of the owner of the province
+#							thirdparty_title = PREV # The de jure kingdom
+#						}
+#					}
+#				}
+#			}
+#		}
+#		if = {
+#			limit = {
+#				war = no
+#				1329 = {
+#					owner = {
+#						realm = {
+#							NOT = { title = e_il-khanate }
+#						}
+#					}
+#				}
+#			}
+#			1329 = { # Ket
+#				kingdom = {
+#					ROOT = {
+#						war = {
+#							casus_belli = tribal_invasion
+#							target = PREVPREV # The top liege of the owner of the province
+#							thirdparty_title = PREV # The de jure kingdom
+#						}
+#					}
+#				}
+#			}
+#		}
+#		if = {
+#			limit = {
+#				war = no
+#				1205 = {
+#					owner = {
+#						realm = {
+#							NOT = { title = e_il-khanate }
+#						}
+#					}
+#				}
+#			}
+#			1205 = { # Narim
+#				kingdom = {
+#					ROOT = {
+#						war = {
+#							casus_belli = tribal_invasion
+#							target = PREVPREV # The top liege of the owner of the province
+#							thirdparty_title = PREV # The de jure kingdom
+#						}
+#					}
+#				}
+#			}
+#		}
+#		if = {
+#			limit = {
+#				war = no
+#				1306 = {
+#					owner = {
+#						realm = {
+#							NOT = { title = e_il-khanate }
+#						}
+#					}
+#				}
+#			}
+#			1306 = { # Tura
+#				kingdom = {
+#					ROOT = {
+#						war = {
+#							casus_belli = tribal_invasion
+#							target = PREVPREV # The top liege of the owner of the province
+#							thirdparty_title = PREV # The de jure kingdom
+#						}
+#					}
+#				}
+#			}
+#		}
+#		if = {
+#			limit = {
+#				war = no
+#			}
+#			1425 = { # Ili - Ok, we have no choice. DoW on the Il-Khanate.
+#				kingdom = {
+#					ROOT = {
+#						war = {
+#							casus_belli = tribal_invasion
+#							target = PREVPREV # The top liege of the owner of the province
+#							thirdparty_title = PREV # The de jure kingdom
+#						}
+#					}
+#				}
+#			}
+#		}
+#		
+#		wealth = 5000
+#		
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 30
+#			attributes = {
+#				martial = 12
+#			}
+#			trait = brilliant_strategist
+#		}
+#		new_character = {
+#			spawn_unit = {
+#				province = 1425 # Ili
+#				troops =
+#				{
+#					horse_archers = { 2700 2700 }
+#					light_cavalry = { 1600 1600 }
+#					light_infantry = { 541 541 }
+#					heavy_infantry = { 210 210 }
+#					knights = { 47 47 }
+#				}
+#			}
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 35
+#			attributes = {
+#				martial = 12
+#			}
+#			trait = brilliant_strategist
+#		}
+#		new_character = {
+#			spawn_unit = {
+#				province = 1425 # Ili
+#				troops =
+#				{
+#					horse_archers = { 2700 2700 }
+#					light_cavalry = { 1600 1600 }
+#					light_infantry = { 541 541 }
+#					heavy_infantry = { 210 210 }
+#					knights = { 47 47 }
+#				}
+#			}
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 39
+#			attributes = {
+#				martial = 12
+#			}
+#			trait = brilliant_strategist
+#		}
+#		new_character = {
+#			spawn_unit = {
+#				province = 1425 # Ili
+#				troops =
+#				{
+#					horse_archers = { 2700 2700 }
+#					light_cavalry = { 1600 1600 }
+#					light_infantry = { 541 541 }
+#					heavy_infantry = { 210 210 }
+#					knights = { 47 47 }
+#				}
+#			}
+#		}
+#		
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 30
+#			attributes = {
+#				martial = 12
+#			}
+#			trait = brilliant_strategist
+#		}
+#		new_character = {
+#			spawn_unit = {
+#				province = 1425 # Ili
+#				troops =
+#				{
+#					horse_archers = { 2700 2700 }
+#					light_cavalry = { 1600 1600 }
+#					light_infantry = { 541 541 }
+#					heavy_infantry = { 210 210 }
+#					knights = { 47 47 }
+#				}
+#			}
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 35
+#			attributes = {
+#				martial = 12
+#			}
+#			trait = brilliant_strategist
+#		}
+#		new_character = {
+#			spawn_unit = {
+#				province = 1425 # Ili
+#				troops =
+#				{
+#					horse_archers = { 2700 2700 }
+#					light_cavalry = { 1600 1600 }
+#					light_infantry = { 541 541 }
+#					heavy_infantry = { 210 210 }
+#					knights = { 47 47 }
+#				}
+#			}
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 39
+#			attributes = {
+#				martial = 12
+#			}
+#			trait = brilliant_strategist
+#		}
+#		new_character = {
+#			spawn_unit = {
+#				province = 1425 # Ili
+#				troops =
+#				{
+#					horse_archers = { 2700 2700 }
+#					light_cavalry = { 1600 1600 }
+#					light_infantry = { 541 541 }
+#					heavy_infantry = { 210 210 }
+#					knights = { 47 47 }
+#				}
+#			}
+#		}
+#		
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 30
+#			attributes = {
+#				martial = 12
+#			}
+#			trait = brilliant_strategist
+#		}
+#		new_character = {
+#			spawn_unit = {
+#				province = 1425 # Ili
+#				troops =
+#				{
+#					horse_archers = { 2700 2700 }
+#					light_cavalry = { 1600 1600 }
+#					light_infantry = { 541 541 }
+#					heavy_infantry = { 210 210 }
+#					knights = { 47 47 }
+#				}
+#			}
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 35
+#			attributes = {
+#				martial = 12
+#			}
+#			trait = brilliant_strategist
+#		}
+#		new_character = {
+#			spawn_unit = {
+#				province = 1425 # Ili
+#				troops =
+#				{
+#					horse_archers = { 2700 2700 }
+#					light_cavalry = { 1600 1600 }
+#					light_infantry = { 541 541 }
+#					heavy_infantry = { 210 210 }
+#					knights = { 47 47 }
+#				}
+#			}
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 39
+#			attributes = {
+#				martial = 12
+#			}
+#			trait = brilliant_strategist
+#		}
+#		new_character = {
+#			spawn_unit = {
+#				province = 1425 # Ili
+#				troops =
+#				{
+#					horse_archers = { 2700 2700 }
+#					light_cavalry = { 1600 1600 }
+#					light_infantry = { 541 541 }
+#					heavy_infantry = { 210 210 }
+#					knights = { 47 47 }
+#				}
+#			}
+#		}
+#		
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 30
+#			attributes = {
+#				martial = 12
+#			}
+#			trait = brilliant_strategist
+#		}
+#		new_character = {
+#			spawn_unit = {
+#				province = 1427 # Urzhar
+#				troops =
+#				{
+#					horse_archers = { 2700 2700 }
+#					light_cavalry = { 1600 1600 }
+#					light_infantry = { 541 541 }
+#					heavy_infantry = { 210 210 }
+#					knights = { 47 47 }
+#				}
+#			}
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 35
+#			attributes = {
+#				martial = 12
+#			}
+#			trait = brilliant_strategist
+#		}
+#		new_character = {
+#			spawn_unit = {
+#				province = 1427 # Urzhar
+#				troops =
+#				{
+#					horse_archers = { 2700 2700 }
+#					light_cavalry = { 1600 1600 }
+#					light_infantry = { 541 541 }
+#					heavy_infantry = { 210 210 }
+#					knights = { 47 47 }
+#				}
+#			}
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 39
+#			attributes = {
+#				martial = 12
+#			}
+#			trait = brilliant_strategist
+#		}
+#		new_character = {
+#			spawn_unit = {
+#				province = 1427 # Urzhar
+#				troops =
+#				{
+#					horse_archers = { 2700 2700 }
+#					light_cavalry = { 1600 1600 }
+#					light_infantry = { 541 541 }
+#					heavy_infantry = { 210 210 }
+#					knights = { 47 47 }
+#				}
+#			}
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 30
+#			attributes = {
+#				martial = 12
+#			}
+#			trait = brilliant_strategist
+#		}
+#		new_character = {
+#			spawn_unit = {
+#				province = 1427 # Urzhar
+#				troops =
+#				{
+#					horse_archers = { 2700 2700 }
+#					light_cavalry = { 1600 1600 }
+#					light_infantry = { 541 541 }
+#					heavy_infantry = { 210 210 }
+#					knights = { 47 47 }
+#				}
+#			}
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 35
+#			attributes = {
+#				martial = 12
+#			}
+#			trait = brilliant_strategist
+#		}
+#		new_character = {
+#			spawn_unit = {
+#				province = 1427 # Urzhar
+#				troops =
+#				{
+#					horse_archers = { 2700 2700 }
+#					light_cavalry = { 1600 1600 }
+#					light_infantry = { 541 541 }
+#					heavy_infantry = { 210 210 }
+#					knights = { 47 47 }
+#				}
+#			}
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 39
+#			attributes = {
+#				martial = 12
+#			}
+#			trait = brilliant_strategist
+#		}
+#		new_character = {
+#			spawn_unit = {
+#				province = 1427 # Urzhar
+#				troops =
+#				{
+#					horse_archers = { 2700 2700 }
+#					light_cavalry = { 1600 1600 }
+#					light_infantry = { 541 541 }
+#					heavy_infantry = { 210 210 }
+#					knights = { 47 47 }
+#				}
+#			}
+#		}
+#		random = {
+#			chance = 50
+#			create_character = {
+#				random_traits = yes
+#				dynasty = random
+#				religion = tengri_pagan
+#				culture = ROOT
+#				female = no
+#				age = 30
+#				attributes = {
+#					martial = 12
+#				}
+#				trait = brilliant_strategist
+#			}
+#			new_character = {
+#				spawn_unit = {
+#					province = 1132 # Kirghiz
+#					troops =
+#					{
+#						horse_archers = { 2700 2700 }
+#						light_cavalry = { 1600 1600 }
+#						light_infantry = { 541 541 }
+#						heavy_infantry = { 210 210 }
+#						knights = { 47 47 }
+#					}
+#				}
+#			}
+#			create_character = {
+#				random_traits = yes
+#				dynasty = random
+#				religion = tengri_pagan
+#				culture = ROOT
+#				female = no
+#				age = 35
+#				attributes = {
+#					martial = 12
+#				}
+#				trait = brilliant_strategist
+#			}
+#			new_character = {
+#				spawn_unit = {
+#					province = 1132 # Kirghiz
+#					troops =
+#					{
+#						horse_archers = { 2700 2700 }
+#						light_cavalry = { 1600 1600 }
+#						light_infantry = { 541 541 }
+#						heavy_infantry = { 210 210 }
+#						knights = { 47 47 }
+#					}
+#				}
+#			}
+#			create_character = {
+#				random_traits = yes
+#				dynasty = random
+#				religion = tengri_pagan
+#				culture = ROOT
+#				female = no
+#				age = 39
+#				attributes = {
+#					martial = 12
+#				}
+#				trait = brilliant_strategist
+#			}
+#			new_character = {
+#				spawn_unit = {
+#					province = 1132 # Kirghiz
+#					troops =
+#					{
+#						horse_archers = { 2700 2700 }
+#						light_cavalry = { 1600 1600 }
+#						light_infantry = { 541 541 }
+#						heavy_infantry = { 210 210 }
+#						knights = { 47 47 }
+#					}
+#				}
+#			}
+#		}
+#		random = {
+#			chance = 50
+#			create_character = {
+#				random_traits = yes
+#				dynasty = random
+#				religion = tengri_pagan
+#				culture = ROOT
+#				female = no
+#				age = 30
+#				attributes = {
+#					martial = 12
+#				}
+#				trait = brilliant_strategist
+#			}
+#			new_character = {
+#				spawn_unit = {
+#					province = 1132 # Kirghiz
+#					troops =
+#					{
+#						horse_archers = { 2700 2700 }
+#						light_cavalry = { 1600 1600 }
+#						light_infantry = { 541 541 }
+#						heavy_infantry = { 210 210 }
+#						knights = { 47 47 }
+#					}
+#				}
+#			}
+#			create_character = {
+#				random_traits = yes
+#				dynasty = random
+#				religion = tengri_pagan
+#				culture = ROOT
+#				female = no
+#				age = 35
+#				attributes = {
+#					martial = 12
+#				}
+#				trait = brilliant_strategist
+#			}
+#			new_character = {
+#				spawn_unit = {
+#					province = 1132 # Kirghiz
+#					troops =
+#					{
+#						horse_archers = { 2700 2700 }
+#						light_cavalry = { 1600 1600 }
+#						light_infantry = { 541 541 }
+#						heavy_infantry = { 210 210 }
+#						knights = { 47 47 }
+#					}
+#				}
+#			}
+#			create_character = {
+#				random_traits = yes
+#				dynasty = random
+#				religion = tengri_pagan
+#				culture = ROOT
+#				female = no
+#				age = 39
+#				attributes = {
+#					martial = 12
+#				}
+#				trait = brilliant_strategist
+#			}
+#			new_character = {
+#				spawn_unit = {
+#					province = 1132 # Kirghiz
+#					troops =
+#					{
+#						horse_archers = { 2700 2700 }
+#						light_cavalry = { 1600 1600 }
+#						light_infantry = { 541 541 }
+#						heavy_infantry = { 210 210 }
+#						knights = { 47 47 }
+#					}
+#				}
+#			}
+#		}
+#		
+#		# Some extra courtiers
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 16
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 18
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 18
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 20
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 25
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 26
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 28
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = yes
+#			age = 16
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = yes
+#			age = 17
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = yes
+#			age = 18
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = yes
+#			age = 18
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = yes
+#			age = 20
+#		}
+#	}
+#	option = {
+#		name = "EVTOPTB60002"
+#		trigger = {
+#			religion_group = christian
+#			NOT = { has_landed_title = e_golden_horde }
+#		}
+#	}
+#	option = {
+#		name = "EVTOPTC60002"
+#		trigger = {
+#			religion_group = muslim
+#			NOT = { has_landed_title = e_golden_horde }
+#		}
+#	}
+#	option = {
+#		name = "EVTOPTD60002"
+#		trigger = {
+#			NOT = { religion_group = christian }
+#			NOT = { religion_group = muslim }
+#			NOT = { has_landed_title = e_golden_horde }
+#		}
+#	}
+#}
+#
+## Ilkhanate reinforcements
+#character_event = {
+#	id = 60004
+#	desc = "EVTDESC60004"
+#	
+#	picture = "GFX_evt_mongols"
+#	border = "GFX_event_normal_frame_war"
+#	
+#	only_playable = yes
+#	
+#	trigger = {
+#		always = no # replaced by new mongol arrival event
+#		NOT = { year = 1300 }
+#		has_landed_title = e_il-khanate
+#		NOT = { has_character_flag = ilkhanate_reinf }
+#		had_global_flag = { flag = il_khanate_arrival days = 3650 }
+#		e_il-khanate = {
+#			holder_scope = {
+#				culture = mongol
+#				religion = tengri_pagan
+#				OR = {
+#					war = yes
+#					is_landed = yes
+#				}
+#			}
+#		}
+#	}
+#	
+#	mean_time_to_happen = {
+#		months = 1
+#	}
+#	
+#	option = {
+#		name = "OK"
+#		set_character_flag = ilkhanate_reinf
+#		
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 25
+#			attributes = {
+#				martial = 12
+#			}
+#			trait = brilliant_strategist
+#		}
+#		new_character = {
+#			spawn_unit = {
+#				province = 1423 # Fergana
+#				troops =
+#				{
+#					horse_archers = { 2700 2700 }
+#					light_cavalry = { 1600 1600 }
+#					light_infantry = { 541 541 }
+#					heavy_infantry = { 210 210 }
+#					knights = { 47 47 }
+#				}
+#			}
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 26
+#			attributes = {
+#				martial = 12
+#			}
+#			trait = brilliant_strategist
+#		}
+#		new_character = {
+#			spawn_unit = {
+#				province = 1423 # Fergana
+#				troops =
+#				{
+#					horse_archers = { 2700 2700 }
+#					light_cavalry = { 1600 1600 }
+#					light_infantry = { 541 541 }
+#					heavy_infantry = { 210 210 }
+#					knights = { 47 47 }
+#				}
+#			}
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 27
+#			attributes = {
+#				martial = 12
+#			}
+#			trait = brilliant_strategist
+#		}
+#		new_character = {
+#			spawn_unit = {
+#				province = 1423 # Fergana
+#				troops =
+#				{
+#					horse_archers = { 2700 2700 }
+#					light_cavalry = { 1600 1600 }
+#					light_infantry = { 541 541 }
+#					heavy_infantry = { 210 210 }
+#					knights = { 47 47 }
+#				}
+#			}
+#		}
+#		
+#		random = {
+#			chance = 50
+#			create_character = {
+#				random_traits = yes
+#				dynasty = random
+#				religion = tengri_pagan
+#				culture = ROOT
+#				female = no
+#				age = 25
+#				attributes = {
+#					martial = 12
+#				}
+#				trait = brilliant_strategist
+#			}
+#			new_character = {
+#				spawn_unit = {
+#					province = 1423 # Fergana
+#					troops =
+#					{
+#						horse_archers = { 2700 2700 }
+#						light_cavalry = { 1600 1600 }
+#						light_infantry = { 541 541 }
+#						heavy_infantry = { 210 210 }
+#						knights = { 47 47 }
+#					}
+#				}
+#			}
+#			create_character = {
+#				random_traits = yes
+#				dynasty = random
+#				religion = tengri_pagan
+#				culture = ROOT
+#				female = no
+#				age = 26
+#				attributes = {
+#					martial = 12
+#				}
+#				trait = brilliant_strategist
+#			}
+#			new_character = {
+#				spawn_unit = {
+#					province = 1423 # Fergana
+#					troops =
+#					{
+#						horse_archers = { 2700 2700 }
+#						light_cavalry = { 1600 1600 }
+#						light_infantry = { 541 541 }
+#						heavy_infantry = { 210 210 }
+#						knights = { 47 47 }
+#					}
+#				}
+#			}
+#			create_character = {
+#				random_traits = yes
+#				dynasty = random
+#				religion = tengri_pagan
+#				culture = ROOT
+#				female = no
+#				age = 27
+#				attributes = {
+#					martial = 12
+#				}
+#				trait = brilliant_strategist
+#			}
+#			new_character = {
+#				spawn_unit = {
+#					province = 1423 # Fergana
+#					troops =
+#					{
+#						horse_archers = { 2700 2700 }
+#						light_cavalry = { 1600 1600 }
+#						light_infantry = { 541 541 }
+#						heavy_infantry = { 210 210 }
+#						knights = { 47 47 }
+#					}
+#				}
+#			}
+#		}
+#	}
+#}
+#
+## Golden Horde reinforcements
+#character_event = {
+#	id = 60005
+#	desc = "EVTDESC60004"
+#	
+#	picture = "GFX_evt_mongols"
+#	border = "GFX_event_normal_frame_war"
+#	
+#	only_playable = yes
+#	
+#	trigger = {
+#		always = no # replaced by new mongol arrival event
+#		NOT = { year = 1320 }
+#		has_landed_title = e_golden_horde
+#		NOT = { has_character_flag = golden_horde_reinf }
+#		had_global_flag = { flag = golden_horde_arrival days = 3650 }
+#		e_golden_horde = {
+#			holder_scope = {
+#				culture = mongol
+#				religion = tengri_pagan
+#				OR = {
+#					war = yes
+#					is_landed = yes
+#				}
+#			}
+#		}
+#	}
+#	
+#	mean_time_to_happen = {
+#		months = 1
+#	}
+#	
+#	option = {
+#		name = "OK"
+#		set_character_flag = golden_horde_reinf
+#		
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 30
+#			attributes = {
+#				martial = 12
+#			}
+#			trait = brilliant_strategist
+#		}
+#		new_character = {
+#			spawn_unit = {
+#				province = 1425 # Ili
+#				troops =
+#				{
+#					horse_archers = { 2700 2700 }
+#					light_cavalry = { 1600 1600 }
+#					light_infantry = { 541 541 }
+#					heavy_infantry = { 210 210 }
+#					knights = { 47 47 }
+#				}
+#			}
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 32
+#			attributes = {
+#				martial = 12
+#			}
+#			trait = brilliant_strategist
+#		}
+#		new_character = {
+#			spawn_unit = {
+#				province = 1425 # Ili
+#				troops =
+#				{
+#					horse_archers = { 2700 2700 }
+#					light_cavalry = { 1600 1600 }
+#					light_infantry = { 541 541 }
+#					heavy_infantry = { 210 210 }
+#					knights = { 47 47 }
+#				}
+#			}
+#		}
+#		create_character = {
+#			random_traits = yes
+#			dynasty = random
+#			religion = tengri_pagan
+#			culture = ROOT
+#			female = no
+#			age = 36
+#			attributes = {
+#				martial = 12
+#			}
+#			trait = brilliant_strategist
+#		}
+#		new_character = {
+#			spawn_unit = {
+#				province = 1425 # Ili
+#				troops =
+#				{
+#					horse_archers = { 2700 2700 }
+#					light_cavalry = { 1600 1600 }
+#					light_infantry = { 541 541 }
+#					heavy_infantry = { 210 210 }
+#					knights = { 47 47 }
+#				}
+#			}
+#		}
+#	}
+#}
 
 ### The Hordes Convert ###
 
-# Ilkhanate converts to Catholic
+# Ilkhanate converts to Jewish
 character_event = {
 	id = 60010
 	title = "EVTNAME60010"
@@ -2060,6 +2062,10 @@ character_event = {
 	major = yes
 	
 	only_playable = yes
+	only_independent = yes
+	only_capable = yes
+	min_age = 16
+	prisoner = no 
 	
 	trigger = {
 		primary_title = {
@@ -2073,7 +2079,7 @@ character_event = {
 		NOT = { had_global_flag = { flag = il_khanate_arrival days = 29200 } }
 		NOT = { has_global_flag = il_khanate_converts }
 		any_realm_province = {
-			religion = catholic
+			religion = jewish
 		}
 	}
 
@@ -2083,7 +2089,7 @@ character_event = {
 			factor = 0.75
 			any_demesne_province = {
 				is_capital = yes
-				religion = catholic
+				religion = jewish
 			}
 		}
 	}
@@ -2099,12 +2105,12 @@ character_event = {
 		}
 		religion = catholic
 		capital_scope = {
-			religion = catholic
+			religion = jewish
 		}
 		
 		any_realm_character = {
 			limit = { religion = tengri_pagan }
-			religion = catholic
+			religion = jewish
 			if = {
 				limit = {
 					is_playable = yes
@@ -2113,7 +2119,7 @@ character_event = {
 					}
 				}
 				capital_scope = {
-					religion = catholic
+					religion = jewish
 				}
 			}
 		}
@@ -2122,22 +2128,22 @@ character_event = {
 	option = {
 		name = "EVTOPTB60010"
 		trigger = {
-			religion_group = muslim
+			religion_group = christian
 			NOT = { has_landed_title = e_il-khanate }
 		}
 	}
 	option = {
 		name = "EXCELLENT"
 		trigger = {
-			religion_group = christian
+			religion_group = jewish
 			NOT = { has_landed_title = e_il-khanate }
 		}
 	}
 	option = {
 		name = "EVTOPTD60010"
 		trigger = {
+			NOT = { religion_group = jewish }
 			NOT = { religion_group = christian }
-			NOT = { religion_group = muslim }
 			NOT = { has_landed_title = e_il-khanate }
 		}
 	}
@@ -2153,6 +2159,10 @@ character_event = {
 	major = yes
 	
 	only_playable = yes
+	only_independent = yes
+	only_capable = yes
+	min_age = 16
+	prisoner = no 
 	
 	trigger = {
 		primary_title = {
@@ -2242,6 +2252,10 @@ character_event = {
 	major = yes
 	
 	only_playable = yes
+	only_independent = yes
+	only_capable = yes
+	min_age = 16
+	prisoner = no
 	
 	trigger = {
 		primary_title = {
@@ -2321,7 +2335,7 @@ character_event = {
 	}
 }
 
-# Ilkhanate converts to Shiite
+# Ilkhanate converts to Manichean
 character_event = {
 	id = 60013
 	title = "EVTNAME60010"
@@ -2332,6 +2346,10 @@ character_event = {
 	major = yes
 	
 	only_playable = yes
+	only_independent = yes
+	only_capable = yes
+	min_age = 16
+	prisoner = no
 	
 	trigger = {
 		primary_title = {
@@ -2345,7 +2363,7 @@ character_event = {
 		NOT = { had_global_flag = { flag = il_khanate_arrival days = 29200 } }
 		NOT = { has_global_flag = il_khanate_converts }
 		any_realm_province = {
-			religion = shiite
+			religion = manichean
 		}
 	}
 
@@ -2355,7 +2373,7 @@ character_event = {
 			factor = 0.75
 			any_demesne_province = {
 				is_capital = yes
-				religion = shiite
+				religion = manichean
 			}
 		}
 	}
@@ -2372,7 +2390,7 @@ character_event = {
 		religion = shiite
 		any_realm_character = {
 			limit = { religion = tengri_pagan }
-			religion = shiite
+			religion = manichean
 			if = {
 				limit = {
 					is_playable = yes
@@ -2381,7 +2399,7 @@ character_event = {
 					}
 				}
 				capital_scope = {
-					religion = shiite
+					religion = manichean
 				}
 			}
 		}
@@ -2390,7 +2408,7 @@ character_event = {
 	option = {
 		name = "EXCELLENT"
 		trigger = {
-			religion_group = muslim
+			religion_group = zoroastrian_group
 			NOT = { has_landed_title = e_il-khanate }
 		}
 	}
@@ -2405,7 +2423,7 @@ character_event = {
 		name = "EVTOPTD60010"
 		trigger = {
 			NOT = { religion_group = christian }
-			NOT = { religion_group = muslim }
+			NOT = { religion_group = zoroastrian_group }
 			NOT = { has_landed_title = e_il-khanate }
 		}
 	}
@@ -2421,6 +2439,10 @@ character_event = {
 	major = yes
 	
 	only_playable = yes
+	only_independent = yes
+	only_capable = yes
+	min_age = 16
+	prisoner = no
 	
 	trigger = {
 		primary_title = {
@@ -2500,7 +2522,7 @@ character_event = {
 	}
 }
 
-# Golden Horde converts to Catholic
+# Golden Horde converts to Jewish
 character_event = {
 	id = 60020
 	title = "EVTNAME60020"
@@ -2511,6 +2533,10 @@ character_event = {
 	major = yes
 	
 	only_playable = yes
+	only_independent = yes
+	only_capable = yes
+	min_age = 16
+	prisoner = no
 	
 	trigger = {
 		primary_title = {
@@ -2524,7 +2550,7 @@ character_event = {
 		NOT = { had_global_flag = { flag = il_khanate_arrival days = 29200 } }
 		NOT = { has_global_flag = golden_horde_converts }
 		any_realm_province = {
-			religion = catholic
+			religion = jewish
 		}
 	}
 
@@ -2534,7 +2560,7 @@ character_event = {
 			factor = 0.75
 			any_demesne_province = {
 				is_capital = yes
-				religion = catholic
+				religion = jewish
 			}
 		}
 	}
@@ -2550,11 +2576,11 @@ character_event = {
 		}
 		religion = catholic
 		capital_scope = {
-			religion = catholic
+			religion = jewish
 		}
 		any_realm_character = {
 			limit = { religion = tengri_pagan }
-			religion = catholic
+			religion = jewish
 			if = {
 				limit = {
 					is_playable = yes
@@ -2563,7 +2589,7 @@ character_event = {
 					}
 				}
 				capital_scope = {
-					religion = catholic
+					religion = jewish
 				}
 			}
 		}
@@ -2572,14 +2598,14 @@ character_event = {
 	option = {
 		name = "EVTOPTB60010"
 		trigger = {
-			religion_group = muslim
+			religion_group = christian
 			NOT = { has_landed_title = e_golden_horde }
 		}
 	}
 	option = {
 		name = "EXCELLENT"
 		trigger = {
-			religion_group = christian
+			religion_group = jewish_group
 			NOT = { has_landed_title = e_golden_horde }
 		}
 	}
@@ -2587,7 +2613,7 @@ character_event = {
 		name = "EVTOPTD60010"
 		trigger = {
 			NOT = { religion_group = christian }
-			NOT = { religion_group = muslim }
+			NOT = { religion_group = jewish_group }
 			NOT = { has_landed_title = e_golden_horde }
 		}
 	}
@@ -2604,6 +2630,10 @@ character_event = {
 	major = yes
 	
 	only_playable = yes
+	only_independent = yes
+	only_capable = yes
+	min_age = 16
+	prisoner = no
 	
 	trigger = {
 		primary_title = {
@@ -2694,6 +2724,10 @@ character_event = {
 	major = yes
 	
 	only_playable = yes
+	only_independent = yes
+	only_capable = yes
+	min_age = 16
+	prisoner = no
 	
 	trigger = {
 		primary_title = {
@@ -2773,7 +2807,7 @@ character_event = {
 	}
 }
 
-# Golden Horde converts to Shiite
+# Golden Horde converts to Manichean
 character_event = {
 	id = 60023
 	title = "EVTNAME60020"
@@ -2784,6 +2818,10 @@ character_event = {
 	major = yes
 	
 	only_playable = yes
+	only_independent = yes
+	only_capable = yes
+	min_age = 16
+	prisoner = no
 	
 	trigger = {
 		primary_title = {
@@ -2797,7 +2835,7 @@ character_event = {
 		NOT = { had_global_flag = { flag = il_khanate_arrival days = 29200 } }
 		NOT = { has_global_flag = golden_horde_converts }
 		any_realm_province = {
-			religion = shiite
+			religion = manichean
 		}
 	}
 
@@ -2807,7 +2845,7 @@ character_event = {
 			factor = 0.75
 			any_demesne_province = {
 				is_capital = yes
-				religion = shiite
+				religion = manichean
 			}
 		}
 	}
@@ -2824,7 +2862,7 @@ character_event = {
 		religion = shiite
 		any_realm_character = {
 			limit = { religion = tengri_pagan }
-			religion = shiite
+			religion = manichean
 			if = {
 				limit = {
 					is_playable = yes
@@ -2833,7 +2871,7 @@ character_event = {
 					}
 				}
 				capital_scope = {
-					religion = shiite
+					religion = manichean
 				}
 			}
 		}
@@ -2842,7 +2880,7 @@ character_event = {
 	option = {
 		name = "EXCELLENT"
 		trigger = {
-			religion_group = muslim
+			religion_group = zoroastrian_group
 			NOT = { has_landed_title = e_golden_horde }
 		}
 	}
@@ -2857,7 +2895,7 @@ character_event = {
 		name = "EVTOPTD60010"
 		trigger = {
 			NOT = { religion_group = christian }
-			NOT = { religion_group = muslim }
+			NOT = { religion_group = zoroastrian_group }
 			NOT = { has_landed_title = e_golden_horde }
 		}
 	}
@@ -2874,6 +2912,10 @@ character_event = {
 	major = yes
 	
 	only_playable = yes
+	only_independent = yes
+	only_capable = yes
+	min_age = 16
+	prisoner = no
 	
 	trigger = {
 		primary_title = {
@@ -2965,6 +3007,8 @@ narrative_event = {
 	
 	is_triggered_only = yes
 	
+	culture = mongol
+	
 	trigger = {
 		NOT = { has_global_flag = mongols_sack_kiev }
 		OR = {
@@ -2979,7 +3023,6 @@ narrative_event = {
 			top_liege = { has_landed_title = e_mongol_empire }
 		}
 		FROM = { title = b_kiev }
-		culture = mongol
 		NOT = {
 			FROM = {
 				owner = {
@@ -3015,9 +3058,8 @@ narrative_event = {
 	
 	immediate = {
 		set_global_flag = mongols_sack_kiev
-		any_playable_ruler = {
+		any_player = {
 			limit = {
-				ai = no
 				OR = {
 					has_landed_title = e_il-khanate
 					has_landed_title = e_golden_horde
@@ -3056,6 +3098,8 @@ narrative_event = {
 	
 	is_triggered_only = yes
 	
+	culture = mongol
+	
 	trigger = {
 		NOT = { has_global_flag = mongols_sack_novgorod }
 		OR = {
@@ -3070,7 +3114,6 @@ narrative_event = {
 			top_liege = { has_landed_title = e_mongol_empire }
 		}
 		FROM = { title = b_novgorod }
-		culture = mongol
 		NOT = {
 			FROM = {
 				owner = {
@@ -3106,9 +3149,8 @@ narrative_event = {
 	
 	immediate = {
 		set_global_flag = mongols_sack_novgorod
-		any_playable_ruler = {
+		any_player = {
 			limit = {
-				ai = no
 				OR = {
 					has_landed_title = e_il-khanate
 					has_landed_title = e_golden_horde
@@ -3149,6 +3191,8 @@ narrative_event = {
 	
 	is_triggered_only = yes
 	
+	culture = mongol
+	
 	trigger = {
 		NOT = { has_global_flag = mongols_sack_krakow }
 		OR = {
@@ -3163,7 +3207,7 @@ narrative_event = {
 			top_liege = { has_landed_title = e_mongol_empire }
 		}
 		FROM = { title = b_krakow }
-		culture = mongol
+		
 		NOT = {
 			FROM = {
 				owner = {
@@ -3199,9 +3243,8 @@ narrative_event = {
 	
 	immediate = {
 		set_global_flag = mongols_sack_krakow
-		any_playable_ruler = {
+		any_player = {
 			limit = {
-				ai = no
 				OR = {
 					has_landed_title = e_il-khanate
 					has_landed_title = e_golden_horde
@@ -3240,6 +3283,8 @@ narrative_event = {
 	
 	is_triggered_only = yes
 	
+	culture = mongol
+	
 	trigger = {
 		NOT = { has_global_flag = mongols_sack_aachen }
 		OR = {
@@ -3254,7 +3299,7 @@ narrative_event = {
 			top_liege = { has_landed_title = e_mongol_empire }
 		}
 		FROM = { title = b_aachen }
-		culture = mongol
+		
 		NOT = {
 			FROM = {
 				owner = {
@@ -3290,9 +3335,8 @@ narrative_event = {
 	
 	immediate = {
 		set_global_flag = mongols_sack_aachen
-		any_playable_ruler = {
+		any_player = {
 			limit = {
-				ai = no
 				OR = {
 					has_landed_title = e_il-khanate
 					has_landed_title = e_golden_horde
@@ -3331,6 +3375,8 @@ narrative_event = {
 	
 	is_triggered_only = yes
 	
+	culture = mongol
+	
 	trigger = {
 		NOT = { has_global_flag = mongols_sack_paris }
 		OR = {
@@ -3345,7 +3391,7 @@ narrative_event = {
 			top_liege = { has_landed_title = e_mongol_empire }
 		}
 		FROM = { title = b_paris }
-		culture = mongol
+		
 		NOT = {
 			FROM = {
 				owner = {
@@ -3381,9 +3427,8 @@ narrative_event = {
 	
 	immediate = {
 		set_global_flag = mongols_sack_paris
-		any_playable_ruler = {
+		any_player = {
 			limit = {
-				ai = no
 				OR = {
 					has_landed_title = e_il-khanate
 					has_landed_title = e_golden_horde
@@ -3422,6 +3467,8 @@ narrative_event = {
 	
 	is_triggered_only = yes
 	
+	culture = mongol
+	
 	trigger = {
 		NOT = { has_global_flag = mongols_sack_london }
 		OR = {
@@ -3436,7 +3483,7 @@ narrative_event = {
 			top_liege = { has_landed_title = e_mongol_empire }
 		}
 		FROM = { title = b_london }
-		culture = mongol
+		
 		NOT = {
 			FROM = {
 				owner = {
@@ -3472,9 +3519,8 @@ narrative_event = {
 	
 	immediate = {
 		set_global_flag = mongols_sack_london
-		any_playable_ruler = {
+		any_player = {
 			limit = {
-				ai = no
 				OR = {
 					has_landed_title = e_il-khanate
 					has_landed_title = e_golden_horde
@@ -3513,6 +3559,8 @@ narrative_event = {
 	
 	is_triggered_only = yes
 	
+	culture = mongol
+	
 	trigger = {
 		NOT = { has_global_flag = mongols_sack_rome }
 		OR = {
@@ -3527,7 +3575,7 @@ narrative_event = {
 			top_liege = { has_landed_title = e_mongol_empire }
 		}
 		FROM = { title = b_roma }
-		culture = mongol
+		
 		NOT = {
 			FROM = {
 				owner = {
@@ -3563,9 +3611,8 @@ narrative_event = {
 	
 	immediate = {
 		set_global_flag = mongols_sack_rome
-		any_playable_ruler = {
+		any_player = {
 			limit = {
-				ai = no
 				OR = {
 					has_landed_title = e_il-khanate
 					has_landed_title = e_golden_horde
@@ -3604,7 +3651,10 @@ narrative_event = {
 	
 	is_triggered_only = yes
 	
+	culture = mongol
+	
 	trigger = {
+		FROM = { title = b_venezia }
 		NOT = { has_global_flag = mongols_sack_venice }
 		OR = {
 			has_landed_title = e_il-khanate
@@ -3617,8 +3667,6 @@ narrative_event = {
 			top_liege = { has_landed_title = e_golden_horde }
 			top_liege = { has_landed_title = e_mongol_empire }
 		}
-		FROM = { title = b_venezia }
-		culture = mongol
 		NOT = {
 			FROM = {
 				owner = {
@@ -3654,9 +3702,8 @@ narrative_event = {
 	
 	immediate = {
 		set_global_flag = mongols_sack_venice
-		any_playable_ruler = {
+		any_player = {
 			limit = {
-				ai = no
 				OR = {
 					has_landed_title = e_il-khanate
 					has_landed_title = e_golden_horde
@@ -3695,7 +3742,10 @@ narrative_event = {
 	
 	is_triggered_only = yes
 	
+	culture = mongol
+	
 	trigger = {
+		FROM = { title = b_constantinople }
 		NOT = { has_global_flag = mongols_sack_constantinople }
 		OR = {
 			has_landed_title = e_il-khanate
@@ -3708,8 +3758,7 @@ narrative_event = {
 			top_liege = { has_landed_title = e_golden_horde }
 			top_liege = { has_landed_title = e_mongol_empire }
 		}
-		FROM = { title = b_constantinople }
-		culture = mongol
+		
 		NOT = {
 			FROM = {
 				owner = {
@@ -3745,9 +3794,8 @@ narrative_event = {
 	
 	immediate = {
 		set_global_flag = mongols_sack_constantinople
-		any_playable_ruler = {
+		any_player = {
 			limit = {
-				ai = no
 				OR = {
 					has_landed_title = e_il-khanate
 					has_landed_title = e_golden_horde
@@ -3786,7 +3834,10 @@ narrative_event = {
 	
 	is_triggered_only = yes
 	
+	culture = mongol
+	
 	trigger = {
+		FROM = { title = b_lisboa }
 		NOT = { has_global_flag = mongols_sack_lisbon }
 		OR = {
 			has_landed_title = e_il-khanate
@@ -3799,8 +3850,7 @@ narrative_event = {
 			top_liege = { has_landed_title = e_golden_horde }
 			top_liege = { has_landed_title = e_mongol_empire }
 		}
-		FROM = { title = b_lisboa }
-		culture = mongol
+		
 		NOT = {
 			FROM = {
 				owner = {
@@ -3836,9 +3886,8 @@ narrative_event = {
 	
 	immediate = {
 		set_global_flag = mongols_sack_lisbon
-		any_playable_ruler = {
+		any_player = {
 			limit = {
-				ai = no
 				OR = {
 					has_landed_title = e_il-khanate
 					has_landed_title = e_golden_horde
@@ -3877,7 +3926,10 @@ narrative_event = {
 	
 	is_triggered_only = yes
 	
+	culture = mongol
+	
 	trigger = {
+		FROM = { title = b_smolensk }
 		NOT = { has_global_flag = mongols_sack_smolensk }
 		OR = {
 			has_landed_title = e_il-khanate
@@ -3890,8 +3942,7 @@ narrative_event = {
 			top_liege = { has_landed_title = e_golden_horde }
 			top_liege = { has_landed_title = e_mongol_empire }
 		}
-		FROM = { title = b_smolensk }
-		culture = mongol
+		
 		NOT = {
 			FROM = {
 				owner = {
@@ -3927,9 +3978,8 @@ narrative_event = {
 	
 	immediate = {
 		set_global_flag = mongols_sack_smolensk
-		any_playable_ruler = {
+		any_player = {
 			limit = {
-				ai = no
 				OR = {
 					has_landed_title = e_il-khanate
 					has_landed_title = e_golden_horde
@@ -3968,7 +4018,10 @@ narrative_event = {
 	
 	is_triggered_only = yes
 	
+	culture = mongol
+	
 	trigger = {
+		FROM = { title = b_praha }
 		NOT = { has_global_flag = mongols_sack_prague }
 		OR = {
 			has_landed_title = e_il-khanate
@@ -3981,8 +4034,7 @@ narrative_event = {
 			top_liege = { has_landed_title = e_golden_horde }
 			top_liege = { has_landed_title = e_mongol_empire }
 		}
-		FROM = { title = b_praha }
-		culture = mongol
+		
 		NOT = {
 			FROM = {
 				owner = {
@@ -4018,9 +4070,8 @@ narrative_event = {
 	
 	immediate = {
 		set_global_flag = mongols_sack_prague
-		any_playable_ruler = {
+		any_player = {
 			limit = {
-				ai = no
 				OR = {
 					has_landed_title = e_il-khanate
 					has_landed_title = e_golden_horde
@@ -4059,7 +4110,10 @@ narrative_event = {
 	
 	is_triggered_only = yes
 	
+	culture = mongol
+	
 	trigger = {
+		FROM = { title = b_wien }
 		NOT = { has_global_flag = mongols_sack_vienna }
 		OR = {
 			has_landed_title = e_il-khanate
@@ -4072,8 +4126,7 @@ narrative_event = {
 			top_liege = { has_landed_title = e_golden_horde }
 			top_liege = { has_landed_title = e_mongol_empire }
 		}
-		FROM = { title = b_wien }
-		culture = mongol
+		
 		NOT = {
 			FROM = {
 				owner = {
@@ -4109,9 +4162,8 @@ narrative_event = {
 	
 	immediate = {
 		set_global_flag = mongols_sack_vienna
-		any_playable_ruler = {
+		any_player = {
 			limit = {
-				ai = no
 				OR = {
 					has_landed_title = e_il-khanate
 					has_landed_title = e_golden_horde
@@ -4150,7 +4202,10 @@ narrative_event = {
 	
 	is_triggered_only = yes
 	
+	culture = mongol
+	
 	trigger = {
+		FROM = { title = b_esztergom }
 		NOT = { has_global_flag = mongols_sack_esztergom }
 		OR = {
 			has_landed_title = e_il-khanate
@@ -4163,8 +4218,7 @@ narrative_event = {
 			top_liege = { has_landed_title = e_golden_horde }
 			top_liege = { has_landed_title = e_mongol_empire }
 		}
-		FROM = { title = b_esztergom }
-		culture = mongol
+		
 		NOT = {
 			FROM = {
 				owner = {
@@ -4200,9 +4254,8 @@ narrative_event = {
 	
 	immediate = {
 		set_global_flag = mongols_sack_esztergom
-		any_playable_ruler = {
+		any_player = {
 			limit = {
-				ai = no
 				OR = {
 					has_landed_title = e_il-khanate
 					has_landed_title = e_golden_horde
@@ -4241,7 +4294,10 @@ narrative_event = {
 	
 	is_triggered_only = yes
 	
+	culture = mongol
+	
 	trigger = {
+		FROM = { title = b_athens }
 		NOT = { has_global_flag = mongols_sack_athens }
 		OR = {
 			has_landed_title = e_il-khanate
@@ -4254,8 +4310,7 @@ narrative_event = {
 			top_liege = { has_landed_title = e_golden_horde }
 			top_liege = { has_landed_title = e_mongol_empire }
 		}
-		FROM = { title = b_athens }
-		culture = mongol
+		
 		NOT = {
 			FROM = {
 				owner = {
@@ -4291,9 +4346,8 @@ narrative_event = {
 	
 	immediate = {
 		set_global_flag = mongols_sack_athens
-		any_playable_ruler = {
+		any_player = {
 			limit = {
-				ai = no
 				OR = {
 					has_landed_title = e_il-khanate
 					has_landed_title = e_golden_horde
@@ -4332,7 +4386,10 @@ narrative_event = {
 	
 	is_triggered_only = yes
 	
+	culture = mongol
+	
 	trigger = {
+		FROM = { title = b_belgrade }
 		NOT = { has_global_flag = mongols_sack_belgrade }
 		OR = {
 			has_landed_title = e_il-khanate
@@ -4345,8 +4402,7 @@ narrative_event = {
 			top_liege = { has_landed_title = e_golden_horde }
 			top_liege = { has_landed_title = e_mongol_empire }
 		}
-		FROM = { title = b_belgrade }
-		culture = mongol
+		
 		NOT = {
 			FROM = {
 				owner = {
@@ -4382,9 +4438,8 @@ narrative_event = {
 	
 	immediate = {
 		set_global_flag = mongols_sack_belgrade
-		any_playable_ruler = {
+		any_player = {
 			limit = {
-				ai = no
 				OR = {
 					has_landed_title = e_il-khanate
 					has_landed_title = e_golden_horde
@@ -4425,6 +4480,8 @@ narrative_event = {
 	
 	is_triggered_only = yes
 	
+	culture = mongol
+	
 	trigger = {
 		FROM = { title = b_bagdad }
 		NOT = { has_global_flag = mongols_sack_baghdad }
@@ -4439,7 +4496,7 @@ narrative_event = {
 			top_liege = { has_landed_title = e_golden_horde }
 			top_liege = { has_landed_title = e_mongol_empire }
 		}
-		culture = mongol
+		
 		NOT = {
 			FROM = {
 				owner = {
@@ -4475,9 +4532,8 @@ narrative_event = {
 	
 	immediate = {
 		set_global_flag = mongols_sack_baghdad
-		any_playable_ruler = {
+		any_player = {
 			limit = {
-				ai = no
 				OR = {
 					has_landed_title = e_il-khanate
 					has_landed_title = e_golden_horde
@@ -4516,7 +4572,10 @@ narrative_event = {
 	
 	is_triggered_only = yes
 	
+	culture = mongol
+	
 	trigger = {
+		FROM = { title = b_damascus }
 		NOT = { has_global_flag = mongols_sack_damascus }
 		OR = {
 			has_landed_title = e_il-khanate
@@ -4529,8 +4588,7 @@ narrative_event = {
 			top_liege = { has_landed_title = e_golden_horde }
 			top_liege = { has_landed_title = e_mongol_empire }
 		}
-		FROM = { title = b_damascus }
-		culture = mongol
+		
 		NOT = {
 			FROM = {
 				owner = {
@@ -4566,9 +4624,8 @@ narrative_event = {
 	
 	immediate = {
 		set_global_flag = mongols_sack_damascus
-		any_playable_ruler = {
+		any_player = {
 			limit = {
-				ai = no
 				OR = {
 					has_landed_title = e_il-khanate
 					has_landed_title = e_golden_horde
@@ -4607,7 +4664,10 @@ narrative_event = {
 	
 	is_triggered_only = yes
 	
+	culture = mongol
+	
 	trigger = {
+		FROM = { title = b_jerusalem }
 		NOT = { has_global_flag = mongols_sack_jerusalem }
 		NOT = {
 			OR = {
@@ -4626,8 +4686,7 @@ narrative_event = {
 			top_liege = { has_landed_title = e_golden_horde }
 			top_liege = { has_landed_title = e_mongol_empire }
 		}
-		FROM = { title = b_jerusalem }
-		culture = mongol
+		
 		NOT = {
 			FROM = {
 				owner = {
@@ -4663,9 +4722,8 @@ narrative_event = {
 	
 	immediate = {
 		set_global_flag = mongols_sack_jerusalem
-		any_playable_ruler = {
+		any_player = {
 			limit = {
-				ai = no
 				OR = {
 					has_landed_title = e_il-khanate
 					has_landed_title = e_golden_horde
@@ -4704,7 +4762,10 @@ narrative_event = {
 	
 	is_triggered_only = yes
 	
+	culture = mongol
+	
 	trigger = {
+		FROM = { title = b_alexandria }
 		NOT = { has_global_flag = mongols_sack_alexandria }
 		OR = {
 			has_landed_title = e_il-khanate
@@ -4717,8 +4778,7 @@ narrative_event = {
 			top_liege = { has_landed_title = e_golden_horde }
 			top_liege = { has_landed_title = e_mongol_empire }
 		}
-		FROM = { title = b_alexandria }
-		culture = mongol
+		
 		NOT = {
 			FROM = {
 				owner = {
@@ -4754,9 +4814,8 @@ narrative_event = {
 	
 	immediate = {
 		set_global_flag = mongols_sack_alexandria
-		any_playable_ruler = {
+		any_player = {
 			limit = {
-				ai = no
 				OR = {
 					has_landed_title = e_il-khanate
 					has_landed_title = e_golden_horde
@@ -4795,7 +4854,10 @@ narrative_event = {
 	
 	is_triggered_only = yes
 	
+	culture = mongol
+	
 	trigger = {
+		FROM = { title = b_cairo }
 		NOT = { has_global_flag = mongols_sack_cairo }
 		OR = {
 			has_landed_title = e_il-khanate
@@ -4808,8 +4870,7 @@ narrative_event = {
 			top_liege = { has_landed_title = e_golden_horde }
 			top_liege = { has_landed_title = e_mongol_empire }
 		}
-		FROM = { title = b_cairo }
-		culture = mongol
+		
 		NOT = {
 			FROM = {
 				owner = {
@@ -4845,9 +4906,8 @@ narrative_event = {
 	
 	immediate = {
 		set_global_flag = mongols_sack_cairo
-		any_playable_ruler = {
+		any_player = {
 			limit = {
-				ai = no
 				OR = {
 					has_landed_title = e_il-khanate
 					has_landed_title = e_golden_horde
@@ -4886,7 +4946,10 @@ narrative_event = {
 	
 	is_triggered_only = yes
 	
+	culture = mongol
+	
 	trigger = {
+		FROM = { title = b_mecca }
 		NOT = { has_global_flag = mongols_sack_mecca }
 		NOT = { religion_group = muslim }
 		OR = {
@@ -4900,8 +4963,7 @@ narrative_event = {
 			top_liege = { has_landed_title = e_golden_horde }
 			top_liege = { has_landed_title = e_mongol_empire }
 		}
-		FROM = { title = b_mecca }
-		culture = mongol
+		
 		NOT = {
 			FROM = {
 				owner = {
@@ -4937,9 +4999,8 @@ narrative_event = {
 	
 	immediate = {
 		set_global_flag = mongols_sack_mecca
-		any_playable_ruler = {
+		any_player = {
 			limit = {
-				ai = no
 				OR = {
 					has_landed_title = e_il-khanate
 					has_landed_title = e_golden_horde
@@ -5170,14 +5231,11 @@ character_event = {
 # Ping the target province
 province_event = {
 	id = 60202
-	desc = OK
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
 	
-	option = {
-		name = OK
+	immediate = {
 		if = {
 			limit = {
 				FROM = {
@@ -5208,8 +5266,6 @@ province_event = {
 # The landless Seljuk and his men start an adventure
 character_event = {
 	id = 60203
-	desc = OK
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -5329,9 +5385,9 @@ character_event = {
 		
 		if = {
 			limit = {
-				NOT = { religion_group = zoroastrian_group }
+				NOT = { religion_group = muslim }
 			}
-			religion = manichean
+			religion = sunni
 		}
 		
 		# Create some characters
@@ -5385,10 +5441,6 @@ character_event = {
 		}
 		
 		log = "60203: Seljuk starts his first war as a landless character!"
-	}
-	
-	option = {
-		name = OK
 	}
 }
 
@@ -5634,11 +5686,10 @@ narrative_event = {
 					home = PREV
 					owner = THIS
 					troops = {
-						horse_archers = { 2700 2700 }
-						light_cavalry = { 1600 1600 }
-						light_infantry = { 541 541 }
-						heavy_infantry = { 210 210 }
-						knights = { 47 47 }
+						light_infantry = { 2250 2250 }
+						light_cavalry = { 2000 2000 }
+						horse_archers = { 1500 1500 }
+						knights = { 50 50 }
 					}
 				}
 				spawn_unit = {
@@ -5646,11 +5697,10 @@ narrative_event = {
 					home = PREV
 					owner = THIS
 					troops = {
-						horse_archers = { 2700 2700 }
-						light_cavalry = { 1600 1600 }
-						light_infantry = { 541 541 }
-						heavy_infantry = { 210 210 }
-						knights = { 47 47 }
+						light_infantry = { 2250 2250 }
+						light_cavalry = { 2000 2000 }
+						horse_archers = { 1500 1500 }
+						knights = { 50 50 }
 					}
 				}
 				spawn_unit = {
@@ -5658,11 +5708,10 @@ narrative_event = {
 					home = PREV
 					owner = THIS
 					troops = {
-						horse_archers = { 2700 2700 }
-						light_cavalry = { 1600 1600 }
-						light_infantry = { 541 541 }
-						heavy_infantry = { 210 210 }
-						knights = { 47 47 }
+						light_infantry = { 2250 2250 }
+						light_cavalry = { 2000 2000 }
+						horse_archers = { 1500 1500 }
+						knights = { 50 50 }
 					}
 				}
 				spawn_unit = {
@@ -5670,11 +5719,10 @@ narrative_event = {
 					home = PREV
 					owner = THIS
 					troops = {
-						horse_archers = { 2700 2700 }
-						light_cavalry = { 1600 1600 }
-						light_infantry = { 541 541 }
-						heavy_infantry = { 210 210 }
-						knights = { 47 47 }
+						light_infantry = { 2250 2250 }
+						light_cavalry = { 2000 2000 }
+						horse_archers = { 1500 1500 }
+						knights = { 50 50 }
 					}
 				}
 				spawn_unit = {
@@ -5682,11 +5730,10 @@ narrative_event = {
 					home = PREV
 					owner = THIS
 					troops = {
-						horse_archers = { 2700 2700 }
-						light_cavalry = { 1600 1600 }
-						light_infantry = { 541 541 }
-						heavy_infantry = { 210 210 }
-						knights = { 47 47 }
+						light_infantry = { 2250 2250 }
+						light_cavalry = { 2000 2000 }
+						horse_archers = { 1500 1500 }
+						knights = { 50 50 }
 					}
 				}
 				spawn_unit = {
@@ -5694,11 +5741,10 @@ narrative_event = {
 					home = PREV
 					owner = THIS
 					troops = {
-						horse_archers = { 2700 2700 }
-						light_cavalry = { 1600 1600 }
-						light_infantry = { 541 541 }
-						heavy_infantry = { 210 210 }
-						knights = { 47 47 }
+						light_infantry = { 2250 2250 }
+						light_cavalry = { 2000 2000 }
+						horse_archers = { 1500 1500 }
+						knights = { 50 50 }
 					}
 				}
 			}
@@ -5751,6 +5797,7 @@ character_event = {
 	
 	only_playable = yes
 	only_independent = yes
+	has_global_flag = seljuk_spawned_by_event
 	
 	trigger = {
 		year = 980
@@ -5763,7 +5810,6 @@ character_event = {
 		
 		martial = 7
 		
-		has_global_flag = seljuk_spawned_by_event
 		NOT = { has_character_flag = seljuk_himself }
 		NOT = { has_character_flag = seljuk_reinforcements }
 	}
@@ -5796,11 +5842,10 @@ character_event = {
 					home = PREV
 					owner = THIS
 					troops = {
-						horse_archers = { 2700 2700 }
-						light_cavalry = { 1600 1600 }
-						light_infantry = { 541 541 }
-						heavy_infantry = { 210 210 }
-						knights = { 47 47 }
+						light_infantry = { 2250 2250 }
+						light_cavalry = { 2000 2000 }
+						horse_archers = { 1500 1500 }
+						knights = { 50 50 }
 					}
 				}
 				spawn_unit = {
@@ -5808,11 +5853,10 @@ character_event = {
 					home = PREV
 					owner = THIS
 					troops = {
-						horse_archers = { 2700 2700 }
-						light_cavalry = { 1600 1600 }
-						light_infantry = { 541 541 }
-						heavy_infantry = { 210 210 }
-						knights = { 47 47 }
+						light_infantry = { 2250 2250 }
+						light_cavalry = { 2000 2000 }
+						horse_archers = { 1500 1500 }
+						knights = { 50 50 }
 					}
 				}
 				spawn_unit = {
@@ -5820,11 +5864,10 @@ character_event = {
 					home = PREV
 					owner = THIS
 					troops = {
-						horse_archers = { 2700 2700 }
-						light_cavalry = { 1600 1600 }
-						light_infantry = { 541 541 }
-						heavy_infantry = { 210 210 }
-						knights = { 47 47 }
+						light_infantry = { 2250 2250 }
+						light_cavalry = { 2000 2000 }
+						horse_archers = { 1500 1500 }
+						knights = { 50 50 }
 					}
 				}
 				spawn_unit = {
@@ -5832,11 +5875,10 @@ character_event = {
 					home = PREV
 					owner = THIS
 					troops = {
-						horse_archers = { 2700 2700 }
-						light_cavalry = { 1600 1600 }
-						light_infantry = { 541 541 }
-						heavy_infantry = { 210 210 }
-						knights = { 47 47 }
+						light_infantry = { 2250 2250 }
+						light_cavalry = { 2000 2000 }
+						horse_archers = { 1500 1500 }
+						knights = { 50 50 }
 					}
 				}
 				if = {
@@ -5848,11 +5890,10 @@ character_event = {
 						home = PREV
 						owner = THIS
 						troops = {
-							horse_archers = { 2700 2700 }
-							light_cavalry = { 1600 1600 }
-							light_infantry = { 541 541 }
-							heavy_infantry = { 210 210 }
-							knights = { 47 47 }
+							light_infantry = { 2250 2250 }
+							light_cavalry = { 2000 2000 }
+							horse_archers = { 1500 1500 }
+							knights = { 50 50 }
 						}
 					}
 				}
@@ -5865,11 +5906,10 @@ character_event = {
 						home = PREV
 						owner = THIS
 						troops = {
-							horse_archers = { 2700 2700 }
-							light_cavalry = { 1600 1600 }
-							light_infantry = { 541 541 }
-							heavy_infantry = { 210 210 }
-							knights = { 47 47 }
+							light_infantry = { 2250 2250 }
+							light_cavalry = { 2000 2000 }
+							horse_archers = { 1500 1500 }
+							knights = { 50 50 }
 						}
 					}
 				}
@@ -5882,11 +5922,10 @@ character_event = {
 						home = PREV
 						owner = THIS
 						troops = {
-							horse_archers = { 2700 2700 }
-							light_cavalry = { 1600 1600 }
-							light_infantry = { 541 541 }
-							heavy_infantry = { 210 210 }
-							knights = { 47 47 }
+							light_infantry = { 2250 2250 }
+							light_cavalry = { 2000 2000 }
+							horse_archers = { 1500 1500 }
+							knights = { 50 50 }
 						}
 					}
 				}
@@ -6163,14 +6202,11 @@ character_event = {
 # Ping the target province
 province_event = {
 	id = 60302
-	desc = OK
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
 	
-	option = {
-		name = OK
+	immediate = {
 		if = {
 			limit = {
 				FROM = {
@@ -6201,8 +6237,6 @@ province_event = {
 # The landless Timur and his men start an adventure
 character_event = {
 	id = 60303
-	desc = OK
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -6323,7 +6357,7 @@ character_event = {
 		# Create some characters
 		create_character = {
 			random_traits = yes
-			dynasty = random
+			dynasty = none
 			religion = ROOT
 			culture = ROOT
 			female = no
@@ -6335,7 +6369,7 @@ character_event = {
 		}
 		create_character = {
 			random_traits = yes
-			dynasty = random
+			dynasty = none
 			religion = ROOT
 			culture = ROOT
 			female = no
@@ -6347,7 +6381,7 @@ character_event = {
 		}
 		create_character = {
 			random_traits = yes
-			dynasty = random
+			dynasty = none
 			religion = ROOT
 			culture = ROOT
 			female = no
@@ -6359,7 +6393,7 @@ character_event = {
 		}
 		create_character = {
 			random_traits = yes
-			dynasty = random
+			dynasty = none
 			religion = ROOT
 			culture = ROOT
 			female = no
@@ -6371,7 +6405,7 @@ character_event = {
 		}
 		create_character = {
 			random_traits = yes
-			dynasty = random
+			dynasty = none
 			religion = ROOT
 			culture = ROOT
 			female = no
@@ -6407,10 +6441,6 @@ character_event = {
 		}
 		
 		log = "60303: Timur starts his first war (landless)!"
-	}
-	
-	option = {
-		name = OK
 	}
 }
 
@@ -6530,7 +6560,7 @@ character_event = {
 		# Create some characters
 		create_character = {
 			random_traits = yes
-			dynasty = random
+			dynasty = none
 			religion = ROOT
 			culture = ROOT
 			female = no
@@ -6542,7 +6572,7 @@ character_event = {
 		}
 		create_character = {
 			random_traits = yes
-			dynasty = random
+			dynasty = none
 			religion = ROOT
 			culture = ROOT
 			female = no
@@ -6554,7 +6584,7 @@ character_event = {
 		}
 		create_character = {
 			random_traits = yes
-			dynasty = random
+			dynasty = none
 			religion = ROOT
 			culture = ROOT
 			female = no
@@ -6566,7 +6596,7 @@ character_event = {
 		}
 		create_character = {
 			random_traits = yes
-			dynasty = random
+			dynasty = none
 			religion = ROOT
 			culture = ROOT
 			female = no
@@ -6578,7 +6608,7 @@ character_event = {
 		}
 		create_character = {
 			random_traits = yes
-			dynasty = random
+			dynasty = none
 			religion = ROOT
 			culture = ROOT
 			female = no
@@ -6686,11 +6716,10 @@ narrative_event = {
 					home = PREV
 					owner = THIS
 					troops = {
-						horse_archers = { 2700 2700 }
-						light_cavalry = { 1600 1600 }
-						light_infantry = { 541 541 }
-						heavy_infantry = { 210 210 }
-						knights = { 47 47 }
+						light_infantry = { 2250 2250 }
+						light_cavalry = { 2000 2000 }
+						horse_archers = { 1500 1500 }
+						knights = { 50 50 }
 					}
 				}
 				spawn_unit = {
@@ -6698,11 +6727,10 @@ narrative_event = {
 					home = PREV
 					owner = THIS
 					troops = {
-						horse_archers = { 2700 2700 }
-						light_cavalry = { 1600 1600 }
-						light_infantry = { 541 541 }
-						heavy_infantry = { 210 210 }
-						knights = { 47 47 }
+						light_infantry = { 2250 2250 }
+						light_cavalry = { 2000 2000 }
+						horse_archers = { 1500 1500 }
+						knights = { 50 50 }
 					}
 				}
 				spawn_unit = {
@@ -6710,11 +6738,10 @@ narrative_event = {
 					home = PREV
 					owner = THIS
 					troops = {
-						horse_archers = { 2700 2700 }
-						light_cavalry = { 1600 1600 }
-						light_infantry = { 541 541 }
-						heavy_infantry = { 210 210 }
-						knights = { 47 47 }
+						light_infantry = { 2250 2250 }
+						light_cavalry = { 2000 2000 }
+						horse_archers = { 1500 1500 }
+						knights = { 50 50 }
 					}
 				}
 				spawn_unit = {
@@ -6722,11 +6749,10 @@ narrative_event = {
 					home = PREV
 					owner = THIS
 					troops = {
-						horse_archers = { 2700 2700 }
-						light_cavalry = { 1600 1600 }
-						light_infantry = { 541 541 }
-						heavy_infantry = { 210 210 }
-						knights = { 47 47 }
+						light_infantry = { 2250 2250 }
+						light_cavalry = { 2000 2000 }
+						horse_archers = { 1500 1500 }
+						knights = { 50 50 }
 					}
 				}
 				spawn_unit = {
@@ -6734,11 +6760,10 @@ narrative_event = {
 					home = PREV
 					owner = THIS
 					troops = {
-						horse_archers = { 2700 2700 }
-						light_cavalry = { 1600 1600 }
-						light_infantry = { 541 541 }
-						heavy_infantry = { 210 210 }
-						knights = { 47 47 }
+						light_infantry = { 2250 2250 }
+						light_cavalry = { 2000 2000 }
+						horse_archers = { 1500 1500 }
+						knights = { 50 50 }
 					}
 				}
 				spawn_unit = {
@@ -6746,11 +6771,10 @@ narrative_event = {
 					home = PREV
 					owner = THIS
 					troops = {
-						horse_archers = { 2700 2700 }
-						light_cavalry = { 1600 1600 }
-						light_infantry = { 541 541 }
-						heavy_infantry = { 210 210 }
-						knights = { 47 47 }
+						light_infantry = { 2250 2250 }
+						light_cavalry = { 2000 2000 }
+						horse_archers = { 1500 1500 }
+						knights = { 50 50 }
 					}
 				}
 				spawn_unit = {
@@ -6758,11 +6782,10 @@ narrative_event = {
 					home = PREV
 					owner = THIS
 					troops = {
-						horse_archers = { 2700 2700 }
-						light_cavalry = { 1600 1600 }
-						light_infantry = { 541 541 }
-						heavy_infantry = { 210 210 }
-						knights = { 47 47 }
+						light_infantry = { 2250 2250 }
+						light_cavalry = { 2000 2000 }
+						horse_archers = { 1500 1500 }
+						knights = { 50 50 }
 					}
 				}
 				spawn_unit = {
@@ -6770,11 +6793,10 @@ narrative_event = {
 					home = PREV
 					owner = THIS
 					troops = {
-						horse_archers = { 2700 2700 }
-						light_cavalry = { 1600 1600 }
-						light_infantry = { 541 541 }
-						heavy_infantry = { 210 210 }
-						knights = { 47 47 }
+						light_infantry = { 2250 2250 }
+						light_cavalry = { 2000 2000 }
+						horse_archers = { 1500 1500 }
+						knights = { 50 50 }
 					}
 				}
 				
@@ -6785,11 +6807,10 @@ narrative_event = {
 						home = PREV
 						owner = THIS
 						troops = {
-							horse_archers = { 2700 2700 }
-							light_cavalry = { 1600 1600 }
-							light_infantry = { 541 541 }
-							heavy_infantry = { 210 210 }
-							knights = { 47 47 }
+							light_infantry = { 2250 2250 }
+							light_cavalry = { 2000 2000 }
+							horse_archers = { 1500 1500 }
+							knights = { 50 50 }
 						}
 					}
 				}
@@ -6800,11 +6821,10 @@ narrative_event = {
 						home = PREV
 						owner = THIS
 						troops = {
-							horse_archers = { 2700 2700 }
-							light_cavalry = { 1600 1600 }
-							light_infantry = { 541 541 }
-							heavy_infantry = { 210 210 }
-							knights = { 47 47 }
+							light_infantry = { 2250 2250 }
+							light_cavalry = { 2000 2000 }
+							horse_archers = { 1500 1500 }
+							knights = { 50 50 }
 						}
 					}
 				}
@@ -6815,11 +6835,10 @@ narrative_event = {
 						home = PREV
 						owner = THIS
 						troops = {
-							horse_archers = { 2700 2700 }
-							light_cavalry = { 1600 1600 }
-							light_infantry = { 541 541 }
-							heavy_infantry = { 210 210 }
-							knights = { 47 47 }
+							light_infantry = { 2250 2250 }
+							light_cavalry = { 2000 2000 }
+							horse_archers = { 1500 1500 }
+							knights = { 50 50 }
 						}
 					}
 				}
@@ -6830,11 +6849,10 @@ narrative_event = {
 						home = PREV
 						owner = THIS
 						troops = {
-							horse_archers = { 2700 2700 }
-							light_cavalry = { 1600 1600 }
-							light_infantry = { 541 541 }
-							heavy_infantry = { 210 210 }
-							knights = { 47 47 }
+							light_infantry = { 2250 2250 }
+							light_cavalry = { 2000 2000 }
+							horse_archers = { 1500 1500 }
+							knights = { 50 50 }
 						}
 					}
 				}
@@ -6845,11 +6863,10 @@ narrative_event = {
 						home = PREV
 						owner = THIS
 						troops = {
-							horse_archers = { 2700 2700 }
-							light_cavalry = { 1600 1600 }
-							light_infantry = { 541 541 }
-							heavy_infantry = { 210 210 }
-							knights = { 47 47 }
+							light_infantry = { 2250 2250 }
+							light_cavalry = { 2000 2000 }
+							horse_archers = { 1500 1500 }
+							knights = { 50 50 }
 						}
 					}
 				}
@@ -6860,11 +6877,10 @@ narrative_event = {
 						home = PREV
 						owner = THIS
 						troops = {
-							horse_archers = { 2700 2700 }
-							light_cavalry = { 1600 1600 }
-							light_infantry = { 541 541 }
-							heavy_infantry = { 210 210 }
-							knights = { 47 47 }
+							light_infantry = { 2250 2250 }
+							light_cavalry = { 2000 2000 }
+							horse_archers = { 1500 1500 }
+							knights = { 50 50 }
 						}
 					}
 				}
@@ -6906,6 +6922,7 @@ character_event = {
 	
 	only_playable = yes
 	only_independent = yes
+	has_global_flag = timur_spawned_by_event
 	
 	trigger = {
 		year = 1370
@@ -6917,7 +6934,6 @@ character_event = {
 		
 		martial = 7
 		
-		has_global_flag = timur_spawned_by_event
 		NOT = { has_character_flag = timur_himself }
 		NOT = { has_character_flag = timur_reinforcements }
 	}
@@ -6955,11 +6971,10 @@ character_event = {
 					home = PREV
 					owner = THIS
 					troops = {
-						horse_archers = { 2700 2700 }
-						light_cavalry = { 1600 1600 }
-						light_infantry = { 541 541 }
-						heavy_infantry = { 210 210 }
-						knights = { 47 47 }
+						light_infantry = { 2250 2250 }
+						light_cavalry = { 2000 2000 }
+						horse_archers = { 1500 1500 }
+						knights = { 50 50 }
 					}
 				}
 				spawn_unit = {
@@ -6967,11 +6982,10 @@ character_event = {
 					home = PREV
 					owner = THIS
 					troops = {
-						horse_archers = { 2700 2700 }
-						light_cavalry = { 1600 1600 }
-						light_infantry = { 541 541 }
-						heavy_infantry = { 210 210 }
-						knights = { 47 47 }
+						light_infantry = { 2250 2250 }
+						light_cavalry = { 2000 2000 }
+						horse_archers = { 1500 1500 }
+						knights = { 50 50 }
 					}
 				}
 				spawn_unit = {
@@ -6979,11 +6993,10 @@ character_event = {
 					home = PREV
 					owner = THIS
 					troops = {
-						horse_archers = { 2700 2700 }
-						light_cavalry = { 1600 1600 }
-						light_infantry = { 541 541 }
-						heavy_infantry = { 210 210 }
-						knights = { 47 47 }
+						light_infantry = { 2250 2250 }
+						light_cavalry = { 2000 2000 }
+						horse_archers = { 1500 1500 }
+						knights = { 50 50 }
 					}
 				}
 				spawn_unit = {
@@ -6991,11 +7004,10 @@ character_event = {
 					home = PREV
 					owner = THIS
 					troops = {
-						horse_archers = { 2700 2700 }
-						light_cavalry = { 1600 1600 }
-						light_infantry = { 541 541 }
-						heavy_infantry = { 210 210 }
-						knights = { 47 47 }
+						light_infantry = { 2250 2250 }
+						light_cavalry = { 2000 2000 }
+						horse_archers = { 1500 1500 }
+						knights = { 50 50 }
 					}
 				}
 				spawn_unit = {
@@ -7003,11 +7015,10 @@ character_event = {
 					home = PREV
 					owner = THIS
 					troops = {
-						horse_archers = { 2700 2700 }
-						light_cavalry = { 1600 1600 }
-						light_infantry = { 541 541 }
-						heavy_infantry = { 210 210 }
-						knights = { 47 47 }
+						light_infantry = { 2250 2250 }
+						light_cavalry = { 2000 2000 }
+						horse_archers = { 1500 1500 }
+						knights = { 50 50 }
 					}
 				}
 				spawn_unit = {
@@ -7015,11 +7026,10 @@ character_event = {
 					home = PREV
 					owner = THIS
 					troops = {
-						horse_archers = { 2700 2700 }
-						light_cavalry = { 1600 1600 }
-						light_infantry = { 541 541 }
-						heavy_infantry = { 210 210 }
-						knights = { 47 47 }
+						light_infantry = { 2250 2250 }
+						light_cavalry = { 2000 2000 }
+						horse_archers = { 1500 1500 }
+						knights = { 50 50 }
 					}
 				}
 				spawn_unit = {
@@ -7027,11 +7037,10 @@ character_event = {
 					home = PREV
 					owner = THIS
 					troops = {
-						horse_archers = { 2700 2700 }
-						light_cavalry = { 1600 1600 }
-						light_infantry = { 541 541 }
-						heavy_infantry = { 210 210 }
-						knights = { 47 47 }
+						light_infantry = { 2250 2250 }
+						light_cavalry = { 2000 2000 }
+						horse_archers = { 1500 1500 }
+						knights = { 50 50 }
 					}
 				}
 				if = {
@@ -7043,11 +7052,10 @@ character_event = {
 						home = PREV
 						owner = THIS
 						troops = {
-							horse_archers = { 2700 2700 }
-							light_cavalry = { 1600 1600 }
-							light_infantry = { 541 541 }
-							heavy_infantry = { 210 210 }
-							knights = { 47 47 }
+							light_infantry = { 2250 2250 }
+							light_cavalry = { 2000 2000 }
+							horse_archers = { 1500 1500 }
+							knights = { 50 50 }
 						}
 					}
 					spawn_unit = {
@@ -7055,11 +7063,10 @@ character_event = {
 						home = PREV
 						owner = THIS
 						troops = {
-							horse_archers = { 2700 2700 }
-							light_cavalry = { 1600 1600 }
-							light_infantry = { 541 541 }
-							heavy_infantry = { 210 210 }
-							knights = { 47 47 }
+							light_infantry = { 2250 2250 }
+							light_cavalry = { 2000 2000 }
+							horse_archers = { 1500 1500 }
+							knights = { 50 50 }
 						}
 					}
 				}
@@ -7072,11 +7079,10 @@ character_event = {
 						home = PREV
 						owner = THIS
 						troops = {
-							horse_archers = { 2700 2700 }
-							light_cavalry = { 1600 1600 }
-							light_infantry = { 541 541 }
-							heavy_infantry = { 210 210 }
-							knights = { 47 47 }
+							light_infantry = { 2250 2250 }
+							light_cavalry = { 2000 2000 }
+							horse_archers = { 1500 1500 }
+							knights = { 50 50 }
 						}
 					}
 					spawn_unit = {
@@ -7084,11 +7090,10 @@ character_event = {
 						home = PREV
 						owner = THIS
 						troops = {
-							horse_archers = { 2700 2700 }
-							light_cavalry = { 1600 1600 }
-							light_infantry = { 541 541 }
-							heavy_infantry = { 210 210 }
-							knights = { 47 47 }
+							light_infantry = { 2250 2250 }
+							light_cavalry = { 2000 2000 }
+							horse_archers = { 1500 1500 }
+							knights = { 50 50 }
 						}
 					}
 				}
@@ -7101,11 +7106,10 @@ character_event = {
 						home = PREV
 						owner = THIS
 						troops = {
-							horse_archers = { 2700 2700 }
-							light_cavalry = { 1600 1600 }
-							light_infantry = { 541 541 }
-							heavy_infantry = { 210 210 }
-							knights = { 47 47 }
+							light_infantry = { 2250 2250 }
+							light_cavalry = { 2000 2000 }
+							horse_archers = { 1500 1500 }
+							knights = { 50 50 }
 						}
 					}
 					spawn_unit = {
@@ -7113,11 +7117,10 @@ character_event = {
 						home = PREV
 						owner = THIS
 						troops = {
-							horse_archers = { 2700 2700 }
-							light_cavalry = { 1600 1600 }
-							light_infantry = { 541 541 }
-							heavy_infantry = { 210 210 }
-							knights = { 47 47 }
+							light_infantry = { 2250 2250 }
+							light_cavalry = { 2000 2000 }
+							horse_archers = { 1500 1500 }
+							knights = { 50 50 }
 						}
 					}
 				}
@@ -7368,14 +7371,11 @@ character_event = {
 # Ping the target province
 province_event = {
 	id = 60402
-	desc = OK
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
 	
-	option = {
-		name = OK
+	immediate = {
 		if = {
 			limit = {
 				FROM = {
@@ -7406,8 +7406,6 @@ province_event = {
 # The landless Sabuktigin and his men start an adventure
 character_event = {
 	id = 60403
-	desc = OK
-	
 	hide_window = yes
 	
 	is_triggered_only = yes
@@ -7528,7 +7526,7 @@ character_event = {
 		# Create some characters
 		create_character = {
 			random_traits = yes
-			dynasty = random
+			dynasty = none
 			religion = ROOT
 			culture = ROOT
 			female = no
@@ -7540,7 +7538,7 @@ character_event = {
 		}
 		create_character = {
 			random_traits = yes
-			dynasty = random
+			dynasty = none
 			religion = ROOT
 			culture = ROOT
 			female = no
@@ -7552,7 +7550,7 @@ character_event = {
 		}
 		create_character = {
 			random_traits = yes
-			dynasty = random
+			dynasty = none
 			religion = ROOT
 			culture = ROOT
 			female = no
@@ -7564,7 +7562,7 @@ character_event = {
 		}
 		create_character = {
 			random_traits = yes
-			dynasty = random
+			dynasty = none
 			religion = ROOT
 			culture = ROOT
 			female = no
@@ -7576,7 +7574,7 @@ character_event = {
 		}
 		create_character = {
 			random_traits = yes
-			dynasty = random
+			dynasty = none
 			religion = ROOT
 			culture = ROOT
 			female = no
@@ -7612,10 +7610,6 @@ character_event = {
 		}
 		
 		log = "60403: Sabuktigin starts his first war (landless)!"
-	}
-	
-	option = {
-		name = OK
 	}
 }
 
@@ -7735,7 +7729,7 @@ character_event = {
 		# Create some characters
 		create_character = {
 			random_traits = yes
-			dynasty = random
+			dynasty = none
 			religion = ROOT
 			culture = ROOT
 			female = no
@@ -7747,7 +7741,7 @@ character_event = {
 		}
 		create_character = {
 			random_traits = yes
-			dynasty = random
+			dynasty = none
 			religion = ROOT
 			culture = ROOT
 			female = no
@@ -7759,7 +7753,7 @@ character_event = {
 		}
 		create_character = {
 			random_traits = yes
-			dynasty = random
+			dynasty = none
 			religion = ROOT
 			culture = ROOT
 			female = no
@@ -7771,7 +7765,7 @@ character_event = {
 		}
 		create_character = {
 			random_traits = yes
-			dynasty = random
+			dynasty = none
 			religion = ROOT
 			culture = ROOT
 			female = no
@@ -7783,7 +7777,7 @@ character_event = {
 		}
 		create_character = {
 			random_traits = yes
-			dynasty = random
+			dynasty = none
 			religion = ROOT
 			culture = ROOT
 			female = no
@@ -7890,11 +7884,10 @@ narrative_event = {
 					home = PREV
 					owner = THIS
 					troops = {
-						horse_archers = { 2700 2700 }
-						light_cavalry = { 1600 1600 }
-						light_infantry = { 541 541 }
-						heavy_infantry = { 210 210 }
-						knights = { 47 47 }
+						light_infantry = { 2250 2250 }
+						light_cavalry = { 2000 2000 }
+						horse_archers = { 1500 1500 }
+						knights = { 50 50 }
 					}
 				}
 				spawn_unit = {
@@ -7902,11 +7895,10 @@ narrative_event = {
 					home = PREV
 					owner = THIS
 					troops = {
-						horse_archers = { 2700 2700 }
-						light_cavalry = { 1600 1600 }
-						light_infantry = { 541 541 }
-						heavy_infantry = { 210 210 }
-						knights = { 47 47 }
+						light_infantry = { 2250 2250 }
+						light_cavalry = { 2000 2000 }
+						horse_archers = { 1500 1500 }
+						knights = { 50 50 }
 					}
 				}
 				spawn_unit = {
@@ -7914,11 +7906,10 @@ narrative_event = {
 					home = PREV
 					owner = THIS
 					troops = {
-						horse_archers = { 2700 2700 }
-						light_cavalry = { 1600 1600 }
-						light_infantry = { 541 541 }
-						heavy_infantry = { 210 210 }
-						knights = { 47 47 }
+						light_infantry = { 2250 2250 }
+						light_cavalry = { 2000 2000 }
+						horse_archers = { 1500 1500 }
+						knights = { 50 50 }
 					}
 				}
 				spawn_unit = {
@@ -7926,11 +7917,10 @@ narrative_event = {
 					home = PREV
 					owner = THIS
 					troops = {
-						horse_archers = { 2700 2700 }
-						light_cavalry = { 1600 1600 }
-						light_infantry = { 541 541 }
-						heavy_infantry = { 210 210 }
-						knights = { 47 47 }
+						light_infantry = { 2250 2250 }
+						light_cavalry = { 2000 2000 }
+						horse_archers = { 1500 1500 }
+						knights = { 50 50 }
 					}
 				}
 				spawn_unit = {
@@ -7938,11 +7928,10 @@ narrative_event = {
 					home = PREV
 					owner = THIS
 					troops = {
-						horse_archers = { 2700 2700 }
-						light_cavalry = { 1600 1600 }
-						light_infantry = { 541 541 }
-						heavy_infantry = { 210 210 }
-						knights = { 47 47 }
+						light_infantry = { 2250 2250 }
+						light_cavalry = { 2000 2000 }
+						horse_archers = { 1500 1500 }
+						knights = { 50 50 }
 					}
 				}
 				
@@ -7953,11 +7942,10 @@ narrative_event = {
 						home = PREV
 						owner = THIS
 						troops = {
-							horse_archers = { 2700 2700 }
-							light_cavalry = { 1600 1600 }
-							light_infantry = { 541 541 }
-							heavy_infantry = { 210 210 }
-							knights = { 47 47 }
+							light_infantry = { 2250 2250 }
+							light_cavalry = { 2000 2000 }
+							horse_archers = { 1500 1500 }
+							knights = { 50 50 }
 						}
 					}
 				}
@@ -7968,11 +7956,10 @@ narrative_event = {
 						home = PREV
 						owner = THIS
 						troops = {
-							horse_archers = { 2700 2700 }
-							light_cavalry = { 1600 1600 }
-							light_infantry = { 541 541 }
-							heavy_infantry = { 210 210 }
-							knights = { 47 47 }
+							light_infantry = { 2250 2250 }
+							light_cavalry = { 2000 2000 }
+							horse_archers = { 1500 1500 }
+							knights = { 50 50 }
 						}
 					}
 				}
@@ -7983,11 +7970,10 @@ narrative_event = {
 						home = PREV
 						owner = THIS
 						troops = {
-							horse_archers = { 2700 2700 }
-							light_cavalry = { 1600 1600 }
-							light_infantry = { 541 541 }
-							heavy_infantry = { 210 210 }
-							knights = { 47 47 }
+							light_infantry = { 2250 2250 }
+							light_cavalry = { 2000 2000 }
+							horse_archers = { 1500 1500 }
+							knights = { 50 50 }
 						}
 					}
 				}
@@ -8035,11 +8021,27 @@ narrative_event = {
 	border = "GFX_event_narrative_frame_war"
 	
 	only_playable = yes
+	religion = catholic
+	min_age = 16
 	
 	trigger = {
-		year = 1210
-		NOT = { year = 1218 }
-		religion = catholic
+		OR = {
+			year = 1210
+			AND = {
+				has_game_rule = {
+					name = mongol_invasion
+					value = random
+				}
+				total_years_played = 50
+			}
+		}
+		NOR = { 
+			year = 1218
+			has_game_rule = {
+				name = mongol_invasion
+				value = off
+			}
+		}
 		controls_religion = yes # Let it happen for the Pope. He's always around.
 		NOR = {
 			has_global_flag = il_khanate_arrival # Backwards compatibility
@@ -8061,6 +8063,13 @@ narrative_event = {
 		modifier = {
 			factor = 0.5
 			year = 1215
+		}
+		modifier = {
+			factor = 66
+			has_game_rule = {
+				name = mongol_invasion
+				value = random
+			}
 		}
 	}
 	
@@ -8107,6 +8116,7 @@ narrative_event = {
 							destroy_landed_title = THIS
 						}
 						wealth = 5000
+						prestige = 5000
 						set_character_flag = horde_invader
 						character_event = { id = 60510 } # Spawn troops
 						character_event = { id = 60515 days = 1 } # Spawn population
@@ -8160,7 +8170,7 @@ narrative_event = {
 						}
 						wealth = 5000
 						set_character_flag = horde_invader
-						prestige = 1000
+						prestige = 5000
 						character_event = { id = 60509 } # Spawn courtiers
 						character_event = { id = 60510 } # Spawn troops
 						character_event = { id = 60515 days = 1 } # Spawn population
@@ -8223,7 +8233,7 @@ narrative_event = {
 					}
 					wealth = 5000
 					set_character_flag = horde_invader
-					prestige = 1100
+					prestige = 5000
 					character_event = { id = 60505 } # Spawn Temujins generals
 					character_event = { id = 60509 } # Spawn courtiers
 					character_event = { id = 60510 } # Spawn troops
@@ -8305,12 +8315,12 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
+		FROM = {
+			tier = COUNT
+		}
 		primary_title = { 
 			has_title_flag = temporary_landless_title
 			is_landless_type_title = yes
-		}
-		FROM = {
-			tier = COUNT
 		}
 	}
 	
@@ -8444,7 +8454,7 @@ character_event = {
 	immediate = {
 		create_character = {
 			random_traits = yes
-			dynasty = random
+			dynasty = none
 			religion = tengri_pagan
 			culture = ROOT
 			female = no
@@ -8452,7 +8462,7 @@ character_event = {
 		}
 		create_character = {
 			random_traits = yes
-			dynasty = random
+			dynasty = none
 			religion = tengri_pagan
 			culture = ROOT
 			female = no
@@ -8460,7 +8470,7 @@ character_event = {
 		}
 		create_character = {
 			random_traits = yes
-			dynasty = random
+			dynasty = none
 			religion = tengri_pagan
 			culture = ROOT
 			female = no
@@ -8468,7 +8478,7 @@ character_event = {
 		}
 		create_character = {
 			random_traits = yes
-			dynasty = random
+			dynasty = none
 			religion = tengri_pagan
 			culture = ROOT
 			female = no
@@ -8476,7 +8486,7 @@ character_event = {
 		}
 		create_character = {
 			random_traits = yes
-			dynasty = random
+			dynasty = none
 			religion = tengri_pagan
 			culture = ROOT
 			female = no
@@ -8484,7 +8494,7 @@ character_event = {
 		}
 		create_character = {
 			random_traits = yes
-			dynasty = random
+			dynasty = none
 			religion = tengri_pagan
 			culture = ROOT
 			female = no
@@ -8492,7 +8502,7 @@ character_event = {
 		}
 		create_character = {
 			random_traits = yes
-			dynasty = random
+			dynasty = none
 			religion = tengri_pagan
 			culture = ROOT
 			female = no
@@ -8500,7 +8510,7 @@ character_event = {
 		}
 		create_character = {
 			random_traits = yes
-			dynasty = random
+			dynasty = none
 			religion = tengri_pagan
 			culture = ROOT
 			female = yes
@@ -8508,7 +8518,7 @@ character_event = {
 		}
 		create_character = {
 			random_traits = yes
-			dynasty = random
+			dynasty = none
 			religion = tengri_pagan
 			culture = ROOT
 			female = yes
@@ -8516,7 +8526,7 @@ character_event = {
 		}
 		create_character = {
 			random_traits = yes
-			dynasty = random
+			dynasty = none
 			religion = tengri_pagan
 			culture = ROOT
 			female = yes
@@ -8524,7 +8534,7 @@ character_event = {
 		}
 		create_character = {
 			random_traits = yes
-			dynasty = random
+			dynasty = none
 			religion = tengri_pagan
 			culture = ROOT
 			female = yes
@@ -8532,7 +8542,7 @@ character_event = {
 		}
 		create_character = {
 			random_traits = yes
-			dynasty = random
+			dynasty = none
 			religion = tengri_pagan
 			culture = ROOT
 			female = yes
@@ -8540,7 +8550,7 @@ character_event = {
 		}
 		create_character = {
 			random_traits = yes
-			dynasty = random
+			dynasty = none
 			religion = tengri_pagan
 			culture = ROOT
 			female = no
@@ -8552,7 +8562,7 @@ character_event = {
 		}
 		create_character = {
 			random_traits = yes
-			dynasty = random
+			dynasty = none
 			religion = tengri_pagan
 			culture = ROOT
 			female = no
@@ -8564,7 +8574,7 @@ character_event = {
 		}
 		create_character = {
 			random_traits = yes
-			dynasty = random
+			dynasty = none
 			religion = tengri_pagan
 			culture = ROOT
 			female = no
@@ -8576,7 +8586,7 @@ character_event = {
 		}
 		create_character = {
 			random_traits = yes
-			dynasty = random
+			dynasty = none
 			religion = tengri_pagan
 			culture = ROOT
 			female = no
@@ -8599,165 +8609,135 @@ character_event = {
 			province = 1457 # Ordu-Baliq
 			troops =
 			{
-				horse_archers = { 2700 2700 }
-				light_cavalry = { 1600 1600 }
-				light_infantry = { 541 541 }
-				heavy_infantry = { 210 210 }
-				knights = { 47 47 }
+				light_cavalry = { 2750 2750 }
+				horse_archers = { 2250 2250 }
+				knights = { 500 500 }
 			}
 		}
 		spawn_unit = {
 			province = 1457 # Ordu-Baliq
 			troops =
 			{
-				horse_archers = { 2700 2700 }
-				light_cavalry = { 1600 1600 }
-				light_infantry = { 541 541 }
-				heavy_infantry = { 210 210 }
-				knights = { 47 47 }
+				light_cavalry = { 2750 2750 }
+				horse_archers = { 2250 2250 }
+				knights = { 500 500 }
 			}
 		}
 		spawn_unit = {
 			province = 1457 # Ordu-Baliq
 			troops =
 			{
-				horse_archers = { 2700 2700 }
-				light_cavalry = { 1600 1600 }
-				light_infantry = { 541 541 }
-				heavy_infantry = { 210 210 }
-				knights = { 47 47 }
+				light_cavalry = { 2750 2750 }
+				horse_archers = { 2250 2250 }
+				knights = { 500 500 }
 			}
 		}
 		spawn_unit = {
 			province = 1457 # Ordu-Baliq
 			troops =
 			{
-				horse_archers = { 2700 2700 }
-				light_cavalry = { 1600 1600 }
-				light_infantry = { 541 541 }
-				heavy_infantry = { 210 210 }
-				knights = { 47 47 }
+				light_cavalry = { 2750 2750 }
+				horse_archers = { 2250 2250 }
+				knights = { 500 500 }
 			}
 		}
 		spawn_unit = {
 			province = 1457 # Ordu-Baliq
 			troops =
 			{
-				horse_archers = { 2700 2700 }
-				light_cavalry = { 1600 1600 }
-				light_infantry = { 541 541 }
-				heavy_infantry = { 210 210 }
-				knights = { 47 47 }
+				light_cavalry = { 2750 2750 }
+				horse_archers = { 2250 2250 }
+				knights = { 500 500 }
 			}
 		}
 		spawn_unit = {
 			province = 1457 # Ordu-Baliq
 			troops =
 			{
-				horse_archers = { 2700 2700 }
-				light_cavalry = { 1600 1600 }
-				light_infantry = { 541 541 }
-				heavy_infantry = { 210 210 }
-				knights = { 47 47 }
+				light_cavalry = { 2750 2750 }
+				horse_archers = { 2250 2250 }
+				knights = { 500 500 }
 			}
 		}
 		spawn_unit = {
 			province = 1457 # Ordu-Baliq
 			troops =
 			{
-				horse_archers = { 2700 2700 }
-				light_cavalry = { 1600 1600 }
-				light_infantry = { 541 541 }
-				heavy_infantry = { 210 210 }
-				knights = { 47 47 }
+				light_cavalry = { 2750 2750 }
+				horse_archers = { 2250 2250 }
+				knights = { 500 500 }
 			}
 		}
 		spawn_unit = {
 			province = 1457 # Ordu-Baliq
 			troops =
 			{
-				horse_archers = { 2700 2700 }
-				light_cavalry = { 1600 1600 }
-				light_infantry = { 541 541 }
-				heavy_infantry = { 210 210 }
-				knights = { 47 47 }
+				light_cavalry = { 2750 2750 }
+				horse_archers = { 2250 2250 }
+				knights = { 500 500 }
 			}
 		}
 		spawn_unit = {
 			province = 1457 # Ordu-Baliq
 			troops =
 			{
-				horse_archers = { 2700 2700 }
-				light_cavalry = { 1600 1600 }
-				light_infantry = { 541 541 }
-				heavy_infantry = { 210 210 }
-				knights = { 47 47 }
+				light_cavalry = { 2750 2750 }
+				horse_archers = { 2250 2250 }
+				knights = { 500 500 }
 			}
 		}
 		spawn_unit = {
 			province = 1460 # Baygal
 			troops =
 			{
-				horse_archers = { 2700 2700 }
-				light_cavalry = { 1600 1600 }
-				light_infantry = { 541 541 }
-				heavy_infantry = { 210 210 }
-				knights = { 47 47 }
+				light_cavalry = { 2750 2750 }
+				horse_archers = { 2250 2250 }
+				knights = { 500 500 }
 			}
 		}
 		spawn_unit = {
 			province = 1460 # Baygal
 			troops =
 			{
-				horse_archers = { 2700 2700 }
-				light_cavalry = { 1600 1600 }
-				light_infantry = { 541 541 }
-				heavy_infantry = { 210 210 }
-				knights = { 47 47 }
+				light_cavalry = { 2750 2750 }
+				horse_archers = { 2250 2250 }
+				knights = { 500 500 }
 			}
 		}
 		spawn_unit = {
 			province = 1460 # Baygal
 			troops =
 			{
-				horse_archers = { 2700 2700 }
-				light_cavalry = { 1600 1600 }
-				light_infantry = { 541 541 }
-				heavy_infantry = { 210 210 }
-				knights = { 47 47 }
+				light_cavalry = { 2750 2750 }
+				horse_archers = { 2250 2250 }
+				knights = { 500 500 }
 			}
 		}
 		spawn_unit = {
 			province = 1460 # Baygal
 			troops =
 			{
-				horse_archers = { 2700 2700 }
-				light_cavalry = { 1600 1600 }
-				light_infantry = { 541 541 }
-				heavy_infantry = { 210 210 }
-				knights = { 47 47 }
+				light_cavalry = { 2750 2750 }
+				horse_archers = { 2250 2250 }
+				knights = { 500 500 }
 			}
 		}
 		spawn_unit = {
 			province = 1460 # Baygal
 			troops =
 			{
-				horse_archers = { 2700 2700 }
-				light_cavalry = { 1600 1600 }
-				light_infantry = { 541 541 }
-				heavy_infantry = { 210 210 }
-				knights = { 47 47 }
+				light_cavalry = { 2750 2750 }
+				horse_archers = { 2250 2250 }
+				knights = { 500 500 }
 			}
 		}
 		spawn_unit = {
 			province = 1460 # Baygal
 			troops =
 			{
-				horse_archers = { 2700 2700 }
-				light_cavalry = { 1600 1600 }
-				light_infantry = { 541 541 }
-				heavy_infantry = { 210 210 }
-				knights = { 47 47 }
+				light_cavalry = { 2750 2750 }
+				horse_archers = { 2250 2250 }
+				knights = { 500 500 }
 			}
 		}
 		random = {
@@ -8766,33 +8746,27 @@ character_event = {
 				province = 1408 # Gobi
 				troops =
 				{
-					horse_archers = { 2700 2700 }
-					light_cavalry = { 1600 1600 }
-					light_infantry = { 541 541 }
-					heavy_infantry = { 210 210 }
-					knights = { 47 47 }
+					light_cavalry = { 2750 2750 }
+					horse_archers = { 2250 2250 }
+					knights = { 500 500 }
 				}
 			}
 			spawn_unit = {
 				province = 1408 # Gobi
 				troops =
 				{
-					horse_archers = { 2700 2700 }
-					light_cavalry = { 1600 1600 }
-					light_infantry = { 541 541 }
-					heavy_infantry = { 210 210 }
-					knights = { 47 47 }
+					light_cavalry = { 2750 2750 }
+					horse_archers = { 2250 2250 }
+					knights = { 500 500 }
 				}
 			}
 			spawn_unit = {
 				province = 1408 # Gobi
 				troops =
 				{
-					horse_archers = { 2700 2700 }
-					light_cavalry = { 1600 1600 }
-					light_infantry = { 541 541 }
-					heavy_infantry = { 210 210 }
-					knights = { 47 47 }
+					light_cavalry = { 2750 2750 }
+					horse_archers = { 2250 2250 }
+					knights = { 500 500 }
 				}
 			}
 		}
@@ -8802,33 +8776,27 @@ character_event = {
 				province = 1408 # Gobi
 				troops =
 				{
-					horse_archers = { 2700 2700 }
-					light_cavalry = { 1600 1600 }
-					light_infantry = { 541 541 }
-					heavy_infantry = { 210 210 }
-					knights = { 47 47 }
+					light_cavalry = { 2750 2750 }
+					horse_archers = { 2250 2250 }
+					knights = { 500 500 }
 				}
 			}
 			spawn_unit = {
 				province = 1408 # Gobi
 				troops =
 				{
-					horse_archers = { 2700 2700 }
-					light_cavalry = { 1600 1600 }
-					light_infantry = { 541 541 }
-					heavy_infantry = { 210 210 }
-					knights = { 47 47 }
+					light_cavalry = { 2750 2750 }
+					horse_archers = { 2250 2250 }
+					knights = { 500 500 }
 				}
 			}
 			spawn_unit = {
 				province = 1408 # Gobi
 				troops =
 				{
-					horse_archers = { 2700 2700 }
-					light_cavalry = { 1600 1600 }
-					light_infantry = { 541 541 }
-					heavy_infantry = { 210 210 }
-					knights = { 47 47 }
+					light_cavalry = { 2750 2750 }
+					horse_archers = { 2250 2250 }
+					knights = { 500 500 }
 				}
 			}
 		}
@@ -8980,47 +8948,39 @@ character_event = {
 		capital_scope = {
 			ROOT = {
 				spawn_unit = {
-					province = PREVPREV
+					province = PREV
 					troops =
 					{
-						horse_archers = { 2700 2700 }
-						light_cavalry = { 1600 1600 }
-						light_infantry = { 541 541 }
-						heavy_infantry = { 210 210 }
-						knights = { 47 47 }
+						light_cavalry = { 2750 2750 }
+						horse_archers = { 2250 2250 }
+						knights = { 500 500 }
 					}
 				}
 				spawn_unit = {
-					province = PREVPREV
+					province = PREV
 					troops =
 					{
-						horse_archers = { 2700 2700 }
-						light_cavalry = { 1600 1600 }
-						light_infantry = { 541 541 }
-						heavy_infantry = { 210 210 }
-						knights = { 47 47 }
+						light_cavalry = { 2750 2750 }
+						horse_archers = { 2250 2250 }
+						knights = { 500 500 }
 					}
 				}
 				spawn_unit = {
-					province = PREVPREV
+					province = PREV
 					troops =
 					{
-						horse_archers = { 2700 2700 }
-						light_cavalry = { 1600 1600 }
-						light_infantry = { 541 541 }
-						heavy_infantry = { 210 210 }
-						knights = { 47 47 }
+						light_cavalry = { 2750 2750 }
+						horse_archers = { 2250 2250 }
+						knights = { 500 500 }
 					}
 				}
 				spawn_unit = {
-					province = PREVPREV
+					province = PREV
 					troops =
 					{
-						horse_archers = { 2700 2700 }
-						light_cavalry = { 1600 1600 }
-						light_infantry = { 541 541 }
-						heavy_infantry = { 210 210 }
-						knights = { 47 47 }
+						light_cavalry = { 2750 2750 }
+						horse_archers = { 2250 2250 }
+						knights = { 500 500 }
 					}
 				}
 			}

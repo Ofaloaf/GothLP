@@ -6027,6 +6027,8 @@
 }
 194005 = {
 	name = Hjörvardr
+	dna="bhjaavafacj"
+	properties="0b00d0"
 	dynasty = 821 # Ulfing
 	religion = norse_pagan
 	culture = norse

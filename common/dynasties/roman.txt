@@ -12,3 +12,23 @@
 	name = "Hispanicus"
 	culture = roman
 }
+
+1476004 = {
+	name = "Ovidius"
+	culture = roman
+}
+
+1476005 = {
+	name = "Secundius"
+	culture = roman
+}
+
+1476006 = {
+	name = "Volusius"
+	culture = roman
+}
+
+1476007 = {
+	name = "Maximianus"
+	culture = roman
+}

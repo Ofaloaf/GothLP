@@ -100,6 +100,7 @@ provinciale = {
 			Lannildut Llewfelen Liuit Llawreint_Laurence Luc_Luke Lifris
 			Maglorius Map Motius Muconius Mawr Medrad Margiteut Maguohen Maccodechet Madag Maelcun Marc_Marcus
 			Mathew_Matthew Merthin_Martin Mewrig_Maurice Merddin Migangel_Michael Manuel_Manuel Morgan Magimos
+			Modrat_Moderatus
 			Nectovelius Nigol_Nicholas Nennius
 			Owain_Owain
 			Pedr_Peter Pawl_Paul Padrig_Patrick Philip_Philip Pascen Pelagius_Pelagius

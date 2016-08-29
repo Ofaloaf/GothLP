@@ -2,6 +2,8 @@
 	name="Buürgur"
 	# AKA: Buurgur
 	dynasty=100602
+	dna = djeejhjcaaz
+	properties = ao0bfc000000
 	martial=6
 	diplomacy=4
 	intrigue=6

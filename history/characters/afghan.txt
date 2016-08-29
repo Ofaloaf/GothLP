@@ -14,6 +14,8 @@
 74723 = {
 	name="Khingila"
 	dynasty=2001001
+	dna = bdgeivbbbam
+	properties = fg0aha000000
 	religion="zun_pagan"
 	culture="afghan"
 

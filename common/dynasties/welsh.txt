@@ -7,3 +7,9 @@
 	name = "Beisrudd"
 	culture = welsh
 }
+
+7776003 = {
+	name = Pendragon
+	culture = welsh
+	used_for_random = no
+}

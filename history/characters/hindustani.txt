@@ -607,6 +607,8 @@
 
 191004 = {
 	name="Bhoja"
+	dna = cgciafbbaaw
+	properties = ah00ac000000
 	dynasty=1044300
 	religion="hindu"
 	culture="hindustani"

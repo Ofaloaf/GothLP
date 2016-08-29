@@ -903,6 +903,7 @@ e_hispania = {
 					aquitanian = "Congedus"
 				}
 				b_nuevalos = {
+					# Carduae
 				}
 				b_daroca = {
 					# Agiria
@@ -917,6 +918,7 @@ e_hispania = {
 					# Calmartia
 				}
 				b_cimballa = {
+					# Segeda
 				}
 			}
 		}
@@ -1155,18 +1157,25 @@ e_hispania = {
 			c_molina = {
 				color = { 248 207 18 }
 				color2={ 255 255 255 }
+
+				# Idubeda
 				
 				b_hinojosa = {
+					# Caunus # 'Mons Caunus' could be Moncayo
 				}
 				b_molina = {
+					# Manlianus # 'Saltus Manlianus' might be the old name for the Sierra de Molina
 				}
 				b_elpedregal = {
+					# Tubalacum # making up shit. Tubal/Tiberanoi was a grandson of biblical Noah, and medieval legend says he founded towns in both Caucasian Iberia and Hispanian Iberia
 				}
 				b_pinilla = {
 				}
 				b_cabanillasdelcampo = {
+					# Idibedacus # making up shit.
 				}
 				b_elcasar = {
+					# Castria # Making shit up. Look, 'El Casar' is pretty clearly dersived from Arabic 'Qasr', which in turn is derived from latin Castrum.
 				}
 				b_maranchon = {
 				}
@@ -1176,6 +1185,8 @@ e_hispania = {
 			c_cuenca = {
 				color = { 251 210 21 }
 				color2={ 255 255 255 }
+
+				# Segontia
 				
 				bedouin_arabic = "Kunka"
 				maghreb_arabic = "Kunka"
@@ -1184,27 +1195,31 @@ e_hispania = {
 				rumi_arabic = "Kunka"
 				
 				b_siguenza = {
+					# Segontia
 				}
 				b_cuenca = {
-					bedouin_arabic = "Kunka"
-					maghreb_arabic = "Kunka"
-					levantine_arabic = "Kunka"
-					egyptian_arabic = "Kunka"
-					rumi_arabic = "Kunka"
+					# Loutia # actually Luzaga
 				}
 				b_guadalajara = {
+					# Arriaca
+
+					hispani = Caracca
 				}
 				b_ucles = {
+					# Hoculacum # speculated etymology for Ucles
 				}
 				b_laspedroneras = {
+					# Oculis # actually a different speculated etymology for Ucles
 				}
 				b_villanuevadelajara = {
+					# Caesada # actually probably Espinosa de Henares
 				}
 				b_tarancon = {
 				}
 				b_sisante = {
 				}
 				b_motadelcuervo = {
+					# Cortona # actually maybe Medinaceli?
 				}
 			}
 		}

@@ -642,3 +642,8 @@
 	name = "Sedullis"
 	culture = gallic
 }
+
+1940131 = {
+	name = "Petanius"
+	culture = gallic
+}

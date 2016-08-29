@@ -1,6 +1,8 @@
 999001 = {
 	name = Tugan
 	dynasty = 1872004 # Babakhel
+	dna = cgeeapcdeaf
+	properties = ag0bha000000
 	religion = tengri_pagan
 	culture = jasi
 	724.1.1 = {
