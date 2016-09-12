@@ -435,6 +435,14 @@ e_hispania = {
 					gallic = "Butina"
 				}
 				b_elpuidesegur = {
+					# Orgia # Organa/Organya, Spain
+
+					gothic = Organius
+					old_frankish = Organius
+					suebi = Organius
+					burgundian = Organius
+
+					gothicromance = Organha
 				}
 				b_tremp = {
 				}

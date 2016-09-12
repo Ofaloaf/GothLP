@@ -847,7 +847,10 @@ e_britannia = {
 				b_cirencester = {
 					# Corinium
 
-					gothicromance = Corinya
+					brithenig = "Castreceri"
+					welsh = "Caer Ceri"
+
+					gothicromance = Corinha
 
 					saxon = Cirenceaster
 					old_saxon = Cirenceaster
@@ -878,10 +881,10 @@ e_britannia = {
 
 				# Sorbiodunum
 
-				welsh = "Din Sorbion"
-				brithenig = "Dinsorbio"
+				welsh = "Caer Gradawc"
+				brithenig = "Caratauc"
 
-				gothicromance = Sorbiha
+				gothicromance = Sorbyadunha
 
 				saxon = Wiltunscir
 				old_saxon = Wiltunscir
@@ -899,19 +902,19 @@ e_britannia = {
 				b_sarum = {
 				}
 				b_clarendon = {
-					# Verlucio # actually Sandy Lane
+					# Verlucio # actually Sandy Lane or Chippenham
 				}
 				b_malmesbury = {
 					# Bladon
 
-					brithenig = "Cair Bladon"
-					welsh = "Caer Bladon"
+					brithenig = "Bladon"
+					welsh = "Bladon"
 				}
 				b_salisbury = {
 					# Sorviodunum
 
-					brithenig = "Sorbiodunon"
-					welsh = "Caer Gradawc"
+					brithenig = "Caratauc"
+					welsh = "Gradawc"
 
 					saxon = Searoburg
 					old_saxon = Searoburg
@@ -2400,6 +2403,8 @@ e_britannia = {
 
 				# Durnovaria
 
+				welsh = "Durnac"
+
 				old_saxon = "Dornsæte"
 				saxon = Dorseteschyre
 				norse = "Dornsæte"
@@ -2428,6 +2433,7 @@ e_britannia = {
 					# Durnovaria
 
 					brithenig = "Dourovaria"
+					welsh = "Caer Durnac"
 
 					old_saxon = Dornwaraceaster
 					saxon = Dornwaraceaster
@@ -2467,7 +2473,7 @@ e_britannia = {
 
 					roman = "Aquae Sulis"
 					brithenig = "Acquesoules"
-					welsh = "Baddon"
+					welsh = "Baddan"
 
 					saxon = Badanceaster
 					old_saxon = Badanceaster

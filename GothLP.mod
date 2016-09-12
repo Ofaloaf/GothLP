@@ -1,4 +1,4 @@
-name = "GothLP"
+name = "Let's Wear Black!"
 path = "mod\GothLP"
 user_dir = "GothLP"
 
