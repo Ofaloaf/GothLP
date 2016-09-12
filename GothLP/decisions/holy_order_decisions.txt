@@ -505,19 +505,6 @@ decisions = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				factor = 0
-				OR = {
-					piety = 1000
-					NOT = { wealth = 1000 }
-					AND = {
-						NOT = { controls_religion = catholic }
-						NOT = { controls_religion = fraticelli }
-						NOT = { controls_religion = waldensian }
-						NOT = { controls_religion = lollard }
-					}
-				}
-			}
-			modifier = {
 				factor = 0.002 # Slow it down
 			}
 		}
@@ -608,19 +595,6 @@ decisions = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				factor = 0
-				OR = {
-					piety = 1000
-					NOT = { wealth = 1000 }
-					AND = {
-						NOT = { controls_religion = catholic }
-						NOT = { controls_religion = fraticelli }
-						NOT = { controls_religion = waldensian }
-						NOT = { controls_religion = lollard }
-					}
-				}
-			}
-			modifier = {
 				factor = 0.002 # Slow it down
 			}
 		}
@@ -709,19 +683,6 @@ decisions = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				factor = 0
-				OR = {
-					piety = 1000
-					NOT = { wealth = 1000 }
-					AND = {
-						NOT = { controls_religion = catholic }
-						NOT = { controls_religion = fraticelli }
-						NOT = { controls_religion = waldensian }
-						NOT = { controls_religion = lollard }
-					}
-				}
-			}
-			modifier = {
 				factor = 0.002 # Slow it down
 			}
 		}
@@ -784,13 +745,6 @@ decisions = {
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 0
-				OR = {
-					piety = 1000
-					NOT = { wealth = 1000 }
-				}
-			}
 			modifier = {
 				factor = 0.002 # Slow it down
 			}
@@ -914,13 +868,6 @@ decisions = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				factor = 0
-				OR = {
-					piety = 1000
-					NOT = { wealth = 1000 }
-				}
-			}
-			modifier = {
 				factor = 0.002 # Slow it down
 			}
 		}
@@ -1041,13 +988,6 @@ decisions = {
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				factor = 0
-				OR = {
-					piety = 1000
-					NOT = { wealth = 1000 }
-				}
-			}
 			modifier = {
 				factor = 0.002 # Slow it down
 			}

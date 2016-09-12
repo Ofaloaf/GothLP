@@ -13040,3 +13040,938 @@ letter_event = {
 		name = EVTOPTB_SOA_1061
 	}
 }
+
+# Spouse notified of divorce due to husband going off to join holy order
+character_event = {
+	id = SoA.2862
+	desc = EVTDESC_SoA_2862
+	picture = GFX_evt_melee
+	border = GFX_event_normal_frame_religion
+
+	is_triggered_only = yes
+	
+	option = {
+		name = ALAS
+		trigger = {
+			opinion = { who = FROMFROMFROM value = 0 }
+		}
+		tooltip = { remove_spouse = FROMFROMFROM }
+	}
+	option = {
+		name = GOOD_RIDDANCE
+		trigger = {
+			NOT = { opinion = { who = FROMFROMFROM value = 0 } }
+		}
+		tooltip = { remove_spouse = FROMFROMFROM }
+	}
+}
+
+# Spouse notified of character joining holy order
+character_event = {
+	id = SoA.2863
+	desc = EVTDESC_SoA_2863
+	picture = GFX_evt_melee
+	border = GFX_event_normal_frame_religion
+
+	is_triggered_only = yes
+	
+	option = {
+		name = ALAS
+		trigger = {
+			opinion = { who = FROM value = 0 }
+		}
+		tooltip = { remove_spouse = FROM }
+	}
+	option = {
+		name = GOOD_RIDDANCE
+		trigger = {
+			NOT = { opinion = { who = FROM value = 0 } }
+		}
+		tooltip = { remove_spouse = FROM }
+	}
+}
+
+# Character joining holy order effects
+character_event = {
+	id = SoA.2864
+	hide_window = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				has_minor_title = title_commander
+			}
+			remove_title = title_commander
+		}
+		if = {
+			limit = {
+				has_minor_title = title_appointed_regent
+			}
+			remove_title = title_appointed_regent
+		}
+		if = {
+			limit = {
+				has_minor_title = title_patrician_heir
+			}
+			remove_title = title_patrician_heir
+		}
+		clear_wealth = event_target:order_target
+		spouse = {
+			remove_spouse = spouse
+			character_event = { id = SoA.2863 }
+		}
+		move_character = event_target:order_target
+		add_trait = celibate
+		end_inaccessibility_effect = yes #removes in_hiding or in_seclusion
+	}
+}
+
+# Expelling a Holy Order confirmation event
+character_event = {
+	id = SoA.2990
+	desc = "EVTDESC_SOA_2990"
+	picture = "GFX_evt_crusaders"
+	border = "GFX_event_normal_frame_religion"
+	
+	desc = {
+		trigger = {
+			religion_group = christian
+		}
+		text = EVTDESC_SOA_2990
+		picture = "GFX_evt_crusaders"
+	}
+	desc = {
+		trigger = {
+			OR = {
+				religion_group = muslim
+				religion_group = zoroastrian_group
+			}
+		}
+		text = EVTDESC_SOA_2990
+		picture = "GFX_evt_moors"
+	}
+	desc = {
+		trigger = {
+			religion_group = pagan_group
+			NOR = {
+				religion = aztec
+				religion = aztec_reformed
+			}
+		}
+		text = EVTDESC_SOA_2990
+		picture = "GFX_evt_vikings_arriving_oldgods"
+	}
+	desc = {
+		trigger = {
+			OR = {
+				religion = aztec
+				religion = aztec_reformed
+			}
+		}
+		text = EVTDESC_SOA_2990
+		picture = "GFX_evt_battle_mesoamerican"
+	}
+	desc = {
+		trigger = {
+			religion_group = jewish_group
+		}
+		text = EVTDESC_SOA_2990
+		picture = "GFX_evt_synagogue"
+	}
+	
+	title = { # Knights Templar
+		trigger = {
+			has_character_flag = expel_the_knights_templar_check
+		}
+		text = expel_the_knights_templar
+	}
+	title = { # Knights Hospitaler
+		trigger = {
+			has_character_flag = expel_the_knights_hospitaler_check
+		}
+		text = expel_the_knights_hospitaler
+	}
+	title = { # Teutonic Order
+		trigger = {
+			has_character_flag = expel_the_teutonic_order_check
+		}
+		text = expel_the_teutonic_order
+	}
+	title = { # Jomsvikings
+		trigger = {
+			has_character_flag = expel_the_jomsvikings_check
+		}
+		text = expel_the_jomsvikings
+	}
+	title = { # Hashshashin
+		trigger = {
+			has_character_flag = expel_the_assassins_check
+		}
+		text = expel_the_assassins
+	}
+	title = { # Bektashi
+		trigger = {
+			has_character_flag = expel_the_bektashi_check
+		}
+		text = expel_the_bektashi
+	}
+	title = { # Haruriyyah
+		trigger = {
+			has_character_flag = expel_the_haruriyyah_check
+		}
+		text = expel_the_haruriyyah
+	}
+	title = { # Holy Sepulchre
+		trigger = {
+			has_character_flag = expel_the_holy_sepulchre_check
+		}
+		text = expel_the_holy_sepulchre
+	}
+	title = { # Saint Anthony
+		trigger = {
+			has_character_flag = expel_saint_anthony_check
+		}
+		text = expel_saint_anthony
+	}
+	title = { # Immortals
+		trigger = {
+			has_character_flag = expel_immortals_check
+		}
+		text = expel_immortals
+	}
+	title = { # Zealots
+		trigger = {
+			has_character_flag = expel_zealots_check
+		}
+		text = expel_zealots
+	}
+	title = { # Sky Lords
+		trigger = {
+			has_character_flag = expel_sky_lords_check
+		}
+		text = expel_sky_lords
+	}
+	title = { # Spirit Guardians
+		trigger = {
+			has_character_flag = expel_spirit_guardians_check
+		}
+		text = expel_spirit_guardians
+	}
+	title = { # Warriors of Perun
+		trigger = {
+			has_character_flag = expel_warriors_perun_check
+		}
+		text = expel_warriors_perun
+	}
+	title = { # Chosen of Perkunas
+		trigger = {
+			has_character_flag = expel_chosen_perkunas_check
+		}
+		text = expel_chosen_perkunas
+	}
+	title = { # Sons of Kaleva
+		trigger = {
+			has_character_flag = expel_sons_kaleva_check
+		}
+		text = expel_sons_kaleva
+	}
+	title = { # Huitzilopochtli
+		trigger = {
+			has_character_flag = expel_huitzilopochtli_check
+		}
+		text = expel_huitzilopochtli
+	}
+	title = { # Knights of Santiago
+		trigger = {
+			has_character_flag = expel_knights_santiago_check
+		}
+		text = expel_knights_santiago
+	}
+	title = { # Knights of Calatrava
+		trigger = {
+			has_character_flag = expel_knights_calatrava_check
+		}
+		text = expel_knights_calatrava
+	}
+	title = { # Order of St Addai
+		trigger = {
+			has_character_flag = expel_order_of_addai_check
+		}
+		text = expel_order_of_addai
+	}
+	title = { # Zun Warriors
+		trigger = {
+			has_character_flag = expel_zun_warriors_check
+		}
+		text = expel_zun_warriors
+	}
+	
+	only_rulers = yes
+	
+	is_triggered_only = yes
+	
+	option = { # Knights Templar
+		trigger = {
+			has_character_flag = expel_the_knights_templar_check
+		}
+		name = "EVTOPTA_SOA_2990"
+		piety = -1000
+		
+		religion_authority = {
+			modifier = holy_order_expelled
+			years = 20
+		}
+		custom_tooltip = {
+			text = expelling_holy_order_event_tooltip_a
+		}
+		hidden_tooltip = {
+			d_knights_templar = {
+				holder_scope = {
+					character_event = {
+						id = SoA.1060
+					}
+				}
+			}
+			add_character_modifier = {
+				name = expelled_d_knights_templar
+				duration = -1
+				inherit = yes
+			}
+			clr_character_flag = expel_the_knights_templar_check
+		}
+	}
+	option = { # Knights Hospitaler
+		trigger = {
+			has_character_flag = expel_the_knights_hospitaler_check
+		}
+		name = "EVTOPTA_SOA_2990"
+		piety = -1000
+		
+		religion_authority = {
+			modifier = holy_order_expelled
+			years = 20
+		}
+		custom_tooltip = {
+			text = expelling_holy_order_event_tooltip_a
+		}
+		hidden_tooltip = {
+			d_knights_hospitaler = {
+				holder_scope = {
+					character_event = {
+						id = SoA.1060
+					}
+				}
+			}
+			add_character_modifier = {
+				name = expelled_d_knights_hospitaler
+				duration = -1
+				inherit = yes
+			}
+			clr_character_flag = expel_the_knights_hospitaler_check
+		}
+	}
+	option = { # Teutonic Order
+		trigger = {
+			has_character_flag = expel_the_teutonic_order_check
+		}
+		name = "EVTOPTA_SOA_2990"
+		piety = -1000
+		
+		religion_authority = {
+			modifier = holy_order_expelled
+			years = 20
+		}
+		custom_tooltip = {
+			text = expelling_holy_order_event_tooltip_a
+		}
+		hidden_tooltip = {
+			add_character_modifier = {
+				name = expelled_d_teutonic_order
+				duration = -1
+				inherit = yes
+			}
+			d_teutonic_order = {
+				holder_scope = {
+					character_event = {
+						id = SoA.1060
+					}
+				}
+			}
+			clr_character_flag = expel_the_teutonic_order_check
+		}
+	}
+	option = { # Jomsvikings
+		trigger = {
+			has_character_flag = expel_the_jomsvikings_check
+		}
+		name = "EVTOPTA_SOA_2990"
+		piety = -1000
+		
+		religion_authority = {
+			modifier = holy_order_expelled
+			years = 20
+		}
+		custom_tooltip = {
+			text = expelling_holy_order_event_tooltip_a
+		}
+		hidden_tooltip = {
+			d_jomsvikings = {
+				holder_scope = {
+					character_event = {
+						id = SoA.1560
+					}
+				}
+			}
+			add_character_modifier = {
+				name = expelled_d_jomsvikings
+				duration = -1
+				inherit = yes
+			}
+			clr_character_flag = expel_the_jomsvikings_check
+		}
+	}
+	option = { # Hashshashin
+		trigger = {
+			has_character_flag = expel_the_assassins_check
+		}
+		name = "EVTOPTA_SOA_2990"
+		piety = -1000
+		
+		religion_authority = {
+			modifier = holy_order_expelled
+			years = 20
+		}
+		custom_tooltip = {
+			text = expelling_holy_order_event_tooltip_a
+		}
+		hidden_tooltip = {
+			d_hashshashin = {
+				holder_scope = {
+					character_event = {
+						id = SoA.1460
+					}
+				}
+			}
+			
+			add_character_modifier = {
+				name = expelled_d_hashshashin
+				duration = -1
+				inherit = yes
+			}
+			clr_character_flag = expel_the_assassins_check
+		}
+	}
+	option = { # Bektashi
+		trigger = {
+			has_character_flag = expel_the_bektashi_check
+		}
+		name = "EVTOPTA_SOA_2990"
+		piety = -1000
+		
+		religion_authority = {
+			modifier = holy_order_expelled
+			years = 20
+		}
+		custom_tooltip = {
+			text = expelling_holy_order_event_tooltip_a
+		}
+		hidden_tooltip = {
+			d_hashshashin = {
+				holder_scope = {
+					character_event = {
+						id = SoA.1460
+					}
+				}
+			}
+			
+			add_character_modifier = {
+				name = expelled_d_hashshashin
+				duration = -1
+				inherit = yes
+			}
+			clr_character_flag = expel_the_bektashi_check
+		}
+	}
+	option = { # Haruriyyah
+		trigger = {
+			has_character_flag = expel_the_haruriyyah_check
+		}
+		name = "EVTOPTA_SOA_2990"
+		piety = -1000
+		
+		religion_authority = {
+			modifier = holy_order_expelled
+			years = 20
+		}
+		custom_tooltip = {
+			text = expelling_holy_order_event_tooltip_a
+		}
+		hidden_tooltip = {
+			d_haruriyyah = {
+				holder_scope = {
+					character_event = {
+						id = SoA.1460
+					}
+				}
+			}
+			
+			add_character_modifier = {
+				name = expelled_d_haruriyyah
+				duration = -1
+				inherit = yes
+			}
+			clr_character_flag = expel_the_haruriyyah_check
+		}
+	}
+	option = { # Holy Sepulchre
+		trigger = {
+			has_character_flag = expel_the_holy_sepulchre_check
+		}
+		name = "EVTOPTA_SOA_2990"
+		piety = -1000
+		
+		religion_authority = {
+			modifier = holy_order_expelled
+			years = 20
+		}
+		custom_tooltip = {
+			text = expelling_holy_order_event_tooltip_a
+		}
+		hidden_tooltip = {
+			d_holy_sepulchre = {
+				holder_scope = {
+					character_event = {
+						id = SoA.1660
+					}
+				}
+			}
+			add_character_modifier = {
+				name = expelled_d_holy_sepulchre
+				duration = -1
+				inherit = yes
+			}
+			clr_character_flag = expel_the_holy_sepulchre_check
+		}
+	}
+	option = { # Saint Anthony
+		trigger = {
+			has_character_flag = expel_saint_anthony_check
+		}
+		name = "EVTOPTA_SOA_2990"
+		piety = -1000
+		
+		religion_authority = {
+			modifier = holy_order_expelled
+			years = 20
+		}
+		custom_tooltip = {
+			text = expelling_holy_order_event_tooltip_a
+		}
+		hidden_tooltip = {
+			d_saint_anthony = {
+				holder_scope = {
+					character_event = {
+						id = SoA.1760
+					}
+				}
+			}
+			add_character_modifier = {
+				name = expelled_d_saint_anthony
+				duration = -1
+				inherit = yes
+			}
+			clr_character_flag = expel_saint_anthony_check
+		}
+	}
+	option = { # Immortals
+		trigger = {
+			has_character_flag = expel_immortals_check
+		}
+		name = "EVTOPTA_SOA_2990"
+		piety = -1000
+		
+		religion_authority = {
+			modifier = holy_order_expelled
+			years = 20
+		}
+		custom_tooltip = {
+			text = expelling_holy_order_event_tooltip_a
+		}
+		hidden_tooltip = {
+			d_immortals = {
+				holder_scope = {
+					character_event = {
+						id = SoA.1860
+					}
+				}
+			}
+			add_character_modifier = {
+				name = expelled_d_immortals
+				duration = -1
+				inherit = yes
+			}
+			clr_character_flag = expel_immortals_check
+		}
+	}
+	option = { # Zealots
+		trigger = {
+			has_character_flag = expel_zealots_check
+		}
+		name = "EVTOPTA_SOA_2990"
+		piety = -1000
+		
+		religion_authority = {
+			modifier = holy_order_expelled
+			years = 20
+		}
+		custom_tooltip = {
+			text = expelling_holy_order_event_tooltip_a
+		}
+		hidden_tooltip = {
+			d_zealots = {
+				holder_scope = {
+					character_event = {
+						id = SoA.1960
+					}
+				}
+			}
+			add_character_modifier = {
+				name = expelled_d_zealots
+				duration = -1
+				inherit = yes
+			}
+			clr_character_flag = expel_zealots_check
+		}
+	}
+	option = { # Sky Lords
+		trigger = {
+			has_character_flag = expel_sky_lords_check
+		}
+		name = "EVTOPTA_SOA_2990"
+		piety = -1000
+		
+		religion_authority = {
+			modifier = holy_order_expelled
+			years = 20
+		}
+		custom_tooltip = {
+			text = expelling_holy_order_event_tooltip_a
+		}
+		hidden_tooltip = {
+			d_sky_lords = {
+				holder_scope = {
+					character_event = {
+						id = SoA.2060
+					}
+				}
+			}
+			add_character_modifier = {
+				name = expelled_d_sky_lords
+				duration = -1
+				inherit = yes
+			}
+			clr_character_flag = expel_sky_lords_check
+		}
+	}
+	option = { # Spirit Guardians
+		trigger = {
+			has_character_flag = expel_spirit_guardians_check
+		}
+		name = "EVTOPTA_SOA_2990"
+		piety = -1000
+		
+		religion_authority = {
+			modifier = holy_order_expelled
+			years = 20
+		}
+		custom_tooltip = {
+			text = expelling_holy_order_event_tooltip_a
+		}
+		hidden_tooltip = {
+			d_spirit_guardians = {
+				holder_scope = {
+					character_event = {
+						id = SoA.2160
+					}
+				}
+			}
+			add_character_modifier = {
+				name = expelled_d_spirit_guardians
+				duration = -1
+				inherit = yes
+			}
+			clr_character_flag = expel_spirit_guardians_check
+		}
+	}
+	option = { # Warriors of Perun
+		trigger = {
+			has_character_flag = expel_warriors_perun_check
+		}
+		name = "EVTOPTA_SOA_2990"
+		piety = -1000
+		
+		religion_authority = {
+			modifier = holy_order_expelled
+			years = 20
+		}
+		custom_tooltip = {
+			text = expelling_holy_order_event_tooltip_a
+		}
+		hidden_tooltip = {
+			d_warriors_perun = {
+				holder_scope = {
+					character_event = {
+						id = SoA.2260
+					}
+				}
+			}
+			add_character_modifier = {
+				name = expelled_d_warriors_perun
+				duration = -1
+				inherit = yes
+			}
+			clr_character_flag = expel_warriors_perun_check
+		}
+	}
+	option = { # Chosen of Perkunas
+		trigger = {
+			has_character_flag = expel_chosen_perkunas_check
+		}
+		name = "EVTOPTA_SOA_2990"
+		piety = -1000
+		
+		religion_authority = {
+			modifier = holy_order_expelled
+			years = 20
+		}
+		custom_tooltip = {
+			text = expelling_holy_order_event_tooltip_a
+		}
+		hidden_tooltip = {
+			d_chosen_perkunas = {
+				holder_scope = {
+					character_event = {
+						id = SoA.2360
+					}
+				}
+			}
+			add_character_modifier = {
+				name = expelled_d_chosen_perkunas
+				duration = -1
+				inherit = yes
+			}
+			clr_character_flag = expel_chosen_perkunas_check
+		}
+	}
+	option = { # Sons of Kaleva
+		trigger = {
+			has_character_flag = expel_sons_kaleva_check
+		}
+		name = "EVTOPTA_SOA_2990"
+		piety = -1000
+		
+		religion_authority = {
+			modifier = holy_order_expelled
+			years = 20
+		}
+		custom_tooltip = {
+			text = expelling_holy_order_event_tooltip_a
+		}
+		hidden_tooltip = {
+			d_sons_kaleva = {
+				holder_scope = {
+					character_event = {
+						id = SoA.2460
+					}
+				}
+			}
+			add_character_modifier = {
+				name = expelled_d_sons_kaleva
+				duration = -1
+				inherit = yes
+			}
+			clr_character_flag = expel_sons_kaleva_check
+		}
+	}
+	option = { # Huitzilopochtli
+		trigger = {
+			has_character_flag = expel_huitzilopochtli_check
+		}
+		name = "EVTOPTA_SOA_2990"
+		piety = -1000
+		
+		religion_authority = {
+			modifier = holy_order_expelled
+			years = 20
+		}
+		custom_tooltip = {
+			text = expelling_holy_order_event_tooltip_a
+		}
+		hidden_tooltip = {
+			d_huitzilopochtli = {
+				holder_scope = {
+					character_event = {
+						id = SoA.2560
+					}
+				}
+			}
+			add_character_modifier = {
+				name = expelled_d_huitzilopochtli
+				duration = -1
+				inherit = yes
+			}
+			clr_character_flag = expel_huitzilopochtli_check
+		}
+	}
+	option = { # Knights of Santiago
+		trigger = {
+			has_character_flag = expel_knights_santiago_check
+		}
+		name = "EVTOPTA_SOA_2990"
+		piety = -1000
+		
+		religion_authority = {
+			modifier = holy_order_expelled
+			years = 20
+		}
+		custom_tooltip = {
+			text = expelling_holy_order_event_tooltip_a
+		}
+		hidden_tooltip = {
+			d_knights_santiago = {
+				holder_scope = {
+					character_event = {
+						id = SoA.2660
+					}
+				}
+			}
+			add_character_modifier = {
+				name = expelled_d_knights_santiago
+				duration = -1
+				inherit = yes
+			}
+			clr_character_flag = expel_knights_santiago_check
+		}
+	}
+	option = { # Knights of Calatrava
+		trigger = {
+			has_character_flag = expel_knights_calatrava_check
+		}
+		name = "EVTOPTA_SOA_2990"
+		piety = -1000
+		
+		religion_authority = {
+			modifier = holy_order_expelled
+			years = 20
+		}
+		custom_tooltip = {
+			text = expelling_holy_order_event_tooltip_a
+		}
+		hidden_tooltip = {
+			d_knights_calatrava = {
+				holder_scope = {
+					character_event = {
+						id = SoA.2760
+					}
+				}
+			}
+			add_character_modifier = {
+				name = expelled_d_knights_calatrava
+				duration = -1
+				inherit = yes
+			}
+			clr_character_flag = expel_knights_calatrava_check
+		}
+	}
+	option = { # Order of St Addai
+		trigger = {
+			has_character_flag = expel_order_of_addai_check
+		}
+		name = "EVTOPTA_SOA_2990"
+		piety = -1000
+		
+		religion_authority = {
+			modifier = holy_order_expelled
+			years = 20
+		}
+		custom_tooltip = {
+			text = expelling_holy_order_event_tooltip_a
+		}
+		hidden_tooltip = {
+			d_saint_addai = {
+				holder_scope = {
+					character_event = {
+						id = SoA.2860
+					}
+				}
+			}
+			add_character_modifier = {
+				name = expelled_d_saint_addai
+				duration = -1
+				inherit = yes
+			}
+			clr_character_flag = expel_order_of_addai_check
+		}
+	}
+	option = { # Zun Warriors
+		trigger = {
+			has_character_flag = expel_zun_warriors_check
+		}
+		name = "EVTOPTA_SOA_2990"
+		piety = -1000
+		
+		religion_authority = {
+			modifier = holy_order_expelled
+			years = 20
+		}
+		custom_tooltip = {
+			text = expelling_holy_order_event_tooltip_a
+		}
+		hidden_tooltip = {
+			d_zun_warriors = {
+				holder_scope = {
+					character_event = {
+						id = CM.4012
+					}
+				}
+			}
+			add_character_modifier = {
+				name = expelled_d_zun_warriors
+				duration = -1
+				inherit = yes
+			}
+			clr_character_flag = expel_zun_warriors_check
+		}
+	}
+	option = { # Allow them to stay
+		name = "EVTOPTB_SOA_2990"
+		custom_tooltip = {
+			text = expelling_holy_order_event_tooltip_b
+		}
+		hidden_tooltip = {
+			clr_character_flag = expel_the_knights_templar_check
+			clr_character_flag = expel_the_knights_hospitaler_check
+			clr_character_flag = expel_the_teutonic_order_check
+			clr_character_flag = expel_the_jomsvikings_check
+			clr_character_flag = expel_the_assassins_check
+			clr_character_flag = expel_the_bektashi_check
+			clr_character_flag = expel_the_haruriyyah_check
+			clr_character_flag = expel_the_holy_sepulchre_check
+			clr_character_flag = expel_saint_anthony_check
+			clr_character_flag = expel_immortals_check
+			clr_character_flag = expel_zealots_check
+			clr_character_flag = expel_sky_lords_check
+			clr_character_flag = expel_spirit_guardians_check
+			clr_character_flag = expel_warriors_perun_check
+			clr_character_flag = expel_chosen_perkunas_check
+			clr_character_flag = expel_sons_kaleva_check
+			clr_character_flag = expel_huitzilopochtli_check
+			clr_character_flag = expel_knights_santiago_check
+			clr_character_flag = expel_knights_calatrava_check
+			clr_character_flag = expel_order_of_addai_check
+			clr_character_flag = expel_zun_warriors_check
+		}
+	}
+}

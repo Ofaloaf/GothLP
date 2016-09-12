@@ -1,0 +1,30 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_religion_icon_strip"
+		texturefile = "gfx\\interface\\religion_icon_strip.tga"
+		noOfFrames = 59
+	}
+	spriteType = {
+		name = "GFX_religion_icon_strip_small"
+		texturefile = "gfx\\interface\\religion_icon_strip_small.tga"
+		noOfFrames = 59
+	}
+	spriteType = {
+		name = "GFX_religion_icon_strip_big"
+		texturefile = "gfx\\interface\\religion_icon_strip_big.tga"
+		noOfFrames = 59
+	}
+	spriteType = {
+		name = "GFX_establish_arian_supremacy"
+		texturefile = "gfx\\interface\\decision_icon_establish_arian_supremacy.dds"
+	}
+	spriteType = {
+		name = "GFX_claim_constantinople"
+		texturefile = "gfx\\interface\\decision_icon_claim_constantinople.dds"
+	}
+	spriteType = {
+		name = "GFX_claim_nova_carthago"
+		texturefile = "gfx\\interface\\decision_icon_claim_nova_carthago.dds"
+	}
+}
